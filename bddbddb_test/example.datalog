@@ -1,0 +1,12 @@
+Z 65535
+eq(x : Z, y : Z) printsize
+fun(x : Z, f : Z, y : Z)
+eq(x, y) :- eq(y, x).
+eq(x, z) :- eq(x, y), eq(y, z).
+fun(x, f, z) :- fun(x, f, y), eq(z, y).
+eq(x, y) :- fun(x, f, z), fun(y, f, z).
+fun(9, 2, 1).
+fun(3, 2, 4).
+eq(1, 4).
+q(x : Z, y : Z) printsize
+q(x, y) :- eq(x, y), x = 9, y = 3.
