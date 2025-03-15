@@ -1,6 +1,5 @@
 # Dyck2EUF
-This is the artifact of submission **SMT-based Solving Dyck-Reachability with Applications to Static Analysis**.
-
+This is the artifact for the submission titled **SMT-based Solving of Dyck-Reachability with Applications to Static Analysis**.
 
 # Prerequisites
 + Unix / Linux OS: We have validated the artifact on Ubuntu 22.04 system
@@ -68,7 +67,8 @@ cd /Dyck2EUF/souffle_test/
 ./souffle example.dl
 ```
 **Reproducing the experimental results.**
-First, we need to generate a total of 10 query sequences for each program, with lengths ranging from 1,000 to 10,000 in increments of 1,000. You can choose to regenerate them or use the existing data. To regenerate the query sequences, run the following code (this step takes about 6 minutes to complete on my machine):
+First, we need to generate a total of 10 query sequences for each program, with lengths varying from 1,000 to 10,000 in increments of 1,000. You have the option to regenerate these sequences or use the existing data. To regenerate the query sequences, please run the following code (this step takes approximately 6 minutes to complete on my machine):
+
 
 ```sh
 cd /Dyck2EUF/benchmark/
@@ -89,8 +89,6 @@ python3 check.py
 ```
 
 Run the following command to conduct a statistical analysis of the experimental results. The results from **Section 4.2** are located in **/benchmark/total_result/**, where **AliasAnalysis_result.txt** and **DataDepAnalysis_result.txt** contain the results of alias analysis and data dependence analysis, respectively. The experimental results from **Section 4.3** can be found in the **AliasAnalysis_query** and **DataDepAnalysis_result** folders, saved in **.dat** format (all results represent the average of three runs):
-
-
 
 ```sh
 cd /Dyck2EUF/benchmark/total_result/
