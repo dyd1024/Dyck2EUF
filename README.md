@@ -111,4 +111,4 @@ Run the following command to evaluate the performance of the Datalog tools **Bdd
 cd /Dyck2EUF/benchmark/
 python3 run_datalog_seq.py
 ```
-The run results are in the folder **/benchmark/datalog_result**. The runtime statistics are in **result.txt** (the average of three runs).
+The results of the runs are located in the folder **/benchmark/datalog_result**. The runtime statistics can be found in **result.txt**, which contains the averages from three runs.
