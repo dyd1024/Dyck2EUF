@@ -1,30 +1,30 @@
-Time of graph constructed : 0.007853
-query time :0.000037
-Time of graph constructed : 0.022761
-query time :0.000042
-Time of graph constructed : 0.017679
-query time :0.000042
-Time of graph constructed : 0.018272
+Time of graph constructed : 0.008206
 query time :0.000040
-Time of graph constructed : 0.026839
+Time of graph constructed : 0.023854
+query time :0.000068
+Time of graph constructed : 0.018516
+query time :0.000044
+Time of graph constructed : 0.019193
+query time :0.000056
+Time of graph constructed : 0.027980
+query time :0.000061
+Time of graph constructed : 0.027129
+query time :0.000052
+Time of graph constructed : 0.019459
+query time :0.000071
+Time of graph constructed : 0.048926
+query time :0.000085
+Time of graph constructed : 0.004044
+query time :0.000038
+Time of graph constructed : 0.007334
+query time :0.000046
+Time of graph constructed : 0.004058
+query time :0.000055
+Time of graph constructed : 0.020061
 query time :0.000050
-Time of graph constructed : 0.025338
-query time :0.000041
-Time of graph constructed : 0.016712
-query time :0.000036
-Time of graph constructed : 0.039070
+Time of graph constructed : 0.024335
+query time :0.000052
+Time of graph constructed : 0.016595
 query time :0.000051
-Time of graph constructed : 0.003744
-query time :0.000027
-Time of graph constructed : 0.007057
-query time :0.000029
-Time of graph constructed : 0.003824
-query time :0.000026
-Time of graph constructed : 0.019426
-query time :0.000036
-Time of graph constructed : 0.023527
-query time :0.000058
-Time of graph constructed : 0.016145
-query time :0.000039
-Time of graph constructed : 0.109819
-query time :0.000267
+Time of graph constructed : 0.138712
+query time :0.000602

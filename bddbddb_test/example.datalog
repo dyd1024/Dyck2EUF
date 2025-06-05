@@ -1,4 +1,4 @@
-Z 65535
+Z 50
 eq(x : Z, y : Z) printsize
 fun(x : Z, f : Z, y : Z)
 eq(x, y) :- eq(y, x).

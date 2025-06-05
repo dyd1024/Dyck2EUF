@@ -1,22 +1,22 @@
-Time of graph constructed : 0.149736
-query time :0.001642
-Time of graph constructed : 0.166643
-query time :0.001676
-Time of graph constructed : 0.325465
-query time :0.003393
-Time of graph constructed : 0.154209
-query time :0.001926
-Time of graph constructed : 0.285946
-query time :0.002896
-Time of graph constructed : 0.144408
-query time :0.001715
-Time of graph constructed : 0.175492
-query time :0.001881
-Time of graph constructed : 0.146036
-query time :0.001536
-Time of graph constructed : 0.150256
-query time :0.001906
-Time of graph constructed : 0.157441
-query time :0.001531
-Time of graph constructed : 0.141079
-query time :0.001786
+Time of graph constructed : 0.191205
+query time :0.004343
+Time of graph constructed : 0.201868
+query time :0.003588
+Time of graph constructed : 0.377343
+query time :0.005091
+Time of graph constructed : 0.178883
+query time :0.004013
+Time of graph constructed : 0.329237
+query time :0.004731
+Time of graph constructed : 0.158979
+query time :0.003566
+Time of graph constructed : 0.205317
+query time :0.003903
+Time of graph constructed : 0.171169
+query time :0.002648
+Time of graph constructed : 0.173414
+query time :0.003574
+Time of graph constructed : 0.184636
+query time :0.003825
+Time of graph constructed : 0.161783
+query time :0.00356

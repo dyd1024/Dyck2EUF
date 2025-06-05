@@ -1,66 +1,58 @@
 import time
-import os
 import subprocess
-import shlex
 
-from duplicity.config import timeout
-
-bdd_alias_time = [0.0]*11
-bdd_dd_time = [0.0]*15
-
-bdd_alias_time_query = [0.0]*11
-bdd_dd_time_query = [0.0]*15
-
-souffle_alias_time = [0.0]*11
-souffle_dd_time = [0.0]*15
-
-souffle_alias_time_query = [0.0]*11
-souffle_dd_time_query = [0.0]*15
+from total_result.get_result import alias_C_num
 
 AliasAnalysis=[
-'antlr',
-'bloat',
-'chart',
-'eclipse',
-'fop',
-'hsqldb',
-'jython',
-'luindex',
-'lusearch',
-'pmd',
-'xalan'
+    'antlr', 'bloat', 'chart', 'eclipse', 'fop', 'hsqldb', 'jython', 'luindex', 'lusearch', 'pmd', 'xalan'
+]
+
+AliasAnalysis_C=[
+    'git', 'libssh2.a', 'tmux', 'vim', 'lighttpd', 'sqlite3', 'strace', 'wrk', 'darknet', 'libxml2.a'
 ]
 
 DataDep = [
-'btree',
-'check',
-'compiler',
-'compress',
-'crypto',
-'derby',
-'helloworld',
-'mpegaudio',
-'mushroom',
-'parser',
-'sample',
-'scimark',
-'startup',
-'sunflow',
-'xml'
+    'btree', 'check', 'compiler', 'compress', 'crypto', 'derby', 'helloworld', 'mpegaudio', 'mushroom', 'parser', 'sample', 'scimark', 'startup', 'sunflow', 'xml'
 ]
 
 analysis_Type = [
     "AliasAnalysis",
+    "AliasAnalysis_C",
     "DataDepAnalysis"
 ]
+
+alias_num = len(AliasAnalysis)
+alias_C_num = len(AliasAnalysis_C)
+data_num = len(DataDep)
+
+bdd_alias_time = [0.0]*alias_num
+bdd_alias_C_time = [0.0]*alias_C_num
+bdd_dd_time = [0.0]*data_num
+
+bdd_alias_time_query = [0.0]*alias_num
+bdd_alias_C_time_query = [0.0]*alias_C_num
+bdd_dd_time_query = [0.0]*data_num
+
+souffle_alias_time = [0.0]*alias_num
+souffle_alias_C_time = [0.0]*alias_C_num
+souffle_dd_time = [0.0]*data_num
+
+souffle_alias_time_query = [0.0]*alias_num
+souffle_alias_C_time_query = [0.0]*alias_C_num
+souffle_dd_time_query = [0.0]*data_num
+
+times = 1
+start_time = time.time()
 
 for analysisType in analysis_Type:
     if analysisType == "AliasAnalysis":
         benchmarks = AliasAnalysis
     elif analysisType == "DataDepAnalysis":
         benchmarks = DataDep
+    elif analysisType == "AliasAnalysis_C":
+        benchmarks = AliasAnalysis_C
     for j in range(2):
-        for num in range(3):
+        for num in range(times):
             bm_num = 0
             for bm in benchmarks:
                 tm1 = False
@@ -74,7 +66,7 @@ for analysisType in analysis_Type:
                 with open(f'./datalog_result/bddbddb/{j*1000}/{bm}.res', 'w') as outfile:
                     try:
                         process = subprocess.Popen(
-                            ['java', '-jar', '../bddbddb_test/bddbddb-full.jar', f'./bdd_{analysisType}/{j * 1000}/{bm}.datalog' ],
+                            ['java', '-jar', '../bddbddb_test/bddbddb-full.jar', f'./Input/bdd_{analysisType}/{j * 1000}/{bm}.datalog' ],
                             stdout=outfile,
                             stderr=subprocess.PIPE)
                         stdout, stderr = process.communicate(timeout=600)
@@ -89,35 +81,29 @@ for analysisType in analysis_Type:
                         print(f"error: {e}")
                 time_end = time.time()
                 print(time_end - time_start)
-                if j == 0 and analysisType == "AliasAnalysis":
+                time_mapping = {
+                    0: {
+                        "AliasAnalysis": bdd_alias_time,
+                        "AliasAnalysis_C": bdd_alias_C_time,
+                        "DataDepAnalysis": bdd_dd_time,
+                    },
+                    1: {
+                        "AliasAnalysis": bdd_alias_time_query,
+                        "AliasAnalysis_C": bdd_alias_C_time_query,
+                        "DataDepAnalysis": bdd_dd_time_query,
+                    }
+                }
+
+                if j in time_mapping and analysisType in time_mapping[j]:
+                    time_var = time_mapping[j][analysisType]
+
                     if tm1 == False:
-                        bdd_alias_time[bm_num] += time_end - time_start
+                        time_var[bm_num] += time_end - time_start
                     else:
-                        bdd_alias_time[bm_num] += 1800
-                    if oom1 == True:
-                        bdd_alias_time[bm_num] = 0
-                if j == 0 and analysisType == "DataDepAnalysis":
-                    if tm1 == False:
-                        bdd_dd_time[bm_num] += time_end - time_start
-                    else:
-                        bdd_dd_time[bm_num] += 1800
-                    if oom1 == True:
-                        bdd_dd_time[bm_num] = 0
-                if j == 1 and analysisType == "AliasAnalysis":
-                    if tm1 == False:
-                        bdd_alias_time_query[bm_num] += time_end - time_start
-                    else:
-                        bdd_alias_time_query[bm_num] += 1800
-                    if oom1 == True:
-                        bdd_alias_time_query[bm_num] = 0
-                if j == 1 and analysisType == "DataDepAnalysis":
-                    if tm1 == False:
-                        bdd_dd_time_query[bm_num] += time_end - time_start
-                    else:
-                        bdd_dd_time_query[bm_num] += 1800
-                    if oom1 == True:
-                        bdd_dd_time_query[bm_num] = 0
-                print("===============================")
+                        time_var[bm_num] += 1800
+
+                    if oom1 == True or time_var[bm_num] == 0.1:
+                        time_var[bm_num] = 0.1
 
                 if j==0:
                     print("souffle-"+bm+f":analysis round {num+1}")
@@ -129,7 +115,7 @@ for analysisType in analysis_Type:
                 command = [
                     "../souffle_test/souffle",
                     "-D", f"./datalog_result/souffle/{j * 1000}/",
-                    f"./dl_{analysisType}/{j * 1000}/{bm}.dl"
+                    f"./Input/dl_{analysisType}/{j * 1000}/{bm}.dl"
                 ]
                 try:
                     process = subprocess.Popen(
@@ -149,107 +135,62 @@ for analysisType in analysis_Type:
                     print(f"error: {e}")
                 time_end = time.time()
                 print(time_end - time_start)
-                if j == 0 and analysisType == "AliasAnalysis":
-                    if tm2 == False:
-                        souffle_alias_time[bm_num] += time_end - time_start
+
+                time_mapping = {
+                    0: {
+                        "AliasAnalysis": souffle_alias_time,
+                        "AliasAnalysis_C": souffle_alias_C_time,
+                        "DataDepAnalysis": souffle_dd_time,
+                    },
+                    1: {
+                        "AliasAnalysis": souffle_alias_time_query,
+                        "AliasAnalysis_C": souffle_alias_C_time_query,
+                        "DataDepAnalysis": souffle_dd_time_query,
+                    }
+                }
+
+                if j in time_mapping and analysisType in time_mapping[j]:
+                    time_var = time_mapping[j][analysisType]
+
+                    if tm2 is False:
+                        time_var[bm_num] += time_end - time_start
                     else:
-                        souffle_alias_time[bm_num] += 1800
-                    if oom2 == True:
-                        souffle_alias_time[bm_num] = 0
-                if j == 0 and analysisType == "DataDepAnalysis":
-                    if tm2 == False:
-                        souffle_dd_time[bm_num] += time_end - time_start
-                    else:
-                        souffle_dd_time[bm_num] += 1800
-                    if oom2 == True:
-                        souffle_dd_time[bm_num] = 0
-                if j == 1 and analysisType == "AliasAnalysis":
-                    if tm2 == False:
-                        souffle_alias_time_query[bm_num] += time_end - time_start
-                    else:
-                        souffle_alias_time_query[bm_num] += 1800
-                    if oom2 == True:
-                        souffle_alias_time_query[bm_num] = 0
-                if j == 1 and analysisType == "DataDepAnalysis":
-                    if tm2 == False:
-                        souffle_dd_time_query[bm_num] += time_end - time_start
-                    else:
-                        souffle_dd_time_query[bm_num] += 1800
-                    if oom2 == True:
-                        souffle_dd_time_query[bm_num] = 0
+                        time_var[bm_num] += 1800
+
+                    if oom2 or time_var[bm_num] == 0.1:
+                        time_var[bm_num] = 0.1
                 print("===============================")
                 bm_num += 1
 
-with open(f'./datalog_result/result.txt','w') as f_out:
-    f_out.write("bddbddb alias analysis time:\n")
-    for item in bdd_alias_time:
-        if item == 0:
-            f_out.write("OOM\n")
-        else:
-            if item < 1800:
-                f_out.write(f"{round(item/3, 4)}\n")
-            else:
+
+with open('./datalog_result/result.txt', 'w') as f_out:
+    output_config = [
+        ("bddbddb alias analysis time:\n", bdd_alias_time),
+        ("bddbddb alias analysis query time:\n", bdd_alias_time_query),
+        ("souffle alias analysis time:\n", souffle_alias_time),
+        ("souffle alias analysis query time:\n", souffle_alias_time_query),
+
+        ("bddbddb alias_C analysis time:\n", bdd_alias_C_time),
+        ("bddbddb alias_C analysis query time:\n", bdd_alias_C_time_query),
+        ("souffle alias_C analysis time:\n", souffle_alias_C_time),
+        ("souffle alias_C analysis query time:\n", souffle_alias_C_time_query),
+
+        ("bdd data dependence analysis time:\n", bdd_dd_time),
+        ("bdd data dependence analysis query time:\n", bdd_dd_time_query),
+        ("souffle data dependence analysis:\n", souffle_dd_time),
+        ("souffle data dependence analysis query time:\n", souffle_dd_time_query),
+    ]
+
+    for title, data_list in output_config:
+        f_out.write(title)
+        for item in data_list:
+            if item == 0.1:
+                f_out.write("OOM\n")
+            elif item >= 1800:
                 f_out.write("TimeOut\n")
-    f_out.write("bddbddb alias analysis query time:\n")
-    for item in bdd_alias_time_query:
-        if item == 0:
-            f_out.write("OOM\n")
-        else:
-            if item < 1800:
-                f_out.write(f"{round(item/3, 4)}\n")
             else:
-                f_out.write("TimeOut\n")
-    f_out.write("souffle alias analysis time:\n")
-    for item in souffle_alias_time:
-        if item == 0:
-            f_out.write("OOM\n")
-        else:
-            if item < 1800:
-                f_out.write(f"{round(item/3, 4)}\n")
-            else:
-                f_out.write("TimeOut\n")
-    f_out.write("souffle alias analysis query time:\n")
-    for item in souffle_alias_time_query:
-        if item == 0:
-            f_out.write("OOM\n")
-        else:
-            if item < 1800:
-                f_out.write(f"{round(item/3, 4)}\n")
-            else:
-                f_out.write("TimeOut\n")
-    f_out.write("bdd data dependence analysis time:\n")
-    for item in bdd_dd_time:
-        if item == 0:
-            f_out.write("OOM\n")
-        else:
-            if item < 1800:
-                f_out.write(f"{round(item/3, 4)}\n")
-            else:
-                f_out.write("TimeOut\n")
-    f_out.write("bdd data dependence analysis query time:\n")
-    for item in bdd_dd_time_query:
-        if item == 0:
-            f_out.write("OOM\n")
-        else:
-            if item < 1800:
-                f_out.write(f"{round(item/3, 4)}\n")
-            else:
-                f_out.write("TimeOut\n")
-    f_out.write("souffle data dependence analysis:\n")
-    for item in souffle_dd_time:
-        if item == 0:
-            f_out.write("OOM\n")
-        else:
-            if item < 1800:
-                f_out.write(f"{round(item/3, 4)}\n")
-            else:
-                f_out.write("TimeOut\n")
-    f_out.write("souffle data dependence analysis query time:\n")
-    for item in souffle_dd_time_query:
-        if item == 0:
-            f_out.write("OOM\n")
-        else:
-            if item < 1800:
-                f_out.write(f"{round(item/3, 4)}\n")
-            else:
-                f_out.write("TimeOut\n")
+                f_out.write(f"{round(item / times, 4)}\n")
+
+end_time = time.time()
+elapsed_time = end_time - start_time
+print(f"Timecost: {elapsed_time:.2f} s")

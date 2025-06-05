@@ -1,9 +1,9 @@
 Initializing BDD library (500000 nodes, cache size 125000, min free 0.2%)
-buddy.dll is in use, linking temporary copy /tmp/buddy5176799656768460970.dll
-Could not load BDD package buddy: /tmp/buddy5176799656768460970.dll: /tmp/buddy5176799656768460970.dll: wrong ELF class: ELFCLASS32 (Possible cause: architecture word width mismatch)
+buddy.dll is in use, linking temporary copy /tmp/buddy1005978088421914780.dll
+Could not load BDD package buddy: /tmp/buddy1005978088421914780.dll: /tmp/buddy1005978088421914780.dll: wrong ELF class: ELFCLASS32 (Possible cause: can't load IA 32 .so on a AMD 64 platform)
 Using BDD library JFactory 1.20
 No machine learning library found, learning disabled.
-Opening Datalog program "./bdd_DataDepAnalysis/0/mushroom.datalog"
+Opening Datalog program "./Input/bdd_DataDepAnalysis/0/mushroom.datalog"
 1 field domains.
 2 relations.
 813 rules.
@@ -14,1635 +14,1634 @@ Stratifying:
 done. (52 ms)
 Solving: 
 Applying inference rule:
-   fun(0,2,1) :- . (1)
+   fun(0,125,1) :- . (1)
 Applying inference rule:
-   fun(3,5,4) :- . (1)
+   fun(2,147,3) :- . (1)
 Applying inference rule:
-   fun(6,8,7) :- . (1)
+   fun(4,67,5) :- . (1)
 Applying inference rule:
-   fun(9,11,10) :- . (1)
+   fun(6,248,7) :- . (1)
 Applying inference rule:
-   fun(12,14,13) :- . (1)
+   fun(8,268,9) :- . (1)
 Applying inference rule:
-   fun(15,17,16) :- . (1)
+   fun(10,46,11) :- . (1)
 Applying inference rule:
-   fun(18,20,19) :- . (1)
+   fun(12,380,13) :- . (1)
 Applying inference rule:
-   fun(21,23,22) :- . (1)
+   fun(14,306,15) :- . (1)
 Applying inference rule:
-   fun(24,26,25) :- . (1)
+   fun(16,347,17) :- . (1)
 Applying inference rule:
-   fun(27,29,28) :- . (1)
+   fun(18,212,19) :- . (1)
 Applying inference rule:
-   fun(30,32,31) :- . (1)
+   fun(20,226,21) :- . (1)
 Applying inference rule:
-   fun(33,35,34) :- . (1)
+   fun(22,271,23) :- . (1)
 Applying inference rule:
-   fun(36,38,37) :- . (1)
+   fun(24,264,25) :- . (1)
 Applying inference rule:
-   fun(39,41,40) :- . (1)
+   fun(26,282,27) :- . (1)
 Applying inference rule:
-   fun(42,44,43) :- . (1)
+   fun(28,172,29) :- . (1)
 Applying inference rule:
-   fun(45,47,46) :- . (1)
+   fun(30,205,31) :- . (1)
 Applying inference rule:
-   fun(48,50,49) :- . (1)
+   fun(32,342,33) :- . (1)
+Applying inference rule:
+   fun(34,174,35) :- . (1)
+Applying inference rule:
+   fun(36,104,37) :- . (1)
+Applying inference rule:
+   fun(38,122,1) :- . (1)
+Applying inference rule:
+   fun(39,266,40) :- . (1)
+Applying inference rule:
+   fun(41,280,42) :- . (1)
+Applying inference rule:
+   fun(43,123,1) :- . (1)
+Applying inference rule:
+   fun(43,131,1) :- . (1)
+Applying inference rule:
+   fun(44,225,45) :- . (1)
+Applying inference rule:
+   fun(46,347,47) :- . (1)
+Applying inference rule:
+   fun(48,153,1) :- . (1)
+Applying inference rule:
+   fun(49,176,50) :- . (1)
+Applying inference rule:
+   fun(51,155,52) :- . (1)
+Applying inference rule:
+   fun(53,281,9) :- . (1)
+Applying inference rule:
+   fun(54,129,3) :- . (1)
+Applying inference rule:
+   fun(55,150,1) :- . (1)
+Applying inference rule:
+   fun(56,291,57) :- . (1)
+Applying inference rule:
+   fun(30,115,1) :- . (1)
+Applying inference rule:
+   fun(58,153,1) :- . (1)
+Applying inference rule:
+   fun(59,208,31) :- . (1)
+Applying inference rule:
+   fun(60,220,61) :- . (1)
+Applying inference rule:
+   fun(62,238,63) :- . (1)
+Applying inference rule:
+   fun(64,247,65) :- . (1)
+Applying inference rule:
+   fun(66,331,67) :- . (1)
+Applying inference rule:
+   fun(68,133,1) :- . (1)
+Applying inference rule:
+   fun(69,43,70) :- . (1)
 Resizing node table from 1009 to 2017
 Applying inference rule:
-   fun(51,53,52) :- . (1)
+   fun(71,111,1) :- . (1)
 Applying inference rule:
-   fun(54,56,55) :- . (1)
+   fun(72,311,73) :- . (1)
 Applying inference rule:
-   fun(57,58,1) :- . (1)
+   fun(74,193,75) :- . (1)
 Applying inference rule:
-   fun(59,61,60) :- . (1)
+   fun(76,244,77) :- . (1)
 Applying inference rule:
-   fun(62,64,63) :- . (1)
+   fun(78,149,1) :- . (1)
 Applying inference rule:
-   fun(65,66,1) :- . (1)
+   fun(79,347,80) :- . (1)
 Applying inference rule:
-   fun(65,67,1) :- . (1)
+   fun(81,22,82) :- . (1)
 Applying inference rule:
-   fun(68,70,69) :- . (1)
+   fun(83,143,3) :- . (1)
 Applying inference rule:
-   fun(71,26,72) :- . (1)
+   fun(84,188,85) :- . (1)
 Applying inference rule:
-   fun(73,74,1) :- . (1)
+   fun(86,331,87) :- . (1)
 Applying inference rule:
-   fun(75,77,76) :- . (1)
+   fun(88,317,89) :- . (1)
 Applying inference rule:
-   fun(78,80,79) :- . (1)
+   fun(90,7,91) :- . (1)
 Applying inference rule:
-   fun(81,82,13) :- . (1)
+   fun(92,349,93) :- . (1)
 Applying inference rule:
-   fun(83,84,4) :- . (1)
+   fun(94,286,95) :- . (1)
 Applying inference rule:
-   fun(85,86,1) :- . (1)
+   fun(0,126,1) :- . (1)
 Applying inference rule:
-   fun(87,89,88) :- . (1)
+   fun(96,59,97) :- . (1)
 Applying inference rule:
-   fun(45,90,1) :- . (1)
+   fun(98,267,99) :- . (1)
 Applying inference rule:
-   fun(91,74,1) :- . (1)
+   fun(100,152,1) :- . (1)
 Applying inference rule:
-   fun(92,93,46) :- . (1)
+   fun(101,213,102) :- . (1)
 Applying inference rule:
-   fun(94,96,95) :- . (1)
+   fun(103,272,9) :- . (1)
 Applying inference rule:
-   fun(97,99,98) :- . (1)
+   fun(104,327,105) :- . (1)
 Applying inference rule:
-   fun(100,102,101) :- . (1)
+   fun(106,185,85) :- . (1)
 Applying inference rule:
-   fun(103,105,104) :- . (1)
+   fun(107,379,108) :- . (1)
 Applying inference rule:
-   fun(106,107,1) :- . (1)
+   fun(109,312,110) :- . (1)
 Applying inference rule:
-   fun(105,109,108) :- . (1)
+   fun(111,9,112) :- . (1)
 Applying inference rule:
-   fun(110,111,1) :- . (1)
+   fun(113,134,1) :- . (1)
 Applying inference rule:
-   fun(112,114,113) :- . (1)
+   fun(114,289,115) :- . (1)
 Applying inference rule:
-   fun(115,117,116) :- . (1)
+   fun(116,210,19) :- . (1)
 Applying inference rule:
-   fun(118,120,119) :- . (1)
+   fun(117,377,118) :- . (1)
 Applying inference rule:
-   fun(121,122,1) :- . (1)
+   fun(119,316,120) :- . (1)
 Applying inference rule:
-   fun(123,26,124) :- . (1)
+   fun(121,374,117) :- . (1)
 Applying inference rule:
-   fun(125,127,126) :- . (1)
+   fun(122,148,3) :- . (1)
 Applying inference rule:
-   fun(128,129,4) :- . (1)
+   fun(123,174,124) :- . (1)
 Applying inference rule:
-   fun(130,132,131) :- . (1)
+   fun(125,336,126) :- . (1)
 Applying inference rule:
-   fun(133,105,134) :- . (1)
+   fun(127,277,128) :- . (1)
 Applying inference rule:
-   fun(135,137,136) :- . (1)
+   fun(129,207,19) :- . (1)
+Applying inference rule:
+   fun(130,359,131) :- . (1)
+Applying inference rule:
+   fun(132,10,133) :- . (1)
+Applying inference rule:
+   fun(134,211,31) :- . (1)
+Applying inference rule:
+   fun(135,247,136) :- . (1)
+Applying inference rule:
+   fun(137,330,138) :- . (1)
+Applying inference rule:
+   fun(139,58,140) :- . (1)
+Applying inference rule:
+   fun(141,252,142) :- . (1)
+Applying inference rule:
+   fun(143,57,144) :- . (1)
+Applying inference rule:
+   fun(145,122,3) :- . (1)
+Applying inference rule:
+   fun(146,326,147) :- . (1)
+Applying inference rule:
+   fun(148,279,9) :- . (1)
+Applying inference rule:
+   fun(149,89,150) :- . (1)
+Applying inference rule:
+   fun(151,104,152) :- . (1)
+Applying inference rule:
+   fun(153,83,154) :- . (1)
+Applying inference rule:
+   fun(155,358,156) :- . (1)
+Applying inference rule:
+   fun(157,121,3) :- . (1)
+Applying inference rule:
+   fun(158,39,159) :- . (1)
+Applying inference rule:
+   fun(160,245,161) :- . (1)
+Applying inference rule:
+   fun(162,161,15) :- . (1)
+Applying inference rule:
+   fun(163,99,35) :- . (1)
+Applying inference rule:
+   fun(164,186,85) :- . (1)
+Applying inference rule:
+   fun(165,162,166) :- . (1)
 Resizing node table from 2017 to 4027
 Applying inference rule:
-   fun(138,140,139) :- . (1)
+   fun(167,71,168) :- . (1)
 Applying inference rule:
-   fun(141,143,142) :- . (1)
+   fun(169,246,170) :- . (1)
 Applying inference rule:
-   fun(144,146,145) :- . (1)
+   fun(171,34,172) :- . (1)
 Applying inference rule:
-   fun(0,147,1) :- . (1)
+   fun(173,237,174) :- . (1)
 Applying inference rule:
-   fun(148,150,149) :- . (1)
+   fun(175,284,176) :- . (1)
 Applying inference rule:
-   fun(151,153,152) :- . (1)
+   fun(177,107,178) :- . (1)
 Applying inference rule:
-   fun(154,155,1) :- . (1)
+   fun(179,285,120) :- . (1)
 Applying inference rule:
-   fun(156,158,157) :- . (1)
+   fun(180,58,181) :- . (1)
 Applying inference rule:
-   fun(159,160,13) :- . (1)
+   fun(182,105,183) :- . (1)
 Applying inference rule:
-   fun(161,163,162) :- . (1)
+   fun(59,137,1) :- . (1)
 Applying inference rule:
-   fun(164,165,131) :- . (1)
+   fun(184,196,85) :- . (1)
 Applying inference rule:
-   fun(166,168,167) :- . (1)
+   fun(185,25,186) :- . (1)
 Applying inference rule:
-   fun(169,171,170) :- . (1)
+   fun(187,109,188) :- . (1)
 Applying inference rule:
-   fun(172,174,173) :- . (1)
+   fun(189,235,64) :- . (1)
 Applying inference rule:
-   fun(175,176,1) :- . (1)
+   fun(190,254,191) :- . (1)
 Applying inference rule:
-   fun(177,179,178) :- . (1)
+   fun(192,80,124) :- . (1)
 Applying inference rule:
-   fun(180,181,28) :- . (1)
+   fun(193,372,194) :- . (1)
 Applying inference rule:
-   fun(182,184,183) :- . (1)
+   fun(195,314,196) :- . (1)
 Applying inference rule:
-   fun(185,187,186) :- . (1)
+   fun(197,346,198) :- . (1)
 Applying inference rule:
-   fun(188,189,182) :- . (1)
+   fun(134,151,1) :- . (1)
 Applying inference rule:
-   fun(190,191,4) :- . (1)
+   fun(199,82,200) :- . (1)
 Applying inference rule:
-   fun(192,53,193) :- . (1)
+   fun(201,221,104) :- . (1)
 Applying inference rule:
-   fun(194,196,195) :- . (1)
+   fun(202,207,31) :- . (1)
 Applying inference rule:
-   fun(197,199,198) :- . (1)
+   fun(203,89,107) :- . (1)
 Applying inference rule:
-   fun(200,201,28) :- . (1)
+   fun(204,186,75) :- . (1)
 Applying inference rule:
-   fun(202,204,203) :- . (1)
+   fun(205,362,206) :- . (1)
 Applying inference rule:
-   fun(205,207,206) :- . (1)
+   fun(207,332,13) :- . (1)
 Applying inference rule:
-   fun(208,209,46) :- . (1)
+   fun(208,156,209) :- . (1)
 Applying inference rule:
-   fun(210,102,211) :- . (1)
+   fun(210,275,23) :- . (1)
 Applying inference rule:
-   fun(212,214,213) :- . (1)
+   fun(211,154,3) :- . (1)
 Applying inference rule:
-   fun(215,217,216) :- . (1)
+   fun(212,189,85) :- . (1)
 Applying inference rule:
-   fun(218,220,219) :- . (1)
+   fun(213,197,75) :- . (1)
 Applying inference rule:
-   fun(221,223,222) :- . (1)
+   fun(214,139,1) :- . (1)
 Applying inference rule:
-   fun(224,58,4) :- . (1)
+   fun(215,135,3) :- . (1)
 Applying inference rule:
-   fun(225,227,226) :- . (1)
+   fun(216,63,217) :- . (1)
 Applying inference rule:
-   fun(228,229,13) :- . (1)
+   fun(218,64,219) :- . (1)
 Applying inference rule:
-   fun(230,232,231) :- . (1)
+   fun(220,291,221) :- . (1)
 Applying inference rule:
-   fun(233,56,234) :- . (1)
+   fun(222,370,13) :- . (1)
 Applying inference rule:
-   fun(235,237,236) :- . (1)
+   fun(223,372,224) :- . (1)
 Applying inference rule:
-   fun(238,240,239) :- . (1)
+   fun(225,148,1) :- . (1)
 Applying inference rule:
-   fun(241,242,4) :- . (1)
+   fun(226,353,198) :- . (1)
 Applying inference rule:
-   fun(179,244,243) :- . (1)
+   fun(227,318,228) :- . (1)
 Applying inference rule:
-   fun(245,247,246) :- . (1)
+   fun(229,177,230) :- . (1)
 Applying inference rule:
-   fun(248,249,22) :- . (1)
+   fun(231,61,232) :- . (1)
 Applying inference rule:
-   fun(250,251,52) :- . (1)
+   fun(233,222,201) :- . (1)
 Applying inference rule:
-   fun(252,253,131) :- . (1)
+   fun(234,199,85) :- . (1)
 Applying inference rule:
-   fun(254,256,255) :- . (1)
+   fun(45,233,186) :- . (1)
 Applying inference rule:
-   fun(257,259,258) :- . (1)
+   fun(235,269,9) :- . (1)
 Applying inference rule:
-   fun(260,262,261) :- . (1)
+   fun(236,278,13) :- . (1)
 Applying inference rule:
-   fun(263,265,264) :- . (1)
+   fun(237,76,52) :- . (1)
 Applying inference rule:
-   fun(266,268,267) :- . (1)
+   fun(238,265,23) :- . (1)
 Applying inference rule:
-   fun(269,271,270) :- . (1)
+   fun(239,46,240) :- . (1)
 Applying inference rule:
-   fun(272,274,273) :- . (1)
+   fun(241,126,3) :- . (1)
 Applying inference rule:
-   fun(275,276,186) :- . (1)
+   fun(242,249,243) :- . (1)
 Applying inference rule:
-   fun(277,217,278) :- . (1)
+   fun(244,336,245) :- . (1)
 Applying inference rule:
-   fun(279,281,280) :- . (1)
+   fun(246,28,158) :- . (1)
 Applying inference rule:
-   fun(92,282,1) :- . (1)
+   fun(247,75,248) :- . (1)
 Applying inference rule:
-   fun(283,284,131) :- . (1)
+   fun(249,140,1) :- . (1)
 Applying inference rule:
-   fun(285,286,56) :- . (1)
+   fun(250,137,1) :- . (1)
 Applying inference rule:
-   fun(287,289,288) :- . (1)
+   fun(251,82,97) :- . (1)
 Applying inference rule:
-   fun(290,291,100) :- . (1)
+   fun(252,314,253) :- . (1)
 Applying inference rule:
-   fun(292,294,293) :- . (1)
+   fun(254,117,3) :- . (1)
 Applying inference rule:
-   fun(295,296,193) :- . (1)
+   fun(255,265,9) :- . (1)
 Applying inference rule:
-   fun(297,299,298) :- . (1)
+   fun(256,65,257) :- . (1)
 Applying inference rule:
-   fun(300,302,301) :- . (1)
+   fun(161,255,77) :- . (1)
+Applying inference rule:
+   fun(258,274,9) :- . (1)
+Applying inference rule:
+   fun(259,235,260) :- . (1)
+Applying inference rule:
+   fun(261,188,75) :- . (1)
+Applying inference rule:
+   fun(262,239,198) :- . (1)
+Applying inference rule:
+   fun(263,187,85) :- . (1)
+Applying inference rule:
+   fun(264,161,28) :- . (1)
+Applying inference rule:
+   fun(265,251,266) :- . (1)
+Applying inference rule:
+   fun(267,52,268) :- . (1)
+Applying inference rule:
+   fun(110,320,269) :- . (1)
+Applying inference rule:
+   fun(270,141,1) :- . (1)
+Applying inference rule:
+   fun(271,97,35) :- . (1)
+Applying inference rule:
+   fun(272,365,169) :- . (1)
+Applying inference rule:
+   fun(273,61,274) :- . (1)
+Applying inference rule:
+   fun(275,344,272) :- . (1)
+Applying inference rule:
+   fun(276,364,277) :- . (1)
+Applying inference rule:
+   fun(278,198,85) :- . (1)
+Applying inference rule:
+   fun(279,84,280) :- . (1)
+Applying inference rule:
+   fun(281,342,282) :- . (1)
+Applying inference rule:
+   fun(11,53,186) :- . (1)
+Applying inference rule:
+   fun(283,38,284) :- . (1)
+Applying inference rule:
+   fun(285,314,196) :- . (1)
+Applying inference rule:
+   fun(286,138,1) :- . (1)
+Applying inference rule:
+   fun(287,230,76) :- . (1)
+Applying inference rule:
+   fun(288,167,102) :- . (1)
+Applying inference rule:
+   fun(289,165,85) :- . (1)
+Applying inference rule:
+   fun(290,182,85) :- . (1)
+Applying inference rule:
+   fun(291,355,215) :- . (1)
+Applying inference rule:
+   fun(292,245,293) :- . (1)
+Applying inference rule:
+   fun(294,176,138) :- . (1)
+Applying inference rule:
+   fun(226,192,75) :- . (1)
+Applying inference rule:
+   fun(295,239,93) :- . (1)
+Applying inference rule:
+   fun(296,142,3) :- . (1)
+Applying inference rule:
+   fun(297,160,186) :- . (1)
+Applying inference rule:
+   fun(298,176,87) :- . (1)
+Applying inference rule:
+   fun(299,74,248) :- . (1)
+Applying inference rule:
+   fun(300,22,301) :- . (1)
+Applying inference rule:
+   fun(302,254,303) :- . (1)
+Applying inference rule:
+   fun(304,134,3) :- . (1)
+Applying inference rule:
+   fun(305,340,245) :- . (1)
+Applying inference rule:
+   fun(35,95,51) :- . (1)
+Applying inference rule:
+   fun(306,309,307) :- . (1)
+Applying inference rule:
+   fun(308,167,19) :- . (1)
+Applying inference rule:
+   fun(309,165,75) :- . (1)
+Applying inference rule:
+   fun(310,339,245) :- . (1)
+Applying inference rule:
+   fun(311,143,1) :- . (1)
+Applying inference rule:
+   fun(312,9,313) :- . (1)
+Applying inference rule:
+   fun(41,116,3) :- . (1)
+Applying inference rule:
+   fun(136,258,314) :- . (1)
+Applying inference rule:
+   fun(315,108,316) :- . (1)
+Applying inference rule:
+   fun(317,147,1) :- . (1)
+Applying inference rule:
+   fun(318,310,319) :- . (1)
+Applying inference rule:
+   fun(320,249,63) :- . (1)
+Applying inference rule:
+   fun(184,209,102) :- . (1)
+Applying inference rule:
+   fun(157,333,321) :- . (1)
+Applying inference rule:
+   fun(32,341,322) :- . (1)
+Applying inference rule:
+   fun(323,378,324) :- . (1)
+Applying inference rule:
+   fun(325,342,326) :- . (1)
+Applying inference rule:
+   fun(300,29,172) :- . (1)
+Applying inference rule:
+   fun(327,110,328) :- . (1)
+Applying inference rule:
+   fun(329,251,330) :- . (1)
+Applying inference rule:
+   fun(331,294,120) :- . (1)
+Applying inference rule:
+   fun(105,356,332) :- . (1)
+Applying inference rule:
+   fun(333,243,191) :- . (1)
+Applying inference rule:
+   fun(334,214,102) :- . (1)
+Applying inference rule:
+   fun(335,309,336) :- . (1)
+Applying inference rule:
+   fun(337,206,31) :- . (1)
+Applying inference rule:
+   fun(338,47,339) :- . (1)
+Applying inference rule:
+   fun(340,322,341) :- . (1)
+Applying inference rule:
+   fun(342,322,343) :- . (1)
+Applying inference rule:
+   fun(344,150,1) :- . (1)
+Applying inference rule:
+   fun(345,237,6) :- . (1)
+Applying inference rule:
+   fun(156,143,1) :- . (1)
+Applying inference rule:
+   fun(346,8,313) :- . (1)
+Applying inference rule:
+   fun(347,151,1) :- . (1)
+Applying inference rule:
+   fun(128,290,348) :- . (1)
+Applying inference rule:
+   fun(52,68,319) :- . (1)
+Applying inference rule:
+   fun(349,221,350) :- . (1)
+Applying inference rule:
+   fun(351,245,352) :- . (1)
+Applying inference rule:
+   fun(353,208,102) :- . (1)
+Applying inference rule:
+   fun(354,138,3) :- . (1)
+Applying inference rule:
+   fun(355,50,356) :- . (1)
+Applying inference rule:
+   fun(278,211,102) :- . (1)
+Applying inference rule:
+   fun(357,212,31) :- . (1)
+Applying inference rule:
+   fun(358,319,301) :- . (1)
+Applying inference rule:
+   fun(324,68,359) :- . (1)
+Applying inference rule:
+   fun(201,221,360) :- . (1)
+Applying inference rule:
+   fun(361,330,50) :- . (1)
+Applying inference rule:
+   fun(362,166,13) :- . (1)
+Applying inference rule:
+   fun(363,355,161) :- . (1)
+Applying inference rule:
+   fun(364,59,365) :- . (1)
+Applying inference rule:
+   fun(68,206,102) :- . (1)
 Resizing node table from 4027 to 8053
 Applying inference rule:
-   fun(303,305,304) :- . (1)
+   fun(366,81,367) :- . (1)
 Applying inference rule:
-   fun(208,306,1) :- . (1)
+   fun(368,119,3) :- . (1)
 Applying inference rule:
-   fun(307,309,308) :- . (1)
+   fun(369,28,370) :- . (1)
 Applying inference rule:
-   fun(310,311,161) :- . (1)
+   fun(371,223,348) :- . (1)
 Applying inference rule:
-   fun(312,201,46) :- . (1)
+   fun(50,216,372) :- . (1)
 Applying inference rule:
-   fun(313,232,166) :- . (1)
+   fun(373,124,3) :- . (1)
 Applying inference rule:
-   fun(314,253,116) :- . (1)
+   fun(374,283,375) :- . (1)
 Applying inference rule:
-   fun(315,317,316) :- . (1)
+   fun(376,30,172) :- . (1)
 Applying inference rule:
-   fun(318,319,19) :- . (1)
+   fun(249,192,85) :- . (1)
 Applying inference rule:
-   fun(320,322,321) :- . (1)
+   fun(377,267,378) :- . (1)
 Applying inference rule:
-   fun(323,324,34) :- . (1)
+   fun(379,78,124) :- . (1)
 Applying inference rule:
-   fun(325,326,4) :- . (1)
+   fun(380,299,318) :- . (1)
 Applying inference rule:
-   fun(327,328,131) :- . (1)
+   fun(381,150,3) :- . (1)
 Applying inference rule:
-   fun(329,330,116) :- . (1)
+   fun(382,94,85) :- . (1)
 Applying inference rule:
-   fun(331,206,1) :- . (1)
+   fun(383,82,97) :- . (1)
 Applying inference rule:
-   fun(332,173,4) :- . (1)
+   fun(384,115,3) :- . (1)
 Applying inference rule:
-   fun(333,335,334) :- . (1)
+   fun(385,105,269) :- . (1)
 Applying inference rule:
-   fun(336,338,337) :- . (1)
+   fun(386,210,102) :- . (1)
 Applying inference rule:
-   fun(339,89,340) :- . (1)
+   fun(387,302,388) :- . (1)
 Applying inference rule:
-   fun(341,342,19) :- . (1)
+   fun(389,112,1) :- . (1)
 Applying inference rule:
-   fun(343,299,344) :- . (1)
+   fun(390,138,1) :- . (1)
 Applying inference rule:
-   fun(345,191,1) :- . (1)
+   fun(391,321,392) :- . (1)
 Applying inference rule:
-   fun(346,15,304) :- . (1)
+   fun(393,144,1) :- . (1)
 Applying inference rule:
-   fun(347,349,348) :- . (1)
+   fun(394,276,23) :- . (1)
 Applying inference rule:
-   fun(350,352,351) :- . (1)
+   fun(395,97,124) :- . (1)
 Applying inference rule:
-   fun(353,355,354) :- . (1)
+   fun(396,245,397) :- . (1)
 Applying inference rule:
-   fun(356,357,310) :- . (1)
+   fun(398,23,399) :- . (1)
 Applying inference rule:
-   fun(358,359,131) :- . (1)
+   fun(400,96,186) :- . (1)
 Applying inference rule:
-   fun(69,360,56) :- . (1)
+   fun(401,240,402) :- . (1)
 Applying inference rule:
-   fun(361,362,13) :- . (1)
+   fun(403,128,3) :- . (1)
 Applying inference rule:
-   fun(363,364,19) :- . (1)
+   fun(404,127,1) :- . (1)
 Applying inference rule:
-   fun(365,366,79) :- . (1)
+   fun(204,187,75) :- . (1)
 Applying inference rule:
-   fun(367,368,34) :- . (1)
+   fun(405,328,13) :- . (1)
 Applying inference rule:
-   fun(369,17,370) :- . (1)
+   fun(406,55,248) :- . (1)
 Applying inference rule:
-   fun(371,147,4) :- . (1)
+   fun(407,181,400) :- . (1)
 Applying inference rule:
-   fun(372,264,373) :- . (1)
+   fun(408,55,409) :- . (1)
 Applying inference rule:
-   fun(374,196,375) :- . (1)
+   fun(410,329,411) :- . (1)
 Applying inference rule:
-   fun(376,377,179) :- . (1)
+   fun(412,65,413) :- . (1)
 Applying inference rule:
-   fun(378,380,379) :- . (1)
+   fun(414,281,9) :- . (1)
 Applying inference rule:
-   fun(381,382,1) :- . (1)
+   fun(415,158,178) :- . (1)
 Applying inference rule:
-   fun(383,282,1) :- . (1)
+   fun(124,93,126) :- . (1)
 Applying inference rule:
-   fun(384,309,149) :- . (1)
+   fun(416,374,417) :- . (1)
 Applying inference rule:
-   fun(385,302,386) :- . (1)
+   fun(418,67,256) :- . (1)
 Applying inference rule:
-   fun(387,205,4) :- . (1)
+   fun(348,231,169) :- . (1)
 Applying inference rule:
-   fun(388,368,13) :- . (1)
+   fun(419,198,75) :- . (1)
 Applying inference rule:
-   fun(389,391,390) :- . (1)
+   fun(263,130,1) :- . (1)
 Applying inference rule:
-   fun(246,392,119) :- . (1)
+   fun(420,58,144) :- . (1)
 Applying inference rule:
-   fun(393,394,13) :- . (1)
+   fun(421,195,75) :- . (1)
 Applying inference rule:
-   fun(395,291,396) :- . (1)
+   fun(422,331,138) :- . (1)
 Applying inference rule:
-   fun(397,132,116) :- . (1)
+   fun(423,84,424) :- . (1)
 Applying inference rule:
-   fun(398,376,304) :- . (1)
+   fun(53,116,1) :- . (1)
 Applying inference rule:
-   fun(399,400,131) :- . (1)
+   fun(146,86,425) :- . (1)
 Applying inference rule:
-   fun(401,249,42) :- . (1)
+   fun(426,282,427) :- . (1)
 Applying inference rule:
-   fun(402,404,403) :- . (1)
+   fun(428,207,102) :- . (1)
 Applying inference rule:
-   fun(405,407,406) :- . (1)
+   fun(37,156,429) :- . (1)
 Applying inference rule:
-   fun(170,409,408) :- . (1)
+   fun(430,146,1) :- . (1)
 Applying inference rule:
-   fun(410,411,1) :- . (1)
+   fun(431,175,124) :- . (1)
 Applying inference rule:
-   fun(412,413,52) :- . (1)
+   fun(432,91,13) :- . (1)
 Applying inference rule:
-   fun(414,415,260) :- . (1)
+   fun(23,289,433) :- . (1)
 Applying inference rule:
-   fun(416,355,417) :- . (1)
+   fun(434,293,435) :- . (1)
 Applying inference rule:
-   fun(418,419,414) :- . (1)
+   fun(436,238,243) :- . (1)
 Applying inference rule:
-   fun(420,422,421) :- . (1)
+   fun(437,120,3) :- . (1)
 Applying inference rule:
-   fun(423,424,131) :- . (1)
+   fun(438,140,3) :- . (1)
 Applying inference rule:
-   fun(425,427,426) :- . (1)
+   fun(439,264,440) :- . (1)
 Applying inference rule:
-   fun(428,50,429) :- . (1)
+   fun(441,379,442) :- . (1)
 Applying inference rule:
-   fun(16,430,56) :- . (1)
+   fun(443,358,83) :- . (1)
 Applying inference rule:
-   fun(431,138,227) :- . (1)
+   fun(444,209,19) :- . (1)
 Applying inference rule:
-   fun(432,302,301) :- . (1)
+   fun(445,364,446) :- . (1)
 Applying inference rule:
-   fun(433,434,1) :- . (1)
+   fun(447,162,298) :- . (1)
 Applying inference rule:
-   fun(435,436,118) :- . (1)
+   fun(448,196,75) :- . (1)
 Applying inference rule:
-   fun(437,438,157) :- . (1)
+   fun(449,315,294) :- . (1)
 Applying inference rule:
-   fun(439,440,131) :- . (1)
+   fun(357,152,1) :- . (1)
 Applying inference rule:
-   fun(441,442,131) :- . (1)
+   fun(450,261,26) :- . (1)
 Applying inference rule:
-   fun(443,444,332) :- . (1)
+   fun(451,219,452) :- . (1)
 Applying inference rule:
-   fun(445,247,446) :- . (1)
+   fun(453,368,13) :- . (1)
 Applying inference rule:
-   fun(447,77,213) :- . (1)
+   fun(454,334,455) :- . (1)
 Applying inference rule:
-   fun(346,448,116) :- . (1)
+   fun(456,252,457) :- . (1)
 Applying inference rule:
-   fun(449,376,142) :- . (1)
+   fun(458,330,67) :- . (1)
 Applying inference rule:
-   fun(450,451,4) :- . (1)
+   fun(459,279,9) :- . (1)
 Applying inference rule:
-   fun(452,453,56) :- . (1)
+   fun(460,128,1) :- . (1)
 Applying inference rule:
-   fun(454,77,134) :- . (1)
+   fun(461,149,3) :- . (1)
 Applying inference rule:
-   fun(455,456,379) :- . (1)
+   fun(462,363,282) :- . (1)
 Applying inference rule:
-   fun(457,127,458) :- . (1)
+   fun(463,362,464) :- . (1)
 Applying inference rule:
-   fun(459,294,460) :- . (1)
+   fun(465,122,1) :- . (1)
 Applying inference rule:
-   fun(461,176,4) :- . (1)
+   fun(293,355,293) :- . (1)
 Applying inference rule:
-   fun(462,463,375) :- . (1)
+   fun(466,314,196) :- . (1)
 Applying inference rule:
-   fun(52,464,78) :- . (1)
+   fun(467,82,365) :- . (1)
 Applying inference rule:
-   fun(465,467,466) :- . (1)
+   fun(468,279,23) :- . (1)
 Applying inference rule:
-   fun(468,438,28) :- . (1)
+   fun(469,18,356) :- . (1)
 Applying inference rule:
-   fun(469,440,116) :- . (1)
+   fun(470,306,28) :- . (1)
 Applying inference rule:
-   fun(470,471,375) :- . (1)
+   fun(471,117,1) :- . (1)
 Applying inference rule:
-   fun(472,129,1) :- . (1)
+   fun(472,145,3) :- . (1)
 Applying inference rule:
-   fun(407,174,176) :- . (1)
+   fun(473,113,1) :- . (1)
 Applying inference rule:
-   fun(62,473,4) :- . (1)
+   fun(474,274,9) :- . (1)
 Applying inference rule:
-   fun(211,475,474) :- . (1)
+   fun(475,269,9) :- . (1)
 Applying inference rule:
-   fun(476,478,477) :- . (1)
+   fun(476,33,172) :- . (1)
 Applying inference rule:
-   fun(479,5,1) :- . (1)
+   fun(477,270,23) :- . (1)
 Applying inference rule:
-   fun(480,482,481) :- . (1)
+   fun(478,26,479) :- . (1)
 Applying inference rule:
-   fun(483,264,98) :- . (1)
+   fun(480,114,1) :- . (1)
 Applying inference rule:
-   fun(283,484,157) :- . (1)
+   fun(479,37,186) :- . (1)
 Applying inference rule:
-   fun(241,486,485) :- . (1)
+   fun(481,329,482) :- . (1)
 Applying inference rule:
-   fun(48,488,487) :- . (1)
+   fun(483,361,28) :- . (1)
 Applying inference rule:
-   fun(489,491,490) :- . (1)
+   fun(484,372,485) :- . (1)
 Applying inference rule:
-   fun(492,50,493) :- . (1)
+   fun(486,363,487) :- . (1)
 Applying inference rule:
-   fun(457,494,264) :- . (1)
+   fun(488,121,1) :- . (1)
 Applying inference rule:
-   fun(495,497,496) :- . (1)
+   fun(336,317,489) :- . (1)
 Applying inference rule:
-   fun(498,404,499) :- . (1)
+   fun(356,27,186) :- . (1)
 Applying inference rule:
-   fun(500,501,186) :- . (1)
+   fun(490,228,186) :- . (1)
 Applying inference rule:
-   fun(162,503,502) :- . (1)
+   fun(254,183,75) :- . (1)
 Applying inference rule:
-   fun(504,505,293) :- . (1)
+   fun(491,364,492) :- . (1)
 Applying inference rule:
-   fun(506,507,157) :- . (1)
+   fun(493,326,494) :- . (1)
 Applying inference rule:
-   fun(508,467,509) :- . (1)
+   fun(353,191,85) :- . (1)
 Applying inference rule:
-   fun(510,125,46) :- . (1)
+   fun(495,73,203) :- . (1)
 Applying inference rule:
-   fun(503,512,511) :- . (1)
+   fun(496,125,3) :- . (1)
 Applying inference rule:
-   fun(513,515,514) :- . (1)
+   fun(497,352,13) :- . (1)
 Applying inference rule:
-   fun(516,515,517) :- . (1)
+   fun(498,366,499) :- . (1)
 Applying inference rule:
-   fun(518,86,1) :- . (1)
+   fun(500,136,1) :- . (1)
 Applying inference rule:
-   fun(519,268,9) :- . (1)
+   fun(501,288,502) :- . (1)
 Applying inference rule:
-   fun(239,129,1) :- . (1)
+   fun(503,330,504) :- . (1)
 Applying inference rule:
-   fun(512,520,176) :- . (1)
+   fun(505,169,506) :- . (1)
 Applying inference rule:
-   fun(521,306,1) :- . (1)
+   fun(507,180,508) :- . (1)
 Applying inference rule:
-   fun(198,523,522) :- . (1)
+   fun(509,296,335) :- . (1)
 Applying inference rule:
-   fun(79,524,481) :- . (1)
+   fun(437,327,510) :- . (1)
 Applying inference rule:
-   fun(525,311,526) :- . (1)
+   fun(511,43,355) :- . (1)
 Applying inference rule:
-   fun(527,247,528) :- . (1)
+   fun(493,326,512) :- . (1)
 Applying inference rule:
-   fun(529,93,157) :- . (1)
+   fun(513,308,514) :- . (1)
 Applying inference rule:
-   fun(530,434,4) :- . (1)
+   fun(515,297,516) :- . (1)
 Applying inference rule:
-   fun(531,532,360) :- . (1)
+   fun(517,373,13) :- . (1)
 Applying inference rule:
-   fun(423,209,157) :- . (1)
+   fun(518,42,228) :- . (1)
 Applying inference rule:
-   fun(533,29,46) :- . (1)
+   fun(519,371,13) :- . (1)
 Applying inference rule:
-   fun(534,535,458) :- . (1)
+   fun(520,281,23) :- . (1)
 Applying inference rule:
-   fun(490,524,536) :- . (1)
+   fun(250,136,1) :- . (1)
 Applying inference rule:
-   fun(310,311,537) :- . (1)
+   fun(31,114,1) :- . (1)
 Applying inference rule:
-   fun(538,214,76) :- . (1)
+   fun(521,359,522) :- . (1)
 Applying inference rule:
-   fun(539,540,19) :- . (1)
+   fun(523,206,19) :- . (1)
 Applying inference rule:
-   fun(541,444,246) :- . (1)
+   fun(524,90,525) :- . (1)
 Applying inference rule:
-   fun(542,150,543) :- . (1)
+   fun(78,209,31) :- . (1)
 Applying inference rule:
-   fun(106,125,157) :- . (1)
+   fun(232,83,526) :- . (1)
 Applying inference rule:
-   fun(544,546,545) :- . (1)
+   fun(337,132,1) :- . (1)
 Applying inference rule:
-   fun(547,548,4) :- . (1)
+   fun(527,56,237) :- . (1)
 Applying inference rule:
-   fun(549,377,523) :- . (1)
+   fun(528,54,228) :- . (1)
 Applying inference rule:
-   fun(550,551,522) :- . (1)
+   fun(101,200,85) :- . (1)
 Applying inference rule:
-   fun(76,553,552) :- . (1)
+   fun(529,154,1) :- . (1)
 Applying inference rule:
-   fun(554,555,4) :- . (1)
+   fun(530,81,531) :- . (1)
 Applying inference rule:
-   fun(556,558,557) :- . (1)
+   fun(532,66,256) :- . (1)
 Applying inference rule:
-   fun(559,560,264) :- . (1)
+   fun(533,93,245) :- . (1)
 Applying inference rule:
-   fun(381,448,131) :- . (1)
+   fun(534,280,535) :- . (1)
 Applying inference rule:
-   fun(561,153,562) :- . (1)
+   fun(73,310,359) :- . (1)
 Applying inference rule:
-   fun(563,564,193) :- . (1)
+   fun(536,164,13) :- . (1)
 Applying inference rule:
-   fun(565,566,480) :- . (1)
+   fun(537,88,315) :- . (1)
 Applying inference rule:
-   fun(567,86,4) :- . (1)
+   fun(273,64,538) :- . (1)
 Applying inference rule:
-   fun(568,569,131) :- . (1)
+   fun(360,334,539) :- . (1)
 Applying inference rule:
-   fun(570,309,149) :- . (1)
+   fun(540,90,203) :- . (1)
 Applying inference rule:
-   fun(571,90,4) :- . (1)
+   fun(503,330,87) :- . (1)
 Applying inference rule:
-   fun(572,281,408) :- . (1)
+   fun(541,252,542) :- . (1)
 Applying inference rule:
-   fun(573,181,157) :- . (1)
+   fun(146,326,543) :- . (1)
 Applying inference rule:
-   fun(574,576,575) :- . (1)
+   fun(544,59,200) :- . (1)
 Applying inference rule:
-   fun(577,578,1) :- . (1)
+   fun(545,133,3) :- . (1)
 Applying inference rule:
-   fun(579,434,1) :- . (1)
+   fun(546,125,1) :- . (1)
 Applying inference rule:
-   fun(580,582,581) :- . (1)
+   fun(547,179,508) :- . (1)
 Applying inference rule:
-   fun(583,584,1) :- . (1)
+   fun(548,377,323) :- . (1)
 Applying inference rule:
-   fun(585,586,34) :- . (1)
+   fun(549,268,23) :- . (1)
 Applying inference rule:
-   fun(587,413,193) :- . (1)
+   fun(404,336,245) :- . (1)
 Applying inference rule:
-   fun(588,247,589) :- . (1)
+   fun(550,171,186) :- . (1)
 Applying inference rule:
-   fun(590,591,201) :- . (1)
+   fun(138,216,551) :- . (1)
 Applying inference rule:
-   fun(592,593,56) :- . (1)
+   fun(552,52,167) :- . (1)
+Applying inference rule:
+   fun(553,274,23) :- . (1)
+Applying inference rule:
+   fun(554,354,13) :- . (1)
+Applying inference rule:
+   fun(555,144,3) :- . (1)
+Applying inference rule:
+   fun(61,229,556) :- . (1)
+Applying inference rule:
+   fun(557,220,287) :- . (1)
+Applying inference rule:
+   fun(558,298,502) :- . (1)
+Applying inference rule:
+   fun(559,218,44) :- . (1)
+Applying inference rule:
+   fun(560,213,19) :- . (1)
+Applying inference rule:
+   fun(216,64,251) :- . (1)
+Applying inference rule:
+   fun(561,329,482) :- . (1)
+Applying inference rule:
+   fun(109,102,562) :- . (1)
+Applying inference rule:
+   fun(563,202,319) :- . (1)
+Applying inference rule:
+   fun(564,17,185) :- . (1)
+Applying inference rule:
+   fun(565,256,186) :- . (1)
+Applying inference rule:
+   fun(566,81,400) :- . (1)
+Applying inference rule:
+   fun(314,85,425) :- . (1)
+Applying inference rule:
+   fun(567,287,516) :- . (1)
+Applying inference rule:
+   fun(568,163,499) :- . (1)
+Applying inference rule:
+   fun(569,142,1) :- . (1)
+Applying inference rule:
+   fun(570,315,166) :- . (1)
+Applying inference rule:
+   fun(571,142,1) :- . (1)
+Applying inference rule:
+   fun(572,367,13) :- . (1)
+Applying inference rule:
+   fun(573,340,245) :- . (1)
+Applying inference rule:
+   fun(574,146,1) :- . (1)
+Applying inference rule:
+   fun(310,140,1) :- . (1)
+Applying inference rule:
+   fun(575,222,576) :- . (1)
+Applying inference rule:
+   fun(577,363,33) :- . (1)
+Applying inference rule:
+   fun(578,72,579) :- . (1)
+Applying inference rule:
+   fun(580,191,75) :- . (1)
+Applying inference rule:
+   fun(581,272,23) :- . (1)
+Applying inference rule:
+   fun(582,15,186) :- . (1)
+Applying inference rule:
+   fun(166,176,504) :- . (1)
+Applying inference rule:
+   fun(401,245,583) :- . (1)
+Applying inference rule:
+   fun(584,299,73) :- . (1)
+Applying inference rule:
+   fun(585,269,23) :- . (1)
+Applying inference rule:
+   fun(493,326,586) :- . (1)
+Applying inference rule:
+   fun(587,345,13) :- . (1)
+Applying inference rule:
+   fun(588,52,589) :- . (1)
+Applying inference rule:
+   fun(590,51,591) :- . (1)
+Applying inference rule:
+   fun(592,6,593) :- . (1)
+Applying inference rule:
+   fun(594,324,595) :- . (1)
+Applying inference rule:
+   fun(596,145,1) :- . (1)
+Applying inference rule:
+   fun(597,80,35) :- . (1)
+Applying inference rule:
+   fun(598,219,599) :- . (1)
+Applying inference rule:
+   fun(386,197,85) :- . (1)
+Applying inference rule:
+   fun(600,57,140) :- . (1)
+Applying inference rule:
+   fun(601,185,75) :- . (1)
+Applying inference rule:
+   fun(602,74,409) :- . (1)
+Applying inference rule:
+   fun(603,113,1) :- . (1)
+Applying inference rule:
+   fun(533,92,1) :- . (1)
+Applying inference rule:
+   fun(493,326,604) :- . (1)
+Applying inference rule:
+   fun(605,39,69) :- . (1)
+Applying inference rule:
+   fun(164,127,1) :- . (1)
+Applying inference rule:
+   fun(606,119,1) :- . (1)
+Applying inference rule:
+   fun(607,11,608) :- . (1)
+Applying inference rule:
+   fun(609,276,9) :- . (1)
+Applying inference rule:
+   fun(610,271,9) :- . (1)
+Applying inference rule:
+   fun(435,308,611) :- . (1)
+Applying inference rule:
+   fun(428,190,85) :- . (1)
+Applying inference rule:
+   fun(612,107,178) :- . (1)
+Applying inference rule:
+   fun(613,134,1) :- . (1)
+Applying inference rule:
+   fun(120,301,614) :- . (1)
+Applying inference rule:
+   fun(38,121,1) :- . (1)
+Applying inference rule:
+   fun(615,40,338) :- . (1)
+Applying inference rule:
+   fun(280,103,616) :- . (1)
+Applying inference rule:
+   fun(617,98,124) :- . (1)
+Applying inference rule:
+   fun(618,45,552) :- . (1)
+Applying inference rule:
+   fun(619,227,620) :- . (1)
+Applying inference rule:
+   fun(571,193,85) :- . (1)
+Applying inference rule:
+   fun(621,184,75) :- . (1)
+Applying inference rule:
+   fun(622,241,13) :- . (1)
+Applying inference rule:
+   fun(19,204,201) :- . (1)
+Applying inference rule:
+   fun(3,110,623) :- . (1)
+Applying inference rule:
+   fun(86,331,504) :- . (1)
+Applying inference rule:
+   fun(624,28,625) :- . (1)
+Applying inference rule:
+   fun(626,152,3) :- . (1)
+Applying inference rule:
+   fun(627,341,462) :- . (1)
+Applying inference rule:
+   fun(628,78,35) :- . (1)
+Applying inference rule:
+   fun(629,320,183) :- . (1)
+Applying inference rule:
+   fun(630,106,186) :- . (1)
+Applying inference rule:
+   fun(505,170,193) :- . (1)
+Applying inference rule:
+   fun(631,364,632) :- . (1)
+Applying inference rule:
+   fun(633,163,228) :- . (1)
+Applying inference rule:
+   fun(634,92,1) :- . (1)
+Applying inference rule:
+   fun(635,79,124) :- . (1)
+Applying inference rule:
+   fun(286,139,1) :- . (1)
+Applying inference rule:
+   fun(636,350,13) :- . (1)
+Applying inference rule:
+   fun(637,181,638) :- . (1)
+Applying inference rule:
+   fun(289,112,1) :- . (1)
+Applying inference rule:
+   fun(7,260,186) :- . (1)
+Applying inference rule:
+   fun(639,349,198) :- . (1)
+Applying inference rule:
+   fun(640,358,641) :- . (1)
+Applying inference rule:
+   fun(642,364,643) :- . (1)
+Applying inference rule:
+   fun(644,234,135) :- . (1)
+Applying inference rule:
+   fun(611,315,645) :- . (1)
+Applying inference rule:
+   fun(290,205,102) :- . (1)
+Applying inference rule:
+   fun(106,120,1) :- . (1)
+Applying inference rule:
+   fun(646,362,647) :- . (1)
+Applying inference rule:
+   fun(648,253,402) :- . (1)
+Applying inference rule:
+   fun(649,351,93) :- . (1)
+Applying inference rule:
+   fun(650,98,35) :- . (1)
+Applying inference rule:
+   fun(651,338,652) :- . (1)
+Applying inference rule:
+   fun(653,110,328) :- . (1)
+Applying inference rule:
+   fun(654,289,115) :- . (1)
+Applying inference rule:
+   fun(655,113,3) :- . (1)
+Applying inference rule:
+   fun(656,24,479) :- . (1)
+Applying inference rule:
+   fun(657,273,9) :- . (1)
+Applying inference rule:
+   fun(146,326,658) :- . (1)
+Applying inference rule:
+   fun(501,31,172) :- . (1)
+Applying inference rule:
+   fun(659,162,660) :- . (1)
+Applying inference rule:
+   fun(639,190,75) :- . (1)
+Applying inference rule:
+   fun(661,292,375) :- . (1)
+Applying inference rule:
+   fun(662,181,531) :- . (1)
+Applying inference rule:
+   fun(663,304,664) :- . (1)
+Applying inference rule:
+   fun(665,372,666) :- . (1)
+Applying inference rule:
+   fun(667,85,217) :- . (1)
+Applying inference rule:
+   fun(668,5,186) :- . (1)
+Applying inference rule:
+   fun(669,118,1) :- . (1)
+Applying inference rule:
+   fun(670,360,131) :- . (1)
+Applying inference rule:
+   fun(385,101,562) :- . (1)
+Applying inference rule:
+   fun(671,360,522) :- . (1)
+Applying inference rule:
+   fun(672,369,13) :- . (1)
+Applying inference rule:
+   fun(146,326,673) :- . (1)
+Applying inference rule:
+   fun(363,255,674) :- . (1)
+Applying inference rule:
+   fun(459,116,1) :- . (1)
+Applying inference rule:
+   fun(675,146,3) :- . (1)
+Applying inference rule:
+   fun(352,355,352) :- . (1)
+Applying inference rule:
+   fun(159,44,676) :- . (1)
+Applying inference rule:
+   fun(234,212,102) :- . (1)
+Applying inference rule:
+   fun(499,49,324) :- . (1)
+Applying inference rule:
+   fun(677,7,132) :- . (1)
+Applying inference rule:
+   fun(334,201,85) :- . (1)
+Applying inference rule:
+   fun(529,214,31) :- . (1)
+Applying inference rule:
+   fun(678,47,679) :- . (1)
+Applying inference rule:
+   fun(489,323,680) :- . (1)
+Applying inference rule:
+   fun(681,234,260) :- . (1)
+Applying inference rule:
+   fun(625,38,284) :- . (1)
+Applying inference rule:
+   fun(682,178,508) :- . (1)
+Applying inference rule:
+   fun(683,268,9) :- . (1)
+Applying inference rule:
+   fun(684,338,652) :- . (1)
+Applying inference rule:
+   fun(685,259,686) :- . (1)
+Applying inference rule:
+   fun(146,326,687) :- . (1)
+Applying inference rule:
+   fun(146,326,688) :- . (1)
+Applying inference rule:
+   fun(689,271,9) :- . (1)
+Applying inference rule:
+   fun(690,127,3) :- . (1)
+Applying inference rule:
+   fun(691,132,1) :- . (1)
+Applying inference rule:
+   fun(692,346,93) :- . (1)
+Applying inference rule:
+   fun(176,300,693) :- . (1)
+Applying inference rule:
+   fun(694,181,367) :- . (1)
+Applying inference rule:
+   fun(695,323,696) :- . (1)
+Applying inference rule:
+   fun(58,213,31) :- . (1)
+Applying inference rule:
+   fun(697,275,9) :- . (1)
+Applying inference rule:
+   fun(698,270,9) :- . (1)
+Applying inference rule:
+   fun(575,261,426) :- . (1)
+Applying inference rule:
+   fun(699,263,13) :- . (1)
+Applying inference rule:
+   fun(700,130,3) :- . (1)
+Applying inference rule:
+   fun(701,202,359) :- . (1)
+Applying inference rule:
+   fun(702,129,1) :- . (1)
+Applying inference rule:
+   fun(703,48,5) :- . (1)
+Applying inference rule:
+   fun(229,169,506) :- . (1)
+Applying inference rule:
+   fun(704,273,9) :- . (1)
+Applying inference rule:
+   fun(705,348,13) :- . (1)
+Applying inference rule:
+   fun(706,119,1) :- . (1)
+Applying inference rule:
+   fun(707,302,708) :- . (1)
+Applying inference rule:
+   fun(693,308,119) :- . (1)
+Applying inference rule:
+   fun(228,49,52) :- . (1)
+Applying inference rule:
+   fun(709,229,345) :- . (1)
+Applying inference rule:
+   fun(710,315,298) :- . (1)
+Applying inference rule:
+   fun(711,118,3) :- . (1)
+Applying inference rule:
+   fun(712,20,246) :- . (1)
+Applying inference rule:
+   fun(713,115,1) :- . (1)
+Applying inference rule:
+   fun(714,72,237) :- . (1)
+Applying inference rule:
+   fun(715,266,716) :- . (1)
+Applying inference rule:
+   fun(365,81,638) :- . (1)
+Applying inference rule:
+   fun(36,103,717) :- . (1)
+Applying inference rule:
+   fun(718,21,624) :- . (1)
+Applying inference rule:
+   fun(719,302,720) :- . (1)
+Applying inference rule:
+   fun(721,364,722) :- . (1)
+Applying inference rule:
+   fun(723,199,75) :- . (1)
+Applying inference rule:
+   fun(414,183,85) :- . (1)
+Applying inference rule:
+   fun(724,139,3) :- . (1)
+Applying inference rule:
+   fun(606,120,1) :- . (1)
+Applying inference rule:
+   fun(349,221,725) :- . (1)
+Applying inference rule:
+   fun(726,247,727) :- . (1)
+Applying inference rule:
+   fun(728,280,729) :- . (1)
+Applying inference rule:
+   fun(730,19,356) :- . (1)
+Applying inference rule:
+   fun(596,194,85) :- . (1)
+Applying inference rule:
+   fun(731,145,1) :- . (1)
+Applying inference rule:
+   fun(502,305,664) :- . (1)
+Applying inference rule:
+   fun(317,195,85) :- . (1)
+Applying inference rule:
+   fun(160,244,674) :- . (1)
+Applying inference rule:
+   fun(732,357,733) :- . (1)
+Applying inference rule:
+   fun(212,133,1) :- . (1)
+Applying inference rule:
+   fun(734,151,3) :- . (1)
+Applying inference rule:
+   fun(735,16,186) :- . (1)
+Applying inference rule:
+   fun(736,184,85) :- . (1)
+Applying inference rule:
+   fun(737,315,660) :- . (1)
+Applying inference rule:
+   fun(305,149,1) :- . (1)
+Applying inference rule:
+   fun(738,123,3) :- . (1)
+Applying inference rule:
+   fun(739,112,3) :- . (1)
+Applying inference rule:
+   fun(740,303,741) :- . (1)
+Applying inference rule:
+   fun(742,324,743) :- . (1)
+Applying inference rule:
+   fun(224,376,186) :- . (1)
+Applying inference rule:
+   fun(744,325,595) :- . (1)
+Applying inference rule:
+   fun(745,234,64) :- . (1)
+Applying inference rule:
+   fun(648,355,583) :- . (1)
+Applying inference rule:
+   fun(558,32,172) :- . (1)
+Applying inference rule:
+   fun(746,131,3) :- . (1)
+Applying inference rule:
+   fun(260,247,565) :- . (1)
+Applying inference rule:
+   fun(747,141,3) :- . (1)
+Applying inference rule:
+   fun(748,243,303) :- . (1)
+Applying inference rule:
+   fun(424,104,208) :- . (1)
+Applying inference rule:
+   fun(749,155,324) :- . (1)
+Applying inference rule:
+   fun(750,60,751) :- . (1)
+Applying inference rule:
+   fun(752,259,753) :- . (1)
+Applying inference rule:
+   fun(754,79,35) :- . (1)
+Applying inference rule:
+   fun(755,137,3) :- . (1)
+Applying inference rule:
+   fun(756,56,579) :- . (1)
+Applying inference rule:
+   fun(757,329,758) :- . (1)
+Applying inference rule:
+   fun(706,118,1) :- . (1)
+Applying inference rule:
+   fun(702,130,1) :- . (1)
+Applying inference rule:
+   fun(759,342,487) :- . (1)
+Applying inference rule:
+   fun(760,321,761) :- . (1)
+Applying inference rule:
+   fun(762,204,576) :- . (1)
+Applying inference rule:
+   fun(319,87,612) :- . (1)
+Applying inference rule:
+   fun(546,124,1) :- . (1)
+Applying inference rule:
+   fun(197,189,75) :- . (1)
+Applying inference rule:
+   fun(118,378,52) :- . (1)
+Applying inference rule:
+   fun(763,325,743) :- . (1)
+Applying inference rule:
+   fun(764,242,93) :- . (1)
+Applying inference rule:
+   fun(244,126,1) :- . (1)
+Applying inference rule:
+   fun(276,364,765) :- . (1)
+Applying inference rule:
+   fun(766,77,35) :- . (1)
+Applying inference rule:
+   fun(767,117,1) :- . (1)
+Applying inference rule:
+   fun(768,173,124) :- . (1)
+Applying inference rule:
+   fun(769,136,3) :- . (1)
+Applying inference rule:
+   fun(770,44,771) :- . (1)
+Applying inference rule:
+   fun(427,296,772) :- . (1)
+Applying inference rule:
+   fun(773,361,15) :- . (1)
+Applying inference rule:
+   fun(723,374,548) :- . (1)
+Applying inference rule:
+   fun(288,168,85) :- . (1)
+Applying inference rule:
+   fun(774,353,93) :- . (1)
+Applying inference rule:
+   fun(775,253,541) :- . (1)
+Applying inference rule:
+   fun(776,73,525) :- . (1)
+Applying inference rule:
+   fun(777,60,778) :- . (1)
+Applying inference rule:
+   fun(779,154,1) :- . (1)
+Applying inference rule:
+   fun(780,208,19) :- . (1)
+Applying inference rule:
+   fun(603,167,31) :- . (1)
+Applying inference rule:
+   fun(781,240,541) :- . (1)
+Applying inference rule:
+   fun(782,35,172) :- . (1)
+Applying inference rule:
+   fun(783,375,13) :- . (1)
+Applying inference rule:
+   fun(784,8,112) :- . (1)
+Applying inference rule:
+   fun(487,364,785) :- . (1)
+Applying inference rule:
+   fun(786,242,198) :- . (1)
+Applying inference rule:
+   fun(787,275,9) :- . (1)
+Applying inference rule:
+   fun(788,153,3) :- . (1)
+Applying inference rule:
+   fun(789,92,3) :- . (1)
+Applying inference rule:
+   fun(790,319,82) :- . (1)
+Applying inference rule:
+   fun(389,111,1) :- . (1)
+Applying inference rule:
+   fun(465,123,1) :- . (1)
+Applying inference rule:
+   fun(57,307,186) :- . (1)
+Applying inference rule:
+   fun(320,343,791) :- . (1)
+Applying inference rule:
+   fun(460,129,1) :- . (1)
+Applying inference rule:
+   fun(382,93,245) :- . (1)
+Applying inference rule:
+   fun(792,62,413) :- . (1)
+Applying inference rule:
+   fun(793,38,794) :- . (1)
+Applying inference rule:
+   fun(795,12,608) :- . (1)
+Applying inference rule:
+   fun(569,141,1) :- . (1)
+Applying inference rule:
+   fun(796,331,50) :- . (1)
+Applying inference rule:
+   fun(797,57,181) :- . (1)
+Applying inference rule:
+   fun(798,235,135) :- . (1)
+Applying inference rule:
+   fun(168,69,186) :- . (1)
+Applying inference rule:
+   fun(799,124,1) :- . (1)
+Applying inference rule:
+   fun(800,363,326) :- . (1)
+Applying inference rule:
+   fun(801,100,562) :- . (1)
+Applying inference rule:
+   fun(752,258,802) :- . (1)
+Applying inference rule:
+   fun(803,335,13) :- . (1)
+Applying inference rule:
+   fun(804,71,591) :- . (1)
+Applying inference rule:
+   fun(805,295,95) :- . (1)
+Applying inference rule:
+   fun(806,308,807) :- . (1)
+Applying inference rule:
+   fun(762,114,3) :- . (1)
+Applying inference rule:
+   fun(808,205,19) :- . (1)
+Applying inference rule:
+   fun(809,300,435) :- . (1)
+Applying inference rule:
+   fun(810,194,75) :- . (1)
+Applying inference rule:
+   fun(811,175,35) :- . (1)
+Applying inference rule:
+   fun(812,60,813) :- . (1)
+Applying inference rule:
+   fun(144,77,124) :- . (1)
+Applying inference rule:
+   fun(814,217,815) :- . (1)
+Applying inference rule:
+   fun(816,211,19) :- . (1)
+Applying inference rule:
+   fun(817,291,818) :- . (1)
+Applying inference rule:
+   fun(819,54,499) :- . (1)
+Applying inference rule:
+   fun(794,42,499) :- . (1)
+Applying inference rule:
+   fun(741,312,358) :- . (1)
+Applying inference rule:
+   fun(667,280,42) :- . (1)
+Applying inference rule:
+   fun(820,20,624) :- . (1)
+Applying inference rule:
+   fun(821,317,822) :- . (1)
+Applying inference rule:
+   fun(823,13,824) :- . (1)
+Applying inference rule:
+   fun(825,214,19) :- . (1)
+Applying inference rule:
+   fun(370,39,826) :- . (1)
+Applying inference rule:
+   fun(198,250,233) :- . (1)
+Applying inference rule:
+   fun(827,270,9) :- . (1)
+Applying inference rule:
+   fun(660,176,67) :- . (1)
+Applying inference rule:
+   fun(828,272,9) :- . (1)
+Applying inference rule:
+   fun(829,99,124) :- . (1)
+Applying inference rule:
+   fun(830,232,315) :- . (1)
+Applying inference rule:
+   fun(15,172,831) :- . (1)
+Applying inference rule:
+   fun(832,200,75) :- . (1)
+Applying inference rule:
+   fun(833,41,834) :- . (1)
+Applying inference rule:
+   fun(835,219,490) :- . (1)
+Applying inference rule:
+   fun(493,326,836) :- . (1)
+Applying inference rule:
+   fun(55,210,31) :- . (1)
+Applying inference rule:
+   fun(837,296,838) :- . (1)
+Applying inference rule:
+   fun(839,333,840) :- . (1)
+Applying inference rule:
+   fun(772,309,841) :- . (1)
+Applying inference rule:
+   fun(842,302,843) :- . (1)
+Applying inference rule:
+   fun(397,355,397) :- . (1)
 Resizing node table from 8053 to 16103
 Applying inference rule:
-   fun(594,596,595) :- . (1)
+   fun(844,95,749) :- . (1)
 Applying inference rule:
-   fun(597,598,4) :- . (1)
+   fun(845,70,537) :- . (1)
 Applying inference rule:
-   fun(599,600,1) :- . (1)
+   fun(846,132,3) :- . (1)
 Applying inference rule:
-   fun(314,400,116) :- . (1)
+   fun(126,338,646) :- . (1)
 Applying inference rule:
-   fun(601,602,19) :- . (1)
+   fun(183,157,847) :- . (1)
 Applying inference rule:
-   fun(603,604,379) :- . (1)
+   fun(848,203,557) :- . (1)
 Applying inference rule:
-   fun(605,606,592) :- . (1)
+   fun(849,309,850) :- . (1)
 Applying inference rule:
-   fun(607,604,608) :- . (1)
+   fun(851,168,75) :- . (1)
 Applying inference rule:
-   fun(609,611,610) :- . (1)
+   fun(852,341,800) :- . (1)
 Applying inference rule:
-   fun(612,391,613) :- . (1)
+   fun(853,250,854) :- . (1)
 Applying inference rule:
-   fun(614,82,13) :- . (1)
+   fun(855,40,678) :- . (1)
 Applying inference rule:
-   fun(615,616,273) :- . (1)
+   fun(580,351,198) :- . (1)
 Applying inference rule:
-   fun(193,617,195) :- . (1)
+   fun(856,366,228) :- . (1)
 Applying inference rule:
-   fun(618,189,619) :- . (1)
+   fun(857,173,35) :- . (1)
 Applying inference rule:
-   fun(620,8,389) :- . (1)
+   fun(601,86,217) :- . (1)
 Applying inference rule:
-   fun(522,621,260) :- . (1)
+   fun(574,147,1) :- . (1)
 Applying inference rule:
-   fun(622,424,116) :- . (1)
+   fun(858,293,693) :- . (1)
 Applying inference rule:
-   fun(399,623,1) :- . (1)
+   fun(859,337,13) :- . (1)
 Applying inference rule:
-   fun(624,217,222) :- . (1)
+   fun(860,36,615) :- . (1)
 Applying inference rule:
-   fun(625,457,116) :- . (1)
+   fun(841,317,861) :- . (1)
 Applying inference rule:
-   fun(626,105,213) :- . (1)
+   fun(623,162,645) :- . (1)
 Applying inference rule:
-   fun(627,427,628) :- . (1)
+   fun(862,63,425) :- . (1)
 Applying inference rule:
-   fun(81,473,1) :- . (1)
+   fun(863,156,864) :- . (1)
 Applying inference rule:
-   fun(225,630,629) :- . (1)
+   fun(865,21,246) :- . (1)
 Applying inference rule:
-   fun(631,41,632) :- . (1)
+   fun(866,356,867) :- . (1)
 Applying inference rule:
-   fun(633,201,157) :- . (1)
+   fun(214,339,245) :- . (1)
 Applying inference rule:
-   fun(55,322,634) :- . (1)
+   fun(513,75,409) :- . (1)
 Applying inference rule:
-   fun(635,590,1) :- . (1)
+   fun(170,158,178) :- . (1)
 Applying inference rule:
-   fun(636,637,193) :- . (1)
+   fun(868,36,855) :- . (1)
 Applying inference rule:
-   fun(638,639,19) :- . (1)
+   fun(316,159,170) :- . (1)
 Applying inference rule:
-   fun(34,179,640) :- . (1)
+   fun(869,59,97) :- . (1)
 Applying inference rule:
-   fun(641,643,642) :- . (1)
+   fun(870,224,830) :- . (1)
 Applying inference rule:
-   fun(644,99,373) :- . (1)
+   fun(871,215,371) :- . (1)
 Applying inference rule:
-   fun(645,139,4) :- . (1)
+   fun(872,313,614) :- . (1)
 Applying inference rule:
-   fun(646,382,4) :- . (1)
+   fun(873,201,75) :- . (1)
 Applying inference rule:
-   fun(647,38,648) :- . (1)
+   fun(84,131,1) :- . (1)
 Applying inference rule:
-   fun(649,168,650) :- . (1)
+   fun(202,135,1) :- . (1)
 Applying inference rule:
-   fun(651,240,128) :- . (1)
+   fun(874,48,256) :- . (1)
 Applying inference rule:
-   fun(652,484,28) :- . (1)
+   fun(875,265,9) :- . (1)
 Applying inference rule:
-   fun(653,422,654) :- . (1)
+   fun(876,318,499) :- . (1)
 Applying inference rule:
-   fun(655,256,454) :- . (1)
+   fun(877,66,5) :- . (1)
 Applying inference rule:
-   fun(656,284,116) :- . (1)
+   fun(13,109,297) :- . (1)
 Applying inference rule:
-   fun(657,658,447) :- . (1)
+   fun(878,343,879) :- . (1)
 Applying inference rule:
-   fun(533,155,1) :- . (1)
+   fun(133,14,186) :- . (1)
 Applying inference rule:
-   fun(659,660,39) :- . (1)
+   fun(880,62,257) :- . (1)
 Applying inference rule:
-   fun(661,285,662) :- . (1)
+   fun(881,276,9) :- . (1)
 Applying inference rule:
-   fun(663,664,19) :- . (1)
+   fun(882,273,23) :- . (1)
 Applying inference rule:
-   fun(665,667,666) :- . (1)
+   fun(883,51,168) :- . (1)
 Applying inference rule:
-   fun(668,220,669) :- . (1)
+   fun(113,135,1) :- . (1)
 Applying inference rule:
-   fun(670,214,104) :- . (1)
+   fun(884,245,215) :- . (1)
 Applying inference rule:
-   fun(671,229,13) :- . (1)
+   fun(844,94,75) :- . (1)
 Applying inference rule:
-   fun(672,598,1) :- . (1)
+   fun(885,339,126) :- . (1)
 Applying inference rule:
-   fun(673,122,4) :- . (1)
+   fun(886,162,294) :- . (1)
 Applying inference rule:
-   fun(674,675,429) :- . (1)
+   fun(847,170,560) :- . (1)
 Applying inference rule:
-   fun(676,317,677) :- . (1)
+   fun(493,326,887) :- . (1)
 Applying inference rule:
-   fun(678,58,1) :- . (1)
+   fun(888,111,3) :- . (1)
 Applying inference rule:
-   fun(446,444,446) :- . (1)
+   fun(573,148,1) :- . (1)
 Applying inference rule:
-   fun(679,302,301) :- . (1)
+   fun(889,128,1) :- . (1)
 Applying inference rule:
-   fun(680,309,543) :- . (1)
+   fun(579,76,324) :- . (1)
 Applying inference rule:
-   fun(681,229,34) :- . (1)
+   fun(890,311,318) :- . (1)
 Applying inference rule:
-   fun(637,682,360) :- . (1)
+   fun(731,144,1) :- . (1)
 Applying inference rule:
-   fun(683,23,42) :- . (1)
+   fun(891,45,588) :- . (1)
 Applying inference rule:
-   fun(684,205,1) :- . (1)
+   fun(892,257,537) :- . (1)
 Applying inference rule:
-   fun(685,686,4) :- . (1)
+   fun(893,340,126) :- . (1)
 Applying inference rule:
-   fun(687,688,1) :- . (1)
+   fun(21,236,45) :- . (1)
 Applying inference rule:
-   fun(689,394,13) :- . (1)
+   fun(201,221,350) :- . (1)
 Applying inference rule:
-   fun(690,362,13) :- . (1)
+   fun(349,221,894) :- . (1)
 Applying inference rule:
-   fun(691,692,264) :- . (1)
+   fun(359,87,895) :- . (1)
 Applying inference rule:
-   fun(693,694,34) :- . (1)
+   fun(896,262,897) :- . (1)
 Applying inference rule:
-   fun(32,695,35) :- . (1)
+   fun(898,230,351) :- . (1)
 Applying inference rule:
-   fun(696,697,1) :- . (1)
-Applying inference rule:
-   fun(35,698,56) :- . (1)
-Applying inference rule:
-   fun(699,611,700) :- . (1)
-Applying inference rule:
-   fun(701,702,42) :- . (1)
-Applying inference rule:
-   fun(703,299,704) :- . (1)
-Applying inference rule:
-   fun(705,675,706) :- . (1)
-Applying inference rule:
-   fun(707,242,1) :- . (1)
-Applying inference rule:
-   fun(509,137,708) :- . (1)
-Applying inference rule:
-   fun(360,709,56) :- . (1)
-Applying inference rule:
-   fun(710,711,56) :- . (1)
-Applying inference rule:
-   fun(387,712,116) :- . (1)
-Applying inference rule:
-   fun(713,422,714) :- . (1)
-Applying inference rule:
-   fun(715,227,716) :- . (1)
-Applying inference rule:
-   fun(529,717,131) :- . (1)
-Applying inference rule:
-   fun(718,719,313) :- . (1)
-Applying inference rule:
-   fun(720,2,4) :- . (1)
-Applying inference rule:
-   fun(721,722,19) :- . (1)
-Applying inference rule:
-   fun(723,725,724) :- . (1)
-Applying inference rule:
-   fun(726,727,1) :- . (1)
-Applying inference rule:
-   fun(728,730,729) :- . (1)
-Applying inference rule:
-   fun(731,214,732) :- . (1)
-Applying inference rule:
-   fun(733,735,734) :- . (1)
-Applying inference rule:
-   fun(736,738,737) :- . (1)
-Applying inference rule:
-   fun(739,740,508) :- . (1)
-Applying inference rule:
-   fun(645,163,741) :- . (1)
-Applying inference rule:
-   fun(214,109,531) :- . (1)
-Applying inference rule:
-   fun(715,227,742) :- . (1)
-Applying inference rule:
-   fun(743,745,744) :- . (1)
-Applying inference rule:
-   fun(746,748,747) :- . (1)
-Applying inference rule:
-   fun(749,750,19) :- . (1)
-Applying inference rule:
-   fun(409,751,348) :- . (1)
-Applying inference rule:
-   fun(752,753,19) :- . (1)
-Applying inference rule:
-   fun(754,82,34) :- . (1)
-Applying inference rule:
-   fun(383,727,1) :- . (1)
-Applying inference rule:
-   fun(46,697,1) :- . (1)
-Applying inference rule:
-   fun(755,204,756) :- . (1)
-Applying inference rule:
-   fun(757,125,28) :- . (1)
-Applying inference rule:
-   fun(758,760,759) :- . (1)
-Applying inference rule:
-   fun(121,484,46) :- . (1)
-Applying inference rule:
-   fun(354,237,761) :- . (1)
-Applying inference rule:
-   fun(510,762,1) :- . (1)
-Applying inference rule:
-   fun(763,764,365) :- . (1)
-Applying inference rule:
-   fun(765,172,348) :- . (1)
-Applying inference rule:
-   fun(156,766,131) :- . (1)
-Applying inference rule:
-   fun(767,326,1) :- . (1)
-Applying inference rule:
-   fun(768,546,769) :- . (1)
-Applying inference rule:
-   fun(770,771,389) :- . (1)
-Applying inference rule:
-   fun(772,617,375) :- . (1)
-Applying inference rule:
-   fun(773,64,774) :- . (1)
-Applying inference rule:
-   fun(113,482,536) :- . (1)
-Applying inference rule:
-   fun(775,776,19) :- . (1)
-Applying inference rule:
-   fun(777,778,476) :- . (1)
-Applying inference rule:
-   fun(416,338,779) :- . (1)
-Applying inference rule:
-   fun(537,667,780) :- . (1)
-Applying inference rule:
-   fun(781,760,313) :- . (1)
-Applying inference rule:
-   fun(731,214,134) :- . (1)
-Applying inference rule:
-   fun(782,220,783) :- . (1)
-Applying inference rule:
-   fun(225,227,784) :- . (1)
-Applying inference rule:
-   fun(785,150,308) :- . (1)
-Applying inference rule:
-   fun(786,107,4) :- . (1)
-Applying inference rule:
-   fun(787,2,1) :- . (1)
-Applying inference rule:
-   fun(788,789,737) :- . (1)
-Applying inference rule:
-   fun(790,184,489) :- . (1)
-Applying inference rule:
-   fun(791,14,34) :- . (1)
-Applying inference rule:
-   fun(599,196,375) :- . (1)
-Applying inference rule:
-   fun(792,793,56) :- . (1)
-Applying inference rule:
-   fun(213,553,794) :- . (1)
-Applying inference rule:
-   fun(795,407,257) :- . (1)
-Applying inference rule:
-   fun(796,394,34) :- . (1)
-Applying inference rule:
-   fun(797,369,19) :- . (1)
-Applying inference rule:
-   fun(798,584,4) :- . (1)
-Applying inference rule:
-   fun(95,800,799) :- . (1)
-Applying inference rule:
-   fun(801,96,435) :- . (1)
-Applying inference rule:
-   fun(802,803,729) :- . (1)
-Applying inference rule:
-   fun(804,805,68) :- . (1)
-Applying inference rule:
-   fun(806,158,28) :- . (1)
-Applying inference rule:
-   fun(333,338,384) :- . (1)
-Applying inference rule:
-   fun(807,611,700) :- . (1)
-Applying inference rule:
-   fun(169,809,808) :- . (1)
-Applying inference rule:
-   fun(810,811,481) :- . (1)
-Applying inference rule:
-   fun(44,812,285) :- . (1)
-Applying inference rule:
-   fun(813,814,56) :- . (1)
-Applying inference rule:
-   fun(815,546,592) :- . (1)
-Applying inference rule:
-   fun(474,816,629) :- . (1)
-Applying inference rule:
-   fun(817,431,747) :- . (1)
-Applying inference rule:
-   fun(818,819,724) :- . (1)
-Applying inference rule:
-   fun(820,451,1) :- . (1)
-Applying inference rule:
-   fun(821,658,255) :- . (1)
-Applying inference rule:
-   fun(822,451,1) :- . (1)
-Applying inference rule:
-   fun(823,824,19) :- . (1)
-Applying inference rule:
-   fun(825,463,375) :- . (1)
-Applying inference rule:
-   fun(826,590,1) :- . (1)
-Applying inference rule:
-   fun(470,382,1) :- . (1)
-Applying inference rule:
-   fun(827,357,828) :- . (1)
-Applying inference rule:
-   fun(829,675,49) :- . (1)
-Applying inference rule:
-   fun(830,832,831) :- . (1)
-Applying inference rule:
-   fun(833,717,116) :- . (1)
-Applying inference rule:
-   fun(834,160,34) :- . (1)
-Applying inference rule:
-   fun(86,835,56) :- . (1)
-Applying inference rule:
-   fun(255,77,732) :- . (1)
-Applying inference rule:
-   fun(594,247,836) :- . (1)
-Applying inference rule:
-   fun(837,566,113) :- . (1)
-Applying inference rule:
-   fun(838,362,34) :- . (1)
-Applying inference rule:
-   fun(715,227,839) :- . (1)
-Applying inference rule:
-   fun(840,841,19) :- . (1)
-Applying inference rule:
-   fun(842,407,843) :- . (1)
-Applying inference rule:
-   fun(844,846,845) :- . (1)
-Applying inference rule:
-   fun(140,847,111) :- . (1)
-Applying inference rule:
-   fun(848,850,849) :- . (1)
-Applying inference rule:
-   fun(851,686,1) :- . (1)
-Applying inference rule:
-   fun(852,296,52) :- . (1)
-Applying inference rule:
-   fun(853,285,854) :- . (1)
-Applying inference rule:
-   fun(573,330,131) :- . (1)
-Applying inference rule:
-   fun(855,223,216) :- . (1)
-Applying inference rule:
-   fun(856,165,116) :- . (1)
-Applying inference rule:
-   fun(857,456,608) :- . (1)
-Applying inference rule:
-   fun(858,688,1) :- . (1)
-Applying inference rule:
-   fun(772,859,1) :- . (1)
-Applying inference rule:
-   fun(715,227,860) :- . (1)
-Applying inference rule:
-   fun(89,244,105) :- . (1)
-Applying inference rule:
-   fun(252,600,1) :- . (1)
-Applying inference rule:
-   fun(861,548,1) :- . (1)
-Applying inference rule:
-   fun(217,862,66) :- . (1)
-Applying inference rule:
-   fun(863,586,13) :- . (1)
-Applying inference rule:
-   fun(864,35,13) :- . (1)
-Applying inference rule:
-   fun(642,745,865) :- . (1)
-Applying inference rule:
-   fun(633,866,131) :- . (1)
-Applying inference rule:
-   fun(867,274,273) :- . (1)
-Applying inference rule:
-   fun(868,176,1) :- . (1)
-Applying inference rule:
-   fun(186,870,869) :- . (1)
-Applying inference rule:
-   fun(57,242,1) :- . (1)
-Applying inference rule:
-   fun(870,871,503) :- . (1)
-Applying inference rule:
-   fun(426,873,872) :- . (1)
-Applying inference rule:
-   fun(874,875,193) :- . (1)
-Applying inference rule:
-   fun(876,877,795) :- . (1)
-Applying inference rule:
-   fun(878,880,879) :- . (1)
-Applying inference rule:
-   fun(822,117,131) :- . (1)
-Applying inference rule:
-   fun(881,882,116) :- . (1)
-Applying inference rule:
-   fun(883,549,19) :- . (1)
-Applying inference rule:
-   fun(28,884,310) :- . (1)
-Applying inference rule:
-   fun(4,497,885) :- . (1)
-Applying inference rule:
-   fun(133,105,732) :- . (1)
-Applying inference rule:
-   fun(596,377,271) :- . (1)
-Applying inference rule:
-   fun(886,155,4) :- . (1)
-Applying inference rule:
-   fun(887,488,674) :- . (1)
-Applying inference rule:
-   fun(888,564,52) :- . (1)
-Applying inference rule:
-   fun(889,409,280) :- . (1)
-Applying inference rule:
-   fun(890,891,56) :- . (1)
-Applying inference rule:
-   fun(733,892,297) :- . (1)
-Applying inference rule:
-   fun(893,422,894) :- . (1)
-Applying inference rule:
-   fun(895,819,348) :- . (1)
-Applying inference rule:
-   fun(896,859,1) :- . (1)
-Applying inference rule:
-   fun(897,898,193) :- . (1)
-Applying inference rule:
-   fun(433,206,1) :- . (1)
-Applying inference rule:
-   fun(899,900,19) :- . (1)
-Applying inference rule:
-   fun(901,606,902) :- . (1)
-Applying inference rule:
-   fun(439,578,1) :- . (1)
-Applying inference rule:
-   fun(10,903,56) :- . (1)
-Applying inference rule:
-   fun(904,143,304) :- . (1)
-Applying inference rule:
-   fun(905,240,906) :- . (1)
-Applying inference rule:
-   fun(907,422,908) :- . (1)
-Applying inference rule:
-   fun(909,910,210) :- . (1)
-Applying inference rule:
-   fun(865,658,911) :- . (1)
-Applying inference rule:
-   fun(441,47,157) :- . (1)
-Applying inference rule:
-   fun(164,139,1) :- . (1)
-Applying inference rule:
-   fun(912,317,913) :- . (1)
-Applying inference rule:
-   fun(914,915,595) :- . (1)
-Applying inference rule:
-   fun(916,917,142) :- . (1)
-Applying inference rule:
-   fun(918,875,52) :- . (1)
-Applying inference rule:
-   fun(919,243,920) :- . (1)
-Applying inference rule:
-   fun(921,497,496) :- . (1)
-Applying inference rule:
-   fun(922,179,178) :- . (1)
-Applying inference rule:
-   fun(923,688,4) :- . (1)
-Applying inference rule:
-   fun(29,924,35) :- . (1)
-Applying inference rule:
-   fun(925,926,13) :- . (1)
-Applying inference rule:
-   fun(225,227,927) :- . (1)
-Applying inference rule:
-   fun(728,928,264) :- . (1)
-Applying inference rule:
-   fun(929,256,930) :- . (1)
-Applying inference rule:
-   fun(904,866,116) :- . (1)
-Applying inference rule:
-   fun(931,932,557) :- . (1)
-Applying inference rule:
-   fun(933,606,769) :- . (1)
-Applying inference rule:
-   fun(934,936,935) :- . (1)
-Applying inference rule:
-   fun(937,299,938) :- . (1)
-Applying inference rule:
-   fun(939,816,334) :- . (1)
-Applying inference rule:
-   fun(940,940,56) :- . (1)
-Applying inference rule:
-   fun(941,942,1) :- . (1)
-Applying inference rule:
-   fun(943,944,203) :- . (1)
-Applying inference rule:
-   fun(572,945,808) :- . (1)
-Applying inference rule:
-   fun(946,944,756) :- . (1)
-Applying inference rule:
-   fun(947,948,19) :- . (1)
-Applying inference rule:
-   fun(225,227,949) :- . (1)
-Applying inference rule:
-   fun(541,392,950) :- . (1)
-Applying inference rule:
-   fun(671,473,1) :- . (1)
-Applying inference rule:
-   fun(951,590,4) :- . (1)
-Applying inference rule:
-   fun(528,444,528) :- . (1)
-Applying inference rule:
-   fun(243,953,952) :- . (1)
-Applying inference rule:
-   fun(358,29,157) :- . (1)
-Applying inference rule:
-   fun(724,954,490) :- . (1)
-Applying inference rule:
-   fun(698,140,205) :- . (1)
-Applying inference rule:
-   fun(506,955,131) :- . (1)
-Applying inference rule:
-   fun(767,507,46) :- . (1)
-Applying inference rule:
-   fun(956,512,957) :- . (1)
-Applying inference rule:
-   fun(708,959,958) :- . (1)
-Applying inference rule:
-   fun(960,910,396) :- . (1)
-Applying inference rule:
-   fun(271,138,227) :- . (1)
-Applying inference rule:
-   fun(961,962,737) :- . (1)
-Applying inference rule:
-   fun(963,14,13) :- . (1)
-Applying inference rule:
-   fun(964,243,920) :- . (1)
-Applying inference rule:
-   fun(965,967,966) :- . (1)
-Applying inference rule:
-   fun(225,227,968) :- . (1)
-Applying inference rule:
-   fun(225,227,969) :- . (1)
-Applying inference rule:
-   fun(970,35,13) :- . (1)
-Applying inference rule:
-   fun(971,600,4) :- . (1)
-Applying inference rule:
-   fun(972,762,1) :- . (1)
-Applying inference rule:
-   fun(973,305,142) :- . (1)
-Applying inference rule:
-   fun(270,975,974) :- . (1)
-Applying inference rule:
-   fun(976,606,545) :- . (1)
-Applying inference rule:
-   fun(977,959,978) :- . (1)
-Applying inference rule:
-   fun(91,158,46) :- . (1)
-Applying inference rule:
-   fun(979,324,13) :- . (1)
-Applying inference rule:
-   fun(980,694,13) :- . (1)
-Applying inference rule:
-   fun(827,660,631) :- . (1)
-Applying inference rule:
-   fun(981,982,19) :- . (1)
-Applying inference rule:
-   fun(983,623,4) :- . (1)
-Applying inference rule:
-   fun(984,811,536) :- . (1)
-Applying inference rule:
-   fun(985,84,1) :- . (1)
-Applying inference rule:
-   fun(824,986,7) :- . (1)
-Applying inference rule:
-   fun(350,735,734) :- . (1)
-Applying inference rule:
-   fun(987,926,13) :- . (1)
-Applying inference rule:
-   fun(988,989,19) :- . (1)
-Applying inference rule:
-   fun(990,548,1) :- . (1)
-Applying inference rule:
-   fun(991,576,992) :- . (1)
-Applying inference rule:
-   fun(974,745,185) :- . (1)
-Applying inference rule:
-   fun(348,954,79) :- . (1)
-Applying inference rule:
-   fun(993,800,519) :- . (1)
-Applying inference rule:
-   fun(994,658,454) :- . (1)
-Applying inference rule:
-   fun(995,942,4) :- . (1)
-Applying inference rule:
-   fun(606,996,376) :- . (1)
-Applying inference rule:
-   fun(997,90,1) :- . (1)
-Applying inference rule:
-   fun(998,832,365) :- . (1)
-Applying inference rule:
-   fun(999,61,1000) :- . (1)
-Applying inference rule:
-   fun(543,546,902) :- . (1)
-Applying inference rule:
-   fun(54,873,1001) :- . (1)
-Applying inference rule:
-   fun(253,1002,596) :- . (1)
-Applying inference rule:
-   fun(1003,576,1004) :- . (1)
-Applying inference rule:
-   fun(1005,422,1006) :- . (1)
-Applying inference rule:
-   fun(1007,359,116) :- . (1)
-Applying inference rule:
-   fun(614,712,131) :- . (1)
-Applying inference rule:
-   fun(1008,206,4) :- . (1)
-Applying inference rule:
-   fun(861,139,1) :- . (1)
-Applying inference rule:
-   fun(525,311,1009) :- . (1)
-Applying inference rule:
-   fun(1010,102,1011) :- . (1)
-Applying inference rule:
-   fun(1012,64,1013) :- . (1)
-Applying inference rule:
-   fun(962,1014,360) :- . (1)
-Applying inference rule:
-   fun(851,1015,131) :- . (1)
-Applying inference rule:
-   fun(1016,686,1) :- . (1)
-Applying inference rule:
-   fun(729,1017,935) :- . (1)
-Applying inference rule:
-   fun(479,457,131) :- . (1)
-Applying inference rule:
-   fun(245,120,950) :- . (1)
-Applying inference rule:
-   fun(1018,956,1019) :- . (1)
-Applying inference rule:
-   fun(327,107,1) :- . (1)
-Applying inference rule:
-   fun(1020,306,4) :- . (1)
-Applying inference rule:
-   fun(80,1021,56) :- . (1)
-Applying inference rule:
-   fun(1022,882,131) :- . (1)
-Applying inference rule:
-   fun(1023,658,930) :- . (1)
-Applying inference rule:
-   fun(462,122,1) :- . (1)
-Applying inference rule:
-   fun(1024,66,4) :- . (1)
-Applying inference rule:
-   fun(1025,578,4) :- . (1)
-Applying inference rule:
-   fun(1026,1028,1027) :- . (1)
-Applying inference rule:
-   fun(1029,850,1030) :- . (1)
-Applying inference rule:
-   fun(344,1031,56) :- . (1)
-Applying inference rule:
-   fun(1032,1033,849) :- . (1)
-Applying inference rule:
-   fun(1034,910,100) :- . (1)
-Applying inference rule:
-   fun(914,444,836) :- . (1)
-Applying inference rule:
-   fun(802,1035,264) :- . (1)
-Applying inference rule:
-   fun(1036,67,4) :- . (1)
-Applying inference rule:
-   fun(396,102,813) :- . (1)
-Applying inference rule:
-   fun(1037,411,4) :- . (1)
-Applying inference rule:
-   fun(1038,505,460) :- . (1)
-Applying inference rule:
-   fun(628,56,320) :- . (1)
-Applying inference rule:
-   fun(1039,80,490) :- . (1)
-Applying inference rule:
-   fun(1040,1042,1041) :- . (1)
-Applying inference rule:
-   fun(1043,967,1044) :- . (1)
-Applying inference rule:
-   fun(1045,898,52) :- . (1)
-Applying inference rule:
-   fun(1046,282,4) :- . (1)
-Applying inference rule:
-   fun(1047,764,831) :- . (1)
-Applying inference rule:
-   fun(1048,611,1049) :- . (1)
-Applying inference rule:
-   fun(990,942,1) :- . (1)
-Applying inference rule:
-   fun(985,623,1) :- . (1)
-Applying inference rule:
-   fun(1050,50,706) :- . (1)
-Applying inference rule:
-   fun(1051,582,1052) :- . (1)
-Applying inference rule:
-   fun(1053,884,828) :- . (1)
-Applying inference rule:
-   fun(481,1054,867) :- . (1)
-Applying inference rule:
-   fun(787,555,1) :- . (1)
-Applying inference rule:
-   fun(303,328,116) :- . (1)
-Applying inference rule:
-   fun(183,491,79) :- . (1)
-Applying inference rule:
-   fun(1055,1033,1030) :- . (1)
-Applying inference rule:
-   fun(1056,1057,142) :- . (1)
-Applying inference rule:
-   fun(374,147,1) :- . (1)
-Applying inference rule:
-   fun(420,422,1058) :- . (1)
-Applying inference rule:
-   fun(1059,1060,52) :- . (1)
-Applying inference rule:
-   fun(1061,205,1) :- . (1)
-Applying inference rule:
-   fun(1062,1063,193) :- . (1)
-Applying inference rule:
-   fun(1064,727,4) :- . (1)
-Applying inference rule:
-   fun(1065,953,1066) :- . (1)
-Applying inference rule:
-   fun(632,740,1067) :- . (1)
-Applying inference rule:
-   fun(1068,702,22) :- . (1)
-Applying inference rule:
-   fun(1007,189,790) :- . (1)
-Applying inference rule:
-   fun(437,1069,131) :- . (1)
-Applying inference rule:
-   fun(1070,15,142) :- . (1)
-Applying inference rule:
-   fun(1071,915,782) :- . (1)
-Applying inference rule:
-   fun(1072,719,759) :- . (1)
-Applying inference rule:
-   fun(1073,1042,1074) :- . (1)
-Applying inference rule:
-   fun(1075,326,1) :- . (1)
-Applying inference rule:
-   fun(1076,93,28) :- . (1)
-Applying inference rule:
-   fun(858,438,46) :- . (1)
-Applying inference rule:
-   fun(1077,596,782) :- . (1)
-Applying inference rule:
-   fun(1078,1079,264) :- . (1)
-Applying inference rule:
-   fun(1080,1081,19) :- . (1)
-Applying inference rule:
-   fun(954,520,173) :- . (1)
-Applying inference rule:
-   fun(706,422,1082) :- . (1)
-Applying inference rule:
-   fun(1083,1057,304) :- . (1)
-Applying inference rule:
-   fun(1084,324,13) :- . (1)
-Applying inference rule:
-   fun(1085,74,4) :- . (1)
-Applying inference rule:
-   fun(1086,859,4) :- . (1)
-Applying inference rule:
-   fun(1087,535,126) :- . (1)
-Applying inference rule:
-   fun(577,111,1) :- . (1)
-Applying inference rule:
-   fun(678,66,1) :- . (1)
-Applying inference rule:
-   fun(88,1088,56) :- . (1)
-Applying inference rule:
-   fun(483,876,1089) :- . (1)
-Applying inference rule:
-   fun(672,84,1) :- . (1)
-Applying inference rule:
-   fun(568,617,375) :- . (1)
-Applying inference rule:
-   fun(1090,1091,613) :- . (1)
-Applying inference rule:
-   fun(276,138,582) :- . (1)
-Applying inference rule:
-   fun(8,1092,66) :- . (1)
-Applying inference rule:
-   fun(820,411,1) :- . (1)
-Applying inference rule:
-   fun(1093,105,76) :- . (1)
-Applying inference rule:
-   fun(1094,223,278) :- . (1)
-Applying inference rule:
-   fun(1095,291,210) :- . (1)
-Applying inference rule:
-   fun(258,1096,56) :- . (1)
-Applying inference rule:
-   fun(1097,555,1) :- . (1)
-Applying inference rule:
-   fun(1098,675,493) :- . (1)
-Applying inference rule:
-   fun(1099,1100,808) :- . (1)
-Applying inference rule:
-   fun(1043,475,1101) :- . (1)
-Applying inference rule:
-   fun(1102,1103,19) :- . (1)
-Applying inference rule:
-   fun(1104,259,845) :- . (1)
-Applying inference rule:
-   fun(1105,1106,145) :- . (1)
-Applying inference rule:
-   fun(1107,745,1108) :- . (1)
-Applying inference rule:
-   fun(1053,697,4) :- . (1)
-Applying inference rule:
-   fun(1109,47,28) :- . (1)
-Applying inference rule:
-   fun(1110,975,642) :- . (1)
-Applying inference rule:
-   fun(1111,1015,116) :- . (1)
-Applying inference rule:
-   fun(1112,637,52) :- . (1)
-Applying inference rule:
-   fun(1113,1042,1114) :- . (1)
-Applying inference rule:
-   fun(222,1060,193) :- . (1)
-Applying inference rule:
-   fun(1115,1117,1116) :- . (1)
-Applying inference rule:
-   fun(1118,209,28) :- . (1)
-Applying inference rule:
-   fun(1119,89,1120) :- . (1)
-Resizing node table from 16103 to 32203
-Applying inference rule:
-   fun(1121,172,724) :- . (1)
-Applying inference rule:
-   fun(582,751,724) :- . (1)
-Applying inference rule:
-   fun(1027,171,534) :- . (1)
-Applying inference rule:
-   fun(939,64,63) :- . (1)
-Applying inference rule:
-   fun(442,996,596) :- . (1)
-Applying inference rule:
-   fun(1122,137,1123) :- . (1)
-Applying inference rule:
-   fun(335,1124,67) :- . (1)
-Applying inference rule:
-   fun(1125,507,28) :- . (1)
-Applying inference rule:
-   fun(523,244,667) :- . (1)
-Applying inference rule:
-   fun(304,1126,356) :- . (1)
-Applying inference rule:
-   fun(1127,694,13) :- . (1)
-Applying inference rule:
-   fun(930,77,104) :- . (1)
-Applying inference rule:
-   fun(1128,160,13) :- . (1)
-Applying inference rule:
-   fun(1129,251,193) :- . (1)
-Applying inference rule:
-   fun(1130,1131,476) :- . (1)
-Applying inference rule:
-   fun(22,44,1132) :- . (1)
-Applying inference rule:
-   fun(1133,766,116) :- . (1)
-Applying inference rule:
-   fun(394,1134,302) :- . (1)
-Applying inference rule:
-   fun(1135,285,710) :- . (1)
-Applying inference rule:
-   fun(715,227,1136) :- . (1)
-Applying inference rule:
-   fun(85,181,46) :- . (1)
-Applying inference rule:
-   fun(1137,740,1138) :- . (1)
-Applying inference rule:
-   fun(1139,486,1140) :- . (1)
-Applying inference rule:
-   fun(1067,467,1141) :- . (1)
-Applying inference rule:
-   fun(1142,576,1143) :- . (1)
-Applying inference rule:
-   fun(589,444,589) :- . (1)
-Applying inference rule:
-   fun(1144,464,1039) :- . (1)
-Applying inference rule:
-   fun(1145,1146,777) :- . (1)
-Applying inference rule:
-   fun(1147,762,4) :- . (1)
-Applying inference rule:
-   fun(195,243,912) :- . (1)
-Applying inference rule:
-   fun(280,1149,1148) :- . (1)
-Applying inference rule:
-   fun(1150,1151,801) :- . (1)
-Applying inference rule:
-   fun(1152,467,1153) :- . (1)
-Applying inference rule:
-   fun(1154,1069,116) :- . (1)
-Applying inference rule:
-   fun(1155,488,1098) :- . (1)
-Applying inference rule:
-   fun(1156,1126,1157) :- . (1)
-Applying inference rule:
-   fun(576,871,956) :- . (1)
-Applying inference rule:
-   fun(833,917,304) :- . (1)
-Applying inference rule:
-   fun(1158,725,348) :- . (1)
-Applying inference rule:
-   fun(1159,1063,52) :- . (1)
-Applying inference rule:
-   fun(856,630,334) :- . (1)
-Applying inference rule:
-   fun(826,5,1) :- . (1)
-Applying inference rule:
-   fun(1160,643,974) :- . (1)
-Applying inference rule:
-   fun(1161,1065,19) :- . (1)
-Applying inference rule:
-   fun(1162,1163,870) :- . (1)
-Applying inference rule:
-   fun(1141,137,1164) :- . (1)
-Applying inference rule:
-   fun(885,256,911) :- . (1)
-Applying inference rule:
-   fun(1165,335,629) :- . (1)
-Applying inference rule:
-   fun(1166,322,1167) :- . (1)
-Applying inference rule:
-   fun(165,1002,376) :- . (1)
-Applying inference rule:
-   fun(1168,503,1169) :- . (1)
-Applying inference rule:
-   fun(331,471,375) :- . (1)
-Applying inference rule:
-   fun(743,380,608) :- . (1)
-Applying inference rule:
-   fun(261,616,273) :- . (1)
-Applying inference rule:
-   fun(475,1163,576) :- . (1)
-Applying inference rule:
-   fun(477,1170,261) :- . (1)
-Applying inference rule:
-   fun(1171,150,149) :- . (1)
-Applying inference rule:
-   fun(1172,1173,1130) :- . (1)
-Applying inference rule:
-   fun(1174,1175,550) :- . (1)
-Applying inference rule:
-   fun(1176,1177,869) :- . (1)
-Applying inference rule:
-   fun(1178,955,116) :- . (1)
-Applying inference rule:
-   fun(130,67,1) :- . (1)
-Applying inference rule:
-   fun(312,173,1) :- . (1)
-Applying inference rule:
-   fun(415,986,389) :- . (1)
-Applying inference rule:
-   fun(1179,368,13) :- . (1)
-Applying inference rule:
-   fun(1180,349,724) :- . (1)
-Applying inference rule:
-   fun(1181,771,7) :- . (1)
-Applying inference rule:
-   fun(19,289,452) :- . (1)
-Applying inference rule:
-   fun(1182,876,1183) :- . (1)
-Applying inference rule:
-   fun(206,1184,56) :- . (1)
-Applying inference rule:
-   fun(1185,1091,390) :- . (1)
-Applying inference rule:
-   fun(1186,586,13) :- . (1)
-Applying inference rule:
-   fun(1187,926,34) :- . (1)
-Applying inference rule:
-   fun(1188,846,258) :- . (1)
-Applying inference rule:
-   fun(175,173,1) :- . (1)
-Applying inference rule:
-   fun(1189,247,332) :- . (1)
-Applying inference rule:
-   fun(1144,569,116) :- . (1)
-Applying inference rule:
-   fun(1190,471,195) :- . (1)
-Applying inference rule:
-   fun(1191,256,447) :- . (1)
-Applying inference rule:
-   fun(1148,892,806) :- . (1)
-Applying inference rule:
-   fun(715,227,1192) :- . (1)
-Applying inference rule:
-   fun(1193,111,4) :- . (1)
-Applying inference rule:
-   fun(825,191,1) :- . (1)
-Applying inference rule:
-   fun(1194,598,1) :- . (1)
-Applying inference rule:
-   fun(831,366,490) :- . (1)
-Applying inference rule:
-   fun(1195,114,480) :- . (1)
-Applying inference rule:
-   fun(1016,584,1) :- . (1)
-Applying inference rule:
-   fun(419,877,842) :- . (1)
-Applying inference rule:
-   fun(1196,1162,777) :- . (1)
-Applying inference rule:
-   fun(1197,463,195) :- . (1)
-Applying inference rule:
-   fun(31,1198,69) :- . (1)
-Applying inference rule:
-   fun(310,311,526) :- . (1)
-Applying inference rule:
-   fun(525,311,1199) :- . (1)
-Applying inference rule:
-   fun(536,1054,1200) :- . (1)
-Applying inference rule:
-   fun(1201,1203,1202) :- . (1)
-Applying inference rule:
-   fun(1204,436,527) :- . (1)
-Applying inference rule:
-   fun(1083,442,116) :- . (1)
+   fun(786,182,75) :- . (1)
 Applying inference rule:
    eq(x:Z1,y:Z0) :- eq(y:Z0,x:Z1). (1)
 Applying inference rule:
    fun(x:Z0,f:Z1,z:Z3) :- fun(x:Z0,f:Z1,y:Z2), eq(z:Z3,y:Z2). (1)
 Applying inference rule:
    eq(x:Z0,y:Z3) :- fun(x:Z0,f:Z1,z:Z2), fun(y:Z3,f:Z1,z:Z2). (1)
-Resizing node table from 32203 to 64403
+Resizing node table from 16103 to 32203
 Applying inference rule:
    eq(x:Z1,y:Z0) :- eq(y:Z0,x:Z1). (2)
 Applying inference rule:
@@ -1651,7 +1650,6 @@ Applying inference rule:
    fun(x:Z0,f:Z1,z:Z3) :- fun(x:Z0,f:Z1,y:Z2), eq(z:Z3,y:Z2). (inc) (3)
 Applying inference rule:
    eq(x:Z0,y:Z3) :- fun(x:Z0,f:Z1,z:Z2), fun(y:Z3,f:Z1,z:Z2). (inc) (2)
-Resizing node table from 64403 to 114377
 Applying inference rule:
    eq(x:Z1,y:Z0) :- eq(y:Z0,x:Z1). (inc) (3)
 Applying inference rule:
@@ -1684,3261 +1682,3261 @@ Applying inference rule:
    eq(x:Z0,y:Z3) :- fun(x:Z0,f:Z1,z:Z2), fun(y:Z3,f:Z1,z:Z2). (inc) (6)
 Applying inference rule:
    eq(x:Z0,z:Z2) :- eq(x:Z0,y:Z1), eq(y:Z1,z:Z2). (inc) (4)
-done. (257 ms)
-SOLVE_TIME=257
-MAX_NODES=114377
-FINAL_NODES=84151
-Rule fun(3,5,4) :- .
+done. (163 ms)
+SOLVE_TIME=163
+MAX_NODES=32203
+FINAL_NODES=22725
+Rule fun(2,147,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(6,8,7) :- .
+Rule fun(6,248,7) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15,17,16) :- .
+Rule fun(8,268,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(18,20,19) :- .
+Rule fun(10,46,11) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(24,26,25) :- .
+Rule fun(12,380,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(30,32,31) :- .
+Rule fun(16,347,17) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(33,35,34) :- .
+Rule fun(20,226,21) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(39,41,40) :- .
+Rule fun(22,271,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(51,53,52) :- .
+Rule fun(24,264,25) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(54,56,55) :- .
+Rule fun(28,172,29) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(57,58,1) :- .
+Rule fun(30,205,31) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(62,64,63) :- .
+Rule fun(32,342,33) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(65,66,1) :- .
+Rule fun(34,174,35) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(65,67,1) :- .
+Rule fun(38,122,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(68,70,69) :- .
+Rule fun(39,266,40) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(73,74,1) :- .
+Rule fun(41,280,42) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(75,77,76) :- .
+Rule fun(43,131,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(81,82,13) :- .
+Rule fun(44,225,45) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(83,84,4) :- .
+Rule fun(46,347,47) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(85,86,1) :- .
+Rule fun(49,176,50) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(45,90,1) :- .
+Rule fun(51,155,52) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(91,74,1) :- .
+Rule fun(54,129,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(94,96,95) :- .
+Rule fun(55,150,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(97,99,98) :- .
+Rule fun(30,115,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(100,102,101) :- .
+Rule fun(59,208,31) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(103,105,104) :- .
+Rule fun(60,220,61) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(105,109,108) :- .
+Rule fun(62,238,63) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(110,111,1) :- .
+Rule fun(66,331,67) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(115,117,116) :- .
+Rule fun(71,111,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(121,122,1) :- .
+Rule fun(72,311,73) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(125,127,126) :- .
+Rule fun(74,193,75) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(130,132,131) :- .
+Rule fun(76,244,77) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(138,140,139) :- .
+Rule fun(78,149,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(141,143,142) :- .
+Rule fun(79,347,80) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(144,146,145) :- .
+Rule fun(81,22,82) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(0,147,1) :- .
+Rule fun(83,143,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(148,150,149) :- .
+Rule fun(84,188,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(151,153,152) :- .
+Rule fun(86,331,87) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(154,155,1) :- .
+Rule fun(90,7,91) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(156,158,157) :- .
+Rule fun(92,349,93) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(161,163,162) :- .
+Rule fun(94,286,95) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(164,165,131) :- .
+Rule fun(0,126,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(169,171,170) :- .
+Rule fun(96,59,97) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(172,174,173) :- .
+Rule fun(98,267,99) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(175,176,1) :- .
+Rule fun(100,152,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(177,179,178) :- .
+Rule fun(101,213,102) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(180,181,28) :- .
+Rule fun(104,327,105) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(182,184,183) :- .
+Rule fun(106,185,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(185,187,186) :- .
+Rule fun(107,379,108) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(188,189,182) :- .
+Rule fun(109,312,110) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(190,191,4) :- .
+Rule fun(113,134,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(194,196,195) :- .
+Rule fun(114,289,115) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(197,199,198) :- .
+Rule fun(117,377,118) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(200,201,28) :- .
+Rule fun(119,316,120) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(202,204,203) :- .
+Rule fun(121,374,117) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(205,207,206) :- .
+Rule fun(122,148,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(208,209,46) :- .
+Rule fun(123,174,124) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(212,214,213) :- .
+Rule fun(125,336,126) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(215,217,216) :- .
+Rule fun(129,207,19) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(218,220,219) :- .
+Rule fun(130,359,131) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(221,223,222) :- .
+Rule fun(132,10,133) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(224,58,4) :- .
+Rule fun(134,211,31) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(225,227,226) :- .
+Rule fun(135,247,136) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(228,229,13) :- .
+Rule fun(139,58,140) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(230,232,231) :- .
+Rule fun(141,252,142) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(233,56,234) :- .
+Rule fun(143,57,144) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(235,237,236) :- .
+Rule fun(145,122,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(238,240,239) :- .
+Rule fun(146,326,147) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(241,242,4) :- .
+Rule fun(149,89,150) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(179,244,243) :- .
+Rule fun(151,104,152) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(245,247,246) :- .
+Rule fun(153,83,154) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(250,251,52) :- .
+Rule fun(157,121,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(252,253,131) :- .
+Rule fun(158,39,159) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(254,256,255) :- .
+Rule fun(160,245,161) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(257,259,258) :- .
+Rule fun(163,99,35) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(263,265,264) :- .
+Rule fun(164,186,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(266,268,267) :- .
+Rule fun(167,71,168) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(269,271,270) :- .
+Rule fun(169,246,170) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(272,274,273) :- .
+Rule fun(171,34,172) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(275,276,186) :- .
+Rule fun(173,237,174) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(279,281,280) :- .
+Rule fun(175,284,176) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(92,282,1) :- .
+Rule fun(177,107,178) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(283,284,131) :- .
+Rule fun(179,285,120) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(285,286,56) :- .
+Rule fun(180,58,181) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(287,289,288) :- .
+Rule fun(182,105,183) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(292,294,293) :- .
+Rule fun(59,137,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(295,296,193) :- .
+Rule fun(184,196,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(297,299,298) :- .
+Rule fun(187,109,188) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(208,306,1) :- .
+Rule fun(189,235,64) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(307,309,308) :- .
+Rule fun(190,254,191) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(310,311,161) :- .
+Rule fun(192,80,124) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(312,201,46) :- .
+Rule fun(193,372,194) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(313,232,166) :- .
+Rule fun(195,314,196) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(314,253,116) :- .
+Rule fun(197,346,198) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(315,317,316) :- .
+Rule fun(134,151,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(318,319,19) :- .
+Rule fun(199,82,200) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(320,322,321) :- .
+Rule fun(201,221,104) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(323,324,34) :- .
+Rule fun(202,207,31) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(325,326,4) :- .
+Rule fun(203,89,107) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(327,328,131) :- .
+Rule fun(205,362,206) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(329,330,116) :- .
+Rule fun(207,332,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(331,206,1) :- .
+Rule fun(208,156,209) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(332,173,4) :- .
+Rule fun(210,275,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(333,335,334) :- .
+Rule fun(211,154,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(339,89,340) :- .
+Rule fun(212,189,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(341,342,19) :- .
+Rule fun(213,197,75) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(343,299,344) :- .
+Rule fun(214,139,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(345,191,1) :- .
+Rule fun(215,135,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(346,15,304) :- .
+Rule fun(218,64,219) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(347,349,348) :- .
+Rule fun(220,291,221) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(350,352,351) :- .
+Rule fun(222,370,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(356,357,310) :- .
+Rule fun(223,372,224) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(358,359,131) :- .
+Rule fun(225,148,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(69,360,56) :- .
+Rule fun(226,353,198) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(361,362,13) :- .
+Rule fun(227,318,228) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(363,364,19) :- .
+Rule fun(229,177,230) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(365,366,79) :- .
+Rule fun(231,61,232) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(367,368,34) :- .
+Rule fun(233,222,201) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(369,17,370) :- .
+Rule fun(234,199,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(371,147,4) :- .
+Rule fun(235,269,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(372,264,373) :- .
+Rule fun(236,278,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(374,196,375) :- .
+Rule fun(237,76,52) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(376,377,179) :- .
+Rule fun(238,265,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(378,380,379) :- .
+Rule fun(239,46,240) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(383,282,1) :- .
+Rule fun(241,126,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(384,309,149) :- .
+Rule fun(242,249,243) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(385,302,386) :- .
+Rule fun(244,336,245) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(387,205,4) :- .
+Rule fun(246,28,158) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(388,368,13) :- .
+Rule fun(247,75,248) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(389,391,390) :- .
+Rule fun(249,140,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(246,392,119) :- .
+Rule fun(250,137,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(393,394,13) :- .
+Rule fun(251,82,97) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(397,132,116) :- .
+Rule fun(252,314,253) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(398,376,304) :- .
+Rule fun(254,117,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(399,400,131) :- .
+Rule fun(255,265,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(401,249,42) :- .
+Rule fun(256,65,257) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(402,404,403) :- .
+Rule fun(161,255,77) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(405,407,406) :- .
+Rule fun(258,274,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(170,409,408) :- .
+Rule fun(259,235,260) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(410,411,1) :- .
+Rule fun(261,188,75) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(412,413,52) :- .
+Rule fun(262,239,198) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(414,415,260) :- .
+Rule fun(263,187,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(416,355,417) :- .
+Rule fun(264,161,28) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(418,419,414) :- .
+Rule fun(265,251,266) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(420,422,421) :- .
+Rule fun(267,52,268) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(423,424,131) :- .
+Rule fun(110,320,269) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(425,427,426) :- .
+Rule fun(270,141,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(16,430,56) :- .
+Rule fun(271,97,35) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(431,138,227) :- .
+Rule fun(272,365,169) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(432,302,301) :- .
+Rule fun(273,61,274) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(433,434,1) :- .
+Rule fun(275,344,272) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(435,436,118) :- .
+Rule fun(276,364,277) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(439,440,131) :- .
+Rule fun(278,198,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(441,442,131) :- .
+Rule fun(279,84,280) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(443,444,332) :- .
+Rule fun(281,342,282) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(445,247,446) :- .
+Rule fun(11,53,186) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(447,77,213) :- .
+Rule fun(285,314,196) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(346,448,116) :- .
+Rule fun(286,138,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(449,376,142) :- .
+Rule fun(287,230,76) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(450,451,4) :- .
+Rule fun(288,167,102) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(452,453,56) :- .
+Rule fun(289,165,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(454,77,134) :- .
+Rule fun(290,182,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(455,456,379) :- .
+Rule fun(291,355,215) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(457,127,458) :- .
+Rule fun(292,245,293) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(461,176,4) :- .
+Rule fun(294,176,138) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(462,463,375) :- .
+Rule fun(226,192,75) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(52,464,78) :- .
+Rule fun(295,239,93) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(465,467,466) :- .
+Rule fun(297,160,186) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(468,438,28) :- .
+Rule fun(298,176,87) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(469,440,116) :- .
+Rule fun(299,74,248) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(472,129,1) :- .
+Rule fun(300,22,301) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(407,174,176) :- .
+Rule fun(302,254,303) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(62,473,4) :- .
+Rule fun(304,134,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(211,475,474) :- .
+Rule fun(305,340,245) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(476,478,477) :- .
+Rule fun(35,95,51) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(479,5,1) :- .
+Rule fun(306,309,307) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(480,482,481) :- .
+Rule fun(308,167,19) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(283,484,157) :- .
+Rule fun(309,165,75) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(241,486,485) :- .
+Rule fun(310,339,245) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(48,488,487) :- .
+Rule fun(312,9,313) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(489,491,490) :- .
+Rule fun(41,116,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(492,50,493) :- .
+Rule fun(136,258,314) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(457,494,264) :- .
+Rule fun(315,108,316) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(495,497,496) :- .
+Rule fun(317,147,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(498,404,499) :- .
+Rule fun(318,310,319) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(500,501,186) :- .
+Rule fun(320,249,63) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(162,503,502) :- .
+Rule fun(184,209,102) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(504,505,293) :- .
+Rule fun(157,333,321) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(508,467,509) :- .
+Rule fun(32,341,322) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(510,125,46) :- .
+Rule fun(323,378,324) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(503,512,511) :- .
+Rule fun(325,342,326) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(516,515,517) :- .
+Rule fun(300,29,172) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(518,86,1) :- .
+Rule fun(327,110,328) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(519,268,9) :- .
+Rule fun(329,251,330) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(239,129,1) :- .
+Rule fun(331,294,120) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(512,520,176) :- .
+Rule fun(105,356,332) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(521,306,1) :- .
+Rule fun(333,243,191) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(198,523,522) :- .
+Rule fun(334,214,102) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(79,524,481) :- .
+Rule fun(335,309,336) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(525,311,526) :- .
+Rule fun(337,206,31) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(527,247,528) :- .
+Rule fun(338,47,339) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(530,434,4) :- .
+Rule fun(340,322,341) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(531,532,360) :- .
+Rule fun(342,322,343) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(423,209,157) :- .
+Rule fun(344,150,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(533,29,46) :- .
+Rule fun(345,237,6) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(534,535,458) :- .
+Rule fun(156,143,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(490,524,536) :- .
+Rule fun(346,8,313) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(310,311,537) :- .
+Rule fun(347,151,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(538,214,76) :- .
+Rule fun(128,290,348) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(539,540,19) :- .
+Rule fun(349,221,350) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(541,444,246) :- .
+Rule fun(351,245,352) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(542,150,543) :- .
+Rule fun(353,208,102) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(106,125,157) :- .
+Rule fun(354,138,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(544,546,545) :- .
+Rule fun(355,50,356) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(547,548,4) :- .
+Rule fun(278,211,102) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(549,377,523) :- .
+Rule fun(357,212,31) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(550,551,522) :- .
+Rule fun(324,68,359) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(76,553,552) :- .
+Rule fun(201,221,360) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(554,555,4) :- .
+Rule fun(361,330,50) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(556,558,557) :- .
+Rule fun(362,166,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(559,560,264) :- .
+Rule fun(363,355,161) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(381,448,131) :- .
+Rule fun(364,59,365) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(563,564,193) :- .
+Rule fun(366,81,367) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(565,566,480) :- .
+Rule fun(368,119,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(567,86,4) :- .
+Rule fun(369,28,370) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(568,569,131) :- .
+Rule fun(371,223,348) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(570,309,149) :- .
+Rule fun(50,216,372) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(571,90,4) :- .
+Rule fun(373,124,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(572,281,408) :- .
+Rule fun(374,283,375) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(573,181,157) :- .
+Rule fun(376,30,172) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(577,578,1) :- .
+Rule fun(249,192,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(579,434,1) :- .
+Rule fun(377,267,378) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(580,582,581) :- .
+Rule fun(379,78,124) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(583,584,1) :- .
+Rule fun(380,299,318) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(585,586,34) :- .
+Rule fun(381,150,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(587,413,193) :- .
+Rule fun(382,94,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(588,247,589) :- .
+Rule fun(383,82,97) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(590,591,201) :- .
+Rule fun(384,115,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(594,596,595) :- .
+Rule fun(386,210,102) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(597,598,4) :- .
+Rule fun(387,302,388) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(599,600,1) :- .
+Rule fun(389,112,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(314,400,116) :- .
+Rule fun(390,138,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(601,602,19) :- .
+Rule fun(391,321,392) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(603,604,379) :- .
+Rule fun(393,144,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(605,606,592) :- .
+Rule fun(394,276,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(607,604,608) :- .
+Rule fun(395,97,124) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(609,611,610) :- .
+Rule fun(396,245,397) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(612,391,613) :- .
+Rule fun(398,23,399) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(614,82,13) :- .
+Rule fun(400,96,186) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(615,616,273) :- .
+Rule fun(401,240,402) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(193,617,195) :- .
+Rule fun(403,128,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(618,189,619) :- .
+Rule fun(404,127,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(620,8,389) :- .
+Rule fun(204,187,75) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(522,621,260) :- .
+Rule fun(405,328,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(622,424,116) :- .
+Rule fun(406,55,248) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(399,623,1) :- .
+Rule fun(407,181,400) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(624,217,222) :- .
+Rule fun(408,55,409) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(625,457,116) :- .
+Rule fun(410,329,411) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(626,105,213) :- .
+Rule fun(412,65,413) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(627,427,628) :- .
+Rule fun(414,281,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(81,473,1) :- .
+Rule fun(415,158,178) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(225,630,629) :- .
+Rule fun(124,93,126) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(631,41,632) :- .
+Rule fun(416,374,417) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(633,201,157) :- .
+Rule fun(418,67,256) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(55,322,634) :- .
+Rule fun(348,231,169) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(635,590,1) :- .
+Rule fun(419,198,75) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(636,637,193) :- .
+Rule fun(263,130,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(638,639,19) :- .
+Rule fun(420,58,144) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(34,179,640) :- .
+Rule fun(421,195,75) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(641,643,642) :- .
+Rule fun(422,331,138) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(644,99,373) :- .
+Rule fun(423,84,424) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(645,139,4) :- .
+Rule fun(53,116,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(646,382,4) :- .
+Rule fun(146,86,425) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(647,38,648) :- .
+Rule fun(426,282,427) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(649,168,650) :- .
+Rule fun(428,207,102) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(651,240,128) :- .
+Rule fun(37,156,429) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(652,484,28) :- .
+Rule fun(430,146,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(653,422,654) :- .
+Rule fun(431,175,124) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(655,256,454) :- .
+Rule fun(432,91,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(656,284,116) :- .
+Rule fun(23,289,433) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(657,658,447) :- .
+Rule fun(434,293,435) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(533,155,1) :- .
+Rule fun(436,238,243) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(659,660,39) :- .
+Rule fun(437,120,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(661,285,662) :- .
+Rule fun(439,264,440) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(663,664,19) :- .
+Rule fun(441,379,442) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(665,667,666) :- .
+Rule fun(444,209,19) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(668,220,669) :- .
+Rule fun(445,364,446) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(670,214,104) :- .
+Rule fun(447,162,298) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(671,229,13) :- .
+Rule fun(448,196,75) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(673,122,4) :- .
+Rule fun(449,315,294) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(674,675,429) :- .
+Rule fun(357,152,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(676,317,677) :- .
+Rule fun(450,261,26) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(678,58,1) :- .
+Rule fun(451,219,452) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(446,444,446) :- .
+Rule fun(453,368,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(679,302,301) :- .
+Rule fun(454,334,455) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(680,309,543) :- .
+Rule fun(456,252,457) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(681,229,34) :- .
+Rule fun(458,330,67) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(637,682,360) :- .
+Rule fun(459,279,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(683,23,42) :- .
+Rule fun(460,128,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(685,686,4) :- .
+Rule fun(461,149,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(687,688,1) :- .
+Rule fun(462,363,282) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(689,394,13) :- .
+Rule fun(463,362,464) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(690,362,13) :- .
+Rule fun(465,122,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(691,692,264) :- .
+Rule fun(293,355,293) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(693,694,34) :- .
+Rule fun(466,314,196) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(32,695,35) :- .
+Rule fun(467,82,365) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(696,697,1) :- .
+Rule fun(469,18,356) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(35,698,56) :- .
+Rule fun(470,306,28) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(699,611,700) :- .
+Rule fun(471,117,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(701,702,42) :- .
+Rule fun(472,145,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(703,299,704) :- .
+Rule fun(473,113,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(705,675,706) :- .
+Rule fun(474,274,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(707,242,1) :- .
+Rule fun(475,269,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(509,137,708) :- .
+Rule fun(476,33,172) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(360,709,56) :- .
+Rule fun(477,270,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(710,711,56) :- .
+Rule fun(478,26,479) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(387,712,116) :- .
+Rule fun(480,114,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(713,422,714) :- .
+Rule fun(479,37,186) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(715,227,716) :- .
+Rule fun(481,329,482) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(529,717,131) :- .
+Rule fun(483,361,28) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(718,719,313) :- .
+Rule fun(484,372,485) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(720,2,4) :- .
+Rule fun(486,363,487) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(721,722,19) :- .
+Rule fun(488,121,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(723,725,724) :- .
+Rule fun(336,317,489) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(726,727,1) :- .
+Rule fun(356,27,186) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(728,730,729) :- .
+Rule fun(490,228,186) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(731,214,732) :- .
+Rule fun(254,183,75) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(736,738,737) :- .
+Rule fun(491,364,492) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(739,740,508) :- .
+Rule fun(493,326,494) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(645,163,741) :- .
+Rule fun(353,191,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(214,109,531) :- .
+Rule fun(496,125,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(715,227,742) :- .
+Rule fun(497,352,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(743,745,744) :- .
+Rule fun(498,366,499) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(746,748,747) :- .
+Rule fun(500,136,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(749,750,19) :- .
+Rule fun(501,288,502) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(409,751,348) :- .
+Rule fun(505,169,506) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(752,753,19) :- .
+Rule fun(507,180,508) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(754,82,34) :- .
+Rule fun(509,296,335) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(383,727,1) :- .
+Rule fun(437,327,510) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(46,697,1) :- .
+Rule fun(511,43,355) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(755,204,756) :- .
+Rule fun(493,326,512) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(757,125,28) :- .
+Rule fun(513,308,514) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(121,484,46) :- .
+Rule fun(515,297,516) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(354,237,761) :- .
+Rule fun(517,373,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(510,762,1) :- .
+Rule fun(518,42,228) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(763,764,365) :- .
+Rule fun(519,371,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(765,172,348) :- .
+Rule fun(250,136,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(156,766,131) :- .
+Rule fun(31,114,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(767,326,1) :- .
+Rule fun(521,359,522) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(768,546,769) :- .
+Rule fun(523,206,19) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(770,771,389) :- .
+Rule fun(524,90,525) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(772,617,375) :- .
+Rule fun(78,209,31) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(773,64,774) :- .
+Rule fun(232,83,526) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(113,482,536) :- .
+Rule fun(337,132,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(775,776,19) :- .
+Rule fun(527,56,237) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(777,778,476) :- .
+Rule fun(528,54,228) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(416,338,779) :- .
+Rule fun(101,200,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(781,760,313) :- .
+Rule fun(529,154,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(731,214,134) :- .
+Rule fun(530,81,531) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(782,220,783) :- .
+Rule fun(532,66,256) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(225,227,784) :- .
+Rule fun(533,93,245) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(785,150,308) :- .
+Rule fun(534,280,535) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(786,107,4) :- .
+Rule fun(73,310,359) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(787,2,1) :- .
+Rule fun(536,164,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(788,789,737) :- .
+Rule fun(537,88,315) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(790,184,489) :- .
+Rule fun(273,64,538) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(791,14,34) :- .
+Rule fun(360,334,539) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(599,196,375) :- .
+Rule fun(540,90,203) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(792,793,56) :- .
+Rule fun(503,330,87) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(213,553,794) :- .
+Rule fun(541,252,542) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(795,407,257) :- .
+Rule fun(146,326,543) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(796,394,34) :- .
+Rule fun(544,59,200) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(797,369,19) :- .
+Rule fun(545,133,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(798,584,4) :- .
+Rule fun(546,125,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(95,800,799) :- .
+Rule fun(547,179,508) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(801,96,435) :- .
+Rule fun(548,377,323) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(802,803,729) :- .
+Rule fun(549,268,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(804,805,68) :- .
+Rule fun(404,336,245) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(806,158,28) :- .
+Rule fun(550,171,186) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(333,338,384) :- .
+Rule fun(138,216,551) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(169,809,808) :- .
+Rule fun(553,274,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(810,811,481) :- .
+Rule fun(554,354,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(44,812,285) :- .
+Rule fun(555,144,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(813,814,56) :- .
+Rule fun(61,229,556) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(815,546,592) :- .
+Rule fun(557,220,287) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(474,816,629) :- .
+Rule fun(558,298,502) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(817,431,747) :- .
+Rule fun(559,218,44) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(818,819,724) :- .
+Rule fun(560,213,19) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(820,451,1) :- .
+Rule fun(216,64,251) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(821,658,255) :- .
+Rule fun(561,329,482) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(822,451,1) :- .
+Rule fun(109,102,562) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(823,824,19) :- .
+Rule fun(563,202,319) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(826,590,1) :- .
+Rule fun(564,17,185) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(470,382,1) :- .
+Rule fun(565,256,186) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(827,357,828) :- .
+Rule fun(566,81,400) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(829,675,49) :- .
+Rule fun(314,85,425) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(830,832,831) :- .
+Rule fun(567,287,516) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(833,717,116) :- .
+Rule fun(569,142,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(834,160,34) :- .
+Rule fun(570,315,166) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(86,835,56) :- .
+Rule fun(571,142,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(255,77,732) :- .
+Rule fun(572,367,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(594,247,836) :- .
+Rule fun(573,340,245) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(837,566,113) :- .
+Rule fun(574,146,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(838,362,34) :- .
+Rule fun(310,140,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(715,227,839) :- .
+Rule fun(575,222,576) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(840,841,19) :- .
+Rule fun(577,363,33) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(842,407,843) :- .
+Rule fun(578,72,579) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(844,846,845) :- .
+Rule fun(580,191,75) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(140,847,111) :- .
+Rule fun(581,272,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(848,850,849) :- .
+Rule fun(582,15,186) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(851,686,1) :- .
+Rule fun(166,176,504) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(852,296,52) :- .
+Rule fun(401,245,583) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(853,285,854) :- .
+Rule fun(584,299,73) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(573,330,131) :- .
+Rule fun(585,269,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(855,223,216) :- .
+Rule fun(493,326,586) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(856,165,116) :- .
+Rule fun(587,345,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(858,688,1) :- .
+Rule fun(588,52,589) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(772,859,1) :- .
+Rule fun(590,51,591) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(715,227,860) :- .
+Rule fun(592,6,593) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(89,244,105) :- .
+Rule fun(596,145,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(252,600,1) :- .
+Rule fun(597,80,35) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(217,862,66) :- .
+Rule fun(598,219,599) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(863,586,13) :- .
+Rule fun(600,57,140) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(864,35,13) :- .
+Rule fun(601,185,75) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(642,745,865) :- .
+Rule fun(602,74,409) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(633,866,131) :- .
+Rule fun(603,113,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(867,274,273) :- .
+Rule fun(533,92,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(868,176,1) :- .
+Rule fun(493,326,604) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(186,870,869) :- .
+Rule fun(605,39,69) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(57,242,1) :- .
+Rule fun(164,127,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(870,871,503) :- .
+Rule fun(606,119,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(426,873,872) :- .
+Rule fun(607,11,608) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(874,875,193) :- .
+Rule fun(609,276,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(876,877,795) :- .
+Rule fun(610,271,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(878,880,879) :- .
+Rule fun(435,308,611) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(822,117,131) :- .
+Rule fun(428,190,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(881,882,116) :- .
+Rule fun(612,107,178) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(883,549,19) :- .
+Rule fun(613,134,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(28,884,310) :- .
+Rule fun(120,301,614) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4,497,885) :- .
+Rule fun(38,121,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(133,105,732) :- .
+Rule fun(615,40,338) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(596,377,271) :- .
+Rule fun(280,103,616) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(886,155,4) :- .
+Rule fun(617,98,124) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(887,488,674) :- .
+Rule fun(618,45,552) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(888,564,52) :- .
+Rule fun(619,227,620) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(890,891,56) :- .
+Rule fun(571,193,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(733,892,297) :- .
+Rule fun(621,184,75) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(893,422,894) :- .
+Rule fun(622,241,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(895,819,348) :- .
+Rule fun(3,110,623) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(896,859,1) :- .
+Rule fun(86,331,504) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(897,898,193) :- .
+Rule fun(624,28,625) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(433,206,1) :- .
+Rule fun(626,152,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(899,900,19) :- .
+Rule fun(627,341,462) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(901,606,902) :- .
+Rule fun(628,78,35) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(10,903,56) :- .
+Rule fun(630,106,186) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(904,143,304) :- .
+Rule fun(505,170,193) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(905,240,906) :- .
+Rule fun(631,364,632) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(907,422,908) :- .
+Rule fun(633,163,228) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(909,910,210) :- .
+Rule fun(634,92,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(865,658,911) :- .
+Rule fun(635,79,124) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(441,47,157) :- .
+Rule fun(286,139,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(164,139,1) :- .
+Rule fun(636,350,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(912,317,913) :- .
+Rule fun(637,181,638) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(914,915,595) :- .
+Rule fun(289,112,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(916,917,142) :- .
+Rule fun(7,260,186) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(918,875,52) :- .
+Rule fun(639,349,198) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(919,243,920) :- .
+Rule fun(640,358,641) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(921,497,496) :- .
+Rule fun(642,364,643) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(922,179,178) :- .
+Rule fun(644,234,135) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(923,688,4) :- .
+Rule fun(611,315,645) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(29,924,35) :- .
+Rule fun(290,205,102) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(925,926,13) :- .
+Rule fun(106,120,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(225,227,927) :- .
+Rule fun(646,362,647) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(929,256,930) :- .
+Rule fun(648,253,402) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(904,866,116) :- .
+Rule fun(649,351,93) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(931,932,557) :- .
+Rule fun(650,98,35) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(933,606,769) :- .
+Rule fun(651,338,652) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(934,936,935) :- .
+Rule fun(653,110,328) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(937,299,938) :- .
+Rule fun(654,289,115) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(939,816,334) :- .
+Rule fun(655,113,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(940,940,56) :- .
+Rule fun(656,24,479) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(941,942,1) :- .
+Rule fun(657,273,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(943,944,203) :- .
+Rule fun(146,326,658) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(946,944,756) :- .
+Rule fun(501,31,172) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(947,948,19) :- .
+Rule fun(659,162,660) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(225,227,949) :- .
+Rule fun(661,292,375) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(541,392,950) :- .
+Rule fun(662,181,531) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(671,473,1) :- .
+Rule fun(663,304,664) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(951,590,4) :- .
+Rule fun(665,372,666) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(528,444,528) :- .
+Rule fun(667,85,217) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(243,953,952) :- .
+Rule fun(668,5,186) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(358,29,157) :- .
+Rule fun(669,118,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(724,954,490) :- .
+Rule fun(670,360,131) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(698,140,205) :- .
+Rule fun(671,360,522) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(506,955,131) :- .
+Rule fun(672,369,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(767,507,46) :- .
+Rule fun(146,326,673) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(956,512,957) :- .
+Rule fun(363,255,674) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(708,959,958) :- .
+Rule fun(459,116,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(271,138,227) :- .
+Rule fun(675,146,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(961,962,737) :- .
+Rule fun(352,355,352) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(963,14,13) :- .
+Rule fun(159,44,676) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(964,243,920) :- .
+Rule fun(234,212,102) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(965,967,966) :- .
+Rule fun(499,49,324) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(225,227,968) :- .
+Rule fun(677,7,132) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(225,227,969) :- .
+Rule fun(334,201,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(970,35,13) :- .
+Rule fun(529,214,31) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(971,600,4) :- .
+Rule fun(678,47,679) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(972,762,1) :- .
+Rule fun(489,323,680) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(973,305,142) :- .
+Rule fun(681,234,260) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(270,975,974) :- .
+Rule fun(625,38,284) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(976,606,545) :- .
+Rule fun(682,178,508) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(977,959,978) :- .
+Rule fun(683,268,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(91,158,46) :- .
+Rule fun(685,259,686) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(979,324,13) :- .
+Rule fun(146,326,687) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(980,694,13) :- .
+Rule fun(146,326,688) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(827,660,631) :- .
+Rule fun(689,271,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(981,982,19) :- .
+Rule fun(691,132,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(983,623,4) :- .
+Rule fun(692,346,93) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(984,811,536) :- .
+Rule fun(176,300,693) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(824,986,7) :- .
+Rule fun(694,181,367) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(350,735,734) :- .
+Rule fun(695,323,696) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(987,926,13) :- .
+Rule fun(58,213,31) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(988,989,19) :- .
+Rule fun(697,275,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(990,548,1) :- .
+Rule fun(698,270,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(991,576,992) :- .
+Rule fun(575,261,426) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(974,745,185) :- .
+Rule fun(699,263,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(348,954,79) :- .
+Rule fun(700,130,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(993,800,519) :- .
+Rule fun(701,202,359) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(994,658,454) :- .
+Rule fun(702,129,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(995,942,4) :- .
+Rule fun(703,48,5) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(997,90,1) :- .
+Rule fun(229,169,506) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(998,832,365) :- .
+Rule fun(704,273,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(999,61,1000) :- .
+Rule fun(705,348,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(543,546,902) :- .
+Rule fun(706,119,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(54,873,1001) :- .
+Rule fun(707,302,708) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(253,1002,596) :- .
+Rule fun(693,308,119) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1003,576,1004) :- .
+Rule fun(228,49,52) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1005,422,1006) :- .
+Rule fun(710,315,298) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1007,359,116) :- .
+Rule fun(711,118,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(614,712,131) :- .
+Rule fun(712,20,246) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1008,206,4) :- .
+Rule fun(713,115,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(861,139,1) :- .
+Rule fun(715,266,716) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(525,311,1009) :- .
+Rule fun(365,81,638) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1010,102,1011) :- .
+Rule fun(36,103,717) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1012,64,1013) :- .
+Rule fun(718,21,624) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(851,1015,131) :- .
+Rule fun(719,302,720) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1016,686,1) :- .
+Rule fun(721,364,722) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(729,1017,935) :- .
+Rule fun(723,199,75) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(479,457,131) :- .
+Rule fun(414,183,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(245,120,950) :- .
+Rule fun(724,139,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1018,956,1019) :- .
+Rule fun(606,120,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(327,107,1) :- .
+Rule fun(349,221,725) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1020,306,4) :- .
+Rule fun(726,247,727) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(80,1021,56) :- .
+Rule fun(728,280,729) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1022,882,131) :- .
+Rule fun(730,19,356) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1023,658,930) :- .
+Rule fun(596,194,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(462,122,1) :- .
+Rule fun(731,145,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1024,66,4) :- .
+Rule fun(502,305,664) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1025,578,4) :- .
+Rule fun(317,195,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1026,1028,1027) :- .
+Rule fun(160,244,674) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1029,850,1030) :- .
+Rule fun(732,357,733) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(344,1031,56) :- .
+Rule fun(212,133,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1032,1033,849) :- .
+Rule fun(734,151,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1034,910,100) :- .
+Rule fun(735,16,186) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(914,444,836) :- .
+Rule fun(737,315,660) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(802,1035,264) :- .
+Rule fun(305,149,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1036,67,4) :- .
+Rule fun(739,112,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(396,102,813) :- .
+Rule fun(740,303,741) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1037,411,4) :- .
+Rule fun(742,324,743) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1038,505,460) :- .
+Rule fun(224,376,186) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(628,56,320) :- .
+Rule fun(744,325,595) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1039,80,490) :- .
+Rule fun(745,234,64) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1040,1042,1041) :- .
+Rule fun(648,355,583) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1043,967,1044) :- .
+Rule fun(558,32,172) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1045,898,52) :- .
+Rule fun(746,131,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1046,282,4) :- .
+Rule fun(260,247,565) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1047,764,831) :- .
+Rule fun(747,141,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1048,611,1049) :- .
+Rule fun(748,243,303) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(985,623,1) :- .
+Rule fun(424,104,208) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1050,50,706) :- .
+Rule fun(749,155,324) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1051,582,1052) :- .
+Rule fun(750,60,751) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1053,884,828) :- .
+Rule fun(752,259,753) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(481,1054,867) :- .
+Rule fun(754,79,35) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(787,555,1) :- .
+Rule fun(755,137,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(303,328,116) :- .
+Rule fun(756,56,579) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(183,491,79) :- .
+Rule fun(757,329,758) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1055,1033,1030) :- .
+Rule fun(702,130,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1056,1057,142) :- .
+Rule fun(759,342,487) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(374,147,1) :- .
+Rule fun(760,321,761) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1059,1060,52) :- .
+Rule fun(762,204,576) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1061,205,1) :- .
+Rule fun(319,87,612) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1062,1063,193) :- .
+Rule fun(546,124,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1064,727,4) :- .
+Rule fun(118,378,52) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1065,953,1066) :- .
+Rule fun(763,325,743) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(632,740,1067) :- .
+Rule fun(764,242,93) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1068,702,22) :- .
+Rule fun(244,126,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1007,189,790) :- .
+Rule fun(276,364,765) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(437,1069,131) :- .
+Rule fun(766,77,35) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1070,15,142) :- .
+Rule fun(767,117,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1071,915,782) :- .
+Rule fun(768,173,124) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1072,719,759) :- .
+Rule fun(769,136,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1075,326,1) :- .
+Rule fun(770,44,771) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1076,93,28) :- .
+Rule fun(427,296,772) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(858,438,46) :- .
+Rule fun(773,361,15) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1077,596,782) :- .
+Rule fun(723,374,548) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1078,1079,264) :- .
+Rule fun(288,168,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1080,1081,19) :- .
+Rule fun(774,353,93) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(954,520,173) :- .
+Rule fun(776,73,525) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(706,422,1082) :- .
+Rule fun(777,60,778) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1083,1057,304) :- .
+Rule fun(779,154,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1084,324,13) :- .
+Rule fun(780,208,19) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1085,74,4) :- .
+Rule fun(603,167,31) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1086,859,4) :- .
+Rule fun(781,240,541) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1087,535,126) :- .
+Rule fun(782,35,172) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(577,111,1) :- .
+Rule fun(783,375,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(678,66,1) :- .
+Rule fun(784,8,112) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(483,876,1089) :- .
+Rule fun(786,242,198) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(672,84,1) :- .
+Rule fun(787,275,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(568,617,375) :- .
+Rule fun(788,153,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1090,1091,613) :- .
+Rule fun(789,92,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(276,138,582) :- .
+Rule fun(790,319,82) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(8,1092,66) :- .
+Rule fun(389,111,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(820,411,1) :- .
+Rule fun(465,123,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1093,105,76) :- .
+Rule fun(57,307,186) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1094,223,278) :- .
+Rule fun(320,343,791) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1095,291,210) :- .
+Rule fun(460,129,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(258,1096,56) :- .
+Rule fun(792,62,413) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1097,555,1) :- .
+Rule fun(793,38,794) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1098,675,493) :- .
+Rule fun(795,12,608) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1099,1100,808) :- .
+Rule fun(569,141,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1102,1103,19) :- .
+Rule fun(796,331,50) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1104,259,845) :- .
+Rule fun(797,57,181) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1105,1106,145) :- .
+Rule fun(798,235,135) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1107,745,1108) :- .
+Rule fun(168,69,186) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1053,697,4) :- .
+Rule fun(799,124,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1109,47,28) :- .
+Rule fun(800,363,326) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1110,975,642) :- .
+Rule fun(801,100,562) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1111,1015,116) :- .
+Rule fun(752,258,802) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1112,637,52) :- .
+Rule fun(803,335,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1113,1042,1114) :- .
+Rule fun(804,71,591) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(222,1060,193) :- .
+Rule fun(805,295,95) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1115,1117,1116) :- .
+Rule fun(762,114,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1118,209,28) :- .
+Rule fun(808,205,19) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(582,751,724) :- .
+Rule fun(809,300,435) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1027,171,534) :- .
+Rule fun(810,194,75) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(939,64,63) :- .
+Rule fun(811,175,35) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(442,996,596) :- .
+Rule fun(812,60,813) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1122,137,1123) :- .
+Rule fun(144,77,124) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(335,1124,67) :- .
+Rule fun(814,217,815) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1125,507,28) :- .
+Rule fun(816,211,19) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(523,244,667) :- .
+Rule fun(817,291,818) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(304,1126,356) :- .
+Rule fun(819,54,499) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1127,694,13) :- .
+Rule fun(741,312,358) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(930,77,104) :- .
+Rule fun(667,280,42) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1128,160,13) :- .
+Rule fun(820,20,624) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1129,251,193) :- .
+Rule fun(821,317,822) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1130,1131,476) :- .
+Rule fun(823,13,824) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22,44,1132) :- .
+Rule fun(825,214,19) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1133,766,116) :- .
+Rule fun(370,39,826) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(394,1134,302) :- .
+Rule fun(198,250,233) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1135,285,710) :- .
+Rule fun(660,176,67) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(715,227,1136) :- .
+Rule fun(828,272,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(85,181,46) :- .
+Rule fun(829,99,124) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1137,740,1138) :- .
+Rule fun(830,232,315) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1139,486,1140) :- .
+Rule fun(15,172,831) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1067,467,1141) :- .
+Rule fun(832,200,75) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1142,576,1143) :- .
+Rule fun(833,41,834) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(589,444,589) :- .
+Rule fun(835,219,490) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1144,464,1039) :- .
+Rule fun(493,326,836) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1145,1146,777) :- .
+Rule fun(55,210,31) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1147,762,4) :- .
+Rule fun(837,296,838) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(195,243,912) :- .
+Rule fun(839,333,840) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(280,1149,1148) :- .
+Rule fun(772,309,841) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1150,1151,801) :- .
+Rule fun(842,302,843) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1152,467,1153) :- .
+Rule fun(844,95,749) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1154,1069,116) :- .
+Rule fun(845,70,537) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1155,488,1098) :- .
+Rule fun(846,132,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1156,1126,1157) :- .
+Rule fun(126,338,646) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(576,871,956) :- .
+Rule fun(183,157,847) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(833,917,304) :- .
+Rule fun(848,203,557) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1158,725,348) :- .
+Rule fun(849,309,850) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1159,1063,52) :- .
+Rule fun(851,168,75) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(856,630,334) :- .
+Rule fun(852,341,800) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(826,5,1) :- .
+Rule fun(853,250,854) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1160,643,974) :- .
+Rule fun(855,40,678) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1161,1065,19) :- .
+Rule fun(580,351,198) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1162,1163,870) :- .
+Rule fun(856,366,228) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1141,137,1164) :- .
+Rule fun(601,86,217) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(885,256,911) :- .
+Rule fun(574,147,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1165,335,629) :- .
+Rule fun(858,293,693) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1166,322,1167) :- .
+Rule fun(859,337,13) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(165,1002,376) :- .
+Rule fun(860,36,615) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1168,503,1169) :- .
+Rule fun(841,317,861) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(331,471,375) :- .
+Rule fun(623,162,645) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(743,380,608) :- .
+Rule fun(862,63,425) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(261,616,273) :- .
+Rule fun(863,156,864) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(475,1163,576) :- .
+Rule fun(865,21,246) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(477,1170,261) :- .
+Rule fun(866,356,867) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1172,1173,1130) :- .
+Rule fun(214,339,245) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1174,1175,550) :- .
+Rule fun(513,75,409) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1176,1177,869) :- .
+Rule fun(170,158,178) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1178,955,116) :- .
+Rule fun(868,36,855) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(130,67,1) :- .
+Rule fun(316,159,170) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(312,173,1) :- .
+Rule fun(869,59,97) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(415,986,389) :- .
+Rule fun(870,224,830) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1179,368,13) :- .
+Rule fun(871,215,371) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1180,349,724) :- .
+Rule fun(872,313,614) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1181,771,7) :- .
+Rule fun(84,131,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(19,289,452) :- .
+Rule fun(202,135,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1182,876,1183) :- .
+Rule fun(874,48,256) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(206,1184,56) :- .
+Rule fun(875,265,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1185,1091,390) :- .
+Rule fun(876,318,499) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1186,586,13) :- .
+Rule fun(877,66,5) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1187,926,34) :- .
+Rule fun(13,109,297) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1188,846,258) :- .
+Rule fun(878,343,879) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(175,173,1) :- .
+Rule fun(133,14,186) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1189,247,332) :- .
+Rule fun(880,62,257) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1144,569,116) :- .
+Rule fun(881,276,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1190,471,195) :- .
+Rule fun(882,273,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1191,256,447) :- .
+Rule fun(883,51,168) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1148,892,806) :- .
+Rule fun(113,135,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(715,227,1192) :- .
+Rule fun(884,245,215) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1193,111,4) :- .
+Rule fun(844,94,75) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(825,191,1) :- .
+Rule fun(885,339,126) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1194,598,1) :- .
+Rule fun(886,162,294) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(831,366,490) :- .
+Rule fun(847,170,560) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1195,114,480) :- .
+Rule fun(493,326,887) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1016,584,1) :- .
+Rule fun(888,111,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(419,877,842) :- .
+Rule fun(573,148,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1196,1162,777) :- .
+Rule fun(889,128,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1197,463,195) :- .
+Rule fun(579,76,324) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(31,1198,69) :- .
+Rule fun(890,311,318) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(310,311,526) :- .
+Rule fun(731,144,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(525,311,1199) :- .
+Rule fun(891,45,588) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(536,1054,1200) :- .
+Rule fun(892,257,537) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1201,1203,1202) :- .
+Rule fun(893,340,126) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1204,436,527) :- .
+Rule fun(21,236,45) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1083,442,116) :- .
+Rule fun(201,221,350) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(0,2,1) :- .
+Rule fun(349,221,894) :- .
    Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(9,11,10) :- .
-   Updates: 1
-   Time: 1 ms
+   Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12,14,13) :- .
+Rule fun(359,87,895) :- .
    Updates: 1
-   Time: 1 ms
+   Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(21,23,22) :- .
+Rule fun(896,262,897) :- .
    Updates: 1
-   Time: 1 ms
+   Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(27,29,28) :- .
+Rule fun(898,230,351) :- .
    Updates: 1
-   Time: 1 ms
+   Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(36,38,37) :- .
+Rule fun(786,182,75) :- .
    Updates: 1
-   Time: 1 ms
+   Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(42,44,43) :- .
+Rule fun(0,125,1) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(45,47,46) :- .
+Rule fun(4,67,5) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(48,50,49) :- .
+Rule fun(18,212,19) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(59,61,60) :- .
+Rule fun(26,282,27) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(71,26,72) :- .
+Rule fun(36,104,37) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(78,80,79) :- .
+Rule fun(43,123,1) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(87,89,88) :- .
+Rule fun(48,153,1) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(92,93,46) :- .
+Rule fun(53,281,9) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(106,107,1) :- .
+Rule fun(56,291,57) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(112,114,113) :- .
+Rule fun(58,153,1) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(118,120,119) :- .
+Rule fun(64,247,65) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(123,26,124) :- .
+Rule fun(68,133,1) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(128,129,4) :- .
+Rule fun(69,43,70) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(133,105,134) :- .
+Rule fun(88,317,89) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(135,137,136) :- .
+Rule fun(103,272,9) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(159,160,13) :- .
+Rule fun(111,9,112) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(166,168,167) :- .
+Rule fun(116,210,19) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(192,53,193) :- .
+Rule fun(127,277,128) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(210,102,211) :- .
+Rule fun(137,330,138) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(248,249,22) :- .
+Rule fun(148,279,9) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(260,262,261) :- .
+Rule fun(155,358,156) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(277,217,278) :- .
+Rule fun(162,161,15) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(290,291,100) :- .
+Rule fun(185,25,186) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(300,302,301) :- .
+Rule fun(204,186,75) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(303,305,304) :- .
+Rule fun(216,63,217) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(336,338,337) :- .
+Rule fun(45,233,186) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(353,355,354) :- .
+Rule fun(283,38,284) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(381,382,1) :- .
+Rule fun(296,142,3) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(395,291,396) :- .
+Rule fun(311,143,1) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(428,50,429) :- .
+Rule fun(52,68,319) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(437,438,157) :- .
+Rule fun(358,319,301) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(459,294,460) :- .
+Rule fun(385,105,269) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(470,471,375) :- .
+Rule fun(438,140,3) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(483,264,98) :- .
+Rule fun(443,358,83) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(506,507,157) :- .
+Rule fun(468,279,23) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(513,515,514) :- .
+Rule fun(495,73,203) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(529,93,157) :- .
+Rule fun(503,330,504) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(561,153,562) :- .
+Rule fun(520,281,23) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(574,576,575) :- .
+Rule fun(552,52,167) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(672,598,1) :- .
+Rule fun(568,163,499) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(684,205,1) :- .
+Rule fun(594,324,595) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(733,735,734) :- .
+Rule fun(386,197,85) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(758,760,759) :- .
+Rule fun(19,204,201) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(537,667,780) :- .
+Rule fun(629,320,183) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(807,611,700) :- .
+Rule fun(639,190,75) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(825,463,375) :- .
+Rule fun(385,101,562) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(857,456,608) :- .
+Rule fun(684,338,652) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(861,548,1) :- .
+Rule fun(690,127,3) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(889,409,280) :- .
+Rule fun(709,229,345) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(439,578,1) :- .
+Rule fun(714,72,237) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(728,928,264) :- .
+Rule fun(736,184,85) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(572,945,808) :- .
+Rule fun(738,123,3) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(960,910,396) :- .
+Rule fun(706,118,1) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(985,84,1) :- .
+Rule fun(197,189,75) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(606,996,376) :- .
+Rule fun(775,253,541) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(962,1014,360) :- .
+Rule fun(487,364,785) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(990,942,1) :- .
+Rule fun(382,93,245) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(420,422,1058) :- .
+Rule fun(806,308,807) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1073,1042,1074) :- .
+Rule fun(794,42,499) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(88,1088,56) :- .
+Rule fun(827,270,9) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1043,475,1101) :- .
+Rule fun(857,173,35) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1121,172,724) :- .
+Rule fun(873,201,75) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1171,150,149) :- .
+Rule fun(14,306,15) :- .
    Updates: 1
-   Time: 1 ms
+   Time: 2 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(592,593,56) :- .
+Rule fun(165,162,166) :- .
    Updates: 1
-   Time: 3 ms
+   Time: 2 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1119,89,1120) :- .
+Rule fun(68,206,102) :- .
    Updates: 1
-   Time: 4 ms
+   Time: 2 ms
    Longest Iteration: 0 (0 ms)
 Rule eq(x:Z0,z:Z2) :- eq(x:Z0,y:Z1), eq(y:Z1,z:Z2).
    Updates: 4
-   Time: 9 ms
+   Time: 4 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(397,355,397) :- .
+   Updates: 1
+   Time: 4 ms
    Longest Iteration: 0 (0 ms)
 Rule eq(x:Z1,y:Z0) :- eq(y:Z0,x:Z1).
    Updates: 6
-   Time: 13 ms
+   Time: 7 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(x:Z0,f:Z1,z:Z3) :- fun(x:Z0,f:Z1,y:Z2), eq(z:Z3,y:Z2).
    Updates: 7
-   Time: 41 ms
+   Time: 9 ms
    Longest Iteration: 0 (0 ms)
 Rule eq(x:Z0,y:Z3) :- fun(x:Z0,f:Z1,z:Z2), fun(y:Z3,f:Z1,z:Z2).
    Updates: 6
-   Time: 108 ms
+   Time: 62 ms
    Longest Iteration: 0 (0 ms)
 Saving results: SIZE OF eq: 932.
-done. (12 ms)
+done. (10 ms)
