@@ -60,13 +60,15 @@ for analysisType in analysis_Type:
                     #  line = "17300->1780425009[label=\"op--1173\"]"
                      pattern = r"\d+"
                      matchs = re.findall(pattern, line)
-                     assert len(matchs) == 3
-                     if var_map.get(matchs[0]) == None:
-                        var_map.update({matchs[0]:var_num})
-                        var_num += 1
-                     if var_map.get(matchs[1]) == None:
-                        var_map.update({matchs[1]:var_num})
-                        var_num += 1
+                     if len(matchs) != 3:
+                         continue
+                     else:
+                         if var_map.get(matchs[0]) == None:
+                            var_map.update({matchs[0]:var_num})
+                            var_num += 1
+                         if var_map.get(matchs[1]) == None:
+                            var_map.update({matchs[1]:var_num})
+                            var_num += 1
                      # if var_map.get(matchs[2]) == None:
                      #    var_map.update({matchs[2]:var_num})
                      #    var_num += 1
