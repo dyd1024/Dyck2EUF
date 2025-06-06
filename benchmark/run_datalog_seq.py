@@ -1,8 +1,6 @@
 import time
 import subprocess
 
-from total_result.get_result import alias_C_num
-
 AliasAnalysis=[
     'antlr', 'bloat', 'chart', 'eclipse', 'fop', 'hsqldb', 'jython', 'luindex', 'lusearch', 'pmd', 'xalan'
 ]
@@ -41,7 +39,7 @@ souffle_alias_time_query = [0.0]*alias_num
 souffle_alias_C_time_query = [0.0]*alias_C_num
 souffle_dd_time_query = [0.0]*data_num
 
-times = 1
+times = 3
 start_time = time.time()
 
 for analysisType in analysis_Type:
