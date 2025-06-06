@@ -94,8 +94,7 @@ cd /Dyck2EUF/souffle_test/
 ./souffle example.dl
 ```
 **Reproducing the experimental results.**
-First, we need to generate a total of 10 query sequences for each program in the three benchmarks, with lengths varying from 1,000 to 10,000 in increments of 1,000. You have the option to regenerate these sequences or use the existing data. To regenerate the query sequences, please run the following code :
-<!-- (this step takes approximately 6 minutes to complete on my machine): -->
+First, we need to generate a total of 10 query sequences for each program in the three benchmarks, with lengths varying from 1,000 to 10,000 in increments of 1,000. You have the option to regenerate these sequences or use the existing data. To regenerate the query sequences, please run the following code (this step takes approximately 45 minutes to complete on my machine):
 
 
 ```sh
@@ -103,14 +102,13 @@ cd /Dyck2EUF/benchmark/
 python3 trans.py
 ```
 
-Next, run the graph-based methods FastDyck and Optimal, as well as the EUF SMT solver tools, including Z3, CVC5, Yices, and Plat-smt, on the benchmark using the following command :
-<!-- (this step takes approximately 15 minutes to complete on my machine): -->
+Next, run the graph-based methods FastDyck and Optimal, as well as the EUF SMT solver tools, including Z3, CVC5, Yices, and Plat-smt, on the benchmark using the following command (this step takes approximately 105 minutes to complete on my machine):
 
 ```sh
 cd /Dyck2EUF/benchmark/
 python3 run.py
 ```
-Run the following command to verify that the query results from the EUF SMT solver methods are consistent with those from the graph-based methods.
+Run the following command to verify that the query results from the EUF SMT solver methods are consistent with those from the graph-based methods (this step takes approximately 10s to complete on my machine).
 
 ```sh
 cd /Dyck2EUF/benchmark/total_result/
@@ -125,7 +123,7 @@ python3 get_result.py
 ```
 
 **Reproducing the experimental results of the Datalog tools.**
-Run the following command to generate a query sequence with a length of 1,000 for each program:
+Run the following command to generate a query sequence with a length of 1,000 for each program (this step takes approximately 70s to complete on my machine):
 
 ```sh
 cd /Dyck2EUF/benchmark/

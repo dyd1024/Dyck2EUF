@@ -61,28 +61,30 @@ for analysisType in analysis_Type:
                     #  line = "17300->1780425009[label=\"op--1173\"]"
                      pattern = r"\d+"
                      matchs = re.findall(pattern, line)
-                     assert len(matchs) == 3
-                     if var_map.get(matchs[0]) == None:
-                        var_map.update({matchs[0]:var_num})
-                        var_num += 1
-                     if var_map.get(matchs[1]) == None:
-                        var_map.update({matchs[1]:var_num})
-                        var_num += 1
-                     # if var_map.get(matchs[2]) == None:
-                     #    var_map.update({matchs[2]:var_num})
-                     #    var_num += 1
-                     var_declar.add("x" + str(var_map[matchs[0]]))
-                     var_declar.add("x" + str(var_map[matchs[1]]))
+                     if(len(matchs) != 3):
+                         continue
+                     else:
+                         if var_map.get(matchs[0]) == None:
+                            var_map.update({matchs[0]:var_num})
+                            var_num += 1
+                         if var_map.get(matchs[1]) == None:
+                            var_map.update({matchs[1]:var_num})
+                            var_num += 1
+                         # if var_map.get(matchs[2]) == None:
+                         #    var_map.update({matchs[2]:var_num})
+                         #    var_num += 1
+                         var_declar.add("x" + str(var_map[matchs[0]]))
+                         var_declar.add("x" + str(var_map[matchs[1]]))
 
-                     m0 = var_map.get(matchs[0])
-                     m1 = var_map.get(matchs[1])
-                     # m2 = var_map.get(matchs[2])
-                     # m_0f = format(m0,'016b')
-                     # m_1f = format(m1,'016b')
-                     # m_2f = format(m2,'016b')
-                     # result_muz.append(f'(rule (fun #b{m_0f} #b{m_2f} #b{m_1f}))\n')
-                     result_bdd.append(f'fun({m0}, {int(matchs[2])}, {m1}).\n')
-                     result_dl.append(f'fun({m0}, {int(matchs[2])}, {m1}).\n')
+                         m0 = var_map.get(matchs[0])
+                         m1 = var_map.get(matchs[1])
+                         # m2 = var_map.get(matchs[2])
+                         # m_0f = format(m0,'016b')
+                         # m_1f = format(m1,'016b')
+                         # m_2f = format(m2,'016b')
+                         # result_muz.append(f'(rule (fun #b{m_0f} #b{m_2f} #b{m_1f}))\n')
+                         result_bdd.append(f'fun({m0}, {int(matchs[2])}, {m1}).\n')
+                         result_dl.append(f'fun({m0}, {int(matchs[2])}, {m1}).\n')
                  i = 0
                  while i < seq_length:
                      if random.random() < 0.5:
