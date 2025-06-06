@@ -7,7 +7,6 @@ This is the artifact for the submission titled **SMT-based Solving of Dyck-Reach
 + Java >= 1.8
 
 
-
 # Project directory structure description
 ```text
 Dyck2EUF/
@@ -36,7 +35,7 @@ Dyck2EUF/
 # Running the artifact
 We assume that the following commands are run in sudo mode.
 
-**Ensure that each tool functions correctly.** Before conducting experiments, run each tool individually to verify that they can successfully execute in the current environment, using the following commands for testing.
+**Tool Functionality Verification.** Before conducting experiments, run each tool individually to verify that they can successfully execute in the current environment, using the following commands for testing.
 
 `FastDyck`
 
@@ -93,7 +92,8 @@ java -jar bddbddb-full.jar example.datalog
 cd /Dyck2EUF/souffle_test/
 ./souffle example.dl
 ```
-**Reproducing the experimental results.**
+
+**Reproducing the Experimental Results of Graph-based and EUF SMT-based Tools.**
 First, we need to generate a total of 10 query sequences for each program in the three benchmarks, with lengths varying from 1,000 to 10,000 in increments of 1,000. You have the option to regenerate these sequences or use the existing data. To regenerate the query sequences, please run the following code (this step takes approximately 45 minutes to complete on my machine):
 
 
@@ -122,7 +122,7 @@ cd /Dyck2EUF/benchmark/total_result/
 python3 get_result.py
 ```
 
-**Reproducing the experimental results of the Datalog tools.**
+**Reproducing the Experimental Results of the Datalog Tools.**
 Run the following command to generate a query sequence with a length of 1,000 for each program (this step takes approximately 70s to complete on my machine):
 
 ```sh
@@ -130,8 +130,7 @@ cd /Dyck2EUF/benchmark/
 python3 trans_datalog.py
 ```
 
-Run the following command to evaluate the performance of the Datalog tools **Bddbddb** and **Soufflé** on these two benchmarks:
-<!-- (this step takes approximately  hours to complete on my machine): -->
+Run the following command to evaluate the performance of the Datalog tools **Bddbddb** and **Soufflé** on these two benchmarks (this step takes approximately 22 hours to complete on my machine):
 
 ```sh
 cd /Dyck2EUF/benchmark/
