@@ -39,7 +39,7 @@ souffle_alias_time_query = [0.0]*alias_num
 souffle_alias_C_time_query = [0.0]*alias_C_num
 souffle_dd_time_query = [0.0]*data_num
 
-times = 3
+times = 1
 start_time = time.time()
 
 for analysisType in analysis_Type:

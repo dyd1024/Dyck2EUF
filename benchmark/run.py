@@ -15,6 +15,10 @@ DataDep = [
     'btree', 'check', 'compiler', 'compress', 'crypto', 'derby', 'helloworld', 'mpegaudio', 'mushroom', 'parser', 'sample', 'scimark', 'startup', 'sunflow', 'xml'
 ]
 
+UnionFind = [
+    'merge0', 'merge1', 'merge2', 'merge3', 'merge4', 'merge5'
+]
+
 # config information
 tool_config = {
     "optimal": {
@@ -46,8 +50,10 @@ tool_config = {
 analysis_Type = [
     "AliasAnalysis",
     "AliasAnalysis_C",
-    "DataDepAnalysis"
+    "DataDepAnalysis",
+    "UnionFind"
 ]
+
 times = 3
 
 def run_benchmark(tool_name, benchmarks, analysisType, j, i):
@@ -94,6 +100,9 @@ if __name__ == "__main__":
             benchmarks = DataDep
         elif analysisType == "AliasAnalysis_C":
             benchmarks = AliasAnalysis_C
+        elif analysisType == "UnionFind":
+            benchmarks = UnionFind
+            j_values = list(range(1))
 
         for tool_name in tool_config:
             print(f"\nRunning benchmark for tool: {tool_name}, analysis type: {analysisType}")

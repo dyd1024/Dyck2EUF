@@ -12,9 +12,14 @@ DataDep = [
     'btree', 'check', 'compiler', 'compress', 'crypto', 'derby', 'helloworld', 'mpegaudio', 'mushroom', 'parser', 'sample', 'scimark', 'startup', 'sunflow', 'xml'
 ]
 
+UnionFind = [
+    'merge0', 'merge1', 'merge2', 'merge3', 'merge4', 'merge5'
+]
+
 alias_num = len(AliasAnalysis)
 alias_C_num = len(AliasAnalysis_C)
 data_num = len(DataDep)
+UF_num = len(UnionFind)
 
 def find_floats(string):
     pattern = r'[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?'
@@ -29,8 +34,13 @@ tool_type = [
 analysis_Type = [
     "AliasAnalysis",
     "AliasAnalysis_C",
-    "DataDepAnalysis"
+    "DataDepAnalysis",
+    "UnionFind"
 ]
+
+# analysis_Type = [
+#     "UnionFind"
+# ]
 
 graph_alias = []
 yices_alias = []
@@ -65,6 +75,8 @@ for analysis in analysis_Type:
             temp = [0.0] * alias_C_num
         elif analysis == 'DataDepAnalysis':
             temp = [0.0] * data_num
+        elif analysis == 'UnionFind':
+            temp = [0.0] * UF_num
         # get solve time
         for i in range(times):
             with open(f'{file_prefix}{i}.res', 'r') as f:
@@ -109,6 +121,8 @@ for analysis in analysis_Type:
             temp = [0.0] * alias_C_num
         elif analysis == 'DataDepAnalysis':
             temp = [0.0] * data_num
+        elif analysis == 'UnionFind':
+            temp = [0.0] * UF_num
 
         file_prefix = f'{base_path}{analysis}'
 
