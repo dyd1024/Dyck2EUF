@@ -1,45 +1,60 @@
+f_parser_time:: 0.002361 
 sat
-f_solved_time:: 0.003760 
+f_solved_time:: 0.001108 
+query_time:: 0.000002 
+f_parser_time:: 0.006867 
+sat
+f_solved_time:: 0.003312 
+query_time:: 0.000002 
+f_parser_time:: 0.005873 
+sat
+f_solved_time:: 0.002897 
+query_time:: 0.000003 
+f_parser_time:: 0.006098 
+sat
+f_solved_time:: 0.002878 
+query_time:: 0.000004 
+f_parser_time:: 0.008810 
+sat
+f_solved_time:: 0.004451 
+query_time:: 0.000004 
+f_parser_time:: 0.008659 
+sat
+f_solved_time:: 0.004470 
+query_time:: 0.000003 
+f_parser_time:: 0.005727 
+sat
+f_solved_time:: 0.002713 
+query_time:: 0.000003 
+f_parser_time:: 0.015174 
+sat
+f_solved_time:: 0.006567 
+query_time:: 0.000002 
+f_parser_time:: 0.001040 
+sat
+f_solved_time:: 0.000499 
+query_time:: 0.000002 
+f_parser_time:: 0.001987 
+sat
+f_solved_time:: 0.001067 
+query_time:: 0.000002 
+f_parser_time:: 0.001177 
+sat
+f_solved_time:: 0.000531 
+query_time:: 0.000002 
+f_parser_time:: 0.005683 
+sat
+f_solved_time:: 0.002834 
+query_time:: 0.000003 
+f_parser_time:: 0.025921 
+sat
+f_solved_time:: 0.006419 
 query_time:: 0.000005 
+f_parser_time:: 0.006808 
 sat
-f_solved_time:: 0.014317 
-query_time:: 0.000008 
+f_solved_time:: 0.003232 
+query_time:: 0.000003 
+f_parser_time:: 0.045072 
 sat
-f_solved_time:: 0.008954 
-query_time:: 0.000007 
-sat
-f_solved_time:: 0.009374 
-query_time:: 0.000006 
-sat
-f_solved_time:: 0.013917 
-query_time:: 0.000005 
-sat
-f_solved_time:: 0.012917 
-query_time:: 0.000005 
-sat
-f_solved_time:: 0.008874 
-query_time:: 0.000007 
-sat
-f_solved_time:: 0.022372 
-query_time:: 0.000006 
-sat
-f_solved_time:: 0.001720 
-query_time:: 0.000006 
-sat
-f_solved_time:: 0.003116 
-query_time:: 0.000005 
-sat
-f_solved_time:: 0.001760 
-query_time:: 0.000006 
-sat
-f_solved_time:: 0.009701 
-query_time:: 0.000007 
-sat
-f_solved_time:: 0.014196 
-query_time:: 0.000008 
-sat
-f_solved_time:: 0.009188 
-query_time:: 0.000006 
-sat
-f_solved_time:: 0.089222 
-query_time:: 0.000008 
+f_solved_time:: 0.017363 
+query_time:: 0.000004 

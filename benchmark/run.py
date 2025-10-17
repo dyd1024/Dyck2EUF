@@ -2,6 +2,7 @@ import os
 import subprocess
 import time
 from concurrent.futures import ProcessPoolExecutor, as_completed
+from subprocess import TimeoutExpired, CalledProcessError
 
 AliasAnalysis=[
     'antlr', 'bloat', 'chart', 'eclipse', 'fop', 'hsqldb', 'jython', 'luindex', 'lusearch', 'pmd', 'xalan'
@@ -15,9 +16,7 @@ DataDep = [
     'btree', 'check', 'compiler', 'compress', 'crypto', 'derby', 'helloworld', 'mpegaudio', 'mushroom', 'parser', 'sample', 'scimark', 'startup', 'sunflow', 'xml'
 ]
 
-UnionFind = [
-    'merge0', 'merge1', 'merge2', 'merge3', 'merge4', 'merge5'
-]
+UnionFind = ['unionfind_5000', 'unionfind_10000', 'unionfind_15000', 'unionfind_20000', 'unionfind_25000' ]
 
 # config information
 tool_config = {
@@ -35,7 +34,7 @@ tool_config = {
     },
     "Yices": {
         "path": "../Yices_test/yices-smt2",
-        "args": lambda j, bm: [f"./Input/smt2_{analysisType}/{j}/{bm}.smt2", "--incremental"]
+        "args": lambda j, bm: [f"./Input/smt2_{analysisType}/{j}/{bm}.smt2"] + (["--incremental"] if j != 0 else [])
     },
     "z3": {
         "path": "../z3_test/z3",
@@ -44,14 +43,26 @@ tool_config = {
     "cvc5": {
         "path": "../cvc5_test/cvc5",
         "args": lambda j, bm: [f"./Input/smt2_{analysisType}/{j}/{bm}.smt2", "--incremental"]
-    }
+    },
+    "egg_R": {
+        "path": "../egg_R_test/egg_R",
+        "args": lambda j, bm: [f"./Input/smt2_{analysisType}/{j}/{bm}.smt2"]
+    },
+    "unionfind": {
+        "path": "../unionfind_test/unionfind",
+        "args": lambda j, bm: [f"./Input/SPG_{analysisType}/{j}/{bm}.spg"]
+    },
+    # "egg": {
+    #     "path": "../egg_test/egg",
+    #     "args": lambda j, bm: [f"./Input/smt2_{analysisType}/{j}/{bm}.smt2"]
+    # }
 }
 
 analysis_Type = [
     "AliasAnalysis",
     "AliasAnalysis_C",
     "DataDepAnalysis",
-    "UnionFind"
+    "unionfind"
 ]
 
 times = 3
@@ -65,20 +76,39 @@ def run_benchmark(tool_name, benchmarks, analysisType, j, i):
     with open(output_file, 'w') as outfile:
         for bm in benchmarks:
             cmd = [tool_info["path"]] + tool_info["args"](j, bm)
-            print(f"Running command: {' '.join(cmd)}"+'\n')
-            subprocess.run(
-                cmd,
-                stdout=outfile,
-                stderr=subprocess.STDOUT,
-                text=True,
-                timeout=600  # timeout 600s
-            )
+            print(f"Running command: {' '.join(cmd)}")
+            try:
+                result = subprocess.run(
+                    cmd,
+                    stdout=outfile,
+                    stderr=subprocess.STDOUT,
+                    text=True,
+                    timeout=600  # 10 minutes
+                )
+                print(f"Finished {bm} with return code: {result.returncode}")
+            except TimeoutExpired:
+                error_msg = f"TIMEOUT: {bm} exceeded 600 seconds.\n"
+                print(error_msg)
+                outfile.write(error_msg)
+                outfile.flush()
+                os.fsync(outfile.fileno())
+                continue
+            except Exception as e:
+                error_msg = f"ERROR running {bm}: {e}\n"
+                print(error_msg)
+                outfile.write(error_msg)
+                outfile.flush()
+                os.fsync(outfile.fileno())
+                continue
             outfile.flush()
             os.fsync(outfile.fileno())
-    # return bm, result.returncode
 
 def parallel_run(tool_name, benchmarks, analysisType, j_values, times):
-    with ProcessPoolExecutor(max_workers=4) as executor:
+    if tool_name == "egg":
+        thread_num = 1
+    else:
+        thread_num = 4
+    with ProcessPoolExecutor(max_workers=thread_num) as executor:
         futures = []
         for j in j_values:
             for i in range(times):
@@ -100,12 +130,16 @@ if __name__ == "__main__":
             benchmarks = DataDep
         elif analysisType == "AliasAnalysis_C":
             benchmarks = AliasAnalysis_C
-        elif analysisType == "UnionFind":
+        elif analysisType == "unionfind":
             benchmarks = UnionFind
-            j_values = list(range(1))
 
         for tool_name in tool_config:
-            print(f"\nRunning benchmark for tool: {tool_name}, analysis type: {analysisType}")
+            if tool_name == "unionfind":
+                if analysisType != "unionfind":
+                    continue
+            if analysisType == "unionfind" or tool_name == "egg":
+                j_values = list(range(1))
+            print(f"\nRunning benchmark for tool: {tool_name}, analysis type: {analysisType}\n")
             parallel_run(tool_name, benchmarks, analysisType, j_values, times)
 
     end_time = time.time()

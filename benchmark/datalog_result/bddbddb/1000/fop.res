@@ -1,6 +1,6 @@
 Initializing BDD library (500000 nodes, cache size 125000, min free 0.2%)
-buddy.dll is in use, linking temporary copy /tmp/buddy7266284494441848438.dll
-Could not load BDD package buddy: /tmp/buddy7266284494441848438.dll: /tmp/buddy7266284494441848438.dll: wrong ELF class: ELFCLASS32 (Possible cause: can't load IA 32 .so on a AMD 64 platform)
+buddy.dll is in use, linking temporary copy /tmp/buddy16944280524433023739.dll
+Could not load BDD package buddy: /tmp/buddy16944280524433023739.dll: /tmp/buddy16944280524433023739.dll: wrong ELF class: ELFCLASS32 (Possible cause: can't load IA 32 .so on a AMD 64 platform)
 Using BDD library JFactory 1.20
 No machine learning library found, learning disabled.
 Opening Datalog program "./Input/bdd_AliasAnalysis/1000/fop.datalog"

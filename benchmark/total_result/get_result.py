@@ -12,44 +12,47 @@ DataDep = [
     'btree', 'check', 'compiler', 'compress', 'crypto', 'derby', 'helloworld', 'mpegaudio', 'mushroom', 'parser', 'sample', 'scimark', 'startup', 'sunflow', 'xml'
 ]
 
-UnionFind = [
-    'merge0', 'merge1', 'merge2', 'merge3', 'merge4', 'merge5'
-]
+UnionFind = ['unionfind_5000', 'unionfind_10000', 'unionfind_15000', 'unionfind_20000', 'unionfind_25000' ]
 
+isTable = True
 alias_num = len(AliasAnalysis)
 alias_C_num = len(AliasAnalysis_C)
 data_num = len(DataDep)
-UF_num = len(UnionFind)
+uf_num = len(UnionFind)
 
 def find_floats(string):
     pattern = r'[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?'
     return [match.group(0) for match in re.finditer(pattern, string)]
 
-tool_type = [
-    'z3',
-    'cvc5',
-    'Yices'
-]
-
 analysis_Type = [
     "AliasAnalysis",
     "AliasAnalysis_C",
     "DataDepAnalysis",
-    "UnionFind"
+    "unionfind"
 ]
 
-# analysis_Type = [
-#     "UnionFind"
-# ]
+# record solve time of alias analysis
+graph_alias_solve = []
+yices_alias_solve = []
 
+# record total time of alias analysis
 graph_alias = []
 yices_alias = []
 platsmt_alias=[]
 
+# record solve time of  alias analysis for C
+graph_alias_C_solve = []
+yices_alias_C_solve = []
+
+# record total time of  alias analysis for C
 graph_alias_C = []
 yices_alias_C = []
 platsmt_alias_C=[]
 
+# record solve time of data dependence
+graph_dd_solve = []
+yices_dd_solve = []
+# record total time of  data dependence
 graph_dd = []
 yices_dd = []
 platsmt_dd=[]
@@ -65,45 +68,71 @@ for analysis in analysis_Type:
     # graph_based_tools
     graph_tools = [
         ('FastDyck', '../../fastDyck_test/result/0/'),
-        ('Optimal', '../../optimal_test/result/0/')
-    ]
+        ('Optimal', '../../optimal_test/result/0/'),
+        ('unionfind', '../../unionfind_test/result/0/')]
+    temp_parser = []
+    temp_solve = []
+    program_num =0
     for tool_name, base_path in graph_tools:
+        if tool_name == 'unionfind' and analysis != 'unionfind':
+            continue
         file_prefix = f'{base_path}{analysis}'
         if analysis == 'AliasAnalysis':
-            temp = [0.0] * alias_num
+            program_num = alias_num
         elif analysis == 'AliasAnalysis_C':
-            temp = [0.0] * alias_C_num
+            program_num = alias_C_num
         elif analysis == 'DataDepAnalysis':
-            temp = [0.0] * data_num
-        elif analysis == 'UnionFind':
-            temp = [0.0] * UF_num
+            program_num = data_num
+        elif analysis == 'unionfind':
+            program_num = uf_num
+
+        temp_parser = [0.0] * program_num
+        temp_solve = [0.0] * program_num
+
+        total_parser_time = 0.0
+        total_solve_time = 0.0
+
         # get solve time
         for i in range(times):
             with open(f'{file_prefix}{i}.res', 'r') as f:
                 pro_num = 0
                 for line in f:
-                    if "Time of graph constructed" in line:
-                        find_time = find_floats(line)
+                    find_time = find_floats(line)
+                    if "Time of parser" in line:
                         if find_time:
-                            temp[pro_num] += float(find_time[0])
-                            pro_num += 1
+                            temp_parser[pro_num] += float(find_time[0])
+                    if "Time of Reach Solve" in line:
+                        if find_time:
+                            temp_solve[pro_num] += float(find_time[0])
+                        pro_num += 1
 
         with open(f'./{analysis}_result.txt', 'a') as fa:
             fa.write(f'{tool_name}\n')
-            j = 1
-            for item in temp:
-                value = item * 1000 / times
+            for i in range(program_num):
+                parser_time = temp_parser[i]*1000/times
+                solve_time = temp_solve[i]*1000/times
                 if tool_name == "Optimal" and analysis == 'AliasAnalysis':
-                    graph_alias.append(value)
+                    graph_alias_solve.append(solve_time)
+                    graph_alias.append(parser_time+solve_time)
                 elif tool_name == "Optimal" and analysis == 'AliasAnalysis_C':
-                    value = item / times
-                    graph_alias_C.append(value)
+                    parser_time = temp_parser[i] / times
+                    solve_time = temp_solve[i] / times
+                    graph_alias_C_solve.append(solve_time)
+                    graph_alias_C.append(parser_time+solve_time)
                 elif tool_name == "Optimal" and analysis == 'DataDepAnalysis':
-                    graph_dd.append(value)
+                    graph_dd_solve.append(solve_time)
+                    graph_dd.append(parser_time+solve_time)
                 if tool_name == "FastDyck" and analysis == 'AliasAnalysis_C':
-                    value = item / times
-                fa.write(f'({j},{round(value, 3)}) ')
-                j += 1
+                    parser_time = temp_parser[i] / times
+                    solve_time = temp_solve[i] / times
+                total_parser_time += parser_time
+                total_solve_time += solve_time
+                if isTable:
+                    fa.write(f'& {round(parser_time, 2)}+{round(solve_time, 2)}\n')
+                else:
+                    fa.write(f'({i+1},{round(solve_time, 2)}) ')
+            fa.write(f'\ntotal_parser_time: {total_parser_time}\n')
+            fa.write(f'total_solve_time: {total_solve_time}\n')
             fa.write('\n')
 
     # SMT_based tools
@@ -112,17 +141,25 @@ for analysis in analysis_Type:
         ('cvc5', '../../cvc5_test/result/0/', False),
         ('Yices', '../../Yices_test/result/0/', False),
         ('plat-smt', '../../platsmt_test/result/0/', True),
+        ('egg_R', '../../egg_R_test/result/0/', False),
+        ('egg', '../../egg_test/result/0/', False),
     ]
 
+    temp = []
     for tool_name, base_path, is_plat_smt in tool_info:
+        if tool_name == 'egg' and analysis == 'unionfind':
+            continue
         if analysis == 'AliasAnalysis':
-            temp = [0.0] * alias_num
+            program_num = alias_num
         elif analysis == 'AliasAnalysis_C':
-            temp = [0.0] * alias_C_num
+            program_num = alias_C_num
         elif analysis == 'DataDepAnalysis':
-            temp = [0.0] * data_num
-        elif analysis == 'UnionFind':
-            temp = [0.0] * UF_num
+            program_num = data_num
+        elif analysis_Type == 'unionfind':
+            program_num = uf_num
+
+        temp_parser = [0.0] * program_num
+        temp_solve = [0.0] * program_num
 
         file_prefix = f'{base_path}{analysis}'
 
@@ -139,72 +176,100 @@ for analysis in analysis_Type:
                         if "f_solved_time" in line:
                             parts = line.split(":")
                             current_time = int(parts[2])
-                            temp[pro_num] += (current_time - record_start) / 1000
+                            temp_solve[pro_num] += (current_time - record_start) / 1000
                             pro_num += 1
                     else:
-                        if "f_solved_time" in line or "Time of graph constructed" in line:
-                            find_time = find_floats(line)
-                            if find_time:
-                                temp[pro_num] += float(find_time[0])
+                        find_time = find_floats(line)
+                        if find_time:
+                            if "f_parser_time" in line:
+                                temp_parser[pro_num] += float(find_time[0])
+                            if "f_solved_time" in line or "Time of graph constructed" in line:
+                                temp_solve[pro_num] += float(find_time[0])
                                 pro_num += 1
-
+                            if "TIMEOUT" in line:
+                                temp_solve[pro_num] += 600.0
+                                pro_num += 1
+        total_solve_time = 0.0
+        total_parser_time = 0.0
         with open(f'./{analysis}_result.txt', 'a') as fa:
             fa.write(f'{tool_name}\n')
-            j = 1
-            for item in temp:
+            for j in range(program_num):
                 if is_plat_smt:
                     if analysis == 'AliasAnalysis_C':
                         # Unit:seconds
-                        value = round(item / (1000*times), 3)
+                        solve_time = temp_solve[j] / (1000*times)
                     else:
                         # Unit:milliseconds
-                        value = round(item / times, 3)
+                        solve_time = temp_solve[j] / times
+                    total_solve_time += solve_time
                 else:
                     if analysis == 'AliasAnalysis_C':
                         # Unit:seconds
-                        value = round(item / times, 3)
+                        parser_time = temp_parser[j] / times
+                        solve_time = temp_solve[j] / times
                     else:
                         # Unit:milliseconds
-                        value = round(item * 1000 / times, 3)
+                        parser_time = temp_parser[j] * 1000 / times
+                        solve_time = temp_solve[j] * 1000 / times
+                    total_parser_time += parser_time
+                    total_solve_time += solve_time
 
-                fa.write(f'({j},{value}) ')
+                if is_plat_smt:
+                    # fa.write(f'({j},{round(solve_time, 2)})\n')
+                    fa.write(f'& {round(solve_time, 2)}\n')
+                else:
+                    # fa.write(f'({j},{round(parser_time,2)}+{round(solve_time,2)})\n')
+                    if isTable:
+                        fa.write(f'& {round(parser_time, 2)}+{round(solve_time, 2)}\n')
+                    else:
+                        fa.write(f'({j+1},{round(solve_time, 2)}) ')
 
                 if tool_name == "Yices" and analysis == 'AliasAnalysis':
-                    yices_alias.append(value)
+                    yices_alias_solve.append(solve_time)
+                    yices_alias.append(parser_time+solve_time)
                 if tool_name == "Yices" and analysis == 'AliasAnalysis_C':
-                    yices_alias_C.append(value)
+                    yices_alias_C_solve.append(solve_time)
+                    yices_alias_C.append(parser_time+solve_time)
                 if tool_name == "Yices" and analysis == 'DataDepAnalysis':
-                    yices_dd.append(value)
+                    yices_dd_solve.append(solve_time)
+                    yices_dd.append(parser_time+solve_time)
                 if tool_name == "plat-smt" and analysis == 'AliasAnalysis':
-                    platsmt_alias.append(value)
+                    platsmt_alias.append(solve_time)
                 if tool_name == "plat-smt" and analysis == 'AliasAnalysis_C':
-                    platsmt_alias_C.append(value)
+                    platsmt_alias_C.append(solve_time)
                 if tool_name == "plat-smt" and analysis == 'DataDepAnalysis':
-                    platsmt_dd.append(value)
-
-                j += 1
+                    platsmt_dd.append(solve_time)
+            fa.write(f'\ntotal_parser_time: {total_parser_time}\n')
+            fa.write(f'total_solve_time: {total_solve_time}\n')
             fa.write('\n')
 # ===================================  get speedup ===================================
     with open(f'./{analysis}_result.txt', 'a') as fb:
+        speedup_yices_solve = 0.0
         speedup_yices = 0.0
         speedup_platsmt = 0.0
         if analysis == 'AliasAnalysis':
             for hh in range(alias_num):
+                speedup_yices_solve += graph_alias_solve[hh]/yices_alias_solve[hh]
                 speedup_yices += graph_alias[hh]/yices_alias[hh]
                 speedup_platsmt += graph_alias[hh]/platsmt_alias[hh]
+            fb.write(f'speedup_yices_solve={round(speedup_yices_solve/alias_num, 2)}\n')
             fb.write(f'speedup_yices={round(speedup_yices/alias_num, 2)}\n' )
             fb.write(f'speedup_platsmt={round(speedup_platsmt/alias_num, 2)}\n' )
         elif analysis == 'AliasAnalysis_C':
             for hh in range(alias_C_num):
+                speedup_yices_solve += graph_alias_C_solve[hh]/yices_alias_C_solve[hh]
                 speedup_yices += graph_alias_C[hh]/yices_alias_C[hh]
                 speedup_platsmt += graph_alias_C[hh]/platsmt_alias_C[hh]
-            fb.write(f'speedup_yices={round(speedup_yices/alias_C_num, 2)}\n' )
+            fb.write(f'speedup_yices_solve={round(speedup_yices_solve/alias_C_num, 2)}\n')
+            fb.write(f'speedup_yices={round(speedup_yices/alias_C_num, 2)}\n')
             fb.write(f'speedup_platsmt={round(speedup_platsmt/alias_C_num, 2)}\n' )
         elif analysis == 'DataDepAnalysis':
             for hh in range(data_num):
+                speedup_yices_solve += graph_dd_solve[hh]/yices_dd_solve[hh]
                 speedup_yices += graph_dd[hh]/yices_dd[hh]
                 speedup_platsmt += graph_dd[hh]/platsmt_dd[hh]
-            fb.write(f'speedup_yices={round(speedup_yices/data_num, 2)}\n' )
+            fb.write(f'speedup_yices_solve={round(speedup_yices_solve/data_num, 2)}\n')
+            fb.write(f'speedup_yices={round(speedup_yices/data_num, 2)}\n')
             fb.write(f'speedup_platsmt={round(speedup_platsmt/data_num, 2)}\n' )
 
 # #============================================================== get query time  ================================================================
@@ -216,6 +281,7 @@ tools = [
     ('cvc5',         '../../cvc5_test/result/',     False),
     ('Yices',        '../../Yices_test/result/',    False),
     ('platsmt',      '../../platsmt_test/result/',  True),
+    ('egg_R',        '../../egg_R_test/result/',    False),
 ]
 
 for analysis in analysis_Type:

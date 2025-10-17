@@ -1,8 +1,9 @@
 import os
 import subprocess
 from multiprocessing import Pool, cpu_count
+import time
 
-input_dir = 'programs'
+input_dir = 'Dyck_programs'
 output_dir = '../Dot/AliasAnalysis_C'
 
 os.makedirs(output_dir, exist_ok=True)
@@ -22,8 +23,23 @@ def run_dump(file):
     except subprocess.CalledProcessError as e:
         print(f"Error running {file}: {e}")
 
-if __name__ == '__main__':
-    with Pool(processes=cpu_count()) as pool:
-        pool.map(run_dump, bc_files)
+# parallel version
+# if __name__ == '__main__':
+#     start_time = time.time()
+#     with Pool(processes=cpu_count()) as pool:
+#         pool.map(run_dump, bc_files)
+#     end_time = time.time()
+#     elapsed_time = end_time - start_time
+#     print(f"Timecost: {elapsed_time:.2f} ss")
 
+# serial version
+if __name__ == '__main__':
+    start_time = time.time()
+
+    for file in bc_files:
+        run_dump(file)
+
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    print(f"Timecost: {elapsed_time:.2f} s")
 

@@ -1,12 +1,12 @@
 Initializing BDD library (500000 nodes, cache size 125000, min free 0.2%)
-buddy.dll is in use, linking temporary copy /tmp/buddy9883938151928864470.dll
-Could not load BDD package buddy: /tmp/buddy9883938151928864470.dll: /tmp/buddy9883938151928864470.dll: wrong ELF class: ELFCLASS32 (Possible cause: can't load IA 32 .so on a AMD 64 platform)
+buddy.dll is in use, linking temporary copy /tmp/buddy16978702790175148294.dll
+Could not load BDD package buddy: /tmp/buddy16978702790175148294.dll: /tmp/buddy16978702790175148294.dll: wrong ELF class: ELFCLASS32 (Possible cause: can't load IA 32 .so on a AMD 64 platform)
 Using BDD library JFactory 1.20
 No machine learning library found, learning disabled.
 Opening Datalog program "./Input/bdd_AliasAnalysis_C/1000/sqlite3.datalog"
 1 field domains.
 1003 relations.
-239354 rules.
+239359 rules.
 Splitting rules: done.
 Initializing solver: Initializing value of special relation Z_eq_Z Z0,Z1
 Resizing node table from 1009 to 2017

@@ -1,6 +1,6 @@
 Initializing BDD library (500000 nodes, cache size 125000, min free 0.2%)
-buddy.dll is in use, linking temporary copy /tmp/buddy3025774971121279029.dll
-Could not load BDD package buddy: /tmp/buddy3025774971121279029.dll: /tmp/buddy3025774971121279029.dll: wrong ELF class: ELFCLASS32 (Possible cause: can't load IA 32 .so on a AMD 64 platform)
+buddy.dll is in use, linking temporary copy /tmp/buddy10463599446322402257.dll
+Could not load BDD package buddy: /tmp/buddy10463599446322402257.dll: /tmp/buddy10463599446322402257.dll: wrong ELF class: ELFCLASS32 (Possible cause: can't load IA 32 .so on a AMD 64 platform)
 Using BDD library JFactory 1.20
 No machine learning library found, learning disabled.
 Opening Datalog program "./Input/bdd_DataDepAnalysis/0/startup.datalog"
@@ -11,7 +11,7 @@ Splitting rules: done.
 Initializing solver: done.
 Loading initial relations: done. (0 ms)
 Stratifying: 
-done. (491 ms)
+done. (492 ms)
 Solving: 
 Applying inference rule:
    fun(2100,2115,51) :- . (1)
@@ -10810,8 +10810,8 @@ Applying inference rule:
    eq(x:Z0,y:Z3) :- fun(x:Z0,f:Z1,z:Z2), fun(y:Z3,f:Z1,z:Z2). (inc) (7)
 Applying inference rule:
    eq(x:Z0,z:Z2) :- eq(x:Z0,y:Z1), eq(y:Z1,z:Z2). (inc) (5)
-done. (685 ms)
-SOLVE_TIME=685
+done. (692 ms)
+SOLVE_TIME=692
 MAX_NODES=214373
 FINAL_NODES=211651
 Rule fun(0,1829,1) :- .
@@ -10827,10 +10827,6 @@ Rule fun(4,63,5) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(6,860,7) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(8,2071,9) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -10938,6 +10934,10 @@ Rule fun(56,1868,57) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(60,973,61) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(62,1139,63) :- .
    Updates: 1
    Time: 0 ms
@@ -10959,10 +10959,6 @@ Rule fun(70,1297,71) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(72,1651,73) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(74,2014,75) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -11074,10 +11070,6 @@ Rule fun(122,254,55) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(123,534,11) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(124,1495,125) :- .
    Updates: 1
    Time: 0 ms
@@ -11115,6 +11107,10 @@ Rule fun(139,1597,140) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(141,1901,142) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(143,2080,144) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -11199,10 +11195,6 @@ Rule fun(175,480,53) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(176,450,177) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(178,1871,179) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -11351,10 +11343,6 @@ Rule fun(239,1847,240) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(241,403,242) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(243,37,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -11582,6 +11570,10 @@ Rule fun(332,2124,333) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(334,16,335) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(336,752,337) :- .
    Updates: 1
    Time: 0 ms
@@ -11702,10 +11694,6 @@ Rule fun(385,1054,301) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(386,2063,387) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(388,1848,389) :- .
    Updates: 1
    Time: 0 ms
@@ -11815,6 +11803,10 @@ Rule fun(427,1412,428) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(429,527,11) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(430,1712,431) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -12066,6 +12058,10 @@ Rule fun(534,881,535) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(536,1410,537) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(538,479,539) :- .
    Updates: 1
    Time: 0 ms
@@ -12282,10 +12278,6 @@ Rule fun(611,2140,612) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(613,52,11) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(614,659,615) :- .
    Updates: 1
    Time: 0 ms
@@ -12387,10 +12379,6 @@ Rule fun(654,1597,140) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(655,1069,280) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(656,679,657) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -12522,6 +12510,10 @@ Rule fun(698,2067,699) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(700,738,701) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(702,1523,703) :- .
    Updates: 1
    Time: 0 ms
@@ -12555,10 +12547,6 @@ Rule fun(713,1420,714) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(715,1215,426) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(716,894,717) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -12754,15 +12742,15 @@ Rule fun(783,483,539) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(784,2012,785) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(786,2153,787) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(788,567,11) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(789,1771,183) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -12966,10 +12954,6 @@ Rule fun(860,2074,861) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(862,863,863) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(864,155,55) :- .
    Updates: 1
    Time: 0 ms
@@ -13015,6 +12999,10 @@ Rule fun(879,610,880) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(881,303,882) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(716,894,883) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -13370,10 +13358,6 @@ Rule fun(570,2060,707) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1012,1863,230) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(16,1031,1013) :- .
    Updates: 1
    Time: 0 ms
@@ -13447,6 +13431,10 @@ Rule fun(1039,1846,1040) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1041,163,24) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(16,1031,1042) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -13606,6 +13594,10 @@ Rule fun(1109,1781,808) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(1110,815,877) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1111,9,1112) :- .
    Updates: 1
    Time: 0 ms
@@ -13659,10 +13651,6 @@ Rule fun(1127,659,1128) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1129,1728,1103) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1130,658,1128) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -13838,6 +13826,10 @@ Rule fun(1191,852,520) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(1192,1924,254) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1193,968,1194) :- .
    Updates: 1
    Time: 0 ms
@@ -13847,10 +13839,6 @@ Rule fun(1195,648,147) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1196,1276,1197) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1198,411,437) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -14027,6 +14015,10 @@ Rule fun(479,1795,1250) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1251,1099,1252) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1253,600,1254) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -14234,6 +14226,10 @@ Rule fun(1324,586,509) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(1325,720,1326) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1327,1047,1328) :- .
    Updates: 1
    Time: 0 ms
@@ -14271,10 +14267,6 @@ Rule fun(1338,1144,1339) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1340,2001,1341) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1342,1797,1343) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -14435,6 +14427,10 @@ Rule fun(1393,467,116) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1394,1771,445) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1395,1536,71) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -14682,6 +14678,10 @@ Rule fun(1469,1705,391) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(59,818,1470) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1473,2010,40) :- .
    Updates: 1
    Time: 0 ms
@@ -14826,6 +14826,10 @@ Rule fun(1517,1581,71) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(1518,1739,414) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1329,1141,230) :- .
    Updates: 1
    Time: 0 ms
@@ -14855,10 +14859,6 @@ Rule fun(1526,1334,1487) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1527,253,55) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1528,2139,1529) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -15218,10 +15218,6 @@ Rule fun(1645,2035,382) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1646,1737,414) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(1647,1848,110) :- .
    Updates: 1
    Time: 0 ms
@@ -15291,6 +15287,10 @@ Rule fun(1186,2059,51) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1667,2098,494) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1668,1373,1669) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -15387,10 +15387,6 @@ Rule fun(1700,175,24) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1701,1145,1702) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(514,559,5) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -15551,10 +15547,6 @@ Rule fun(1753,250,55) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1754,1170,677) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1223,893,1755) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -15746,10 +15738,6 @@ Rule fun(1813,149,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1814,452,177) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(1815,1662,877) :- .
    Updates: 1
    Time: 0 ms
@@ -15767,6 +15755,10 @@ Rule fun(873,1978,1819) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1820,1736,174) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1821,1369,1822) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -15803,10 +15795,6 @@ Rule fun(1658,539,5) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1833,2026,151) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1834,497,965) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -15974,10 +15962,6 @@ Rule fun(1890,1923,254) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1891,40,55) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(1892,14,1893) :- .
    Updates: 1
    Time: 0 ms
@@ -15991,6 +15975,10 @@ Rule fun(1895,1938,420) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1896,684,1831) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1897,1736,628) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -16167,10 +16155,6 @@ Rule fun(1947,1122,1493) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1824,1275,1948) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1949,1484,702) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -16370,10 +16354,6 @@ Rule fun(2004,499,57) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2005,1171,21) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2006,1504,410) :- .
    Updates: 1
    Time: 0 ms
@@ -16495,6 +16475,10 @@ Rule fun(179,1881,2043) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2044,396,265) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2045,1463,2046) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -16874,10 +16858,6 @@ Rule fun(2163,119,55) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2164,1740,414) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2165,273,24) :- .
    Updates: 1
    Time: 0 ms
@@ -16915,6 +16895,10 @@ Rule fun(2174,953,648) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(758,1400,2175) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2176,473,116) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -17142,6 +17126,10 @@ Rule fun(2232,1375,2233) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(2234,1875,2235) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(139,1596,2236) :- .
    Updates: 1
    Time: 0 ms
@@ -17306,10 +17294,6 @@ Rule fun(2276,1199,2277) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2278,1426,34) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2158,405,2279) :- .
    Updates: 1
    Time: 0 ms
@@ -17379,6 +17363,10 @@ Rule fun(2297,1866,2298) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2299,1279,2300) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2301,68,2302) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -17574,10 +17562,6 @@ Rule fun(2355,1820,1587) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2356,187,55) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2357,1262,2358) :- .
    Updates: 1
    Time: 0 ms
@@ -17595,6 +17579,10 @@ Rule fun(2362,43,24) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1066,1338,1520) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2363,1702,567) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -17670,6 +17658,10 @@ Rule fun(915,56,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(2385,482,53) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(2386,1407,132) :- .
    Updates: 1
    Time: 0 ms
@@ -17687,10 +17679,6 @@ Rule fun(2390,1785,905) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(16,1031,2391) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(2392,396,265) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -17847,6 +17835,10 @@ Rule fun(2440,699,2441) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2442,169,24) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(44,285,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -18042,6 +18034,10 @@ Rule fun(2500,1731,185) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(2501,634,492) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(2502,1743,628) :- .
    Updates: 1
    Time: 0 ms
@@ -18186,10 +18182,6 @@ Rule fun(2538,892,2539) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2540,2140,1720) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2541,1394,104) :- .
    Updates: 1
    Time: 0 ms
@@ -18227,6 +18219,10 @@ Rule fun(1397,2035,51) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2549,1707,431) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2550,1887,2476) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -18402,6 +18398,10 @@ Rule fun(1692,1879,718) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(668,818,2599) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(2600,407,567) :- .
    Updates: 1
    Time: 0 ms
@@ -18471,6 +18471,10 @@ Rule fun(2620,1120,2621) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2364,524,11) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2622,79,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -18598,10 +18602,6 @@ Rule fun(2655,1430,2511) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2656,1667,2657) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2658,1768,2659) :- .
    Updates: 1
    Time: 0 ms
@@ -18635,6 +18635,10 @@ Rule fun(2667,398,242) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2540,1826,1147) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2668,561,5) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -18818,6 +18822,10 @@ Rule fun(563,2102,144) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(2714,903,433) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(311,608,2715) :- .
    Updates: 1
    Time: 0 ms
@@ -18859,10 +18867,6 @@ Rule fun(2727,308,242) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(668,818,2728) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(2729,358,114) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -19010,6 +19014,10 @@ Rule fun(2765,1482,293) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(527,2057,101) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(2766,2019,1941) :- .
    Updates: 1
    Time: 0 ms
@@ -19150,10 +19158,6 @@ Rule fun(2806,1796,2807) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2808,1209,400) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2809,2006,2810) :- .
    Updates: 1
    Time: 0 ms
@@ -19195,6 +19199,10 @@ Rule fun(2466,2031,387) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1031,120,55) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(417,333,2817) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -19342,10 +19350,6 @@ Rule fun(2851,465,116) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2852,1637,974) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2853,532,11) :- .
    Updates: 1
    Time: 0 ms
@@ -19431,6 +19435,10 @@ Rule fun(2877,562,5) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2878,422,69) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2879,1561,2880) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -19614,11 +19622,11 @@ Rule fun(2924,248,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2925,82,104) :- .
+Rule fun(2926,1063,2927) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2926,1063,2927) :- .
+Rule fun(2928,667,419) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -19862,10 +19870,6 @@ Rule fun(2989,463,2990) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2991,1947,42) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2992,1257,201) :- .
    Updates: 1
    Time: 0 ms
@@ -19907,6 +19911,10 @@ Rule fun(3003,1398,183) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3004,1097,71) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3007,1926,3008) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -20051,10 +20059,6 @@ Rule fun(3037,221,24) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3038,553,11) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3039,1624,3040) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -20250,6 +20254,10 @@ Rule fun(3091,533,11) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(104,106,3092) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(3093,841,1207) :- .
    Updates: 1
    Time: 0 ms
@@ -20331,10 +20339,6 @@ Rule fun(671,677,3112) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1611,1085,273) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1571,1288,2372) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -20443,6 +20447,10 @@ Rule fun(507,877,3142) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2230,797,3143) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(830,1286,895) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -20686,6 +20694,10 @@ Rule fun(3204,644,859) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(3205,357,114) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(3206,802,1364) :- .
    Updates: 1
    Time: 0 ms
@@ -20786,10 +20798,6 @@ Rule fun(3231,1253,1196) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3232,650,246) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3233,990,2179) :- .
    Updates: 1
    Time: 0 ms
@@ -20807,6 +20815,10 @@ Rule fun(1723,1200,3018) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(782,1475,782) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3241,406,567) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -20834,6 +20846,10 @@ Rule fun(888,1031,3254) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(3255,1950,460) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(3257,1993,3258) :- .
    Updates: 1
    Time: 0 ms
@@ -20842,15 +20858,11 @@ Rule fun(2120,238,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2513,1362,3259) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3260,1020,3261) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3263,1710,431) :- .
+Rule fun(3262,1701,1109) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -20879,6 +20891,10 @@ Rule fun(3269,639,398) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3270,84,24) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3273,461,208) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -20914,6 +20930,10 @@ Rule fun(920,733,3285) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(3286,1291,296) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(3287,2018,3288) :- .
    Updates: 1
    Time: 0 ms
@@ -20923,10 +20943,6 @@ Rule fun(3289,1214,2789) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3290,739,701) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3141,2116,597) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -20978,11 +20994,11 @@ Rule fun(1633,2081,3302) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3304,2025,1187) :- .
+Rule fun(3303,1396,2508) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3305,1885,1166) :- .
+Rule fun(3304,2025,1187) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -20991,6 +21007,10 @@ Rule fun(59,818,1089) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3306,1734,628) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3307,1046,1714) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -21038,15 +21058,15 @@ Rule fun(3316,171,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3317,885,71) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3318,908,433) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3319,1313,2566) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(59,818,3320) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -21063,10 +21083,6 @@ Rule fun(3322,1619,3323) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3324,1611,3325) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3049,1938,2217) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -21114,7 +21130,7 @@ Rule fun(3338,1274,1439) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3339,905,433) :- .
+Rule fun(3340,30,55) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -21166,10 +21182,6 @@ Rule fun(3349,469,116) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3350,829,106) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3351,1803,104) :- .
    Updates: 1
    Time: 0 ms
@@ -21203,6 +21215,10 @@ Rule fun(3358,1532,96) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3359,1272,3360) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2791,1790,774) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -21274,6 +21290,10 @@ Rule fun(3374,765,3375) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(3018,193,55) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(724,1374,428) :- .
    Updates: 1
    Time: 0 ms
@@ -21286,7 +21306,7 @@ Rule fun(3376,10,3377) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3378,1865,2298) :- .
+Rule fun(2649,2016,3112) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -21426,10 +21446,6 @@ Rule fun(3415,551,11) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3416,267,55) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3417,1484,528) :- .
    Updates: 1
    Time: 0 ms
@@ -21455,6 +21471,10 @@ Rule fun(2984,655,3422) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3423,1488,3424) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1941,1111,3425) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -21526,19 +21546,15 @@ Rule fun(3441,1541,3442) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3443,1401,1822) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(1437,1549,3444) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3445,1224,1510) :- .
+Rule fun(1813,399,265) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3446,1923,42) :- .
+Rule fun(3445,1224,1510) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -21547,6 +21563,10 @@ Rule fun(214,1519,71) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3447,984,840) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3448,1927,813) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -21698,15 +21718,11 @@ Rule fun(3487,1919,254) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3488,169,24) :- .
+Rule fun(3489,1735,810) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3490,1158,230) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3491,1079,3492) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -21734,6 +21750,10 @@ Rule fun(3498,1637,1253) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(3499,1364,1822) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(3500,1377,1179) :- .
    Updates: 1
    Time: 0 ms
@@ -21747,10 +21767,6 @@ Rule fun(3502,1743,810) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(298,1199,3503) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(2589,804,1755) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -21838,10 +21854,6 @@ Rule fun(3527,103,913) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(737,678,2058) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2662,665,1631) :- .
    Updates: 1
    Time: 0 ms
@@ -21914,6 +21926,10 @@ Rule fun(3544,1855,3545) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(3546,1129,400) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(3547,1271,1093) :- .
    Updates: 1
    Time: 0 ms
@@ -21927,10 +21943,6 @@ Rule fun(3549,2158,104) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3550,718,3431) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(135,1288,3551) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -22034,7 +22046,7 @@ Rule fun(3574,1005,549) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1763,2097,564) :- .
+Rule fun(1076,2077,332) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -22126,10 +22138,6 @@ Rule fun(586,1142,230) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3598,1949,254) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3599,765,3600) :- .
    Updates: 1
    Time: 0 ms
@@ -22214,10 +22222,6 @@ Rule fun(3,614,1122) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3615,398,265) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3616,1123,1493) :- .
    Updates: 1
    Time: 0 ms
@@ -22279,6 +22283,10 @@ Rule fun(2414,143,55) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2349,289,24) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3629,1758,2939) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -22418,10 +22426,6 @@ Rule fun(3661,1141,877) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3662,540,5) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2217,1264,3663) :- .
    Updates: 1
    Time: 0 ms
@@ -22451,6 +22455,10 @@ Rule fun(1921,75,24) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(16,1031,3669) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2498,742,911) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -22538,10 +22546,6 @@ Rule fun(2581,1704,431) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3687,487,539) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3688,454,3589) :- .
    Updates: 1
    Time: 0 ms
@@ -22622,15 +22626,15 @@ Rule fun(2540,2140,3694) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(3706,1039,1051) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(3707,349,114) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3708,1133,104) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3709,1957,1605) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -22742,15 +22746,11 @@ Rule fun(3735,1559,3) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3736,1252,1196) :- .
+Rule fun(668,818,3737) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3738,778,2832) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3739,1472,3211) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -22867,10 +22867,6 @@ Rule fun(3762,1654,73) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3763,1835,445) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3764,292,55) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -23022,7 +23018,7 @@ Rule fun(3793,926,2986) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2641,1354,543) :- .
+Rule fun(3773,1918,2595) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -23062,10 +23058,6 @@ Rule fun(3800,613,3604) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3801,1579,1000) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3802,513,5) :- .
    Updates: 1
    Time: 0 ms
@@ -23083,6 +23075,10 @@ Rule fun(3805,1678,3806) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3807,1409,3808) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3809,260,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -23223,10 +23219,6 @@ Rule fun(3834,1609,104) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3835,1217,2290) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3836,1763,104) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -23406,10 +23398,6 @@ Rule fun(3878,582,509) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3879,438,177) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(723,1286,364) :- .
    Updates: 1
    Time: 0 ms
@@ -23435,6 +23423,10 @@ Rule fun(3193,475,116) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3884,1665,3885) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3886,1141,2160) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -23490,19 +23482,11 @@ Rule fun(3894,873,3895) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(67,1989,3896) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3897,1664,837) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3898,1774,923) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3899,756,2483) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -23587,10 +23571,6 @@ Rule fun(376,698,3920) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3921,2061,527) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3922,1746,628) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -23714,10 +23694,6 @@ Rule fun(3951,1480,146) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3952,699,3953) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2804,1992,974) :- .
    Updates: 1
    Time: 0 ms
@@ -23786,6 +23762,10 @@ Rule fun(3066,1400,3759) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(3970,1274,3971) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(3972,1690,71) :- .
    Updates: 1
    Time: 0 ms
@@ -23795,10 +23775,6 @@ Rule fun(422,1908,3973) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3974,414,403) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3975,1888,142) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -23886,10 +23862,6 @@ Rule fun(3990,1527,3917) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3991,1799,71) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3475,172,24) :- .
    Updates: 1
    Time: 0 ms
@@ -23907,6 +23879,10 @@ Rule fun(3994,973,3995) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(435,1485,183) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(805,1914,868) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -24086,7 +24062,7 @@ Rule fun(4035,719,445) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3521,1200,4036) :- .
+Rule fun(3786,2099,144) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -24194,10 +24170,6 @@ Rule fun(551,467,871) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4056,1122,1487) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(1118,1367,3808) :- .
    Updates: 1
    Time: 0 ms
@@ -24302,10 +24274,6 @@ Rule fun(1934,901,77) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(16,1031,4083) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2708,1549,4084) :- .
    Updates: 1
    Time: 0 ms
@@ -24394,10 +24362,6 @@ Rule fun(3081,305,265) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4101,1910,4102) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(4103,1746,414) :- .
    Updates: 1
    Time: 0 ms
@@ -24439,6 +24403,10 @@ Rule fun(4111,1816,476) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4112,1736,28) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(465,41,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -24503,10 +24471,6 @@ Rule fun(3364,1404,1074) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4128,1933,71) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(2412,1728,2344) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -24622,6 +24586,10 @@ Rule fun(3742,521,11) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(2547,1823,905) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(3663,1284,1279) :- .
    Updates: 1
    Time: 0 ms
@@ -24734,10 +24702,6 @@ Rule fun(852,245,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3240,2098,564) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(289,1985,4168) :- .
    Updates: 1
    Time: 0 ms
@@ -24806,6 +24770,10 @@ Rule fun(4182,629,208) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(4183,974,355) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(4184,651,4185) :- .
    Updates: 1
    Time: 0 ms
@@ -24855,10 +24823,6 @@ Rule fun(4198,798,4199) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4200,590,509) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(2907,814,1418) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -24962,10 +24926,6 @@ Rule fun(4228,2124,1596) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(808,1815,2433) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2471,2130,2472) :- .
    Updates: 1
    Time: 0 ms
@@ -24979,6 +24939,10 @@ Rule fun(4230,1820,905) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1701,1145,4231) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(488,456,71) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -25011,10 +24975,6 @@ Rule fun(4236,64,1237) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4237,1833,4238) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(4239,1374,1525) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -25206,10 +25166,6 @@ Rule fun(4278,1151,3506) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4279,1489,2171) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(4280,2063,707) :- .
    Updates: 1
    Time: 0 ms
@@ -25258,6 +25214,10 @@ Rule fun(4289,670,419) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(784,2012,1546) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(66,1347,3257) :- .
    Updates: 1
    Time: 0 ms
@@ -25303,10 +25263,6 @@ Rule fun(4300,288,55) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4301,434,1179) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3534,1582,71) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -25410,10 +25366,6 @@ Rule fun(3795,1475,3795) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4320,1190,4320) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(1103,1370,364) :- .
    Updates: 1
    Time: 0 ms
@@ -25463,6 +25415,10 @@ Rule fun(4330,183,24) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4331,860,1018) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4332,642,147) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -25535,10 +25491,6 @@ Rule fun(4343,1915,1308) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2214,1017,610) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(4344,575,1673) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -25654,6 +25606,10 @@ Rule fun(16,1031,4366) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(653,1190,653) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(4367,393,265) :- .
    Updates: 1
    Time: 0 ms
@@ -25695,10 +25651,6 @@ Rule fun(3302,2134,332) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1723,1200,1828) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(4372,28,55) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -25830,11 +25782,11 @@ Rule fun(4402,1494,2637) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4404,938,1459) :- .
+Rule fun(4403,1057,4320) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4405,93,4406) :- .
+Rule fun(4404,938,1459) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -25870,7 +25822,11 @@ Rule fun(4413,601,2058) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4415,1831,430) :- .
+Rule fun(4414,954,2290) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1956,2007,3476) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -25887,10 +25843,6 @@ Rule fun(4417,1175,21) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3014,1200,3531) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(4418,335,871) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -25942,6 +25894,10 @@ Rule fun(4427,979,666) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(4428,1023,3705) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1068,1874,4429) :- .
    Updates: 1
    Time: 0 ms
@@ -25975,10 +25931,6 @@ Rule fun(4435,190,24) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4436,1386,104) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(2477,1797,4437) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -26038,6 +25990,10 @@ Rule fun(4181,761,4450) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(4451,1329,1060) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1629,1377,2156) :- .
    Updates: 1
    Time: 0 ms
@@ -26079,10 +26035,6 @@ Rule fun(1221,2058,387) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4457,97,71) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(4458,652,4185) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -26142,6 +26094,10 @@ Rule fun(1910,1345,1122) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(558,478,2984) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(4470,392,265) :- .
    Updates: 1
    Time: 0 ms
@@ -26183,10 +26139,6 @@ Rule fun(1917,2047,3969) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4214,1058,71) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(258,1231,970) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -26250,6 +26202,10 @@ Rule fun(4484,294,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(581,1887,4485) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(2088,2162,4486) :- .
    Updates: 1
    Time: 0 ms
@@ -26258,7 +26214,7 @@ Rule fun(4487,720,4488) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4489,1749,3620) :- .
+Rule fun(3304,2089,494) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -26350,6 +26306,10 @@ Rule fun(4510,726,370) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(16,1031,4511) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(4512,854,1140) :- .
    Updates: 1
    Time: 0 ms
@@ -26391,10 +26351,6 @@ Rule fun(16,1031,4518) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4519,1516,3587) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(4520,1467,3423) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -26454,6 +26410,10 @@ Rule fun(2017,2026,1187) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(4531,835,106) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(923,623,1122) :- .
    Updates: 1
    Time: 0 ms
@@ -26487,10 +26447,6 @@ Rule fun(4539,1146,447) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4540,19,2365) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(4541,1491,4542) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -26587,10 +26543,6 @@ Rule fun(4556,771,3581) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(64,1288,1073) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(830,1286,1968) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -26790,10 +26742,6 @@ Rule fun(4595,635,492) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(718,1887,4596) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(4597,1969,2167) :- .
    Updates: 1
    Time: 0 ms
@@ -26902,10 +26850,6 @@ Rule fun(660,1245,4614) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4615,125,24) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(4616,1103,104) :- .
    Updates: 1
    Time: 0 ms
@@ -26931,6 +26875,10 @@ Rule fun(4621,1922,460) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1171,1997,1550) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4622,53,937) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -26994,10 +26942,6 @@ Rule fun(4634,409,57) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(987,1035,2185) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(218,1277,4635) :- .
    Updates: 1
    Time: 0 ms
@@ -27019,6 +26963,10 @@ Rule fun(4638,2008,4639) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4525,504,5) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4640,1216,2139) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -27090,10 +27038,6 @@ Rule fun(4656,410,437) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(308,809,3729) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(4657,641,210) :- .
    Updates: 1
    Time: 0 ms
@@ -27111,6 +27055,10 @@ Rule fun(4658,338,379) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(360,1283,3567) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4659,1418,817) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -27190,10 +27138,6 @@ Rule fun(2422,1522,4674) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4284,932,2071) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(4675,1778,4676) :- .
    Updates: 1
    Time: 0 ms
@@ -27215,6 +27159,10 @@ Rule fun(4679,604,252) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4680,961,502) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4681,650,4682) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -27290,15 +27238,15 @@ Rule fun(1933,509,11) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4696,1074,4612) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(262,1753,4697) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(957,2120,4698) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4699,913,4700) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -27386,10 +27334,6 @@ Rule fun(4715,1157,104) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3298,209,24) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(4329,2089,144) :- .
    Updates: 1
    Time: 0 ms
@@ -27423,6 +27367,10 @@ Rule fun(2564,1681,1283) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4721,1059,1872) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4441,1577,71) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -27495,10 +27443,6 @@ Rule fun(4734,164,55) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4735,706,274) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(4737,992,579) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -27582,10 +27526,6 @@ Rule fun(4752,1890,3610) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4753,1099,4259) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(4754,1285,1183) :- .
    Updates: 1
    Time: 0 ms
@@ -27650,6 +27590,10 @@ Rule fun(2550,1887,4763) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(4764,2020,590) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(4765,564,11) :- .
    Updates: 1
    Time: 0 ms
@@ -27679,10 +27623,6 @@ Rule fun(4768,911,433) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4480,320,4769) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(4589,543,5) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -27762,10 +27702,6 @@ Rule fun(1478,225,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4783,402,265) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(4784,1821,1587) :- .
    Updates: 1
    Time: 0 ms
@@ -27806,6 +27742,10 @@ Rule fun(4099,1972,4791) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(4792,1381,923) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(361,1618,850) :- .
    Updates: 1
    Time: 0 ms
@@ -27839,10 +27779,6 @@ Rule fun(1316,1220,197) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3568,510,5) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(4799,959,2464) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -27942,10 +27878,6 @@ Rule fun(4821,1842,104) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3630,1546,441) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(4822,1055,1036) :- .
    Updates: 1
    Time: 0 ms
@@ -27958,15 +27890,15 @@ Rule fun(4824,1743,185) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(4825,1429,445) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1177,71,11) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4826,920,4106) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(599,85,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -27991,6 +27923,10 @@ Rule fun(4682,121,55) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2904,1657,596) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2324,250,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -28023,10 +27959,6 @@ Rule fun(2855,206,24) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4836,607,3842) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(4837,1505,443) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -28130,10 +28062,6 @@ Rule fun(4855,839,4856) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(723,1286,1104) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(4857,1942,42) :- .
    Updates: 1
    Time: 0 ms
@@ -28219,10 +28147,6 @@ Rule fun(4873,1412,1525) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4874,1940,42) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(4875,207,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -28358,10 +28282,6 @@ Rule fun(4897,2064,527) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4898,1891,1706) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(4899,1972,4257) :- .
    Updates: 1
    Time: 0 ms
@@ -28375,6 +28295,10 @@ Rule fun(4900,397,265) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4901,1233,4219) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4902,287,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -28415,10 +28339,6 @@ Rule fun(888,1031,4910) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4911,1467,4912) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3727,1279,2300) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -28534,10 +28454,6 @@ Rule fun(4939,293,55) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4940,122,55) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(4941,1789,3620) :- .
    Updates: 1
    Time: 0 ms
@@ -28602,10 +28518,6 @@ Rule fun(4953,248,55) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4200,418,437) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3349,174,24) :- .
    Updates: 1
    Time: 0 ms
@@ -28615,6 +28527,10 @@ Rule fun(4954,1767,3253) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4955,1884,4956) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4957,1162,21) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -28699,10 +28615,6 @@ Rule fun(2278,1425,2224) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4973,415,286) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(4974,1730,1839) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -28826,10 +28738,6 @@ Rule fun(1080,30,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4995,55,55) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(4996,1162,677) :- .
    Updates: 1
    Time: 0 ms
@@ -28867,6 +28775,10 @@ Rule fun(2946,1030,13) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5003,1086,3004) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(5004,1920,254) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -28939,10 +28851,6 @@ Rule fun(122,588,509) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5015,1769,923) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5016,271,55) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -29058,10 +28966,6 @@ Rule fun(5035,1946,254) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4930,1976,2258) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(5036,1733,628) :- .
    Updates: 1
    Time: 0 ms
@@ -29174,10 +29078,6 @@ Rule fun(5008,191,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(5053,189,55) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(5054,2030,1543) :- .
    Updates: 1
    Time: 0 ms
@@ -29282,10 +29182,6 @@ Rule fun(5070,1182,5071) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(5072,252,55) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(377,1032,4721) :- .
    Updates: 1
    Time: 0 ms
@@ -29354,6 +29250,10 @@ Rule fun(5083,1915,2026) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(5084,293,24) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(5085,1472,2068) :- .
    Updates: 1
    Time: 0 ms
@@ -29395,10 +29295,6 @@ Rule fun(4421,223,24) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5092,22,24) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5093,863,771) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -29515,10 +29411,6 @@ Rule fun(4967,576,4968) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5116,747,2131) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5117,417,286) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -29639,10 +29531,6 @@ Rule fun(762,984,550) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5136,1623,1651) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1315,1550,5137) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -29862,6 +29750,10 @@ Rule fun(5179,216,55) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(5180,1041,1627) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(3953,770,5181) :- .
    Updates: 1
    Time: 0 ms
@@ -29879,10 +29771,6 @@ Rule fun(5184,1939,104) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5185,1861,3545) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5186,2141,349) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -30006,10 +29894,6 @@ Rule fun(5202,675,1427) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(5203,1556,13) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(5204,1209,1713) :- .
    Updates: 1
    Time: 0 ms
@@ -30119,10 +30003,6 @@ Rule fun(5229,1210,1713) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(231,1214,232) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(2090,1621,3607) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -30350,6 +30230,10 @@ Rule fun(5275,421,974) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(5276,275,24) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(5277,1189,104) :- .
    Updates: 1
    Time: 0 ms
@@ -30558,10 +30442,6 @@ Rule fun(5317,1945,42) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(5318,1830,5319) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(5320,995,513) :- .
    Updates: 1
    Time: 0 ms
@@ -30746,10 +30626,6 @@ Rule fun(5355,1501,410) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(5356,225,55) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3564,1344,5357) :- .
    Updates: 1
    Time: 0 ms
@@ -30858,6 +30734,10 @@ Rule fun(2669,211,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(1018,931,5374) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(5375,1125,3265) :- .
    Updates: 1
    Time: 0 ms
@@ -30947,10 +30827,6 @@ Rule fun(1630,1149,469) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5390,816,596) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5391,934,761) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -31158,10 +31034,6 @@ Rule fun(5420,1172,21) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(5421,1659,391) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(5422,517,11) :- .
    Updates: 1
    Time: 0 ms
@@ -31358,6 +31230,10 @@ Rule fun(5450,108,24) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(5451,1244,3506) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(5452,1816,2931) :- .
    Updates: 1
    Time: 0 ms
@@ -31494,10 +31370,6 @@ Rule fun(5477,2151,5478) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4789,2033,1076) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(5479,416,403) :- .
    Updates: 1
    Time: 0 ms
@@ -31598,87 +31470,95 @@ Rule fun(215,698,988) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(5492,1000,71) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(2015,1327,5490) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(58,829,59) :- .
+Rule fun(8,2071,9) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(60,973,61) :- .
+Rule fun(74,2014,75) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(143,2080,144) :- .
+Rule fun(123,534,11) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(334,16,335) :- .
+Rule fun(178,1871,179) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(430,1712,431) :- .
+Rule fun(243,37,24) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(536,1410,537) :- .
+Rule fun(386,2063,387) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(700,738,701) :- .
+Rule fun(613,52,11) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(789,1771,183) :- .
+Rule fun(629,11,630) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(716,894,883) :- .
+Rule fun(656,679,657) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(16,1031,1042) :- .
+Rule fun(716,894,717) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1087,1182,1088) :- .
+Rule fun(784,2012,785) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1110,815,877) :- .
+Rule fun(862,863,863) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1192,1924,254) :- .
+Rule fun(1012,1863,230) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1253,600,1254) :- .
+Rule fun(1130,658,1128) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1325,720,1326) :- .
+Rule fun(1198,411,437) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1395,1536,71) :- .
+Rule fun(1342,1797,1343) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(59,818,1470) :- .
+Rule fun(1528,2139,1529) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1471,2135,1472) :- .
+Rule fun(1646,1737,414) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1518,1739,414) :- .
+Rule fun(514,559,5) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1668,1373,1669) :- .
+Rule fun(1223,893,1755) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1814,452,177) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -31686,31 +31566,31 @@ Rule fun(1817,1734,414) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1821,1369,1822) :- .
+Rule fun(1834,497,965) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1897,1736,628) :- .
+Rule fun(1891,40,55) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2045,1463,2046) :- .
+Rule fun(1949,1484,702) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2176,473,116) :- .
+Rule fun(2005,1171,21) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2234,1875,2235) :- .
+Rule fun(2164,1740,414) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2301,68,2302) :- .
+Rule fun(2278,1426,34) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2363,1702,567) :- .
+Rule fun(2356,187,55) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -31718,47 +31598,23 @@ Rule fun(135,1288,2372) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2385,482,53) :- .
+Rule fun(2392,396,265) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(44,285,24) :- .
+Rule fun(2540,2140,1720) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2501,634,492) :- .
+Rule fun(2656,1667,2657) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2550,1887,2476) :- .
+Rule fun(2729,358,114) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(668,818,2599) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(2614,2054,183) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(2622,79,24) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(2668,561,5) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(2714,903,433) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(527,2057,101) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(417,333,2817) :- .
+Rule fun(2808,1209,400) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -31766,11 +31622,15 @@ Rule fun(2819,1450,1699) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2879,1561,2880) :- .
+Rule fun(2852,1637,974) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2928,667,419) :- .
+Rule fun(2925,82,104) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2991,1947,42) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -31778,23 +31638,19 @@ Rule fun(3005,1356,3006) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3007,1926,3008) :- .
+Rule fun(3039,1624,3040) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(104,106,3092) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(830,1286,895) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3205,357,114) :- .
+Rule fun(1571,1288,2372) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2100,2115,51) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3232,650,246) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -31814,10 +31670,6 @@ Rule fun(3240,2098,144) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3241,406,567) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3243,790,1339) :- .
    Updates: 1
    Time: 1 ms
@@ -31834,15 +31686,15 @@ Rule fun(3248,1988,3249) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3255,1950,460) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3256,1950,254) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3262,1701,1109) :- .
+Rule fun(2513,1362,3259) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3263,1710,431) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -31855,10 +31707,6 @@ Rule fun(2650,209,24) :- .
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3271,1788,3272) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3273,461,208) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -31882,11 +31730,7 @@ Rule fun(2070,222,24) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3283,1372,691) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3286,1291,296) :- .
+Rule fun(3141,2116,597) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -31894,19 +31738,19 @@ Rule fun(2064,359,114) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3303,1396,2508) :- .
+Rule fun(3305,1885,1166) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3307,1046,1714) :- .
+Rule fun(3317,885,71) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(59,818,3320) :- .
+Rule fun(3049,1938,2217) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3340,30,55) :- .
+Rule fun(3339,905,433) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -31918,15 +31762,11 @@ Rule fun(1307,2103,144) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2791,1790,774) :- .
+Rule fun(3350,829,106) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3018,193,55) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(2649,2016,3112) :- .
+Rule fun(3378,1865,2298) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -31934,7 +31774,7 @@ Rule fun(3404,1359,3405) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1941,1111,3425) :- .
+Rule fun(3416,267,55) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -31942,11 +31782,11 @@ Rule fun(3427,1775,1699) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1813,399,265) :- .
+Rule fun(3443,1401,1822) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3448,1927,813) :- .
+Rule fun(3446,1923,42) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -31962,11 +31802,15 @@ Rule fun(3475,171,24) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3489,1735,810) :- .
+Rule fun(3488,169,24) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3499,1364,1822) :- .
+Rule fun(3491,1079,3492) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2589,804,1755) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -31974,11 +31818,15 @@ Rule fun(3092,339,71) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3546,1129,400) :- .
+Rule fun(737,678,2058) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1076,2077,332) :- .
+Rule fun(135,1288,3551) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1763,2097,564) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -31986,7 +31834,11 @@ Rule fun(3592,71,5) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3629,1758,2939) :- .
+Rule fun(3598,1949,254) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3615,398,265) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -31994,7 +31846,11 @@ Rule fun(3647,1320,280) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2498,742,911) :- .
+Rule fun(3662,540,5) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3687,487,539) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -32002,11 +31858,19 @@ Rule fun(3695,1008,1722) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3706,1039,1051) :- .
+Rule fun(3709,1957,1605) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(668,818,3737) :- .
+Rule fun(3736,1252,1196) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3739,1472,3211) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3764,292,55) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -32014,15 +31878,19 @@ Rule fun(193,466,116) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3773,1918,2595) :- .
+Rule fun(2641,1354,543) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3809,260,24) :- .
+Rule fun(3801,1579,1000) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3824,1163,677) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3836,1763,104) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -32034,7 +31902,15 @@ Rule fun(3871,496,965) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3886,1141,2160) :- .
+Rule fun(3879,438,177) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(67,1989,3896) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3899,756,2483) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -32042,15 +31918,31 @@ Rule fun(663,2095,482) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3970,1274,3971) :- .
+Rule fun(3922,1746,628) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(805,1914,868) :- .
+Rule fun(3952,699,3953) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3786,2099,144) :- .
+Rule fun(3975,1888,142) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3991,1799,71) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3521,1200,4036) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4056,1122,1487) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(16,1031,4083) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -32058,15 +31950,19 @@ Rule fun(2298,1790,383) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(465,41,24) :- .
+Rule fun(4101,1910,4102) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2547,1823,905) :- .
+Rule fun(2412,1728,2344) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4183,974,355) :- .
+Rule fun(3240,2098,564) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2907,814,1418) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -32074,7 +31970,11 @@ Rule fun(4217,775,3) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(488,456,71) :- .
+Rule fun(808,1815,2433) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4239,1374,1525) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -32082,7 +31982,15 @@ Rule fun(4256,685,1344) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(784,2012,1546) :- .
+Rule fun(4279,1489,2171) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3534,1582,71) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4320,1190,4320) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -32090,51 +31998,51 @@ Rule fun(4323,341,2578) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4332,642,147) :- .
+Rule fun(4344,575,1673) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(653,1190,653) :- .
+Rule fun(4372,28,55) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4403,1057,4320) :- .
+Rule fun(4405,93,4406) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4414,954,2290) :- .
+Rule fun(4415,1831,430) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1956,2007,3476) :- .
+Rule fun(4418,335,871) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4428,1023,3705) :- .
+Rule fun(2477,1797,4437) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4451,1329,1060) :- .
+Rule fun(4458,652,4185) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(558,478,2984) :- .
+Rule fun(258,1231,970) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(581,1887,4485) :- .
+Rule fun(4489,1749,3620) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3304,2089,494) :- .
+Rule fun(4520,1467,3423) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(16,1031,4511) :- .
+Rule fun(4541,1491,4542) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4531,835,106) :- .
+Rule fun(830,1286,1968) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -32146,7 +32054,11 @@ Rule fun(4576,411,286) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4622,53,937) :- .
+Rule fun(718,1887,4596) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4615,125,24) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -32154,15 +32066,15 @@ Rule fun(4626,750,278) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4640,1216,2139) :- .
+Rule fun(987,1035,2185) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4659,1418,817) :- .
+Rule fun(308,809,3729) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4681,650,4682) :- .
+Rule fun(4284,932,2071) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -32170,11 +32082,11 @@ Rule fun(3909,844,3684) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4699,913,4700) :- .
+Rule fun(4696,1074,4612) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4441,1577,71) :- .
+Rule fun(3298,209,24) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -32182,7 +32094,15 @@ Rule fun(3960,763,4736) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4764,2020,590) :- .
+Rule fun(4737,992,579) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4753,1099,4259) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4589,543,5) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -32190,15 +32110,27 @@ Rule fun(888,1031,4778) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4792,1381,923) :- .
+Rule fun(4783,402,265) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4825,1429,445) :- .
+Rule fun(4799,959,2464) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2324,250,24) :- .
+Rule fun(3630,1546,441) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(599,85,24) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4837,1505,443) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(723,1286,1104) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -32206,51 +32138,107 @@ Rule fun(4861,1794,2992) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(4875,207,24) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(4891,298,4892) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4902,287,24) :- .
+Rule fun(4898,1891,1706) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4957,1162,21) :- .
+Rule fun(3727,1279,2300) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(5004,1920,254) :- .
+Rule fun(4940,122,55) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(5084,293,24) :- .
+Rule fun(4200,418,437) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(5180,1041,1627) :- .
+Rule fun(4974,1730,1839) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(5256,1503,410) :- .
+Rule fun(4995,55,55) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(5276,275,24) :- .
+Rule fun(5016,271,55) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1018,931,5374) :- .
+Rule fun(4930,1976,2258) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(5451,1244,3506) :- .
+Rule fun(5053,189,55) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(5492,1000,71) :- .
+Rule fun(5072,252,55) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(629,11,630) :- .
+Rule fun(5093,863,771) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(5117,417,286) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1315,1550,5137) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(5186,2141,349) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(5203,1556,13) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2090,1621,3607) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(5318,1830,5319) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(5356,225,55) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(5391,934,761) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(5421,1659,391) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4789,2033,1076) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(58,829,59) :- .
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1087,1182,1088) :- .
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1471,2135,1472) :- .
    Updates: 1
    Time: 2 ms
    Longest Iteration: 0 (0 ms)
@@ -32258,7 +32246,19 @@ Rule fun(2113,912,470) :- .
    Updates: 1
    Time: 2 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(2614,2054,183) :- .
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(3176,1605,2380) :- .
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(875,311,2381) :- .
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3283,1372,691) :- .
    Updates: 1
    Time: 2 ms
    Longest Iteration: 0 (0 ms)
@@ -32266,9 +32266,9 @@ Rule fun(3354,841,2190) :- .
    Updates: 1
    Time: 2 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(875,311,2381) :- .
+Rule fun(5256,1503,410) :- .
    Updates: 1
-   Time: 3 ms
+   Time: 2 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3525,910,80) :- .
    Updates: 1
@@ -32276,7 +32276,7 @@ Rule fun(3525,910,80) :- .
    Longest Iteration: 0 (0 ms)
 Rule fun(4942,395,265) :- .
    Updates: 1
-   Time: 3 ms
+   Time: 4 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3941,1173,677) :- .
    Updates: 1
@@ -32284,19 +32284,19 @@ Rule fun(3941,1173,677) :- .
    Longest Iteration: 0 (0 ms)
 Rule eq(x:Z0,z:Z2) :- eq(x:Z0,y:Z1), eq(y:Z1,z:Z2).
    Updates: 5
-   Time: 21 ms
+   Time: 19 ms
    Longest Iteration: 0 (0 ms)
 Rule eq(x:Z1,y:Z0) :- eq(y:Z0,x:Z1).
    Updates: 7
-   Time: 30 ms
+   Time: 32 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(x:Z0,f:Z1,z:Z3) :- fun(x:Z0,f:Z1,y:Z2), eq(z:Z3,y:Z2).
    Updates: 8
-   Time: 62 ms
+   Time: 57 ms
    Longest Iteration: 0 (0 ms)
 Rule eq(x:Z0,y:Z3) :- fun(x:Z0,f:Z1,z:Z2), fun(y:Z3,f:Z1,z:Z2).
    Updates: 7
-   Time: 361 ms
+   Time: 340 ms
    Longest Iteration: 0 (0 ms)
 Saving results: SIZE OF eq: 5741.
-done. (12 ms)
+done. (13 ms)

@@ -1,45 +1,60 @@
+f_parser_time:: 0.002359 
 sat
-f_solved_time:: 0.003795 
-query_time:: 0.000007 
+f_solved_time:: 0.001115 
+query_time:: 0.000002 
+f_parser_time:: 0.006817 
 sat
-f_solved_time:: 0.014418 
-query_time:: 0.000008 
+f_solved_time:: 0.003413 
+query_time:: 0.000003 
+f_parser_time:: 0.005874 
 sat
-f_solved_time:: 0.008972 
-query_time:: 0.000006 
+f_solved_time:: 0.002765 
+query_time:: 0.000002 
+f_parser_time:: 0.005949 
 sat
-f_solved_time:: 0.009343 
-query_time:: 0.000007 
+f_solved_time:: 0.003194 
+query_time:: 0.000004 
+f_parser_time:: 0.008841 
 sat
-f_solved_time:: 0.014007 
-query_time:: 0.000005 
+f_solved_time:: 0.004459 
+query_time:: 0.000003 
+f_parser_time:: 0.008557 
 sat
-f_solved_time:: 0.013727 
-query_time:: 0.000006 
+f_solved_time:: 0.004514 
+query_time:: 0.000003 
+f_parser_time:: 0.005726 
 sat
-f_solved_time:: 0.008942 
-query_time:: 0.000006 
+f_solved_time:: 0.002706 
+query_time:: 0.000003 
+f_parser_time:: 0.015075 
 sat
-f_solved_time:: 0.022279 
-query_time:: 0.000005 
+f_solved_time:: 0.006609 
+query_time:: 0.000003 
+f_parser_time:: 0.001052 
 sat
-f_solved_time:: 0.001633 
-query_time:: 0.000005 
+f_solved_time:: 0.000509 
+query_time:: 0.000002 
+f_parser_time:: 0.001990 
 sat
-f_solved_time:: 0.003282 
-query_time:: 0.000006 
+f_solved_time:: 0.001072 
+query_time:: 0.000003 
+f_parser_time:: 0.001182 
 sat
-f_solved_time:: 0.001731 
-query_time:: 0.000005 
+f_solved_time:: 0.000527 
+query_time:: 0.000002 
+f_parser_time:: 0.005706 
 sat
-f_solved_time:: 0.011065 
-query_time:: 0.000006 
+f_solved_time:: 0.002825 
+query_time:: 0.000002 
+f_parser_time:: 0.026246 
 sat
-f_solved_time:: 0.012152 
-query_time:: 0.000006 
+f_solved_time:: 0.006455 
+query_time:: 0.000004 
+f_parser_time:: 0.006676 
 sat
-f_solved_time:: 0.009311 
-query_time:: 0.000006 
+f_solved_time:: 0.003198 
+query_time:: 0.000004 
+f_parser_time:: 0.046122 
 sat
-f_solved_time:: 0.089353 
-query_time:: 0.000006 
+f_solved_time:: 0.018764 
+query_time:: 0.000004 

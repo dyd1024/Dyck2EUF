@@ -1,22 +1,66 @@
-Time of graph constructed : 0.191205
-query time :0.004343
-Time of graph constructed : 0.201868
-query time :0.003588
-Time of graph constructed : 0.377343
-query time :0.005091
-Time of graph constructed : 0.178883
-query time :0.004013
-Time of graph constructed : 0.329237
-query time :0.004731
-Time of graph constructed : 0.158979
-query time :0.003566
-Time of graph constructed : 0.205317
-query time :0.003903
-Time of graph constructed : 0.171169
-query time :0.002648
-Time of graph constructed : 0.173414
-query time :0.003574
-Time of graph constructed : 0.184636
-query time :0.003825
-Time of graph constructed : 0.161783
-query time :0.00356
+Time of parser: 0.114848
+Time of Reach Solve: 0.049207
+Time of total : 0.164055
+Number of components: 0
+big SCC size: 0
+query time :0.004389
+Time of parser: 0.133870
+Time of Reach Solve: 0.051603
+Time of total : 0.185473
+Number of components: 0
+big SCC size: 0
+query time :0.005009
+Time of parser: 0.262521
+Time of Reach Solve: 0.103231
+Time of total : 0.365752
+Number of components: 0
+big SCC size: 0
+query time :0.005823
+Time of parser: 0.124551
+Time of Reach Solve: 0.047663
+Time of total : 0.172214
+Number of components: 0
+big SCC size: 0
+query time :0.004027
+Time of parser: 0.228125
+Time of Reach Solve: 0.097692
+Time of total : 0.325817
+Number of components: 0
+big SCC size: 0
+query time :0.006000
+Time of parser: 0.109094
+Time of Reach Solve: 0.046583
+Time of total : 0.155677
+Number of components: 0
+big SCC size: 0
+query time :0.004440
+Time of parser: 0.153439
+Time of Reach Solve: 0.054252
+Time of total : 0.207691
+Number of components: 0
+big SCC size: 0
+query time :0.004217
+Time of parser: 0.111483
+Time of Reach Solve: 0.049408
+Time of total : 0.160891
+Number of components: 0
+big SCC size: 0
+query time :0.003593
+Time of parser: 0.118646
+Time of Reach Solve: 0.047032
+Time of total : 0.165678
+Number of components: 0
+big SCC size: 0
+query time :0.003297
+Time of parser: 0.127941
+Time of Reach Solve: 0.051741
+Time of total : 0.179682
+Number of components: 0
+big SCC size: 0
+query time :0.003301
+Time of parser: 0.112855
+Time of Reach Solve: 0.045116
+Time of total : 0.157971
+Number of components: 0
+big SCC size: 0
+query time :0.002717

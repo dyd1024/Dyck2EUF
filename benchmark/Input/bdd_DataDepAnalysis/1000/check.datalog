@@ -5273,2002 +5273,2002 @@ fun(5237, 1135, 197).
 fun(5238, 646, 3453).
 fun(5239, 311, 5).
 q0(x : Z, y : Z) printsize
-q0(x, y) :- eq(x, y), x = 4551, y = 2129.
+q0(x, y) :- eq(x, y), x = 2727, y = 311.
 q1(x : Z, y : Z) printsize
-q1(x, y) :- eq(x, y), x = 4283, y = 677.
+q1(x, y) :- eq(x, y), x = 2321, y = 1419.
 q2(x : Z, y : Z) printsize
-q2(x, y) :- eq(x, y), x = 3562, y = 3473.
+q2(x, y) :- eq(x, y), x = 4021, y = 157.
 q3(x : Z, y : Z) printsize
-q3(x, y) :- eq(x, y), x = 5205, y = 183.
+q3(x, y) :- eq(x, y), x = 670, y = 391.
 q4(x : Z, y : Z) printsize
-q4(x, y) :- eq(x, y), x = 2414, y = 2420.
+q4(x, y) :- eq(x, y), x = 3204, y = 936.
 q5(x : Z, y : Z) printsize
-q5(x, y) :- eq(x, y), x = 3395, y = 2810.
+q5(x, y) :- eq(x, y), x = 3743, y = 3447.
 q6(x : Z, y : Z) printsize
-q6(x, y) :- eq(x, y), x = 4563, y = 751.
+q6(x, y) :- eq(x, y), x = 2139, y = 3770.
 q7(x : Z, y : Z) printsize
-q7(x, y) :- eq(x, y), x = 3761, y = 5070.
+q7(x, y) :- eq(x, y), x = 1559, y = 761.
 q8(x : Z, y : Z) printsize
-q8(x, y) :- eq(x, y), x = 1173, y = 3932.
+q8(x, y) :- eq(x, y), x = 624, y = 1048.
 q9(x : Z, y : Z) printsize
-q9(x, y) :- eq(x, y), x = 4370, y = 4305.
+q9(x, y) :- eq(x, y), x = 3054, y = 3266.
 q10(x : Z, y : Z) printsize
-q10(x, y) :- eq(x, y), x = 30, y = 303.
+q10(x, y) :- eq(x, y), x = 2681, y = 3451.
 q11(x : Z, y : Z) printsize
-q11(x, y) :- eq(x, y), x = 489, y = 335.
+q11(x, y) :- eq(x, y), x = 3741, y = 2013.
 q12(x : Z, y : Z) printsize
-q12(x, y) :- eq(x, y), x = 2862, y = 80.
+q12(x, y) :- eq(x, y), x = 584, y = 4134.
 q13(x : Z, y : Z) printsize
-q13(x, y) :- eq(x, y), x = 1208, y = 138.
+q13(x, y) :- eq(x, y), x = 4521, y = 1478.
 q14(x : Z, y : Z) printsize
-q14(x, y) :- eq(x, y), x = 290, y = 1166.
+q14(x, y) :- eq(x, y), x = 989, y = 2016.
 q15(x : Z, y : Z) printsize
-q15(x, y) :- eq(x, y), x = 2532, y = 1955.
+q15(x, y) :- eq(x, y), x = 5047, y = 3307.
 q16(x : Z, y : Z) printsize
-q16(x, y) :- eq(x, y), x = 752, y = 442.
+q16(x, y) :- eq(x, y), x = 3811, y = 3577.
 q17(x : Z, y : Z) printsize
-q17(x, y) :- eq(x, y), x = 698, y = 1220.
+q17(x, y) :- eq(x, y), x = 721, y = 671.
 q18(x : Z, y : Z) printsize
-q18(x, y) :- eq(x, y), x = 2983, y = 109.
+q18(x, y) :- eq(x, y), x = 3693, y = 2645.
 q19(x : Z, y : Z) printsize
-q19(x, y) :- eq(x, y), x = 4830, y = 1899.
+q19(x, y) :- eq(x, y), x = 3031, y = 2258.
 q20(x : Z, y : Z) printsize
-q20(x, y) :- eq(x, y), x = 138, y = 4148.
+q20(x, y) :- eq(x, y), x = 1196, y = 1758.
 q21(x : Z, y : Z) printsize
-q21(x, y) :- eq(x, y), x = 1622, y = 3009.
+q21(x, y) :- eq(x, y), x = 4204, y = 2016.
 q22(x : Z, y : Z) printsize
-q22(x, y) :- eq(x, y), x = 3441, y = 557.
+q22(x, y) :- eq(x, y), x = 842, y = 4556.
 q23(x : Z, y : Z) printsize
-q23(x, y) :- eq(x, y), x = 2923, y = 30.
+q23(x, y) :- eq(x, y), x = 2052, y = 2131.
 q24(x : Z, y : Z) printsize
-q24(x, y) :- eq(x, y), x = 458, y = 2182.
+q24(x, y) :- eq(x, y), x = 3178, y = 1177.
 q25(x : Z, y : Z) printsize
-q25(x, y) :- eq(x, y), x = 3902, y = 4884.
+q25(x, y) :- eq(x, y), x = 464, y = 3782.
 q26(x : Z, y : Z) printsize
-q26(x, y) :- eq(x, y), x = 654, y = 868.
+q26(x, y) :- eq(x, y), x = 5191, y = 3534.
 q27(x : Z, y : Z) printsize
-q27(x, y) :- eq(x, y), x = 3704, y = 1671.
+q27(x, y) :- eq(x, y), x = 1499, y = 599.
 q28(x : Z, y : Z) printsize
-q28(x, y) :- eq(x, y), x = 1142, y = 1264.
+q28(x, y) :- eq(x, y), x = 2516, y = 1535.
 q29(x : Z, y : Z) printsize
-q29(x, y) :- eq(x, y), x = 1052, y = 3097.
+q29(x, y) :- eq(x, y), x = 2770, y = 3097.
 q30(x : Z, y : Z) printsize
-q30(x, y) :- eq(x, y), x = 1052, y = 3097.
+q30(x, y) :- eq(x, y), x = 1369, y = 2365.
 q31(x : Z, y : Z) printsize
-q31(x, y) :- eq(x, y), x = 2002, y = 2102.
+q31(x, y) :- eq(x, y), x = 2678, y = 539.
 q32(x : Z, y : Z) printsize
-q32(x, y) :- eq(x, y), x = 4668, y = 2446.
+q32(x, y) :- eq(x, y), x = 3480, y = 3097.
 q33(x : Z, y : Z) printsize
-q33(x, y) :- eq(x, y), x = 1623, y = 4219.
+q33(x, y) :- eq(x, y), x = 4594, y = 2889.
 q34(x : Z, y : Z) printsize
-q34(x, y) :- eq(x, y), x = 4276, y = 1232.
+q34(x, y) :- eq(x, y), x = 2701, y = 1313.
 q35(x : Z, y : Z) printsize
-q35(x, y) :- eq(x, y), x = 1974, y = 33.
+q35(x, y) :- eq(x, y), x = 1033, y = 2264.
 q36(x : Z, y : Z) printsize
-q36(x, y) :- eq(x, y), x = 1912, y = 4910.
+q36(x, y) :- eq(x, y), x = 3497, y = 533.
 q37(x : Z, y : Z) printsize
-q37(x, y) :- eq(x, y), x = 1175, y = 1040.
+q37(x, y) :- eq(x, y), x = 4993, y = 703.
 q38(x : Z, y : Z) printsize
-q38(x, y) :- eq(x, y), x = 882, y = 1455.
+q38(x, y) :- eq(x, y), x = 3480, y = 3097.
 q39(x : Z, y : Z) printsize
-q39(x, y) :- eq(x, y), x = 390, y = 183.
+q39(x, y) :- eq(x, y), x = 3628, y = 3189.
 q40(x : Z, y : Z) printsize
-q40(x, y) :- eq(x, y), x = 1651, y = 1885.
+q40(x, y) :- eq(x, y), x = 97, y = 2214.
 q41(x : Z, y : Z) printsize
-q41(x, y) :- eq(x, y), x = 972, y = 143.
+q41(x, y) :- eq(x, y), x = 1208, y = 138.
 q42(x : Z, y : Z) printsize
-q42(x, y) :- eq(x, y), x = 2551, y = 3685.
+q42(x, y) :- eq(x, y), x = 5139, y = 4503.
 q43(x : Z, y : Z) printsize
-q43(x, y) :- eq(x, y), x = 2151, y = 43.
+q43(x, y) :- eq(x, y), x = 4663, y = 1293.
 q44(x : Z, y : Z) printsize
-q44(x, y) :- eq(x, y), x = 4088, y = 2035.
+q44(x, y) :- eq(x, y), x = 3954, y = 3931.
 q45(x : Z, y : Z) printsize
-q45(x, y) :- eq(x, y), x = 1438, y = 1389.
+q45(x, y) :- eq(x, y), x = 3204, y = 936.
 q46(x : Z, y : Z) printsize
-q46(x, y) :- eq(x, y), x = 2983, y = 109.
+q46(x, y) :- eq(x, y), x = 3646, y = 4493.
 q47(x : Z, y : Z) printsize
-q47(x, y) :- eq(x, y), x = 326, y = 845.
+q47(x, y) :- eq(x, y), x = 3529, y = 3072.
 q48(x : Z, y : Z) printsize
-q48(x, y) :- eq(x, y), x = 601, y = 109.
+q48(x, y) :- eq(x, y), x = 3277, y = 127.
 q49(x : Z, y : Z) printsize
-q49(x, y) :- eq(x, y), x = 4947, y = 102.
+q49(x, y) :- eq(x, y), x = 4991, y = 4461.
 q50(x : Z, y : Z) printsize
-q50(x, y) :- eq(x, y), x = 428, y = 2850.
+q50(x, y) :- eq(x, y), x = 4325, y = 4712.
 q51(x : Z, y : Z) printsize
-q51(x, y) :- eq(x, y), x = 3075, y = 2430.
+q51(x, y) :- eq(x, y), x = 1204, y = 1125.
 q52(x : Z, y : Z) printsize
-q52(x, y) :- eq(x, y), x = 3016, y = 1131.
+q52(x, y) :- eq(x, y), x = 3673, y = 412.
 q53(x : Z, y : Z) printsize
-q53(x, y) :- eq(x, y), x = 1920, y = 1125.
+q53(x, y) :- eq(x, y), x = 1666, y = 192.
 q54(x : Z, y : Z) printsize
-q54(x, y) :- eq(x, y), x = 2217, y = 999.
+q54(x, y) :- eq(x, y), x = 2527, y = 2202.
 q55(x : Z, y : Z) printsize
-q55(x, y) :- eq(x, y), x = 2433, y = 2029.
+q55(x, y) :- eq(x, y), x = 4086, y = 1943.
 q56(x : Z, y : Z) printsize
-q56(x, y) :- eq(x, y), x = 4551, y = 2129.
+q56(x, y) :- eq(x, y), x = 3138, y = 2275.
 q57(x : Z, y : Z) printsize
-q57(x, y) :- eq(x, y), x = 1593, y = 1437.
+q57(x, y) :- eq(x, y), x = 612, y = 442.
 q58(x : Z, y : Z) printsize
-q58(x, y) :- eq(x, y), x = 2239, y = 1164.
+q58(x, y) :- eq(x, y), x = 3773, y = 3682.
 q59(x : Z, y : Z) printsize
-q59(x, y) :- eq(x, y), x = 614, y = 3462.
+q59(x, y) :- eq(x, y), x = 326, y = 845.
 q60(x : Z, y : Z) printsize
-q60(x, y) :- eq(x, y), x = 3345, y = 1392.
+q60(x, y) :- eq(x, y), x = 827, y = 1806.
 q61(x : Z, y : Z) printsize
-q61(x, y) :- eq(x, y), x = 1533, y = 2492.
+q61(x, y) :- eq(x, y), x = 5122, y = 5066.
 q62(x : Z, y : Z) printsize
-q62(x, y) :- eq(x, y), x = 3826, y = 2753.
+q62(x, y) :- eq(x, y), x = 2483, y = 1219.
 q63(x : Z, y : Z) printsize
-q63(x, y) :- eq(x, y), x = 5188, y = 451.
+q63(x, y) :- eq(x, y), x = 5117, y = 3252.
 q64(x : Z, y : Z) printsize
-q64(x, y) :- eq(x, y), x = 2649, y = 2149.
+q64(x, y) :- eq(x, y), x = 69, y = 1015.
 q65(x : Z, y : Z) printsize
-q65(x, y) :- eq(x, y), x = 3218, y = 4535.
+q65(x, y) :- eq(x, y), x = 156, y = 153.
 q66(x : Z, y : Z) printsize
-q66(x, y) :- eq(x, y), x = 2090, y = 2733.
+q66(x, y) :- eq(x, y), x = 3278, y = 3824.
 q67(x : Z, y : Z) printsize
-q67(x, y) :- eq(x, y), x = 160, y = 1132.
+q67(x, y) :- eq(x, y), x = 3448, y = 4329.
 q68(x : Z, y : Z) printsize
-q68(x, y) :- eq(x, y), x = 1953, y = 734.
+q68(x, y) :- eq(x, y), x = 2770, y = 3097.
 q69(x : Z, y : Z) printsize
-q69(x, y) :- eq(x, y), x = 174, y = 499.
+q69(x, y) :- eq(x, y), x = 4874, y = 1218.
 q70(x : Z, y : Z) printsize
-q70(x, y) :- eq(x, y), x = 4144, y = 3705.
+q70(x, y) :- eq(x, y), x = 4067, y = 4329.
 q71(x : Z, y : Z) printsize
-q71(x, y) :- eq(x, y), x = 2772, y = 2085.
+q71(x, y) :- eq(x, y), x = 4136, y = 4601.
 q72(x : Z, y : Z) printsize
-q72(x, y) :- eq(x, y), x = 1245, y = 3331.
+q72(x, y) :- eq(x, y), x = 1580, y = 845.
 q73(x : Z, y : Z) printsize
-q73(x, y) :- eq(x, y), x = 2281, y = 1350.
+q73(x, y) :- eq(x, y), x = 4641, y = 3427.
 q74(x : Z, y : Z) printsize
-q74(x, y) :- eq(x, y), x = 4669, y = 478.
+q74(x, y) :- eq(x, y), x = 4668, y = 2446.
 q75(x : Z, y : Z) printsize
-q75(x, y) :- eq(x, y), x = 3676, y = 1056.
+q75(x, y) :- eq(x, y), x = 1020, y = 2342.
 q76(x : Z, y : Z) printsize
-q76(x, y) :- eq(x, y), x = 1719, y = 143.
+q76(x, y) :- eq(x, y), x = 621, y = 1223.
 q77(x : Z, y : Z) printsize
-q77(x, y) :- eq(x, y), x = 3953, y = 4613.
+q77(x, y) :- eq(x, y), x = 3811, y = 3577.
 q78(x : Z, y : Z) printsize
-q78(x, y) :- eq(x, y), x = 1822, y = 4865.
+q78(x, y) :- eq(x, y), x = 3341, y = 1811.
 q79(x : Z, y : Z) printsize
-q79(x, y) :- eq(x, y), x = 2957, y = 1864.
+q79(x, y) :- eq(x, y), x = 2572, y = 629.
 q80(x : Z, y : Z) printsize
-q80(x, y) :- eq(x, y), x = 3930, y = 1013.
+q80(x, y) :- eq(x, y), x = 1038, y = 3436.
 q81(x : Z, y : Z) printsize
-q81(x, y) :- eq(x, y), x = 3529, y = 3072.
+q81(x, y) :- eq(x, y), x = 4529, y = 4337.
 q82(x : Z, y : Z) printsize
-q82(x, y) :- eq(x, y), x = 1601, y = 4574.
+q82(x, y) :- eq(x, y), x = 3813, y = 416.
 q83(x : Z, y : Z) printsize
-q83(x, y) :- eq(x, y), x = 1184, y = 109.
+q83(x, y) :- eq(x, y), x = 4551, y = 2129.
 q84(x : Z, y : Z) printsize
-q84(x, y) :- eq(x, y), x = 2245, y = 2593.
+q84(x, y) :- eq(x, y), x = 5180, y = 1640.
 q85(x : Z, y : Z) printsize
-q85(x, y) :- eq(x, y), x = 2986, y = 1998.
+q85(x, y) :- eq(x, y), x = 4891, y = 1465.
 q86(x : Z, y : Z) printsize
-q86(x, y) :- eq(x, y), x = 2054, y = 1294.
+q86(x, y) :- eq(x, y), x = 5029, y = 109.
 q87(x : Z, y : Z) printsize
-q87(x, y) :- eq(x, y), x = 134, y = 3817.
+q87(x, y) :- eq(x, y), x = 1481, y = 570.
 q88(x : Z, y : Z) printsize
-q88(x, y) :- eq(x, y), x = 4686, y = 2524.
+q88(x, y) :- eq(x, y), x = 3601, y = 4595.
 q89(x : Z, y : Z) printsize
-q89(x, y) :- eq(x, y), x = 49, y = 143.
+q89(x, y) :- eq(x, y), x = 2601, y = 1387.
 q90(x : Z, y : Z) printsize
-q90(x, y) :- eq(x, y), x = 3555, y = 1057.
+q90(x, y) :- eq(x, y), x = 4651, y = 1906.
 q91(x : Z, y : Z) printsize
-q91(x, y) :- eq(x, y), x = 5139, y = 4503.
+q91(x, y) :- eq(x, y), x = 1371, y = 1325.
 q92(x : Z, y : Z) printsize
-q92(x, y) :- eq(x, y), x = 3730, y = 2646.
+q92(x, y) :- eq(x, y), x = 4202, y = 2734.
 q93(x : Z, y : Z) printsize
-q93(x, y) :- eq(x, y), x = 4570, y = 2988.
+q93(x, y) :- eq(x, y), x = 4675, y = 5191.
 q94(x : Z, y : Z) printsize
-q94(x, y) :- eq(x, y), x = 3318, y = 1682.
+q94(x, y) :- eq(x, y), x = 2124, y = 1570.
 q95(x : Z, y : Z) printsize
-q95(x, y) :- eq(x, y), x = 3305, y = 1988.
+q95(x, y) :- eq(x, y), x = 3135, y = 3882.
 q96(x : Z, y : Z) printsize
-q96(x, y) :- eq(x, y), x = 4948, y = 4149.
+q96(x, y) :- eq(x, y), x = 1432, y = 4869.
 q97(x : Z, y : Z) printsize
-q97(x, y) :- eq(x, y), x = 3817, y = 1069.
+q97(x, y) :- eq(x, y), x = 4204, y = 2016.
 q98(x : Z, y : Z) printsize
-q98(x, y) :- eq(x, y), x = 3637, y = 1225.
+q98(x, y) :- eq(x, y), x = 3169, y = 2677.
 q99(x : Z, y : Z) printsize
-q99(x, y) :- eq(x, y), x = 5112, y = 2330.
+q99(x, y) :- eq(x, y), x = 3305, y = 1988.
 q100(x : Z, y : Z) printsize
-q100(x, y) :- eq(x, y), x = 2859, y = 1584.
+q100(x, y) :- eq(x, y), x = 2394, y = 2236.
 q101(x : Z, y : Z) printsize
-q101(x, y) :- eq(x, y), x = 1292, y = 812.
+q101(x, y) :- eq(x, y), x = 4874, y = 1218.
 q102(x : Z, y : Z) printsize
-q102(x, y) :- eq(x, y), x = 3529, y = 3072.
+q102(x, y) :- eq(x, y), x = 3769, y = 532.
 q103(x : Z, y : Z) printsize
-q103(x, y) :- eq(x, y), x = 4217, y = 2440.
+q103(x, y) :- eq(x, y), x = 3899, y = 3439.
 q104(x : Z, y : Z) printsize
-q104(x, y) :- eq(x, y), x = 3284, y = 461.
+q104(x, y) :- eq(x, y), x = 4585, y = 3362.
 q105(x : Z, y : Z) printsize
-q105(x, y) :- eq(x, y), x = 4142, y = 606.
+q105(x, y) :- eq(x, y), x = 5094, y = 3736.
 q106(x : Z, y : Z) printsize
-q106(x, y) :- eq(x, y), x = 5115, y = 1919.
+q106(x, y) :- eq(x, y), x = 2753, y = 2496.
 q107(x : Z, y : Z) printsize
-q107(x, y) :- eq(x, y), x = 752, y = 442.
+q107(x, y) :- eq(x, y), x = 1002, y = 3638.
 q108(x : Z, y : Z) printsize
-q108(x, y) :- eq(x, y), x = 2394, y = 143.
+q108(x, y) :- eq(x, y), x = 4086, y = 1943.
 q109(x : Z, y : Z) printsize
-q109(x, y) :- eq(x, y), x = 1697, y = 1012.
+q109(x, y) :- eq(x, y), x = 927, y = 1110.
 q110(x : Z, y : Z) printsize
-q110(x, y) :- eq(x, y), x = 3055, y = 2487.
+q110(x, y) :- eq(x, y), x = 2662, y = 789.
 q111(x : Z, y : Z) printsize
-q111(x, y) :- eq(x, y), x = 3284, y = 143.
+q111(x, y) :- eq(x, y), x = 4613, y = 4102.
 q112(x : Z, y : Z) printsize
-q112(x, y) :- eq(x, y), x = 3322, y = 845.
+q112(x, y) :- eq(x, y), x = 2434, y = 349.
 q113(x : Z, y : Z) printsize
-q113(x, y) :- eq(x, y), x = 212, y = 305.
+q113(x, y) :- eq(x, y), x = 2035, y = 2690.
 q114(x : Z, y : Z) printsize
-q114(x, y) :- eq(x, y), x = 1905, y = 1455.
+q114(x, y) :- eq(x, y), x = 4513, y = 691.
 q115(x : Z, y : Z) printsize
-q115(x, y) :- eq(x, y), x = 4551, y = 2129.
+q115(x, y) :- eq(x, y), x = 818, y = 3646.
 q116(x : Z, y : Z) printsize
-q116(x, y) :- eq(x, y), x = 1197, y = 2052.
+q116(x, y) :- eq(x, y), x = 2963, y = 1198.
 q117(x : Z, y : Z) printsize
-q117(x, y) :- eq(x, y), x = 930, y = 4994.
+q117(x, y) :- eq(x, y), x = 3704, y = 1671.
 q118(x : Z, y : Z) printsize
-q118(x, y) :- eq(x, y), x = 5216, y = 3933.
+q118(x, y) :- eq(x, y), x = 4200, y = 681.
 q119(x : Z, y : Z) printsize
-q119(x, y) :- eq(x, y), x = 844, y = 1955.
+q119(x, y) :- eq(x, y), x = 4729, y = 4266.
 q120(x : Z, y : Z) printsize
-q120(x, y) :- eq(x, y), x = 4647, y = 3021.
+q120(x, y) :- eq(x, y), x = 4733, y = 749.
 q121(x : Z, y : Z) printsize
-q121(x, y) :- eq(x, y), x = 2503, y = 48.
+q121(x, y) :- eq(x, y), x = 2450, y = 1731.
 q122(x : Z, y : Z) printsize
-q122(x, y) :- eq(x, y), x = 2218, y = 2342.
+q122(x, y) :- eq(x, y), x = 2609, y = 4428.
 q123(x : Z, y : Z) printsize
-q123(x, y) :- eq(x, y), x = 469, y = 3771.
+q123(x, y) :- eq(x, y), x = 3069, y = 2838.
 q124(x : Z, y : Z) printsize
-q124(x, y) :- eq(x, y), x = 4298, y = 1955.
+q124(x, y) :- eq(x, y), x = 4991, y = 4461.
 q125(x : Z, y : Z) printsize
-q125(x, y) :- eq(x, y), x = 4217, y = 2440.
+q125(x, y) :- eq(x, y), x = 1822, y = 4865.
 q126(x : Z, y : Z) printsize
-q126(x, y) :- eq(x, y), x = 3157, y = 1671.
+q126(x, y) :- eq(x, y), x = 4094, y = 4768.
 q127(x : Z, y : Z) printsize
-q127(x, y) :- eq(x, y), x = 2153, y = 2791.
+q127(x, y) :- eq(x, y), x = 4593, y = 2596.
 q128(x : Z, y : Z) printsize
-q128(x, y) :- eq(x, y), x = 4896, y = 1037.
+q128(x, y) :- eq(x, y), x = 184, y = 1586.
 q129(x : Z, y : Z) printsize
-q129(x, y) :- eq(x, y), x = 390, y = 183.
+q129(x, y) :- eq(x, y), x = 4271, y = 1105.
 q130(x : Z, y : Z) printsize
-q130(x, y) :- eq(x, y), x = 1529, y = 2327.
+q130(x, y) :- eq(x, y), x = 1674, y = 3888.
 q131(x : Z, y : Z) printsize
-q131(x, y) :- eq(x, y), x = 4913, y = 2081.
+q131(x, y) :- eq(x, y), x = 5005, y = 1925.
 q132(x : Z, y : Z) printsize
-q132(x, y) :- eq(x, y), x = 2784, y = 5135.
+q132(x, y) :- eq(x, y), x = 4120, y = 533.
 q133(x : Z, y : Z) printsize
-q133(x, y) :- eq(x, y), x = 4733, y = 749.
+q133(x, y) :- eq(x, y), x = 16, y = 3365.
 q134(x : Z, y : Z) printsize
-q134(x, y) :- eq(x, y), x = 1907, y = 44.
+q134(x, y) :- eq(x, y), x = 1129, y = 123.
 q135(x : Z, y : Z) printsize
-q135(x, y) :- eq(x, y), x = 1529, y = 5239.
+q135(x, y) :- eq(x, y), x = 2568, y = 1128.
 q136(x : Z, y : Z) printsize
-q136(x, y) :- eq(x, y), x = 3085, y = 3540.
+q136(x, y) :- eq(x, y), x = 601, y = 2238.
 q137(x : Z, y : Z) printsize
-q137(x, y) :- eq(x, y), x = 818, y = 3646.
+q137(x, y) :- eq(x, y), x = 3886, y = 1756.
 q138(x : Z, y : Z) printsize
-q138(x, y) :- eq(x, y), x = 688, y = 2191.
+q138(x, y) :- eq(x, y), x = 2710, y = 3524.
 q139(x : Z, y : Z) printsize
-q139(x, y) :- eq(x, y), x = 3560, y = 230.
+q139(x, y) :- eq(x, y), x = 4065, y = 3528.
 q140(x : Z, y : Z) printsize
-q140(x, y) :- eq(x, y), x = 203, y = 4486.
+q140(x, y) :- eq(x, y), x = 5085, y = 3928.
 q141(x : Z, y : Z) printsize
-q141(x, y) :- eq(x, y), x = 853, y = 5122.
+q141(x, y) :- eq(x, y), x = 1330, y = 1491.
 q142(x : Z, y : Z) printsize
-q142(x, y) :- eq(x, y), x = 3652, y = 1586.
+q142(x, y) :- eq(x, y), x = 540, y = 3840.
 q143(x : Z, y : Z) printsize
-q143(x, y) :- eq(x, y), x = 541, y = 501.
+q143(x, y) :- eq(x, y), x = 3655, y = 465.
 q144(x : Z, y : Z) printsize
-q144(x, y) :- eq(x, y), x = 3764, y = 1105.
+q144(x, y) :- eq(x, y), x = 2315, y = 2985.
 q145(x : Z, y : Z) printsize
-q145(x, y) :- eq(x, y), x = 1601, y = 4574.
+q145(x, y) :- eq(x, y), x = 1948, y = 3847.
 q146(x : Z, y : Z) printsize
-q146(x, y) :- eq(x, y), x = 1743, y = 3216.
+q146(x, y) :- eq(x, y), x = 1768, y = 4658.
 q147(x : Z, y : Z) printsize
-q147(x, y) :- eq(x, y), x = 972, y = 143.
+q147(x, y) :- eq(x, y), x = 1183, y = 4865.
 q148(x : Z, y : Z) printsize
-q148(x, y) :- eq(x, y), x = 1399, y = 2753.
+q148(x, y) :- eq(x, y), x = 2367, y = 611.
 q149(x : Z, y : Z) printsize
-q149(x, y) :- eq(x, y), x = 179, y = 3994.
+q149(x, y) :- eq(x, y), x = 1355, y = 4685.
 q150(x : Z, y : Z) printsize
-q150(x, y) :- eq(x, y), x = 2041, y = 3040.
+q150(x, y) :- eq(x, y), x = 1131, y = 3398.
 q151(x : Z, y : Z) printsize
-q151(x, y) :- eq(x, y), x = 2974, y = 3462.
+q151(x, y) :- eq(x, y), x = 907, y = 143.
 q152(x : Z, y : Z) printsize
-q152(x, y) :- eq(x, y), x = 5115, y = 1919.
+q152(x, y) :- eq(x, y), x = 3235, y = 1039.
 q153(x : Z, y : Z) printsize
-q153(x, y) :- eq(x, y), x = 3910, y = 751.
+q153(x, y) :- eq(x, y), x = 4275, y = 329.
 q154(x : Z, y : Z) printsize
-q154(x, y) :- eq(x, y), x = 3575, y = 128.
+q154(x, y) :- eq(x, y), x = 4749, y = 2587.
 q155(x : Z, y : Z) printsize
-q155(x, y) :- eq(x, y), x = 4230, y = 3009.
+q155(x, y) :- eq(x, y), x = 290, y = 1166.
 q156(x : Z, y : Z) printsize
-q156(x, y) :- eq(x, y), x = 3065, y = 2320.
+q156(x, y) :- eq(x, y), x = 678, y = 3602.
 q157(x : Z, y : Z) printsize
-q157(x, y) :- eq(x, y), x = 2811, y = 4778.
+q157(x, y) :- eq(x, y), x = 3704, y = 1671.
 q158(x : Z, y : Z) printsize
-q158(x, y) :- eq(x, y), x = 1793, y = 1387.
+q158(x, y) :- eq(x, y), x = 2523, y = 2199.
 q159(x : Z, y : Z) printsize
-q159(x, y) :- eq(x, y), x = 3751, y = 4858.
+q159(x, y) :- eq(x, y), x = 4616, y = 274.
 q160(x : Z, y : Z) printsize
-q160(x, y) :- eq(x, y), x = 1008, y = 4709.
+q160(x, y) :- eq(x, y), x = 97, y = 2214.
 q161(x : Z, y : Z) printsize
-q161(x, y) :- eq(x, y), x = 2422, y = 3277.
+q161(x, y) :- eq(x, y), x = 2483, y = 1219.
 q162(x : Z, y : Z) printsize
-q162(x, y) :- eq(x, y), x = 1114, y = 2512.
+q162(x, y) :- eq(x, y), x = 3655, y = 465.
 q163(x : Z, y : Z) printsize
-q163(x, y) :- eq(x, y), x = 492, y = 3097.
+q163(x, y) :- eq(x, y), x = 2853, y = 1568.
 q164(x : Z, y : Z) printsize
-q164(x, y) :- eq(x, y), x = 3731, y = 1013.
+q164(x, y) :- eq(x, y), x = 816, y = 677.
 q165(x : Z, y : Z) printsize
-q165(x, y) :- eq(x, y), x = 326, y = 845.
+q165(x, y) :- eq(x, y), x = 4255, y = 2461.
 q166(x : Z, y : Z) printsize
-q166(x, y) :- eq(x, y), x = 318, y = 3154.
+q166(x, y) :- eq(x, y), x = 3725, y = 679.
 q167(x : Z, y : Z) printsize
-q167(x, y) :- eq(x, y), x = 5188, y = 451.
+q167(x, y) :- eq(x, y), x = 2490, y = 1955.
 q168(x : Z, y : Z) printsize
-q168(x, y) :- eq(x, y), x = 1399, y = 2753.
+q168(x, y) :- eq(x, y), x = 253, y = 936.
 q169(x : Z, y : Z) printsize
-q169(x, y) :- eq(x, y), x = 456, y = 380.
+q169(x, y) :- eq(x, y), x = 3692, y = 858.
 q170(x : Z, y : Z) printsize
-q170(x, y) :- eq(x, y), x = 3168, y = 1153.
+q170(x, y) :- eq(x, y), x = 677, y = 533.
 q171(x : Z, y : Z) printsize
-q171(x, y) :- eq(x, y), x = 1643, y = 2470.
+q171(x, y) :- eq(x, y), x = 3941, y = 2833.
 q172(x : Z, y : Z) printsize
-q172(x, y) :- eq(x, y), x = 485, y = 4782.
+q172(x, y) :- eq(x, y), x = 4406, y = 3477.
 q173(x : Z, y : Z) printsize
-q173(x, y) :- eq(x, y), x = 1889, y = 5234.
+q173(x, y) :- eq(x, y), x = 35, y = 1212.
 q174(x : Z, y : Z) printsize
-q174(x, y) :- eq(x, y), x = 2239, y = 1164.
+q174(x, y) :- eq(x, y), x = 4603, y = 19.
 q175(x : Z, y : Z) printsize
-q175(x, y) :- eq(x, y), x = 4136, y = 1607.
+q175(x, y) :- eq(x, y), x = 3085, y = 4329.
 q176(x : Z, y : Z) printsize
-q176(x, y) :- eq(x, y), x = 3451, y = 1833.
+q176(x, y) :- eq(x, y), x = 3822, y = 1094.
 q177(x : Z, y : Z) printsize
-q177(x, y) :- eq(x, y), x = 1895, y = 17.
+q177(x, y) :- eq(x, y), x = 3144, y = 4305.
 q178(x : Z, y : Z) printsize
-q178(x, y) :- eq(x, y), x = 2622, y = 5204.
+q178(x, y) :- eq(x, y), x = 4812, y = 1371.
 q179(x : Z, y : Z) printsize
-q179(x, y) :- eq(x, y), x = 2459, y = 5093.
+q179(x, y) :- eq(x, y), x = 116, y = 4337.
 q180(x : Z, y : Z) printsize
-q180(x, y) :- eq(x, y), x = 4555, y = 2904.
+q180(x, y) :- eq(x, y), x = 4272, y = 2265.
 q181(x : Z, y : Z) printsize
-q181(x, y) :- eq(x, y), x = 1294, y = 5109.
+q181(x, y) :- eq(x, y), x = 2424, y = 4971.
 q182(x : Z, y : Z) printsize
-q182(x, y) :- eq(x, y), x = 3844, y = 5009.
+q182(x, y) :- eq(x, y), x = 2850, y = 539.
 q183(x : Z, y : Z) printsize
-q183(x, y) :- eq(x, y), x = 14, y = 4700.
+q183(x, y) :- eq(x, y), x = 1751, y = 1210.
 q184(x : Z, y : Z) printsize
-q184(x, y) :- eq(x, y), x = 4731, y = 4497.
+q184(x, y) :- eq(x, y), x = 3345, y = 1392.
 q185(x : Z, y : Z) printsize
-q185(x, y) :- eq(x, y), x = 946, y = 1002.
+q185(x, y) :- eq(x, y), x = 1781, y = 31.
 q186(x : Z, y : Z) printsize
-q186(x, y) :- eq(x, y), x = 2039, y = 2763.
+q186(x, y) :- eq(x, y), x = 229, y = 98.
 q187(x : Z, y : Z) printsize
-q187(x, y) :- eq(x, y), x = 2895, y = 143.
+q187(x, y) :- eq(x, y), x = 2986, y = 1998.
 q188(x : Z, y : Z) printsize
-q188(x, y) :- eq(x, y), x = 3345, y = 1392.
+q188(x, y) :- eq(x, y), x = 2450, y = 1731.
 q189(x : Z, y : Z) printsize
-q189(x, y) :- eq(x, y), x = 1336, y = 2554.
+q189(x, y) :- eq(x, y), x = 614, y = 3462.
 q190(x : Z, y : Z) printsize
-q190(x, y) :- eq(x, y), x = 5217, y = 2848.
+q190(x, y) :- eq(x, y), x = 4202, y = 2734.
 q191(x : Z, y : Z) printsize
-q191(x, y) :- eq(x, y), x = 948, y = 473.
+q191(x, y) :- eq(x, y), x = 3060, y = 3602.
 q192(x : Z, y : Z) printsize
-q192(x, y) :- eq(x, y), x = 5015, y = 2526.
+q192(x, y) :- eq(x, y), x = 3760, y = 3684.
 q193(x : Z, y : Z) printsize
-q193(x, y) :- eq(x, y), x = 3281, y = 539.
+q193(x, y) :- eq(x, y), x = 4178, y = 26.
 q194(x : Z, y : Z) printsize
-q194(x, y) :- eq(x, y), x = 2601, y = 1387.
+q194(x, y) :- eq(x, y), x = 602, y = 2471.
 q195(x : Z, y : Z) printsize
-q195(x, y) :- eq(x, y), x = 3235, y = 2298.
+q195(x, y) :- eq(x, y), x = 1301, y = 3338.
 q196(x : Z, y : Z) printsize
-q196(x, y) :- eq(x, y), x = 2695, y = 4464.
+q196(x, y) :- eq(x, y), x = 3423, y = 2733.
 q197(x : Z, y : Z) printsize
-q197(x, y) :- eq(x, y), x = 4570, y = 751.
+q197(x, y) :- eq(x, y), x = 1148, y = 4567.
 q198(x : Z, y : Z) printsize
-q198(x, y) :- eq(x, y), x = 871, y = 2757.
+q198(x, y) :- eq(x, y), x = 1330, y = 451.
 q199(x : Z, y : Z) printsize
-q199(x, y) :- eq(x, y), x = 2395, y = 3441.
+q199(x, y) :- eq(x, y), x = 4043, y = 2202.
 q200(x : Z, y : Z) printsize
-q200(x, y) :- eq(x, y), x = 5005, y = 1925.
+q200(x, y) :- eq(x, y), x = 739, y = 347.
 q201(x : Z, y : Z) printsize
-q201(x, y) :- eq(x, y), x = 4998, y = 3482.
+q201(x, y) :- eq(x, y), x = 2738, y = 1238.
 q202(x : Z, y : Z) printsize
-q202(x, y) :- eq(x, y), x = 1291, y = 2403.
+q202(x, y) :- eq(x, y), x = 760, y = 961.
 q203(x : Z, y : Z) printsize
-q203(x, y) :- eq(x, y), x = 3109, y = 3253.
+q203(x, y) :- eq(x, y), x = 796, y = 983.
 q204(x : Z, y : Z) printsize
-q204(x, y) :- eq(x, y), x = 5217, y = 2848.
+q204(x, y) :- eq(x, y), x = 4922, y = 1012.
 q205(x : Z, y : Z) printsize
-q205(x, y) :- eq(x, y), x = 729, y = 855.
+q205(x, y) :- eq(x, y), x = 3169, y = 2677.
 q206(x : Z, y : Z) printsize
-q206(x, y) :- eq(x, y), x = 927, y = 1110.
+q206(x, y) :- eq(x, y), x = 4826, y = 4428.
 q207(x : Z, y : Z) printsize
-q207(x, y) :- eq(x, y), x = 2352, y = 1294.
+q207(x, y) :- eq(x, y), x = 1651, y = 1402.
 q208(x : Z, y : Z) printsize
-q208(x, y) :- eq(x, y), x = 2793, y = 845.
+q208(x, y) :- eq(x, y), x = 3611, y = 2551.
 q209(x : Z, y : Z) printsize
-q209(x, y) :- eq(x, y), x = 2744, y = 1586.
+q209(x, y) :- eq(x, y), x = 3664, y = 1603.
 q210(x : Z, y : Z) printsize
-q210(x, y) :- eq(x, y), x = 1325, y = 2524.
+q210(x, y) :- eq(x, y), x = 229, y = 98.
 q211(x : Z, y : Z) printsize
-q211(x, y) :- eq(x, y), x = 5005, y = 1925.
+q211(x, y) :- eq(x, y), x = 1330, y = 451.
 q212(x : Z, y : Z) printsize
-q212(x, y) :- eq(x, y), x = 2770, y = 1069.
+q212(x, y) :- eq(x, y), x = 3910, y = 751.
 q213(x : Z, y : Z) printsize
-q213(x, y) :- eq(x, y), x = 228, y = 4350.
+q213(x, y) :- eq(x, y), x = 3456, y = 3063.
 q214(x : Z, y : Z) printsize
-q214(x, y) :- eq(x, y), x = 1395, y = 751.
+q214(x, y) :- eq(x, y), x = 2434, y = 349.
 q215(x : Z, y : Z) printsize
-q215(x, y) :- eq(x, y), x = 3399, y = 3291.
+q215(x, y) :- eq(x, y), x = 200, y = 4961.
 q216(x : Z, y : Z) printsize
-q216(x, y) :- eq(x, y), x = 4230, y = 3009.
+q216(x, y) :- eq(x, y), x = 3620, y = 3652.
 q217(x : Z, y : Z) printsize
-q217(x, y) :- eq(x, y), x = 112, y = 426.
+q217(x, y) :- eq(x, y), x = 844, y = 1955.
 q218(x : Z, y : Z) printsize
-q218(x, y) :- eq(x, y), x = 1074, y = 4377.
+q218(x, y) :- eq(x, y), x = 2539, y = 4300.
 q219(x : Z, y : Z) printsize
-q219(x, y) :- eq(x, y), x = 2543, y = 1091.
+q219(x, y) :- eq(x, y), x = 1885, y = 2327.
 q220(x : Z, y : Z) printsize
-q220(x, y) :- eq(x, y), x = 3529, y = 3072.
+q220(x, y) :- eq(x, y), x = 2838, y = 1130.
 q221(x : Z, y : Z) printsize
-q221(x, y) :- eq(x, y), x = 214, y = 2099.
+q221(x, y) :- eq(x, y), x = 3147, y = 1734.
 q222(x : Z, y : Z) printsize
-q222(x, y) :- eq(x, y), x = 326, y = 845.
+q222(x, y) :- eq(x, y), x = 3726, y = 632.
 q223(x : Z, y : Z) printsize
-q223(x, y) :- eq(x, y), x = 4346, y = 483.
+q223(x, y) :- eq(x, y), x = 458, y = 2140.
 q224(x : Z, y : Z) printsize
-q224(x, y) :- eq(x, y), x = 1182, y = 1092.
+q224(x, y) :- eq(x, y), x = 1530, y = 465.
 q225(x : Z, y : Z) printsize
-q225(x, y) :- eq(x, y), x = 5216, y = 1686.
+q225(x, y) :- eq(x, y), x = 1704, y = 4578.
 q226(x : Z, y : Z) printsize
-q226(x, y) :- eq(x, y), x = 1386, y = 33.
+q226(x, y) :- eq(x, y), x = 3910, y = 751.
 q227(x : Z, y : Z) printsize
-q227(x, y) :- eq(x, y), x = 3050, y = 1671.
+q227(x, y) :- eq(x, y), x = 2628, y = 823.
 q228(x : Z, y : Z) printsize
-q228(x, y) :- eq(x, y), x = 3423, y = 2733.
+q228(x, y) :- eq(x, y), x = 333, y = 3684.
 q229(x : Z, y : Z) printsize
-q229(x, y) :- eq(x, y), x = 3332, y = 820.
+q229(x, y) :- eq(x, y), x = 663, y = 3117.
 q230(x : Z, y : Z) printsize
-q230(x, y) :- eq(x, y), x = 3050, y = 1671.
+q230(x, y) :- eq(x, y), x = 120, y = 1919.
 q231(x : Z, y : Z) printsize
-q231(x, y) :- eq(x, y), x = 4271, y = 1105.
+q231(x, y) :- eq(x, y), x = 2824, y = 4237.
 q232(x : Z, y : Z) printsize
-q232(x, y) :- eq(x, y), x = 2434, y = 349.
+q232(x, y) :- eq(x, y), x = 1743, y = 3216.
 q233(x : Z, y : Z) printsize
-q233(x, y) :- eq(x, y), x = 2179, y = 3731.
+q233(x, y) :- eq(x, y), x = 3037, y = 1353.
 q234(x : Z, y : Z) printsize
-q234(x, y) :- eq(x, y), x = 1382, y = 4009.
+q234(x, y) :- eq(x, y), x = 1892, y = 3852.
 q235(x : Z, y : Z) printsize
-q235(x, y) :- eq(x, y), x = 3730, y = 2646.
+q235(x, y) :- eq(x, y), x = 2974, y = 3462.
 q236(x : Z, y : Z) printsize
-q236(x, y) :- eq(x, y), x = 3826, y = 2753.
+q236(x, y) :- eq(x, y), x = 5040, y = 2154.
 q237(x : Z, y : Z) printsize
-q237(x, y) :- eq(x, y), x = 766, y = 1544.
+q237(x, y) :- eq(x, y), x = 655, y = 366.
 q238(x : Z, y : Z) printsize
-q238(x, y) :- eq(x, y), x = 3273, y = 3889.
+q238(x, y) :- eq(x, y), x = 1052, y = 3097.
 q239(x : Z, y : Z) printsize
-q239(x, y) :- eq(x, y), x = 901, y = 991.
+q239(x, y) :- eq(x, y), x = 3699, y = 4329.
 q240(x : Z, y : Z) printsize
-q240(x, y) :- eq(x, y), x = 3826, y = 473.
+q240(x, y) :- eq(x, y), x = 3746, y = 4339.
 q241(x : Z, y : Z) printsize
-q241(x, y) :- eq(x, y), x = 2055, y = 3401.
+q241(x, y) :- eq(x, y), x = 3505, y = 2094.
 q242(x : Z, y : Z) printsize
-q242(x, y) :- eq(x, y), x = 2939, y = 2667.
+q242(x, y) :- eq(x, y), x = 4453, y = 1537.
 q243(x : Z, y : Z) printsize
-q243(x, y) :- eq(x, y), x = 214, y = 3277.
+q243(x, y) :- eq(x, y), x = 4230, y = 3009.
 q244(x : Z, y : Z) printsize
-q244(x, y) :- eq(x, y), x = 4071, y = 3216.
+q244(x, y) :- eq(x, y), x = 1406, y = 4080.
 q245(x : Z, y : Z) printsize
-q245(x, y) :- eq(x, y), x = 1127, y = 3244.
+q245(x, y) :- eq(x, y), x = 3954, y = 3931.
 q246(x : Z, y : Z) printsize
-q246(x, y) :- eq(x, y), x = 780, y = 629.
+q246(x, y) :- eq(x, y), x = 2770, y = 3097.
 q247(x : Z, y : Z) printsize
-q247(x, y) :- eq(x, y), x = 1294, y = 4069.
+q247(x, y) :- eq(x, y), x = 1822, y = 4865.
 q248(x : Z, y : Z) printsize
-q248(x, y) :- eq(x, y), x = 4217, y = 11.
+q248(x, y) :- eq(x, y), x = 2518, y = 3303.
 q249(x : Z, y : Z) printsize
-q249(x, y) :- eq(x, y), x = 424, y = 1640.
+q249(x, y) :- eq(x, y), x = 1552, y = 1053.
 q250(x : Z, y : Z) printsize
-q250(x, y) :- eq(x, y), x = 554, y = 842.
+q250(x, y) :- eq(x, y), x = 5051, y = 3765.
 q251(x : Z, y : Z) printsize
-q251(x, y) :- eq(x, y), x = 4452, y = 4545.
+q251(x, y) :- eq(x, y), x = 1576, y = 613.
 q252(x : Z, y : Z) printsize
-q252(x, y) :- eq(x, y), x = 1454, y = 4836.
+q252(x, y) :- eq(x, y), x = 3110, y = 688.
 q253(x : Z, y : Z) printsize
-q253(x, y) :- eq(x, y), x = 4201, y = 4650.
+q253(x, y) :- eq(x, y), x = 3204, y = 936.
 q254(x : Z, y : Z) printsize
-q254(x, y) :- eq(x, y), x = 2976, y = 5084.
+q254(x, y) :- eq(x, y), x = 3715, y = 3869.
 q255(x : Z, y : Z) printsize
-q255(x, y) :- eq(x, y), x = 1764, y = 539.
+q255(x, y) :- eq(x, y), x = 1496, y = 1379.
 q256(x : Z, y : Z) printsize
-q256(x, y) :- eq(x, y), x = 424, y = 1640.
+q256(x, y) :- eq(x, y), x = 1761, y = 868.
 q257(x : Z, y : Z) printsize
-q257(x, y) :- eq(x, y), x = 2681, y = 157.
+q257(x, y) :- eq(x, y), x = 1183, y = 4865.
 q258(x : Z, y : Z) printsize
-q258(x, y) :- eq(x, y), x = 2577, y = 945.
+q258(x, y) :- eq(x, y), x = 5139, y = 4503.
 q259(x : Z, y : Z) printsize
-q259(x, y) :- eq(x, y), x = 3537, y = 1772.
+q259(x, y) :- eq(x, y), x = 1927, y = 1445.
 q260(x : Z, y : Z) printsize
-q260(x, y) :- eq(x, y), x = 3663, y = 2667.
+q260(x, y) :- eq(x, y), x = 2664, y = 24.
 q261(x : Z, y : Z) printsize
-q261(x, y) :- eq(x, y), x = 1266, y = 749.
+q261(x, y) :- eq(x, y), x = 456, y = 380.
 q262(x : Z, y : Z) printsize
-q262(x, y) :- eq(x, y), x = 1074, y = 4377.
+q262(x, y) :- eq(x, y), x = 2407, y = 3394.
 q263(x : Z, y : Z) printsize
-q263(x, y) :- eq(x, y), x = 899, y = 3314.
+q263(x, y) :- eq(x, y), x = 1622, y = 3009.
 q264(x : Z, y : Z) printsize
-q264(x, y) :- eq(x, y), x = 4801, y = 1515.
+q264(x, y) :- eq(x, y), x = 2253, y = 751.
 q265(x : Z, y : Z) printsize
-q265(x, y) :- eq(x, y), x = 4937, y = 4963.
+q265(x, y) :- eq(x, y), x = 4117, y = 1703.
 q266(x : Z, y : Z) printsize
-q266(x, y) :- eq(x, y), x = 907, y = 143.
+q266(x, y) :- eq(x, y), x = 155, y = 4080.
 q267(x : Z, y : Z) printsize
-q267(x, y) :- eq(x, y), x = 3794, y = 4582.
+q267(x, y) :- eq(x, y), x = 1743, y = 3216.
 q268(x : Z, y : Z) printsize
-q268(x, y) :- eq(x, y), x = 4593, y = 3067.
+q268(x, y) :- eq(x, y), x = 1844, y = 2435.
 q269(x : Z, y : Z) printsize
-q269(x, y) :- eq(x, y), x = 4616, y = 3551.
+q269(x, y) :- eq(x, y), x = 1241, y = 2461.
 q270(x : Z, y : Z) printsize
-q270(x, y) :- eq(x, y), x = 2527, y = 2202.
+q270(x, y) :- eq(x, y), x = 4217, y = 2440.
 q271(x : Z, y : Z) printsize
-q271(x, y) :- eq(x, y), x = 2662, y = 4615.
+q271(x, y) :- eq(x, y), x = 1844, y = 2031.
 q272(x : Z, y : Z) printsize
-q272(x, y) :- eq(x, y), x = 206, y = 1382.
+q272(x, y) :- eq(x, y), x = 2443, y = 2538.
 q273(x : Z, y : Z) printsize
-q273(x, y) :- eq(x, y), x = 4668, y = 2446.
+q273(x, y) :- eq(x, y), x = 1887, y = 2997.
 q274(x : Z, y : Z) printsize
-q274(x, y) :- eq(x, y), x = 1419, y = 2614.
+q274(x, y) :- eq(x, y), x = 4736, y = 1593.
 q275(x : Z, y : Z) printsize
-q275(x, y) :- eq(x, y), x = 3764, y = 1105.
+q275(x, y) :- eq(x, y), x = 2467, y = 5179.
 q276(x : Z, y : Z) printsize
-q276(x, y) :- eq(x, y), x = 3243, y = 1837.
+q276(x, y) :- eq(x, y), x = 570, y = 2646.
 q277(x : Z, y : Z) printsize
-q277(x, y) :- eq(x, y), x = 1376, y = 539.
+q277(x, y) :- eq(x, y), x = 315, y = 3117.
 q278(x : Z, y : Z) printsize
-q278(x, y) :- eq(x, y), x = 91, y = 4341.
+q278(x, y) :- eq(x, y), x = 1448, y = 851.
 q279(x : Z, y : Z) printsize
-q279(x, y) :- eq(x, y), x = 1568, y = 743.
+q279(x, y) :- eq(x, y), x = 1730, y = 1166.
 q280(x : Z, y : Z) printsize
-q280(x, y) :- eq(x, y), x = 788, y = 2251.
+q280(x, y) :- eq(x, y), x = 1339, y = 2677.
 q281(x : Z, y : Z) printsize
-q281(x, y) :- eq(x, y), x = 3753, y = 546.
+q281(x, y) :- eq(x, y), x = 871, y = 2757.
 q282(x : Z, y : Z) printsize
-q282(x, y) :- eq(x, y), x = 4948, y = 4149.
+q282(x, y) :- eq(x, y), x = 2062, y = 845.
 q283(x : Z, y : Z) printsize
-q283(x, y) :- eq(x, y), x = 780, y = 629.
+q283(x, y) :- eq(x, y), x = 1028, y = 742.
 q284(x : Z, y : Z) printsize
-q284(x, y) :- eq(x, y), x = 3835, y = 144.
+q284(x, y) :- eq(x, y), x = 1406, y = 3421.
 q285(x : Z, y : Z) printsize
-q285(x, y) :- eq(x, y), x = 3937, y = 2360.
+q285(x, y) :- eq(x, y), x = 612, y = 4228.
 q286(x : Z, y : Z) printsize
-q286(x, y) :- eq(x, y), x = 4956, y = 291.
+q286(x, y) :- eq(x, y), x = 5037, y = 6.
 q287(x : Z, y : Z) printsize
-q287(x, y) :- eq(x, y), x = 1172, y = 887.
+q287(x, y) :- eq(x, y), x = 3413, y = 2991.
 q288(x : Z, y : Z) printsize
-q288(x, y) :- eq(x, y), x = 773, y = 4773.
+q288(x, y) :- eq(x, y), x = 3808, y = 1166.
 q289(x : Z, y : Z) printsize
-q289(x, y) :- eq(x, y), x = 5217, y = 2848.
+q289(x, y) :- eq(x, y), x = 229, y = 98.
 q290(x : Z, y : Z) printsize
-q290(x, y) :- eq(x, y), x = 3650, y = 3272.
+q290(x, y) :- eq(x, y), x = 3886, y = 2214.
 q291(x : Z, y : Z) printsize
-q291(x, y) :- eq(x, y), x = 875, y = 1367.
+q291(x, y) :- eq(x, y), x = 5132, y = 4271.
 q292(x : Z, y : Z) printsize
-q292(x, y) :- eq(x, y), x = 1776, y = 4329.
+q292(x, y) :- eq(x, y), x = 1279, y = 539.
 q293(x : Z, y : Z) printsize
-q293(x, y) :- eq(x, y), x = 1379, y = 3708.
+q293(x, y) :- eq(x, y), x = 4993, y = 703.
 q294(x : Z, y : Z) printsize
-q294(x, y) :- eq(x, y), x = 4194, y = 3419.
+q294(x, y) :- eq(x, y), x = 4255, y = 2461.
 q295(x : Z, y : Z) printsize
-q295(x, y) :- eq(x, y), x = 3408, y = 3889.
+q295(x, y) :- eq(x, y), x = 2279, y = 751.
 q296(x : Z, y : Z) printsize
-q296(x, y) :- eq(x, y), x = 5146, y = 392.
+q296(x, y) :- eq(x, y), x = 3978, y = 774.
 q297(x : Z, y : Z) printsize
-q297(x, y) :- eq(x, y), x = 3743, y = 3447.
+q297(x, y) :- eq(x, y), x = 4405, y = 5236.
 q298(x : Z, y : Z) printsize
-q298(x, y) :- eq(x, y), x = 3655, y = 465.
+q298(x, y) :- eq(x, y), x = 3605, y = 3172.
 q299(x : Z, y : Z) printsize
-q299(x, y) :- eq(x, y), x = 4565, y = 4552.
+q299(x, y) :- eq(x, y), x = 932, y = 278.
 q300(x : Z, y : Z) printsize
-q300(x, y) :- eq(x, y), x = 3992, y = 3006.
+q300(x, y) :- eq(x, y), x = 4078, y = 2699.
 q301(x : Z, y : Z) printsize
-q301(x, y) :- eq(x, y), x = 4351, y = 1872.
+q301(x, y) :- eq(x, y), x = 2249, y = 851.
 q302(x : Z, y : Z) printsize
-q302(x, y) :- eq(x, y), x = 1448, y = 851.
+q302(x, y) :- eq(x, y), x = 4271, y = 1105.
 q303(x : Z, y : Z) printsize
-q303(x, y) :- eq(x, y), x = 390, y = 183.
+q303(x, y) :- eq(x, y), x = 2365, y = 2792.
 q304(x : Z, y : Z) printsize
-q304(x, y) :- eq(x, y), x = 3314, y = 1013.
+q304(x, y) :- eq(x, y), x = 2318, y = 1947.
 q305(x : Z, y : Z) printsize
-q305(x, y) :- eq(x, y), x = 1880, y = 4428.
+q305(x, y) :- eq(x, y), x = 1350, y = 1166.
 q306(x : Z, y : Z) printsize
-q306(x, y) :- eq(x, y), x = 2793, y = 845.
+q306(x, y) :- eq(x, y), x = 3663, y = 2667.
 q307(x : Z, y : Z) printsize
-q307(x, y) :- eq(x, y), x = 3284, y = 143.
+q307(x, y) :- eq(x, y), x = 476, y = 328.
 q308(x : Z, y : Z) printsize
-q308(x, y) :- eq(x, y), x = 1764, y = 539.
+q308(x, y) :- eq(x, y), x = 3655, y = 465.
 q309(x : Z, y : Z) printsize
-q309(x, y) :- eq(x, y), x = 622, y = 3788.
+q309(x, y) :- eq(x, y), x = 2268, y = 533.
 q310(x : Z, y : Z) printsize
-q310(x, y) :- eq(x, y), x = 4785, y = 393.
+q310(x, y) :- eq(x, y), x = 5185, y = 5220.
 q311(x : Z, y : Z) printsize
-q311(x, y) :- eq(x, y), x = 1677, y = 3731.
+q311(x, y) :- eq(x, y), x = 1622, y = 3009.
 q312(x : Z, y : Z) printsize
-q312(x, y) :- eq(x, y), x = 2895, y = 143.
+q312(x, y) :- eq(x, y), x = 1891, y = 3277.
 q313(x : Z, y : Z) printsize
-q313(x, y) :- eq(x, y), x = 580, y = 813.
+q313(x, y) :- eq(x, y), x = 917, y = 539.
 q314(x : Z, y : Z) printsize
-q314(x, y) :- eq(x, y), x = 2368, y = 518.
+q314(x, y) :- eq(x, y), x = 5187, y = 2649.
 q315(x : Z, y : Z) printsize
-q315(x, y) :- eq(x, y), x = 3783, y = 2121.
+q315(x, y) :- eq(x, y), x = 1011, y = 3306.
 q316(x : Z, y : Z) printsize
-q316(x, y) :- eq(x, y), x = 3660, y = 5212.
+q316(x, y) :- eq(x, y), x = 2572, y = 629.
 q317(x : Z, y : Z) printsize
-q317(x, y) :- eq(x, y), x = 3559, y = 1244.
+q317(x, y) :- eq(x, y), x = 2110, y = 4686.
 q318(x : Z, y : Z) printsize
-q318(x, y) :- eq(x, y), x = 3676, y = 1912.
+q318(x, y) :- eq(x, y), x = 4202, y = 2734.
 q319(x : Z, y : Z) printsize
-q319(x, y) :- eq(x, y), x = 1530, y = 465.
+q319(x, y) :- eq(x, y), x = 1891, y = 3277.
 q320(x : Z, y : Z) printsize
-q320(x, y) :- eq(x, y), x = 4105, y = 212.
+q320(x, y) :- eq(x, y), x = 2609, y = 4428.
 q321(x : Z, y : Z) printsize
-q321(x, y) :- eq(x, y), x = 3652, y = 1586.
+q321(x, y) :- eq(x, y), x = 3862, y = 927.
 q322(x : Z, y : Z) printsize
-q322(x, y) :- eq(x, y), x = 3886, y = 2214.
+q322(x, y) :- eq(x, y), x = 488, y = 2172.
 q323(x : Z, y : Z) printsize
-q323(x, y) :- eq(x, y), x = 3683, y = 1110.
+q323(x, y) :- eq(x, y), x = 4632, y = 117.
 q324(x : Z, y : Z) printsize
-q324(x, y) :- eq(x, y), x = 2090, y = 2733.
+q324(x, y) :- eq(x, y), x = 3633, y = 680.
 q325(x : Z, y : Z) printsize
-q325(x, y) :- eq(x, y), x = 5024, y = 3210.
+q325(x, y) :- eq(x, y), x = 3194, y = 3440.
 q326(x : Z, y : Z) printsize
-q326(x, y) :- eq(x, y), x = 2773, y = 4987.
+q326(x, y) :- eq(x, y), x = 4603, y = 19.
 q327(x : Z, y : Z) printsize
-q327(x, y) :- eq(x, y), x = 3142, y = 3381.
+q327(x, y) :- eq(x, y), x = 1016, y = 3058.
 q328(x : Z, y : Z) printsize
-q328(x, y) :- eq(x, y), x = 2913, y = 748.
+q328(x, y) :- eq(x, y), x = 3780, y = 4941.
 q329(x : Z, y : Z) printsize
-q329(x, y) :- eq(x, y), x = 1339, y = 2677.
+q329(x, y) :- eq(x, y), x = 927, y = 1110.
 q330(x : Z, y : Z) printsize
-q330(x, y) :- eq(x, y), x = 3305, y = 1988.
+q330(x, y) :- eq(x, y), x = 356, y = 2116.
 q331(x : Z, y : Z) printsize
-q331(x, y) :- eq(x, y), x = 683, y = 2985.
+q331(x, y) :- eq(x, y), x = 2086, y = 4329.
 q332(x : Z, y : Z) printsize
-q332(x, y) :- eq(x, y), x = 2839, y = 973.
+q332(x, y) :- eq(x, y), x = 965, y = 2753.
 q333(x : Z, y : Z) printsize
-q333(x, y) :- eq(x, y), x = 4146, y = 1647.
+q333(x, y) :- eq(x, y), x = 2422, y = 3277.
 q334(x : Z, y : Z) printsize
-q334(x, y) :- eq(x, y), x = 2328, y = 2405.
+q334(x, y) :- eq(x, y), x = 4875, y = 539.
 q335(x : Z, y : Z) printsize
-q335(x, y) :- eq(x, y), x = 1903, y = 2214.
+q335(x, y) :- eq(x, y), x = 3938, y = 3646.
 q336(x : Z, y : Z) printsize
-q336(x, y) :- eq(x, y), x = 3318, y = 1682.
+q336(x, y) :- eq(x, y), x = 3259, y = 1144.
 q337(x : Z, y : Z) printsize
-q337(x, y) :- eq(x, y), x = 1903, y = 2214.
+q337(x, y) :- eq(x, y), x = 1045, y = 2492.
 q338(x : Z, y : Z) printsize
-q338(x, y) :- eq(x, y), x = 1564, y = 1219.
+q338(x, y) :- eq(x, y), x = 1890, y = 2596.
 q339(x : Z, y : Z) printsize
-q339(x, y) :- eq(x, y), x = 2249, y = 1867.
+q339(x, y) :- eq(x, y), x = 2505, y = 2734.
 q340(x : Z, y : Z) printsize
-q340(x, y) :- eq(x, y), x = 2188, y = 2288.
+q340(x, y) :- eq(x, y), x = 1526, y = 1523.
 q341(x : Z, y : Z) printsize
-q341(x, y) :- eq(x, y), x = 2583, y = 2704.
+q341(x, y) :- eq(x, y), x = 229, y = 98.
 q342(x : Z, y : Z) printsize
-q342(x, y) :- eq(x, y), x = 2780, y = 1931.
+q342(x, y) :- eq(x, y), x = 3754, y = 2848.
 q343(x : Z, y : Z) printsize
-q343(x, y) :- eq(x, y), x = 3826, y = 2753.
+q343(x, y) :- eq(x, y), x = 3144, y = 4305.
 q344(x : Z, y : Z) printsize
-q344(x, y) :- eq(x, y), x = 2531, y = 1166.
+q344(x, y) :- eq(x, y), x = 513, y = 206.
 q345(x : Z, y : Z) printsize
-q345(x, y) :- eq(x, y), x = 4922, y = 1012.
+q345(x, y) :- eq(x, y), x = 2400, y = 2664.
 q346(x : Z, y : Z) printsize
-q346(x, y) :- eq(x, y), x = 2410, y = 4545.
+q346(x, y) :- eq(x, y), x = 155, y = 4080.
 q347(x : Z, y : Z) printsize
-q347(x, y) :- eq(x, y), x = 4298, y = 1955.
+q347(x, y) :- eq(x, y), x = 1432, y = 4496.
 q348(x : Z, y : Z) printsize
-q348(x, y) :- eq(x, y), x = 2516, y = 1947.
+q348(x, y) :- eq(x, y), x = 3284, y = 143.
 q349(x : Z, y : Z) printsize
-q349(x, y) :- eq(x, y), x = 4376, y = 3124.
+q349(x, y) :- eq(x, y), x = 2775, y = 533.
 q350(x : Z, y : Z) printsize
-q350(x, y) :- eq(x, y), x = 1020, y = 2220.
+q350(x, y) :- eq(x, y), x = 3978, y = 774.
 q351(x : Z, y : Z) printsize
-q351(x, y) :- eq(x, y), x = 770, y = 3090.
+q351(x, y) :- eq(x, y), x = 4641, y = 4236.
 q352(x : Z, y : Z) printsize
-q352(x, y) :- eq(x, y), x = 2568, y = 1128.
+q352(x, y) :- eq(x, y), x = 3848, y = 1050.
 q353(x : Z, y : Z) printsize
-q353(x, y) :- eq(x, y), x = 2917, y = 3471.
+q353(x, y) :- eq(x, y), x = 3855, y = 1478.
 q354(x : Z, y : Z) printsize
-q354(x, y) :- eq(x, y), x = 3150, y = 607.
+q354(x, y) :- eq(x, y), x = 2394, y = 143.
 q355(x : Z, y : Z) printsize
-q355(x, y) :- eq(x, y), x = 253, y = 936.
+q355(x, y) :- eq(x, y), x = 1339, y = 2677.
 q356(x : Z, y : Z) printsize
-q356(x, y) :- eq(x, y), x = 1420, y = 1402.
+q356(x, y) :- eq(x, y), x = 2928, y = 1984.
 q357(x : Z, y : Z) printsize
-q357(x, y) :- eq(x, y), x = 4668, y = 2446.
+q357(x, y) :- eq(x, y), x = 4948, y = 4149.
 q358(x : Z, y : Z) printsize
-q358(x, y) :- eq(x, y), x = 330, y = 3514.
+q358(x, y) :- eq(x, y), x = 1441, y = 456.
 q359(x : Z, y : Z) printsize
-q359(x, y) :- eq(x, y), x = 1746, y = 3736.
+q359(x, y) :- eq(x, y), x = 541, y = 501.
 q360(x : Z, y : Z) printsize
-q360(x, y) :- eq(x, y), x = 1778, y = 3877.
+q360(x, y) :- eq(x, y), x = 2319, y = 4766.
 q361(x : Z, y : Z) printsize
-q361(x, y) :- eq(x, y), x = 4116, y = 3258.
+q361(x, y) :- eq(x, y), x = 2516, y = 1714.
 q362(x : Z, y : Z) printsize
-q362(x, y) :- eq(x, y), x = 3976, y = 2757.
+q362(x, y) :- eq(x, y), x = 1613, y = 84.
 q363(x : Z, y : Z) printsize
-q363(x, y) :- eq(x, y), x = 3204, y = 936.
+q363(x, y) :- eq(x, y), x = 4277, y = 2728.
 q364(x : Z, y : Z) printsize
-q364(x, y) :- eq(x, y), x = 4217, y = 2440.
+q364(x, y) :- eq(x, y), x = 2099, y = 2527.
 q365(x : Z, y : Z) printsize
-q365(x, y) :- eq(x, y), x = 498, y = 34.
+q365(x, y) :- eq(x, y), x = 2542, y = 2129.
 q366(x : Z, y : Z) printsize
-q366(x, y) :- eq(x, y), x = 4063, y = 1432.
+q366(x, y) :- eq(x, y), x = 3015, y = 3061.
 q367(x : Z, y : Z) printsize
-q367(x, y) :- eq(x, y), x = 4855, y = 3611.
+q367(x, y) :- eq(x, y), x = 2770, y = 3097.
 q368(x : Z, y : Z) printsize
-q368(x, y) :- eq(x, y), x = 2603, y = 4865.
+q368(x, y) :- eq(x, y), x = 211, y = 1155.
 q369(x : Z, y : Z) printsize
-q369(x, y) :- eq(x, y), x = 4198, y = 3445.
+q369(x, y) :- eq(x, y), x = 5188, y = 451.
 q370(x : Z, y : Z) printsize
-q370(x, y) :- eq(x, y), x = 1316, y = 2440.
+q370(x, y) :- eq(x, y), x = 254, y = 2783.
 q371(x : Z, y : Z) printsize
-q371(x, y) :- eq(x, y), x = 4826, y = 4428.
+q371(x, y) :- eq(x, y), x = 1181, y = 1105.
 q372(x : Z, y : Z) printsize
-q372(x, y) :- eq(x, y), x = 478, y = 1440.
+q372(x, y) :- eq(x, y), x = 4521, y = 1478.
 q373(x : Z, y : Z) printsize
-q373(x, y) :- eq(x, y), x = 818, y = 3646.
+q373(x, y) :- eq(x, y), x = 1395, y = 751.
 q374(x : Z, y : Z) printsize
-q374(x, y) :- eq(x, y), x = 1593, y = 1437.
+q374(x, y) :- eq(x, y), x = 3587, y = 925.
 q375(x : Z, y : Z) printsize
-q375(x, y) :- eq(x, y), x = 2086, y = 4329.
+q375(x, y) :- eq(x, y), x = 1672, y = 3284.
 q376(x : Z, y : Z) printsize
-q376(x, y) :- eq(x, y), x = 1776, y = 2245.
+q376(x, y) :- eq(x, y), x = 1204, y = 1125.
 q377(x : Z, y : Z) printsize
-q377(x, y) :- eq(x, y), x = 4617, y = 2288.
+q377(x, y) :- eq(x, y), x = 226, y = 3325.
 q378(x : Z, y : Z) printsize
-q378(x, y) :- eq(x, y), x = 2546, y = 1049.
+q378(x, y) :- eq(x, y), x = 3005, y = 5009.
 q379(x : Z, y : Z) printsize
-q379(x, y) :- eq(x, y), x = 1152, y = 1720.
+q379(x, y) :- eq(x, y), x = 1542, y = 1476.
 q380(x : Z, y : Z) printsize
-q380(x, y) :- eq(x, y), x = 3060, y = 3602.
+q380(x, y) :- eq(x, y), x = 4078, y = 2699.
 q381(x : Z, y : Z) printsize
-q381(x, y) :- eq(x, y), x = 3556, y = 2751.
+q381(x, y) :- eq(x, y), x = 1435, y = 3614.
 q382(x : Z, y : Z) printsize
-q382(x, y) :- eq(x, y), x = 2775, y = 533.
+q382(x, y) :- eq(x, y), x = 989, y = 2016.
 q383(x : Z, y : Z) printsize
-q383(x, y) :- eq(x, y), x = 4736, y = 1922.
+q383(x, y) :- eq(x, y), x = 72, y = 533.
 q384(x : Z, y : Z) printsize
-q384(x, y) :- eq(x, y), x = 1750, y = 30.
+q384(x, y) :- eq(x, y), x = 2604, y = 5137.
 q385(x : Z, y : Z) printsize
-q385(x, y) :- eq(x, y), x = 1184, y = 109.
+q385(x, y) :- eq(x, y), x = 3415, y = 3010.
 q386(x : Z, y : Z) printsize
-q386(x, y) :- eq(x, y), x = 4879, y = 1575.
+q386(x, y) :- eq(x, y), x = 326, y = 845.
 q387(x : Z, y : Z) printsize
-q387(x, y) :- eq(x, y), x = 5000, y = 3818.
+q387(x, y) :- eq(x, y), x = 1644, y = 2360.
 q388(x : Z, y : Z) printsize
-q388(x, y) :- eq(x, y), x = 1136, y = 3316.
+q388(x, y) :- eq(x, y), x = 4662, y = 3192.
 q389(x : Z, y : Z) printsize
-q389(x, y) :- eq(x, y), x = 2897, y = 567.
+q389(x, y) :- eq(x, y), x = 2868, y = 2891.
 q390(x : Z, y : Z) printsize
-q390(x, y) :- eq(x, y), x = 2380, y = 2016.
+q390(x, y) :- eq(x, y), x = 2846, y = 4529.
 q391(x : Z, y : Z) printsize
-q391(x, y) :- eq(x, y), x = 3416, y = 3307.
+q391(x, y) :- eq(x, y), x = 2848, y = 2318.
 q392(x : Z, y : Z) printsize
-q392(x, y) :- eq(x, y), x = 3060, y = 3602.
+q392(x, y) :- eq(x, y), x = 49, y = 143.
 q393(x : Z, y : Z) printsize
-q393(x, y) :- eq(x, y), x = 3135, y = 1811.
+q393(x, y) :- eq(x, y), x = 1031, y = 68.
 q394(x : Z, y : Z) printsize
-q394(x, y) :- eq(x, y), x = 1784, y = 2749.
+q394(x, y) :- eq(x, y), x = 3037, y = 1353.
 q395(x : Z, y : Z) printsize
-q395(x, y) :- eq(x, y), x = 1340, y = 4489.
+q395(x, y) :- eq(x, y), x = 687, y = 4503.
 q396(x : Z, y : Z) printsize
-q396(x, y) :- eq(x, y), x = 3719, y = 1053.
+q396(x, y) :- eq(x, y), x = 2539, y = 4376.
 q397(x : Z, y : Z) printsize
-q397(x, y) :- eq(x, y), x = 290, y = 1166.
+q397(x, y) :- eq(x, y), x = 4993, y = 703.
 q398(x : Z, y : Z) printsize
-q398(x, y) :- eq(x, y), x = 1128, y = 3079.
+q398(x, y) :- eq(x, y), x = 227, y = 1022.
 q399(x : Z, y : Z) printsize
-q399(x, y) :- eq(x, y), x = 4272, y = 2265.
+q399(x, y) :- eq(x, y), x = 5122, y = 5066.
 q400(x : Z, y : Z) printsize
-q400(x, y) :- eq(x, y), x = 5115, y = 1919.
+q400(x, y) :- eq(x, y), x = 5217, y = 2848.
 q401(x : Z, y : Z) printsize
-q401(x, y) :- eq(x, y), x = 4111, y = 1559.
+q401(x, y) :- eq(x, y), x = 1820, y = 1294.
 q402(x : Z, y : Z) printsize
-q402(x, y) :- eq(x, y), x = 5111, y = 752.
+q402(x, y) :- eq(x, y), x = 4905, y = 3754.
 q403(x : Z, y : Z) printsize
-q403(x, y) :- eq(x, y), x = 414, y = 3432.
+q403(x, y) :- eq(x, y), x = 163, y = 230.
 q404(x : Z, y : Z) printsize
-q404(x, y) :- eq(x, y), x = 1376, y = 4797.
+q404(x, y) :- eq(x, y), x = 4857, y = 3833.
 q405(x : Z, y : Z) printsize
-q405(x, y) :- eq(x, y), x = 3796, y = 4003.
+q405(x, y) :- eq(x, y), x = 3060, y = 3602.
 q406(x : Z, y : Z) printsize
-q406(x, y) :- eq(x, y), x = 4668, y = 2446.
+q406(x, y) :- eq(x, y), x = 256, y = 4870.
 q407(x : Z, y : Z) printsize
-q407(x, y) :- eq(x, y), x = 3037, y = 1353.
+q407(x, y) :- eq(x, y), x = 5096, y = 3561.
 q408(x : Z, y : Z) printsize
-q408(x, y) :- eq(x, y), x = 3345, y = 1392.
+q408(x, y) :- eq(x, y), x = 960, y = 1227.
 q409(x : Z, y : Z) printsize
-q409(x, y) :- eq(x, y), x = 1074, y = 4377.
+q409(x, y) :- eq(x, y), x = 2561, y = 1955.
 q410(x : Z, y : Z) printsize
-q410(x, y) :- eq(x, y), x = 3538, y = 4375.
+q410(x, y) :- eq(x, y), x = 4645, y = 2974.
 q411(x : Z, y : Z) printsize
-q411(x, y) :- eq(x, y), x = 2719, y = 2617.
+q411(x, y) :- eq(x, y), x = 5125, y = 716.
 q412(x : Z, y : Z) printsize
-q412(x, y) :- eq(x, y), x = 639, y = 143.
+q412(x, y) :- eq(x, y), x = 2661, y = 580.
 q413(x : Z, y : Z) printsize
-q413(x, y) :- eq(x, y), x = 3652, y = 1586.
+q413(x, y) :- eq(x, y), x = 699, y = 1478.
 q414(x : Z, y : Z) printsize
-q414(x, y) :- eq(x, y), x = 1601, y = 4574.
+q414(x, y) :- eq(x, y), x = 2793, y = 2334.
 q415(x : Z, y : Z) printsize
-q415(x, y) :- eq(x, y), x = 2603, y = 4082.
+q415(x, y) :- eq(x, y), x = 2609, y = 4428.
 q416(x : Z, y : Z) printsize
-q416(x, y) :- eq(x, y), x = 1855, y = 4574.
+q416(x, y) :- eq(x, y), x = 639, y = 143.
 q417(x : Z, y : Z) printsize
-q417(x, y) :- eq(x, y), x = 1376, y = 539.
+q417(x, y) :- eq(x, y), x = 3652, y = 1586.
 q418(x : Z, y : Z) printsize
-q418(x, y) :- eq(x, y), x = 281, y = 1013.
+q418(x, y) :- eq(x, y), x = 4120, y = 533.
 q419(x : Z, y : Z) printsize
-q419(x, y) :- eq(x, y), x = 3057, y = 2487.
+q419(x, y) :- eq(x, y), x = 1448, y = 851.
 q420(x : Z, y : Z) printsize
-q420(x, y) :- eq(x, y), x = 2897, y = 3865.
+q420(x, y) :- eq(x, y), x = 4872, y = 3218.
 q421(x : Z, y : Z) printsize
-q421(x, y) :- eq(x, y), x = 2828, y = 10.
+q421(x, y) :- eq(x, y), x = 2449, y = 2236.
 q422(x : Z, y : Z) printsize
-q422(x, y) :- eq(x, y), x = 4142, y = 534.
+q422(x, y) :- eq(x, y), x = 3945, y = 3254.
 q423(x : Z, y : Z) printsize
-q423(x, y) :- eq(x, y), x = 4065, y = 3528.
+q423(x, y) :- eq(x, y), x = 3481, y = 246.
 q424(x : Z, y : Z) printsize
-q424(x, y) :- eq(x, y), x = 2527, y = 2202.
+q424(x, y) :- eq(x, y), x = 1787, y = 4813.
 q425(x : Z, y : Z) printsize
-q425(x, y) :- eq(x, y), x = 254, y = 2719.
+q425(x, y) :- eq(x, y), x = 1853, y = 3561.
 q426(x : Z, y : Z) printsize
-q426(x, y) :- eq(x, y), x = 1622, y = 3009.
+q426(x, y) :- eq(x, y), x = 2062, y = 845.
 q427(x : Z, y : Z) printsize
-q427(x, y) :- eq(x, y), x = 462, y = 1292.
+q427(x, y) :- eq(x, y), x = 3826, y = 2753.
 q428(x : Z, y : Z) printsize
-q428(x, y) :- eq(x, y), x = 3057, y = 2487.
+q428(x, y) :- eq(x, y), x = 3760, y = 3684.
 q429(x : Z, y : Z) printsize
-q429(x, y) :- eq(x, y), x = 1913, y = 1772.
+q429(x, y) :- eq(x, y), x = 538, y = 51.
 q430(x : Z, y : Z) printsize
-q430(x, y) :- eq(x, y), x = 2630, y = 4436.
+q430(x, y) :- eq(x, y), x = 3161, y = 1227.
 q431(x : Z, y : Z) printsize
-q431(x, y) :- eq(x, y), x = 2045, y = 1955.
+q431(x, y) :- eq(x, y), x = 1524, y = 875.
 q432(x : Z, y : Z) printsize
-q432(x, y) :- eq(x, y), x = 2811, y = 396.
+q432(x, y) :- eq(x, y), x = 4067, y = 4329.
 q433(x : Z, y : Z) printsize
-q433(x, y) :- eq(x, y), x = 960, y = 3937.
+q433(x, y) :- eq(x, y), x = 3738, y = 3450.
 q434(x : Z, y : Z) printsize
-q434(x, y) :- eq(x, y), x = 3498, y = 1933.
+q434(x, y) :- eq(x, y), x = 4205, y = 851.
 q435(x : Z, y : Z) printsize
-q435(x, y) :- eq(x, y), x = 3886, y = 2214.
+q435(x, y) :- eq(x, y), x = 3760, y = 1410.
 q436(x : Z, y : Z) printsize
-q436(x, y) :- eq(x, y), x = 79, y = 566.
+q436(x, y) :- eq(x, y), x = 253, y = 936.
 q437(x : Z, y : Z) printsize
-q437(x, y) :- eq(x, y), x = 2683, y = 922.
+q437(x, y) :- eq(x, y), x = 1184, y = 109.
 q438(x : Z, y : Z) printsize
-q438(x, y) :- eq(x, y), x = 3371, y = 1008.
+q438(x, y) :- eq(x, y), x = 2434, y = 349.
 q439(x : Z, y : Z) printsize
-q439(x, y) :- eq(x, y), x = 815, y = 4878.
+q439(x, y) :- eq(x, y), x = 4267, y = 5185.
 q440(x : Z, y : Z) printsize
-q440(x, y) :- eq(x, y), x = 1220, y = 3964.
+q440(x, y) :- eq(x, y), x = 1933, y = 174.
 q441(x : Z, y : Z) printsize
-q441(x, y) :- eq(x, y), x = 673, y = 83.
+q441(x, y) :- eq(x, y), x = 1907, y = 1042.
 q442(x : Z, y : Z) printsize
-q442(x, y) :- eq(x, y), x = 2744, y = 1586.
+q442(x, y) :- eq(x, y), x = 4822, y = 228.
 q443(x : Z, y : Z) printsize
-q443(x, y) :- eq(x, y), x = 4198, y = 3445.
+q443(x, y) :- eq(x, y), x = 2923, y = 30.
 q444(x : Z, y : Z) printsize
-q444(x, y) :- eq(x, y), x = 1855, y = 4574.
+q444(x, y) :- eq(x, y), x = 601, y = 2238.
 q445(x : Z, y : Z) printsize
-q445(x, y) :- eq(x, y), x = 638, y = 533.
+q445(x, y) :- eq(x, y), x = 4801, y = 1515.
 q446(x : Z, y : Z) printsize
-q446(x, y) :- eq(x, y), x = 2397, y = 961.
+q446(x, y) :- eq(x, y), x = 2730, y = 4091.
 q447(x : Z, y : Z) printsize
-q447(x, y) :- eq(x, y), x = 333, y = 3684.
+q447(x, y) :- eq(x, y), x = 2653, y = 5076.
 q448(x : Z, y : Z) printsize
-q448(x, y) :- eq(x, y), x = 2478, y = 1784.
+q448(x, y) :- eq(x, y), x = 3191, y = 5032.
 q449(x : Z, y : Z) printsize
-q449(x, y) :- eq(x, y), x = 2342, y = 647.
+q449(x, y) :- eq(x, y), x = 2888, y = 4789.
 q450(x : Z, y : Z) printsize
-q450(x, y) :- eq(x, y), x = 1683, y = 951.
+q450(x, y) :- eq(x, y), x = 1272, y = 716.
 q451(x : Z, y : Z) printsize
-q451(x, y) :- eq(x, y), x = 2490, y = 1955.
+q451(x, y) :- eq(x, y), x = 4737, y = 3673.
 q452(x : Z, y : Z) printsize
-q452(x, y) :- eq(x, y), x = 1757, y = 4.
+q452(x, y) :- eq(x, y), x = 2176, y = 539.
 q453(x : Z, y : Z) printsize
-q453(x, y) :- eq(x, y), x = 3949, y = 2341.
+q453(x, y) :- eq(x, y), x = 284, y = 4053.
 q454(x : Z, y : Z) printsize
-q454(x, y) :- eq(x, y), x = 4729, y = 4266.
+q454(x, y) :- eq(x, y), x = 2507, y = 2846.
 q455(x : Z, y : Z) printsize
-q455(x, y) :- eq(x, y), x = 2826, y = 3216.
+q455(x, y) :- eq(x, y), x = 5178, y = 1047.
 q456(x : Z, y : Z) printsize
-q456(x, y) :- eq(x, y), x = 1885, y = 2327.
+q456(x, y) :- eq(x, y), x = 614, y = 3462.
 q457(x : Z, y : Z) printsize
-q457(x, y) :- eq(x, y), x = 1901, y = 1190.
+q457(x, y) :- eq(x, y), x = 3835, y = 3457.
 q458(x : Z, y : Z) printsize
-q458(x, y) :- eq(x, y), x = 1580, y = 845.
+q458(x, y) :- eq(x, y), x = 3509, y = 3465.
 q459(x : Z, y : Z) printsize
-q459(x, y) :- eq(x, y), x = 2923, y = 30.
+q459(x, y) :- eq(x, y), x = 3772, y = 2623.
 q460(x : Z, y : Z) printsize
-q460(x, y) :- eq(x, y), x = 1407, y = 143.
+q460(x, y) :- eq(x, y), x = 3157, y = 1671.
 q461(x : Z, y : Z) printsize
-q461(x, y) :- eq(x, y), x = 3661, y = 4758.
+q461(x, y) :- eq(x, y), x = 844, y = 1955.
 q462(x : Z, y : Z) printsize
-q462(x, y) :- eq(x, y), x = 4627, y = 264.
+q462(x, y) :- eq(x, y), x = 1622, y = 3009.
 q463(x : Z, y : Z) printsize
-q463(x, y) :- eq(x, y), x = 2675, y = 1900.
+q463(x, y) :- eq(x, y), x = 4230, y = 3009.
 q464(x : Z, y : Z) printsize
-q464(x, y) :- eq(x, y), x = 3143, y = 1109.
+q464(x, y) :- eq(x, y), x = 1401, y = 2796.
 q465(x : Z, y : Z) printsize
-q465(x, y) :- eq(x, y), x = 1331, y = 662.
+q465(x, y) :- eq(x, y), x = 2498, y = 4847.
 q466(x : Z, y : Z) printsize
-q466(x, y) :- eq(x, y), x = 3995, y = 1892.
+q466(x, y) :- eq(x, y), x = 721, y = 671.
 q467(x : Z, y : Z) printsize
-q467(x, y) :- eq(x, y), x = 1883, y = 2487.
+q467(x, y) :- eq(x, y), x = 2532, y = 1955.
 q468(x : Z, y : Z) printsize
-q468(x, y) :- eq(x, y), x = 63, y = 171.
+q468(x, y) :- eq(x, y), x = 2177, y = 1684.
 q469(x : Z, y : Z) printsize
-q469(x, y) :- eq(x, y), x = 602, y = 2471.
+q469(x, y) :- eq(x, y), x = 4529, y = 4337.
 q470(x : Z, y : Z) printsize
-q470(x, y) :- eq(x, y), x = 4489, y = 2938.
+q470(x, y) :- eq(x, y), x = 2024, y = 1772.
 q471(x : Z, y : Z) printsize
-q471(x, y) :- eq(x, y), x = 4080, y = 822.
+q471(x, y) :- eq(x, y), x = 4332, y = 4793.
 q472(x : Z, y : Z) printsize
-q472(x, y) :- eq(x, y), x = 2478, y = 1784.
+q472(x, y) :- eq(x, y), x = 4068, y = 1535.
 q473(x : Z, y : Z) printsize
-q473(x, y) :- eq(x, y), x = 4155, y = 1425.
+q473(x, y) :- eq(x, y), x = 3193, y = 2667.
 q474(x : Z, y : Z) printsize
-q474(x, y) :- eq(x, y), x = 4876, y = 671.
+q474(x, y) :- eq(x, y), x = 2952, y = 1227.
 q475(x : Z, y : Z) printsize
-q475(x, y) :- eq(x, y), x = 4260, y = 4044.
+q475(x, y) :- eq(x, y), x = 3050, y = 1671.
 q476(x : Z, y : Z) printsize
-q476(x, y) :- eq(x, y), x = 4979, y = 437.
+q476(x, y) :- eq(x, y), x = 844, y = 1955.
 q477(x : Z, y : Z) printsize
-q477(x, y) :- eq(x, y), x = 5105, y = 3005.
+q477(x, y) :- eq(x, y), x = 1974, y = 33.
 q478(x : Z, y : Z) printsize
-q478(x, y) :- eq(x, y), x = 4801, y = 1515.
+q478(x, y) :- eq(x, y), x = 3812, y = 2575.
 q479(x : Z, y : Z) printsize
-q479(x, y) :- eq(x, y), x = 5178, y = 232.
+q479(x, y) :- eq(x, y), x = 545, y = 1943.
 q480(x : Z, y : Z) printsize
-q480(x, y) :- eq(x, y), x = 864, y = 4823.
+q480(x, y) :- eq(x, y), x = 1973, y = 1667.
 q481(x : Z, y : Z) printsize
-q481(x, y) :- eq(x, y), x = 2062, y = 845.
+q481(x, y) :- eq(x, y), x = 164, y = 4443.
 q482(x : Z, y : Z) printsize
-q482(x, y) :- eq(x, y), x = 3395, y = 3466.
+q482(x, y) :- eq(x, y), x = 3414, y = 3850.
 q483(x : Z, y : Z) printsize
-q483(x, y) :- eq(x, y), x = 4900, y = 1913.
+q483(x, y) :- eq(x, y), x = 4063, y = 868.
 q484(x : Z, y : Z) printsize
-q484(x, y) :- eq(x, y), x = 3345, y = 1392.
+q484(x, y) :- eq(x, y), x = 2434, y = 349.
 q485(x : Z, y : Z) printsize
-q485(x, y) :- eq(x, y), x = 1184, y = 109.
+q485(x, y) :- eq(x, y), x = 2890, y = 4194.
 q486(x : Z, y : Z) printsize
-q486(x, y) :- eq(x, y), x = 3663, y = 2667.
+q486(x, y) :- eq(x, y), x = 1028, y = 742.
 q487(x : Z, y : Z) printsize
-q487(x, y) :- eq(x, y), x = 1142, y = 2558.
+q487(x, y) :- eq(x, y), x = 4351, y = 1872.
 q488(x : Z, y : Z) printsize
-q488(x, y) :- eq(x, y), x = 5115, y = 1919.
+q488(x, y) :- eq(x, y), x = 4817, y = 3209.
 q489(x : Z, y : Z) printsize
-q489(x, y) :- eq(x, y), x = 3078, y = 3014.
+q489(x, y) :- eq(x, y), x = 1781, y = 31.
 q490(x : Z, y : Z) printsize
-q490(x, y) :- eq(x, y), x = 4542, y = 1814.
+q490(x, y) :- eq(x, y), x = 4298, y = 1955.
 q491(x : Z, y : Z) printsize
-q491(x, y) :- eq(x, y), x = 823, y = 2104.
+q491(x, y) :- eq(x, y), x = 3456, y = 4393.
 q492(x : Z, y : Z) printsize
-q492(x, y) :- eq(x, y), x = 1781, y = 31.
+q492(x, y) :- eq(x, y), x = 3190, y = 3359.
 q493(x : Z, y : Z) printsize
-q493(x, y) :- eq(x, y), x = 303, y = 3386.
+q493(x, y) :- eq(x, y), x = 1028, y = 742.
 q494(x : Z, y : Z) printsize
-q494(x, y) :- eq(x, y), x = 4298, y = 1955.
+q494(x, y) :- eq(x, y), x = 2609, y = 4428.
 q495(x : Z, y : Z) printsize
-q495(x, y) :- eq(x, y), x = 2489, y = 2129.
+q495(x, y) :- eq(x, y), x = 4999, y = 3563.
 q496(x : Z, y : Z) printsize
-q496(x, y) :- eq(x, y), x = 1286, y = 271.
+q496(x, y) :- eq(x, y), x = 206, y = 1382.
 q497(x : Z, y : Z) printsize
-q497(x, y) :- eq(x, y), x = 1331, y = 662.
+q497(x, y) :- eq(x, y), x = 3934, y = 3077.
 q498(x : Z, y : Z) printsize
-q498(x, y) :- eq(x, y), x = 3509, y = 4594.
+q498(x, y) :- eq(x, y), x = 2279, y = 751.
 q499(x : Z, y : Z) printsize
-q499(x, y) :- eq(x, y), x = 1286, y = 3281.
+q499(x, y) :- eq(x, y), x = 3706, y = 432.
 q500(x : Z, y : Z) printsize
-q500(x, y) :- eq(x, y), x = 2352, y = 1294.
+q500(x, y) :- eq(x, y), x = 4993, y = 703.
 q501(x : Z, y : Z) printsize
-q501(x, y) :- eq(x, y), x = 5217, y = 2848.
+q501(x, y) :- eq(x, y), x = 2862, y = 80.
 q502(x : Z, y : Z) printsize
-q502(x, y) :- eq(x, y), x = 3413, y = 2991.
+q502(x, y) :- eq(x, y), x = 4254, y = 3648.
 q503(x : Z, y : Z) printsize
-q503(x, y) :- eq(x, y), x = 229, y = 98.
+q503(x, y) :- eq(x, y), x = 345, y = 1774.
 q504(x : Z, y : Z) printsize
-q504(x, y) :- eq(x, y), x = 739, y = 347.
+q504(x, y) :- eq(x, y), x = 1202, y = 4917.
 q505(x : Z, y : Z) printsize
-q505(x, y) :- eq(x, y), x = 4826, y = 4428.
+q505(x, y) :- eq(x, y), x = 2950, y = 329.
 q506(x : Z, y : Z) printsize
-q506(x, y) :- eq(x, y), x = 4529, y = 4337.
+q506(x, y) :- eq(x, y), x = 3005, y = 2422.
 q507(x : Z, y : Z) printsize
-q507(x, y) :- eq(x, y), x = 2767, y = 4495.
+q507(x, y) :- eq(x, y), x = 4627, y = 2052.
 q508(x : Z, y : Z) printsize
-q508(x, y) :- eq(x, y), x = 3693, y = 1437.
+q508(x, y) :- eq(x, y), x = 972, y = 143.
 q509(x : Z, y : Z) printsize
-q509(x, y) :- eq(x, y), x = 1990, y = 2368.
+q509(x, y) :- eq(x, y), x = 1512, y = 4983.
 q510(x : Z, y : Z) printsize
-q510(x, y) :- eq(x, y), x = 5089, y = 2704.
+q510(x, y) :- eq(x, y), x = 3989, y = 958.
 q511(x : Z, y : Z) printsize
-q511(x, y) :- eq(x, y), x = 1728, y = 3528.
+q511(x, y) :- eq(x, y), x = 3406, y = 3277.
 q512(x : Z, y : Z) printsize
-q512(x, y) :- eq(x, y), x = 1331, y = 662.
+q512(x, y) :- eq(x, y), x = 1210, y = 2149.
 q513(x : Z, y : Z) printsize
-q513(x, y) :- eq(x, y), x = 2270, y = 1166.
+q513(x, y) :- eq(x, y), x = 4801, y = 1515.
 q514(x : Z, y : Z) printsize
-q514(x, y) :- eq(x, y), x = 2923, y = 30.
+q514(x, y) :- eq(x, y), x = 2195, y = 2543.
 q515(x : Z, y : Z) printsize
-q515(x, y) :- eq(x, y), x = 2439, y = 2155.
+q515(x, y) :- eq(x, y), x = 2009, y = 703.
 q516(x : Z, y : Z) printsize
-q516(x, y) :- eq(x, y), x = 644, y = 4061.
+q516(x, y) :- eq(x, y), x = 3709, y = 1848.
 q517(x : Z, y : Z) printsize
-q517(x, y) :- eq(x, y), x = 2477, y = 2667.
+q517(x, y) :- eq(x, y), x = 228, y = 850.
 q518(x : Z, y : Z) printsize
-q518(x, y) :- eq(x, y), x = 4570, y = 751.
+q518(x, y) :- eq(x, y), x = 3192, y = 1088.
 q519(x : Z, y : Z) printsize
-q519(x, y) :- eq(x, y), x = 5217, y = 2848.
+q519(x, y) :- eq(x, y), x = 3578, y = 2754.
 q520(x : Z, y : Z) printsize
-q520(x, y) :- eq(x, y), x = 2111, y = 1298.
+q520(x, y) :- eq(x, y), x = 741, y = 671.
 q521(x : Z, y : Z) printsize
-q521(x, y) :- eq(x, y), x = 2819, y = 1353.
+q521(x, y) :- eq(x, y), x = 1330, y = 451.
 q522(x : Z, y : Z) printsize
-q522(x, y) :- eq(x, y), x = 4081, y = 3349.
+q522(x, y) :- eq(x, y), x = 1764, y = 539.
 q523(x : Z, y : Z) printsize
-q523(x, y) :- eq(x, y), x = 3822, y = 1094.
+q523(x, y) :- eq(x, y), x = 3054, y = 93.
 q524(x : Z, y : Z) printsize
-q524(x, y) :- eq(x, y), x = 5122, y = 5066.
+q524(x, y) :- eq(x, y), x = 4024, y = 4888.
 q525(x : Z, y : Z) printsize
-q525(x, y) :- eq(x, y), x = 3405, y = 4016.
+q525(x, y) :- eq(x, y), x = 4367, y = 569.
 q526(x : Z, y : Z) printsize
-q526(x, y) :- eq(x, y), x = 2327, y = 1529.
+q526(x, y) :- eq(x, y), x = 3722, y = 1128.
 q527(x : Z, y : Z) printsize
-q527(x, y) :- eq(x, y), x = 2032, y = 1788.
+q527(x, y) :- eq(x, y), x = 4529, y = 4337.
 q528(x : Z, y : Z) printsize
-q528(x, y) :- eq(x, y), x = 3253, y = 2755.
+q528(x, y) :- eq(x, y), x = 4948, y = 4149.
 q529(x : Z, y : Z) printsize
-q529(x, y) :- eq(x, y), x = 2986, y = 1998.
+q529(x, y) :- eq(x, y), x = 3884, y = 3332.
 q530(x : Z, y : Z) printsize
-q530(x, y) :- eq(x, y), x = 4924, y = 3856.
+q530(x, y) :- eq(x, y), x = 4861, y = 3355.
 q531(x : Z, y : Z) printsize
-q531(x, y) :- eq(x, y), x = 4268, y = 3593.
+q531(x, y) :- eq(x, y), x = 1386, y = 33.
 q532(x : Z, y : Z) printsize
-q532(x, y) :- eq(x, y), x = 279, y = 417.
+q532(x, y) :- eq(x, y), x = 3413, y = 634.
 q533(x : Z, y : Z) printsize
-q533(x, y) :- eq(x, y), x = 1072, y = 1802.
+q533(x, y) :- eq(x, y), x = 4487, y = 1474.
 q534(x : Z, y : Z) printsize
-q534(x, y) :- eq(x, y), x = 4516, y = 3077.
+q534(x, y) :- eq(x, y), x = 2609, y = 4428.
 q535(x : Z, y : Z) printsize
-q535(x, y) :- eq(x, y), x = 2010, y = 1762.
+q535(x, y) :- eq(x, y), x = 3738, y = 3159.
 q536(x : Z, y : Z) printsize
-q536(x, y) :- eq(x, y), x = 4662, y = 305.
+q536(x, y) :- eq(x, y), x = 2270, y = 1166.
 q537(x : Z, y : Z) printsize
-q537(x, y) :- eq(x, y), x = 5089, y = 2704.
+q537(x, y) :- eq(x, y), x = 5015, y = 2526.
 q538(x : Z, y : Z) printsize
-q538(x, y) :- eq(x, y), x = 4748, y = 3225.
+q538(x, y) :- eq(x, y), x = 1855, y = 4574.
 q539(x : Z, y : Z) printsize
-q539(x, y) :- eq(x, y), x = 4273, y = 3584.
+q539(x, y) :- eq(x, y), x = 4596, y = 4802.
 q540(x : Z, y : Z) printsize
-q540(x, y) :- eq(x, y), x = 2440, y = 1602.
+q540(x, y) :- eq(x, y), x = 532, y = 3056.
 q541(x : Z, y : Z) printsize
-q541(x, y) :- eq(x, y), x = 3338, y = 3953.
+q541(x, y) :- eq(x, y), x = 325, y = 2718.
 q542(x : Z, y : Z) printsize
-q542(x, y) :- eq(x, y), x = 3501, y = 1841.
+q542(x, y) :- eq(x, y), x = 2910, y = 933.
 q543(x : Z, y : Z) printsize
-q543(x, y) :- eq(x, y), x = 1855, y = 4574.
+q543(x, y) :- eq(x, y), x = 394, y = 2332.
 q544(x : Z, y : Z) printsize
-q544(x, y) :- eq(x, y), x = 33, y = 3479.
+q544(x, y) :- eq(x, y), x = 4524, y = 1398.
 q545(x : Z, y : Z) printsize
-q545(x, y) :- eq(x, y), x = 1331, y = 662.
+q545(x, y) :- eq(x, y), x = 49, y = 143.
 q546(x : Z, y : Z) printsize
-q546(x, y) :- eq(x, y), x = 3250, y = 1731.
+q546(x, y) :- eq(x, y), x = 5068, y = 4253.
 q547(x : Z, y : Z) printsize
-q547(x, y) :- eq(x, y), x = 844, y = 1955.
+q547(x, y) :- eq(x, y), x = 909, y = 1128.
 q548(x : Z, y : Z) printsize
-q548(x, y) :- eq(x, y), x = 4446, y = 2879.
+q548(x, y) :- eq(x, y), x = 805, y = 4490.
 q549(x : Z, y : Z) printsize
-q549(x, y) :- eq(x, y), x = 3938, y = 3646.
+q549(x, y) :- eq(x, y), x = 1529, y = 2327.
 q550(x : Z, y : Z) printsize
-q550(x, y) :- eq(x, y), x = 4593, y = 3067.
+q550(x, y) :- eq(x, y), x = 4733, y = 749.
 q551(x : Z, y : Z) printsize
-q551(x, y) :- eq(x, y), x = 2490, y = 1955.
+q551(x, y) :- eq(x, y), x = 4202, y = 2734.
 q552(x : Z, y : Z) printsize
-q552(x, y) :- eq(x, y), x = 3699, y = 4329.
+q552(x, y) :- eq(x, y), x = 4948, y = 4149.
 q553(x : Z, y : Z) printsize
-q553(x, y) :- eq(x, y), x = 2470, y = 1460.
+q553(x, y) :- eq(x, y), x = 228, y = 850.
 q554(x : Z, y : Z) printsize
-q554(x, y) :- eq(x, y), x = 1845, y = 2691.
+q554(x, y) :- eq(x, y), x = 3326, y = 2672.
 q555(x : Z, y : Z) printsize
-q555(x, y) :- eq(x, y), x = 1948, y = 1824.
+q555(x, y) :- eq(x, y), x = 1921, y = 596.
 q556(x : Z, y : Z) printsize
-q556(x, y) :- eq(x, y), x = 4460, y = 425.
+q556(x, y) :- eq(x, y), x = 522, y = 846.
 q557(x : Z, y : Z) printsize
-q557(x, y) :- eq(x, y), x = 3318, y = 1682.
+q557(x, y) :- eq(x, y), x = 3858, y = 1294.
 q558(x : Z, y : Z) printsize
-q558(x, y) :- eq(x, y), x = 4304, y = 1047.
+q558(x, y) :- eq(x, y), x = 2555, y = 2016.
 q559(x : Z, y : Z) printsize
-q559(x, y) :- eq(x, y), x = 1983, y = 1227.
+q559(x, y) :- eq(x, y), x = 1208, y = 138.
 q560(x : Z, y : Z) printsize
-q560(x, y) :- eq(x, y), x = 905, y = 2967.
+q560(x, y) :- eq(x, y), x = 1874, y = 936.
 q561(x : Z, y : Z) printsize
-q561(x, y) :- eq(x, y), x = 1406, y = 4080.
+q561(x, y) :- eq(x, y), x = 1697, y = 1012.
 q562(x : Z, y : Z) printsize
-q562(x, y) :- eq(x, y), x = 1436, y = 5137.
+q562(x, y) :- eq(x, y), x = 2974, y = 3462.
 q563(x : Z, y : Z) printsize
-q563(x, y) :- eq(x, y), x = 1589, y = 2761.
+q563(x, y) :- eq(x, y), x = 555, y = 167.
 q564(x : Z, y : Z) printsize
-q564(x, y) :- eq(x, y), x = 1479, y = 4653.
+q564(x, y) :- eq(x, y), x = 1278, y = 3290.
 q565(x : Z, y : Z) printsize
-q565(x, y) :- eq(x, y), x = 1325, y = 3699.
+q565(x, y) :- eq(x, y), x = 3161, y = 1227.
 q566(x : Z, y : Z) printsize
-q566(x, y) :- eq(x, y), x = 5223, y = 2631.
+q566(x, y) :- eq(x, y), x = 4836, y = 484.
 q567(x : Z, y : Z) printsize
-q567(x, y) :- eq(x, y), x = 4529, y = 4337.
+q567(x, y) :- eq(x, y), x = 3305, y = 1988.
 q568(x : Z, y : Z) printsize
-q568(x, y) :- eq(x, y), x = 3992, y = 3006.
+q568(x, y) :- eq(x, y), x = 315, y = 198.
 q569(x : Z, y : Z) printsize
-q569(x, y) :- eq(x, y), x = 2372, y = 3443.
+q569(x, y) :- eq(x, y), x = 2448, y = 1036.
 q570(x : Z, y : Z) printsize
-q570(x, y) :- eq(x, y), x = 226, y = 130.
+q570(x, y) :- eq(x, y), x = 2468, y = 630.
 q571(x : Z, y : Z) printsize
-q571(x, y) :- eq(x, y), x = 1452, y = 456.
+q571(x, y) :- eq(x, y), x = 3430, y = 2608.
 q572(x : Z, y : Z) printsize
-q572(x, y) :- eq(x, y), x = 2364, y = 238.
+q572(x, y) :- eq(x, y), x = 3395, y = 2810.
 q573(x : Z, y : Z) printsize
-q573(x, y) :- eq(x, y), x = 4078, y = 2699.
+q573(x, y) :- eq(x, y), x = 2887, y = 1075.
 q574(x : Z, y : Z) printsize
-q574(x, y) :- eq(x, y), x = 2793, y = 845.
+q574(x, y) :- eq(x, y), x = 3719, y = 1053.
 q575(x : Z, y : Z) printsize
-q575(x, y) :- eq(x, y), x = 4054, y = 3249.
+q575(x, y) :- eq(x, y), x = 3699, y = 4329.
 q576(x : Z, y : Z) printsize
-q576(x, y) :- eq(x, y), x = 3768, y = 5225.
+q576(x, y) :- eq(x, y), x = 5089, y = 2704.
 q577(x : Z, y : Z) printsize
-q577(x, y) :- eq(x, y), x = 2516, y = 2753.
+q577(x, y) :- eq(x, y), x = 3948, y = 2467.
 q578(x : Z, y : Z) printsize
-q578(x, y) :- eq(x, y), x = 1657, y = 5066.
+q578(x, y) :- eq(x, y), x = 3757, y = 2734.
 q579(x : Z, y : Z) printsize
-q579(x, y) :- eq(x, y), x = 4258, y = 1228.
+q579(x, y) :- eq(x, y), x = 1417, y = 3043.
 q580(x : Z, y : Z) printsize
-q580(x, y) :- eq(x, y), x = 4612, y = 2253.
+q580(x, y) :- eq(x, y), x = 2278, y = 3189.
 q581(x : Z, y : Z) printsize
-q581(x, y) :- eq(x, y), x = 3337, y = 3622.
+q581(x, y) :- eq(x, y), x = 3985, y = 1157.
 q582(x : Z, y : Z) printsize
-q582(x, y) :- eq(x, y), x = 1183, y = 4865.
+q582(x, y) :- eq(x, y), x = 2744, y = 1586.
 q583(x : Z, y : Z) printsize
-q583(x, y) :- eq(x, y), x = 3118, y = 4346.
+q583(x, y) :- eq(x, y), x = 166, y = 4350.
 q584(x : Z, y : Z) printsize
-q584(x, y) :- eq(x, y), x = 2425, y = 386.
+q584(x, y) :- eq(x, y), x = 3208, y = 5046.
 q585(x : Z, y : Z) printsize
-q585(x, y) :- eq(x, y), x = 2239, y = 1164.
+q585(x, y) :- eq(x, y), x = 4043, y = 2202.
 q586(x : Z, y : Z) printsize
-q586(x, y) :- eq(x, y), x = 4680, y = 3830.
+q586(x, y) :- eq(x, y), x = 5182, y = 290.
 q587(x : Z, y : Z) printsize
-q587(x, y) :- eq(x, y), x = 874, y = 1294.
+q587(x, y) :- eq(x, y), x = 3404, y = 3640.
 q588(x : Z, y : Z) printsize
-q588(x, y) :- eq(x, y), x = 1224, y = 1724.
+q588(x, y) :- eq(x, y), x = 4441, y = 615.
 q589(x : Z, y : Z) printsize
-q589(x, y) :- eq(x, y), x = 960, y = 1227.
+q589(x, y) :- eq(x, y), x = 2242, y = 4089.
 q590(x : Z, y : Z) printsize
-q590(x, y) :- eq(x, y), x = 3234, y = 3840.
+q590(x, y) :- eq(x, y), x = 239, y = 4360.
 q591(x : Z, y : Z) printsize
-q591(x, y) :- eq(x, y), x = 2318, y = 736.
+q591(x, y) :- eq(x, y), x = 678, y = 3602.
 q592(x : Z, y : Z) printsize
-q592(x, y) :- eq(x, y), x = 3167, y = 797.
+q592(x, y) :- eq(x, y), x = 3729, y = 3608.
 q593(x : Z, y : Z) printsize
-q593(x, y) :- eq(x, y), x = 4647, y = 1132.
+q593(x, y) :- eq(x, y), x = 2124, y = 2616.
 q594(x : Z, y : Z) printsize
-q594(x, y) :- eq(x, y), x = 4922, y = 1012.
+q594(x, y) :- eq(x, y), x = 1530, y = 465.
 q595(x : Z, y : Z) printsize
-q595(x, y) :- eq(x, y), x = 2257, y = 1459.
+q595(x, y) :- eq(x, y), x = 4670, y = 1762.
 q596(x : Z, y : Z) printsize
-q596(x, y) :- eq(x, y), x = 5051, y = 4372.
+q596(x, y) :- eq(x, y), x = 200, y = 4703.
 q597(x : Z, y : Z) printsize
-q597(x, y) :- eq(x, y), x = 1331, y = 662.
+q597(x, y) :- eq(x, y), x = 2850, y = 539.
 q598(x : Z, y : Z) printsize
-q598(x, y) :- eq(x, y), x = 3204, y = 936.
+q598(x, y) :- eq(x, y), x = 3750, y = 3470.
 q599(x : Z, y : Z) printsize
-q599(x, y) :- eq(x, y), x = 549, y = 5116.
+q599(x, y) :- eq(x, y), x = 333, y = 3684.
 q600(x : Z, y : Z) printsize
-q600(x, y) :- eq(x, y), x = 1608, y = 2737.
+q600(x, y) :- eq(x, y), x = 5068, y = 4253.
 q601(x : Z, y : Z) printsize
-q601(x, y) :- eq(x, y), x = 3284, y = 143.
+q601(x, y) :- eq(x, y), x = 4230, y = 3009.
 q602(x : Z, y : Z) printsize
-q602(x, y) :- eq(x, y), x = 3193, y = 2667.
+q602(x, y) :- eq(x, y), x = 2834, y = 3285.
 q603(x : Z, y : Z) printsize
-q603(x, y) :- eq(x, y), x = 871, y = 2757.
+q603(x, y) :- eq(x, y), x = 2045, y = 1955.
 q604(x : Z, y : Z) printsize
-q604(x, y) :- eq(x, y), x = 769, y = 156.
+q604(x, y) :- eq(x, y), x = 3177, y = 4546.
 q605(x : Z, y : Z) printsize
-q605(x, y) :- eq(x, y), x = 872, y = 1743.
+q605(x, y) :- eq(x, y), x = 1252, y = 290.
 q606(x : Z, y : Z) printsize
-q606(x, y) :- eq(x, y), x = 1683, y = 951.
+q606(x, y) :- eq(x, y), x = 1343, y = 77.
 q607(x : Z, y : Z) printsize
-q607(x, y) :- eq(x, y), x = 1204, y = 738.
+q607(x, y) :- eq(x, y), x = 425, y = 4163.
 q608(x : Z, y : Z) printsize
-q608(x, y) :- eq(x, y), x = 143, y = 682.
+q608(x, y) :- eq(x, y), x = 2505, y = 2734.
 q609(x : Z, y : Z) printsize
-q609(x, y) :- eq(x, y), x = 5125, y = 716.
+q609(x, y) :- eq(x, y), x = 1395, y = 751.
 q610(x : Z, y : Z) printsize
-q610(x, y) :- eq(x, y), x = 4551, y = 2129.
+q610(x, y) :- eq(x, y), x = 2653, y = 2654.
 q611(x : Z, y : Z) printsize
-q611(x, y) :- eq(x, y), x = 3370, y = 1771.
+q611(x, y) :- eq(x, y), x = 4906, y = 3675.
 q612(x : Z, y : Z) printsize
-q612(x, y) :- eq(x, y), x = 2286, y = 4191.
+q612(x, y) :- eq(x, y), x = 2406, y = 2088.
 q613(x : Z, y : Z) printsize
-q613(x, y) :- eq(x, y), x = 4372, y = 4269.
+q613(x, y) :- eq(x, y), x = 4408, y = 3569.
 q614(x : Z, y : Z) printsize
-q614(x, y) :- eq(x, y), x = 1529, y = 2327.
+q614(x, y) :- eq(x, y), x = 4290, y = 1723.
 q615(x : Z, y : Z) printsize
-q615(x, y) :- eq(x, y), x = 4776, y = 4249.
+q615(x, y) :- eq(x, y), x = 1130, y = 3313.
 q616(x : Z, y : Z) printsize
-q616(x, y) :- eq(x, y), x = 390, y = 183.
+q616(x, y) :- eq(x, y), x = 1895, y = 17.
 q617(x : Z, y : Z) printsize
-q617(x, y) :- eq(x, y), x = 2490, y = 1955.
+q617(x, y) :- eq(x, y), x = 3726, y = 632.
 q618(x : Z, y : Z) printsize
-q618(x, y) :- eq(x, y), x = 2819, y = 1374.
+q618(x, y) :- eq(x, y), x = 1657, y = 3334.
 q619(x : Z, y : Z) printsize
-q619(x, y) :- eq(x, y), x = 3593, y = 1782.
+q619(x, y) :- eq(x, y), x = 3830, y = 4540.
 q620(x : Z, y : Z) printsize
-q620(x, y) :- eq(x, y), x = 4812, y = 3489.
+q620(x, y) :- eq(x, y), x = 3956, y = 795.
 q621(x : Z, y : Z) printsize
-q621(x, y) :- eq(x, y), x = 3743, y = 3412.
+q621(x, y) :- eq(x, y), x = 1266, y = 749.
 q622(x : Z, y : Z) printsize
-q622(x, y) :- eq(x, y), x = 3322, y = 845.
+q622(x, y) :- eq(x, y), x = 690, y = 2656.
 q623(x : Z, y : Z) printsize
-q623(x, y) :- eq(x, y), x = 701, y = 3846.
+q623(x, y) :- eq(x, y), x = 2527, y = 2202.
 q624(x : Z, y : Z) printsize
-q624(x, y) :- eq(x, y), x = 2418, y = 2034.
+q624(x, y) :- eq(x, y), x = 2150, y = 211.
 q625(x : Z, y : Z) printsize
-q625(x, y) :- eq(x, y), x = 441, y = 4238.
+q625(x, y) :- eq(x, y), x = 2479, y = 945.
 q626(x : Z, y : Z) printsize
-q626(x, y) :- eq(x, y), x = 910, y = 1523.
+q626(x, y) :- eq(x, y), x = 1448, y = 851.
 q627(x : Z, y : Z) printsize
-q627(x, y) :- eq(x, y), x = 622, y = 2320.
+q627(x, y) :- eq(x, y), x = 752, y = 442.
 q628(x : Z, y : Z) printsize
-q628(x, y) :- eq(x, y), x = 158, y = 4706.
+q628(x, y) :- eq(x, y), x = 4874, y = 1218.
 q629(x : Z, y : Z) printsize
-q629(x, y) :- eq(x, y), x = 3423, y = 2733.
+q629(x, y) :- eq(x, y), x = 722, y = 2656.
 q630(x : Z, y : Z) printsize
-q630(x, y) :- eq(x, y), x = 2790, y = 4076.
+q630(x, y) :- eq(x, y), x = 5046, y = 4112.
 q631(x : Z, y : Z) printsize
-q631(x, y) :- eq(x, y), x = 3764, y = 1105.
+q631(x, y) :- eq(x, y), x = 243, y = 1309.
 q632(x : Z, y : Z) printsize
-q632(x, y) :- eq(x, y), x = 1204, y = 1125.
+q632(x, y) :- eq(x, y), x = 4230, y = 3009.
 q633(x : Z, y : Z) printsize
-q633(x, y) :- eq(x, y), x = 4516, y = 3077.
+q633(x, y) :- eq(x, y), x = 296, y = 5148.
 q634(x : Z, y : Z) printsize
-q634(x, y) :- eq(x, y), x = 4858, y = 3930.
+q634(x, y) :- eq(x, y), x = 3364, y = 936.
 q635(x : Z, y : Z) printsize
-q635(x, y) :- eq(x, y), x = 5168, y = 3544.
+q635(x, y) :- eq(x, y), x = 2826, y = 3541.
 q636(x : Z, y : Z) printsize
-q636(x, y) :- eq(x, y), x = 715, y = 1802.
+q636(x, y) :- eq(x, y), x = 1018, y = 3544.
 q637(x : Z, y : Z) printsize
-q637(x, y) :- eq(x, y), x = 2832, y = 3523.
+q637(x, y) :- eq(x, y), x = 989, y = 2016.
 q638(x : Z, y : Z) printsize
-q638(x, y) :- eq(x, y), x = 3100, y = 1951.
+q638(x, y) :- eq(x, y), x = 5195, y = 4718.
 q639(x : Z, y : Z) printsize
-q639(x, y) :- eq(x, y), x = 1241, y = 2461.
+q639(x, y) :- eq(x, y), x = 2433, y = 2029.
 q640(x : Z, y : Z) printsize
-q640(x, y) :- eq(x, y), x = 4216, y = 531.
+q640(x, y) :- eq(x, y), x = 2550, y = 2487.
 q641(x : Z, y : Z) printsize
-q641(x, y) :- eq(x, y), x = 4012, y = 4255.
+q641(x, y) :- eq(x, y), x = 185, y = 1173.
 q642(x : Z, y : Z) printsize
-q642(x, y) :- eq(x, y), x = 3791, y = 3602.
+q642(x, y) :- eq(x, y), x = 614, y = 3462.
 q643(x : Z, y : Z) printsize
-q643(x, y) :- eq(x, y), x = 4859, y = 811.
+q643(x, y) :- eq(x, y), x = 4620, y = 3603.
 q644(x : Z, y : Z) printsize
-q644(x, y) :- eq(x, y), x = 4248, y = 4220.
+q644(x, y) :- eq(x, y), x = 2490, y = 1955.
 q645(x : Z, y : Z) printsize
-q645(x, y) :- eq(x, y), x = 482, y = 3364.
+q645(x, y) :- eq(x, y), x = 3421, y = 2611.
 q646(x : Z, y : Z) printsize
-q646(x, y) :- eq(x, y), x = 3896, y = 2631.
+q646(x, y) :- eq(x, y), x = 3417, y = 2100.
 q647(x : Z, y : Z) printsize
-q647(x, y) :- eq(x, y), x = 830, y = 1906.
+q647(x, y) :- eq(x, y), x = 5194, y = 4207.
 q648(x : Z, y : Z) printsize
-q648(x, y) :- eq(x, y), x = 3709, y = 1911.
+q648(x, y) :- eq(x, y), x = 1330, y = 451.
 q649(x : Z, y : Z) printsize
-q649(x, y) :- eq(x, y), x = 4733, y = 749.
+q649(x, y) :- eq(x, y), x = 1880, y = 4428.
 q650(x : Z, y : Z) printsize
-q650(x, y) :- eq(x, y), x = 5120, y = 3889.
+q650(x, y) :- eq(x, y), x = 3595, y = 179.
 q651(x : Z, y : Z) printsize
-q651(x, y) :- eq(x, y), x = 3413, y = 2991.
+q651(x, y) :- eq(x, y), x = 357, y = 2832.
 q652(x : Z, y : Z) printsize
-q652(x, y) :- eq(x, y), x = 4870, y = 3462.
+q652(x, y) :- eq(x, y), x = 3826, y = 2753.
 q653(x : Z, y : Z) printsize
-q653(x, y) :- eq(x, y), x = 2014, y = 3172.
+q653(x, y) :- eq(x, y), x = 3145, y = 558.
 q654(x : Z, y : Z) printsize
-q654(x, y) :- eq(x, y), x = 3421, y = 3187.
+q654(x, y) :- eq(x, y), x = 1420, y = 613.
 q655(x : Z, y : Z) printsize
-q655(x, y) :- eq(x, y), x = 16, y = 3180.
+q655(x, y) :- eq(x, y), x = 3992, y = 3006.
 q656(x : Z, y : Z) printsize
-q656(x, y) :- eq(x, y), x = 3764, y = 1105.
+q656(x, y) :- eq(x, y), x = 2193, y = 5106.
 q657(x : Z, y : Z) printsize
-q657(x, y) :- eq(x, y), x = 3395, y = 2810.
+q657(x, y) :- eq(x, y), x = 687, y = 4503.
 q658(x : Z, y : Z) printsize
-q658(x, y) :- eq(x, y), x = 3419, y = 751.
+q658(x, y) :- eq(x, y), x = 945, y = 3880.
 q659(x : Z, y : Z) printsize
-q659(x, y) :- eq(x, y), x = 3284, y = 143.
+q659(x, y) :- eq(x, y), x = 1162, y = 4135.
 q660(x : Z, y : Z) printsize
-q660(x, y) :- eq(x, y), x = 4729, y = 4266.
+q660(x, y) :- eq(x, y), x = 2450, y = 1731.
 q661(x : Z, y : Z) printsize
-q661(x, y) :- eq(x, y), x = 3462, y = 4319.
+q661(x, y) :- eq(x, y), x = 1880, y = 2499.
 q662(x : Z, y : Z) printsize
-q662(x, y) :- eq(x, y), x = 1880, y = 4428.
+q662(x, y) :- eq(x, y), x = 527, y = 4144.
 q663(x : Z, y : Z) printsize
-q663(x, y) :- eq(x, y), x = 4198, y = 3445.
+q663(x, y) :- eq(x, y), x = 4334, y = 2289.
 q664(x : Z, y : Z) printsize
-q664(x, y) :- eq(x, y), x = 752, y = 442.
+q664(x, y) :- eq(x, y), x = 5015, y = 2526.
 q665(x : Z, y : Z) printsize
-q665(x, y) :- eq(x, y), x = 63, y = 171.
+q665(x, y) :- eq(x, y), x = 3545, y = 4289.
 q666(x : Z, y : Z) printsize
-q666(x, y) :- eq(x, y), x = 292, y = 1519.
+q666(x, y) :- eq(x, y), x = 1224, y = 1724.
 q667(x : Z, y : Z) printsize
-q667(x, y) :- eq(x, y), x = 3678, y = 2900.
+q667(x, y) :- eq(x, y), x = 2609, y = 4428.
 q668(x : Z, y : Z) printsize
-q668(x, y) :- eq(x, y), x = 4570, y = 751.
+q668(x, y) :- eq(x, y), x = 5115, y = 480.
 q669(x : Z, y : Z) printsize
-q669(x, y) :- eq(x, y), x = 3611, y = 1399.
+q669(x, y) :- eq(x, y), x = 638, y = 533.
 q670(x : Z, y : Z) printsize
-q670(x, y) :- eq(x, y), x = 3480, y = 3097.
+q670(x, y) :- eq(x, y), x = 2459, y = 2250.
 q671(x : Z, y : Z) printsize
-q671(x, y) :- eq(x, y), x = 390, y = 183.
+q671(x, y) :- eq(x, y), x = 1530, y = 465.
 q672(x : Z, y : Z) printsize
-q672(x, y) :- eq(x, y), x = 3318, y = 1682.
+q672(x, y) :- eq(x, y), x = 4874, y = 1218.
 q673(x : Z, y : Z) printsize
-q673(x, y) :- eq(x, y), x = 2341, y = 4408.
+q673(x, y) :- eq(x, y), x = 1184, y = 109.
 q674(x : Z, y : Z) printsize
-q674(x, y) :- eq(x, y), x = 1764, y = 539.
+q674(x, y) :- eq(x, y), x = 1880, y = 4428.
 q675(x : Z, y : Z) printsize
-q675(x, y) :- eq(x, y), x = 5235, y = 4377.
+q675(x, y) :- eq(x, y), x = 3135, y = 3572.
 q676(x : Z, y : Z) printsize
-q676(x, y) :- eq(x, y), x = 3638, y = 2303.
+q676(x, y) :- eq(x, y), x = 4306, y = 548.
 q677(x : Z, y : Z) printsize
-q677(x, y) :- eq(x, y), x = 707, y = 4573.
+q677(x, y) :- eq(x, y), x = 929, y = 674.
 q678(x : Z, y : Z) printsize
-q678(x, y) :- eq(x, y), x = 1883, y = 2487.
+q678(x, y) :- eq(x, y), x = 2826, y = 3216.
 q679(x : Z, y : Z) printsize
-q679(x, y) :- eq(x, y), x = 1493, y = 4796.
+q679(x, y) :- eq(x, y), x = 2296, y = 178.
 q680(x : Z, y : Z) printsize
-q680(x, y) :- eq(x, y), x = 5017, y = 1788.
+q680(x, y) :- eq(x, y), x = 4275, y = 329.
 q681(x : Z, y : Z) printsize
-q681(x, y) :- eq(x, y), x = 2251, y = 1997.
+q681(x, y) :- eq(x, y), x = 2808, y = 716.
 q682(x : Z, y : Z) printsize
-q682(x, y) :- eq(x, y), x = 1903, y = 2214.
+q682(x, y) :- eq(x, y), x = 1781, y = 31.
 q683(x : Z, y : Z) printsize
-q683(x, y) :- eq(x, y), x = 212, y = 255.
+q683(x, y) :- eq(x, y), x = 1074, y = 4377.
 q684(x : Z, y : Z) printsize
-q684(x, y) :- eq(x, y), x = 1622, y = 3009.
+q684(x, y) :- eq(x, y), x = 4394, y = 909.
 q685(x : Z, y : Z) printsize
-q685(x, y) :- eq(x, y), x = 5214, y = 4238.
+q685(x, y) :- eq(x, y), x = 2623, y = 3842.
 q686(x : Z, y : Z) printsize
-q686(x, y) :- eq(x, y), x = 612, y = 442.
+q686(x, y) :- eq(x, y), x = 3954, y = 3931.
 q687(x : Z, y : Z) printsize
-q687(x, y) :- eq(x, y), x = 541, y = 501.
+q687(x, y) :- eq(x, y), x = 2064, y = 1031.
 q688(x : Z, y : Z) printsize
-q688(x, y) :- eq(x, y), x = 5065, y = 2385.
+q688(x, y) :- eq(x, y), x = 4351, y = 1872.
 q689(x : Z, y : Z) printsize
-q689(x, y) :- eq(x, y), x = 5178, y = 232.
+q689(x, y) :- eq(x, y), x = 2131, y = 1013.
 q690(x : Z, y : Z) printsize
-q690(x, y) :- eq(x, y), x = 2862, y = 80.
+q690(x, y) :- eq(x, y), x = 290, y = 1166.
 q691(x : Z, y : Z) printsize
-q691(x, y) :- eq(x, y), x = 1831, y = 1802.
+q691(x, y) :- eq(x, y), x = 4875, y = 539.
 q692(x : Z, y : Z) printsize
-q692(x, y) :- eq(x, y), x = 2380, y = 2016.
+q692(x, y) :- eq(x, y), x = 2531, y = 1166.
 q693(x : Z, y : Z) printsize
-q693(x, y) :- eq(x, y), x = 3427, y = 2196.
+q693(x, y) :- eq(x, y), x = 2458, y = 3570.
 q694(x : Z, y : Z) printsize
-q694(x, y) :- eq(x, y), x = 1184, y = 109.
+q694(x, y) :- eq(x, y), x = 2528, y = 4976.
 q695(x : Z, y : Z) printsize
-q695(x, y) :- eq(x, y), x = 2756, y = 32.
+q695(x, y) :- eq(x, y), x = 1117, y = 69.
 q696(x : Z, y : Z) printsize
-q696(x, y) :- eq(x, y), x = 4422, y = 3962.
+q696(x, y) :- eq(x, y), x = 1045, y = 2492.
 q697(x : Z, y : Z) printsize
-q697(x, y) :- eq(x, y), x = 1822, y = 4865.
+q697(x, y) :- eq(x, y), x = 5089, y = 2704.
 q698(x : Z, y : Z) printsize
-q698(x, y) :- eq(x, y), x = 2495, y = 366.
+q698(x, y) :- eq(x, y), x = 638, y = 533.
 q699(x : Z, y : Z) printsize
-q699(x, y) :- eq(x, y), x = 1946, y = 2299.
+q699(x, y) :- eq(x, y), x = 3652, y = 1586.
 q700(x : Z, y : Z) printsize
-q700(x, y) :- eq(x, y), x = 1891, y = 3277.
+q700(x, y) :- eq(x, y), x = 2550, y = 2487.
 q701(x : Z, y : Z) printsize
-q701(x, y) :- eq(x, y), x = 2433, y = 2029.
+q701(x, y) :- eq(x, y), x = 3161, y = 1227.
 q702(x : Z, y : Z) printsize
-q702(x, y) :- eq(x, y), x = 3938, y = 3646.
+q702(x, y) :- eq(x, y), x = 2808, y = 716.
 q703(x : Z, y : Z) printsize
-q703(x, y) :- eq(x, y), x = 1903, y = 2214.
+q703(x, y) :- eq(x, y), x = 780, y = 629.
 q704(x : Z, y : Z) printsize
-q704(x, y) :- eq(x, y), x = 818, y = 3646.
+q704(x, y) :- eq(x, y), x = 3757, y = 2734.
 q705(x : Z, y : Z) printsize
-q705(x, y) :- eq(x, y), x = 3522, y = 1847.
+q705(x, y) :- eq(x, y), x = 2239, y = 1164.
 q706(x : Z, y : Z) printsize
-q706(x, y) :- eq(x, y), x = 3427, y = 2639.
+q706(x, y) :- eq(x, y), x = 2490, y = 1955.
 q707(x : Z, y : Z) printsize
-q707(x, y) :- eq(x, y), x = 2450, y = 1731.
+q707(x, y) :- eq(x, y), x = 3106, y = 3684.
 q708(x : Z, y : Z) printsize
-q708(x, y) :- eq(x, y), x = 4243, y = 2061.
+q708(x, y) :- eq(x, y), x = 3492, y = 2882.
 q709(x : Z, y : Z) printsize
-q709(x, y) :- eq(x, y), x = 3284, y = 143.
+q709(x, y) :- eq(x, y), x = 5163, y = 39.
 q710(x : Z, y : Z) printsize
-q710(x, y) :- eq(x, y), x = 773, y = 5169.
+q710(x, y) :- eq(x, y), x = 4063, y = 868.
 q711(x : Z, y : Z) printsize
-q711(x, y) :- eq(x, y), x = 5173, y = 2718.
+q711(x, y) :- eq(x, y), x = 2378, y = 5187.
 q712(x : Z, y : Z) printsize
-q712(x, y) :- eq(x, y), x = 214, y = 3277.
+q712(x, y) :- eq(x, y), x = 3427, y = 2639.
 q713(x : Z, y : Z) printsize
-q713(x, y) :- eq(x, y), x = 3552, y = 3131.
+q713(x, y) :- eq(x, y), x = 1920, y = 438.
 q714(x : Z, y : Z) printsize
-q714(x, y) :- eq(x, y), x = 4275, y = 329.
+q714(x, y) :- eq(x, y), x = 1659, y = 3800.
 q715(x : Z, y : Z) printsize
-q715(x, y) :- eq(x, y), x = 2098, y = 2571.
+q715(x, y) :- eq(x, y), x = 3698, y = 4485.
 q716(x : Z, y : Z) printsize
-q716(x, y) :- eq(x, y), x = 3037, y = 1353.
+q716(x, y) :- eq(x, y), x = 2489, y = 2129.
 q717(x : Z, y : Z) printsize
-q717(x, y) :- eq(x, y), x = 2081, y = 397.
+q717(x, y) :- eq(x, y), x = 1622, y = 3009.
 q718(x : Z, y : Z) printsize
-q718(x, y) :- eq(x, y), x = 4746, y = 1052.
+q718(x, y) :- eq(x, y), x = 3911, y = 4501.
 q719(x : Z, y : Z) printsize
-q719(x, y) :- eq(x, y), x = 1855, y = 4574.
+q719(x, y) :- eq(x, y), x = 3862, y = 3547.
 q720(x : Z, y : Z) printsize
-q720(x, y) :- eq(x, y), x = 2260, y = 3627.
+q720(x, y) :- eq(x, y), x = 3470, y = 1780.
 q721(x : Z, y : Z) printsize
-q721(x, y) :- eq(x, y), x = 1776, y = 4329.
+q721(x, y) :- eq(x, y), x = 2192, y = 4954.
 q722(x : Z, y : Z) printsize
-q722(x, y) :- eq(x, y), x = 2799, y = 3666.
+q722(x, y) :- eq(x, y), x = 3089, y = 1236.
 q723(x : Z, y : Z) printsize
-q723(x, y) :- eq(x, y), x = 675, y = 1072.
+q723(x, y) :- eq(x, y), x = 3870, y = 2732.
 q724(x : Z, y : Z) printsize
-q724(x, y) :- eq(x, y), x = 4441, y = 615.
+q724(x, y) :- eq(x, y), x = 2547, y = 1375.
 q725(x : Z, y : Z) printsize
-q725(x, y) :- eq(x, y), x = 1457, y = 2264.
+q725(x, y) :- eq(x, y), x = 2490, y = 1955.
 q726(x : Z, y : Z) printsize
-q726(x, y) :- eq(x, y), x = 1241, y = 2461.
+q726(x, y) :- eq(x, y), x = 687, y = 4503.
 q727(x : Z, y : Z) printsize
-q727(x, y) :- eq(x, y), x = 929, y = 674.
+q727(x, y) :- eq(x, y), x = 4813, y = 4603.
 q728(x : Z, y : Z) printsize
-q728(x, y) :- eq(x, y), x = 3336, y = 849.
+q728(x, y) :- eq(x, y), x = 4183, y = 1852.
 q729(x : Z, y : Z) printsize
-q729(x, y) :- eq(x, y), x = 1331, y = 662.
+q729(x, y) :- eq(x, y), x = 3760, y = 1227.
 q730(x : Z, y : Z) printsize
-q730(x, y) :- eq(x, y), x = 2352, y = 1294.
+q730(x, y) :- eq(x, y), x = 1367, y = 4534.
 q731(x : Z, y : Z) printsize
-q731(x, y) :- eq(x, y), x = 608, y = 3429.
+q731(x, y) :- eq(x, y), x = 5068, y = 4253.
 q732(x : Z, y : Z) printsize
-q732(x, y) :- eq(x, y), x = 2546, y = 1049.
+q732(x, y) :- eq(x, y), x = 2439, y = 3342.
 q733(x : Z, y : Z) printsize
-q733(x, y) :- eq(x, y), x = 3057, y = 2487.
+q733(x, y) :- eq(x, y), x = 1657, y = 3334.
 q734(x : Z, y : Z) printsize
-q734(x, y) :- eq(x, y), x = 1849, y = 388.
+q734(x, y) :- eq(x, y), x = 1241, y = 2461.
 q735(x : Z, y : Z) printsize
-q735(x, y) :- eq(x, y), x = 4387, y = 3548.
+q735(x, y) :- eq(x, y), x = 3035, y = 3231.
 q736(x : Z, y : Z) printsize
-q736(x, y) :- eq(x, y), x = 4372, y = 2953.
+q736(x, y) :- eq(x, y), x = 4991, y = 4461.
 q737(x : Z, y : Z) printsize
-q737(x, y) :- eq(x, y), x = 4503, y = 4663.
+q737(x, y) :- eq(x, y), x = 3084, y = 629.
 q738(x : Z, y : Z) printsize
-q738(x, y) :- eq(x, y), x = 960, y = 1227.
+q738(x, y) :- eq(x, y), x = 2279, y = 4959.
 q739(x : Z, y : Z) printsize
-q739(x, y) :- eq(x, y), x = 3419, y = 751.
+q739(x, y) :- eq(x, y), x = 3717, y = 5207.
 q740(x : Z, y : Z) printsize
-q740(x, y) :- eq(x, y), x = 3757, y = 2734.
+q740(x, y) :- eq(x, y), x = 498, y = 34.
 q741(x : Z, y : Z) printsize
-q741(x, y) :- eq(x, y), x = 3635, y = 4448.
+q741(x, y) :- eq(x, y), x = 4273, y = 868.
 q742(x : Z, y : Z) printsize
-q742(x, y) :- eq(x, y), x = 2813, y = 1871.
+q742(x, y) :- eq(x, y), x = 3144, y = 4305.
 q743(x : Z, y : Z) printsize
-q743(x, y) :- eq(x, y), x = 202, y = 1435.
+q743(x, y) :- eq(x, y), x = 960, y = 1227.
 q744(x : Z, y : Z) printsize
-q744(x, y) :- eq(x, y), x = 4043, y = 2202.
+q744(x, y) :- eq(x, y), x = 1057, y = 1773.
 q745(x : Z, y : Z) printsize
-q745(x, y) :- eq(x, y), x = 1420, y = 613.
+q745(x, y) :- eq(x, y), x = 1974, y = 33.
 q746(x : Z, y : Z) printsize
-q746(x, y) :- eq(x, y), x = 2352, y = 1294.
+q746(x, y) :- eq(x, y), x = 796, y = 2227.
 q747(x : Z, y : Z) printsize
-q747(x, y) :- eq(x, y), x = 721, y = 671.
+q747(x, y) :- eq(x, y), x = 2503, y = 4252.
 q748(x : Z, y : Z) printsize
-q748(x, y) :- eq(x, y), x = 3914, y = 1241.
+q748(x, y) :- eq(x, y), x = 1593, y = 1437.
 q749(x : Z, y : Z) printsize
-q749(x, y) :- eq(x, y), x = 1485, y = 3625.
+q749(x, y) :- eq(x, y), x = 1580, y = 845.
 q750(x : Z, y : Z) printsize
-q750(x, y) :- eq(x, y), x = 4651, y = 1906.
+q750(x, y) :- eq(x, y), x = 1182, y = 1092.
 q751(x : Z, y : Z) printsize
-q751(x, y) :- eq(x, y), x = 3241, y = 613.
+q751(x, y) :- eq(x, y), x = 1937, y = 2550.
 q752(x : Z, y : Z) printsize
-q752(x, y) :- eq(x, y), x = 3497, y = 533.
+q752(x, y) :- eq(x, y), x = 3529, y = 3072.
 q753(x : Z, y : Z) printsize
-q753(x, y) :- eq(x, y), x = 1208, y = 138.
+q753(x, y) :- eq(x, y), x = 1448, y = 851.
 q754(x : Z, y : Z) printsize
-q754(x, y) :- eq(x, y), x = 4660, y = 4486.
+q754(x, y) :- eq(x, y), x = 3118, y = 967.
 q755(x : Z, y : Z) printsize
-q755(x, y) :- eq(x, y), x = 1074, y = 4377.
+q755(x, y) :- eq(x, y), x = 3760, y = 3684.
 q756(x : Z, y : Z) printsize
-q756(x, y) :- eq(x, y), x = 2516, y = 2753.
+q756(x, y) :- eq(x, y), x = 1090, y = 1880.
 q757(x : Z, y : Z) printsize
-q757(x, y) :- eq(x, y), x = 5086, y = 2947.
+q757(x, y) :- eq(x, y), x = 272, y = 721.
 q758(x : Z, y : Z) printsize
-q758(x, y) :- eq(x, y), x = 3170, y = 3172.
+q758(x, y) :- eq(x, y), x = 4204, y = 2016.
 q759(x : Z, y : Z) printsize
-q759(x, y) :- eq(x, y), x = 4120, y = 533.
+q759(x, y) :- eq(x, y), x = 1028, y = 742.
 q760(x : Z, y : Z) printsize
-q760(x, y) :- eq(x, y), x = 4695, y = 4044.
+q760(x, y) :- eq(x, y), x = 63, y = 171.
 q761(x : Z, y : Z) printsize
-q761(x, y) :- eq(x, y), x = 4217, y = 2440.
+q761(x, y) :- eq(x, y), x = 2538, y = 1837.
 q762(x : Z, y : Z) printsize
-q762(x, y) :- eq(x, y), x = 3529, y = 3072.
+q762(x, y) :- eq(x, y), x = 1606, y = 1031.
 q763(x : Z, y : Z) printsize
-q763(x, y) :- eq(x, y), x = 1045, y = 2492.
+q763(x, y) :- eq(x, y), x = 844, y = 1955.
 q764(x : Z, y : Z) printsize
-q764(x, y) :- eq(x, y), x = 1697, y = 1012.
+q764(x, y) :- eq(x, y), x = 4063, y = 868.
 q765(x : Z, y : Z) printsize
-q765(x, y) :- eq(x, y), x = 3078, y = 4400.
+q765(x, y) :- eq(x, y), x = 5226, y = 4273.
 q766(x : Z, y : Z) printsize
-q766(x, y) :- eq(x, y), x = 3084, y = 629.
+q766(x, y) :- eq(x, y), x = 1815, y = 2485.
 q767(x : Z, y : Z) printsize
-q767(x, y) :- eq(x, y), x = 5068, y = 4253.
+q767(x, y) :- eq(x, y), x = 769, y = 545.
 q768(x : Z, y : Z) printsize
-q768(x, y) :- eq(x, y), x = 3562, y = 1832.
+q768(x, y) :- eq(x, y), x = 1339, y = 2677.
 q769(x : Z, y : Z) printsize
-q769(x, y) :- eq(x, y), x = 541, y = 501.
+q769(x, y) :- eq(x, y), x = 139, y = 4487.
 q770(x : Z, y : Z) printsize
-q770(x, y) :- eq(x, y), x = 506, y = 1573.
+q770(x, y) :- eq(x, y), x = 3729, y = 3608.
 q771(x : Z, y : Z) printsize
-q771(x, y) :- eq(x, y), x = 2910, y = 2338.
+q771(x, y) :- eq(x, y), x = 874, y = 1294.
 q772(x : Z, y : Z) printsize
-q772(x, y) :- eq(x, y), x = 660, y = 2690.
+q772(x, y) :- eq(x, y), x = 4998, y = 1685.
 q773(x : Z, y : Z) printsize
-q773(x, y) :- eq(x, y), x = 4297, y = 468.
+q773(x, y) :- eq(x, y), x = 1208, y = 138.
 q774(x : Z, y : Z) printsize
-q774(x, y) :- eq(x, y), x = 3168, y = 1153.
+q774(x, y) :- eq(x, y), x = 1885, y = 2327.
 q775(x : Z, y : Z) printsize
-q775(x, y) :- eq(x, y), x = 2568, y = 1128.
+q775(x, y) :- eq(x, y), x = 2450, y = 1731.
 q776(x : Z, y : Z) printsize
-q776(x, y) :- eq(x, y), x = 3314, y = 3090.
+q776(x, y) :- eq(x, y), x = 4155, y = 1425.
 q777(x : Z, y : Z) printsize
-q777(x, y) :- eq(x, y), x = 2910, y = 1522.
+q777(x, y) :- eq(x, y), x = 1622, y = 3009.
 q778(x : Z, y : Z) printsize
-q778(x, y) :- eq(x, y), x = 4677, y = 1787.
+q778(x, y) :- eq(x, y), x = 4273, y = 868.
 q779(x : Z, y : Z) printsize
-q779(x, y) :- eq(x, y), x = 2546, y = 1313.
+q779(x, y) :- eq(x, y), x = 3055, y = 2487.
 q780(x : Z, y : Z) printsize
-q780(x, y) :- eq(x, y), x = 2779, y = 256.
+q780(x, y) :- eq(x, y), x = 33, y = 1318.
 q781(x : Z, y : Z) printsize
-q781(x, y) :- eq(x, y), x = 2928, y = 1984.
+q781(x, y) :- eq(x, y), x = 1181, y = 1105.
 q782(x : Z, y : Z) printsize
-q782(x, y) :- eq(x, y), x = 4668, y = 2446.
+q782(x, y) :- eq(x, y), x = 3560, y = 4195.
 q783(x : Z, y : Z) printsize
-q783(x, y) :- eq(x, y), x = 4616, y = 3551.
+q783(x, y) :- eq(x, y), x = 4370, y = 4305.
 q784(x : Z, y : Z) printsize
-q784(x, y) :- eq(x, y), x = 228, y = 850.
+q784(x, y) :- eq(x, y), x = 3693, y = 1437.
 q785(x : Z, y : Z) printsize
-q785(x, y) :- eq(x, y), x = 1350, y = 1166.
+q785(x, y) :- eq(x, y), x = 4538, y = 2360.
 q786(x : Z, y : Z) printsize
-q786(x, y) :- eq(x, y), x = 2483, y = 1219.
+q786(x, y) :- eq(x, y), x = 4521, y = 1478.
 q787(x : Z, y : Z) printsize
-q787(x, y) :- eq(x, y), x = 1938, y = 59.
+q787(x, y) :- eq(x, y), x = 2592, y = 598.
 q788(x : Z, y : Z) printsize
-q788(x, y) :- eq(x, y), x = 4736, y = 1922.
+q788(x, y) :- eq(x, y), x = 551, y = 4571.
 q789(x : Z, y : Z) printsize
-q789(x, y) :- eq(x, y), x = 2165, y = 1227.
+q789(x, y) :- eq(x, y), x = 49, y = 143.
 q790(x : Z, y : Z) printsize
-q790(x, y) :- eq(x, y), x = 243, y = 3278.
+q790(x, y) :- eq(x, y), x = 2176, y = 539.
 q791(x : Z, y : Z) printsize
-q791(x, y) :- eq(x, y), x = 472, y = 317.
+q791(x, y) :- eq(x, y), x = 3485, y = 1642.
 q792(x : Z, y : Z) printsize
-q792(x, y) :- eq(x, y), x = 1580, y = 845.
+q792(x, y) :- eq(x, y), x = 886, y = 2241.
 q793(x : Z, y : Z) printsize
-q793(x, y) :- eq(x, y), x = 498, y = 34.
+q793(x, y) :- eq(x, y), x = 2422, y = 3277.
 q794(x : Z, y : Z) printsize
-q794(x, y) :- eq(x, y), x = 761, y = 432.
+q794(x, y) :- eq(x, y), x = 4813, y = 2184.
 q795(x : Z, y : Z) printsize
-q795(x, y) :- eq(x, y), x = 4870, y = 3462.
+q795(x, y) :- eq(x, y), x = 565, y = 2782.
 q796(x : Z, y : Z) printsize
-q796(x, y) :- eq(x, y), x = 2983, y = 109.
+q796(x, y) :- eq(x, y), x = 228, y = 850.
 q797(x : Z, y : Z) printsize
-q797(x, y) :- eq(x, y), x = 3055, y = 2487.
+q797(x, y) :- eq(x, y), x = 1043, y = 3592.
 q798(x : Z, y : Z) printsize
-q798(x, y) :- eq(x, y), x = 1208, y = 138.
+q798(x, y) :- eq(x, y), x = 2732, y = 2996.
 q799(x : Z, y : Z) printsize
 q799(x, y) :- eq(x, y), x = 3729, y = 3608.
 q800(x : Z, y : Z) printsize
-q800(x, y) :- eq(x, y), x = 2279, y = 751.
+q800(x, y) :- eq(x, y), x = 720, y = 4248.
 q801(x : Z, y : Z) printsize
-q801(x, y) :- eq(x, y), x = 1564, y = 1219.
+q801(x, y) :- eq(x, y), x = 844, y = 1955.
 q802(x : Z, y : Z) printsize
-q802(x, y) :- eq(x, y), x = 4948, y = 4149.
+q802(x, y) :- eq(x, y), x = 63, y = 171.
 q803(x : Z, y : Z) printsize
-q803(x, y) :- eq(x, y), x = 4446, y = 3458.
+q803(x, y) :- eq(x, y), x = 630, y = 1940.
 q804(x : Z, y : Z) printsize
-q804(x, y) :- eq(x, y), x = 4155, y = 1425.
+q804(x, y) :- eq(x, y), x = 3562, y = 1832.
 q805(x : Z, y : Z) printsize
-q805(x, y) :- eq(x, y), x = 353, y = 2123.
+q805(x, y) :- eq(x, y), x = 4387, y = 3548.
 q806(x : Z, y : Z) printsize
-q806(x, y) :- eq(x, y), x = 4603, y = 19.
+q806(x, y) :- eq(x, y), x = 3294, y = 4517.
 q807(x : Z, y : Z) printsize
-q807(x, y) :- eq(x, y), x = 1704, y = 1412.
+q807(x, y) :- eq(x, y), x = 3511, y = 3634.
 q808(x : Z, y : Z) printsize
-q808(x, y) :- eq(x, y), x = 4137, y = 1262.
+q808(x, y) :- eq(x, y), x = 4204, y = 2016.
 q809(x : Z, y : Z) printsize
-q809(x, y) :- eq(x, y), x = 196, y = 783.
+q809(x, y) :- eq(x, y), x = 1240, y = 1007.
 q810(x : Z, y : Z) printsize
-q810(x, y) :- eq(x, y), x = 2062, y = 845.
+q810(x, y) :- eq(x, y), x = 1744, y = 4993.
 q811(x : Z, y : Z) printsize
-q811(x, y) :- eq(x, y), x = 2826, y = 3216.
+q811(x, y) :- eq(x, y), x = 1915, y = 3675.
 q812(x : Z, y : Z) printsize
-q812(x, y) :- eq(x, y), x = 4174, y = 3620.
+q812(x, y) :- eq(x, y), x = 4510, y = 3336.
 q813(x : Z, y : Z) printsize
-q813(x, y) :- eq(x, y), x = 2421, y = 642.
+q813(x, y) :- eq(x, y), x = 4870, y = 3462.
 q814(x : Z, y : Z) printsize
-q814(x, y) :- eq(x, y), x = 3920, y = 2283.
+q814(x, y) :- eq(x, y), x = 4230, y = 3009.
 q815(x : Z, y : Z) printsize
-q815(x, y) :- eq(x, y), x = 4874, y = 1218.
+q815(x, y) :- eq(x, y), x = 844, y = 1955.
 q816(x : Z, y : Z) printsize
-q816(x, y) :- eq(x, y), x = 3776, y = 2678.
+q816(x, y) :- eq(x, y), x = 4217, y = 1155.
 q817(x : Z, y : Z) printsize
-q817(x, y) :- eq(x, y), x = 2685, y = 987.
+q817(x, y) :- eq(x, y), x = 1761, y = 868.
 q818(x : Z, y : Z) printsize
-q818(x, y) :- eq(x, y), x = 4146, y = 930.
+q818(x, y) :- eq(x, y), x = 5115, y = 1919.
 q819(x : Z, y : Z) printsize
-q819(x, y) :- eq(x, y), x = 3633, y = 680.
+q819(x, y) :- eq(x, y), x = 3067, y = 854.
 q820(x : Z, y : Z) printsize
-q820(x, y) :- eq(x, y), x = 4013, y = 662.
+q820(x, y) :- eq(x, y), x = 614, y = 3462.
 q821(x : Z, y : Z) printsize
-q821(x, y) :- eq(x, y), x = 333, y = 3684.
+q821(x, y) :- eq(x, y), x = 3378, y = 2035.
 q822(x : Z, y : Z) printsize
-q822(x, y) :- eq(x, y), x = 984, y = 1906.
+q822(x, y) :- eq(x, y), x = 3090, y = 2128.
 q823(x : Z, y : Z) printsize
-q823(x, y) :- eq(x, y), x = 3157, y = 1671.
+q823(x, y) :- eq(x, y), x = 1350, y = 1166.
 q824(x : Z, y : Z) printsize
-q824(x, y) :- eq(x, y), x = 3262, y = 3451.
+q824(x, y) :- eq(x, y), x = 5030, y = 3112.
 q825(x : Z, y : Z) printsize
-q825(x, y) :- eq(x, y), x = 413, y = 4431.
+q825(x, y) :- eq(x, y), x = 15, y = 5133.
 q826(x : Z, y : Z) printsize
-q826(x, y) :- eq(x, y), x = 1503, y = 4709.
+q826(x, y) :- eq(x, y), x = 2338, y = 460.
 q827(x : Z, y : Z) printsize
-q827(x, y) :- eq(x, y), x = 3789, y = 4227.
+q827(x, y) :- eq(x, y), x = 2172, y = 1829.
 q828(x : Z, y : Z) printsize
-q828(x, y) :- eq(x, y), x = 3194, y = 1276.
+q828(x, y) :- eq(x, y), x = 871, y = 2757.
 q829(x : Z, y : Z) printsize
-q829(x, y) :- eq(x, y), x = 1579, y = 1884.
+q829(x, y) :- eq(x, y), x = 3858, y = 1294.
 q830(x : Z, y : Z) printsize
-q830(x, y) :- eq(x, y), x = 2526, y = 776.
+q830(x, y) :- eq(x, y), x = 1065, y = 369.
 q831(x : Z, y : Z) printsize
-q831(x, y) :- eq(x, y), x = 290, y = 1166.
+q831(x, y) :- eq(x, y), x = 1065, y = 369.
 q832(x : Z, y : Z) printsize
-q832(x, y) :- eq(x, y), x = 3416, y = 3307.
+q832(x, y) :- eq(x, y), x = 2278, y = 3189.
 q833(x : Z, y : Z) printsize
-q833(x, y) :- eq(x, y), x = 2239, y = 1164.
+q833(x, y) :- eq(x, y), x = 871, y = 2757.
 q834(x : Z, y : Z) printsize
-q834(x, y) :- eq(x, y), x = 2308, y = 398.
+q834(x, y) :- eq(x, y), x = 4669, y = 4588.
 q835(x : Z, y : Z) printsize
-q835(x, y) :- eq(x, y), x = 4896, y = 1037.
+q835(x, y) :- eq(x, y), x = 2176, y = 539.
 q836(x : Z, y : Z) printsize
-q836(x, y) :- eq(x, y), x = 3545, y = 3027.
+q836(x, y) :- eq(x, y), x = 1009, y = 2989.
 q837(x : Z, y : Z) printsize
-q837(x, y) :- eq(x, y), x = 1038, y = 3515.
+q837(x, y) :- eq(x, y), x = 5041, y = 3217.
 q838(x : Z, y : Z) printsize
-q838(x, y) :- eq(x, y), x = 1208, y = 138.
+q838(x, y) :- eq(x, y), x = 1406, y = 4080.
 q839(x : Z, y : Z) printsize
-q839(x, y) :- eq(x, y), x = 3318, y = 1682.
+q839(x, y) :- eq(x, y), x = 3539, y = 4897.
 q840(x : Z, y : Z) printsize
-q840(x, y) :- eq(x, y), x = 2796, y = 3009.
+q840(x, y) :- eq(x, y), x = 4053, y = 1610.
 q841(x : Z, y : Z) printsize
-q841(x, y) :- eq(x, y), x = 3489, y = 964.
+q841(x, y) :- eq(x, y), x = 4182, y = 1727.
 q842(x : Z, y : Z) printsize
-q842(x, y) :- eq(x, y), x = 4273, y = 868.
+q842(x, y) :- eq(x, y), x = 1891, y = 3277.
 q843(x : Z, y : Z) printsize
-q843(x, y) :- eq(x, y), x = 4012, y = 366.
+q843(x, y) :- eq(x, y), x = 1313, y = 3443.
 q844(x : Z, y : Z) printsize
-q844(x, y) :- eq(x, y), x = 541, y = 501.
+q844(x, y) :- eq(x, y), x = 3480, y = 3097.
 q845(x : Z, y : Z) printsize
-q845(x, y) :- eq(x, y), x = 4071, y = 3216.
+q845(x, y) :- eq(x, y), x = 1761, y = 868.
 q846(x : Z, y : Z) printsize
-q846(x, y) :- eq(x, y), x = 4441, y = 615.
+q846(x, y) :- eq(x, y), x = 1752, y = 4957.
 q847(x : Z, y : Z) printsize
-q847(x, y) :- eq(x, y), x = 3719, y = 1053.
+q847(x, y) :- eq(x, y), x = 3920, y = 2283.
 q848(x : Z, y : Z) printsize
-q848(x, y) :- eq(x, y), x = 4651, y = 1906.
+q848(x, y) :- eq(x, y), x = 5015, y = 2526.
 q849(x : Z, y : Z) printsize
-q849(x, y) :- eq(x, y), x = 1697, y = 1012.
+q849(x, y) :- eq(x, y), x = 1204, y = 1125.
 q850(x : Z, y : Z) printsize
-q850(x, y) :- eq(x, y), x = 2649, y = 1374.
+q850(x, y) :- eq(x, y), x = 4870, y = 3462.
 q851(x : Z, y : Z) printsize
-q851(x, y) :- eq(x, y), x = 4859, y = 811.
+q851(x, y) :- eq(x, y), x = 2986, y = 1998.
 q852(x : Z, y : Z) printsize
-q852(x, y) :- eq(x, y), x = 4163, y = 4827.
+q852(x, y) :- eq(x, y), x = 2264, y = 5122.
 q853(x : Z, y : Z) printsize
-q853(x, y) :- eq(x, y), x = 1224, y = 1724.
+q853(x, y) :- eq(x, y), x = 3313, y = 4979.
 q854(x : Z, y : Z) printsize
-q854(x, y) :- eq(x, y), x = 4551, y = 2129.
+q854(x, y) :- eq(x, y), x = 871, y = 2757.
 q855(x : Z, y : Z) printsize
-q855(x, y) :- eq(x, y), x = 3322, y = 845.
+q855(x, y) :- eq(x, y), x = 34, y = 491.
 q856(x : Z, y : Z) printsize
-q856(x, y) :- eq(x, y), x = 682, y = 1184.
+q856(x, y) :- eq(x, y), x = 1730, y = 1166.
 q857(x : Z, y : Z) printsize
-q857(x, y) :- eq(x, y), x = 1855, y = 4574.
+q857(x, y) :- eq(x, y), x = 601, y = 2238.
 q858(x : Z, y : Z) printsize
-q858(x, y) :- eq(x, y), x = 97, y = 2214.
+q858(x, y) :- eq(x, y), x = 2609, y = 4428.
 q859(x : Z, y : Z) printsize
-q859(x, y) :- eq(x, y), x = 1184, y = 109.
+q859(x, y) :- eq(x, y), x = 3086, y = 978.
 q860(x : Z, y : Z) printsize
-q860(x, y) :- eq(x, y), x = 1052, y = 3097.
+q860(x, y) :- eq(x, y), x = 2928, y = 1984.
 q861(x : Z, y : Z) printsize
-q861(x, y) :- eq(x, y), x = 2106, y = 3840.
+q861(x, y) :- eq(x, y), x = 4801, y = 1515.
 q862(x : Z, y : Z) printsize
-q862(x, y) :- eq(x, y), x = 2678, y = 539.
+q862(x, y) :- eq(x, y), x = 4593, y = 3067.
 q863(x : Z, y : Z) printsize
-q863(x, y) :- eq(x, y), x = 5195, y = 4233.
+q863(x, y) :- eq(x, y), x = 3760, y = 3684.
 q864(x : Z, y : Z) printsize
-q864(x, y) :- eq(x, y), x = 265, y = 2762.
+q864(x, y) :- eq(x, y), x = 5205, y = 183.
 q865(x : Z, y : Z) printsize
-q865(x, y) :- eq(x, y), x = 3017, y = 3931.
+q865(x, y) :- eq(x, y), x = 1376, y = 539.
 q866(x : Z, y : Z) printsize
-q866(x, y) :- eq(x, y), x = 1750, y = 30.
+q866(x, y) :- eq(x, y), x = 2603, y = 4865.
 q867(x : Z, y : Z) printsize
-q867(x, y) :- eq(x, y), x = 1110, y = 1666.
+q867(x, y) :- eq(x, y), x = 674, y = 326.
 q868(x : Z, y : Z) printsize
-q868(x, y) :- eq(x, y), x = 1448, y = 4786.
+q868(x, y) :- eq(x, y), x = 129, y = 2963.
 q869(x : Z, y : Z) printsize
-q869(x, y) :- eq(x, y), x = 972, y = 143.
+q869(x, y) :- eq(x, y), x = 3934, y = 3077.
 q870(x : Z, y : Z) printsize
-q870(x, y) :- eq(x, y), x = 4680, y = 3830.
+q870(x, y) :- eq(x, y), x = 2531, y = 1166.
 q871(x : Z, y : Z) printsize
-q871(x, y) :- eq(x, y), x = 1350, y = 1166.
+q871(x, y) :- eq(x, y), x = 762, y = 841.
 q872(x : Z, y : Z) printsize
-q872(x, y) :- eq(x, y), x = 2928, y = 1984.
+q872(x, y) :- eq(x, y), x = 2989, y = 237.
 q873(x : Z, y : Z) printsize
-q873(x, y) :- eq(x, y), x = 3549, y = 5196.
+q873(x, y) :- eq(x, y), x = 2951, y = 2086.
 q874(x : Z, y : Z) printsize
-q874(x, y) :- eq(x, y), x = 5229, y = 3623.
+q874(x, y) :- eq(x, y), x = 274, y = 2566.
 q875(x : Z, y : Z) printsize
-q875(x, y) :- eq(x, y), x = 5068, y = 4253.
+q875(x, y) :- eq(x, y), x = 2556, y = 2056.
 q876(x : Z, y : Z) printsize
-q876(x, y) :- eq(x, y), x = 306, y = 3356.
+q876(x, y) :- eq(x, y), x = 1576, y = 613.
 q877(x : Z, y : Z) printsize
-q877(x, y) :- eq(x, y), x = 2775, y = 533.
+q877(x, y) :- eq(x, y), x = 1415, y = 2202.
 q878(x : Z, y : Z) printsize
-q878(x, y) :- eq(x, y), x = 2690, y = 3144.
+q878(x, y) :- eq(x, y), x = 1796, y = 4019.
 q879(x : Z, y : Z) printsize
-q879(x, y) :- eq(x, y), x = 214, y = 314.
+q879(x, y) :- eq(x, y), x = 4271, y = 1105.
 q880(x : Z, y : Z) printsize
-q880(x, y) :- eq(x, y), x = 2024, y = 1772.
+q880(x, y) :- eq(x, y), x = 3500, y = 2935.
 q881(x : Z, y : Z) printsize
-q881(x, y) :- eq(x, y), x = 2916, y = 1319.
+q881(x, y) :- eq(x, y), x = 4217, y = 2440.
 q882(x : Z, y : Z) printsize
-q882(x, y) :- eq(x, y), x = 1908, y = 883.
+q882(x, y) :- eq(x, y), x = 2880, y = 1267.
 q883(x : Z, y : Z) printsize
-q883(x, y) :- eq(x, y), x = 1266, y = 749.
+q883(x, y) :- eq(x, y), x = 2268, y = 533.
 q884(x : Z, y : Z) printsize
-q884(x, y) :- eq(x, y), x = 654, y = 868.
+q884(x, y) :- eq(x, y), x = 1956, y = 1488.
 q885(x : Z, y : Z) printsize
-q885(x, y) :- eq(x, y), x = 1987, y = 499.
+q885(x, y) :- eq(x, y), x = 874, y = 1294.
 q886(x : Z, y : Z) printsize
-q886(x, y) :- eq(x, y), x = 907, y = 143.
+q886(x, y) :- eq(x, y), x = 3324, y = 2531.
 q887(x : Z, y : Z) printsize
-q887(x, y) :- eq(x, y), x = 4624, y = 3312.
+q887(x, y) :- eq(x, y), x = 3401, y = 4716.
 q888(x : Z, y : Z) printsize
-q888(x, y) :- eq(x, y), x = 2770, y = 3097.
+q888(x, y) :- eq(x, y), x = 4406, y = 3993.
 q889(x : Z, y : Z) printsize
-q889(x, y) :- eq(x, y), x = 1571, y = 3575.
+q889(x, y) :- eq(x, y), x = 3150, y = 2514.
 q890(x : Z, y : Z) printsize
-q890(x, y) :- eq(x, y), x = 1339, y = 2677.
+q890(x, y) :- eq(x, y), x = 3745, y = 4636.
 q891(x : Z, y : Z) printsize
-q891(x, y) :- eq(x, y), x = 3213, y = 2794.
+q891(x, y) :- eq(x, y), x = 741, y = 3101.
 q892(x : Z, y : Z) printsize
-q892(x, y) :- eq(x, y), x = 2490, y = 1955.
+q892(x, y) :- eq(x, y), x = 1683, y = 951.
 q893(x : Z, y : Z) printsize
-q893(x, y) :- eq(x, y), x = 2394, y = 143.
+q893(x, y) :- eq(x, y), x = 3683, y = 1110.
 q894(x : Z, y : Z) printsize
-q894(x, y) :- eq(x, y), x = 678, y = 3602.
+q894(x, y) :- eq(x, y), x = 4227, y = 4755.
 q895(x : Z, y : Z) printsize
-q895(x, y) :- eq(x, y), x = 1388, y = 1204.
+q895(x, y) :- eq(x, y), x = 3529, y = 3072.
 q896(x : Z, y : Z) printsize
-q896(x, y) :- eq(x, y), x = 4512, y = 1712.
+q896(x, y) :- eq(x, y), x = 927, y = 1110.
 q897(x : Z, y : Z) printsize
-q897(x, y) :- eq(x, y), x = 1691, y = 3192.
+q897(x, y) :- eq(x, y), x = 2140, y = 52.
 q898(x : Z, y : Z) printsize
-q898(x, y) :- eq(x, y), x = 3703, y = 2154.
+q898(x, y) :- eq(x, y), x = 2505, y = 2734.
 q899(x : Z, y : Z) printsize
-q899(x, y) :- eq(x, y), x = 4913, y = 4018.
+q899(x, y) :- eq(x, y), x = 1530, y = 465.
 q900(x : Z, y : Z) printsize
-q900(x, y) :- eq(x, y), x = 57, y = 1721.
+q900(x, y) :- eq(x, y), x = 2134, y = 4141.
 q901(x : Z, y : Z) printsize
-q901(x, y) :- eq(x, y), x = 4263, y = 3085.
+q901(x, y) :- eq(x, y), x = 816, y = 2576.
 q902(x : Z, y : Z) printsize
-q902(x, y) :- eq(x, y), x = 863, y = 2455.
+q902(x, y) :- eq(x, y), x = 265, y = 688.
 q903(x : Z, y : Z) printsize
-q903(x, y) :- eq(x, y), x = 1601, y = 4574.
+q903(x, y) :- eq(x, y), x = 2487, y = 3736.
 q904(x : Z, y : Z) printsize
-q904(x, y) :- eq(x, y), x = 2700, y = 2424.
+q904(x, y) :- eq(x, y), x = 3954, y = 3931.
 q905(x : Z, y : Z) printsize
-q905(x, y) :- eq(x, y), x = 721, y = 671.
+q905(x, y) :- eq(x, y), x = 4379, y = 247.
 q906(x : Z, y : Z) printsize
-q906(x, y) :- eq(x, y), x = 2675, y = 1294.
+q906(x, y) :- eq(x, y), x = 3106, y = 3684.
 q907(x : Z, y : Z) printsize
-q907(x, y) :- eq(x, y), x = 3161, y = 1227.
+q907(x, y) :- eq(x, y), x = 2876, y = 4280.
 q908(x : Z, y : Z) printsize
-q908(x, y) :- eq(x, y), x = 1395, y = 751.
+q908(x, y) :- eq(x, y), x = 3699, y = 4329.
 q909(x : Z, y : Z) printsize
-q909(x, y) :- eq(x, y), x = 2378, y = 1213.
+q909(x, y) :- eq(x, y), x = 4435, y = 3043.
 q910(x : Z, y : Z) printsize
-q910(x, y) :- eq(x, y), x = 3555, y = 1057.
+q910(x, y) :- eq(x, y), x = 1652, y = 1010.
 q911(x : Z, y : Z) printsize
-q911(x, y) :- eq(x, y), x = 3084, y = 629.
+q911(x, y) :- eq(x, y), x = 4849, y = 4155.
 q912(x : Z, y : Z) printsize
-q912(x, y) :- eq(x, y), x = 3764, y = 1105.
+q912(x, y) :- eq(x, y), x = 972, y = 143.
 q913(x : Z, y : Z) printsize
-q913(x, y) :- eq(x, y), x = 50, y = 82.
+q913(x, y) :- eq(x, y), x = 3837, y = 3476.
 q914(x : Z, y : Z) printsize
-q914(x, y) :- eq(x, y), x = 351, y = 1906.
+q914(x, y) :- eq(x, y), x = 2477, y = 2667.
 q915(x : Z, y : Z) printsize
-q915(x, y) :- eq(x, y), x = 3055, y = 2487.
+q915(x, y) :- eq(x, y), x = 275, y = 1987.
 q916(x : Z, y : Z) printsize
-q916(x, y) :- eq(x, y), x = 4111, y = 421.
+q916(x, y) :- eq(x, y), x = 1902, y = 476.
 q917(x : Z, y : Z) printsize
-q917(x, y) :- eq(x, y), x = 1160, y = 5032.
+q917(x, y) :- eq(x, y), x = 3822, y = 1094.
 q918(x : Z, y : Z) printsize
-q918(x, y) :- eq(x, y), x = 1321, y = 1725.
+q918(x, y) :- eq(x, y), x = 2601, y = 1387.
 q919(x : Z, y : Z) printsize
-q919(x, y) :- eq(x, y), x = 2490, y = 1955.
+q919(x, y) :- eq(x, y), x = 4370, y = 3249.
 q920(x : Z, y : Z) printsize
-q920(x, y) :- eq(x, y), x = 1746, y = 3959.
+q920(x, y) :- eq(x, y), x = 5015, y = 2526.
 q921(x : Z, y : Z) printsize
-q921(x, y) :- eq(x, y), x = 984, y = 1906.
+q921(x, y) :- eq(x, y), x = 1028, y = 742.
 q922(x : Z, y : Z) printsize
-q922(x, y) :- eq(x, y), x = 3791, y = 3602.
+q922(x, y) :- eq(x, y), x = 854, y = 3671.
 q923(x : Z, y : Z) printsize
-q923(x, y) :- eq(x, y), x = 4120, y = 2620.
+q923(x, y) :- eq(x, y), x = 3628, y = 3189.
 q924(x : Z, y : Z) printsize
-q924(x, y) :- eq(x, y), x = 2675, y = 1294.
+q924(x, y) :- eq(x, y), x = 1241, y = 2461.
 q925(x : Z, y : Z) printsize
-q925(x, y) :- eq(x, y), x = 2150, y = 1389.
+q925(x, y) :- eq(x, y), x = 2162, y = 2370.
 q926(x : Z, y : Z) printsize
-q926(x, y) :- eq(x, y), x = 3318, y = 1682.
+q926(x, y) :- eq(x, y), x = 4603, y = 19.
 q927(x : Z, y : Z) printsize
-q927(x, y) :- eq(x, y), x = 5019, y = 3800.
+q927(x, y) :- eq(x, y), x = 326, y = 845.
 q928(x : Z, y : Z) printsize
-q928(x, y) :- eq(x, y), x = 1376, y = 539.
+q928(x, y) :- eq(x, y), x = 3497, y = 533.
 q929(x : Z, y : Z) printsize
-q929(x, y) :- eq(x, y), x = 3834, y = 3646.
+q929(x, y) :- eq(x, y), x = 4563, y = 751.
 q930(x : Z, y : Z) printsize
-q930(x, y) :- eq(x, y), x = 3423, y = 2733.
+q930(x, y) :- eq(x, y), x = 3220, y = 3162.
 q931(x : Z, y : Z) printsize
-q931(x, y) :- eq(x, y), x = 4086, y = 1943.
+q931(x, y) :- eq(x, y), x = 2161, y = 1816.
 q932(x : Z, y : Z) printsize
-q932(x, y) :- eq(x, y), x = 941, y = 2200.
+q932(x, y) :- eq(x, y), x = 3222, y = 255.
 q933(x : Z, y : Z) printsize
-q933(x, y) :- eq(x, y), x = 3369, y = 1150.
+q933(x, y) :- eq(x, y), x = 4991, y = 4461.
 q934(x : Z, y : Z) printsize
-q934(x, y) :- eq(x, y), x = 2260, y = 3627.
+q934(x, y) :- eq(x, y), x = 787, y = 4743.
 q935(x : Z, y : Z) printsize
-q935(x, y) :- eq(x, y), x = 1978, y = 3957.
+q935(x, y) :- eq(x, y), x = 3934, y = 3077.
 q936(x : Z, y : Z) printsize
-q936(x, y) :- eq(x, y), x = 1510, y = 531.
+q936(x, y) :- eq(x, y), x = 5014, y = 3175.
 q937(x : Z, y : Z) printsize
-q937(x, y) :- eq(x, y), x = 2593, y = 22.
+q937(x, y) :- eq(x, y), x = 351, y = 1906.
 q938(x : Z, y : Z) printsize
-q938(x, y) :- eq(x, y), x = 4870, y = 3462.
+q938(x, y) :- eq(x, y), x = 3567, y = 560.
 q939(x : Z, y : Z) printsize
-q939(x, y) :- eq(x, y), x = 3811, y = 3577.
+q939(x, y) :- eq(x, y), x = 3562, y = 1832.
 q940(x : Z, y : Z) printsize
-q940(x, y) :- eq(x, y), x = 5073, y = 2898.
+q940(x, y) :- eq(x, y), x = 1967, y = 1732.
 q941(x : Z, y : Z) printsize
-q941(x, y) :- eq(x, y), x = 4371, y = 1997.
+q941(x, y) :- eq(x, y), x = 4729, y = 4266.
 q942(x : Z, y : Z) printsize
-q942(x, y) :- eq(x, y), x = 3822, y = 1094.
+q942(x, y) :- eq(x, y), x = 5125, y = 716.
 q943(x : Z, y : Z) printsize
-q943(x, y) :- eq(x, y), x = 2483, y = 1219.
+q943(x, y) :- eq(x, y), x = 3345, y = 1392.
 q944(x : Z, y : Z) printsize
-q944(x, y) :- eq(x, y), x = 4793, y = 4746.
+q944(x, y) :- eq(x, y), x = 4551, y = 2129.
 q945(x : Z, y : Z) printsize
-q945(x, y) :- eq(x, y), x = 5105, y = 3005.
+q945(x, y) :- eq(x, y), x = 3346, y = 1491.
 q946(x : Z, y : Z) printsize
-q946(x, y) :- eq(x, y), x = 676, y = 4620.
+q946(x, y) :- eq(x, y), x = 2965, y = 1687.
 q947(x : Z, y : Z) printsize
-q947(x, y) :- eq(x, y), x = 3077, y = 4918.
+q947(x, y) :- eq(x, y), x = 5209, y = 3431.
 q948(x : Z, y : Z) printsize
-q948(x, y) :- eq(x, y), x = 490, y = 5027.
+q948(x, y) :- eq(x, y), x = 73, y = 453.
 q949(x : Z, y : Z) printsize
-q949(x, y) :- eq(x, y), x = 2380, y = 2016.
+q949(x, y) :- eq(x, y), x = 2352, y = 2534.
 q950(x : Z, y : Z) printsize
-q950(x, y) :- eq(x, y), x = 49, y = 143.
+q950(x, y) :- eq(x, y), x = 1795, y = 3769.
 q951(x : Z, y : Z) printsize
-q951(x, y) :- eq(x, y), x = 2563, y = 5095.
+q951(x, y) :- eq(x, y), x = 2839, y = 973.
 q952(x : Z, y : Z) printsize
-q952(x, y) :- eq(x, y), x = 261, y = 2912.
+q952(x, y) :- eq(x, y), x = 49, y = 503.
 q953(x : Z, y : Z) printsize
-q953(x, y) :- eq(x, y), x = 1880, y = 4428.
+q953(x, y) :- eq(x, y), x = 3237, y = 4886.
 q954(x : Z, y : Z) printsize
-q954(x, y) :- eq(x, y), x = 3526, y = 3753.
+q954(x, y) :- eq(x, y), x = 2789, y = 3270.
 q955(x : Z, y : Z) printsize
-q955(x, y) :- eq(x, y), x = 2874, y = 4076.
+q955(x, y) :- eq(x, y), x = 1683, y = 951.
 q956(x : Z, y : Z) printsize
-q956(x, y) :- eq(x, y), x = 4083, y = 3477.
+q956(x, y) :- eq(x, y), x = 2826, y = 3216.
 q957(x : Z, y : Z) printsize
-q957(x, y) :- eq(x, y), x = 1178, y = 3840.
+q957(x, y) :- eq(x, y), x = 4198, y = 3445.
 q958(x : Z, y : Z) printsize
-q958(x, y) :- eq(x, y), x = 3787, y = 2874.
+q958(x, y) :- eq(x, y), x = 3084, y = 629.
 q959(x : Z, y : Z) printsize
-q959(x, y) :- eq(x, y), x = 4032, y = 162.
+q959(x, y) :- eq(x, y), x = 1115, y = 4251.
 q960(x : Z, y : Z) printsize
-q960(x, y) :- eq(x, y), x = 5085, y = 3928.
+q960(x, y) :- eq(x, y), x = 2900, y = 2167.
 q961(x : Z, y : Z) printsize
-q961(x, y) :- eq(x, y), x = 463, y = 3739.
+q961(x, y) :- eq(x, y), x = 3285, y = 1437.
 q962(x : Z, y : Z) printsize
-q962(x, y) :- eq(x, y), x = 5144, y = 511.
+q962(x, y) :- eq(x, y), x = 1184, y = 4505.
 q963(x : Z, y : Z) printsize
-q963(x, y) :- eq(x, y), x = 1406, y = 4080.
+q963(x, y) :- eq(x, y), x = 4922, y = 1012.
 q964(x : Z, y : Z) printsize
-q964(x, y) :- eq(x, y), x = 4301, y = 2983.
+q964(x, y) :- eq(x, y), x = 1743, y = 3216.
 q965(x : Z, y : Z) printsize
-q965(x, y) :- eq(x, y), x = 3699, y = 4329.
+q965(x, y) :- eq(x, y), x = 1943, y = 1653.
 q966(x : Z, y : Z) printsize
-q966(x, y) :- eq(x, y), x = 2198, y = 3813.
+q966(x, y) :- eq(x, y), x = 1697, y = 1012.
 q967(x : Z, y : Z) printsize
-q967(x, y) :- eq(x, y), x = 4736, y = 1659.
+q967(x, y) :- eq(x, y), x = 1309, y = 4363.
 q968(x : Z, y : Z) printsize
-q968(x, y) :- eq(x, y), x = 3001, y = 2181.
+q968(x, y) :- eq(x, y), x = 4370, y = 4305.
 q969(x : Z, y : Z) printsize
-q969(x, y) :- eq(x, y), x = 4323, y = 3796.
+q969(x, y) :- eq(x, y), x = 3269, y = 3670.
 q970(x : Z, y : Z) printsize
-q970(x, y) :- eq(x, y), x = 4570, y = 751.
+q970(x, y) :- eq(x, y), x = 5235, y = 4377.
 q971(x : Z, y : Z) printsize
-q971(x, y) :- eq(x, y), x = 4051, y = 2614.
+q971(x, y) :- eq(x, y), x = 5178, y = 232.
 q972(x : Z, y : Z) printsize
-q972(x, y) :- eq(x, y), x = 4196, y = 4920.
+q972(x, y) :- eq(x, y), x = 1603, y = 4651.
 q973(x : Z, y : Z) printsize
-q973(x, y) :- eq(x, y), x = 1669, y = 349.
+q973(x, y) :- eq(x, y), x = 1576, y = 613.
 q974(x : Z, y : Z) printsize
-q974(x, y) :- eq(x, y), x = 2986, y = 1998.
+q974(x, y) :- eq(x, y), x = 2369, y = 3157.
 q975(x : Z, y : Z) printsize
-q975(x, y) :- eq(x, y), x = 2340, y = 335.
+q975(x, y) :- eq(x, y), x = 1657, y = 3334.
 q976(x : Z, y : Z) printsize
-q976(x, y) :- eq(x, y), x = 2380, y = 2016.
+q976(x, y) :- eq(x, y), x = 2808, y = 716.
 q977(x : Z, y : Z) printsize
-q977(x, y) :- eq(x, y), x = 1331, y = 662.
+q977(x, y) :- eq(x, y), x = 2527, y = 2202.
 q978(x : Z, y : Z) printsize
-q978(x, y) :- eq(x, y), x = 2596, y = 2523.
+q978(x, y) :- eq(x, y), x = 3974, y = 4380.
 q979(x : Z, y : Z) printsize
-q979(x, y) :- eq(x, y), x = 272, y = 4401.
+q979(x, y) :- eq(x, y), x = 548, y = 149.
 q980(x : Z, y : Z) printsize
-q980(x, y) :- eq(x, y), x = 3764, y = 1105.
+q980(x, y) :- eq(x, y), x = 179, y = 3994.
 q981(x : Z, y : Z) printsize
-q981(x, y) :- eq(x, y), x = 1795, y = 2270.
+q981(x, y) :- eq(x, y), x = 4161, y = 3443.
 q982(x : Z, y : Z) printsize
-q982(x, y) :- eq(x, y), x = 2895, y = 143.
+q982(x, y) :- eq(x, y), x = 4555, y = 2904.
 q983(x : Z, y : Z) printsize
-q983(x, y) :- eq(x, y), x = 818, y = 1619.
+q983(x, y) :- eq(x, y), x = 2020, y = 1315.
 q984(x : Z, y : Z) printsize
-q984(x, y) :- eq(x, y), x = 4736, y = 1922.
+q984(x, y) :- eq(x, y), x = 253, y = 936.
 q985(x : Z, y : Z) printsize
-q985(x, y) :- eq(x, y), x = 3192, y = 1088.
+q985(x, y) :- eq(x, y), x = 678, y = 563.
 q986(x : Z, y : Z) printsize
-q986(x, y) :- eq(x, y), x = 4344, y = 2409.
+q986(x, y) :- eq(x, y), x = 5125, y = 716.
 q987(x : Z, y : Z) printsize
-q987(x, y) :- eq(x, y), x = 1084, y = 2115.
+q987(x, y) :- eq(x, y), x = 119, y = 717.
 q988(x : Z, y : Z) printsize
-q988(x, y) :- eq(x, y), x = 4013, y = 662.
+q988(x, y) :- eq(x, y), x = 1183, y = 4255.
 q989(x : Z, y : Z) printsize
-q989(x, y) :- eq(x, y), x = 3024, y = 4652.
+q989(x, y) :- eq(x, y), x = 4346, y = 483.
 q990(x : Z, y : Z) printsize
 q990(x, y) :- eq(x, y), x = 3345, y = 1392.
 q991(x : Z, y : Z) printsize
-q991(x, y) :- eq(x, y), x = 2477, y = 2667.
+q991(x, y) :- eq(x, y), x = 5015, y = 2526.
 q992(x : Z, y : Z) printsize
-q992(x, y) :- eq(x, y), x = 2165, y = 1227.
+q992(x, y) :- eq(x, y), x = 541, y = 501.
 q993(x : Z, y : Z) printsize
-q993(x, y) :- eq(x, y), x = 2477, y = 2667.
+q993(x, y) :- eq(x, y), x = 471, y = 3864.
 q994(x : Z, y : Z) printsize
-q994(x, y) :- eq(x, y), x = 1399, y = 2753.
+q994(x, y) :- eq(x, y), x = 2417, y = 1971.
 q995(x : Z, y : Z) printsize
-q995(x, y) :- eq(x, y), x = 1750, y = 30.
+q995(x, y) :- eq(x, y), x = 5135, y = 2666.
 q996(x : Z, y : Z) printsize
-q996(x, y) :- eq(x, y), x = 687, y = 4503.
+q996(x, y) :- eq(x, y), x = 3688, y = 1251.
 q997(x : Z, y : Z) printsize
-q997(x, y) :- eq(x, y), x = 1943, y = 3551.
+q997(x, y) :- eq(x, y), x = 1224, y = 1724.
 q998(x : Z, y : Z) printsize
-q998(x, y) :- eq(x, y), x = 1919, y = 1561.
+q998(x, y) :- eq(x, y), x = 1316, y = 4782.
 q999(x : Z, y : Z) printsize
-q999(x, y) :- eq(x, y), x = 1983, y = 1227.
+q999(x, y) :- eq(x, y), x = 1298, y = 2695.
