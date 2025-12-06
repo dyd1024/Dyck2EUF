@@ -92,15 +92,3 @@ cd /Dyck2EUF/benchmark/
 python3 run_datalog_seq.py
 ```
 The results of the runs are located in the folder **/benchmark/datalog_result**. The runtime statistics can be found in **result.txt**, which contains the averages from three runs.
-
-# Experimental Results on Equivalence-Class Merging Efficiency
-We compared the efficiency of different tools in performing pure equivalence-class merging operations (without congruence closure). Specifically, for 50,000 variables, we randomly generated 5,000, 10,000, ..., 25,000 equations between variables with no function relationships (edges labeled with ϵ). The table below presents the average results of three experiments, with all time measurements reported in milliseconds (ms).
-
-| Formula length | FastDyck(C++) | Optimal(C++) | z3(C++) | cvc5(C++)   | Yices(C) | plat-smt(Rust) | Egg-R(Rust) | unionfind(C++) |
-|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-| 5000     | 10.15   | 3.56   | 12.76  | 52.25   | 3.11  | 6.64   | 3.27   | 2.31 |
-| 10000    | 17.01   | 11.77  | 26.86  | 149.98  | 3.03  | 13.77  | 7.3    | 3.28 |
-| 15000    | 31.28   | 17.16  | 40.14  | 214.45  | 4.2   | 55.45  | 10.01  | 4.9  |
-| 20000    | 37.56   | 19.64  | 59.44  | 304.51  | 5.7   | 64.47  | 12.4   | 5.97 |
-| 25000    | 54.43   | 25.58  | 99.74  | 393.8   | 8.13  | 64.18  | 19.7   | 6.88 |
-| **Total time** | **150.43** | **77.71** | **238.94** | **1115.04** | **24.17** | **204.51** | **52.68** | **23.34** |
