@@ -1,0 +1,20 @@
+"start" : 1764877332625500
+"f_parser_time:" : 1764877332631190
+sat
+"f_solved_time:" : 1764877332631197
+"start" : 1764877332635327
+"f_parser_time:" : 1764877332647274
+sat
+"f_solved_time:" : 1764877332647290
+"start" : 1764877332653068
+"f_parser_time:" : 1764877332669002
+sat
+"f_solved_time:" : 1764877332669013
+"start" : 1764877332687438
+"f_parser_time:" : 1764877332707749
+sat
+"f_solved_time:" : 1764877332707764
+"start" : 1764877332721672
+"f_parser_time:" : 1764877332748890
+sat
+"f_solved_time:" : 1764877332748904

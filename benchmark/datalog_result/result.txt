@@ -1,0 +1,92 @@
+bddbddb alias analysis time:
+30.6644
+25.1281
+98.1827
+22.7278
+74.4834
+22.6154
+29.1005
+21.0104
+22.2825
+23.3523
+19.7575
+bddbddb alias analysis query time:
+106.0526
+113.752
+OOM
+96.0996
+OOM
+89.8506
+127.2796
+89.5314
+104.1145
+111.3689
+94.7825
+souffle alias analysis time:
+27.7385
+32.8638
+127.4839
+27.7211
+98.4838
+23.2374
+35.9815
+25.4745
+26.3132
+29.043
+23.0851
+souffle alias analysis query time:
+311.9881
+330.3407
+TimeOut
+308.0071
+TimeOut
+295.5813
+339.6254
+304.3798
+305.2933
+318.3917
+294.9493
+bddbddb alias_C analysis time:
+TimeOut
+370.0169
+TimeOut
+TimeOut
+450.0448
+TimeOut
+TimeOut
+TimeOut
+150.6147
+TimeOut
+bddbddb alias_C analysis query time:
+TimeOut
+OOM
+OOM
+TimeOut
+OOM
+TimeOut
+OOM
+TimeOut
+OOM
+OOM
+souffle alias_C analysis time:
+TimeOut
+296.9899
+TimeOut
+TimeOut
+74.4554
+TimeOut
+445.851
+TimeOut
+133.0178
+TimeOut
+souffle alias_C analysis query time:
+TimeOut
+TimeOut
+TimeOut
+TimeOut
+TimeOut
+TimeOut
+TimeOut
+TimeOut
+TimeOut
+TimeOut
