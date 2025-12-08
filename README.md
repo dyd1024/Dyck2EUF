@@ -1,5 +1,5 @@
 # Dyck2EUF
-This is the artifact for the submission titled **SMT-based Solving of Dyck-Reachability with Applications to Static Analysis**.
+This is the artifact for the submission titled **EUF-based Solving Dyck-Reachability with Applications to Static Analysis**.
 
 # Prerequisites
 + Unix / Linux OS: We have validated the artifact on Ubuntu 22.04 system
