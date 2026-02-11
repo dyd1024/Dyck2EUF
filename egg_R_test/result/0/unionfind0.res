@@ -1,0 +1,15 @@
+f_parser_time: 0.00136 s
+f_solved_time: 0.00264 s
+query_time: 0.00000 s
+f_parser_time: 0.00327 s
+f_solved_time: 0.00551 s
+query_time: 0.00000 s
+f_parser_time: 0.00497 s
+f_solved_time: 0.00693 s
+query_time: 0.00000 s
+f_parser_time: 0.00579 s
+f_solved_time: 0.00764 s
+query_time: 0.00000 s
+f_parser_time: 0.00671 s
+f_solved_time: 0.01293 s
+query_time: 0.00000 s
