@@ -41,7 +41,7 @@ Dyck2EUF/
 # Running the artifact
 We assume that the following commands are run in sudo mode.
 
-**Tool Functionality Verification.** Before conducting experiments, run the following script to check if all tools function properly in the current environment.
+**Smoke Test.** Before conducting experiments, run the following script to check if all tools function properly in the current environment. (This step can be completed in around 1 second.)
 
 ```sh
 cd /Dyck2EUF/

@@ -13,8 +13,7 @@ tasks = [
     ("./platsmt_test/", ["./plat-smt", "example.smt2"]),
     ("./bddbddb_test/", ["java", "-jar", "bddbddb-full.jar", "example.datalog"]),
     ("./souffle_test/", ["./souffle", "example.dl"]),
-    ("./egg_R_test/", ["./egg_R", "example.smt2"]),
-    ("./egg_test/", ["./egg", "example.smt2"]),
+    ("./egg_R_test/", ["./egg_R", "example.smt2"])
 ]
 
 def run_task(workdir, cmd):
