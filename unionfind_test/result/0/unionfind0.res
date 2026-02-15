@@ -1,15 +1,15 @@
-Time of parser:0.00204463 s
-Time of Reach Solve:0.00173027 s
-Time of total :0.003775 s
-Time of parser:0.00415299 s
-Time of Reach Solve:0.003164 s
-Time of total :0.0073171 s
-Time of parser:0.00661277 s
-Time of Reach Solve:0.00519043 s
-Time of total :0.0118033 s
-Time of parser:0.00884352 s
-Time of Reach Solve:0.00630115 s
-Time of total :0.0151448 s
-Time of parser:0.0101152 s
-Time of Reach Solve:0.00662943 s
-Time of total :0.0167447 s
+Time of parser:0.00250604 s
+Time of Reach Solve:0.0012588 s
+Time of total :0.00376501 s
+Time of parser:0.00421929 s
+Time of Reach Solve:0.00301204 s
+Time of total :0.00723146 s
+Time of parser:0.00560424 s
+Time of Reach Solve:0.00282568 s
+Time of total :0.00843002 s
+Time of parser:0.00677663 s
+Time of Reach Solve:0.00347399 s
+Time of total :0.0102508 s
+Time of parser:0.00901933 s
+Time of Reach Solve:0.00659147 s
+Time of total :0.0156109 s

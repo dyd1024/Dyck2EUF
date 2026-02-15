@@ -1,99 +1,110 @@
-Time of parser: 0.029251
-Time of Reach Solve: 0.010415
-Time of total: 0.037963
+Time of parser: 0.023883
+Time of Reach Solve: 0.008772
+Time of total: 0.031157
 Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
-Reachability
-not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
+not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
 Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
@@ -103,8 +114,14 @@ Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
@@ -116,107 +133,124 @@ not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
+not Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
+not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
 Reachability
+Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
-not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
@@ -228,32 +262,39 @@ not Reachability
 not Reachability
 Reachability
 Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
+not Reachability
 not Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
+Reachability
+not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
@@ -263,20 +304,27 @@ not Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
@@ -286,56 +334,66 @@ not Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
+not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
@@ -343,41 +401,45 @@ Reachability
 not Reachability
 not Reachability
 not Reachability
-not Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
+not Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
 Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
@@ -386,30 +448,33 @@ not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
 Reachability
 Reachability
+Reachability
 not Reachability
+Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
@@ -419,45 +484,53 @@ Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
@@ -466,7 +539,9 @@ not Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
@@ -474,66 +549,73 @@ not Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
-Reachability
+not Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
+not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
@@ -541,14 +623,16 @@ Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
+Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
@@ -556,11 +640,14 @@ not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
+not Reachability
 not Reachability
 Reachability
+Reachability
+not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
@@ -569,52 +656,64 @@ not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
-Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
+Reachability
+not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
@@ -625,28 +724,19 @@ Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
@@ -654,33 +744,48 @@ not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
@@ -689,8 +794,10 @@ not Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 Reachability
 not Reachability
 Reachability
@@ -705,89 +812,63 @@ not Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
-not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
+not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
-Reachability
 Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
@@ -796,43 +877,39 @@ Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
+Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
+not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
@@ -841,33 +918,36 @@ not Reachability
 Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
-not Reachability
 Reachability
-not Reachability
 not Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
@@ -876,34 +956,39 @@ not Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
+Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 Reachability
@@ -914,108 +999,122 @@ not Reachability
 not Reachability
 Reachability
 not Reachability
+not Reachability
+Reachability
+query time :0.000631
+Time of parser: 0.027489
+Time of Reach Solve: 0.009739
+Time of total: 0.035713
 Reachability
+not Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
-Reachability
+not Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-not Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
 Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
-query time :0.000653
-Time of parser: 0.036005
-Time of Reach Solve: 0.011052
-Time of total: 0.045228
 not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
@@ -1024,64 +1123,70 @@ Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
 Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
+Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
@@ -1090,15 +1195,20 @@ Reachability
 not Reachability
 Reachability
 not Reachability
+not Reachability
+Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
@@ -1107,44 +1217,63 @@ Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 Reachability
+not Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
+not Reachability
+Reachability
 Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
@@ -1152,14 +1281,12 @@ Reachability
 not Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
-not Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
 not Reachability
@@ -1170,37 +1297,39 @@ not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
+Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
@@ -1213,13 +1342,10 @@ not Reachability
 not Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
@@ -1230,19 +1356,18 @@ not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
-Reachability
-Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
 Reachability
 Reachability
 not Reachability
@@ -1250,22 +1375,25 @@ not Reachability
 Reachability
 not Reachability
 Reachability
-Reachability
+not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
@@ -1274,68 +1402,70 @@ Reachability
 Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
-Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
+not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
 Reachability
 Reachability
 not Reachability
@@ -1344,20 +1474,24 @@ not Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
+Reachability
 Reachability
+Reachability
+not Reachability
 not Reachability
 not Reachability
 Reachability
@@ -1366,39 +1500,54 @@ not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
@@ -1411,28 +1560,23 @@ Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
@@ -1440,16 +1584,14 @@ not Reachability
 not Reachability
 not Reachability
 not Reachability
-not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
@@ -1463,27 +1605,23 @@ Reachability
 Reachability
 Reachability
 Reachability
-Reachability
-not Reachability
 not Reachability
-not Reachability
+Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
 not Reachability
-not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
@@ -1492,24 +1630,24 @@ not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 not Reachability
 Reachability
 not Reachability
-not Reachability
-not Reachability
-not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
@@ -1517,40 +1655,48 @@ not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
 not Reachability
 not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 Reachability
 not Reachability
 not Reachability
@@ -1566,87 +1712,77 @@ Reachability
 Reachability
 not Reachability
 Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
-Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
+not Reachability
 not Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
@@ -1654,41 +1790,42 @@ Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
+Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
+Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
-not Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
@@ -1696,65 +1833,51 @@ Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
-Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
@@ -1762,42 +1885,41 @@ Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
+Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
+Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
+Reachability
+Reachability
 Reachability
 not Reachability
 Reachability
@@ -1805,15 +1927,21 @@ Reachability
 not Reachability
 Reachability
 Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
+Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
@@ -1823,56 +1951,50 @@ Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
 not Reachability
 not Reachability
 not Reachability
-not Reachability
-not Reachability
-not Reachability
+Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
@@ -1881,23 +2003,24 @@ not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
+query time :0.000663
+Time of parser: 0.067944
+Time of Reach Solve: 0.025463
+Time of total: 0.088866
 Reachability
-not Reachability
 not Reachability
 not Reachability
-not Reachability
-Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
@@ -1910,56 +2033,42 @@ not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
-Reachability
 Reachability
 Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
-Reachability
 Reachability
 Reachability
 Reachability
@@ -1970,56 +2079,62 @@ Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
-not Reachability
+Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
-query time :0.000707
-Time of parser: 0.093513
-Time of Reach Solve: 0.024993
-Time of total: 0.114517
 not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
-Reachability
-Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
@@ -2028,9 +2143,6 @@ not Reachability
 not Reachability
 not Reachability
 not Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
@@ -2038,72 +2150,77 @@ Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
+Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
@@ -2112,34 +2229,36 @@ not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
@@ -2147,11 +2266,9 @@ Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
@@ -2161,7 +2278,8 @@ not Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
@@ -2171,34 +2289,31 @@ Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
+Reachability
 Reachability
 Reachability
 Reachability
@@ -2207,9 +2322,13 @@ not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
+Reachability
 Reachability
 Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
@@ -2217,11 +2336,10 @@ not Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
@@ -2231,64 +2349,71 @@ not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
+not Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
-not Reachability
+Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
+not Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
@@ -2300,28 +2425,28 @@ Reachability
 Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 Reachability
-Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
@@ -2330,28 +2455,26 @@ Reachability
 Reachability
 Reachability
 Reachability
-Reachability
-not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
-Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
@@ -2362,109 +2485,105 @@ Reachability
 not Reachability
 Reachability
 Reachability
-Reachability
-Reachability
 not Reachability
 Reachability
-Reachability
-not Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
+not Reachability
+not Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
@@ -2472,36 +2591,48 @@ not Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
+Reachability
+not Reachability
 not Reachability
 Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
+not Reachability
 not Reachability
 not Reachability
 Reachability
@@ -2510,44 +2641,42 @@ Reachability
 not Reachability
 Reachability
 Reachability
+Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
-Reachability
-Reachability
 not Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
@@ -2555,25 +2684,17 @@ not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
 not Reachability
@@ -2582,56 +2703,50 @@ Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
-not Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
@@ -2639,59 +2754,49 @@ not Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
-Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
 Reachability
 Reachability
-Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
@@ -2700,27 +2805,28 @@ not Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
+Reachability
 Reachability
+Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
@@ -2729,26 +2835,26 @@ not Reachability
 Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
@@ -2756,96 +2862,81 @@ Reachability
 not Reachability
 not Reachability
 not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
-Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
@@ -2854,63 +2945,53 @@ Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
+Reachability
+not Reachability
 not Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
@@ -2924,31 +3005,48 @@ Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
+Reachability
+Reachability
+Reachability
+query time :0.000974
+Time of parser: 0.025350
+Time of Reach Solve: 0.008093
+Time of total: 0.031782
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
+Reachability
+Reachability
+Reachability
 Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
+Reachability
 Reachability
 Reachability
 not Reachability
@@ -2957,18 +3055,21 @@ Reachability
 Reachability
 not Reachability
 not Reachability
+not Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
@@ -2976,7 +3077,6 @@ not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
 not Reachability
@@ -2986,40 +3086,42 @@ not Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
-query time :0.000816
-Time of parser: 0.033982
-Time of Reach Solve: 0.010423
-Time of total: 0.042279
+not Reachability
+Reachability
 Reachability
 Reachability
 Reachability
 Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
@@ -3028,152 +3130,173 @@ Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
+not Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
+not Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
+Reachability
 Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
+not Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
+not Reachability
+Reachability
 Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 Reachability
 Reachability
+Reachability
+not Reachability
 not Reachability
 Reachability
 not Reachability
+not Reachability
+Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
+Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
+Reachability
 Reachability
 Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
+Reachability
+not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
-not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
 Reachability
-not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-not Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
@@ -3189,62 +3312,59 @@ Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
-Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
 not Reachability
@@ -3252,17 +3372,19 @@ not Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
+not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
@@ -3270,43 +3392,61 @@ not Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
-Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 Reachability
+Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
@@ -3319,60 +3459,60 @@ Reachability
 not Reachability
 not Reachability
 not Reachability
-not Reachability
-not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
 Reachability
-Reachability
-not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
+Reachability
+not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
@@ -3380,52 +3520,51 @@ not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
 Reachability
-Reachability
+not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
 Reachability
 Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
+not Reachability
 not Reachability
+not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
@@ -3434,39 +3573,32 @@ not Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
@@ -3474,66 +3606,44 @@ Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
-not Reachability
-Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-not Reachability
-Reachability
 not Reachability
-Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
 Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
@@ -3542,89 +3652,89 @@ not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
-Reachability
-not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
+Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-Reachability
+not Reachability
 not Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
@@ -3632,76 +3742,51 @@ not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
-not Reachability
+Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
@@ -3710,31 +3795,34 @@ Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
+Reachability
 Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
 Reachability
+Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
@@ -3744,29 +3832,31 @@ Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
@@ -3775,13 +3865,9 @@ Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
-not Reachability
 Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
@@ -3789,66 +3875,53 @@ not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
-Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
-Reachability
 Reachability
-Reachability
-not Reachability
 not Reachability
-not Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
-not Reachability
-Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
@@ -3856,50 +3929,45 @@ not Reachability
 Reachability
 not Reachability
 Reachability
-Reachability
-not Reachability
 not Reachability
-not Reachability
-Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
@@ -3917,63 +3985,56 @@ not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
-not Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
+not Reachability
 Reachability
+query time :0.000687
+Time of parser: 0.052619
+Time of Reach Solve: 0.021100
+Time of total: 0.070623
 not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
@@ -3981,13 +4042,13 @@ Reachability
 not Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
+not Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
@@ -3997,39 +4058,42 @@ not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
-query time :0.000757
-Time of parser: 0.058878
-Time of Reach Solve: 0.021636
-Time of total: 0.077300
 Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
@@ -4039,144 +4103,160 @@ Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
+Reachability
 Reachability
 not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
+not Reachability
+Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 Reachability
+not Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
+Reachability
 not Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
@@ -4186,42 +4266,55 @@ not Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
+Reachability
 Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
+not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
+not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
@@ -4229,71 +4322,103 @@ not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
 Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
+not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
+not Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
@@ -4304,53 +4429,69 @@ Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
+Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
 Reachability
+Reachability
+Reachability
 not Reachability
+not Reachability
+Reachability
 Reachability
 Reachability
 not Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
@@ -4359,36 +4500,42 @@ not Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
+Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
@@ -4401,34 +4548,31 @@ Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
 Reachability
 Reachability
 Reachability
@@ -4438,28 +4582,25 @@ not Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
@@ -4469,93 +4610,75 @@ not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
-not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 Reachability
-Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
-Reachability
-Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
-not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
@@ -4563,7 +4686,6 @@ Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
@@ -4573,80 +4695,76 @@ Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
+Reachability
 Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
-not Reachability
 not Reachability
+Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
 Reachability
@@ -4654,57 +4772,3919 @@ not Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+query time :0.000919
+Time of parser: 0.023839
+Time of Reach Solve: 0.007839
+Time of total: 0.030113
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+query time :0.000665
+Time of parser: 0.029279
+Time of Reach Solve: 0.010204
+Time of total: 0.037887
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+query time :0.000738
+Time of parser: 0.023565
+Time of Reach Solve: 0.008707
+Time of total: 0.030815
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+query time :0.000648
+Time of parser: 0.027162
+Time of Reach Solve: 0.009491
+Time of total: 0.034727
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
+Reachability
+not Reachability
+not Reachability
+Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
+not Reachability
 not Reachability
 not Reachability
+not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
@@ -4712,8 +8692,6 @@ not Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
-Reachability
 Reachability
 Reachability
 Reachability
@@ -4725,28 +8703,23 @@ not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 Reachability
-Reachability
+not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
@@ -4756,46 +8729,54 @@ Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
+Reachability
+not Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
+not Reachability
 Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
@@ -4807,12 +8788,7 @@ not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
 Reachability
 Reachability
 Reachability
@@ -4824,45 +8800,34 @@ not Reachability
 not Reachability
 Reachability
 Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
-not Reachability
+Reachability
+Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
@@ -4870,24 +8835,23 @@ not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
-not Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
@@ -4896,50 +8860,58 @@ Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
+Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
+Reachability
+not Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
 Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 Reachability
-Reachability
-not Reachability
 not Reachability
 not Reachability
 not Reachability
@@ -4948,28 +8920,22 @@ not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
-Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
-Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
@@ -4979,34 +8945,22 @@ Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
 Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
@@ -5014,13 +8968,7 @@ not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
-query time :0.000757
-Time of parser: 0.027923
-Time of Reach Solve: 0.010338
-Time of total: 0.036351
+Reachability
 not Reachability
 Reachability
 Reachability
@@ -5028,11 +8976,7 @@ not Reachability
 not Reachability
 Reachability
 not Reachability
-not Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
@@ -5042,13 +8986,11 @@ not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
@@ -5056,47 +8998,48 @@ not Reachability
 not Reachability
 not Reachability
 not Reachability
-not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
+query time :0.000676
+Time of parser: 0.025030
+Time of Reach Solve: 0.010004
+Time of total: 0.033442
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
@@ -5105,29 +9048,23 @@ Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
@@ -5135,6 +9072,7 @@ Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
@@ -5145,39 +9083,49 @@ Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
+Reachability
+Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
@@ -5186,17 +9134,20 @@ not Reachability
 Reachability
 not Reachability
 Reachability
+Reachability
+not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
@@ -5205,69 +9156,92 @@ not Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
-not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
+Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
+not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
@@ -5275,6 +9249,8 @@ Reachability
 not Reachability
 not Reachability
 Reachability
+Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
@@ -5282,10 +9258,11 @@ Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
@@ -5293,43 +9270,72 @@ not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
+Reachability
+Reachability
 Reachability
 not Reachability
+not Reachability
+Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
+Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
+not Reachability
+not Reachability
+Reachability
+Reachability
 Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
@@ -5342,88 +9348,95 @@ not Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 not Reachability
+not Reachability
+not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
+not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
-not Reachability
+Reachability
 Reachability
 Reachability
+Reachability
+not Reachability
 not Reachability
 Reachability
 not Reachability
@@ -5434,12 +9447,14 @@ not Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
 not Reachability
-Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
@@ -5450,14 +9465,17 @@ Reachability
 not Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
@@ -5465,18 +9483,18 @@ Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
+not Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
@@ -5486,11 +9504,11 @@ Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
@@ -5500,6 +9518,7 @@ Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
@@ -5508,17 +9527,19 @@ Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
 not Reachability
 not Reachability
 Reachability
@@ -5527,30 +9548,36 @@ Reachability
 Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
+not Reachability
+Reachability
 Reachability
 Reachability
+Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
@@ -5561,15 +9588,19 @@ not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 Reachability
 Reachability
 not Reachability
@@ -5579,9 +9610,13 @@ Reachability
 not Reachability
 Reachability
 Reachability
+Reachability
+Reachability
 not Reachability
+not Reachability
 Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
@@ -5590,21 +9625,22 @@ Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
@@ -5612,21 +9648,16 @@ Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
-not Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
 Reachability
 not Reachability
@@ -5634,9 +9665,13 @@ not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
@@ -5646,29 +9681,39 @@ Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
 Reachability
+not Reachability
+not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
 not Reachability
@@ -5676,22 +9721,28 @@ Reachability
 not Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
 not Reachability
 not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
@@ -5701,9 +9752,7 @@ Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
 Reachability
@@ -5711,62 +9760,54 @@ Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
-not Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
+not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
@@ -5777,95 +9818,79 @@ not Reachability
 Reachability
 Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
 not Reachability
+not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
+Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
@@ -5873,21 +9898,19 @@ not Reachability
 Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
-Reachability
-Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
@@ -5895,61 +9918,56 @@ not Reachability
 not Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
-not Reachability
-Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
+not Reachability
 Reachability
+not Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
@@ -5957,23 +9975,22 @@ Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
-Reachability
-Reachability
+not Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 Reachability
 not Reachability
 Reachability
@@ -5981,114 +9998,95 @@ not Reachability
 not Reachability
 Reachability
 not Reachability
-not Reachability
-not Reachability
-not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
 query time :0.000700
-Time of parser: 0.064702
-Time of Reach Solve: 0.011546
-Time of total: 0.074166
-Reachability
-Reachability
-Reachability
+Time of parser: 0.023592
+Time of Reach Solve: 0.008103
+Time of total: 0.030174
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
-not Reachability
-Reachability
 Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 Reachability
-Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
 Reachability
 not Reachability
 Reachability
@@ -6098,127 +10096,145 @@ Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
 Reachability
+Reachability
 not Reachability
+Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
+not Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
+not Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
+not Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
-Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
-Reachability
-not Reachability
 not Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
@@ -6226,25 +10242,33 @@ not Reachability
 not Reachability
 not Reachability
 Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
 Reachability
+Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
+Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
@@ -6261,60 +10285,56 @@ Reachability
 Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
-Reachability
 Reachability
 not Reachability
-not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
@@ -6327,13 +10347,13 @@ Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
-not Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
 Reachability
@@ -6344,29 +10364,31 @@ not Reachability
 Reachability
 Reachability
 Reachability
+Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
 not Reachability
-not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
+Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
+not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
@@ -6378,9 +10400,12 @@ Reachability
 not Reachability
 not Reachability
 not Reachability
+not Reachability
+Reachability
 Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
@@ -6389,93 +10414,82 @@ Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
-not Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 Reachability
+not Reachability
 Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
+not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
-Reachability
 Reachability
 Reachability
-Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
@@ -6483,20 +10497,24 @@ not Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
 Reachability
 not Reachability
@@ -6504,17 +10522,26 @@ Reachability
 Reachability
 Reachability
 not Reachability
+not Reachability
+Reachability
 Reachability
 Reachability
+Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
+Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
@@ -6522,25 +10549,26 @@ Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
+Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
+Reachability
+Reachability
+Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
 Reachability
 not Reachability
@@ -6548,21 +10576,27 @@ not Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
+not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
-Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
@@ -6571,46 +10605,32 @@ not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
-Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
+not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
@@ -6618,45 +10638,41 @@ Reachability
 Reachability
 not Reachability
 Reachability
-Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
+not Reachability
 Reachability
 Reachability
+not Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
 not Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
 not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
+Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
+Reachability
+Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
@@ -6664,15 +10680,17 @@ not Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
+Reachability
 Reachability
 not Reachability
 not Reachability
+not Reachability
 Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
+not Reachability
 not Reachability
 Reachability
 not Reachability
@@ -6682,7 +10700,9 @@ not Reachability
 Reachability
 not Reachability
 not Reachability
+Reachability
 not Reachability
+Reachability
 Reachability
 not Reachability
 Reachability
@@ -6690,28 +10710,28 @@ Reachability
 not Reachability
 Reachability
 not Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
-Reachability
 Reachability
 not Reachability
-Reachability
-Reachability
+not Reachability
+not Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
+not Reachability
 not Reachability
 not Reachability
+not Reachability
+not Reachability
 Reachability
 not Reachability
 Reachability
@@ -6720,3895 +10740,70 @@ Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-query time :0.000768
-Time of parser: 0.030687
-Time of Reach Solve: 0.010189
-Time of total: 0.038996
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-query time :0.000670
-Time of parser: 0.031561
-Time of Reach Solve: 0.010239
-Time of total: 0.039407
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-query time :0.000724
-Time of parser: 0.031137
-Time of Reach Solve: 0.011338
-Time of total: 0.040607
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-query time :0.000744
-Time of parser: 0.028441
-Time of Reach Solve: 0.009492
-Time of total: 0.035960
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
 not Reachability
 not Reachability
-not Reachability
-Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
 Reachability
-not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
-Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
-Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
 Reachability
-Reachability
-not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
-not Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
-not Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
@@ -10617,35 +10812,24 @@ Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
+Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
@@ -10655,194 +10839,103 @@ not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
 not Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
 Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 Reachability
 not Reachability
-not Reachability
-not Reachability
-not Reachability
-Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
 not Reachability
-Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 not Reachability
-Reachability
-Reachability
 Reachability
 Reachability
 Reachability
-Reachability
-Reachability
-Reachability
-not Reachability
 not Reachability
 not Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
-Reachability
-not Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
 Reachability
 not Reachability
-not Reachability
-Reachability
-Reachability
-Reachability
 Reachability
 not Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-not Reachability
-Reachability
-Reachability
 Reachability
 not Reachability
 Reachability
-Reachability
-not Reachability
 not Reachability
-Reachability
-Reachability
 Reachability
 not Reachability
 not Reachability
 Reachability
 not Reachability
-Reachability
-not Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
 not Reachability
 not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
@@ -10850,111 +10943,59 @@ not Reachability
 Reachability
 not Reachability
 Reachability
-not Reachability
-Reachability
-not Reachability
-not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
-Reachability
-not Reachability
 not Reachability
 Reachability
 Reachability
 Reachability
 Reachability
-Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
-not Reachability
 not Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
-Reachability
 Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
 Reachability
-Reachability
-Reachability
 not Reachability
-not Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
-not Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
-Reachability
-not Reachability
 not Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
 Reachability
-Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
 Reachability
 Reachability
@@ -10962,83 +11003,42 @@ Reachability
 Reachability
 not Reachability
 not Reachability
-Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
 Reachability
-not Reachability
-not Reachability
 not Reachability
 Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
-Reachability
 not Reachability
-Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
-Reachability
-not Reachability
 not Reachability
 Reachability
 not Reachability
 Reachability
 not Reachability
-not Reachability
-Reachability
 Reachability
 Reachability
-not Reachability
-not Reachability
 not Reachability
 not Reachability
-not Reachability
-Reachability
-not Reachability
 Reachability
 not Reachability
-Reachability
 not Reachability
 not Reachability
-Reachability
-Reachability
-Reachability
-Reachability
-Reachability
 Reachability
 Reachability
 Reachability
 Reachability
 Reachability
 not Reachability
-query time :0.000671
+query time :0.000595

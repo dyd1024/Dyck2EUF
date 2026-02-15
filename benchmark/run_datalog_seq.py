@@ -15,7 +15,7 @@ DataDep = [
 
 analysis_Type = [
     "AliasAnalysis",
-    "AliasAnalysis_C"
+    "AliasAnalysis_C",
     "DataDepAnalysis"
 ]
 

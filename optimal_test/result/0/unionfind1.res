@@ -1,20 +1,20 @@
-Time of parser: 0.004535
-Time of Reach Solve: 0.001910
-Time of total: 0.006440
+Time of parser: 0.004625
+Time of Reach Solve: 0.003516
+Time of total: 0.008130
 query time :0.000000
-Time of parser: 0.008529
-Time of Reach Solve: 0.005648
-Time of total: 0.014165
+Time of parser: 0.006739
+Time of Reach Solve: 0.002745
+Time of total: 0.009477
+query time :0.000001
+Time of parser: 0.009856
+Time of Reach Solve: 0.004422
+Time of total: 0.014267
 query time :0.000000
-Time of parser: 0.015151
-Time of Reach Solve: 0.008914
-Time of total: 0.024057
+Time of parser: 0.017231
+Time of Reach Solve: 0.006726
+Time of total: 0.023942
 query time :0.000000
-Time of parser: 0.019118
-Time of Reach Solve: 0.013280
-Time of total: 0.032387
-query time :0.000000
-Time of parser: 0.019749
-Time of Reach Solve: 0.012616
-Time of total: 0.032353
+Time of parser: 0.018748
+Time of Reach Solve: 0.009116
+Time of total: 0.027846
 query time :0.000000

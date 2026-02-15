@@ -1,44 +1,44 @@
-Time of parser: 0.028765
-Time of Reach Solve: 0.010820
-Time of total: 0.038202
+Time of parser: 0.024527
+Time of Reach Solve: 0.009126
+Time of total: 0.032106
 query time :0.000001
-Time of parser: 0.032972
-Time of Reach Solve: 0.011201
-Time of total: 0.042728
+Time of parser: 0.031182
+Time of Reach Solve: 0.009623
+Time of total: 0.039635
 query time :0.000000
-Time of parser: 0.066055
-Time of Reach Solve: 0.025422
-Time of total: 0.088856
-query time :0.000000
-Time of parser: 0.030073
-Time of Reach Solve: 0.010387
-Time of total: 0.038776
-query time :0.000000
-Time of parser: 0.058006
-Time of Reach Solve: 0.021515
-Time of total: 0.077124
+Time of parser: 0.058958
+Time of Reach Solve: 0.025842
+Time of total: 0.082439
 query time :0.000001
-Time of parser: 0.027950
-Time of Reach Solve: 0.009733
-Time of total: 0.036070
+Time of parser: 0.030237
+Time of Reach Solve: 0.008546
+Time of total: 0.037542
 query time :0.000000
-Time of parser: 0.035440
-Time of Reach Solve: 0.012772
-Time of total: 0.046608
+Time of parser: 0.051981
+Time of Reach Solve: 0.022673
+Time of total: 0.072482
 query time :0.000000
-Time of parser: 0.028751
-Time of Reach Solve: 0.010197
-Time of total: 0.037541
+Time of parser: 0.025042
+Time of Reach Solve: 0.008426
+Time of total: 0.032033
 query time :0.000001
-Time of parser: 0.029928
-Time of Reach Solve: 0.010023
-Time of total: 0.038140
+Time of parser: 0.028084
+Time of Reach Solve: 0.010571
+Time of total: 0.037315
 query time :0.000000
-Time of parser: 0.031417
-Time of Reach Solve: 0.010951
-Time of total: 0.041193
+Time of parser: 0.025912
+Time of Reach Solve: 0.008567
+Time of total: 0.033317
 query time :0.000000
-Time of parser: 0.027519
-Time of Reach Solve: 0.010193
-Time of total: 0.036154
+Time of parser: 0.024798
+Time of Reach Solve: 0.008573
+Time of total: 0.031935
+query time :0.000000
+Time of parser: 0.030113
+Time of Reach Solve: 0.009793
+Time of total: 0.039021
+query time :0.000000
+Time of parser: 0.024657
+Time of Reach Solve: 0.007310
+Time of total: 0.030772
 query time :0.000000

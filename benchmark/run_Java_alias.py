@@ -8,16 +8,6 @@ AliasAnalysis=[
     'antlr', 'bloat', 'chart', 'eclipse', 'fop', 'hsqldb', 'jython', 'luindex', 'lusearch', 'pmd', 'xalan'
 ]
 
-AliasAnalysis_C=[
-    'git', 'libssh2.a', 'tmux', 'vim', 'lighttpd', 'sqlite3', 'strace', 'wrk', 'darknet', 'libxml2.a'
-]
-
-DataDep = [
-    'btree', 'check', 'compiler', 'compress', 'crypto', 'derby', 'helloworld', 'mpegaudio', 'mushroom', 'parser', 'sample', 'scimark', 'startup', 'sunflow', 'xml'
-]
-
-UnionFind = ['unionfind_5000', 'unionfind_10000', 'unionfind_15000', 'unionfind_20000', 'unionfind_25000' ]
-
 # config information
 tool_config = {
     "optimal": {
@@ -59,10 +49,7 @@ tool_config = {
 }
 
 analysis_Type = [
-    "AliasAnalysis",
-    "AliasAnalysis_C",
-    "DataDepAnalysis",
-    "unionfind"
+    "AliasAnalysis"
 ]
 
 times = 3
@@ -197,12 +184,6 @@ if __name__ == "__main__":
     for analysisType in analysis_Type:
         if analysisType == "AliasAnalysis":
             benchmarks = AliasAnalysis
-        elif analysisType == "DataDepAnalysis":
-            benchmarks = DataDep
-        elif analysisType == "AliasAnalysis_C":
-            benchmarks = AliasAnalysis_C
-        elif analysisType == "unionfind":
-            benchmarks = UnionFind
 
         for tool_name in tool_config:
             if tool_name == "unionfind":
@@ -216,3 +197,6 @@ if __name__ == "__main__":
     end_time = time.time()
     elapsed_time = end_time - start_time
     print(f"Timecost: {elapsed_time:.2f} s")
+
+
+    subprocess.run(["python3", "get_result.py"], cwd="./total_result")

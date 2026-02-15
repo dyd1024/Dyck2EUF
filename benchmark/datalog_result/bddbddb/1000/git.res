@@ -1,12 +1,11 @@
 Initializing BDD library (500000 nodes, cache size 125000, min free 0.2%)
-buddy.dll is in use, linking temporary copy /tmp/buddy1569162903248647394.dll
-Could not load BDD package buddy: /tmp/buddy1569162903248647394.dll: /tmp/buddy1569162903248647394.dll: wrong ELF class: ELFCLASS32 (Possible cause: can't load IA 32 .so on a AMD 64 platform)
+Could not load BDD package buddy: Can't load library: /home/dyd/Project/Dyck2EUF/benchmark/libbuddy.so
 Using BDD library JFactory 1.20
 No machine learning library found, learning disabled.
 Opening Datalog program "./Input/bdd_AliasAnalysis_C/1000/git.datalog"
 1 field domains.
 1003 relations.
-348123 rules.
+631843 rules.
 Splitting rules: done.
 Initializing solver: Initializing value of special relation Z_eq_Z Z0,Z1
 Resizing node table from 1009 to 2017
@@ -61,6 +60,54 @@ Resizing node table from 2164013 to 2214011
 Resizing node table from 2214011 to 2263969
 Resizing node table from 2263969 to 2313967
 Resizing node table from 2313967 to 2363957
+Resizing node table from 2363957 to 2413951
+Resizing node table from 2413951 to 2463949
+Resizing node table from 2463949 to 2513941
+Resizing node table from 2513941 to 2563937
+Resizing node table from 2563937 to 2613931
+Resizing node table from 2613931 to 2663897
+Resizing node table from 2663897 to 2713883
+Resizing node table from 2713883 to 2763883
+Resizing node table from 2763883 to 2813879
+Resizing node table from 2813879 to 2863879
+Resizing node table from 2863879 to 2913871
+Resizing node table from 2913871 to 2963869
+Resizing node table from 2963869 to 3013859
+Resizing node table from 3013859 to 3063839
+Resizing node table from 3063839 to 3113837
+Resizing node table from 3113837 to 3163837
+Resizing node table from 3163837 to 3213829
+Resizing node table from 3213829 to 3263803
+Resizing node table from 3263803 to 3313787
+Resizing node table from 3313787 to 3363769
+Resizing node table from 3363769 to 3413759
+Resizing node table from 3413759 to 3463751
+Resizing node table from 3463751 to 3513739
+Resizing node table from 3513739 to 3563731
+Resizing node table from 3563731 to 3613723
+Resizing node table from 3613723 to 3663707
+Resizing node table from 3663707 to 3713681
+Resizing node table from 3713681 to 3763673
+Resizing node table from 3763673 to 3813673
+Resizing node table from 3813673 to 3863611
+Resizing node table from 3863611 to 3913589
+Resizing node table from 3913589 to 3963587
+Resizing node table from 3963587 to 4013573
+Resizing node table from 4013573 to 4063559
+Resizing node table from 4063559 to 4113553
+Resizing node table from 4113553 to 4163539
+Resizing node table from 4163539 to 4213519
+Resizing node table from 4213519 to 4263509
+Resizing node table from 4263509 to 4313509
+Resizing node table from 4313509 to 4363493
+Resizing node table from 4363493 to 4413467
+Resizing node table from 4413467 to 4463467
+Resizing node table from 4463467 to 4513463
+Resizing node table from 4513463 to 4563457
+Resizing node table from 4563457 to 4613449
+Resizing node table from 4613449 to 4663447
+Resizing node table from 4663447 to 4713439
+Resizing node table from 4713439 to 4763401
 done.
 Loading initial relations: done. (0 ms)
 Stratifying: 

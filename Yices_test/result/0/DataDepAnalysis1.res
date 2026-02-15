@@ -1,60 +1,60 @@
-f_parser_time:: 0.002150 
+f_parser_time:: 0.003465 
 sat
-f_solved_time:: 0.001086 
+f_solved_time:: 0.000987 
 query_time:: 0.000002 
-f_parser_time:: 0.006860 
+f_parser_time:: 0.007712 
 sat
-f_solved_time:: 0.003218 
-query_time:: 0.000002 
-f_parser_time:: 0.005400 
+f_solved_time:: 0.002626 
+query_time:: 0.000003 
+f_parser_time:: 0.005190 
 sat
-f_solved_time:: 0.002721 
-query_time:: 0.000002 
-f_parser_time:: 0.005762 
+f_solved_time:: 0.002200 
+query_time:: 0.000003 
+f_parser_time:: 0.006091 
 sat
-f_solved_time:: 0.002995 
-query_time:: 0.000002 
-f_parser_time:: 0.008634 
+f_solved_time:: 0.002193 
+query_time:: 0.000003 
+f_parser_time:: 0.007448 
 sat
-f_solved_time:: 0.004479 
-query_time:: 0.000002 
-f_parser_time:: 0.008376 
+f_solved_time:: 0.003323 
+query_time:: 0.000003 
+f_parser_time:: 0.007235 
 sat
-f_solved_time:: 0.003916 
-query_time:: 0.000002 
-f_parser_time:: 0.004682 
+f_solved_time:: 0.002984 
+query_time:: 0.000003 
+f_parser_time:: 0.005292 
 sat
-f_solved_time:: 0.002345 
-query_time:: 0.000002 
-f_parser_time:: 0.011696 
+f_solved_time:: 0.002268 
+query_time:: 0.000003 
+f_parser_time:: 0.012680 
 sat
-f_solved_time:: 0.005480 
-query_time:: 0.000002 
-f_parser_time:: 0.001080 
+f_solved_time:: 0.004613 
+query_time:: 0.000003 
+f_parser_time:: 0.001785 
 sat
-f_solved_time:: 0.000522 
-query_time:: 0.000002 
-f_parser_time:: 0.002137 
+f_solved_time:: 0.000727 
+query_time:: 0.000004 
+f_parser_time:: 0.002493 
 sat
-f_solved_time:: 0.001037 
-query_time:: 0.000002 
-f_parser_time:: 0.001380 
+f_solved_time:: 0.001380 
+query_time:: 0.000003 
+f_parser_time:: 0.001094 
 sat
-f_solved_time:: 0.000661 
-query_time:: 0.000002 
-f_parser_time:: 0.029507 
+f_solved_time:: 0.000707 
+query_time:: 0.000007 
+f_parser_time:: 0.004699 
 sat
-f_solved_time:: 0.008123 
+f_solved_time:: 0.002225 
+query_time:: 0.000003 
+f_parser_time:: 0.006937 
+sat
+f_solved_time:: 0.002580 
+query_time:: 0.000003 
+f_parser_time:: 0.005004 
+sat
+f_solved_time:: 0.003499 
+query_time:: 0.000003 
+f_parser_time:: 0.025758 
+sat
+f_solved_time:: 0.010193 
 query_time:: 0.000005 
-f_parser_time:: 0.012530 
-sat
-f_solved_time:: 0.006004 
-query_time:: 0.000004 
-f_parser_time:: 0.008746 
-sat
-f_solved_time:: 0.004380 
-query_time:: 0.000004 
-f_parser_time:: 0.052762 
-sat
-f_solved_time:: 0.012596 
-query_time:: 0.000002 

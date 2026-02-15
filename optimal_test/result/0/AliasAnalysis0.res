@@ -1,44 +1,44 @@
-Time of parser: 0.018825
-Time of Reach Solve: 0.005829
-Time of total: 0.024154
+Time of parser: 0.015635
+Time of Reach Solve: 0.003439
+Time of total: 0.018538
 query time :0.000000
-Time of parser: 0.017217
-Time of Reach Solve: 0.005857
-Time of total: 0.022658
+Time of parser: 0.014784
+Time of Reach Solve: 0.004244
+Time of total: 0.018605
 query time :0.000000
-Time of parser: 0.037609
-Time of Reach Solve: 0.014818
-Time of total: 0.051069
+Time of parser: 0.035237
+Time of Reach Solve: 0.010665
+Time of total: 0.044760
 query time :0.000001
-Time of parser: 0.020301
-Time of Reach Solve: 0.006210
-Time of total: 0.026071
+Time of parser: 0.013339
+Time of Reach Solve: 0.004504
+Time of total: 0.017437
+query time :0.000000
+Time of parser: 0.030915
+Time of Reach Solve: 0.010601
+Time of total: 0.040505
+query time :0.000000
+Time of parser: 0.014233
+Time of Reach Solve: 0.003278
+Time of total: 0.017020
+query time :0.000000
+Time of parser: 0.020828
+Time of Reach Solve: 0.004714
+Time of total: 0.025092
+query time :0.000000
+Time of parser: 0.014965
+Time of Reach Solve: 0.003496
+Time of total: 0.017965
+query time :0.000000
+Time of parser: 0.017008
+Time of Reach Solve: 0.005262
+Time of total: 0.021741
 query time :0.000001
-Time of parser: 0.037075
-Time of Reach Solve: 0.016943
-Time of total: 0.052262
+Time of parser: 0.016343
+Time of Reach Solve: 0.004192
+Time of total: 0.020116
 query time :0.000000
-Time of parser: 0.017761
-Time of Reach Solve: 0.007957
-Time of total: 0.024942
-query time :0.000000
-Time of parser: 0.021437
-Time of Reach Solve: 0.007907
-Time of total: 0.028815
-query time :0.000000
-Time of parser: 0.016991
-Time of Reach Solve: 0.008573
-Time of total: 0.024540
-query time :0.000000
-Time of parser: 0.019977
-Time of Reach Solve: 0.006922
-Time of total: 0.026071
-query time :0.000000
-Time of parser: 0.018066
-Time of Reach Solve: 0.006755
-Time of total: 0.024405
-query time :0.000000
-Time of parser: 0.015748
-Time of Reach Solve: 0.005596
-Time of total: 0.020828
+Time of parser: 0.015173
+Time of Reach Solve: 0.003456
+Time of total: 0.018146
 query time :0.000000

@@ -30,37 +30,57 @@ def run_task(workdir, cmd):
                 print(f"[ERROR] Executable not found: {exe_path}")
                 return False
 
-        print(f"Running: cd {workdir} && {' '.join(cmd)}")
+        tool_name = cmd[0][2:] if cmd[0].startswith("./") else cmd[0]
+        full_cmd_str = ' '.join(cmd)
+        print(f"\n{'='*60}")
+        print(f"Testing {tool_name}: cd {workdir} && {full_cmd_str}")
+        print(f"{'-'*60}")
+
         result = subprocess.run(
             cmd,
             cwd=workdir,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True,
-            timeout=300  # Timeout after 5 minutes to avoid hanging
+            timeout=600  # Timeout after 5 minutes
         )
 
+        # Always print stdout and stderr (even if empty)
+        if result.stdout.strip():
+            print("STDOUT:")
+            print(result.stdout)
+        else:
+            print("STDOUT: <empty>")
+
+        if result.stderr.strip():
+            print("STDERR:")
+            print(result.stderr)
+        else:
+            print("STDERR: <empty>")
+
         if result.returncode == 0:
-            print(f"[SUCCESS] Command executed successfully: {' '.join(cmd)}\n")
+            print(f"[SUCCESS] Command succeeded: {full_cmd_str}")
             return True
         else:
-            print(f"[FAILURE] Command failed: {' '.join(cmd)}")
-            print(f"  Return code: {result.returncode}")
-            if result.stderr.strip():
-                print(f"  Error output:\n{result.stderr}")
-            if result.stdout.strip():
-                print(f"  Standard output:\n{result.stdout}")
-            print()
+            print(f"[FAILURE] Command failed (return code {result.returncode}): {full_cmd_str}")
             return False
 
-    except subprocess.TimeoutExpired:
-        print(f"[TIMEOUT] Command timed out: {' '.join(cmd)}\n")
+    except subprocess.TimeoutExpired as e:
+        print(f"[TIMEOUT] Command timed out after 300 seconds: {' '.join(cmd)}")
+        if e.stdout:
+            print("STDOUT (partial):")
+            print(e.stdout.decode() if isinstance(e.stdout, bytes) else e.stdout)
+        if e.stderr:
+            print("STDERR (partial):")
+            print(e.stderr.decode() if isinstance(e.stderr, bytes) else e.stderr)
         return False
+
     except FileNotFoundError as e:
-        print(f"[ERROR] Command or file not found: {e}\n")
+        print(f"[ERROR] Command or file not found: {e}")
         return False
+
     except Exception as e:
-        print(f"[EXCEPTION] An unexpected error occurred: {e}\n")
+        print(f"[EXCEPTION] An unexpected error occurred: {e}")
         return False
 
 def main():
@@ -72,6 +92,7 @@ def main():
         if run_task(workdir, cmd):
             success_count += 1
 
+    print(f"\n{'='*60}")
     print(f"Check completed! Success: {success_count}/{total_count}")
     if success_count != total_count:
         sys.exit(1)  # Exit with error code if any task failed

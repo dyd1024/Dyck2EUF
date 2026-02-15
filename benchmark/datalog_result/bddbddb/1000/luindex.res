@@ -1,6 +1,5 @@
 Initializing BDD library (500000 nodes, cache size 125000, min free 0.2%)
-buddy.dll is in use, linking temporary copy /tmp/buddy12010623426651889202.dll
-Could not load BDD package buddy: /tmp/buddy12010623426651889202.dll: /tmp/buddy12010623426651889202.dll: wrong ELF class: ELFCLASS32 (Possible cause: can't load IA 32 .so on a AMD 64 platform)
+Could not load BDD package buddy: Can't load library: /home/dyd/Project/Dyck2EUF/benchmark/libbuddy.so
 Using BDD library JFactory 1.20
 No machine learning library found, learning disabled.
 Opening Datalog program "./Input/bdd_AliasAnalysis/1000/luindex.datalog"
@@ -20,7 +19,7 @@ Resizing node table from 114377 to 164377
 done.
 Loading initial relations: done. (0 ms)
 Stratifying: 
-done. (74613 ms)
+done. (81927 ms)
 Solving: 
 Applying inference rule:
    fun(13360,833,3371) :- . (1)
@@ -41934,2009 +41933,2009 @@ Applying inference rule:
 Applying inference rule:
    eq(x:Z0,z:Z2) :- eq(x:Z0,y:Z1), eq(y:Z1,z:Z2). (inc) (4)
 Applying inference rule:
-   q999(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5796:Z2), Z_eq_Z(y:Z1,6182:Z3). (1)
+   q999(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7944:Z2), Z_eq_Z(y:Z1,1343:Z3). (1)
 Applying inference rule:
-   q998(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21917:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q998(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10507:Z2), Z_eq_Z(y:Z1,8938:Z3). (1)
 Applying inference rule:
-   q997(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3489:Z2), Z_eq_Z(y:Z1,2640:Z3). (1)
+   q997(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22256:Z2), Z_eq_Z(y:Z1,9210:Z3). (1)
 Applying inference rule:
-   q996(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14309:Z2), Z_eq_Z(y:Z1,20648:Z3). (1)
+   q996(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2831:Z2), Z_eq_Z(y:Z1,5972:Z3). (1)
 Applying inference rule:
-   q995(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20332:Z2), Z_eq_Z(y:Z1,16907:Z3). (1)
+   q995(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11676:Z2), Z_eq_Z(y:Z1,2443:Z3). (1)
 Applying inference rule:
-   q994(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1813:Z2), Z_eq_Z(y:Z1,4734:Z3). (1)
+   q994(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5655:Z2), Z_eq_Z(y:Z1,11979:Z3). (1)
 Applying inference rule:
-   q993(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18984:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q993(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3405:Z2), Z_eq_Z(y:Z1,93:Z3). (1)
 Applying inference rule:
-   q992(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12999:Z2), Z_eq_Z(y:Z1,2720:Z3). (1)
+   q992(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21454:Z2), Z_eq_Z(y:Z1,1278:Z3). (1)
 Applying inference rule:
-   q991(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17273:Z2), Z_eq_Z(y:Z1,22033:Z3). (1)
+   q991(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18669:Z2), Z_eq_Z(y:Z1,9622:Z3). (1)
 Applying inference rule:
-   q990(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9258:Z2), Z_eq_Z(y:Z1,7557:Z3). (1)
+   q990(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16042:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q989(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22496:Z2), Z_eq_Z(y:Z1,10786:Z3). (1)
+   q989(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13424:Z2), Z_eq_Z(y:Z1,2456:Z3). (1)
 Applying inference rule:
-   q988(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7858:Z2), Z_eq_Z(y:Z1,7323:Z3). (1)
+   q988(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20626:Z2), Z_eq_Z(y:Z1,6361:Z3). (1)
 Applying inference rule:
-   q987(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8896:Z2), Z_eq_Z(y:Z1,20050:Z3). (1)
+   q987(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18024:Z2), Z_eq_Z(y:Z1,517:Z3). (1)
 Applying inference rule:
-   q986(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4643:Z2), Z_eq_Z(y:Z1,1193:Z3). (1)
+   q986(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15963:Z2), Z_eq_Z(y:Z1,14607:Z3). (1)
 Applying inference rule:
-   q985(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16292:Z2), Z_eq_Z(y:Z1,7674:Z3). (1)
+   q985(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19835:Z2), Z_eq_Z(y:Z1,6757:Z3). (1)
 Applying inference rule:
-   q984(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1923:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q984(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20110:Z2), Z_eq_Z(y:Z1,12766:Z3). (1)
 Applying inference rule:
-   q983(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6722:Z2), Z_eq_Z(y:Z1,17815:Z3). (1)
+   q983(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21641:Z2), Z_eq_Z(y:Z1,4581:Z3). (1)
 Applying inference rule:
-   q982(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2084:Z2), Z_eq_Z(y:Z1,867:Z3). (1)
+   q982(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3474:Z2), Z_eq_Z(y:Z1,19670:Z3). (1)
 Applying inference rule:
-   q981(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9866:Z2), Z_eq_Z(y:Z1,6642:Z3). (1)
+   q981(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18792:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q980(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4103:Z2), Z_eq_Z(y:Z1,17194:Z3). (1)
+   q980(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18705:Z2), Z_eq_Z(y:Z1,12313:Z3). (1)
 Applying inference rule:
-   q979(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9486:Z2), Z_eq_Z(y:Z1,16:Z3). (1)
+   q979(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7878:Z2), Z_eq_Z(y:Z1,17658:Z3). (1)
 Applying inference rule:
-   q978(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16373:Z2), Z_eq_Z(y:Z1,1407:Z3). (1)
+   q978(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12568:Z2), Z_eq_Z(y:Z1,18322:Z3). (1)
 Applying inference rule:
-   q977(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21862:Z2), Z_eq_Z(y:Z1,3616:Z3). (1)
+   q977(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12724:Z2), Z_eq_Z(y:Z1,13513:Z3). (1)
 Applying inference rule:
-   q976(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2489:Z2), Z_eq_Z(y:Z1,52:Z3). (1)
+   q976(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10200:Z2), Z_eq_Z(y:Z1,9718:Z3). (1)
 Applying inference rule:
-   q975(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9279:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q975(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3837:Z2), Z_eq_Z(y:Z1,22172:Z3). (1)
 Applying inference rule:
-   q974(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15955:Z2), Z_eq_Z(y:Z1,12770:Z3). (1)
+   q974(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13861:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q973(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19560:Z2), Z_eq_Z(y:Z1,18812:Z3). (1)
+   q973(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10124:Z2), Z_eq_Z(y:Z1,1929:Z3). (1)
 Applying inference rule:
-   q972(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10258:Z2), Z_eq_Z(y:Z1,2541:Z3). (1)
+   q972(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4868:Z2), Z_eq_Z(y:Z1,14708:Z3). (1)
 Applying inference rule:
-   q971(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17427:Z2), Z_eq_Z(y:Z1,2678:Z3). (1)
+   q971(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3959:Z2), Z_eq_Z(y:Z1,1542:Z3). (1)
 Applying inference rule:
-   q970(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1180:Z2), Z_eq_Z(y:Z1,920:Z3). (1)
+   q970(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15544:Z2), Z_eq_Z(y:Z1,19858:Z3). (1)
 Applying inference rule:
-   q969(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7098:Z2), Z_eq_Z(y:Z1,19991:Z3). (1)
+   q969(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15952:Z2), Z_eq_Z(y:Z1,18470:Z3). (1)
 Applying inference rule:
-   q968(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7438:Z2), Z_eq_Z(y:Z1,168:Z3). (1)
+   q968(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6292:Z2), Z_eq_Z(y:Z1,224:Z3). (1)
 Applying inference rule:
-   q967(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5473:Z2), Z_eq_Z(y:Z1,16848:Z3). (1)
+   q967(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16424:Z2), Z_eq_Z(y:Z1,66:Z3). (1)
 Applying inference rule:
-   q966(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7753:Z2), Z_eq_Z(y:Z1,15392:Z3). (1)
+   q966(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18110:Z2), Z_eq_Z(y:Z1,127:Z3). (1)
 Applying inference rule:
-   q965(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1438:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q965(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11663:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
 Applying inference rule:
-   q964(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11521:Z2), Z_eq_Z(y:Z1,9283:Z3). (1)
+   q964(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12723:Z2), Z_eq_Z(y:Z1,9735:Z3). (1)
 Applying inference rule:
-   q963(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12975:Z2), Z_eq_Z(y:Z1,6169:Z3). (1)
+   q963(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20061:Z2), Z_eq_Z(y:Z1,10022:Z3). (1)
 Applying inference rule:
-   q962(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6449:Z2), Z_eq_Z(y:Z1,17074:Z3). (1)
+   q962(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2908:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q961(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3810:Z2), Z_eq_Z(y:Z1,19112:Z3). (1)
+   q961(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12214:Z2), Z_eq_Z(y:Z1,18024:Z3). (1)
 Applying inference rule:
-   q960(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2096:Z2), Z_eq_Z(y:Z1,18756:Z3). (1)
+   q960(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,821:Z2), Z_eq_Z(y:Z1,14165:Z3). (1)
 Applying inference rule:
-   q959(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9431:Z2), Z_eq_Z(y:Z1,15813:Z3). (1)
+   q959(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9937:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
 Applying inference rule:
-   q958(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21735:Z2), Z_eq_Z(y:Z1,17376:Z3). (1)
+   q958(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22120:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q957(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11530:Z2), Z_eq_Z(y:Z1,3938:Z3). (1)
+   q957(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15426:Z2), Z_eq_Z(y:Z1,8024:Z3). (1)
 Applying inference rule:
-   q956(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,209:Z2), Z_eq_Z(y:Z1,1033:Z3). (1)
+   q956(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20978:Z2), Z_eq_Z(y:Z1,4951:Z3). (1)
 Applying inference rule:
-   q955(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21382:Z2), Z_eq_Z(y:Z1,17302:Z3). (1)
+   q955(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17908:Z2), Z_eq_Z(y:Z1,769:Z3). (1)
 Applying inference rule:
-   q954(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17683:Z2), Z_eq_Z(y:Z1,346:Z3). (1)
+   q954(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9663:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q953(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3492:Z2), Z_eq_Z(y:Z1,224:Z3). (1)
+   q953(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11798:Z2), Z_eq_Z(y:Z1,11653:Z3). (1)
 Applying inference rule:
-   q952(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17571:Z2), Z_eq_Z(y:Z1,3106:Z3). (1)
+   q952(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19211:Z2), Z_eq_Z(y:Z1,9426:Z3). (1)
 Applying inference rule:
-   q951(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16072:Z2), Z_eq_Z(y:Z1,1542:Z3). (1)
+   q951(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14512:Z2), Z_eq_Z(y:Z1,17529:Z3). (1)
 Applying inference rule:
-   q950(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2517:Z2), Z_eq_Z(y:Z1,21292:Z3). (1)
+   q950(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15966:Z2), Z_eq_Z(y:Z1,21205:Z3). (1)
 Applying inference rule:
-   q949(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9500:Z2), Z_eq_Z(y:Z1,127:Z3). (1)
+   q949(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2534:Z2), Z_eq_Z(y:Z1,14095:Z3). (1)
 Applying inference rule:
-   q948(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20461:Z2), Z_eq_Z(y:Z1,2742:Z3). (1)
+   q948(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10207:Z2), Z_eq_Z(y:Z1,16607:Z3). (1)
 Applying inference rule:
-   q947(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9684:Z2), Z_eq_Z(y:Z1,633:Z3). (1)
+   q947(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10091:Z2), Z_eq_Z(y:Z1,8750:Z3). (1)
 Applying inference rule:
-   q946(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19375:Z2), Z_eq_Z(y:Z1,5098:Z3). (1)
+   q946(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14665:Z2), Z_eq_Z(y:Z1,2867:Z3). (1)
 Applying inference rule:
-   q945(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21344:Z2), Z_eq_Z(y:Z1,2883:Z3). (1)
+   q945(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8003:Z2), Z_eq_Z(y:Z1,1256:Z3). (1)
 Applying inference rule:
-   q944(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15846:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q944(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,925:Z2), Z_eq_Z(y:Z1,7963:Z3). (1)
 Applying inference rule:
-   q943(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,702:Z2), Z_eq_Z(y:Z1,17680:Z3). (1)
+   q943(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21790:Z2), Z_eq_Z(y:Z1,24:Z3). (1)
 Applying inference rule:
-   q942(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22181:Z2), Z_eq_Z(y:Z1,327:Z3). (1)
+   q942(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17402:Z2), Z_eq_Z(y:Z1,828:Z3). (1)
 Applying inference rule:
-   q941(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17872:Z2), Z_eq_Z(y:Z1,18347:Z3). (1)
+   q941(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8202:Z2), Z_eq_Z(y:Z1,19096:Z3). (1)
 Applying inference rule:
-   q940(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13226:Z2), Z_eq_Z(y:Z1,8145:Z3). (1)
+   q940(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17405:Z2), Z_eq_Z(y:Z1,2443:Z3). (1)
 Applying inference rule:
-   q939(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13123:Z2), Z_eq_Z(y:Z1,8482:Z3). (1)
+   q939(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20781:Z2), Z_eq_Z(y:Z1,14435:Z3). (1)
 Applying inference rule:
-   q938(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15924:Z2), Z_eq_Z(y:Z1,524:Z3). (1)
+   q938(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8485:Z2), Z_eq_Z(y:Z1,8952:Z3). (1)
 Applying inference rule:
-   q937(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7219:Z2), Z_eq_Z(y:Z1,19405:Z3). (1)
+   q937(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20774:Z2), Z_eq_Z(y:Z1,17762:Z3). (1)
 Applying inference rule:
-   q936(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9632:Z2), Z_eq_Z(y:Z1,3761:Z3). (1)
+   q936(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11616:Z2), Z_eq_Z(y:Z1,4491:Z3). (1)
 Applying inference rule:
-   q935(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2423:Z2), Z_eq_Z(y:Z1,4336:Z3). (1)
+   q935(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9990:Z2), Z_eq_Z(y:Z1,1974:Z3). (1)
 Applying inference rule:
-   q934(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5612:Z2), Z_eq_Z(y:Z1,2522:Z3). (1)
+   q934(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20094:Z2), Z_eq_Z(y:Z1,15888:Z3). (1)
 Applying inference rule:
-   q933(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11001:Z2), Z_eq_Z(y:Z1,1444:Z3). (1)
+   q933(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14514:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
 Applying inference rule:
-   q932(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6725:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q932(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11348:Z2), Z_eq_Z(y:Z1,17381:Z3). (1)
 Applying inference rule:
-   q931(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16578:Z2), Z_eq_Z(y:Z1,8603:Z3). (1)
+   q931(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11257:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q930(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16405:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q930(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14256:Z2), Z_eq_Z(y:Z1,19673:Z3). (1)
 Applying inference rule:
-   q929(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21050:Z2), Z_eq_Z(y:Z1,13600:Z3). (1)
+   q929(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7511:Z2), Z_eq_Z(y:Z1,5032:Z3). (1)
 Applying inference rule:
-   q928(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6714:Z2), Z_eq_Z(y:Z1,4314:Z3). (1)
+   q928(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15184:Z2), Z_eq_Z(y:Z1,1026:Z3). (1)
 Applying inference rule:
-   q927(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21692:Z2), Z_eq_Z(y:Z1,9748:Z3). (1)
+   q927(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18817:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
 Applying inference rule:
-   q926(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16346:Z2), Z_eq_Z(y:Z1,7446:Z3). (1)
+   q926(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3718:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q925(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,780:Z2), Z_eq_Z(y:Z1,10:Z3). (1)
+   q925(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11140:Z2), Z_eq_Z(y:Z1,5965:Z3). (1)
 Applying inference rule:
-   q924(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9667:Z2), Z_eq_Z(y:Z1,15540:Z3). (1)
+   q924(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21914:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
 Applying inference rule:
-   q923(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10746:Z2), Z_eq_Z(y:Z1,20090:Z3). (1)
+   q923(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20403:Z2), Z_eq_Z(y:Z1,20649:Z3). (1)
 Applying inference rule:
-   q922(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6325:Z2), Z_eq_Z(y:Z1,13964:Z3). (1)
+   q922(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19439:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q921(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9271:Z2), Z_eq_Z(y:Z1,22276:Z3). (1)
+   q921(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21896:Z2), Z_eq_Z(y:Z1,18058:Z3). (1)
 Applying inference rule:
-   q920(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8137:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q920(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14340:Z2), Z_eq_Z(y:Z1,10738:Z3). (1)
 Applying inference rule:
-   q919(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10772:Z2), Z_eq_Z(y:Z1,15583:Z3). (1)
+   q919(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,752:Z2), Z_eq_Z(y:Z1,10:Z3). (1)
 Applying inference rule:
-   q918(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18935:Z2), Z_eq_Z(y:Z1,16875:Z3). (1)
+   q918(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9407:Z2), Z_eq_Z(y:Z1,21646:Z3). (1)
 Applying inference rule:
-   q917(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7696:Z2), Z_eq_Z(y:Z1,4225:Z3). (1)
+   q917(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,243:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
 Applying inference rule:
-   q916(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13461:Z2), Z_eq_Z(y:Z1,9954:Z3). (1)
+   q916(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19114:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q915(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18240:Z2), Z_eq_Z(y:Z1,1368:Z3). (1)
+   q915(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12842:Z2), Z_eq_Z(y:Z1,6361:Z3). (1)
 Applying inference rule:
-   q914(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12495:Z2), Z_eq_Z(y:Z1,19630:Z3). (1)
+   q914(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8350:Z2), Z_eq_Z(y:Z1,24:Z3). (1)
 Applying inference rule:
-   q913(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21438:Z2), Z_eq_Z(y:Z1,2066:Z3). (1)
+   q913(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9142:Z2), Z_eq_Z(y:Z1,11671:Z3). (1)
 Applying inference rule:
-   q912(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6161:Z2), Z_eq_Z(y:Z1,6090:Z3). (1)
+   q912(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6387:Z2), Z_eq_Z(y:Z1,11555:Z3). (1)
 Applying inference rule:
-   q911(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22448:Z2), Z_eq_Z(y:Z1,12603:Z3). (1)
+   q911(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16690:Z2), Z_eq_Z(y:Z1,24:Z3). (1)
 Applying inference rule:
-   q910(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14707:Z2), Z_eq_Z(y:Z1,3533:Z3). (1)
+   q910(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11449:Z2), Z_eq_Z(y:Z1,3719:Z3). (1)
 Applying inference rule:
-   q909(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21627:Z2), Z_eq_Z(y:Z1,19256:Z3). (1)
+   q909(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21237:Z2), Z_eq_Z(y:Z1,10923:Z3). (1)
 Applying inference rule:
-   q908(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15642:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q908(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,639:Z2), Z_eq_Z(y:Z1,9265:Z3). (1)
 Applying inference rule:
-   q907(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6364:Z2), Z_eq_Z(y:Z1,7624:Z3). (1)
+   q907(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21210:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q906(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17318:Z2), Z_eq_Z(y:Z1,3430:Z3). (1)
+   q906(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6090:Z2), Z_eq_Z(y:Z1,19859:Z3). (1)
 Applying inference rule:
-   q905(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17603:Z2), Z_eq_Z(y:Z1,15989:Z3). (1)
+   q905(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9301:Z2), Z_eq_Z(y:Z1,22219:Z3). (1)
 Applying inference rule:
-   q904(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22260:Z2), Z_eq_Z(y:Z1,20680:Z3). (1)
+   q904(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19014:Z2), Z_eq_Z(y:Z1,2928:Z3). (1)
 Applying inference rule:
-   q903(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6122:Z2), Z_eq_Z(y:Z1,633:Z3). (1)
+   q903(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3157:Z2), Z_eq_Z(y:Z1,920:Z3). (1)
 Applying inference rule:
-   q902(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11578:Z2), Z_eq_Z(y:Z1,18646:Z3). (1)
+   q902(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16993:Z2), Z_eq_Z(y:Z1,21111:Z3). (1)
 Applying inference rule:
-   q901(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16865:Z2), Z_eq_Z(y:Z1,12707:Z3). (1)
+   q901(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12121:Z2), Z_eq_Z(y:Z1,1638:Z3). (1)
 Applying inference rule:
-   q900(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17147:Z2), Z_eq_Z(y:Z1,1474:Z3). (1)
+   q900(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15362:Z2), Z_eq_Z(y:Z1,6021:Z3). (1)
 Applying inference rule:
-   q899(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1326:Z2), Z_eq_Z(y:Z1,9805:Z3). (1)
+   q899(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14498:Z2), Z_eq_Z(y:Z1,12661:Z3). (1)
 Applying inference rule:
-   q898(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19742:Z2), Z_eq_Z(y:Z1,5774:Z3). (1)
+   q898(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8306:Z2), Z_eq_Z(y:Z1,72:Z3). (1)
 Applying inference rule:
-   q897(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7991:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
+   q897(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6634:Z2), Z_eq_Z(y:Z1,5626:Z3). (1)
 Applying inference rule:
-   q896(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22054:Z2), Z_eq_Z(y:Z1,306:Z3). (1)
+   q896(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19187:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q895(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12985:Z2), Z_eq_Z(y:Z1,10710:Z3). (1)
+   q895(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14736:Z2), Z_eq_Z(y:Z1,20759:Z3). (1)
 Applying inference rule:
-   q894(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11265:Z2), Z_eq_Z(y:Z1,821:Z3). (1)
+   q894(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17503:Z2), Z_eq_Z(y:Z1,22033:Z3). (1)
 Applying inference rule:
-   q893(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18082:Z2), Z_eq_Z(y:Z1,18493:Z3). (1)
+   q893(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18731:Z2), Z_eq_Z(y:Z1,2066:Z3). (1)
 Applying inference rule:
-   q892(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14679:Z2), Z_eq_Z(y:Z1,9675:Z3). (1)
+   q892(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6843:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
 Applying inference rule:
-   q891(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13589:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
+   q891(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16691:Z2), Z_eq_Z(y:Z1,7759:Z3). (1)
 Applying inference rule:
-   q890(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3212:Z2), Z_eq_Z(y:Z1,22035:Z3). (1)
+   q890(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4555:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q889(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17364:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q889(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15990:Z2), Z_eq_Z(y:Z1,373:Z3). (1)
 Applying inference rule:
-   q888(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,117:Z2), Z_eq_Z(y:Z1,10:Z3). (1)
+   q888(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2571:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
 Applying inference rule:
-   q887(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15184:Z2), Z_eq_Z(y:Z1,4382:Z3). (1)
+   q887(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20958:Z2), Z_eq_Z(y:Z1,8631:Z3). (1)
 Applying inference rule:
-   q886(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8847:Z2), Z_eq_Z(y:Z1,16568:Z3). (1)
+   q886(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21160:Z2), Z_eq_Z(y:Z1,13497:Z3). (1)
 Applying inference rule:
-   q885(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17782:Z2), Z_eq_Z(y:Z1,10160:Z3). (1)
+   q885(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,41:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q884(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21312:Z2), Z_eq_Z(y:Z1,4774:Z3). (1)
+   q884(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12158:Z2), Z_eq_Z(y:Z1,18760:Z3). (1)
 Applying inference rule:
-   q883(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4734:Z2), Z_eq_Z(y:Z1,1618:Z3). (1)
+   q883(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,286:Z2), Z_eq_Z(y:Z1,15664:Z3). (1)
 Applying inference rule:
-   q882(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2483:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
+   q882(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1494:Z2), Z_eq_Z(y:Z1,13980:Z3). (1)
 Applying inference rule:
-   q881(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15755:Z2), Z_eq_Z(y:Z1,346:Z3). (1)
+   q881(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11641:Z2), Z_eq_Z(y:Z1,2903:Z3). (1)
 Applying inference rule:
-   q880(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3969:Z2), Z_eq_Z(y:Z1,22450:Z3). (1)
+   q880(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8953:Z2), Z_eq_Z(y:Z1,4288:Z3). (1)
 Applying inference rule:
-   q879(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1291:Z2), Z_eq_Z(y:Z1,21566:Z3). (1)
+   q879(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21522:Z2), Z_eq_Z(y:Z1,20534:Z3). (1)
 Applying inference rule:
-   q878(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8720:Z2), Z_eq_Z(y:Z1,14955:Z3). (1)
+   q878(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14734:Z2), Z_eq_Z(y:Z1,16:Z3). (1)
 Applying inference rule:
-   q877(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19642:Z2), Z_eq_Z(y:Z1,14462:Z3). (1)
+   q877(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19495:Z2), Z_eq_Z(y:Z1,11736:Z3). (1)
 Applying inference rule:
-   q876(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18948:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q876(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13245:Z2), Z_eq_Z(y:Z1,3566:Z3). (1)
 Applying inference rule:
-   q875(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20845:Z2), Z_eq_Z(y:Z1,1520:Z3). (1)
+   q875(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18549:Z2), Z_eq_Z(y:Z1,7219:Z3). (1)
 Applying inference rule:
-   q874(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9930:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q874(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5936:Z2), Z_eq_Z(y:Z1,17249:Z3). (1)
 Applying inference rule:
-   q873(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10836:Z2), Z_eq_Z(y:Z1,10940:Z3). (1)
+   q873(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3376:Z2), Z_eq_Z(y:Z1,633:Z3). (1)
 Applying inference rule:
-   q872(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21924:Z2), Z_eq_Z(y:Z1,10764:Z3). (1)
+   q872(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18442:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
 Applying inference rule:
-   q871(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1153:Z2), Z_eq_Z(y:Z1,3217:Z3). (1)
+   q871(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5248:Z2), Z_eq_Z(y:Z1,1897:Z3). (1)
 Applying inference rule:
-   q870(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3394:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
+   q870(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21046:Z2), Z_eq_Z(y:Z1,8876:Z3). (1)
 Applying inference rule:
-   q869(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20329:Z2), Z_eq_Z(y:Z1,13193:Z3). (1)
+   q869(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20060:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q868(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4005:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
+   q868(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4184:Z2), Z_eq_Z(y:Z1,21295:Z3). (1)
 Applying inference rule:
-   q867(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7726:Z2), Z_eq_Z(y:Z1,1857:Z3). (1)
+   q867(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17822:Z2), Z_eq_Z(y:Z1,7060:Z3). (1)
 Applying inference rule:
-   q866(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4674:Z2), Z_eq_Z(y:Z1,12911:Z3). (1)
+   q866(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14405:Z2), Z_eq_Z(y:Z1,15333:Z3). (1)
 Applying inference rule:
-   q865(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1603:Z2), Z_eq_Z(y:Z1,14460:Z3). (1)
+   q865(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15693:Z2), Z_eq_Z(y:Z1,4288:Z3). (1)
 Applying inference rule:
-   q864(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1830:Z2), Z_eq_Z(y:Z1,9118:Z3). (1)
+   q864(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3856:Z2), Z_eq_Z(y:Z1,24:Z3). (1)
 Applying inference rule:
-   q863(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6497:Z2), Z_eq_Z(y:Z1,6482:Z3). (1)
+   q863(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1815:Z2), Z_eq_Z(y:Z1,1526:Z3). (1)
 Applying inference rule:
-   q862(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1592:Z2), Z_eq_Z(y:Z1,3865:Z3). (1)
+   q862(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14724:Z2), Z_eq_Z(y:Z1,8415:Z3). (1)
 Applying inference rule:
-   q861(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12911:Z2), Z_eq_Z(y:Z1,9694:Z3). (1)
+   q861(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13599:Z2), Z_eq_Z(y:Z1,13507:Z3). (1)
 Applying inference rule:
-   q860(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13772:Z2), Z_eq_Z(y:Z1,5206:Z3). (1)
+   q860(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21770:Z2), Z_eq_Z(y:Z1,19872:Z3). (1)
 Applying inference rule:
-   q859(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12717:Z2), Z_eq_Z(y:Z1,3518:Z3). (1)
+   q859(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18703:Z2), Z_eq_Z(y:Z1,4169:Z3). (1)
 Applying inference rule:
-   q858(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1490:Z2), Z_eq_Z(y:Z1,419:Z3). (1)
+   q858(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21480:Z2), Z_eq_Z(y:Z1,391:Z3). (1)
 Applying inference rule:
-   q857(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18052:Z2), Z_eq_Z(y:Z1,9453:Z3). (1)
+   q857(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1332:Z2), Z_eq_Z(y:Z1,13718:Z3). (1)
 Applying inference rule:
-   q856(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10444:Z2), Z_eq_Z(y:Z1,8815:Z3). (1)
+   q856(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14565:Z2), Z_eq_Z(y:Z1,3797:Z3). (1)
 Applying inference rule:
-   q855(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11042:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q855(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9509:Z2), Z_eq_Z(y:Z1,127:Z3). (1)
 Applying inference rule:
-   q854(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3279:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
+   q854(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3311:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q853(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19079:Z2), Z_eq_Z(y:Z1,6361:Z3). (1)
+   q853(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12677:Z2), Z_eq_Z(y:Z1,7674:Z3). (1)
 Applying inference rule:
-   q852(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11080:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
+   q852(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10034:Z2), Z_eq_Z(y:Z1,4474:Z3). (1)
 Applying inference rule:
-   q851(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4881:Z2), Z_eq_Z(y:Z1,346:Z3). (1)
+   q851(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2317:Z2), Z_eq_Z(y:Z1,16132:Z3). (1)
 Applying inference rule:
-   q850(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10596:Z2), Z_eq_Z(y:Z1,7280:Z3). (1)
+   q850(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17437:Z2), Z_eq_Z(y:Z1,19784:Z3). (1)
 Applying inference rule:
-   q849(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2980:Z2), Z_eq_Z(y:Z1,6479:Z3). (1)
+   q849(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1181:Z2), Z_eq_Z(y:Z1,66:Z3). (1)
 Applying inference rule:
-   q848(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5205:Z2), Z_eq_Z(y:Z1,306:Z3). (1)
+   q848(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7861:Z2), Z_eq_Z(y:Z1,12974:Z3). (1)
 Applying inference rule:
-   q847(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7325:Z2), Z_eq_Z(y:Z1,2443:Z3). (1)
+   q847(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10059:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
 Applying inference rule:
-   q846(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15351:Z2), Z_eq_Z(y:Z1,18815:Z3). (1)
+   q846(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5367:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q845(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14097:Z2), Z_eq_Z(y:Z1,19120:Z3). (1)
+   q845(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,730:Z2), Z_eq_Z(y:Z1,1033:Z3). (1)
 Applying inference rule:
-   q844(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18679:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q844(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1155:Z2), Z_eq_Z(y:Z1,21731:Z3). (1)
 Applying inference rule:
-   q843(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2411:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q843(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22315:Z2), Z_eq_Z(y:Z1,1929:Z3). (1)
 Applying inference rule:
-   q842(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20781:Z2), Z_eq_Z(y:Z1,14435:Z3). (1)
+   q842(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12535:Z2), Z_eq_Z(y:Z1,16557:Z3). (1)
 Applying inference rule:
-   q841(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8207:Z2), Z_eq_Z(y:Z1,18269:Z3). (1)
+   q841(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19454:Z2), Z_eq_Z(y:Z1,5619:Z3). (1)
 Applying inference rule:
-   q840(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20050:Z2), Z_eq_Z(y:Z1,7961:Z3). (1)
+   q840(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2521:Z2), Z_eq_Z(y:Z1,2469:Z3). (1)
 Applying inference rule:
-   q839(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4666:Z2), Z_eq_Z(y:Z1,375:Z3). (1)
+   q839(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20955:Z2), Z_eq_Z(y:Z1,1929:Z3). (1)
 Applying inference rule:
-   q838(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6836:Z2), Z_eq_Z(y:Z1,15078:Z3). (1)
+   q838(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2675:Z2), Z_eq_Z(y:Z1,11209:Z3). (1)
 Applying inference rule:
-   q837(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13874:Z2), Z_eq_Z(y:Z1,18292:Z3). (1)
+   q837(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20575:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q836(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16882:Z2), Z_eq_Z(y:Z1,66:Z3). (1)
+   q836(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19861:Z2), Z_eq_Z(y:Z1,9914:Z3). (1)
 Applying inference rule:
-   q835(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14947:Z2), Z_eq_Z(y:Z1,22530:Z3). (1)
+   q835(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10596:Z2), Z_eq_Z(y:Z1,2224:Z3). (1)
 Applying inference rule:
-   q834(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7925:Z2), Z_eq_Z(y:Z1,10050:Z3). (1)
+   q834(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20552:Z2), Z_eq_Z(y:Z1,18266:Z3). (1)
 Applying inference rule:
-   q833(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7751:Z2), Z_eq_Z(y:Z1,1429:Z3). (1)
+   q833(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4935:Z2), Z_eq_Z(y:Z1,4437:Z3). (1)
 Applying inference rule:
-   q832(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16318:Z2), Z_eq_Z(y:Z1,2578:Z3). (1)
+   q832(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15130:Z2), Z_eq_Z(y:Z1,531:Z3). (1)
 Applying inference rule:
-   q831(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7031:Z2), Z_eq_Z(y:Z1,8052:Z3). (1)
+   q831(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4286:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
 Applying inference rule:
-   q830(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13211:Z2), Z_eq_Z(y:Z1,20505:Z3). (1)
+   q830(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5938:Z2), Z_eq_Z(y:Z1,3101:Z3). (1)
 Applying inference rule:
-   q829(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1220:Z2), Z_eq_Z(y:Z1,4:Z3). (1)
+   q829(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8089:Z2), Z_eq_Z(y:Z1,21854:Z3). (1)
 Applying inference rule:
-   q828(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21323:Z2), Z_eq_Z(y:Z1,8460:Z3). (1)
+   q828(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7859:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q827(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18289:Z2), Z_eq_Z(y:Z1,66:Z3). (1)
+   q827(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13203:Z2), Z_eq_Z(y:Z1,16018:Z3). (1)
 Applying inference rule:
-   q826(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3041:Z2), Z_eq_Z(y:Z1,4211:Z3). (1)
+   q826(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5790:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q825(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15072:Z2), Z_eq_Z(y:Z1,1526:Z3). (1)
+   q825(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11722:Z2), Z_eq_Z(y:Z1,11888:Z3). (1)
 Applying inference rule:
-   q824(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11133:Z2), Z_eq_Z(y:Z1,15812:Z3). (1)
+   q824(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8777:Z2), Z_eq_Z(y:Z1,17409:Z3). (1)
 Applying inference rule:
-   q823(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13231:Z2), Z_eq_Z(y:Z1,14317:Z3). (1)
+   q823(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11646:Z2), Z_eq_Z(y:Z1,14805:Z3). (1)
 Applying inference rule:
-   q822(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10196:Z2), Z_eq_Z(y:Z1,2366:Z3). (1)
+   q822(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9048:Z2), Z_eq_Z(y:Z1,66:Z3). (1)
 Applying inference rule:
-   q821(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14146:Z2), Z_eq_Z(y:Z1,22077:Z3). (1)
+   q821(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16493:Z2), Z_eq_Z(y:Z1,19900:Z3). (1)
 Applying inference rule:
-   q820(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4653:Z2), Z_eq_Z(y:Z1,8692:Z3). (1)
+   q820(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19466:Z2), Z_eq_Z(y:Z1,3430:Z3). (1)
 Applying inference rule:
-   q819(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2206:Z2), Z_eq_Z(y:Z1,224:Z3). (1)
+   q819(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7895:Z2), Z_eq_Z(y:Z1,15744:Z3). (1)
 Applying inference rule:
-   q818(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17828:Z2), Z_eq_Z(y:Z1,590:Z3). (1)
+   q818(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,242:Z2), Z_eq_Z(y:Z1,1033:Z3). (1)
 Applying inference rule:
-   q817(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11125:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
+   q817(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3876:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q816(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14426:Z2), Z_eq_Z(y:Z1,12772:Z3). (1)
+   q816(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19239:Z2), Z_eq_Z(y:Z1,15922:Z3). (1)
 Applying inference rule:
-   q815(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19589:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q815(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12280:Z2), Z_eq_Z(y:Z1,4774:Z3). (1)
 Applying inference rule:
-   q814(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18164:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q814(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6163:Z2), Z_eq_Z(y:Z1,15320:Z3). (1)
 Applying inference rule:
-   q813(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9134:Z2), Z_eq_Z(y:Z1,18793:Z3). (1)
+   q813(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21631:Z2), Z_eq_Z(y:Z1,14836:Z3). (1)
 Applying inference rule:
-   q812(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19494:Z2), Z_eq_Z(y:Z1,1037:Z3). (1)
+   q812(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14165:Z2), Z_eq_Z(y:Z1,4491:Z3). (1)
 Applying inference rule:
-   q811(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22515:Z2), Z_eq_Z(y:Z1,323:Z3). (1)
+   q811(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10663:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q810(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8561:Z2), Z_eq_Z(y:Z1,7120:Z3). (1)
+   q810(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,984:Z2), Z_eq_Z(y:Z1,8410:Z3). (1)
 Applying inference rule:
-   q809(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,329:Z2), Z_eq_Z(y:Z1,17858:Z3). (1)
+   q809(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1402:Z2), Z_eq_Z(y:Z1,14203:Z3). (1)
 Applying inference rule:
-   q808(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15905:Z2), Z_eq_Z(y:Z1,22033:Z3). (1)
+   q808(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22119:Z2), Z_eq_Z(y:Z1,8597:Z3). (1)
 Applying inference rule:
-   q807(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17913:Z2), Z_eq_Z(y:Z1,346:Z3). (1)
+   q807(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,365:Z2), Z_eq_Z(y:Z1,4261:Z3). (1)
 Applying inference rule:
-   q806(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9864:Z2), Z_eq_Z(y:Z1,419:Z3). (1)
+   q806(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,823:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
 Applying inference rule:
-   q805(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2704:Z2), Z_eq_Z(y:Z1,286:Z3). (1)
+   q805(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16761:Z2), Z_eq_Z(y:Z1,2586:Z3). (1)
 Applying inference rule:
-   q804(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1918:Z2), Z_eq_Z(y:Z1,5120:Z3). (1)
+   q804(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9463:Z2), Z_eq_Z(y:Z1,15385:Z3). (1)
 Applying inference rule:
-   q803(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,244:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
+   q803(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3482:Z2), Z_eq_Z(y:Z1,159:Z3). (1)
 Applying inference rule:
-   q802(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2091:Z2), Z_eq_Z(y:Z1,9174:Z3). (1)
+   q802(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22410:Z2), Z_eq_Z(y:Z1,6901:Z3). (1)
 Applying inference rule:
-   q801(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14449:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q801(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2261:Z2), Z_eq_Z(y:Z1,66:Z3). (1)
 Applying inference rule:
-   q800(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14267:Z2), Z_eq_Z(y:Z1,3104:Z3). (1)
+   q800(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4507:Z2), Z_eq_Z(y:Z1,15893:Z3). (1)
 Applying inference rule:
-   q799(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15051:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q799(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2397:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
 Applying inference rule:
-   q798(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8051:Z2), Z_eq_Z(y:Z1,20524:Z3). (1)
+   q798(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21709:Z2), Z_eq_Z(y:Z1,11329:Z3). (1)
 Applying inference rule:
-   q797(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8984:Z2), Z_eq_Z(y:Z1,5552:Z3). (1)
+   q797(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13427:Z2), Z_eq_Z(y:Z1,2213:Z3). (1)
 Applying inference rule:
-   q796(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8954:Z2), Z_eq_Z(y:Z1,12253:Z3). (1)
+   q796(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7358:Z2), Z_eq_Z(y:Z1,19843:Z3). (1)
 Applying inference rule:
-   q795(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6298:Z2), Z_eq_Z(y:Z1,1567:Z3). (1)
+   q795(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16018:Z2), Z_eq_Z(y:Z1,1423:Z3). (1)
 Applying inference rule:
-   q794(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1953:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q794(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2042:Z2), Z_eq_Z(y:Z1,6602:Z3). (1)
 Applying inference rule:
-   q793(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1024:Z2), Z_eq_Z(y:Z1,22151:Z3). (1)
+   q793(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20862:Z2), Z_eq_Z(y:Z1,1401:Z3). (1)
 Applying inference rule:
-   q792(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15400:Z2), Z_eq_Z(y:Z1,4277:Z3). (1)
+   q792(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15755:Z2), Z_eq_Z(y:Z1,346:Z3). (1)
 Applying inference rule:
-   q791(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12755:Z2), Z_eq_Z(y:Z1,375:Z3). (1)
+   q791(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16418:Z2), Z_eq_Z(y:Z1,633:Z3). (1)
 Applying inference rule:
-   q790(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8421:Z2), Z_eq_Z(y:Z1,633:Z3). (1)
+   q790(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11590:Z2), Z_eq_Z(y:Z1,1127:Z3). (1)
 Applying inference rule:
-   q789(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12023:Z2), Z_eq_Z(y:Z1,769:Z3). (1)
+   q789(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15924:Z2), Z_eq_Z(y:Z1,524:Z3). (1)
 Applying inference rule:
-   q788(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,820:Z2), Z_eq_Z(y:Z1,12772:Z3). (1)
+   q788(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19335:Z2), Z_eq_Z(y:Z1,8220:Z3). (1)
 Applying inference rule:
-   q787(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17354:Z2), Z_eq_Z(y:Z1,14516:Z3). (1)
+   q787(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19923:Z2), Z_eq_Z(y:Z1,2658:Z3). (1)
 Applying inference rule:
-   q786(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5975:Z2), Z_eq_Z(y:Z1,15458:Z3). (1)
+   q786(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14498:Z2), Z_eq_Z(y:Z1,22033:Z3). (1)
 Applying inference rule:
-   q785(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3122:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q785(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12841:Z2), Z_eq_Z(y:Z1,1178:Z3). (1)
 Applying inference rule:
-   q784(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3893:Z2), Z_eq_Z(y:Z1,2703:Z3). (1)
+   q784(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14468:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q783(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15204:Z2), Z_eq_Z(y:Z1,895:Z3). (1)
+   q783(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8611:Z2), Z_eq_Z(y:Z1,11860:Z3). (1)
 Applying inference rule:
-   q782(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15337:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q782(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8708:Z2), Z_eq_Z(y:Z1,22358:Z3). (1)
 Applying inference rule:
-   q781(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9225:Z2), Z_eq_Z(y:Z1,6241:Z3). (1)
+   q781(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2150:Z2), Z_eq_Z(y:Z1,633:Z3). (1)
 Applying inference rule:
-   q780(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10690:Z2), Z_eq_Z(y:Z1,19341:Z3). (1)
+   q780(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5092:Z2), Z_eq_Z(y:Z1,12078:Z3). (1)
 Applying inference rule:
-   q779(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3770:Z2), Z_eq_Z(y:Z1,8457:Z3). (1)
+   q779(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3998:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q778(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11939:Z2), Z_eq_Z(y:Z1,18954:Z3). (1)
+   q778(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3272:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q777(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18285:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
+   q777(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15925:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q776(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18845:Z2), Z_eq_Z(y:Z1,4976:Z3). (1)
+   q776(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7004:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q775(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6217:Z2), Z_eq_Z(y:Z1,21612:Z3). (1)
+   q775(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7906:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
 Applying inference rule:
-   q774(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13171:Z2), Z_eq_Z(y:Z1,769:Z3). (1)
+   q774(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2635:Z2), Z_eq_Z(y:Z1,1058:Z3). (1)
 Applying inference rule:
-   q773(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13466:Z2), Z_eq_Z(y:Z1,1826:Z3). (1)
+   q773(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18739:Z2), Z_eq_Z(y:Z1,19095:Z3). (1)
 Applying inference rule:
-   q772(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17394:Z2), Z_eq_Z(y:Z1,103:Z3). (1)
+   q772(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22496:Z2), Z_eq_Z(y:Z1,7971:Z3). (1)
 Applying inference rule:
-   q771(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10531:Z2), Z_eq_Z(y:Z1,16:Z3). (1)
+   q771(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22264:Z2), Z_eq_Z(y:Z1,11818:Z3). (1)
 Applying inference rule:
-   q770(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21388:Z2), Z_eq_Z(y:Z1,990:Z3). (1)
+   q770(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16968:Z2), Z_eq_Z(y:Z1,6613:Z3). (1)
 Applying inference rule:
-   q769(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6357:Z2), Z_eq_Z(y:Z1,5124:Z3). (1)
+   q769(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21030:Z2), Z_eq_Z(y:Z1,11002:Z3). (1)
 Applying inference rule:
-   q768(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11322:Z2), Z_eq_Z(y:Z1,21051:Z3). (1)
+   q768(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11803:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q767(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4573:Z2), Z_eq_Z(y:Z1,18709:Z3). (1)
+   q767(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11771:Z2), Z_eq_Z(y:Z1,13387:Z3). (1)
 Applying inference rule:
-   q766(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,158:Z2), Z_eq_Z(y:Z1,224:Z3). (1)
+   q766(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1494:Z2), Z_eq_Z(y:Z1,10:Z3). (1)
 Applying inference rule:
-   q765(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19101:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q765(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12216:Z2), Z_eq_Z(y:Z1,20387:Z3). (1)
 Applying inference rule:
-   q764(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1670:Z2), Z_eq_Z(y:Z1,3666:Z3). (1)
+   q764(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19166:Z2), Z_eq_Z(y:Z1,2109:Z3). (1)
 Applying inference rule:
-   q763(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10547:Z2), Z_eq_Z(y:Z1,16640:Z3). (1)
+   q763(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14130:Z2), Z_eq_Z(y:Z1,211:Z3). (1)
 Applying inference rule:
-   q762(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18403:Z2), Z_eq_Z(y:Z1,13819:Z3). (1)
+   q762(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1901:Z2), Z_eq_Z(y:Z1,17316:Z3). (1)
 Applying inference rule:
-   q761(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15105:Z2), Z_eq_Z(y:Z1,13499:Z3). (1)
+   q761(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6087:Z2), Z_eq_Z(y:Z1,4886:Z3). (1)
 Applying inference rule:
-   q760(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6704:Z2), Z_eq_Z(y:Z1,4840:Z3). (1)
+   q760(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8277:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q759(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19189:Z2), Z_eq_Z(y:Z1,17545:Z3). (1)
+   q759(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12904:Z2), Z_eq_Z(y:Z1,2948:Z3). (1)
 Applying inference rule:
-   q758(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6865:Z2), Z_eq_Z(y:Z1,15892:Z3). (1)
+   q758(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16606:Z2), Z_eq_Z(y:Z1,36:Z3). (1)
 Applying inference rule:
-   q757(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17264:Z2), Z_eq_Z(y:Z1,4593:Z3). (1)
+   q757(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19729:Z2), Z_eq_Z(y:Z1,10170:Z3). (1)
 Applying inference rule:
-   q756(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1994:Z2), Z_eq_Z(y:Z1,8571:Z3). (1)
+   q756(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17913:Z2), Z_eq_Z(y:Z1,346:Z3). (1)
 Applying inference rule:
-   q755(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20285:Z2), Z_eq_Z(y:Z1,330:Z3). (1)
+   q755(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,140:Z2), Z_eq_Z(y:Z1,14952:Z3). (1)
 Applying inference rule:
-   q754(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6487:Z2), Z_eq_Z(y:Z1,16331:Z3). (1)
+   q754(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3479:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
 Applying inference rule:
-   q753(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,699:Z2), Z_eq_Z(y:Z1,4:Z3). (1)
+   q753(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9878:Z2), Z_eq_Z(y:Z1,323:Z3). (1)
 Applying inference rule:
-   q752(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5621:Z2), Z_eq_Z(y:Z1,7444:Z3). (1)
+   q752(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13710:Z2), Z_eq_Z(y:Z1,17743:Z3). (1)
 Applying inference rule:
-   q751(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13868:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q751(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2556:Z2), Z_eq_Z(y:Z1,5203:Z3). (1)
 Applying inference rule:
-   q750(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5600:Z2), Z_eq_Z(y:Z1,13801:Z3). (1)
+   q750(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,159:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q749(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20104:Z2), Z_eq_Z(y:Z1,1037:Z3). (1)
+   q749(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1836:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q748(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19125:Z2), Z_eq_Z(y:Z1,648:Z3). (1)
+   q748(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16107:Z2), Z_eq_Z(y:Z1,4009:Z3). (1)
 Applying inference rule:
-   q747(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2318:Z2), Z_eq_Z(y:Z1,384:Z3). (1)
+   q747(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15572:Z2), Z_eq_Z(y:Z1,13524:Z3). (1)
 Applying inference rule:
-   q746(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1539:Z2), Z_eq_Z(y:Z1,1298:Z3). (1)
+   q746(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20886:Z2), Z_eq_Z(y:Z1,16860:Z3). (1)
 Applying inference rule:
-   q745(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14677:Z2), Z_eq_Z(y:Z1,8066:Z3). (1)
+   q745(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5893:Z2), Z_eq_Z(y:Z1,21783:Z3). (1)
 Applying inference rule:
-   q744(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,654:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q744(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8815:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
 Applying inference rule:
-   q743(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8770:Z2), Z_eq_Z(y:Z1,3981:Z3). (1)
+   q743(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8669:Z2), Z_eq_Z(y:Z1,14596:Z3). (1)
 Applying inference rule:
-   q742(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7593:Z2), Z_eq_Z(y:Z1,3333:Z3). (1)
+   q742(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9892:Z2), Z_eq_Z(y:Z1,12245:Z3). (1)
 Applying inference rule:
-   q741(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20932:Z2), Z_eq_Z(y:Z1,7674:Z3). (1)
+   q741(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20652:Z2), Z_eq_Z(y:Z1,11327:Z3). (1)
 Applying inference rule:
-   q740(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12845:Z2), Z_eq_Z(y:Z1,18670:Z3). (1)
+   q740(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2608:Z2), Z_eq_Z(y:Z1,15800:Z3). (1)
 Applying inference rule:
-   q739(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5516:Z2), Z_eq_Z(y:Z1,784:Z3). (1)
+   q739(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17539:Z2), Z_eq_Z(y:Z1,3567:Z3). (1)
 Applying inference rule:
-   q738(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12912:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q738(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17828:Z2), Z_eq_Z(y:Z1,590:Z3). (1)
 Applying inference rule:
-   q737(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1356:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q737(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7976:Z2), Z_eq_Z(y:Z1,7961:Z3). (1)
 Applying inference rule:
-   q736(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2717:Z2), Z_eq_Z(y:Z1,20667:Z3). (1)
+   q736(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1950:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q735(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8213:Z2), Z_eq_Z(y:Z1,14702:Z3). (1)
+   q735(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3995:Z2), Z_eq_Z(y:Z1,6454:Z3). (1)
 Applying inference rule:
-   q734(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19708:Z2), Z_eq_Z(y:Z1,16857:Z3). (1)
+   q734(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20645:Z2), Z_eq_Z(y:Z1,6049:Z3). (1)
 Applying inference rule:
-   q733(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6039:Z2), Z_eq_Z(y:Z1,5016:Z3). (1)
+   q733(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1469:Z2), Z_eq_Z(y:Z1,1401:Z3). (1)
 Applying inference rule:
-   q732(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16605:Z2), Z_eq_Z(y:Z1,16:Z3). (1)
+   q732(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13967:Z2), Z_eq_Z(y:Z1,18898:Z3). (1)
 Applying inference rule:
-   q731(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6353:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q731(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9353:Z2), Z_eq_Z(y:Z1,15196:Z3). (1)
 Applying inference rule:
-   q730(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5365:Z2), Z_eq_Z(y:Z1,633:Z3). (1)
+   q730(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19215:Z2), Z_eq_Z(y:Z1,18927:Z3). (1)
 Applying inference rule:
-   q729(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5659:Z2), Z_eq_Z(y:Z1,1749:Z3). (1)
+   q729(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22419:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q728(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,709:Z2), Z_eq_Z(y:Z1,8667:Z3). (1)
+   q728(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21301:Z2), Z_eq_Z(y:Z1,6693:Z3). (1)
 Applying inference rule:
-   q727(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16819:Z2), Z_eq_Z(y:Z1,9379:Z3). (1)
+   q727(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20146:Z2), Z_eq_Z(y:Z1,13225:Z3). (1)
 Applying inference rule:
-   q726(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4029:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q726(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10649:Z2), Z_eq_Z(y:Z1,103:Z3). (1)
 Applying inference rule:
-   q725(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9014:Z2), Z_eq_Z(y:Z1,13444:Z3). (1)
+   q725(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11111:Z2), Z_eq_Z(y:Z1,4186:Z3). (1)
 Applying inference rule:
-   q724(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11495:Z2), Z_eq_Z(y:Z1,7287:Z3). (1)
+   q724(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5701:Z2), Z_eq_Z(y:Z1,976:Z3). (1)
 Applying inference rule:
-   q723(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13337:Z2), Z_eq_Z(y:Z1,5923:Z3). (1)
+   q723(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1460:Z2), Z_eq_Z(y:Z1,11217:Z3). (1)
 Applying inference rule:
-   q722(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22522:Z2), Z_eq_Z(y:Z1,18355:Z3). (1)
+   q722(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11380:Z2), Z_eq_Z(y:Z1,599:Z3). (1)
 Applying inference rule:
-   q721(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14215:Z2), Z_eq_Z(y:Z1,1904:Z3). (1)
+   q721(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20071:Z2), Z_eq_Z(y:Z1,16563:Z3). (1)
 Applying inference rule:
-   q720(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8465:Z2), Z_eq_Z(y:Z1,2265:Z3). (1)
+   q720(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15317:Z2), Z_eq_Z(y:Z1,17123:Z3). (1)
 Applying inference rule:
-   q719(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3342:Z2), Z_eq_Z(y:Z1,18221:Z3). (1)
+   q719(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4992:Z2), Z_eq_Z(y:Z1,4738:Z3). (1)
 Applying inference rule:
-   q718(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8402:Z2), Z_eq_Z(y:Z1,62:Z3). (1)
+   q718(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15791:Z2), Z_eq_Z(y:Z1,17853:Z3). (1)
 Applying inference rule:
-   q717(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1719:Z2), Z_eq_Z(y:Z1,6272:Z3). (1)
+   q717(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13404:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q716(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,0:Z2), Z_eq_Z(y:Z1,12640:Z3). (1)
+   q716(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11549:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q715(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5643:Z2), Z_eq_Z(y:Z1,1978:Z3). (1)
+   q715(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8652:Z2), Z_eq_Z(y:Z1,8616:Z3). (1)
 Applying inference rule:
-   q714(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20325:Z2), Z_eq_Z(y:Z1,7054:Z3). (1)
+   q714(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1068:Z2), Z_eq_Z(y:Z1,4:Z3). (1)
 Applying inference rule:
-   q713(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16628:Z2), Z_eq_Z(y:Z1,5061:Z3). (1)
+   q713(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16831:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q712(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16865:Z2), Z_eq_Z(y:Z1,19843:Z3). (1)
+   q712(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2222:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q711(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15378:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q711(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12323:Z2), Z_eq_Z(y:Z1,6279:Z3). (1)
 Applying inference rule:
-   q710(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14829:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q710(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9168:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q709(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21699:Z2), Z_eq_Z(y:Z1,3006:Z3). (1)
+   q709(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19402:Z2), Z_eq_Z(y:Z1,103:Z3). (1)
 Applying inference rule:
-   q708(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13054:Z2), Z_eq_Z(y:Z1,1204:Z3). (1)
+   q708(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13377:Z2), Z_eq_Z(y:Z1,4350:Z3). (1)
 Applying inference rule:
-   q707(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6702:Z2), Z_eq_Z(y:Z1,1231:Z3). (1)
+   q707(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7608:Z2), Z_eq_Z(y:Z1,11150:Z3). (1)
 Applying inference rule:
-   q706(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6512:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q706(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11491:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q705(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6769:Z2), Z_eq_Z(y:Z1,1291:Z3). (1)
+   q705(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21418:Z2), Z_eq_Z(y:Z1,11920:Z3). (1)
 Applying inference rule:
-   q704(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4916:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
+   q704(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21033:Z2), Z_eq_Z(y:Z1,6649:Z3). (1)
 Applying inference rule:
-   q703(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4794:Z2), Z_eq_Z(y:Z1,991:Z3). (1)
+   q703(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6968:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q702(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20263:Z2), Z_eq_Z(y:Z1,14634:Z3). (1)
+   q702(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16330:Z2), Z_eq_Z(y:Z1,1444:Z3). (1)
 Applying inference rule:
-   q701(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14006:Z2), Z_eq_Z(y:Z1,18508:Z3). (1)
+   q701(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10731:Z2), Z_eq_Z(y:Z1,10559:Z3). (1)
 Applying inference rule:
-   q700(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22418:Z2), Z_eq_Z(y:Z1,5770:Z3). (1)
+   q700(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6162:Z2), Z_eq_Z(y:Z1,6660:Z3). (1)
 Applying inference rule:
-   q699(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13260:Z2), Z_eq_Z(y:Z1,1672:Z3). (1)
+   q699(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5846:Z2), Z_eq_Z(y:Z1,7907:Z3). (1)
 Applying inference rule:
-   q698(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4343:Z2), Z_eq_Z(y:Z1,8668:Z3). (1)
+   q698(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5861:Z2), Z_eq_Z(y:Z1,1638:Z3). (1)
 Applying inference rule:
-   q697(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19188:Z2), Z_eq_Z(y:Z1,574:Z3). (1)
+   q697(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10336:Z2), Z_eq_Z(y:Z1,9591:Z3). (1)
 Applying inference rule:
-   q696(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10767:Z2), Z_eq_Z(y:Z1,9045:Z3). (1)
+   q696(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1125:Z2), Z_eq_Z(y:Z1,1078:Z3). (1)
 Applying inference rule:
-   q695(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3797:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
+   q695(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6079:Z2), Z_eq_Z(y:Z1,4434:Z3). (1)
 Applying inference rule:
-   q694(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18854:Z2), Z_eq_Z(y:Z1,76:Z3). (1)
+   q694(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9487:Z2), Z_eq_Z(y:Z1,9143:Z3). (1)
 Applying inference rule:
-   q693(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6819:Z2), Z_eq_Z(y:Z1,3244:Z3). (1)
+   q693(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20575:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q692(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4723:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
+   q692(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,290:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q691(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13830:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q691(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9681:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q690(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,923:Z2), Z_eq_Z(y:Z1,3602:Z3). (1)
+   q690(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21058:Z2), Z_eq_Z(y:Z1,1421:Z3). (1)
 Applying inference rule:
-   q689(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22426:Z2), Z_eq_Z(y:Z1,1368:Z3). (1)
+   q689(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10017:Z2), Z_eq_Z(y:Z1,8863:Z3). (1)
 Applying inference rule:
-   q688(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12731:Z2), Z_eq_Z(y:Z1,2213:Z3). (1)
+   q688(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20575:Z2), Z_eq_Z(y:Z1,12492:Z3). (1)
 Applying inference rule:
-   q687(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21216:Z2), Z_eq_Z(y:Z1,20771:Z3). (1)
+   q687(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22226:Z2), Z_eq_Z(y:Z1,6989:Z3). (1)
 Applying inference rule:
-   q686(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8962:Z2), Z_eq_Z(y:Z1,1356:Z3). (1)
+   q686(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5169:Z2), Z_eq_Z(y:Z1,9390:Z3). (1)
 Applying inference rule:
-   q685(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19956:Z2), Z_eq_Z(y:Z1,6110:Z3). (1)
+   q685(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21279:Z2), Z_eq_Z(y:Z1,3533:Z3). (1)
 Applying inference rule:
-   q684(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19147:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
+   q684(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3268:Z2), Z_eq_Z(y:Z1,2209:Z3). (1)
 Applying inference rule:
-   q683(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21749:Z2), Z_eq_Z(y:Z1,11876:Z3). (1)
+   q683(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17324:Z2), Z_eq_Z(y:Z1,346:Z3). (1)
 Applying inference rule:
-   q682(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14816:Z2), Z_eq_Z(y:Z1,19248:Z3). (1)
+   q682(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4129:Z2), Z_eq_Z(y:Z1,5375:Z3). (1)
 Applying inference rule:
-   q681(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3620:Z2), Z_eq_Z(y:Z1,871:Z3). (1)
+   q681(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21541:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q680(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15175:Z2), Z_eq_Z(y:Z1,11897:Z3). (1)
+   q680(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15066:Z2), Z_eq_Z(y:Z1,10097:Z3). (1)
 Applying inference rule:
-   q679(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7766:Z2), Z_eq_Z(y:Z1,17975:Z3). (1)
+   q679(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11633:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q678(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19141:Z2), Z_eq_Z(y:Z1,14268:Z3). (1)
+   q678(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9080:Z2), Z_eq_Z(y:Z1,21192:Z3). (1)
 Applying inference rule:
-   q677(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11184:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q677(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19969:Z2), Z_eq_Z(y:Z1,14935:Z3). (1)
 Applying inference rule:
-   q676(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3890:Z2), Z_eq_Z(y:Z1,20502:Z3). (1)
+   q676(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20849:Z2), Z_eq_Z(y:Z1,466:Z3). (1)
 Applying inference rule:
-   q675(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10074:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q675(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21995:Z2), Z_eq_Z(y:Z1,869:Z3). (1)
 Applying inference rule:
-   q674(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5607:Z2), Z_eq_Z(y:Z1,12326:Z3). (1)
+   q674(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7101:Z2), Z_eq_Z(y:Z1,4779:Z3). (1)
 Applying inference rule:
-   q673(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7013:Z2), Z_eq_Z(y:Z1,5178:Z3). (1)
+   q673(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20516:Z2), Z_eq_Z(y:Z1,103:Z3). (1)
 Applying inference rule:
-   q672(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10608:Z2), Z_eq_Z(y:Z1,6361:Z3). (1)
+   q672(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18921:Z2), Z_eq_Z(y:Z1,15770:Z3). (1)
 Applying inference rule:
-   q671(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21479:Z2), Z_eq_Z(y:Z1,4536:Z3). (1)
+   q671(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13085:Z2), Z_eq_Z(y:Z1,11164:Z3). (1)
 Applying inference rule:
-   q670(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17794:Z2), Z_eq_Z(y:Z1,21366:Z3). (1)
+   q670(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20732:Z2), Z_eq_Z(y:Z1,16106:Z3). (1)
 Applying inference rule:
-   q669(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7486:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
+   q669(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15866:Z2), Z_eq_Z(y:Z1,8479:Z3). (1)
 Applying inference rule:
-   q668(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21019:Z2), Z_eq_Z(y:Z1,14984:Z3). (1)
+   q668(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2580:Z2), Z_eq_Z(y:Z1,1023:Z3). (1)
 Applying inference rule:
-   q667(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9946:Z2), Z_eq_Z(y:Z1,21865:Z3). (1)
+   q667(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20442:Z2), Z_eq_Z(y:Z1,3548:Z3). (1)
 Applying inference rule:
-   q666(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15097:Z2), Z_eq_Z(y:Z1,2997:Z3). (1)
+   q666(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18895:Z2), Z_eq_Z(y:Z1,14429:Z3). (1)
 Applying inference rule:
-   q665(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3387:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q665(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9240:Z2), Z_eq_Z(y:Z1,621:Z3). (1)
 Applying inference rule:
-   q664(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4993:Z2), Z_eq_Z(y:Z1,16:Z3). (1)
+   q664(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12321:Z2), Z_eq_Z(y:Z1,5995:Z3). (1)
 Applying inference rule:
-   q663(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12832:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q663(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10771:Z2), Z_eq_Z(y:Z1,12503:Z3). (1)
 Applying inference rule:
-   q662(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8275:Z2), Z_eq_Z(y:Z1,14318:Z3). (1)
+   q662(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4143:Z2), Z_eq_Z(y:Z1,20980:Z3). (1)
 Applying inference rule:
-   q661(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,783:Z2), Z_eq_Z(y:Z1,346:Z3). (1)
+   q661(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2773:Z2), Z_eq_Z(y:Z1,9917:Z3). (1)
 Applying inference rule:
-   q660(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12118:Z2), Z_eq_Z(y:Z1,11717:Z3). (1)
+   q660(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18302:Z2), Z_eq_Z(y:Z1,14769:Z3). (1)
 Applying inference rule:
-   q659(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19052:Z2), Z_eq_Z(y:Z1,6881:Z3). (1)
+   q659(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12831:Z2), Z_eq_Z(y:Z1,9380:Z3). (1)
 Applying inference rule:
-   q658(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22219:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q658(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,104:Z2), Z_eq_Z(y:Z1,12099:Z3). (1)
 Applying inference rule:
-   q657(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6580:Z2), Z_eq_Z(y:Z1,3765:Z3). (1)
+   q657(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8094:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q656(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15339:Z2), Z_eq_Z(y:Z1,17381:Z3). (1)
+   q656(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20427:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q655(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17782:Z2), Z_eq_Z(y:Z1,10160:Z3). (1)
+   q655(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10462:Z2), Z_eq_Z(y:Z1,9130:Z3). (1)
 Applying inference rule:
-   q654(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2020:Z2), Z_eq_Z(y:Z1,18180:Z3). (1)
+   q654(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21063:Z2), Z_eq_Z(y:Z1,1597:Z3). (1)
 Applying inference rule:
-   q653(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18078:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q653(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3201:Z2), Z_eq_Z(y:Z1,76:Z3). (1)
 Applying inference rule:
-   q652(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15951:Z2), Z_eq_Z(y:Z1,6568:Z3). (1)
+   q652(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14449:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q651(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21680:Z2), Z_eq_Z(y:Z1,16043:Z3). (1)
+   q651(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2525:Z2), Z_eq_Z(y:Z1,1980:Z3). (1)
 Applying inference rule:
-   q650(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18427:Z2), Z_eq_Z(y:Z1,558:Z3). (1)
+   q650(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16944:Z2), Z_eq_Z(y:Z1,3548:Z3). (1)
 Applying inference rule:
-   q649(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9010:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q649(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2587:Z2), Z_eq_Z(y:Z1,2068:Z3). (1)
 Applying inference rule:
-   q648(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6195:Z2), Z_eq_Z(y:Z1,13353:Z3). (1)
+   q648(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12242:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q647(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13835:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
+   q647(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1170:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q646(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19322:Z2), Z_eq_Z(y:Z1,6170:Z3). (1)
+   q646(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15752:Z2), Z_eq_Z(y:Z1,2309:Z3). (1)
 Applying inference rule:
-   q645(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18234:Z2), Z_eq_Z(y:Z1,784:Z3). (1)
+   q645(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14296:Z2), Z_eq_Z(y:Z1,3440:Z3). (1)
 Applying inference rule:
-   q644(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17006:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
+   q644(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15741:Z2), Z_eq_Z(y:Z1,105:Z3). (1)
 Applying inference rule:
-   q643(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18490:Z2), Z_eq_Z(y:Z1,18773:Z3). (1)
+   q643(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10367:Z2), Z_eq_Z(y:Z1,19035:Z3). (1)
 Applying inference rule:
-   q642(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9819:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q642(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20591:Z2), Z_eq_Z(y:Z1,524:Z3). (1)
 Applying inference rule:
-   q641(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11599:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q641(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20662:Z2), Z_eq_Z(y:Z1,11557:Z3). (1)
 Applying inference rule:
-   q640(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19571:Z2), Z_eq_Z(y:Z1,7237:Z3). (1)
+   q640(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3871:Z2), Z_eq_Z(y:Z1,5227:Z3). (1)
 Applying inference rule:
-   q639(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6026:Z2), Z_eq_Z(y:Z1,21597:Z3). (1)
+   q639(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21136:Z2), Z_eq_Z(y:Z1,1368:Z3). (1)
 Applying inference rule:
-   q638(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16935:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
+   q638(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20976:Z2), Z_eq_Z(y:Z1,6049:Z3). (1)
 Applying inference rule:
-   q637(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12466:Z2), Z_eq_Z(y:Z1,2742:Z3). (1)
+   q637(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8488:Z2), Z_eq_Z(y:Z1,3403:Z3). (1)
 Applying inference rule:
-   q636(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14630:Z2), Z_eq_Z(y:Z1,2951:Z3). (1)
+   q636(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17513:Z2), Z_eq_Z(y:Z1,16099:Z3). (1)
 Applying inference rule:
-   q635(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1207:Z2), Z_eq_Z(y:Z1,10744:Z3). (1)
+   q635(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3072:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q634(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14661:Z2), Z_eq_Z(y:Z1,920:Z3). (1)
+   q634(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17654:Z2), Z_eq_Z(y:Z1,633:Z3). (1)
 Applying inference rule:
-   q633(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18756:Z2), Z_eq_Z(y:Z1,17295:Z3). (1)
+   q633(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4462:Z2), Z_eq_Z(y:Z1,13732:Z3). (1)
 Applying inference rule:
-   q632(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19682:Z2), Z_eq_Z(y:Z1,642:Z3). (1)
+   q632(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9650:Z2), Z_eq_Z(y:Z1,10013:Z3). (1)
 Applying inference rule:
-   q631(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21907:Z2), Z_eq_Z(y:Z1,979:Z3). (1)
+   q631(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17781:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q630(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18236:Z2), Z_eq_Z(y:Z1,20872:Z3). (1)
+   q630(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22066:Z2), Z_eq_Z(y:Z1,14496:Z3). (1)
 Applying inference rule:
-   q629(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,186:Z2), Z_eq_Z(y:Z1,3548:Z3). (1)
+   q629(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17354:Z2), Z_eq_Z(y:Z1,327:Z3). (1)
 Applying inference rule:
-   q628(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4437:Z2), Z_eq_Z(y:Z1,524:Z3). (1)
+   q628(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13630:Z2), Z_eq_Z(y:Z1,17381:Z3). (1)
 Applying inference rule:
-   q627(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19560:Z2), Z_eq_Z(y:Z1,18812:Z3). (1)
+   q627(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9453:Z2), Z_eq_Z(y:Z1,4830:Z3). (1)
 Applying inference rule:
-   q626(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10574:Z2), Z_eq_Z(y:Z1,4942:Z3). (1)
+   q626(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6203:Z2), Z_eq_Z(y:Z1,6675:Z3). (1)
 Applying inference rule:
-   q625(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17595:Z2), Z_eq_Z(y:Z1,20873:Z3). (1)
+   q625(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6158:Z2), Z_eq_Z(y:Z1,18142:Z3). (1)
 Applying inference rule:
-   q624(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15673:Z2), Z_eq_Z(y:Z1,1193:Z3). (1)
+   q624(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8691:Z2), Z_eq_Z(y:Z1,633:Z3). (1)
 Applying inference rule:
-   q623(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17914:Z2), Z_eq_Z(y:Z1,6544:Z3). (1)
+   q623(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15089:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q622(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5661:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q622(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9512:Z2), Z_eq_Z(y:Z1,3548:Z3). (1)
 Applying inference rule:
-   q621(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5110:Z2), Z_eq_Z(y:Z1,655:Z3). (1)
+   q621(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13398:Z2), Z_eq_Z(y:Z1,614:Z3). (1)
 Applying inference rule:
-   q620(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22024:Z2), Z_eq_Z(y:Z1,16765:Z3). (1)
+   q620(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9672:Z2), Z_eq_Z(y:Z1,22204:Z3). (1)
 Applying inference rule:
-   q619(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10483:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q619(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7558:Z2), Z_eq_Z(y:Z1,4460:Z3). (1)
 Applying inference rule:
-   q618(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13149:Z2), Z_eq_Z(y:Z1,4051:Z3). (1)
+   q618(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17312:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
 Applying inference rule:
-   q617(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22228:Z2), Z_eq_Z(y:Z1,9054:Z3). (1)
+   q617(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15664:Z2), Z_eq_Z(y:Z1,12282:Z3). (1)
 Applying inference rule:
-   q616(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1818:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
+   q616(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7259:Z2), Z_eq_Z(y:Z1,5838:Z3). (1)
 Applying inference rule:
-   q615(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11881:Z2), Z_eq_Z(y:Z1,3838:Z3). (1)
+   q615(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13108:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q614(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12754:Z2), Z_eq_Z(y:Z1,3765:Z3). (1)
+   q614(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10910:Z2), Z_eq_Z(y:Z1,6170:Z3). (1)
 Applying inference rule:
-   q613(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10534:Z2), Z_eq_Z(y:Z1,509:Z3). (1)
+   q613(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5117:Z2), Z_eq_Z(y:Z1,2806:Z3). (1)
 Applying inference rule:
-   q612(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21718:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q612(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8249:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q611(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4092:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q611(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20416:Z2), Z_eq_Z(y:Z1,3548:Z3). (1)
 Applying inference rule:
-   q610(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12796:Z2), Z_eq_Z(y:Z1,2100:Z3). (1)
+   q610(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8836:Z2), Z_eq_Z(y:Z1,9492:Z3). (1)
 Applying inference rule:
-   q609(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,566:Z2), Z_eq_Z(y:Z1,20424:Z3). (1)
+   q609(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10937:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
 Applying inference rule:
-   q608(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7971:Z2), Z_eq_Z(y:Z1,17086:Z3). (1)
+   q608(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9510:Z2), Z_eq_Z(y:Z1,489:Z3). (1)
 Applying inference rule:
-   q607(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7288:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q607(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7717:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
 Applying inference rule:
-   q606(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13852:Z2), Z_eq_Z(y:Z1,103:Z3). (1)
+   q606(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,771:Z2), Z_eq_Z(y:Z1,1033:Z3). (1)
 Applying inference rule:
-   q605(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14134:Z2), Z_eq_Z(y:Z1,6107:Z3). (1)
+   q605(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2586:Z2), Z_eq_Z(y:Z1,4455:Z3). (1)
 Applying inference rule:
-   q604(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11703:Z2), Z_eq_Z(y:Z1,862:Z3). (1)
+   q604(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19776:Z2), Z_eq_Z(y:Z1,15622:Z3). (1)
 Applying inference rule:
-   q603(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15747:Z2), Z_eq_Z(y:Z1,9394:Z3). (1)
+   q603(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18927:Z2), Z_eq_Z(y:Z1,119:Z3). (1)
 Applying inference rule:
-   q602(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18332:Z2), Z_eq_Z(y:Z1,813:Z3). (1)
+   q602(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8946:Z2), Z_eq_Z(y:Z1,1689:Z3). (1)
 Applying inference rule:
-   q601(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,397:Z2), Z_eq_Z(y:Z1,127:Z3). (1)
+   q601(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15682:Z2), Z_eq_Z(y:Z1,17511:Z3). (1)
 Applying inference rule:
-   q600(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21801:Z2), Z_eq_Z(y:Z1,11614:Z3). (1)
+   q600(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2444:Z2), Z_eq_Z(y:Z1,22165:Z3). (1)
 Applying inference rule:
-   q599(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13636:Z2), Z_eq_Z(y:Z1,7294:Z3). (1)
+   q599(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8854:Z2), Z_eq_Z(y:Z1,8620:Z3). (1)
 Applying inference rule:
-   q598(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5268:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q598(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19498:Z2), Z_eq_Z(y:Z1,12431:Z3). (1)
 Applying inference rule:
-   q597(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11063:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
+   q597(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14954:Z2), Z_eq_Z(y:Z1,1229:Z3). (1)
 Applying inference rule:
-   q596(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15957:Z2), Z_eq_Z(y:Z1,16:Z3). (1)
+   q596(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8715:Z2), Z_eq_Z(y:Z1,17751:Z3). (1)
 Applying inference rule:
-   q595(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1569:Z2), Z_eq_Z(y:Z1,18999:Z3). (1)
+   q595(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3976:Z2), Z_eq_Z(y:Z1,62:Z3). (1)
 Applying inference rule:
-   q594(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13319:Z2), Z_eq_Z(y:Z1,2443:Z3). (1)
+   q594(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11374:Z2), Z_eq_Z(y:Z1,4951:Z3). (1)
 Applying inference rule:
-   q593(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,445:Z2), Z_eq_Z(y:Z1,4:Z3). (1)
+   q593(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22466:Z2), Z_eq_Z(y:Z1,11201:Z3). (1)
 Applying inference rule:
-   q592(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10235:Z2), Z_eq_Z(y:Z1,3336:Z3). (1)
+   q592(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11293:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q591(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13002:Z2), Z_eq_Z(y:Z1,6804:Z3). (1)
+   q591(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9794:Z2), Z_eq_Z(y:Z1,6441:Z3). (1)
 Applying inference rule:
-   q590(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22219:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q590(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14724:Z2), Z_eq_Z(y:Z1,14315:Z3). (1)
 Applying inference rule:
-   q589(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,801:Z2), Z_eq_Z(y:Z1,10:Z3). (1)
+   q589(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10665:Z2), Z_eq_Z(y:Z1,1389:Z3). (1)
 Applying inference rule:
-   q588(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6576:Z2), Z_eq_Z(y:Z1,11394:Z3). (1)
+   q588(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9784:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q587(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7005:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q587(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6719:Z2), Z_eq_Z(y:Z1,1141:Z3). (1)
 Applying inference rule:
-   q586(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3540:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q586(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,344:Z2), Z_eq_Z(y:Z1,7469:Z3). (1)
 Applying inference rule:
-   q585(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12531:Z2), Z_eq_Z(y:Z1,11151:Z3). (1)
+   q585(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5790:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q584(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6856:Z2), Z_eq_Z(y:Z1,1278:Z3). (1)
+   q584(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9764:Z2), Z_eq_Z(y:Z1,15754:Z3). (1)
 Applying inference rule:
-   q583(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13321:Z2), Z_eq_Z(y:Z1,500:Z3). (1)
+   q583(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11068:Z2), Z_eq_Z(y:Z1,224:Z3). (1)
 Applying inference rule:
-   q582(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12715:Z2), Z_eq_Z(y:Z1,2867:Z3). (1)
+   q582(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1782:Z2), Z_eq_Z(y:Z1,4:Z3). (1)
 Applying inference rule:
-   q581(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5877:Z2), Z_eq_Z(y:Z1,2774:Z3). (1)
+   q581(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18636:Z2), Z_eq_Z(y:Z1,2443:Z3). (1)
 Applying inference rule:
-   q580(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7063:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
+   q580(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4302:Z2), Z_eq_Z(y:Z1,2495:Z3). (1)
 Applying inference rule:
-   q579(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7102:Z2), Z_eq_Z(y:Z1,1929:Z3). (1)
+   q579(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7095:Z2), Z_eq_Z(y:Z1,3294:Z3). (1)
 Applying inference rule:
-   q578(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,398:Z2), Z_eq_Z(y:Z1,9698:Z3). (1)
+   q578(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9437:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
 Applying inference rule:
-   q577(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11327:Z2), Z_eq_Z(y:Z1,6170:Z3). (1)
+   q577(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19623:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q576(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16331:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q576(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18182:Z2), Z_eq_Z(y:Z1,8441:Z3). (1)
 Applying inference rule:
-   q575(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1581:Z2), Z_eq_Z(y:Z1,18839:Z3). (1)
+   q575(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16435:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q574(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2791:Z2), Z_eq_Z(y:Z1,278:Z3). (1)
+   q574(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5071:Z2), Z_eq_Z(y:Z1,1444:Z3). (1)
 Applying inference rule:
-   q573(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7562:Z2), Z_eq_Z(y:Z1,3505:Z3). (1)
+   q573(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9756:Z2), Z_eq_Z(y:Z1,1209:Z3). (1)
 Applying inference rule:
-   q572(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21055:Z2), Z_eq_Z(y:Z1,18542:Z3). (1)
+   q572(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21146:Z2), Z_eq_Z(y:Z1,22489:Z3). (1)
 Applying inference rule:
-   q571(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12674:Z2), Z_eq_Z(y:Z1,3344:Z3). (1)
+   q571(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5293:Z2), Z_eq_Z(y:Z1,13159:Z3). (1)
 Applying inference rule:
-   q570(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11086:Z2), Z_eq_Z(y:Z1,15219:Z3). (1)
+   q570(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3707:Z2), Z_eq_Z(y:Z1,7576:Z3). (1)
 Applying inference rule:
-   q569(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16786:Z2), Z_eq_Z(y:Z1,17059:Z3). (1)
+   q569(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6607:Z2), Z_eq_Z(y:Z1,16471:Z3). (1)
 Applying inference rule:
-   q568(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1412:Z2), Z_eq_Z(y:Z1,18766:Z3). (1)
+   q568(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16975:Z2), Z_eq_Z(y:Z1,346:Z3). (1)
 Applying inference rule:
-   q567(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21790:Z2), Z_eq_Z(y:Z1,18354:Z3). (1)
+   q567(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8152:Z2), Z_eq_Z(y:Z1,306:Z3). (1)
 Applying inference rule:
-   q566(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11879:Z2), Z_eq_Z(y:Z1,769:Z3). (1)
+   q566(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8626:Z2), Z_eq_Z(y:Z1,633:Z3). (1)
 Applying inference rule:
-   q565(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7156:Z2), Z_eq_Z(y:Z1,17335:Z3). (1)
+   q565(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2728:Z2), Z_eq_Z(y:Z1,466:Z3). (1)
 Applying inference rule:
-   q564(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8259:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q564(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14661:Z2), Z_eq_Z(y:Z1,920:Z3). (1)
 Applying inference rule:
-   q563(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2322:Z2), Z_eq_Z(y:Z1,4429:Z3). (1)
+   q563(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8477:Z2), Z_eq_Z(y:Z1,17381:Z3). (1)
 Applying inference rule:
-   q562(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2775:Z2), Z_eq_Z(y:Z1,14068:Z3). (1)
+   q562(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6566:Z2), Z_eq_Z(y:Z1,6531:Z3). (1)
 Applying inference rule:
-   q561(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7787:Z2), Z_eq_Z(y:Z1,123:Z3). (1)
+   q561(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7390:Z2), Z_eq_Z(y:Z1,16354:Z3). (1)
 Applying inference rule:
-   q560(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17769:Z2), Z_eq_Z(y:Z1,2100:Z3). (1)
+   q560(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3506:Z2), Z_eq_Z(y:Z1,4:Z3). (1)
 Applying inference rule:
-   q559(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15978:Z2), Z_eq_Z(y:Z1,370:Z3). (1)
+   q559(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18996:Z2), Z_eq_Z(y:Z1,5322:Z3). (1)
 Applying inference rule:
-   q558(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7167:Z2), Z_eq_Z(y:Z1,821:Z3). (1)
+   q558(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10623:Z2), Z_eq_Z(y:Z1,3993:Z3). (1)
 Applying inference rule:
-   q557(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12719:Z2), Z_eq_Z(y:Z1,18126:Z3). (1)
+   q557(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10317:Z2), Z_eq_Z(y:Z1,20037:Z3). (1)
 Applying inference rule:
-   q556(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8908:Z2), Z_eq_Z(y:Z1,16:Z3). (1)
+   q556(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16371:Z2), Z_eq_Z(y:Z1,9215:Z3). (1)
 Applying inference rule:
-   q555(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9608:Z2), Z_eq_Z(y:Z1,15736:Z3). (1)
+   q555(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15655:Z2), Z_eq_Z(y:Z1,17108:Z3). (1)
 Applying inference rule:
-   q554(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4055:Z2), Z_eq_Z(y:Z1,103:Z3). (1)
+   q554(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1658:Z2), Z_eq_Z(y:Z1,14581:Z3). (1)
 Applying inference rule:
-   q553(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14496:Z2), Z_eq_Z(y:Z1,16595:Z3). (1)
+   q553(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12474:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q552(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12645:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q552(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12186:Z2), Z_eq_Z(y:Z1,8931:Z3). (1)
 Applying inference rule:
-   q551(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17234:Z2), Z_eq_Z(y:Z1,24:Z3). (1)
+   q551(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7253:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q550(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21675:Z2), Z_eq_Z(y:Z1,1339:Z3). (1)
+   q550(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3108:Z2), Z_eq_Z(y:Z1,18578:Z3). (1)
 Applying inference rule:
-   q549(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4034:Z2), Z_eq_Z(y:Z1,3765:Z3). (1)
+   q549(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11578:Z2), Z_eq_Z(y:Z1,22566:Z3). (1)
 Applying inference rule:
-   q548(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16536:Z2), Z_eq_Z(y:Z1,19777:Z3). (1)
+   q548(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17136:Z2), Z_eq_Z(y:Z1,11782:Z3). (1)
 Applying inference rule:
-   q547(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16284:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q547(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18970:Z2), Z_eq_Z(y:Z1,2288:Z3). (1)
 Applying inference rule:
-   q546(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8640:Z2), Z_eq_Z(y:Z1,5016:Z3). (1)
+   q546(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1050:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
 Applying inference rule:
-   q545(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8624:Z2), Z_eq_Z(y:Z1,10258:Z3). (1)
+   q545(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17682:Z2), Z_eq_Z(y:Z1,20646:Z3). (1)
 Applying inference rule:
-   q544(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19660:Z2), Z_eq_Z(y:Z1,14315:Z3). (1)
+   q544(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21033:Z2), Z_eq_Z(y:Z1,3370:Z3). (1)
 Applying inference rule:
-   q543(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4341:Z2), Z_eq_Z(y:Z1,2541:Z3). (1)
+   q543(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8272:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q542(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8242:Z2), Z_eq_Z(y:Z1,13823:Z3). (1)
+   q542(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2877:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
 Applying inference rule:
-   q541(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20079:Z2), Z_eq_Z(y:Z1,7548:Z3). (1)
+   q541(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19302:Z2), Z_eq_Z(y:Z1,103:Z3). (1)
 Applying inference rule:
-   q540(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5643:Z2), Z_eq_Z(y:Z1,3838:Z3). (1)
+   q540(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4902:Z2), Z_eq_Z(y:Z1,7939:Z3). (1)
 Applying inference rule:
-   q539(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6176:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q539(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21612:Z2), Z_eq_Z(y:Z1,12886:Z3). (1)
 Applying inference rule:
-   q538(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22540:Z2), Z_eq_Z(y:Z1,6170:Z3). (1)
+   q538(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19394:Z2), Z_eq_Z(y:Z1,14459:Z3). (1)
 Applying inference rule:
-   q537(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17747:Z2), Z_eq_Z(y:Z1,17814:Z3). (1)
+   q537(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1521:Z2), Z_eq_Z(y:Z1,7279:Z3). (1)
 Applying inference rule:
-   q536(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16763:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q536(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14910:Z2), Z_eq_Z(y:Z1,18807:Z3). (1)
 Applying inference rule:
-   q535(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13032:Z2), Z_eq_Z(y:Z1,769:Z3). (1)
+   q535(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5794:Z2), Z_eq_Z(y:Z1,3079:Z3). (1)
 Applying inference rule:
-   q534(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17594:Z2), Z_eq_Z(y:Z1,1612:Z3). (1)
+   q534(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11720:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q533(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22107:Z2), Z_eq_Z(y:Z1,2522:Z3). (1)
+   q533(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8095:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
 Applying inference rule:
-   q532(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18192:Z2), Z_eq_Z(y:Z1,5162:Z3). (1)
+   q532(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7125:Z2), Z_eq_Z(y:Z1,3414:Z3). (1)
 Applying inference rule:
-   q531(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22265:Z2), Z_eq_Z(y:Z1,19471:Z3). (1)
+   q531(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11110:Z2), Z_eq_Z(y:Z1,3533:Z3). (1)
 Applying inference rule:
-   q530(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12017:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
+   q530(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4835:Z2), Z_eq_Z(y:Z1,7189:Z3). (1)
 Applying inference rule:
-   q529(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13337:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
+   q529(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14992:Z2), Z_eq_Z(y:Z1,5194:Z3). (1)
 Applying inference rule:
-   q528(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13466:Z2), Z_eq_Z(y:Z1,484:Z3). (1)
+   q528(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22229:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q527(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3762:Z2), Z_eq_Z(y:Z1,6206:Z3). (1)
+   q527(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20418:Z2), Z_eq_Z(y:Z1,1616:Z3). (1)
 Applying inference rule:
-   q526(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5107:Z2), Z_eq_Z(y:Z1,3340:Z3). (1)
+   q526(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11797:Z2), Z_eq_Z(y:Z1,5044:Z3). (1)
 Applying inference rule:
-   q525(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22244:Z2), Z_eq_Z(y:Z1,21859:Z3). (1)
+   q525(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7606:Z2), Z_eq_Z(y:Z1,1767:Z3). (1)
 Applying inference rule:
-   q524(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12672:Z2), Z_eq_Z(y:Z1,990:Z3). (1)
+   q524(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7551:Z2), Z_eq_Z(y:Z1,9402:Z3). (1)
 Applying inference rule:
-   q523(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15424:Z2), Z_eq_Z(y:Z1,5039:Z3). (1)
+   q523(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12314:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q522(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,179:Z2), Z_eq_Z(y:Z1,372:Z3). (1)
+   q522(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17428:Z2), Z_eq_Z(y:Z1,1502:Z3). (1)
 Applying inference rule:
-   q521(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12907:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q521(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16440:Z2), Z_eq_Z(y:Z1,3531:Z3). (1)
 Applying inference rule:
-   q520(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,53:Z2), Z_eq_Z(y:Z1,14486:Z3). (1)
+   q520(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7226:Z2), Z_eq_Z(y:Z1,346:Z3). (1)
 Applying inference rule:
-   q519(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10575:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q519(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5125:Z2), Z_eq_Z(y:Z1,19616:Z3). (1)
 Applying inference rule:
-   q518(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14926:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
+   q518(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3794:Z2), Z_eq_Z(y:Z1,3068:Z3). (1)
 Applying inference rule:
-   q517(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18593:Z2), Z_eq_Z(y:Z1,14143:Z3). (1)
+   q517(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6252:Z2), Z_eq_Z(y:Z1,11538:Z3). (1)
 Applying inference rule:
-   q516(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15828:Z2), Z_eq_Z(y:Z1,821:Z3). (1)
+   q516(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11752:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q515(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10206:Z2), Z_eq_Z(y:Z1,1777:Z3). (1)
+   q515(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15362:Z2), Z_eq_Z(y:Z1,6021:Z3). (1)
 Applying inference rule:
-   q514(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9918:Z2), Z_eq_Z(y:Z1,14088:Z3). (1)
+   q514(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20183:Z2), Z_eq_Z(y:Z1,14590:Z3). (1)
 Applying inference rule:
-   q513(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10535:Z2), Z_eq_Z(y:Z1,1423:Z3). (1)
+   q513(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17613:Z2), Z_eq_Z(y:Z1,3096:Z3). (1)
 Applying inference rule:
-   q512(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3240:Z2), Z_eq_Z(y:Z1,8424:Z3). (1)
+   q512(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9829:Z2), Z_eq_Z(y:Z1,1678:Z3). (1)
 Applying inference rule:
-   q511(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8769:Z2), Z_eq_Z(y:Z1,4444:Z3). (1)
+   q511(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20632:Z2), Z_eq_Z(y:Z1,2630:Z3). (1)
 Applying inference rule:
-   q510(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12065:Z2), Z_eq_Z(y:Z1,5400:Z3). (1)
+   q510(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22397:Z2), Z_eq_Z(y:Z1,5162:Z3). (1)
 Applying inference rule:
-   q509(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18792:Z2), Z_eq_Z(y:Z1,6077:Z3). (1)
+   q509(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19046:Z2), Z_eq_Z(y:Z1,66:Z3). (1)
 Applying inference rule:
-   q508(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11351:Z2), Z_eq_Z(y:Z1,12078:Z3). (1)
+   q508(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14351:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
 Applying inference rule:
-   q507(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6993:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
+   q507(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3163:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q506(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18767:Z2), Z_eq_Z(y:Z1,4756:Z3). (1)
+   q506(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16834:Z2), Z_eq_Z(y:Z1,15596:Z3). (1)
 Applying inference rule:
-   q505(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15868:Z2), Z_eq_Z(y:Z1,318:Z3). (1)
+   q505(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20353:Z2), Z_eq_Z(y:Z1,9069:Z3). (1)
 Applying inference rule:
-   q504(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9300:Z2), Z_eq_Z(y:Z1,227:Z3). (1)
+   q504(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4872:Z2), Z_eq_Z(y:Z1,17690:Z3). (1)
 Applying inference rule:
-   q503(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15170:Z2), Z_eq_Z(y:Z1,12127:Z3). (1)
+   q503(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5657:Z2), Z_eq_Z(y:Z1,2088:Z3). (1)
 Applying inference rule:
-   q502(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4181:Z2), Z_eq_Z(y:Z1,20730:Z3). (1)
+   q502(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1270:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
 Applying inference rule:
-   q501(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12199:Z2), Z_eq_Z(y:Z1,20609:Z3). (1)
+   q501(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13267:Z2), Z_eq_Z(y:Z1,123:Z3). (1)
 Applying inference rule:
-   q500(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17699:Z2), Z_eq_Z(y:Z1,2068:Z3). (1)
+   q500(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20694:Z2), Z_eq_Z(y:Z1,3533:Z3). (1)
 Applying inference rule:
-   q499(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2796:Z2), Z_eq_Z(y:Z1,13249:Z3). (1)
+   q499(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3183:Z2), Z_eq_Z(y:Z1,5487:Z3). (1)
 Applying inference rule:
-   q498(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3511:Z2), Z_eq_Z(y:Z1,4993:Z3). (1)
+   q498(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21750:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q497(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3510:Z2), Z_eq_Z(y:Z1,13026:Z3). (1)
+   q497(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21145:Z2), Z_eq_Z(y:Z1,15985:Z3). (1)
 Applying inference rule:
-   q496(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1109:Z2), Z_eq_Z(y:Z1,18336:Z3). (1)
+   q496(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,39:Z2), Z_eq_Z(y:Z1,4190:Z3). (1)
 Applying inference rule:
-   q495(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19457:Z2), Z_eq_Z(y:Z1,1568:Z3). (1)
+   q495(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21870:Z2), Z_eq_Z(y:Z1,15186:Z3). (1)
 Applying inference rule:
-   q494(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21100:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q494(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4162:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q493(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4848:Z2), Z_eq_Z(y:Z1,19490:Z3). (1)
+   q493(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14456:Z2), Z_eq_Z(y:Z1,17:Z3). (1)
 Applying inference rule:
-   q492(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6651:Z2), Z_eq_Z(y:Z1,14122:Z3). (1)
+   q492(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4509:Z2), Z_eq_Z(y:Z1,2769:Z3). (1)
 Applying inference rule:
-   q491(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5213:Z2), Z_eq_Z(y:Z1,7131:Z3). (1)
+   q491(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15993:Z2), Z_eq_Z(y:Z1,15699:Z3). (1)
 Applying inference rule:
-   q490(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12369:Z2), Z_eq_Z(y:Z1,4533:Z3). (1)
+   q490(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19030:Z2), Z_eq_Z(y:Z1,19877:Z3). (1)
 Applying inference rule:
-   q489(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4475:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
+   q489(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13293:Z2), Z_eq_Z(y:Z1,16956:Z3). (1)
 Applying inference rule:
-   q488(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,565:Z2), Z_eq_Z(y:Z1,10812:Z3). (1)
+   q488(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8171:Z2), Z_eq_Z(y:Z1,4766:Z3). (1)
 Applying inference rule:
-   q487(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12917:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q487(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5035:Z2), Z_eq_Z(y:Z1,16:Z3). (1)
 Applying inference rule:
-   q486(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3846:Z2), Z_eq_Z(y:Z1,20221:Z3). (1)
+   q486(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6687:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q485(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17311:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q485(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3229:Z2), Z_eq_Z(y:Z1,7647:Z3). (1)
 Applying inference rule:
-   q484(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9986:Z2), Z_eq_Z(y:Z1,10437:Z3). (1)
+   q484(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9588:Z2), Z_eq_Z(y:Z1,2261:Z3). (1)
 Applying inference rule:
-   q483(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9155:Z2), Z_eq_Z(y:Z1,11276:Z3). (1)
+   q483(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3614:Z2), Z_eq_Z(y:Z1,3212:Z3). (1)
 Applying inference rule:
-   q482(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12796:Z2), Z_eq_Z(y:Z1,2100:Z3). (1)
+   q482(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16240:Z2), Z_eq_Z(y:Z1,1526:Z3). (1)
 Applying inference rule:
-   q481(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12785:Z2), Z_eq_Z(y:Z1,726:Z3). (1)
+   q481(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3765:Z2), Z_eq_Z(y:Z1,10818:Z3). (1)
 Applying inference rule:
-   q480(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10242:Z2), Z_eq_Z(y:Z1,3289:Z3). (1)
+   q480(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21956:Z2), Z_eq_Z(y:Z1,7226:Z3). (1)
 Applying inference rule:
-   q479(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4196:Z2), Z_eq_Z(y:Z1,7755:Z3). (1)
+   q479(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12760:Z2), Z_eq_Z(y:Z1,14917:Z3). (1)
 Applying inference rule:
-   q478(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3784:Z2), Z_eq_Z(y:Z1,1144:Z3). (1)
+   q478(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14709:Z2), Z_eq_Z(y:Z1,1368:Z3). (1)
 Applying inference rule:
-   q477(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7009:Z2), Z_eq_Z(y:Z1,10515:Z3). (1)
+   q477(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8788:Z2), Z_eq_Z(y:Z1,9966:Z3). (1)
 Applying inference rule:
-   q476(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18150:Z2), Z_eq_Z(y:Z1,127:Z3). (1)
+   q476(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4746:Z2), Z_eq_Z(y:Z1,689:Z3). (1)
 Applying inference rule:
-   q475(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5990:Z2), Z_eq_Z(y:Z1,22171:Z3). (1)
+   q475(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20939:Z2), Z_eq_Z(y:Z1,4449:Z3). (1)
 Applying inference rule:
-   q474(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21566:Z2), Z_eq_Z(y:Z1,11907:Z3). (1)
+   q474(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13649:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
 Applying inference rule:
-   q473(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15604:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q473(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11909:Z2), Z_eq_Z(y:Z1,834:Z3). (1)
 Applying inference rule:
-   q472(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16690:Z2), Z_eq_Z(y:Z1,24:Z3). (1)
+   q472(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10599:Z2), Z_eq_Z(y:Z1,18323:Z3). (1)
 Applying inference rule:
-   q471(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3825:Z2), Z_eq_Z(y:Z1,8046:Z3). (1)
+   q471(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18621:Z2), Z_eq_Z(y:Z1,14070:Z3). (1)
 Applying inference rule:
-   q470(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21838:Z2), Z_eq_Z(y:Z1,1339:Z3). (1)
+   q470(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20449:Z2), Z_eq_Z(y:Z1,1542:Z3). (1)
 Applying inference rule:
-   q469(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13259:Z2), Z_eq_Z(y:Z1,1368:Z3). (1)
+   q469(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21646:Z2), Z_eq_Z(y:Z1,13230:Z3). (1)
 Applying inference rule:
-   q468(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18967:Z2), Z_eq_Z(y:Z1,16279:Z3). (1)
+   q468(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7699:Z2), Z_eq_Z(y:Z1,1058:Z3). (1)
 Applying inference rule:
-   q467(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11457:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q467(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21810:Z2), Z_eq_Z(y:Z1,509:Z3). (1)
 Applying inference rule:
-   q466(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11900:Z2), Z_eq_Z(y:Z1,1164:Z3). (1)
+   q466(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19421:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
 Applying inference rule:
-   q465(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15020:Z2), Z_eq_Z(y:Z1,15591:Z3). (1)
+   q465(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2937:Z2), Z_eq_Z(y:Z1,17866:Z3). (1)
 Applying inference rule:
-   q464(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2186:Z2), Z_eq_Z(y:Z1,14102:Z3). (1)
+   q464(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12339:Z2), Z_eq_Z(y:Z1,10474:Z3). (1)
 Applying inference rule:
-   q463(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19500:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
+   q463(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18266:Z2), Z_eq_Z(y:Z1,10611:Z3). (1)
 Applying inference rule:
-   q462(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3796:Z2), Z_eq_Z(y:Z1,3001:Z3). (1)
+   q462(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14981:Z2), Z_eq_Z(y:Z1,327:Z3). (1)
 Applying inference rule:
-   q461(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16923:Z2), Z_eq_Z(y:Z1,14736:Z3). (1)
+   q461(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1482:Z2), Z_eq_Z(y:Z1,4595:Z3). (1)
 Applying inference rule:
-   q460(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10189:Z2), Z_eq_Z(y:Z1,7032:Z3). (1)
+   q460(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4917:Z2), Z_eq_Z(y:Z1,1983:Z3). (1)
 Applying inference rule:
-   q459(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21166:Z2), Z_eq_Z(y:Z1,18576:Z3). (1)
+   q459(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19154:Z2), Z_eq_Z(y:Z1,6074:Z3). (1)
 Applying inference rule:
-   q458(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16578:Z2), Z_eq_Z(y:Z1,8603:Z3). (1)
+   q458(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7437:Z2), Z_eq_Z(y:Z1,1198:Z3). (1)
 Applying inference rule:
-   q457(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4040:Z2), Z_eq_Z(y:Z1,16068:Z3). (1)
+   q457(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17718:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
 Applying inference rule:
-   q456(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5064:Z2), Z_eq_Z(y:Z1,17945:Z3). (1)
+   q456(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1987:Z2), Z_eq_Z(y:Z1,3395:Z3). (1)
 Applying inference rule:
-   q455(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13685:Z2), Z_eq_Z(y:Z1,1108:Z3). (1)
+   q455(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,621:Z2), Z_eq_Z(y:Z1,11717:Z3). (1)
 Applying inference rule:
-   q454(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14034:Z2), Z_eq_Z(y:Z1,627:Z3). (1)
+   q454(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14762:Z2), Z_eq_Z(y:Z1,844:Z3). (1)
 Applying inference rule:
-   q453(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17905:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q453(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7994:Z2), Z_eq_Z(y:Z1,6529:Z3). (1)
 Applying inference rule:
-   q452(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2822:Z2), Z_eq_Z(y:Z1,4981:Z3). (1)
+   q452(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5328:Z2), Z_eq_Z(y:Z1,726:Z3). (1)
 Applying inference rule:
-   q451(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4492:Z2), Z_eq_Z(y:Z1,9964:Z3). (1)
+   q451(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16103:Z2), Z_eq_Z(y:Z1,2640:Z3). (1)
 Applying inference rule:
-   q450(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5641:Z2), Z_eq_Z(y:Z1,12958:Z3). (1)
+   q450(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15280:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q449(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12728:Z2), Z_eq_Z(y:Z1,19118:Z3). (1)
+   q449(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21905:Z2), Z_eq_Z(y:Z1,1368:Z3). (1)
 Applying inference rule:
-   q448(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8064:Z2), Z_eq_Z(y:Z1,12772:Z3). (1)
+   q448(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12619:Z2), Z_eq_Z(y:Z1,16465:Z3). (1)
 Applying inference rule:
-   q447(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8889:Z2), Z_eq_Z(y:Z1,11549:Z3). (1)
+   q447(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16646:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
 Applying inference rule:
-   q446(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21715:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q446(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22426:Z2), Z_eq_Z(y:Z1,1368:Z3). (1)
 Applying inference rule:
-   q445(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19626:Z2), Z_eq_Z(y:Z1,7019:Z3). (1)
+   q445(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7626:Z2), Z_eq_Z(y:Z1,224:Z3). (1)
 Applying inference rule:
-   q444(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18657:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
+   q444(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10908:Z2), Z_eq_Z(y:Z1,346:Z3). (1)
 Applying inference rule:
-   q443(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6547:Z2), Z_eq_Z(y:Z1,19130:Z3). (1)
+   q443(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17855:Z2), Z_eq_Z(y:Z1,2165:Z3). (1)
 Applying inference rule:
-   q442(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8037:Z2), Z_eq_Z(y:Z1,4387:Z3). (1)
+   q442(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14592:Z2), Z_eq_Z(y:Z1,16:Z3). (1)
 Applying inference rule:
-   q441(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5355:Z2), Z_eq_Z(y:Z1,21218:Z3). (1)
+   q441(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14968:Z2), Z_eq_Z(y:Z1,2441:Z3). (1)
 Applying inference rule:
-   q440(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7522:Z2), Z_eq_Z(y:Z1,9997:Z3). (1)
+   q440(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,202:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q439(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12923:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
+   q439(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11807:Z2), Z_eq_Z(y:Z1,10384:Z3). (1)
 Applying inference rule:
-   q438(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2552:Z2), Z_eq_Z(y:Z1,1929:Z3). (1)
+   q438(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4855:Z2), Z_eq_Z(y:Z1,17005:Z3). (1)
 Applying inference rule:
-   q437(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13583:Z2), Z_eq_Z(y:Z1,13030:Z3). (1)
+   q437(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19433:Z2), Z_eq_Z(y:Z1,21075:Z3). (1)
 Applying inference rule:
-   q436(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18765:Z2), Z_eq_Z(y:Z1,7295:Z3). (1)
+   q436(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7582:Z2), Z_eq_Z(y:Z1,1423:Z3). (1)
 Applying inference rule:
-   q435(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9771:Z2), Z_eq_Z(y:Z1,2951:Z3). (1)
+   q435(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11096:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q434(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4902:Z2), Z_eq_Z(y:Z1,1407:Z3). (1)
+   q434(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7923:Z2), Z_eq_Z(y:Z1,2543:Z3). (1)
 Applying inference rule:
-   q433(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20995:Z2), Z_eq_Z(y:Z1,66:Z3). (1)
+   q433(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15480:Z2), Z_eq_Z(y:Z1,11423:Z3). (1)
 Applying inference rule:
-   q432(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5261:Z2), Z_eq_Z(y:Z1,3393:Z3). (1)
+   q432(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20800:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q431(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18914:Z2), Z_eq_Z(y:Z1,2839:Z3). (1)
+   q431(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20452:Z2), Z_eq_Z(y:Z1,7296:Z3). (1)
 Applying inference rule:
-   q430(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18488:Z2), Z_eq_Z(y:Z1,13091:Z3). (1)
+   q430(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22246:Z2), Z_eq_Z(y:Z1,5672:Z3). (1)
 Applying inference rule:
-   q429(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14098:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q429(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18189:Z2), Z_eq_Z(y:Z1,13036:Z3). (1)
 Applying inference rule:
-   q428(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13459:Z2), Z_eq_Z(y:Z1,8830:Z3). (1)
+   q428(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7767:Z2), Z_eq_Z(y:Z1,18234:Z3). (1)
 Applying inference rule:
-   q427(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8337:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
+   q427(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1957:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
 Applying inference rule:
-   q426(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1952:Z2), Z_eq_Z(y:Z1,16738:Z3). (1)
+   q426(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21139:Z2), Z_eq_Z(y:Z1,8018:Z3). (1)
 Applying inference rule:
-   q425(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2533:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q425(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7062:Z2), Z_eq_Z(y:Z1,976:Z3). (1)
 Applying inference rule:
-   q424(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4548:Z2), Z_eq_Z(y:Z1,3376:Z3). (1)
+   q424(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13105:Z2), Z_eq_Z(y:Z1,327:Z3). (1)
 Applying inference rule:
-   q423(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7382:Z2), Z_eq_Z(y:Z1,3672:Z3). (1)
+   q423(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7785:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q422(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6051:Z2), Z_eq_Z(y:Z1,15638:Z3). (1)
+   q422(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4800:Z2), Z_eq_Z(y:Z1,1055:Z3). (1)
 Applying inference rule:
-   q421(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19779:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q421(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17539:Z2), Z_eq_Z(y:Z1,3567:Z3). (1)
 Applying inference rule:
-   q420(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3268:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q420(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9870:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q419(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5721:Z2), Z_eq_Z(y:Z1,19651:Z3). (1)
+   q419(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11051:Z2), Z_eq_Z(y:Z1,7888:Z3). (1)
 Applying inference rule:
-   q418(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5201:Z2), Z_eq_Z(y:Z1,6502:Z3). (1)
+   q418(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22199:Z2), Z_eq_Z(y:Z1,8:Z3). (1)
 Applying inference rule:
-   q417(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20174:Z2), Z_eq_Z(y:Z1,163:Z3). (1)
+   q417(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2764:Z2), Z_eq_Z(y:Z1,20935:Z3). (1)
 Applying inference rule:
-   q416(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9901:Z2), Z_eq_Z(y:Z1,1985:Z3). (1)
+   q416(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15634:Z2), Z_eq_Z(y:Z1,2093:Z3). (1)
 Applying inference rule:
-   q415(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5941:Z2), Z_eq_Z(y:Z1,598:Z3). (1)
+   q415(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,858:Z2), Z_eq_Z(y:Z1,9419:Z3). (1)
 Applying inference rule:
-   q414(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1378:Z2), Z_eq_Z(y:Z1,21772:Z3). (1)
+   q414(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10595:Z2), Z_eq_Z(y:Z1,12559:Z3). (1)
 Applying inference rule:
-   q413(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17588:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
+   q413(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20586:Z2), Z_eq_Z(y:Z1,4196:Z3). (1)
 Applying inference rule:
-   q412(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7783:Z2), Z_eq_Z(y:Z1,2248:Z3). (1)
+   q412(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11197:Z2), Z_eq_Z(y:Z1,20823:Z3). (1)
 Applying inference rule:
-   q411(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19156:Z2), Z_eq_Z(y:Z1,1368:Z3). (1)
+   q411(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6873:Z2), Z_eq_Z(y:Z1,2304:Z3). (1)
 Applying inference rule:
-   q410(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13074:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q410(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14194:Z2), Z_eq_Z(y:Z1,22513:Z3). (1)
 Applying inference rule:
-   q409(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7776:Z2), Z_eq_Z(y:Z1,3530:Z3). (1)
+   q409(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17917:Z2), Z_eq_Z(y:Z1,629:Z3). (1)
 Applying inference rule:
-   q408(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22059:Z2), Z_eq_Z(y:Z1,3216:Z3). (1)
+   q408(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20444:Z2), Z_eq_Z(y:Z1,21493:Z3). (1)
 Applying inference rule:
-   q407(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14240:Z2), Z_eq_Z(y:Z1,76:Z3). (1)
+   q407(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3150:Z2), Z_eq_Z(y:Z1,127:Z3). (1)
 Applying inference rule:
-   q406(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7133:Z2), Z_eq_Z(y:Z1,1129:Z3). (1)
+   q406(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12088:Z2), Z_eq_Z(y:Z1,9893:Z3). (1)
 Applying inference rule:
-   q405(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8903:Z2), Z_eq_Z(y:Z1,391:Z3). (1)
+   q405(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17335:Z2), Z_eq_Z(y:Z1,8672:Z3). (1)
 Applying inference rule:
-   q404(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4436:Z2), Z_eq_Z(y:Z1,17188:Z3). (1)
+   q404(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20488:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q403(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17023:Z2), Z_eq_Z(y:Z1,9824:Z3). (1)
+   q403(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7480:Z2), Z_eq_Z(y:Z1,2723:Z3). (1)
 Applying inference rule:
-   q402(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7401:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q402(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10616:Z2), Z_eq_Z(y:Z1,21645:Z3). (1)
 Applying inference rule:
-   q401(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12597:Z2), Z_eq_Z(y:Z1,16343:Z3). (1)
+   q401(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8982:Z2), Z_eq_Z(y:Z1,5352:Z3). (1)
 Applying inference rule:
-   q400(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,552:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q400(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2975:Z2), Z_eq_Z(y:Z1,7536:Z3). (1)
 Applying inference rule:
-   q399(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6590:Z2), Z_eq_Z(y:Z1,12655:Z3). (1)
+   q399(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13046:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
 Applying inference rule:
-   q398(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19564:Z2), Z_eq_Z(y:Z1,6174:Z3). (1)
+   q398(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22546:Z2), Z_eq_Z(y:Z1,22626:Z3). (1)
 Applying inference rule:
-   q397(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19414:Z2), Z_eq_Z(y:Z1,138:Z3). (1)
+   q397(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16130:Z2), Z_eq_Z(y:Z1,1146:Z3). (1)
 Applying inference rule:
-   q396(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7510:Z2), Z_eq_Z(y:Z1,24:Z3). (1)
+   q396(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2727:Z2), Z_eq_Z(y:Z1,12043:Z3). (1)
 Applying inference rule:
-   q395(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2688:Z2), Z_eq_Z(y:Z1,17481:Z3). (1)
+   q395(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17589:Z2), Z_eq_Z(y:Z1,14020:Z3). (1)
 Applying inference rule:
-   q394(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4008:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q394(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7730:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q393(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22134:Z2), Z_eq_Z(y:Z1,21783:Z3). (1)
+   q393(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2880:Z2), Z_eq_Z(y:Z1,1812:Z3). (1)
 Applying inference rule:
-   q392(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20781:Z2), Z_eq_Z(y:Z1,14435:Z3). (1)
+   q392(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8493:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q391(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2015:Z2), Z_eq_Z(y:Z1,5399:Z3). (1)
+   q391(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3460:Z2), Z_eq_Z(y:Z1,545:Z3). (1)
 Applying inference rule:
-   q390(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21905:Z2), Z_eq_Z(y:Z1,1368:Z3). (1)
+   q390(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12236:Z2), Z_eq_Z(y:Z1,424:Z3). (1)
 Applying inference rule:
-   q389(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14941:Z2), Z_eq_Z(y:Z1,12649:Z3). (1)
+   q389(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8279:Z2), Z_eq_Z(y:Z1,7246:Z3). (1)
 Applying inference rule:
-   q388(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13082:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q388(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18128:Z2), Z_eq_Z(y:Z1,8006:Z3). (1)
 Applying inference rule:
-   q387(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6057:Z2), Z_eq_Z(y:Z1,1193:Z3). (1)
+   q387(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10235:Z2), Z_eq_Z(y:Z1,3336:Z3). (1)
 Applying inference rule:
-   q386(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2393:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
+   q386(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9932:Z2), Z_eq_Z(y:Z1,10350:Z3). (1)
 Applying inference rule:
-   q385(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11155:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q385(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20049:Z2), Z_eq_Z(y:Z1,13042:Z3). (1)
 Applying inference rule:
-   q384(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7602:Z2), Z_eq_Z(y:Z1,19093:Z3). (1)
+   q384(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2186:Z2), Z_eq_Z(y:Z1,12628:Z3). (1)
 Applying inference rule:
-   q383(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2405:Z2), Z_eq_Z(y:Z1,5992:Z3). (1)
+   q383(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9076:Z2), Z_eq_Z(y:Z1,17262:Z3). (1)
 Applying inference rule:
-   q382(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22519:Z2), Z_eq_Z(y:Z1,16:Z3). (1)
+   q382(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7509:Z2), Z_eq_Z(y:Z1,3186:Z3). (1)
 Applying inference rule:
-   q381(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18803:Z2), Z_eq_Z(y:Z1,2322:Z3). (1)
+   q381(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3292:Z2), Z_eq_Z(y:Z1,11282:Z3). (1)
 Applying inference rule:
-   q380(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9902:Z2), Z_eq_Z(y:Z1,20479:Z3). (1)
+   q380(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17554:Z2), Z_eq_Z(y:Z1,2422:Z3). (1)
 Applying inference rule:
-   q379(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4483:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q379(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3488:Z2), Z_eq_Z(y:Z1,16791:Z3). (1)
 Applying inference rule:
-   q378(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8722:Z2), Z_eq_Z(y:Z1,15396:Z3). (1)
+   q378(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4512:Z2), Z_eq_Z(y:Z1,24:Z3). (1)
 Applying inference rule:
-   q377(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18568:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
+   q377(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4285:Z2), Z_eq_Z(y:Z1,2951:Z3). (1)
 Applying inference rule:
-   q376(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21251:Z2), Z_eq_Z(y:Z1,2844:Z3). (1)
+   q376(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3402:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
 Applying inference rule:
-   q375(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3995:Z2), Z_eq_Z(y:Z1,6454:Z3). (1)
+   q375(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20741:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q374(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10213:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
+   q374(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20062:Z2), Z_eq_Z(y:Z1,2068:Z3). (1)
 Applying inference rule:
-   q373(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13459:Z2), Z_eq_Z(y:Z1,8286:Z3). (1)
+   q373(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8297:Z2), Z_eq_Z(y:Z1,5361:Z3). (1)
 Applying inference rule:
-   q372(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18563:Z2), Z_eq_Z(y:Z1,15816:Z3). (1)
+   q372(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15507:Z2), Z_eq_Z(y:Z1,1108:Z3). (1)
 Applying inference rule:
-   q371(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10702:Z2), Z_eq_Z(y:Z1,11678:Z3). (1)
+   q371(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1827:Z2), Z_eq_Z(y:Z1,18639:Z3). (1)
 Applying inference rule:
-   q370(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17675:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q370(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11277:Z2), Z_eq_Z(y:Z1,18026:Z3). (1)
 Applying inference rule:
-   q369(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,778:Z2), Z_eq_Z(y:Z1,13737:Z3). (1)
+   q369(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10850:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q368(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5872:Z2), Z_eq_Z(y:Z1,1189:Z3). (1)
+   q368(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7613:Z2), Z_eq_Z(y:Z1,538:Z3). (1)
 Applying inference rule:
-   q367(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10042:Z2), Z_eq_Z(y:Z1,13386:Z3). (1)
+   q367(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12885:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
 Applying inference rule:
-   q366(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14045:Z2), Z_eq_Z(y:Z1,11886:Z3). (1)
+   q366(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14291:Z2), Z_eq_Z(y:Z1,4583:Z3). (1)
 Applying inference rule:
-   q365(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12184:Z2), Z_eq_Z(y:Z1,1672:Z3). (1)
+   q365(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9100:Z2), Z_eq_Z(y:Z1,346:Z3). (1)
 Applying inference rule:
-   q364(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18888:Z2), Z_eq_Z(y:Z1,11550:Z3). (1)
+   q364(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3431:Z2), Z_eq_Z(y:Z1,13901:Z3). (1)
 Applying inference rule:
-   q363(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5467:Z2), Z_eq_Z(y:Z1,3548:Z3). (1)
+   q363(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7846:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q362(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18784:Z2), Z_eq_Z(y:Z1,4338:Z3). (1)
+   q362(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2782:Z2), Z_eq_Z(y:Z1,19674:Z3). (1)
 Applying inference rule:
-   q361(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7783:Z2), Z_eq_Z(y:Z1,2248:Z3). (1)
+   q361(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13993:Z2), Z_eq_Z(y:Z1,8417:Z3). (1)
 Applying inference rule:
-   q360(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8646:Z2), Z_eq_Z(y:Z1,230:Z3). (1)
+   q360(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20343:Z2), Z_eq_Z(y:Z1,14319:Z3). (1)
 Applying inference rule:
-   q359(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16910:Z2), Z_eq_Z(y:Z1,16926:Z3). (1)
+   q359(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20891:Z2), Z_eq_Z(y:Z1,2027:Z3). (1)
 Applying inference rule:
-   q358(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19371:Z2), Z_eq_Z(y:Z1,12226:Z3). (1)
+   q358(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20074:Z2), Z_eq_Z(y:Z1,17347:Z3). (1)
 Applying inference rule:
-   q357(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14055:Z2), Z_eq_Z(y:Z1,21966:Z3). (1)
+   q357(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21830:Z2), Z_eq_Z(y:Z1,12515:Z3). (1)
 Applying inference rule:
-   q356(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22586:Z2), Z_eq_Z(y:Z1,1368:Z3). (1)
+   q356(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16773:Z2), Z_eq_Z(y:Z1,1551:Z3). (1)
 Applying inference rule:
-   q355(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21649:Z2), Z_eq_Z(y:Z1,6496:Z3). (1)
+   q355(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21373:Z2), Z_eq_Z(y:Z1,6403:Z3). (1)
 Applying inference rule:
-   q354(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7327:Z2), Z_eq_Z(y:Z1,17970:Z3). (1)
+   q354(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3818:Z2), Z_eq_Z(y:Z1,103:Z3). (1)
 Applying inference rule:
-   q353(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3135:Z2), Z_eq_Z(y:Z1,20853:Z3). (1)
+   q353(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10316:Z2), Z_eq_Z(y:Z1,103:Z3). (1)
 Applying inference rule:
-   q352(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17243:Z2), Z_eq_Z(y:Z1,531:Z3). (1)
+   q352(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10770:Z2), Z_eq_Z(y:Z1,543:Z3). (1)
 Applying inference rule:
-   q351(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10136:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q351(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3038:Z2), Z_eq_Z(y:Z1,2633:Z3). (1)
 Applying inference rule:
-   q350(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3595:Z2), Z_eq_Z(y:Z1,11573:Z3). (1)
+   q350(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16641:Z2), Z_eq_Z(y:Z1,1073:Z3). (1)
 Applying inference rule:
-   q349(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7197:Z2), Z_eq_Z(y:Z1,364:Z3). (1)
+   q349(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18278:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q348(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1391:Z2), Z_eq_Z(y:Z1,4169:Z3). (1)
+   q348(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22501:Z2), Z_eq_Z(y:Z1,17538:Z3). (1)
 Applying inference rule:
-   q347(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19568:Z2), Z_eq_Z(y:Z1,346:Z3). (1)
+   q347(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2519:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
 Applying inference rule:
-   q346(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10472:Z2), Z_eq_Z(y:Z1,13574:Z3). (1)
+   q346(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8386:Z2), Z_eq_Z(y:Z1,9922:Z3). (1)
 Applying inference rule:
-   q345(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1184:Z2), Z_eq_Z(y:Z1,19695:Z3). (1)
+   q345(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3042:Z2), Z_eq_Z(y:Z1,22411:Z3). (1)
 Applying inference rule:
-   q344(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12715:Z2), Z_eq_Z(y:Z1,18592:Z3). (1)
+   q344(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2272:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
 Applying inference rule:
-   q343(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20292:Z2), Z_eq_Z(y:Z1,9908:Z3). (1)
+   q343(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17769:Z2), Z_eq_Z(y:Z1,2100:Z3). (1)
 Applying inference rule:
-   q342(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13684:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q342(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13356:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q341(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7794:Z2), Z_eq_Z(y:Z1,4983:Z3). (1)
+   q341(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21400:Z2), Z_eq_Z(y:Z1,15783:Z3). (1)
 Applying inference rule:
-   q340(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14887:Z2), Z_eq_Z(y:Z1,13539:Z3). (1)
+   q340(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10608:Z2), Z_eq_Z(y:Z1,6361:Z3). (1)
 Applying inference rule:
-   q339(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21057:Z2), Z_eq_Z(y:Z1,18787:Z3). (1)
+   q339(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13993:Z2), Z_eq_Z(y:Z1,20520:Z3). (1)
 Applying inference rule:
-   q338(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18980:Z2), Z_eq_Z(y:Z1,2678:Z3). (1)
+   q338(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13479:Z2), Z_eq_Z(y:Z1,18351:Z3). (1)
 Applying inference rule:
-   q337(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8261:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q337(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2065:Z2), Z_eq_Z(y:Z1,15230:Z3). (1)
 Applying inference rule:
-   q336(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7287:Z2), Z_eq_Z(y:Z1,9656:Z3). (1)
+   q336(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19281:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q335(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11288:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
+   q335(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4324:Z2), Z_eq_Z(y:Z1,1133:Z3). (1)
 Applying inference rule:
-   q334(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5977:Z2), Z_eq_Z(y:Z1,8999:Z3). (1)
+   q334(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9751:Z2), Z_eq_Z(y:Z1,6023:Z3). (1)
 Applying inference rule:
-   q333(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18776:Z2), Z_eq_Z(y:Z1,3280:Z3). (1)
+   q333(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4829:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q332(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22380:Z2), Z_eq_Z(y:Z1,10134:Z3). (1)
+   q332(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9213:Z2), Z_eq_Z(y:Z1,16682:Z3). (1)
 Applying inference rule:
-   q331(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20285:Z2), Z_eq_Z(y:Z1,330:Z3). (1)
+   q331(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,111:Z2), Z_eq_Z(y:Z1,19748:Z3). (1)
 Applying inference rule:
-   q330(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13082:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q330(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8135:Z2), Z_eq_Z(y:Z1,13022:Z3). (1)
 Applying inference rule:
-   q329(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21172:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q329(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4453:Z2), Z_eq_Z(y:Z1,1064:Z3). (1)
 Applying inference rule:
-   q328(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13715:Z2), Z_eq_Z(y:Z1,658:Z3). (1)
+   q328(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11016:Z2), Z_eq_Z(y:Z1,8179:Z3). (1)
 Applying inference rule:
-   q327(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7644:Z2), Z_eq_Z(y:Z1,6074:Z3). (1)
+   q327(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14013:Z2), Z_eq_Z(y:Z1,3129:Z3). (1)
 Applying inference rule:
-   q326(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21627:Z2), Z_eq_Z(y:Z1,19256:Z3). (1)
+   q326(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13750:Z2), Z_eq_Z(y:Z1,3340:Z3). (1)
 Applying inference rule:
-   q325(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18511:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q325(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12630:Z2), Z_eq_Z(y:Z1,2793:Z3). (1)
 Applying inference rule:
-   q324(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10564:Z2), Z_eq_Z(y:Z1,9208:Z3). (1)
+   q324(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4127:Z2), Z_eq_Z(y:Z1,1372:Z3). (1)
 Applying inference rule:
-   q323(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9829:Z2), Z_eq_Z(y:Z1,899:Z3). (1)
+   q323(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3760:Z2), Z_eq_Z(y:Z1,12341:Z3). (1)
 Applying inference rule:
-   q322(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14114:Z2), Z_eq_Z(y:Z1,364:Z3). (1)
+   q322(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11438:Z2), Z_eq_Z(y:Z1,11715:Z3). (1)
 Applying inference rule:
-   q321(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19254:Z2), Z_eq_Z(y:Z1,16396:Z3). (1)
+   q321(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21967:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q320(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19698:Z2), Z_eq_Z(y:Z1,2366:Z3). (1)
+   q320(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9847:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q319(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11549:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q319(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17979:Z2), Z_eq_Z(y:Z1,19307:Z3). (1)
 Applying inference rule:
-   q318(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21346:Z2), Z_eq_Z(y:Z1,20814:Z3). (1)
+   q318(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6060:Z2), Z_eq_Z(y:Z1,18276:Z3). (1)
 Applying inference rule:
-   q317(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20188:Z2), Z_eq_Z(y:Z1,6831:Z3). (1)
+   q317(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17436:Z2), Z_eq_Z(y:Z1,2068:Z3). (1)
 Applying inference rule:
-   q316(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3781:Z2), Z_eq_Z(y:Z1,2068:Z3). (1)
+   q316(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9009:Z2), Z_eq_Z(y:Z1,7368:Z3). (1)
 Applying inference rule:
-   q315(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5221:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q315(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9684:Z2), Z_eq_Z(y:Z1,633:Z3). (1)
 Applying inference rule:
-   q314(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4674:Z2), Z_eq_Z(y:Z1,2122:Z3). (1)
+   q314(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6669:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q313(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6046:Z2), Z_eq_Z(y:Z1,9086:Z3). (1)
+   q313(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6206:Z2), Z_eq_Z(y:Z1,920:Z3). (1)
 Applying inference rule:
-   q312(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1042:Z2), Z_eq_Z(y:Z1,419:Z3). (1)
+   q312(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18149:Z2), Z_eq_Z(y:Z1,1823:Z3). (1)
 Applying inference rule:
-   q311(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21382:Z2), Z_eq_Z(y:Z1,3336:Z3). (1)
+   q311(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12829:Z2), Z_eq_Z(y:Z1,872:Z3). (1)
 Applying inference rule:
-   q310(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15281:Z2), Z_eq_Z(y:Z1,8633:Z3). (1)
+   q310(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5550:Z2), Z_eq_Z(y:Z1,633:Z3). (1)
 Applying inference rule:
-   q309(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3386:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
+   q309(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8619:Z2), Z_eq_Z(y:Z1,6022:Z3). (1)
 Applying inference rule:
-   q308(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20274:Z2), Z_eq_Z(y:Z1,8730:Z3). (1)
+   q308(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6032:Z2), Z_eq_Z(y:Z1,66:Z3). (1)
 Applying inference rule:
-   q307(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13325:Z2), Z_eq_Z(y:Z1,17630:Z3). (1)
+   q307(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6577:Z2), Z_eq_Z(y:Z1,21907:Z3). (1)
 Applying inference rule:
-   q306(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5483:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q306(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,725:Z2), Z_eq_Z(y:Z1,709:Z3). (1)
 Applying inference rule:
-   q305(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8977:Z2), Z_eq_Z(y:Z1,18165:Z3). (1)
+   q305(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,167:Z2), Z_eq_Z(y:Z1,18120:Z3). (1)
 Applying inference rule:
-   q304(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15606:Z2), Z_eq_Z(y:Z1,5681:Z3). (1)
+   q304(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11482:Z2), Z_eq_Z(y:Z1,2918:Z3). (1)
 Applying inference rule:
-   q303(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8079:Z2), Z_eq_Z(y:Z1,10479:Z3). (1)
+   q303(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5102:Z2), Z_eq_Z(y:Z1,306:Z3). (1)
 Applying inference rule:
-   q302(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8567:Z2), Z_eq_Z(y:Z1,232:Z3). (1)
+   q302(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22590:Z2), Z_eq_Z(y:Z1,2798:Z3). (1)
 Applying inference rule:
-   q301(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21099:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q301(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,620:Z2), Z_eq_Z(y:Z1,12161:Z3). (1)
 Applying inference rule:
-   q300(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4991:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q300(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11055:Z2), Z_eq_Z(y:Z1,4659:Z3). (1)
 Applying inference rule:
-   q299(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14305:Z2), Z_eq_Z(y:Z1,16483:Z3). (1)
+   q299(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11171:Z2), Z_eq_Z(y:Z1,3048:Z3). (1)
 Applying inference rule:
-   q298(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22561:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q298(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13319:Z2), Z_eq_Z(y:Z1,2443:Z3). (1)
 Applying inference rule:
-   q297(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9622:Z2), Z_eq_Z(y:Z1,12032:Z3). (1)
+   q297(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6329:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q296(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4654:Z2), Z_eq_Z(y:Z1,21330:Z3). (1)
+   q296(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15869:Z2), Z_eq_Z(y:Z1,2799:Z3). (1)
 Applying inference rule:
-   q295(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10396:Z2), Z_eq_Z(y:Z1,16537:Z3). (1)
+   q295(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22461:Z2), Z_eq_Z(y:Z1,5643:Z3). (1)
 Applying inference rule:
-   q294(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9765:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q294(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15773:Z2), Z_eq_Z(y:Z1,1505:Z3). (1)
 Applying inference rule:
-   q293(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4880:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q293(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18817:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
 Applying inference rule:
-   q292(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12487:Z2), Z_eq_Z(y:Z1,12266:Z3). (1)
+   q292(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14917:Z2), Z_eq_Z(y:Z1,1333:Z3). (1)
 Applying inference rule:
-   q291(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4601:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
+   q291(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13337:Z2), Z_eq_Z(y:Z1,16986:Z3). (1)
 Applying inference rule:
-   q290(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17867:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q290(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19336:Z2), Z_eq_Z(y:Z1,3080:Z3). (1)
 Applying inference rule:
-   q289(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15857:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q289(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6514:Z2), Z_eq_Z(y:Z1,3288:Z3). (1)
 Applying inference rule:
-   q288(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12191:Z2), Z_eq_Z(y:Z1,4825:Z3). (1)
+   q288(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1791:Z2), Z_eq_Z(y:Z1,4:Z3). (1)
 Applying inference rule:
-   q287(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20908:Z2), Z_eq_Z(y:Z1,1480:Z3). (1)
+   q287(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6304:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q286(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8815:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
+   q286(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13718:Z2), Z_eq_Z(y:Z1,5129:Z3). (1)
 Applying inference rule:
-   q285(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18354:Z2), Z_eq_Z(y:Z1,12478:Z3). (1)
+   q285(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14069:Z2), Z_eq_Z(y:Z1,12711:Z3). (1)
 Applying inference rule:
-   q284(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12785:Z2), Z_eq_Z(y:Z1,726:Z3). (1)
+   q284(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8966:Z2), Z_eq_Z(y:Z1,2742:Z3). (1)
 Applying inference rule:
-   q283(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5848:Z2), Z_eq_Z(y:Z1,16991:Z3). (1)
+   q283(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21469:Z2), Z_eq_Z(y:Z1,11245:Z3). (1)
 Applying inference rule:
-   q282(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15501:Z2), Z_eq_Z(y:Z1,2344:Z3). (1)
+   q282(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17009:Z2), Z_eq_Z(y:Z1,18927:Z3). (1)
 Applying inference rule:
-   q281(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19256:Z2), Z_eq_Z(y:Z1,20330:Z3). (1)
+   q281(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12277:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
 Applying inference rule:
-   q280(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12658:Z2), Z_eq_Z(y:Z1,113:Z3). (1)
+   q280(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8245:Z2), Z_eq_Z(y:Z1,10457:Z3). (1)
 Applying inference rule:
-   q279(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14725:Z2), Z_eq_Z(y:Z1,15879:Z3). (1)
+   q279(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22520:Z2), Z_eq_Z(y:Z1,13189:Z3). (1)
 Applying inference rule:
-   q278(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19939:Z2), Z_eq_Z(y:Z1,9953:Z3). (1)
+   q278(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15890:Z2), Z_eq_Z(y:Z1,10053:Z3). (1)
 Applying inference rule:
-   q277(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11823:Z2), Z_eq_Z(y:Z1,10392:Z3). (1)
+   q277(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1519:Z2), Z_eq_Z(y:Z1,224:Z3). (1)
 Applying inference rule:
-   q276(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10477:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
+   q276(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7197:Z2), Z_eq_Z(y:Z1,7419:Z3). (1)
 Applying inference rule:
-   q275(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12226:Z2), Z_eq_Z(y:Z1,5932:Z3). (1)
+   q275(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16262:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q274(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17817:Z2), Z_eq_Z(y:Z1,3819:Z3). (1)
+   q274(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1086:Z2), Z_eq_Z(y:Z1,9213:Z3). (1)
 Applying inference rule:
-   q273(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2664:Z2), Z_eq_Z(y:Z1,15078:Z3). (1)
+   q273(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22307:Z2), Z_eq_Z(y:Z1,13788:Z3). (1)
 Applying inference rule:
-   q272(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22478:Z2), Z_eq_Z(y:Z1,66:Z3). (1)
+   q272(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17245:Z2), Z_eq_Z(y:Z1,16:Z3). (1)
 Applying inference rule:
-   q271(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16631:Z2), Z_eq_Z(y:Z1,21757:Z3). (1)
+   q271(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8042:Z2), Z_eq_Z(y:Z1,62:Z3). (1)
 Applying inference rule:
-   q270(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14802:Z2), Z_eq_Z(y:Z1,13622:Z3). (1)
+   q270(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7486:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
 Applying inference rule:
-   q269(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2329:Z2), Z_eq_Z(y:Z1,6879:Z3). (1)
+   q269(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9441:Z2), Z_eq_Z(y:Z1,1291:Z3). (1)
 Applying inference rule:
-   q268(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18811:Z2), Z_eq_Z(y:Z1,3767:Z3). (1)
+   q268(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5002:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q267(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11963:Z2), Z_eq_Z(y:Z1,8100:Z3). (1)
+   q267(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3257:Z2), Z_eq_Z(y:Z1,832:Z3). (1)
 Applying inference rule:
-   q266(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,181:Z2), Z_eq_Z(y:Z1,12640:Z3). (1)
+   q266(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4286:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
 Applying inference rule:
-   q265(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4336:Z2), Z_eq_Z(y:Z1,18785:Z3). (1)
+   q265(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10039:Z2), Z_eq_Z(y:Z1,24:Z3). (1)
 Applying inference rule:
-   q264(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10146:Z2), Z_eq_Z(y:Z1,920:Z3). (1)
+   q264(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11032:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
 Applying inference rule:
-   q263(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12216:Z2), Z_eq_Z(y:Z1,21361:Z3). (1)
+   q263(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8055:Z2), Z_eq_Z(y:Z1,3381:Z3). (1)
 Applying inference rule:
-   q262(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5958:Z2), Z_eq_Z(y:Z1,16:Z3). (1)
+   q262(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18621:Z2), Z_eq_Z(y:Z1,14070:Z3). (1)
 Applying inference rule:
-   q261(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20062:Z2), Z_eq_Z(y:Z1,2068:Z3). (1)
+   q261(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18417:Z2), Z_eq_Z(y:Z1,1407:Z3). (1)
 Applying inference rule:
-   q260(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2502:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q260(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15700:Z2), Z_eq_Z(y:Z1,7965:Z3). (1)
 Applying inference rule:
-   q259(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11513:Z2), Z_eq_Z(y:Z1,3964:Z3). (1)
+   q259(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16517:Z2), Z_eq_Z(y:Z1,10902:Z3). (1)
 Applying inference rule:
-   q258(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12233:Z2), Z_eq_Z(y:Z1,18100:Z3). (1)
+   q258(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22397:Z2), Z_eq_Z(y:Z1,5162:Z3). (1)
 Applying inference rule:
-   q257(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2655:Z2), Z_eq_Z(y:Z1,9168:Z3). (1)
+   q257(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16320:Z2), Z_eq_Z(y:Z1,633:Z3). (1)
 Applying inference rule:
-   q256(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10716:Z2), Z_eq_Z(y:Z1,76:Z3). (1)
+   q256(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17810:Z2), Z_eq_Z(y:Z1,5729:Z3). (1)
 Applying inference rule:
-   q255(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8138:Z2), Z_eq_Z(y:Z1,2220:Z3). (1)
+   q255(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7552:Z2), Z_eq_Z(y:Z1,5130:Z3). (1)
 Applying inference rule:
-   q254(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14455:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
+   q254(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20551:Z2), Z_eq_Z(y:Z1,509:Z3). (1)
 Applying inference rule:
-   q253(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17722:Z2), Z_eq_Z(y:Z1,14472:Z3). (1)
+   q253(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,727:Z2), Z_eq_Z(y:Z1,10305:Z3). (1)
 Applying inference rule:
-   q252(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8002:Z2), Z_eq_Z(y:Z1,3327:Z3). (1)
+   q252(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9291:Z2), Z_eq_Z(y:Z1,16:Z3). (1)
 Applying inference rule:
-   q251(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15513:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
+   q251(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20702:Z2), Z_eq_Z(y:Z1,7220:Z3). (1)
 Applying inference rule:
-   q250(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3404:Z2), Z_eq_Z(y:Z1,224:Z3). (1)
+   q250(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10180:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
 Applying inference rule:
-   q249(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1526:Z2), Z_eq_Z(y:Z1,9824:Z3). (1)
+   q249(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14364:Z2), Z_eq_Z(y:Z1,15117:Z3). (1)
 Applying inference rule:
-   q248(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10198:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q248(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4623:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
 Applying inference rule:
-   q247(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6403:Z2), Z_eq_Z(y:Z1,13004:Z3). (1)
+   q247(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9115:Z2), Z_eq_Z(y:Z1,17226:Z3). (1)
 Applying inference rule:
-   q246(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17486:Z2), Z_eq_Z(y:Z1,1111:Z3). (1)
+   q246(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2791:Z2), Z_eq_Z(y:Z1,9796:Z3). (1)
 Applying inference rule:
-   q245(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22116:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q245(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15749:Z2), Z_eq_Z(y:Z1,3234:Z3). (1)
 Applying inference rule:
-   q244(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5282:Z2), Z_eq_Z(y:Z1,306:Z3). (1)
+   q244(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6685:Z2), Z_eq_Z(y:Z1,1558:Z3). (1)
 Applying inference rule:
-   q243(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3308:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
+   q243(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11234:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
 Applying inference rule:
-   q242(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10622:Z2), Z_eq_Z(y:Z1,7280:Z3). (1)
+   q242(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3469:Z2), Z_eq_Z(y:Z1,14302:Z3). (1)
 Applying inference rule:
-   q241(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5246:Z2), Z_eq_Z(y:Z1,17744:Z3). (1)
+   q241(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1146:Z2), Z_eq_Z(y:Z1,14376:Z3). (1)
 Applying inference rule:
-   q240(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7750:Z2), Z_eq_Z(y:Z1,20000:Z3). (1)
+   q240(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21892:Z2), Z_eq_Z(y:Z1,2443:Z3). (1)
 Applying inference rule:
-   q239(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11036:Z2), Z_eq_Z(y:Z1,6015:Z3). (1)
+   q239(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9771:Z2), Z_eq_Z(y:Z1,2951:Z3). (1)
 Applying inference rule:
-   q238(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17758:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q238(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12679:Z2), Z_eq_Z(y:Z1,17045:Z3). (1)
 Applying inference rule:
-   q237(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13807:Z2), Z_eq_Z(y:Z1,10216:Z3). (1)
+   q237(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5026:Z2), Z_eq_Z(y:Z1,224:Z3). (1)
 Applying inference rule:
-   q236(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11280:Z2), Z_eq_Z(y:Z1,10980:Z3). (1)
+   q236(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21627:Z2), Z_eq_Z(y:Z1,19256:Z3). (1)
 Applying inference rule:
-   q235(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4878:Z2), Z_eq_Z(y:Z1,13468:Z3). (1)
+   q235(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19084:Z2), Z_eq_Z(y:Z1,6503:Z3). (1)
 Applying inference rule:
-   q234(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,613:Z2), Z_eq_Z(y:Z1,10:Z3). (1)
+   q234(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8749:Z2), Z_eq_Z(y:Z1,17751:Z3). (1)
 Applying inference rule:
-   q233(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9904:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q233(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8692:Z2), Z_eq_Z(y:Z1,24:Z3). (1)
 Applying inference rule:
-   q232(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5260:Z2), Z_eq_Z(y:Z1,3025:Z3). (1)
+   q232(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1215:Z2), Z_eq_Z(y:Z1,17381:Z3). (1)
 Applying inference rule:
-   q231(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17311:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q231(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17118:Z2), Z_eq_Z(y:Z1,346:Z3). (1)
 Applying inference rule:
-   q230(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19288:Z2), Z_eq_Z(y:Z1,14625:Z3). (1)
+   q230(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22258:Z2), Z_eq_Z(y:Z1,14441:Z3). (1)
 Applying inference rule:
-   q229(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13829:Z2), Z_eq_Z(y:Z1,1929:Z3). (1)
+   q229(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7094:Z2), Z_eq_Z(y:Z1,9029:Z3). (1)
 Applying inference rule:
-   q228(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21511:Z2), Z_eq_Z(y:Z1,848:Z3). (1)
+   q228(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3554:Z2), Z_eq_Z(y:Z1,3246:Z3). (1)
 Applying inference rule:
-   q227(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12830:Z2), Z_eq_Z(y:Z1,20972:Z3). (1)
+   q227(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8715:Z2), Z_eq_Z(y:Z1,9326:Z3). (1)
 Applying inference rule:
-   q226(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10519:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q226(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10778:Z2), Z_eq_Z(y:Z1,12334:Z3). (1)
 Applying inference rule:
-   q225(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19331:Z2), Z_eq_Z(y:Z1,11492:Z3). (1)
+   q225(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18258:Z2), Z_eq_Z(y:Z1,62:Z3). (1)
 Applying inference rule:
-   q224(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20197:Z2), Z_eq_Z(y:Z1,5352:Z3). (1)
+   q224(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20201:Z2), Z_eq_Z(y:Z1,1124:Z3). (1)
 Applying inference rule:
-   q223(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3402:Z2), Z_eq_Z(y:Z1,21655:Z3). (1)
+   q223(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20356:Z2), Z_eq_Z(y:Z1,14828:Z3). (1)
 Applying inference rule:
-   q222(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5597:Z2), Z_eq_Z(y:Z1,16536:Z3). (1)
+   q222(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22392:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q221(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10177:Z2), Z_eq_Z(y:Z1,3281:Z3). (1)
+   q221(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20941:Z2), Z_eq_Z(y:Z1,1282:Z3). (1)
 Applying inference rule:
-   q220(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13097:Z2), Z_eq_Z(y:Z1,10197:Z3). (1)
+   q220(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14342:Z2), Z_eq_Z(y:Z1,36:Z3). (1)
 Applying inference rule:
-   q219(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11858:Z2), Z_eq_Z(y:Z1,8436:Z3). (1)
+   q219(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12437:Z2), Z_eq_Z(y:Z1,1588:Z3). (1)
 Applying inference rule:
-   q218(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5353:Z2), Z_eq_Z(y:Z1,14518:Z3). (1)
+   q218(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19722:Z2), Z_eq_Z(y:Z1,13833:Z3). (1)
 Applying inference rule:
-   q217(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14830:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q217(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11852:Z2), Z_eq_Z(y:Z1,17917:Z3). (1)
 Applying inference rule:
-   q216(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9873:Z2), Z_eq_Z(y:Z1,13148:Z3). (1)
+   q216(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15155:Z2), Z_eq_Z(y:Z1,509:Z3). (1)
 Applying inference rule:
-   q215(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4600:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
+   q215(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16592:Z2), Z_eq_Z(y:Z1,3765:Z3). (1)
 Applying inference rule:
-   q214(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14175:Z2), Z_eq_Z(y:Z1,961:Z3). (1)
+   q214(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19386:Z2), Z_eq_Z(y:Z1,1731:Z3). (1)
 Applying inference rule:
-   q213(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4227:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q213(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7784:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
 Applying inference rule:
-   q212(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19158:Z2), Z_eq_Z(y:Z1,21282:Z3). (1)
+   q212(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11506:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q211(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7581:Z2), Z_eq_Z(y:Z1,14047:Z3). (1)
+   q211(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20403:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
 Applying inference rule:
-   q210(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4365:Z2), Z_eq_Z(y:Z1,4051:Z3). (1)
+   q210(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19750:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q209(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15202:Z2), Z_eq_Z(y:Z1,5819:Z3). (1)
+   q209(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12917:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q208(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7246:Z2), Z_eq_Z(y:Z1,16387:Z3). (1)
+   q208(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18164:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q207(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1905:Z2), Z_eq_Z(y:Z1,4319:Z3). (1)
+   q207(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8169:Z2), Z_eq_Z(y:Z1,14483:Z3). (1)
 Applying inference rule:
-   q206(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11643:Z2), Z_eq_Z(y:Z1,8205:Z3). (1)
+   q206(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6162:Z2), Z_eq_Z(y:Z1,2541:Z3). (1)
 Applying inference rule:
-   q205(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11735:Z2), Z_eq_Z(y:Z1,18756:Z3). (1)
+   q205(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15301:Z2), Z_eq_Z(y:Z1,15820:Z3). (1)
 Applying inference rule:
-   q204(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14038:Z2), Z_eq_Z(y:Z1,19963:Z3). (1)
+   q204(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10310:Z2), Z_eq_Z(y:Z1,2008:Z3). (1)
 Applying inference rule:
-   q203(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4971:Z2), Z_eq_Z(y:Z1,11346:Z3). (1)
+   q203(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9890:Z2), Z_eq_Z(y:Z1,16510:Z3). (1)
 Applying inference rule:
-   q202(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19202:Z2), Z_eq_Z(y:Z1,17886:Z3). (1)
+   q202(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9735:Z2), Z_eq_Z(y:Z1,4977:Z3). (1)
 Applying inference rule:
-   q201(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14795:Z2), Z_eq_Z(y:Z1,17155:Z3). (1)
+   q201(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18288:Z2), Z_eq_Z(y:Z1,306:Z3). (1)
 Applying inference rule:
-   q200(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2673:Z2), Z_eq_Z(y:Z1,18783:Z3). (1)
+   q200(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10923:Z2), Z_eq_Z(y:Z1,2342:Z3). (1)
 Applying inference rule:
-   q199(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17537:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q199(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6448:Z2), Z_eq_Z(y:Z1,20631:Z3). (1)
 Applying inference rule:
-   q198(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8542:Z2), Z_eq_Z(y:Z1,137:Z3). (1)
+   q198(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17873:Z2), Z_eq_Z(y:Z1,5104:Z3). (1)
 Applying inference rule:
-   q197(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10535:Z2), Z_eq_Z(y:Z1,1423:Z3). (1)
+   q197(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10425:Z2), Z_eq_Z(y:Z1,19852:Z3). (1)
 Applying inference rule:
-   q196(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21741:Z2), Z_eq_Z(y:Z1,15145:Z3). (1)
+   q196(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13990:Z2), Z_eq_Z(y:Z1,1520:Z3). (1)
 Applying inference rule:
-   q195(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13053:Z2), Z_eq_Z(y:Z1,586:Z3). (1)
+   q195(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14510:Z2), Z_eq_Z(y:Z1,15810:Z3). (1)
 Applying inference rule:
-   q194(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20426:Z2), Z_eq_Z(y:Z1,9072:Z3). (1)
+   q194(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8425:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
 Applying inference rule:
-   q193(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20899:Z2), Z_eq_Z(y:Z1,14795:Z3). (1)
+   q193(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7608:Z2), Z_eq_Z(y:Z1,8642:Z3). (1)
 Applying inference rule:
-   q192(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13256:Z2), Z_eq_Z(y:Z1,3941:Z3). (1)
+   q192(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11265:Z2), Z_eq_Z(y:Z1,821:Z3). (1)
 Applying inference rule:
-   q191(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13445:Z2), Z_eq_Z(y:Z1,8740:Z3). (1)
+   q191(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10838:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
 Applying inference rule:
-   q190(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22357:Z2), Z_eq_Z(y:Z1,5793:Z3). (1)
+   q190(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12133:Z2), Z_eq_Z(y:Z1,6520:Z3). (1)
 Applying inference rule:
-   q189(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14990:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
+   q189(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1231:Z2), Z_eq_Z(y:Z1,4:Z3). (1)
 Applying inference rule:
-   q188(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19880:Z2), Z_eq_Z(y:Z1,103:Z3). (1)
+   q188(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16548:Z2), Z_eq_Z(y:Z1,21603:Z3). (1)
 Applying inference rule:
-   q187(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14402:Z2), Z_eq_Z(y:Z1,3761:Z3). (1)
+   q187(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22623:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q186(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15401:Z2), Z_eq_Z(y:Z1,16:Z3). (1)
+   q186(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1782:Z2), Z_eq_Z(y:Z1,4:Z3). (1)
 Applying inference rule:
-   q185(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9299:Z2), Z_eq_Z(y:Z1,9342:Z3). (1)
+   q185(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5809:Z2), Z_eq_Z(y:Z1,9746:Z3). (1)
 Applying inference rule:
-   q184(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18079:Z2), Z_eq_Z(y:Z1,15881:Z3). (1)
+   q184(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7476:Z2), Z_eq_Z(y:Z1,224:Z3). (1)
 Applying inference rule:
-   q183(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21411:Z2), Z_eq_Z(y:Z1,1597:Z3). (1)
+   q183(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22351:Z2), Z_eq_Z(y:Z1,327:Z3). (1)
 Applying inference rule:
-   q182(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21906:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
+   q182(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10741:Z2), Z_eq_Z(y:Z1,315:Z3). (1)
 Applying inference rule:
-   q181(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11381:Z2), Z_eq_Z(y:Z1,21336:Z3). (1)
+   q181(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1656:Z2), Z_eq_Z(y:Z1,15440:Z3). (1)
 Applying inference rule:
-   q180(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17689:Z2), Z_eq_Z(y:Z1,8616:Z3). (1)
+   q180(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,894:Z2), Z_eq_Z(y:Z1,3296:Z3). (1)
 Applying inference rule:
-   q179(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18545:Z2), Z_eq_Z(y:Z1,11991:Z3). (1)
+   q179(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3521:Z2), Z_eq_Z(y:Z1,215:Z3). (1)
 Applying inference rule:
-   q178(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5156:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q178(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1995:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q177(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9817:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q177(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20471:Z2), Z_eq_Z(y:Z1,4432:Z3). (1)
 Applying inference rule:
-   q176(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9481:Z2), Z_eq_Z(y:Z1,1146:Z3). (1)
+   q176(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12305:Z2), Z_eq_Z(y:Z1,1897:Z3). (1)
 Applying inference rule:
-   q175(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2126:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q175(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,291:Z2), Z_eq_Z(y:Z1,12521:Z3). (1)
 Applying inference rule:
-   q174(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13219:Z2), Z_eq_Z(y:Z1,12318:Z3). (1)
+   q174(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10111:Z2), Z_eq_Z(y:Z1,8956:Z3). (1)
 Applying inference rule:
-   q173(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13273:Z2), Z_eq_Z(y:Z1,2951:Z3). (1)
+   q173(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10775:Z2), Z_eq_Z(y:Z1,6366:Z3). (1)
 Applying inference rule:
-   q172(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7605:Z2), Z_eq_Z(y:Z1,5867:Z3). (1)
+   q172(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9836:Z2), Z_eq_Z(y:Z1,14461:Z3). (1)
 Applying inference rule:
-   q171(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11966:Z2), Z_eq_Z(y:Z1,4672:Z3). (1)
+   q171(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11088:Z2), Z_eq_Z(y:Z1,12776:Z3). (1)
 Applying inference rule:
-   q170(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2352:Z2), Z_eq_Z(y:Z1,14825:Z3). (1)
+   q170(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20430:Z2), Z_eq_Z(y:Z1,21228:Z3). (1)
 Applying inference rule:
-   q169(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10328:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q169(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7340:Z2), Z_eq_Z(y:Z1,3939:Z3). (1)
 Applying inference rule:
-   q168(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10657:Z2), Z_eq_Z(y:Z1,11740:Z3). (1)
+   q168(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20101:Z2), Z_eq_Z(y:Z1,5129:Z3). (1)
 Applying inference rule:
-   q167(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15204:Z2), Z_eq_Z(y:Z1,895:Z3). (1)
+   q167(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7756:Z2), Z_eq_Z(y:Z1,11184:Z3). (1)
 Applying inference rule:
-   q166(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22095:Z2), Z_eq_Z(y:Z1,18193:Z3). (1)
+   q166(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18775:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q165(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15251:Z2), Z_eq_Z(y:Z1,16:Z3). (1)
+   q165(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16546:Z2), Z_eq_Z(y:Z1,2522:Z3). (1)
 Applying inference rule:
-   q164(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6906:Z2), Z_eq_Z(y:Z1,21744:Z3). (1)
+   q164(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2268:Z2), Z_eq_Z(y:Z1,1709:Z3). (1)
 Applying inference rule:
-   q163(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10586:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q163(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2928:Z2), Z_eq_Z(y:Z1,769:Z3). (1)
 Applying inference rule:
-   q162(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2201:Z2), Z_eq_Z(y:Z1,16995:Z3). (1)
+   q162(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18774:Z2), Z_eq_Z(y:Z1,224:Z3). (1)
 Applying inference rule:
-   q161(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6365:Z2), Z_eq_Z(y:Z1,1749:Z3). (1)
+   q161(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20573:Z2), Z_eq_Z(y:Z1,20010:Z3). (1)
 Applying inference rule:
-   q160(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18052:Z2), Z_eq_Z(y:Z1,1988:Z3). (1)
+   q160(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11967:Z2), Z_eq_Z(y:Z1,2844:Z3). (1)
 Applying inference rule:
-   q159(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13037:Z2), Z_eq_Z(y:Z1,1749:Z3). (1)
+   q159(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17650:Z2), Z_eq_Z(y:Z1,2462:Z3). (1)
 Applying inference rule:
-   q158(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10166:Z2), Z_eq_Z(y:Z1,11648:Z3). (1)
+   q158(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5987:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q157(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22105:Z2), Z_eq_Z(y:Z1,3106:Z3). (1)
+   q157(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6983:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q156(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1601:Z2), Z_eq_Z(y:Z1,16483:Z3). (1)
+   q156(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13272:Z2), Z_eq_Z(y:Z1,19267:Z3). (1)
 Applying inference rule:
-   q155(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20232:Z2), Z_eq_Z(y:Z1,932:Z3). (1)
+   q155(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3258:Z2), Z_eq_Z(y:Z1,103:Z3). (1)
 Applying inference rule:
-   q154(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9769:Z2), Z_eq_Z(y:Z1,7018:Z3). (1)
+   q154(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1832:Z2), Z_eq_Z(y:Z1,11403:Z3). (1)
 Applying inference rule:
-   q153(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21220:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q153(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21639:Z2), Z_eq_Z(y:Z1,17860:Z3). (1)
 Applying inference rule:
-   q152(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8237:Z2), Z_eq_Z(y:Z1,13532:Z3). (1)
+   q152(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4104:Z2), Z_eq_Z(y:Z1,15381:Z3). (1)
 Applying inference rule:
-   q151(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4348:Z2), Z_eq_Z(y:Z1,832:Z3). (1)
+   q151(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11496:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q150(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16983:Z2), Z_eq_Z(y:Z1,10432:Z3). (1)
+   q150(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10572:Z2), Z_eq_Z(y:Z1,17598:Z3). (1)
 Applying inference rule:
-   q149(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9598:Z2), Z_eq_Z(y:Z1,2851:Z3). (1)
+   q149(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,671:Z2), Z_eq_Z(y:Z1,1784:Z3). (1)
 Applying inference rule:
-   q148(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21009:Z2), Z_eq_Z(y:Z1,2602:Z3). (1)
+   q148(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,167:Z2), Z_eq_Z(y:Z1,9603:Z3). (1)
 Applying inference rule:
-   q147(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7361:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q147(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2549:Z2), Z_eq_Z(y:Z1,22515:Z3). (1)
 Applying inference rule:
-   q146(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,845:Z2), Z_eq_Z(y:Z1,14921:Z3). (1)
+   q146(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17544:Z2), Z_eq_Z(y:Z1,1407:Z3). (1)
 Applying inference rule:
-   q145(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6105:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q145(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,747:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q144(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9147:Z2), Z_eq_Z(y:Z1,17095:Z3). (1)
+   q144(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14536:Z2), Z_eq_Z(y:Z1,11295:Z3). (1)
 Applying inference rule:
-   q143(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17991:Z2), Z_eq_Z(y:Z1,9210:Z3). (1)
+   q143(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6993:Z2), Z_eq_Z(y:Z1,9605:Z3). (1)
 Applying inference rule:
-   q142(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13686:Z2), Z_eq_Z(y:Z1,3421:Z3). (1)
+   q142(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2765:Z2), Z_eq_Z(y:Z1,1568:Z3). (1)
 Applying inference rule:
-   q141(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12321:Z2), Z_eq_Z(y:Z1,10110:Z3). (1)
+   q141(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,126:Z2), Z_eq_Z(y:Z1,709:Z3). (1)
 Applying inference rule:
-   q140(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5392:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
+   q140(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,191:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q139(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2465:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q139(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8266:Z2), Z_eq_Z(y:Z1,17242:Z3). (1)
 Applying inference rule:
-   q138(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5070:Z2), Z_eq_Z(y:Z1,12784:Z3). (1)
+   q138(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10507:Z2), Z_eq_Z(y:Z1,4358:Z3). (1)
 Applying inference rule:
-   q137(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11250:Z2), Z_eq_Z(y:Z1,18544:Z3). (1)
+   q137(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11735:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
 Applying inference rule:
-   q136(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14205:Z2), Z_eq_Z(y:Z1,4544:Z3). (1)
+   q136(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15946:Z2), Z_eq_Z(y:Z1,4520:Z3). (1)
 Applying inference rule:
-   q135(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16386:Z2), Z_eq_Z(y:Z1,3836:Z3). (1)
+   q135(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18450:Z2), Z_eq_Z(y:Z1,2742:Z3). (1)
 Applying inference rule:
-   q134(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5895:Z2), Z_eq_Z(y:Z1,3584:Z3). (1)
+   q134(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10711:Z2), Z_eq_Z(y:Z1,13196:Z3). (1)
 Applying inference rule:
-   q133(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,26:Z2), Z_eq_Z(y:Z1,10:Z3). (1)
+   q133(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9942:Z2), Z_eq_Z(y:Z1,2570:Z3). (1)
 Applying inference rule:
-   q132(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19567:Z2), Z_eq_Z(y:Z1,7261:Z3). (1)
+   q132(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2316:Z2), Z_eq_Z(y:Z1,1557:Z3). (1)
 Applying inference rule:
-   q131(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4958:Z2), Z_eq_Z(y:Z1,11397:Z3). (1)
+   q131(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5689:Z2), Z_eq_Z(y:Z1,5454:Z3). (1)
 Applying inference rule:
-   q130(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3034:Z2), Z_eq_Z(y:Z1,11893:Z3). (1)
+   q130(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10521:Z2), Z_eq_Z(y:Z1,13902:Z3). (1)
 Applying inference rule:
-   q129(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6555:Z2), Z_eq_Z(y:Z1,5400:Z3). (1)
+   q129(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5764:Z2), Z_eq_Z(y:Z1,9978:Z3). (1)
 Applying inference rule:
-   q128(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20845:Z2), Z_eq_Z(y:Z1,1520:Z3). (1)
+   q128(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17506:Z2), Z_eq_Z(y:Z1,1542:Z3). (1)
 Applying inference rule:
-   q127(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3096:Z2), Z_eq_Z(y:Z1,14984:Z3). (1)
+   q127(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18378:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q126(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10466:Z2), Z_eq_Z(y:Z1,7724:Z3). (1)
+   q126(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6855:Z2), Z_eq_Z(y:Z1,1339:Z3). (1)
 Applying inference rule:
-   q125(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1453:Z2), Z_eq_Z(y:Z1,2688:Z3). (1)
+   q125(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2489:Z2), Z_eq_Z(y:Z1,52:Z3). (1)
 Applying inference rule:
-   q124(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8530:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q124(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15847:Z2), Z_eq_Z(y:Z1,8948:Z3). (1)
 Applying inference rule:
-   q123(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13850:Z2), Z_eq_Z(y:Z1,769:Z3). (1)
+   q123(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1965:Z2), Z_eq_Z(y:Z1,17211:Z3). (1)
 Applying inference rule:
-   q122(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13643:Z2), Z_eq_Z(y:Z1,17227:Z3). (1)
+   q122(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18328:Z2), Z_eq_Z(y:Z1,20935:Z3). (1)
 Applying inference rule:
-   q121(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6952:Z2), Z_eq_Z(y:Z1,19224:Z3). (1)
+   q121(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7325:Z2), Z_eq_Z(y:Z1,22256:Z3). (1)
 Applying inference rule:
-   q120(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22368:Z2), Z_eq_Z(y:Z1,4977:Z3). (1)
+   q120(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9841:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q119(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10563:Z2), Z_eq_Z(y:Z1,16:Z3). (1)
+   q119(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4570:Z2), Z_eq_Z(y:Z1,14870:Z3). (1)
 Applying inference rule:
-   q118(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12885:Z2), Z_eq_Z(y:Z1,15428:Z3). (1)
+   q118(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22050:Z2), Z_eq_Z(y:Z1,538:Z3). (1)
 Applying inference rule:
-   q117(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18517:Z2), Z_eq_Z(y:Z1,6891:Z3). (1)
+   q117(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6363:Z2), Z_eq_Z(y:Z1,8196:Z3). (1)
 Applying inference rule:
-   q116(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17747:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
+   q116(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11885:Z2), Z_eq_Z(y:Z1,7848:Z3). (1)
 Applying inference rule:
-   q115(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16389:Z2), Z_eq_Z(y:Z1,11451:Z3). (1)
+   q115(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19971:Z2), Z_eq_Z(y:Z1,5088:Z3). (1)
 Applying inference rule:
-   q114(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17852:Z2), Z_eq_Z(y:Z1,12857:Z3). (1)
+   q114(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6290:Z2), Z_eq_Z(y:Z1,19667:Z3). (1)
 Applying inference rule:
-   q113(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11807:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
+   q113(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11391:Z2), Z_eq_Z(y:Z1,2858:Z3). (1)
 Applying inference rule:
-   q112(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19045:Z2), Z_eq_Z(y:Z1,6058:Z3). (1)
+   q112(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2905:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q111(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10811:Z2), Z_eq_Z(y:Z1,12636:Z3). (1)
+   q111(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12212:Z2), Z_eq_Z(y:Z1,373:Z3). (1)
 Applying inference rule:
-   q110(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2897:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q110(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21158:Z2), Z_eq_Z(y:Z1,20662:Z3). (1)
 Applying inference rule:
-   q109(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12707:Z2), Z_eq_Z(y:Z1,6722:Z3). (1)
+   q109(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17772:Z2), Z_eq_Z(y:Z1,4858:Z3). (1)
 Applying inference rule:
-   q108(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18634:Z2), Z_eq_Z(y:Z1,373:Z3). (1)
+   q108(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13766:Z2), Z_eq_Z(y:Z1,17690:Z3). (1)
 Applying inference rule:
-   q107(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5459:Z2), Z_eq_Z(y:Z1,11041:Z3). (1)
+   q107(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14596:Z2), Z_eq_Z(y:Z1,7038:Z3). (1)
 Applying inference rule:
-   q106(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6033:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q106(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10374:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q105(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3780:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
+   q105(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6325:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
 Applying inference rule:
-   q104(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18556:Z2), Z_eq_Z(y:Z1,236:Z3). (1)
+   q104(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13818:Z2), Z_eq_Z(y:Z1,19851:Z3). (1)
 Applying inference rule:
-   q103(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6692:Z2), Z_eq_Z(y:Z1,3551:Z3). (1)
+   q103(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8120:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q102(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12017:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
+   q102(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14651:Z2), Z_eq_Z(y:Z1,3990:Z3). (1)
 Applying inference rule:
-   q101(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19648:Z2), Z_eq_Z(y:Z1,5118:Z3). (1)
+   q101(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22205:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q100(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11798:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q100(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4449:Z2), Z_eq_Z(y:Z1,11821:Z3). (1)
 Applying inference rule:
-   q99(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19170:Z2), Z_eq_Z(y:Z1,2366:Z3). (1)
+   q99(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14812:Z2), Z_eq_Z(y:Z1,76:Z3). (1)
 Applying inference rule:
-   q98(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1445:Z2), Z_eq_Z(y:Z1,11335:Z3). (1)
+   q98(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2778:Z2), Z_eq_Z(y:Z1,16:Z3). (1)
 Applying inference rule:
-   q97(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15701:Z2), Z_eq_Z(y:Z1,10244:Z3). (1)
+   q97(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1045:Z2), Z_eq_Z(y:Z1,10074:Z3). (1)
 Applying inference rule:
-   q96(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18322:Z2), Z_eq_Z(y:Z1,16:Z3). (1)
+   q96(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10314:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
 Applying inference rule:
-   q95(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4050:Z2), Z_eq_Z(y:Z1,21653:Z3). (1)
+   q95(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16462:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
 Applying inference rule:
-   q94(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2050:Z2), Z_eq_Z(y:Z1,16893:Z3). (1)
+   q94(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16498:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q93(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8611:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q93(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13291:Z2), Z_eq_Z(y:Z1,12916:Z3). (1)
 Applying inference rule:
-   q92(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6965:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q92(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5025:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
 Applying inference rule:
-   q91(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2621:Z2), Z_eq_Z(y:Z1,432:Z3). (1)
+   q91(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13685:Z2), Z_eq_Z(y:Z1,1108:Z3). (1)
 Applying inference rule:
-   q90(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8161:Z2), Z_eq_Z(y:Z1,8731:Z3). (1)
+   q90(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5576:Z2), Z_eq_Z(y:Z1,306:Z3). (1)
 Applying inference rule:
-   q89(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15997:Z2), Z_eq_Z(y:Z1,10947:Z3). (1)
+   q89(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7757:Z2), Z_eq_Z(y:Z1,3349:Z3). (1)
 Applying inference rule:
-   q88(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20783:Z2), Z_eq_Z(y:Z1,16297:Z3). (1)
+   q88(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17305:Z2), Z_eq_Z(y:Z1,19596:Z3). (1)
 Applying inference rule:
-   q87(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9251:Z2), Z_eq_Z(y:Z1,674:Z3). (1)
+   q87(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12036:Z2), Z_eq_Z(y:Z1,2577:Z3). (1)
 Applying inference rule:
-   q86(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11319:Z2), Z_eq_Z(y:Z1,1401:Z3). (1)
+   q86(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1066:Z2), Z_eq_Z(y:Z1,12390:Z3). (1)
 Applying inference rule:
-   q85(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16530:Z2), Z_eq_Z(y:Z1,5045:Z3). (1)
+   q85(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18330:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q84(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17883:Z2), Z_eq_Z(y:Z1,20547:Z3). (1)
+   q84(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16694:Z2), Z_eq_Z(y:Z1,15250:Z3). (1)
 Applying inference rule:
-   q83(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4098:Z2), Z_eq_Z(y:Z1,769:Z3). (1)
+   q83(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19362:Z2), Z_eq_Z(y:Z1,18352:Z3). (1)
 Applying inference rule:
-   q82(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12787:Z2), Z_eq_Z(y:Z1,66:Z3). (1)
+   q82(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3597:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q81(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18896:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q81(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14273:Z2), Z_eq_Z(y:Z1,2308:Z3). (1)
 Applying inference rule:
-   q80(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9560:Z2), Z_eq_Z(y:Z1,11711:Z3). (1)
+   q80(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9757:Z2), Z_eq_Z(y:Z1,21044:Z3). (1)
 Applying inference rule:
-   q79(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11924:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q79(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15844:Z2), Z_eq_Z(y:Z1,6107:Z3). (1)
 Applying inference rule:
-   q78(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,227:Z2), Z_eq_Z(y:Z1,14804:Z3). (1)
+   q78(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16351:Z2), Z_eq_Z(y:Z1,3204:Z3). (1)
 Applying inference rule:
-   q77(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10813:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
+   q77(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5873:Z2), Z_eq_Z(y:Z1,1360:Z3). (1)
 Applying inference rule:
-   q76(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19759:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q76(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18051:Z2), Z_eq_Z(y:Z1,346:Z3). (1)
 Applying inference rule:
-   q75(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16519:Z2), Z_eq_Z(y:Z1,66:Z3). (1)
+   q75(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17855:Z2), Z_eq_Z(y:Z1,2165:Z3). (1)
 Applying inference rule:
-   q74(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3138:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q74(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4669:Z2), Z_eq_Z(y:Z1,10934:Z3). (1)
 Applying inference rule:
-   q73(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19659:Z2), Z_eq_Z(y:Z1,20361:Z3). (1)
+   q73(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20657:Z2), Z_eq_Z(y:Z1,346:Z3). (1)
 Applying inference rule:
-   q72(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10158:Z2), Z_eq_Z(y:Z1,7803:Z3). (1)
+   q72(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8398:Z2), Z_eq_Z(y:Z1,14751:Z3). (1)
 Applying inference rule:
-   q71(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18122:Z2), Z_eq_Z(y:Z1,6551:Z3). (1)
+   q71(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17041:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q70(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15871:Z2), Z_eq_Z(y:Z1,11492:Z3). (1)
+   q70(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8811:Z2), Z_eq_Z(y:Z1,10340:Z3). (1)
 Applying inference rule:
-   q69(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21397:Z2), Z_eq_Z(y:Z1,13682:Z3). (1)
+   q69(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3567:Z2), Z_eq_Z(y:Z1,13401:Z3). (1)
 Applying inference rule:
-   q68(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4234:Z2), Z_eq_Z(y:Z1,5886:Z3). (1)
+   q68(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18699:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q67(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5217:Z2), Z_eq_Z(y:Z1,13049:Z3). (1)
+   q67(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4745:Z2), Z_eq_Z(y:Z1,127:Z3). (1)
 Applying inference rule:
-   q66(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,42:Z2), Z_eq_Z(y:Z1,16302:Z3). (1)
+   q66(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16764:Z2), Z_eq_Z(y:Z1,19011:Z3). (1)
 Applying inference rule:
-   q65(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8256:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q65(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13945:Z2), Z_eq_Z(y:Z1,1360:Z3). (1)
 Applying inference rule:
-   q64(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9982:Z2), Z_eq_Z(y:Z1,103:Z3). (1)
+   q64(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16522:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
 Applying inference rule:
-   q63(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,999:Z2), Z_eq_Z(y:Z1,4724:Z3). (1)
+   q63(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17540:Z2), Z_eq_Z(y:Z1,2550:Z3). (1)
 Applying inference rule:
-   q62(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4850:Z2), Z_eq_Z(y:Z1,1108:Z3). (1)
+   q62(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1684:Z2), Z_eq_Z(y:Z1,1312:Z3). (1)
 Applying inference rule:
-   q61(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20485:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
+   q61(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13346:Z2), Z_eq_Z(y:Z1,1449:Z3). (1)
 Applying inference rule:
-   q60(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21705:Z2), Z_eq_Z(y:Z1,14160:Z3). (1)
+   q60(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9371:Z2), Z_eq_Z(y:Z1,1401:Z3). (1)
 Applying inference rule:
-   q59(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19931:Z2), Z_eq_Z(y:Z1,327:Z3). (1)
+   q59(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9637:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q58(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9993:Z2), Z_eq_Z(y:Z1,21110:Z3). (1)
+   q58(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8822:Z2), Z_eq_Z(y:Z1,6486:Z3). (1)
 Applying inference rule:
-   q57(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10316:Z2), Z_eq_Z(y:Z1,103:Z3). (1)
+   q57(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3893:Z2), Z_eq_Z(y:Z1,6320:Z3). (1)
 Applying inference rule:
-   q56(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,704:Z2), Z_eq_Z(y:Z1,16948:Z3). (1)
+   q56(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18172:Z2), Z_eq_Z(y:Z1,2165:Z3). (1)
 Applying inference rule:
-   q55(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21766:Z2), Z_eq_Z(y:Z1,509:Z3). (1)
+   q55(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10042:Z2), Z_eq_Z(y:Z1,19089:Z3). (1)
 Applying inference rule:
-   q54(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17429:Z2), Z_eq_Z(y:Z1,15026:Z3). (1)
+   q54(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18096:Z2), Z_eq_Z(y:Z1,12957:Z3). (1)
 Applying inference rule:
-   q53(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9873:Z2), Z_eq_Z(y:Z1,821:Z3). (1)
+   q53(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18498:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q52(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5481:Z2), Z_eq_Z(y:Z1,10066:Z3). (1)
+   q52(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,672:Z2), Z_eq_Z(y:Z1,10488:Z3). (1)
 Applying inference rule:
-   q51(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20532:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q51(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14433:Z2), Z_eq_Z(y:Z1,7685:Z3). (1)
 Applying inference rule:
-   q50(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11017:Z2), Z_eq_Z(y:Z1,19202:Z3). (1)
+   q50(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3314:Z2), Z_eq_Z(y:Z1,2072:Z3). (1)
 Applying inference rule:
-   q49(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8232:Z2), Z_eq_Z(y:Z1,4955:Z3). (1)
+   q49(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18494:Z2), Z_eq_Z(y:Z1,2153:Z3). (1)
 Applying inference rule:
-   q48(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11852:Z2), Z_eq_Z(y:Z1,17564:Z3). (1)
+   q48(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1408:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q47(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5943:Z2), Z_eq_Z(y:Z1,1929:Z3). (1)
+   q47(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6397:Z2), Z_eq_Z(y:Z1,22113:Z3). (1)
 Applying inference rule:
-   q46(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19205:Z2), Z_eq_Z(y:Z1,15167:Z3). (1)
+   q46(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,595:Z2), Z_eq_Z(y:Z1,6404:Z3). (1)
 Applying inference rule:
-   q45(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17483:Z2), Z_eq_Z(y:Z1,2958:Z3). (1)
+   q45(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9632:Z2), Z_eq_Z(y:Z1,3761:Z3). (1)
 Applying inference rule:
-   q44(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3577:Z2), Z_eq_Z(y:Z1,6548:Z3). (1)
+   q44(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8640:Z2), Z_eq_Z(y:Z1,12631:Z3). (1)
 Applying inference rule:
-   q43(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16497:Z2), Z_eq_Z(y:Z1,14169:Z3). (1)
+   q43(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7452:Z2), Z_eq_Z(y:Z1,3677:Z3). (1)
 Applying inference rule:
-   q42(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6323:Z2), Z_eq_Z(y:Z1,6480:Z3). (1)
+   q42(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15752:Z2), Z_eq_Z(y:Z1,2309:Z3). (1)
 Applying inference rule:
-   q41(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8423:Z2), Z_eq_Z(y:Z1,15338:Z3). (1)
+   q41(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14956:Z2), Z_eq_Z(y:Z1,3175:Z3). (1)
 Applying inference rule:
-   q40(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3718:Z2), Z_eq_Z(y:Z1,20145:Z3). (1)
+   q40(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9086:Z2), Z_eq_Z(y:Z1,2541:Z3). (1)
 Applying inference rule:
-   q39(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5064:Z2), Z_eq_Z(y:Z1,3344:Z3). (1)
+   q39(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18200:Z2), Z_eq_Z(y:Z1,116:Z3). (1)
 Applying inference rule:
-   q38(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6293:Z2), Z_eq_Z(y:Z1,18017:Z3). (1)
+   q38(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17324:Z2), Z_eq_Z(y:Z1,346:Z3). (1)
 Applying inference rule:
-   q37(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7928:Z2), Z_eq_Z(y:Z1,21290:Z3). (1)
+   q37(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11933:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
 Applying inference rule:
-   q36(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4717:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
+   q36(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3360:Z2), Z_eq_Z(y:Z1,8647:Z3). (1)
 Applying inference rule:
-   q35(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8443:Z2), Z_eq_Z(y:Z1,19101:Z3). (1)
+   q35(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11865:Z2), Z_eq_Z(y:Z1,13052:Z3). (1)
 Applying inference rule:
-   q34(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9480:Z2), Z_eq_Z(y:Z1,21359:Z3). (1)
+   q34(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18506:Z2), Z_eq_Z(y:Z1,3582:Z3). (1)
 Applying inference rule:
-   q33(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3883:Z2), Z_eq_Z(y:Z1,12891:Z3). (1)
+   q33(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19298:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
 Applying inference rule:
-   q32(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15176:Z2), Z_eq_Z(y:Z1,769:Z3). (1)
+   q32(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19722:Z2), Z_eq_Z(y:Z1,1642:Z3). (1)
 Applying inference rule:
-   q31(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17862:Z2), Z_eq_Z(y:Z1,115:Z3). (1)
+   q31(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13455:Z2), Z_eq_Z(y:Z1,15188:Z3). (1)
 Applying inference rule:
-   q30(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8668:Z2), Z_eq_Z(y:Z1,38:Z3). (1)
+   q30(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15016:Z2), Z_eq_Z(y:Z1,260:Z3). (1)
 Applying inference rule:
-   q29(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2754:Z2), Z_eq_Z(y:Z1,17506:Z3). (1)
+   q29(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6142:Z2), Z_eq_Z(y:Z1,18222:Z3). (1)
 Applying inference rule:
-   q28(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17329:Z2), Z_eq_Z(y:Z1,13245:Z3). (1)
+   q28(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5427:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
 Applying inference rule:
-   q27(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3491:Z2), Z_eq_Z(y:Z1,5795:Z3). (1)
+   q27(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5971:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q26(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18763:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
+   q26(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10742:Z2), Z_eq_Z(y:Z1,2767:Z3). (1)
 Applying inference rule:
-   q25(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16387:Z2), Z_eq_Z(y:Z1,16:Z3). (1)
+   q25(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20033:Z2), Z_eq_Z(y:Z1,15702:Z3). (1)
 Applying inference rule:
-   q24(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16114:Z2), Z_eq_Z(y:Z1,306:Z3). (1)
+   q24(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19077:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
 Applying inference rule:
-   q23(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16984:Z2), Z_eq_Z(y:Z1,1193:Z3). (1)
+   q23(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17819:Z2), Z_eq_Z(y:Z1,3700:Z3). (1)
 Applying inference rule:
-   q22(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18188:Z2), Z_eq_Z(y:Z1,15322:Z3). (1)
+   q22(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13964:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q21(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3728:Z2), Z_eq_Z(y:Z1,15816:Z3). (1)
+   q21(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17198:Z2), Z_eq_Z(y:Z1,22:Z3). (1)
 Applying inference rule:
-   q20(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10735:Z2), Z_eq_Z(y:Z1,14374:Z3). (1)
+   q20(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9303:Z2), Z_eq_Z(y:Z1,2213:Z3). (1)
 Applying inference rule:
-   q19(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19256:Z2), Z_eq_Z(y:Z1,6796:Z3). (1)
+   q19(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6776:Z2), Z_eq_Z(y:Z1,5566:Z3). (1)
 Applying inference rule:
-   q18(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11908:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
+   q18(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5295:Z2), Z_eq_Z(y:Z1,15414:Z3). (1)
 Applying inference rule:
-   q17(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10782:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
+   q17(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19247:Z2), Z_eq_Z(y:Z1,151:Z3). (1)
 Applying inference rule:
-   q16(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3240:Z2), Z_eq_Z(y:Z1,8531:Z3). (1)
+   q16(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19945:Z2), Z_eq_Z(y:Z1,11479:Z3). (1)
 Applying inference rule:
-   q15(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13724:Z2), Z_eq_Z(y:Z1,0:Z3). (1)
+   q15(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8213:Z2), Z_eq_Z(y:Z1,832:Z3). (1)
 Applying inference rule:
-   q14(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1522:Z2), Z_eq_Z(y:Z1,8718:Z3). (1)
+   q14(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9048:Z2), Z_eq_Z(y:Z1,66:Z3). (1)
 Applying inference rule:
-   q13(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2968:Z2), Z_eq_Z(y:Z1,11744:Z3). (1)
+   q13(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2981:Z2), Z_eq_Z(y:Z1,2541:Z3). (1)
 Applying inference rule:
-   q12(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8064:Z2), Z_eq_Z(y:Z1,22354:Z3). (1)
+   q12(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9948:Z2), Z_eq_Z(y:Z1,19066:Z3). (1)
 Applying inference rule:
-   q11(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9310:Z2), Z_eq_Z(y:Z1,278:Z3). (1)
+   q11(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17849:Z2), Z_eq_Z(y:Z1,346:Z3). (1)
 Applying inference rule:
-   q10(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1242:Z2), Z_eq_Z(y:Z1,11466:Z3). (1)
+   q10(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18592:Z2), Z_eq_Z(y:Z1,8181:Z3). (1)
 Applying inference rule:
-   q9(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8380:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
+   q9(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17872:Z2), Z_eq_Z(y:Z1,769:Z3). (1)
 Applying inference rule:
-   q8(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3251:Z2), Z_eq_Z(y:Z1,1638:Z3). (1)
+   q8(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22539:Z2), Z_eq_Z(y:Z1,306:Z3). (1)
 Applying inference rule:
-   q7(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8422:Z2), Z_eq_Z(y:Z1,10629:Z3). (1)
+   q7(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22280:Z2), Z_eq_Z(y:Z1,3191:Z3). (1)
 Applying inference rule:
-   q6(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17202:Z2), Z_eq_Z(y:Z1,14282:Z3). (1)
+   q6(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12258:Z2), Z_eq_Z(y:Z1,21754:Z3). (1)
 Applying inference rule:
-   q5(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19513:Z2), Z_eq_Z(y:Z1,12108:Z3). (1)
+   q5(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8282:Z2), Z_eq_Z(y:Z1,1407:Z3). (1)
 Applying inference rule:
-   q4(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3037:Z2), Z_eq_Z(y:Z1,2066:Z3). (1)
+   q4(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1347:Z2), Z_eq_Z(y:Z1,808:Z3). (1)
 Applying inference rule:
-   q3(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11:Z2), Z_eq_Z(y:Z1,3958:Z3). (1)
+   q3(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18692:Z2), Z_eq_Z(y:Z1,10219:Z3). (1)
 Applying inference rule:
-   q2(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4115:Z2), Z_eq_Z(y:Z1,22427:Z3). (1)
+   q2(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6553:Z2), Z_eq_Z(y:Z1,2301:Z3). (1)
 Applying inference rule:
-   q1(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7703:Z2), Z_eq_Z(y:Z1,2066:Z3). (1)
+   q1(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2209:Z2), Z_eq_Z(y:Z1,18:Z3). (1)
 Applying inference rule:
-   q0(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20456:Z2), Z_eq_Z(y:Z1,17025:Z3). (1)
-done. (21803 ms)
-SOLVE_TIME=21803
+   q0(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12643:Z2), Z_eq_Z(y:Z1,14391:Z3). (1)
+done. (15461 ms)
+SOLVE_TIME=15461
 MAX_NODES=714283
-FINAL_NODES=634566
+FINAL_NODES=635719
 Rule fun(0,1149,1) :- .
    Updates: 1
    Time: 0 ms
@@ -44117,6 +44116,10 @@ Rule fun(84,799,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(86,1149,25) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(87,1149,88) :- .
    Updates: 1
    Time: 0 ms
@@ -44126,10 +44129,6 @@ Rule fun(89,406,90) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(91,697,92) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(93,1149,94) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -44309,11 +44308,11 @@ Rule fun(178,1149,39) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(179,381,180) :- .
+Rule fun(181,1110,182) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(181,1110,182) :- .
+Rule fun(183,786,184) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -44541,6 +44540,10 @@ Rule fun(241,1149,280) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(281,403,282) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(283,232,284) :- .
    Updates: 1
    Time: 0 ms
@@ -44701,10 +44704,6 @@ Rule fun(350,1149,126) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(351,1139,352) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(353,1149,354) :- .
    Updates: 1
    Time: 0 ms
@@ -44770,6 +44769,10 @@ Rule fun(377,1149,1) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(378,1041,379) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(380,1149,381) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -44890,10 +44893,6 @@ Rule fun(434,1002,435) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(436,1149,437) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(138,3,438) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -45081,10 +45080,6 @@ Rule fun(516,605,517) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(518,249,519) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(520,1098,521) :- .
    Updates: 1
    Time: 0 ms
@@ -45209,6 +45204,10 @@ Rule fun(568,292,569) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(570,1149,571) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(572,1132,573) :- .
    Updates: 1
    Time: 0 ms
@@ -45286,10 +45285,6 @@ Rule fun(599,1149,600) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(601,289,602) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(603,1149,39) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -45473,10 +45468,6 @@ Rule fun(679,1149,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(680,1153,681) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(682,707,683) :- .
    Updates: 1
    Time: 0 ms
@@ -45653,15 +45644,15 @@ Rule fun(752,1149,593) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(753,1149,754) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(755,145,756) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(757,1071,584) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(758,538,759) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -45869,10 +45860,6 @@ Rule fun(832,1149,833) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(834,1149,835) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(836,1149,261) :- .
    Updates: 1
    Time: 0 ms
@@ -46065,10 +46052,6 @@ Rule fun(615,1149,912) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(913,1202,914) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(915,1149,347) :- .
    Updates: 1
    Time: 0 ms
@@ -46118,6 +46101,10 @@ Rule fun(932,292,933) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(934,242,935) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(936,1149,937) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -46261,10 +46248,6 @@ Rule fun(988,476,989) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(990,1149,991) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(992,1072,993) :- .
    Updates: 1
    Time: 0 ms
@@ -46350,6 +46333,10 @@ Rule fun(1025,485,1026) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1027,1149,1028) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1029,609,1030) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -46593,6 +46580,10 @@ Rule fun(1117,1149,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(1118,1051,612) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1119,292,1120) :- .
    Updates: 1
    Time: 0 ms
@@ -46638,10 +46629,6 @@ Rule fun(1132,997,1133) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1134,1149,1135) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1136,1149,1137) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -46821,7 +46808,7 @@ Rule fun(1207,1119,1208) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1209,1149,1210) :- .
+Rule fun(1211,172,1212) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -47005,10 +46992,6 @@ Rule fun(1277,1149,510) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(10,1149,725) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(1278,1149,1279) :- .
    Updates: 1
    Time: 0 ms
@@ -47042,6 +47025,10 @@ Rule fun(1291,1149,1292) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1293,484,1294) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1295,1149,1296) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -47173,10 +47160,6 @@ Rule fun(1345,744,1346) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1347,872,1348) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(1349,1149,465) :- .
    Updates: 1
    Time: 0 ms
@@ -47277,6 +47260,10 @@ Rule fun(1383,1149,1384) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(208,1149,1221) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1385,934,1386) :- .
    Updates: 1
    Time: 0 ms
@@ -47350,10 +47337,6 @@ Rule fun(1411,455,1412) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1413,1149,1414) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1415,1149,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -47533,10 +47516,6 @@ Rule fun(1480,1149,1481) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1482,1149,1483) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(1484,1072,1485) :- .
    Updates: 1
    Time: 0 ms
@@ -47713,10 +47692,6 @@ Rule fun(1549,1149,1550) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1551,1149,1552) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(1553,1147,1554) :- .
    Updates: 1
    Time: 0 ms
@@ -47742,6 +47717,10 @@ Rule fun(817,1149,1557) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1558,1149,1559) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1363,1149,616) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -47873,10 +47852,6 @@ Rule fun(1610,145,1611) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1612,1176,1613) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(1614,1149,1615) :- .
    Updates: 1
    Time: 0 ms
@@ -47973,6 +47948,10 @@ Rule fun(1654,1149,1107) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(132,1149,225) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1655,1149,5) :- .
    Updates: 1
    Time: 0 ms
@@ -48054,10 +48033,6 @@ Rule fun(1679,292,1680) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1681,995,1682) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1683,232,1684) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -48205,6 +48180,10 @@ Rule fun(1735,1149,1736) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(1737,153,1738) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1739,1149,634) :- .
    Updates: 1
    Time: 0 ms
@@ -48238,10 +48217,6 @@ Rule fun(1748,1149,23) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1749,1149,1750) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1751,315,1752) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -48413,15 +48388,15 @@ Rule fun(1815,938,1527) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1816,232,1817) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(1818,1149,19) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1819,1003,1820) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1821,1149,19) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -48589,10 +48564,6 @@ Rule fun(1876,1149,1732) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1877,1149,1260) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(1878,1149,1879) :- .
    Updates: 1
    Time: 0 ms
@@ -48630,6 +48601,10 @@ Rule fun(1889,474,1890) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(363,1149,614) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1891,1149,1628) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -48773,10 +48748,6 @@ Rule fun(1946,1149,1947) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1948,1020,1949) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(1950,1149,39) :- .
    Updates: 1
    Time: 0 ms
@@ -48842,6 +48813,10 @@ Rule fun(1976,1149,1977) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1978,232,1979) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1980,1149,1981) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -48986,10 +48961,6 @@ Rule fun(2037,1149,1605) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2038,1072,2039) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(805,1149,649) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -49197,10 +49168,6 @@ Rule fun(1145,1149,242) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1776,1149,280) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2111,1149,2112) :- .
    Updates: 1
    Time: 0 ms
@@ -49286,6 +49253,10 @@ Rule fun(2142,786,2143) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2144,219,2145) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2146,1149,2147) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -49397,10 +49368,6 @@ Rule fun(2181,1149,17) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2182,318,2183) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2184,324,2185) :- .
    Updates: 1
    Time: 0 ms
@@ -49430,6 +49397,10 @@ Rule fun(2192,565,2193) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2194,526,2195) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2196,1149,667) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -49589,15 +49560,15 @@ Rule fun(2252,538,2253) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2254,441,2255) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2256,1149,245) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2257,891,2258) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2259,232,2260) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -49777,15 +49748,15 @@ Rule fun(2318,1149,2319) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(2320,482,2321) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(2322,693,2323) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1092,1149,730) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(2324,1149,39) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -49926,6 +49897,10 @@ Rule fun(2374,854,2375) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(780,1149,126) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2376,766,2377) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -50101,6 +50076,10 @@ Rule fun(2436,1149,868) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(2437,232,2438) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(2439,1124,2440) :- .
    Updates: 1
    Time: 0 ms
@@ -50150,10 +50129,6 @@ Rule fun(2453,1149,1639) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(867,1149,987) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(2454,661,2455) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -50290,6 +50265,10 @@ Rule fun(1226,1149,614) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2262,1149,1162) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2494,253,2495) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -50517,10 +50496,6 @@ Rule fun(2572,482,1999) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2573,1149,575) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2316,1149,709) :- .
    Updates: 1
    Time: 0 ms
@@ -50669,10 +50644,6 @@ Rule fun(2616,1149,2617) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2618,292,2619) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2620,1149,1) :- .
    Updates: 1
    Time: 0 ms
@@ -50710,6 +50681,10 @@ Rule fun(619,1149,476) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2630,1149,2631) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(752,1149,802) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -50849,10 +50824,6 @@ Rule fun(123,1149,209) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2678,89,2679) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2680,526,2681) :- .
    Updates: 1
    Time: 0 ms
@@ -50898,6 +50869,10 @@ Rule fun(2694,1149,17) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2695,787,2696) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2697,1194,2698) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -51045,10 +51020,6 @@ Rule fun(619,1149,11) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2742,1149,2743) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2744,1149,575) :- .
    Updates: 1
    Time: 0 ms
@@ -51094,6 +51065,10 @@ Rule fun(117,1149,126) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(208,1149,280) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2754,1149,740) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -51245,10 +51220,6 @@ Rule fun(2794,1038,392) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2795,1149,2796) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2797,1149,2798) :- .
    Updates: 1
    Time: 0 ms
@@ -51274,6 +51245,10 @@ Rule fun(2806,1149,2807) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2808,1149,2809) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2810,289,2811) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -51450,6 +51425,10 @@ Rule fun(2861,1149,1162) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2862,925,2863) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2864,547,2865) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -51653,11 +51632,11 @@ Rule fun(2931,834,2932) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2934,162,746) :- .
+Rule fun(2933,520,2933) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2935,1002,2936) :- .
+Rule fun(2934,162,746) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -51837,6 +51816,10 @@ Rule fun(2995,1149,225) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(2996,166,2997) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(2998,1041,2330) :- .
    Updates: 1
    Time: 0 ms
@@ -51862,10 +51845,6 @@ Rule fun(3007,1149,667) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3008,992,3009) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3010,538,150) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -52005,6 +51984,10 @@ Rule fun(3058,1149,3059) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(3060,1195,3061) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(3062,1149,152) :- .
    Updates: 1
    Time: 0 ms
@@ -52090,10 +52073,6 @@ Rule fun(3083,168,3084) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3085,1149,3086) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3087,1149,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -52202,6 +52181,10 @@ Rule fun(3120,1149,1270) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3121,1149,1369) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(10,1149,983) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -52341,10 +52324,6 @@ Rule fun(3170,937,3171) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3172,972,3173) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3174,37,3175) :- .
    Updates: 1
    Time: 0 ms
@@ -52398,6 +52377,10 @@ Rule fun(2348,1149,793) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1655,1149,793) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3190,1149,3191) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -52597,10 +52580,6 @@ Rule fun(3250,1149,476) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3251,1149,1639) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3252,218,3253) :- .
    Updates: 1
    Time: 0 ms
@@ -52614,6 +52593,10 @@ Rule fun(780,1149,317) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1534,1149,725) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1591,1149,1221) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -52837,6 +52820,10 @@ Rule fun(817,1149,1590) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(3331,587,3332) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(3333,281,1310) :- .
    Updates: 1
    Time: 0 ms
@@ -52850,10 +52837,6 @@ Rule fun(3335,1149,2310) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3336,818,2118) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3337,1149,3338) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -53061,6 +53044,10 @@ Rule fun(3402,1149,152) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(3403,1149,3404) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(3405,1149,94) :- .
    Updates: 1
    Time: 0 ms
@@ -53118,10 +53105,6 @@ Rule fun(3423,709,1562) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3424,1149,23) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3425,1149,3426) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -53269,6 +53252,10 @@ Rule fun(3474,232,3475) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(3476,1149,3477) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(3478,1149,3479) :- .
    Updates: 1
    Time: 0 ms
@@ -53401,10 +53388,6 @@ Rule fun(3521,891,3522) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3523,1149,3524) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3525,1083,321) :- .
    Updates: 1
    Time: 0 ms
@@ -53490,6 +53473,10 @@ Rule fun(3548,1149,458) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3549,1149,3550) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3551,634,2603) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -53685,10 +53672,6 @@ Rule fun(3611,1149,39) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3612,661,3613) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3614,1149,770) :- .
    Updates: 1
    Time: 0 ms
@@ -53714,6 +53697,10 @@ Rule fun(3620,1149,3621) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(951,1149,793) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3622,751,3220) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -53969,10 +53956,6 @@ Rule fun(3706,1038,263) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3707,1149,63) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3708,1149,1) :- .
    Updates: 1
    Time: 0 ms
@@ -54022,6 +54005,10 @@ Rule fun(3725,1149,152) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3726,232,3727) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3728,1149,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -54185,6 +54172,10 @@ Rule fun(3781,1149,2069) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(3782,352,3783) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(3784,232,3785) :- .
    Updates: 1
    Time: 0 ms
@@ -54302,10 +54293,6 @@ Rule fun(3823,21,3824) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(350,1149,593) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3825,1149,225) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -54525,6 +54512,10 @@ Rule fun(3894,1149,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(3895,1149,3896) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1591,1149,461) :- .
    Updates: 1
    Time: 0 ms
@@ -54677,10 +54668,6 @@ Rule fun(3945,474,3946) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3947,500,3948) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3949,1149,2592) :- .
    Updates: 1
    Time: 0 ms
@@ -54702,6 +54689,10 @@ Rule fun(3955,607,3956) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3957,206,3958) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3959,1149,1543) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -54905,6 +54896,10 @@ Rule fun(4027,1149,4028) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(4029,1149,1) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(4030,1149,2094) :- .
    Updates: 1
    Time: 0 ms
@@ -55025,10 +55020,6 @@ Rule fun(4059,311,4060) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4061,511,4062) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(4063,302,581) :- .
    Updates: 1
    Time: 0 ms
@@ -55098,6 +55089,10 @@ Rule fun(4083,1149,17) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4084,1149,1) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4085,584,4086) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -55293,6 +55288,10 @@ Rule fun(360,1149,620) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(4143,1167,2001) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(4144,213,4145) :- .
    Updates: 1
    Time: 0 ms
@@ -55394,10 +55393,6 @@ Rule fun(4173,1149,25) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4174,1149,4175) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(4176,726,4177) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -55506,6 +55501,10 @@ Rule fun(475,1149,1590) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(167,1149,793) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4207,318,4208) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -55693,6 +55692,10 @@ Rule fun(4265,1149,39) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(4266,1149,467) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(4267,190,4268) :- .
    Updates: 1
    Time: 0 ms
@@ -55762,10 +55765,6 @@ Rule fun(4290,614,1893) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4291,1149,4292) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(752,1149,11) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -55842,6 +55841,10 @@ Rule fun(4313,661,1734) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4314,161,4315) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4316,1149,4317) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -56033,6 +56036,10 @@ Rule fun(4374,1149,4375) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(4376,1149,261) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(4377,1062,4378) :- .
    Updates: 1
    Time: 0 ms
@@ -56206,6 +56213,10 @@ Rule fun(4431,232,4432) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4433,1181,447) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4434,538,1310) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -56405,6 +56416,10 @@ Rule fun(4496,1149,1418) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(1791,1149,1221) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(666,1149,418) :- .
    Updates: 1
    Time: 0 ms
@@ -56470,10 +56485,6 @@ Rule fun(4515,1149,4516) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2637,232,3283) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(4517,1149,4518) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -56813,15 +56824,15 @@ Rule fun(28,1149,59) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(4619,1149,4620) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(4621,176,2737) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4622,1149,575) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(475,1149,593) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -57009,6 +57020,10 @@ Rule fun(4675,67,4676) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(4677,347,4678) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(4679,1149,4680) :- .
    Updates: 1
    Time: 0 ms
@@ -57173,10 +57188,6 @@ Rule fun(4728,136,4729) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4730,829,1989) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(4731,619,4732) :- .
    Updates: 1
    Time: 0 ms
@@ -57198,6 +57209,10 @@ Rule fun(4736,602,3567) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4737,1149,104) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4738,538,4739) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -57369,6 +57384,10 @@ Rule fun(3226,1149,59) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(4799,270,4800) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(3535,1149,242) :- .
    Updates: 1
    Time: 0 ms
@@ -57477,10 +57496,6 @@ Rule fun(4834,1149,104) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4835,1149,4836) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2395,1149,614) :- .
    Updates: 1
    Time: 0 ms
@@ -57550,6 +57565,10 @@ Rule fun(4861,1149,2226) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4862,1149,4863) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4864,0,4865) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -57765,10 +57784,6 @@ Rule fun(4934,1053,51) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4935,111,4936) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(4937,547,4938) :- .
    Updates: 1
    Time: 0 ms
@@ -57853,10 +57868,6 @@ Rule fun(2861,1149,130) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4960,236,4961) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(388,1149,124) :- .
    Updates: 1
    Time: 0 ms
@@ -57902,6 +57913,10 @@ Rule fun(740,347,4971) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4972,1149,770) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4973,1149,1369) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -58034,6 +58049,10 @@ Rule fun(5016,1149,5017) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5018,1196,5019) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(5020,904,536) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -58186,6 +58205,10 @@ Rule fun(5065,1149,5066) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5067,1050,5068) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(5069,119,5070) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -58353,6 +58376,10 @@ Rule fun(5120,757,5121) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(5122,632,513) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(5123,292,5124) :- .
    Updates: 1
    Time: 0 ms
@@ -58426,10 +58453,6 @@ Rule fun(5143,441,5144) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5145,1149,5146) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5147,1149,1743) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -58518,6 +58541,10 @@ Rule fun(5174,1151,5175) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5176,455,5177) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(5178,1149,5179) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -58685,6 +58712,10 @@ Rule fun(4228,1149,261) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(1655,1149,461) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(5224,1149,1043) :- .
    Updates: 1
    Time: 0 ms
@@ -58742,10 +58773,6 @@ Rule fun(4985,1149,245) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5240,1192,5241) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1092,1149,771) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -58842,6 +58869,10 @@ Rule fun(5269,109,5270) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5271,498,5272) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(623,1149,337) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -59069,10 +59100,6 @@ Rule fun(336,1149,1033) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(5339,589,1167) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(5340,690,5341) :- .
    Updates: 1
    Time: 0 ms
@@ -59202,6 +59229,10 @@ Rule fun(1231,1149,55) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5373,1149,5374) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(5375,945,3795) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -59374,6 +59405,10 @@ Rule fun(2121,520,790) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5425,1149,941) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(5426,1149,2221) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -59561,6 +59596,10 @@ Rule fun(10,1149,1557) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(5484,289,5485) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(5486,1149,39) :- .
    Updates: 1
    Time: 0 ms
@@ -59741,7 +59780,7 @@ Rule fun(1814,232,5542) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3086,1149,5543) :- .
+Rule fun(5544,351,5545) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -59926,6 +59965,10 @@ Rule fun(5600,1131,5601) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(511,1149,926) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(5602,1149,5319) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -60125,6 +60168,10 @@ Rule fun(5661,1149,39) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(5662,289,3471) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(5663,1149,5664) :- .
    Updates: 1
    Time: 0 ms
@@ -60314,6 +60361,10 @@ Rule fun(5730,1149,4657) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5731,721,1893) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(5732,1149,3820) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -60534,6 +60585,10 @@ Rule fun(5800,1136,5801) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5802,1149,1) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(5803,0,5804) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -60941,6 +60996,10 @@ Rule fun(2378,1149,273) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(5925,1149,5926) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(5927,292,829) :- .
    Updates: 1
    Time: 0 ms
@@ -61130,6 +61189,10 @@ Rule fun(5987,1149,23) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5988,132,2219) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(5989,25,4545) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -61337,6 +61400,10 @@ Rule fun(6046,1110,6047) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(4,1149,624) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(6048,1149,23) :- .
    Updates: 1
    Time: 0 ms
@@ -61541,6 +61608,10 @@ Rule fun(6116,1149,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(2199,1149,55) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(6117,1149,23) :- .
    Updates: 1
    Time: 0 ms
@@ -61566,6 +61637,10 @@ Rule fun(3271,1149,1592) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(6123,1149,5394) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(6124,634,6125) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -61706,6 +61781,10 @@ Rule fun(6163,1149,6164) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(6165,28,6166) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(6167,632,21) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -61874,6 +61953,10 @@ Rule fun(6218,463,6219) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(6220,1200,843) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(6221,862,6222) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -62537,10 +62620,6 @@ Rule fun(6408,1030,6409) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1231,1149,1221) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(6410,1180,6411) :- .
    Updates: 1
    Time: 0 ms
@@ -62722,6 +62801,10 @@ Rule fun(6468,834,6469) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(6470,274,6471) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(6472,936,4818) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -62913,6 +62996,10 @@ Rule fun(6520,1149,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(6521,420,5175) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(6522,1149,6523) :- .
    Updates: 1
    Time: 0 ms
@@ -63081,6 +63168,10 @@ Rule fun(6579,1149,3273) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(6580,1149,3766) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1231,1149,1353) :- .
    Updates: 1
    Time: 0 ms
@@ -63201,10 +63292,6 @@ Rule fun(6618,1149,152) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(6619,522,6620) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(6621,1149,5530) :- .
    Updates: 1
    Time: 0 ms
@@ -63234,6 +63321,10 @@ Rule fun(6627,289,4697) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(6628,1149,6629) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(6630,1149,6631) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -63406,6 +63497,10 @@ Rule fun(6679,947,6680) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(6681,254,6682) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(6683,1149,4580) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -63582,6 +63677,10 @@ Rule fun(1048,1149,1221) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(6729,1149,4534) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(6730,206,6731) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -63893,10 +63992,6 @@ Rule fun(6820,232,6821) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2553,1149,802) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(6822,1149,347) :- .
    Updates: 1
    Time: 0 ms
@@ -63934,6 +64029,10 @@ Rule fun(6834,1149,429) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1290,1149,55) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(6835,1119,6836) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -64125,6 +64224,10 @@ Rule fun(6896,274,6897) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(6898,1149,23) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1525,1182,4118) :- .
    Updates: 1
    Time: 0 ms
@@ -64237,10 +64340,6 @@ Rule fun(6923,441,6924) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(6925,1072,1521) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(6926,1149,1475) :- .
    Updates: 1
    Time: 0 ms
@@ -64326,6 +64425,10 @@ Rule fun(592,1149,983) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(6953,544,6954) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(724,1149,1165) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -64541,6 +64644,10 @@ Rule fun(7014,1149,39) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(7015,232,7016) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(7017,1136,7018) :- .
    Updates: 1
    Time: 0 ms
@@ -64590,10 +64697,6 @@ Rule fun(7031,538,1130) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(7032,1072,7033) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(7034,256,7035) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -64745,6 +64848,10 @@ Rule fun(7079,786,7080) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(7081,383,6701) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(7082,232,7083) :- .
    Updates: 1
    Time: 0 ms
@@ -64885,6 +64992,10 @@ Rule fun(7114,1149,5114) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(623,1149,700) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(7116,1149,7117) :- .
    Updates: 1
    Time: 0 ms
@@ -65010,6 +65121,10 @@ Rule fun(7152,1028,3182) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(7153,1149,23) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2473,590,401) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -65181,6 +65296,10 @@ Rule fun(7203,1149,2579) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(7204,1149,4011) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(7205,264,7206) :- .
    Updates: 1
    Time: 0 ms
@@ -65202,10 +65321,6 @@ Rule fun(7211,1149,39) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(7212,1149,7213) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(7214,689,1691) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -65365,6 +65480,10 @@ Rule fun(1101,1149,1592) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(7260,1050,7261) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(7262,599,7263) :- .
    Updates: 1
    Time: 0 ms
@@ -65513,10 +65632,6 @@ Rule fun(801,1149,926) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(7306,39,7307) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(7308,1149,7309) :- .
    Updates: 1
    Time: 0 ms
@@ -65530,6 +65645,10 @@ Rule fun(7312,1149,23) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(28,1149,1221) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(7313,31,7314) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -65717,6 +65836,10 @@ Rule fun(363,1149,317) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(5574,422,3283) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(7373,1088,7374) :- .
    Updates: 1
    Time: 0 ms
@@ -65833,10 +65956,6 @@ Rule fun(7408,1149,770) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(7409,42,7410) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(7411,670,7412) :- .
    Updates: 1
    Time: 0 ms
@@ -65910,6 +66029,10 @@ Rule fun(7430,1149,23) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(7431,407,7432) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(7433,1149,634) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -66101,6 +66224,10 @@ Rule fun(7487,574,2603) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(7488,292,7489) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(7490,1039,7491) :- .
    Updates: 1
    Time: 0 ms
@@ -66162,10 +66289,6 @@ Rule fun(7509,1149,3187) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(7510,1149,25) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(7511,1149,5033) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -66290,6 +66413,10 @@ Rule fun(7555,1149,7556) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(7557,1149,7558) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(801,1149,1590) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -66485,6 +66612,10 @@ Rule fun(7609,1149,7610) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(7611,1030,7612) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(7613,1149,539) :- .
    Updates: 1
    Time: 0 ms
@@ -66498,10 +66629,6 @@ Rule fun(7616,1188,1167) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(7617,687,7618) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(7619,1211,7620) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -66654,6 +66781,10 @@ Rule fun(7664,292,7665) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1791,1149,1033) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(7666,917,2347) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -66833,15 +66964,15 @@ Rule fun(7719,738,7720) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(7721,644,7722) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(7723,1149,25) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(7724,1149,7725) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3535,1149,1162) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -67201,11 +67332,11 @@ Rule fun(7827,1031,7828) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(7830,1149,152) :- .
+Rule fun(7829,1149,347) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(7831,1149,1) :- .
+Rule fun(7830,1149,152) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -67382,6 +67513,10 @@ Rule fun(7878,628,6723) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1591,1149,624) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(7879,831,6558) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -67745,6 +67880,10 @@ Rule fun(7985,1149,4953) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(7986,1149,6035) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(699,1149,209) :- .
    Updates: 1
    Time: 0 ms
@@ -67945,11 +68084,11 @@ Rule fun(8038,1149,8039) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(8040,1003,8041) :- .
+Rule fun(4691,1149,225) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4691,1149,225) :- .
+Rule fun(129,1149,2303) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -68093,6 +68232,10 @@ Rule fun(8085,1149,63) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(694,1149,1090) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(8086,899,8087) :- .
    Updates: 1
    Time: 0 ms
@@ -68114,10 +68257,6 @@ Rule fun(8090,1003,8091) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(8092,0,8093) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(592,1149,11) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -68253,6 +68392,10 @@ Rule fun(460,1149,2303) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(8135,314,8136) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(8137,1149,1) :- .
    Updates: 1
    Time: 0 ms
@@ -68318,10 +68461,6 @@ Rule fun(3271,1149,1221) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(8156,1149,8157) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(8158,1149,19) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -68449,6 +68588,10 @@ Rule fun(8190,663,8191) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(8192,517,6589) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(8193,795,8194) :- .
    Updates: 1
    Time: 0 ms
@@ -68561,10 +68704,6 @@ Rule fun(511,1149,620) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(8226,1149,17) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(8227,757,8228) :- .
    Updates: 1
    Time: 0 ms
@@ -68638,6 +68777,10 @@ Rule fun(8247,1149,2444) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3569,289,1223) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(8248,547,7897) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -68809,10 +68952,6 @@ Rule fun(8294,1149,331) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(8295,1119,8296) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(8297,874,8298) :- .
    Updates: 1
    Time: 0 ms
@@ -68838,6 +68977,10 @@ Rule fun(8301,972,8302) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(8303,894,4177) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(8304,938,8305) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -69049,6 +69192,10 @@ Rule fun(8361,424,8362) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(8363,289,8364) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(8365,474,8366) :- .
    Updates: 1
    Time: 0 ms
@@ -69058,10 +69205,6 @@ Rule fun(8367,1149,8347) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(8368,206,8369) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(8370,89,1199) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -69246,6 +69389,10 @@ Rule fun(8422,1162,8422) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(4607,869,8423) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(8424,1149,116) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -69465,6 +69612,10 @@ Rule fun(8479,1149,245) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(2553,1149,317) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(8480,475,8481) :- .
    Updates: 1
    Time: 0 ms
@@ -69566,10 +69717,6 @@ Rule fun(8511,1149,8512) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(7788,1149,8513) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(8514,1089,8515) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -69678,6 +69825,10 @@ Rule fun(694,1149,1033) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(8547,1149,7381) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(8548,219,8549) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -69837,10 +69988,6 @@ Rule fun(8594,1149,8595) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(8596,842,8055) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(4040,1149,19) :- .
    Updates: 1
    Time: 0 ms
@@ -69914,6 +70061,10 @@ Rule fun(8614,1181,6858) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(8615,1149,39) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(8616,1149,635) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -70113,10 +70264,6 @@ Rule fun(8670,1149,8671) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(8672,1149,23) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(8673,1149,23) :- .
    Updates: 1
    Time: 0 ms
@@ -70150,6 +70297,10 @@ Rule fun(931,1149,418) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(8684,0,8685) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(8686,1149,1543) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -70377,10 +70528,6 @@ Rule fun(8746,1149,420) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(129,1149,1162) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(8747,1149,245) :- .
    Updates: 1
    Time: 0 ms
@@ -70594,6 +70741,10 @@ Rule fun(460,1149,700) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(8803,1182,8804) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(8805,1149,4061) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -70817,6 +70968,10 @@ Rule fun(8875,1012,1142) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(8876,1149,8877) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(8878,1028,8879) :- .
    Updates: 1
    Time: 0 ms
@@ -70874,10 +71029,6 @@ Rule fun(153,1149,273) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(8894,117,1348) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(8895,392,8896) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -71041,6 +71192,10 @@ Rule fun(8939,1149,376) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(8940,992,8941) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(2395,1149,983) :- .
    Updates: 1
    Time: 0 ms
@@ -71138,10 +71293,6 @@ Rule fun(8967,915,8968) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(8969,1157,968) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(8970,1168,8971) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -71277,6 +71428,10 @@ Rule fun(9011,289,4150) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(9012,1086,9013) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1868,1149,19) :- .
    Updates: 1
    Time: 0 ms
@@ -71393,10 +71548,6 @@ Rule fun(9047,536,7489) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9048,1149,67) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2738,1149,593) :- .
    Updates: 1
    Time: 0 ms
@@ -71494,6 +71645,10 @@ Rule fun(9080,1224,1562) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(9081,1149,347) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(780,1149,1472) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -71653,10 +71808,6 @@ Rule fun(9115,467,9116) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2446,447,1666) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(9117,488,9118) :- .
    Updates: 1
    Time: 0 ms
@@ -71722,6 +71873,10 @@ Rule fun(9133,1149,324) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(28,1149,2303) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(445,1149,730) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -71925,10 +72080,6 @@ Rule fun(9183,1149,2659) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9184,1149,3939) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(9185,1149,8621) :- .
    Updates: 1
    Time: 0 ms
@@ -71958,6 +72109,10 @@ Rule fun(336,1149,1162) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(9190,1149,152) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(9191,1180,1510) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -72177,7 +72332,7 @@ Rule fun(9255,1149,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9256,331,9222) :- .
+Rule fun(9257,1019,9258) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -72401,6 +72556,10 @@ Rule fun(9318,1149,1038) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(3226,1149,1592) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(3804,538,7950) :- .
    Updates: 1
    Time: 0 ms
@@ -72426,10 +72585,6 @@ Rule fun(1231,1149,242) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(9321,1050,9322) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(9323,1149,1418) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -72629,6 +72784,10 @@ Rule fun(9375,232,9376) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(9377,1149,3583) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(9378,1131,9379) :- .
    Updates: 1
    Time: 0 ms
@@ -72678,10 +72837,6 @@ Rule fun(9389,1149,1) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2553,1149,983) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(9390,1149,233) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -72857,6 +73012,10 @@ Rule fun(9434,1149,1639) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(9435,1119,9436) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(9437,1149,152) :- .
    Updates: 1
    Time: 0 ms
@@ -72946,10 +73105,6 @@ Rule fun(9460,1193,9461) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(9462,1149,9463) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(9464,1149,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -73081,6 +73236,10 @@ Rule fun(9499,1149,964) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(9500,1149,128) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(9501,1149,225) :- .
    Updates: 1
    Time: 0 ms
@@ -73205,10 +73364,6 @@ Rule fun(2678,89,4075) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3861,1149,19) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(6190,289,6190) :- .
    Updates: 1
    Time: 0 ms
@@ -73298,6 +73453,10 @@ Rule fun(9557,476,9558) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(9559,193,9560) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(9561,986,9562) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -73457,10 +73616,6 @@ Rule fun(9607,1149,9608) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1809,1149,2478) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(123,1149,1033) :- .
    Updates: 1
    Time: 0 ms
@@ -73526,6 +73681,10 @@ Rule fun(9626,14,9627) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1502,1149,6332) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(9628,44,4109) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -73745,6 +73904,10 @@ Rule fun(9691,1149,212) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(2348,1149,889) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(9692,289,1468) :- .
    Updates: 1
    Time: 0 ms
@@ -73758,10 +73921,6 @@ Rule fun(9695,1149,9696) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(487,1149,1090) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(7038,1149,245) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -73886,6 +74045,10 @@ Rule fun(9731,1149,39) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2729,1149,1557) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(9732,1149,9733) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -74033,10 +74196,6 @@ Rule fun(1116,1149,1221) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9774,1149,5033) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(9775,1109,9776) :- .
    Updates: 1
    Time: 0 ms
@@ -74070,6 +74229,10 @@ Rule fun(9784,1149,8871) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2031,289,2032) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(9785,1072,9786) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -74237,6 +74400,10 @@ Rule fun(9838,1149,634) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(9839,1147,9840) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(9841,1149,23) :- .
    Updates: 1
    Time: 0 ms
@@ -74337,10 +74504,6 @@ Rule fun(9868,1149,9869) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9870,1149,1) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(404,1149,209) :- .
    Updates: 1
    Time: 0 ms
@@ -74434,6 +74597,10 @@ Rule fun(9894,292,9895) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(9896,1149,7671) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(9897,1149,6476) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -74633,6 +74800,10 @@ Rule fun(1068,1149,55) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(9948,1149,7978) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(9949,487,9950) :- .
    Updates: 1
    Time: 0 ms
@@ -74666,10 +74837,6 @@ Rule fun(2348,1149,280) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(9957,292,9958) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(9959,1149,9960) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -74818,6 +74985,10 @@ Rule fun(10003,145,1895) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2127,1149,261) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(6531,520,3084) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -75025,6 +75196,10 @@ Rule fun(10048,8,9722) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(10049,1149,10050) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(10051,689,1691) :- .
    Updates: 1
    Time: 0 ms
@@ -75225,6 +75400,10 @@ Rule fun(10112,1149,104) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(10113,1149,921) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(10114,1149,3534) :- .
    Updates: 1
    Time: 0 ms
@@ -75310,10 +75489,6 @@ Rule fun(10133,1149,1543) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(10134,1149,10135) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(10136,1149,10137) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -75434,6 +75609,10 @@ Rule fun(10177,232,10178) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1591,1149,59) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(10179,1149,10180) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -75857,6 +76036,10 @@ Rule fun(10312,1149,39) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(10313,1149,10314) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(10315,629,5422) :- .
    Updates: 1
    Time: 0 ms
@@ -75981,10 +76164,6 @@ Rule fun(10350,1012,10351) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(10352,1149,1664) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(1667,1149,983) :- .
    Updates: 1
    Time: 0 ms
@@ -76078,6 +76257,10 @@ Rule fun(10372,952,10373) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(10374,1149,39) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(10375,661,10376) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -76309,7 +76492,7 @@ Rule fun(10444,1038,392) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(10447,1149,2995) :- .
+Rule fun(10445,46,10446) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -76521,6 +76704,10 @@ Rule fun(10506,654,10507) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(10508,392,10509) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(10510,454,10511) :- .
    Updates: 1
    Time: 0 ms
@@ -76633,10 +76820,6 @@ Rule fun(10536,1149,10537) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(10538,1149,10539) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(10540,1199,10541) :- .
    Updates: 1
    Time: 0 ms
@@ -76746,6 +76929,10 @@ Rule fun(10566,232,10567) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1461,1149,1503) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(10568,111,10569) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -77213,6 +77400,10 @@ Rule fun(545,1149,2303) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(7956,1149,1194) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(613,1149,649) :- .
    Updates: 1
    Time: 0 ms
@@ -77302,10 +77493,6 @@ Rule fun(10718,765,10719) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(10720,1149,1) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1158,1149,10721) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -77434,6 +77621,10 @@ Rule fun(10757,1149,3978) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(10758,1149,8449) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(10759,1149,10760) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -77637,10 +77828,6 @@ Rule fun(10804,41,10805) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(10806,661,8066) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(10807,1098,10808) :- .
    Updates: 1
    Time: 0 ms
@@ -77662,6 +77849,10 @@ Rule fun(4916,1149,19) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(10814,1149,10815) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(10816,308,5804) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -77969,10 +78160,6 @@ Rule fun(10877,1149,10878) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(10879,317,10880) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(1782,1149,700) :- .
    Updates: 1
    Time: 0 ms
@@ -78118,6 +78305,10 @@ Rule fun(10912,1082,10913) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(10914,1149,23) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(10915,613,2413) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -78301,10 +78492,6 @@ Rule fun(780,1149,1557) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(10964,254,10965) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(10966,1149,63) :- .
    Updates: 1
    Time: 0 ms
@@ -78338,6 +78525,10 @@ Rule fun(10973,484,10974) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(10975,232,10976) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(10977,1149,3595) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -78625,10 +78816,6 @@ Rule fun(11049,1149,5353) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(11050,1149,9604) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(11051,297,3496) :- .
    Updates: 1
    Time: 0 ms
@@ -78766,6 +78953,10 @@ Rule fun(11092,1149,6674) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(11093,1149,11094) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(11095,1149,1569) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -79109,6 +79300,10 @@ Rule fun(873,1149,802) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(11183,1149,1257) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(11184,1149,23) :- .
    Updates: 1
    Time: 0 ms
@@ -79217,10 +79412,6 @@ Rule fun(11209,1149,37) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(11210,63,11211) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(11212,1149,152) :- .
    Updates: 1
    Time: 0 ms
@@ -79254,6 +79445,10 @@ Rule fun(11220,151,11221) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(11222,777,10263) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(11223,89,5825) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -79465,6 +79660,10 @@ Rule fun(2348,1149,130) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(953,1168,3124) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(11282,1149,324) :- .
    Updates: 1
    Time: 0 ms
@@ -79506,10 +79705,6 @@ Rule fun(1027,1149,3158) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(11292,1149,1340) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(11293,1149,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -79677,6 +79872,10 @@ Rule fun(11331,1149,8604) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(11332,693,11333) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1517,1149,1221) :- .
    Updates: 1
    Time: 0 ms
@@ -79809,10 +80008,6 @@ Rule fun(11368,597,11369) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(627,1149,11370) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(11371,738,11372) :- .
    Updates: 1
    Time: 0 ms
@@ -79894,6 +80089,10 @@ Rule fun(11390,1149,2050) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(11391,1149,11392) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(9811,799,85) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -80125,11 +80324,11 @@ Rule fun(11456,1149,10885) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1269,1162,11458) :- .
+Rule fun(11457,1149,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(11459,41,11460) :- .
+Rule fun(1269,1162,11458) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -80365,6 +80564,10 @@ Rule fun(2395,1149,709) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(11528,806,10619) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(2861,1149,5) :- .
    Updates: 1
    Time: 0 ms
@@ -80462,10 +80665,6 @@ Rule fun(11549,1149,23) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(11550,206,11551) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(11552,1149,789) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -80610,6 +80809,10 @@ Rule fun(11585,945,11586) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(11587,1164,11588) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(11589,1051,513) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -80850,6 +81053,10 @@ Rule fun(11651,482,7938) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(11652,1149,8767) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(11653,110,11654) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -81141,10 +81348,6 @@ Rule fun(11728,661,11729) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(11730,538,11731) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(11732,666,1975) :- .
    Updates: 1
    Time: 0 ms
@@ -81357,6 +81560,10 @@ Rule fun(11778,35,6020) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(11779,986,11780) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(11781,1183,2858) :- .
    Updates: 1
    Time: 0 ms
@@ -81474,10 +81681,6 @@ Rule fun(11805,409,11806) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(11807,1149,245) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(58,1149,730) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -81614,6 +81817,10 @@ Rule fun(11836,1149,3978) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(11837,1149,212) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(11838,1149,19) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -81870,6 +82077,10 @@ Rule fun(803,1149,725) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(11898,197,11899) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(11900,1148,11901) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -82141,6 +82352,10 @@ Rule fun(1456,1149,802) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(9198,289,4416) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1397,1149,1557) :- .
    Updates: 1
    Time: 0 ms
@@ -82150,10 +82365,6 @@ Rule fun(11965,1149,1750) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5443,714,11966) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(11967,1149,2845) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -82393,6 +82604,10 @@ Rule fun(12033,1114,12034) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(58,1149,771) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(2671,1149,1557) :- .
    Updates: 1
    Time: 0 ms
@@ -82486,10 +82701,6 @@ Rule fun(360,1149,614) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(12051,608,7275) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1505,526,12052) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -82638,6 +82849,10 @@ Rule fun(12090,986,12091) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(12092,1149,5216) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1494,1149,1644) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -82817,10 +83032,6 @@ Rule fun(12138,227,12139) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12140,777,12141) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(12142,557,12143) :- .
    Updates: 1
    Time: 0 ms
@@ -82890,6 +83101,10 @@ Rule fun(12158,33,5408) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(12159,344,12160) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(7529,1149,9929) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -83113,10 +83328,6 @@ Rule fun(12230,312,12231) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12232,274,9776) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(12233,582,7139) :- .
    Updates: 1
    Time: 0 ms
@@ -83134,6 +83345,10 @@ Rule fun(12234,248,5715) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(12235,868,612) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(12236,1149,425) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -83385,6 +83600,10 @@ Rule fun(336,1149,242) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(12299,1149,7686) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(12300,1149,1422) :- .
    Updates: 1
    Time: 0 ms
@@ -83422,10 +83641,6 @@ Rule fun(12308,166,11404) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(12309,126,6047) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(12310,1149,4707) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -83581,10 +83796,6 @@ Rule fun(12346,1149,347) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12347,846,12348) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(12349,585,1858) :- .
    Updates: 1
    Time: 0 ms
@@ -83645,10 +83856,6 @@ Rule fun(12367,757,12368) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1832,1149,2777) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(12369,1149,4534) :- .
    Updates: 1
    Time: 0 ms
@@ -83697,6 +83904,10 @@ Rule fun(12383,1149,1930) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(804,536,4948) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(12384,1053,85) :- .
    Updates: 1
    Time: 0 ms
@@ -83730,10 +83941,6 @@ Rule fun(12393,1149,106) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(12394,123,12395) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(12396,232,12397) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -83841,10 +84048,6 @@ Rule fun(12428,992,1925) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12429,1149,37) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(12430,869,12431) :- .
    Updates: 1
    Time: 0 ms
@@ -83886,6 +84089,10 @@ Rule fun(12442,1149,12443) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1705,1149,730) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(12444,1149,733) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -83946,10 +84153,6 @@ Rule fun(12461,1149,3248) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(12462,1149,2367) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(12463,652,2391) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -84049,10 +84252,6 @@ Rule fun(12488,1149,835) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(10717,29,4670) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(12489,289,314) :- .
    Updates: 1
    Time: 0 ms
@@ -84074,6 +84273,10 @@ Rule fun(1116,1149,1353) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(12494,232,12495) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(12496,909,12497) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -84277,15 +84480,15 @@ Rule fun(12549,1149,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12550,197,7525) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(12551,820,2219) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1264,1149,1002) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(511,1149,126) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -84386,10 +84589,6 @@ Rule fun(1502,1149,1812) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(12580,232,6754) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(12581,1149,727) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -84501,6 +84700,10 @@ Rule fun(12613,915,12614) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(12615,925,12616) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(12617,1149,12618) :- .
    Updates: 1
    Time: 0 ms
@@ -84546,10 +84749,6 @@ Rule fun(5436,511,12625) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(12626,232,12627) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(12628,167,12629) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -84721,7 +84920,7 @@ Rule fun(12668,115,12669) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12672,1149,991) :- .
+Rule fun(12670,1149,12671) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -84917,10 +85116,6 @@ Rule fun(12725,1149,1732) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1833,1149,725) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(12726,1149,9211) :- .
    Updates: 1
    Time: 0 ms
@@ -84946,6 +85141,10 @@ Rule fun(12732,1149,261) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(12733,356,12734) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(12735,1149,3477) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -85129,10 +85328,6 @@ Rule fun(4275,1149,2081) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12785,1149,4900) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(12786,515,979) :- .
    Updates: 1
    Time: 0 ms
@@ -85178,6 +85373,10 @@ Rule fun(167,1149,29) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3279,1149,245) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2608,1149,3158) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -85353,10 +85552,6 @@ Rule fun(12836,1149,11069) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12837,232,12838) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(12839,834,12840) :- .
    Updates: 1
    Time: 0 ms
@@ -85414,6 +85609,10 @@ Rule fun(12854,447,8305) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(12855,834,12856) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(12857,209,1634) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -85585,10 +85784,6 @@ Rule fun(12889,1149,12890) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12891,441,316) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(12892,1149,11755) :- .
    Updates: 1
    Time: 0 ms
@@ -85662,6 +85857,10 @@ Rule fun(10765,869,8184) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(12911,1149,1957) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(12912,1149,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -85833,10 +86032,6 @@ Rule fun(12960,925,12961) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12962,424,12963) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(12964,1149,23) :- .
    Updates: 1
    Time: 0 ms
@@ -85902,6 +86097,10 @@ Rule fun(12977,519,12978) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(12979,1149,39) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(12980,136,12981) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -86149,6 +86348,10 @@ Rule fun(13040,598,13041) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(13042,1149,1585) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(8520,1149,19) :- .
    Updates: 1
    Time: 0 ms
@@ -86389,7 +86592,7 @@ Rule fun(13109,431,13110) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13111,1149,25) :- .
+Rule fun(13112,899,10205) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -86641,6 +86844,10 @@ Rule fun(13172,1149,896) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(13173,200,13174) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(13175,295,13176) :- .
    Updates: 1
    Time: 0 ms
@@ -86666,10 +86873,6 @@ Rule fun(12712,1149,1630) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(13181,1149,8487) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(8379,1149,385) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -86890,6 +87093,10 @@ Rule fun(13233,1149,13234) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1264,1149,317) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3250,1149,802) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -87293,10 +87500,6 @@ Rule fun(13334,871,9474) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13335,1149,425) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(13336,1149,23) :- .
    Updates: 1
    Time: 0 ms
@@ -87401,11 +87604,11 @@ Rule fun(13360,833,3371) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13361,1154,7629) :- .
+Rule fun(13362,173,13363) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13362,173,13363) :- .
+Rule fun(13364,697,10121) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -87422,10 +87625,6 @@ Rule fun(460,1149,771) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(13366,1149,1) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(13367,232,13368) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -87469,15 +87668,15 @@ Rule fun(13381,292,13382) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13383,1024,13384) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(13385,219,13386) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(13387,834,13388) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(13389,782,138) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -87525,15 +87724,15 @@ Rule fun(1296,786,13400) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13401,1020,13402) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(13403,1149,1732) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(13404,1149,1) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(13405,1149,8154) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -87578,10 +87777,6 @@ Rule fun(13413,1095,13414) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(13415,1149,634) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(13416,1149,8821) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -87665,10 +87860,6 @@ Rule fun(13433,1149,25) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13434,1149,328) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(13435,685,13436) :- .
    Updates: 1
    Time: 0 ms
@@ -87745,15 +87936,15 @@ Rule fun(9950,292,13457) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(13458,1136,12133) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(13459,292,13460) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(13461,1115,5485) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(13462,1211,13463) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -87837,6 +88028,10 @@ Rule fun(13485,110,13486) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(13487,1149,1) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(13488,441,13489) :- .
    Updates: 1
    Time: 0 ms
@@ -87854,10 +88049,6 @@ Rule fun(1833,1149,593) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(13493,1149,770) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(13494,1149,77) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -87910,6 +88101,10 @@ Rule fun(13505,1061,13506) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(13507,1149,1) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(13508,482,2347) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -87997,6 +88192,10 @@ Rule fun(1027,1149,1462) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(13529,1149,328) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(13530,870,12175) :- .
    Updates: 1
    Time: 0 ms
@@ -88034,10 +88233,6 @@ Rule fun(13540,1182,6047) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(13541,1164,13542) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(12771,1182,5615) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -88094,6 +88289,10 @@ Rule fun(13551,1149,1) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1397,1149,476) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1631,289,1631) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -88209,6 +88408,10 @@ Rule fun(752,1149,1002) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(13578,469,13579) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(13580,984,1738) :- .
    Updates: 1
    Time: 0 ms
@@ -88218,10 +88421,6 @@ Rule fun(1699,289,1699) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(13581,1149,13582) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(13583,1149,19) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -88330,10 +88529,6 @@ Rule fun(13613,232,13614) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(13615,1149,1107) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(10059,1149,261) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -88457,6 +88652,10 @@ Rule fun(13649,1149,152) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(272,1149,802) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(13650,711,13651) :- .
    Updates: 1
    Time: 0 ms
@@ -88510,10 +88709,6 @@ Rule fun(332,1149,1221) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(13664,925,13665) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(592,1149,1165) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -88713,10 +88908,6 @@ Rule fun(13701,35,13702) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13703,1149,770) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(13704,661,8562) :- .
    Updates: 1
    Time: 0 ms
@@ -88905,10 +89096,6 @@ Rule fun(13752,883,1501) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13753,1149,13754) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(153,1149,126) :- .
    Updates: 1
    Time: 0 ms
@@ -89061,6 +89248,10 @@ Rule fun(13786,1149,1279) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(13787,78,11862) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(13788,1149,39) :- .
    Updates: 1
    Time: 0 ms
@@ -89113,6 +89304,10 @@ Rule fun(54,1149,730) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(13798,1149,7447) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(13799,1149,420) :- .
    Updates: 1
    Time: 0 ms
@@ -89158,6 +89353,10 @@ Rule fun(13809,746,7774) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(13810,41,13811) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(13812,535,13813) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -89246,6 +89445,10 @@ Rule fun(13838,200,13839) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(13840,1149,13841) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(13842,1041,3717) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -89377,10 +89580,6 @@ Rule fun(13872,512,678) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13873,1149,152) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(13874,1149,23) :- .
    Updates: 1
    Time: 0 ms
@@ -89478,6 +89677,10 @@ Rule fun(13895,232,478) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(203,1149,261) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(13896,1149,5530) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -89606,6 +89809,10 @@ Rule fun(404,1149,389) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5617,1149,459) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2306,1149,1090) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -89741,15 +89948,15 @@ Rule fun(13964,1149,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(460,1149,59) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(13965,474,12876) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(13966,458,13712) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(13967,751,13968) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -89897,6 +90104,10 @@ Rule fun(14002,1012,14003) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(14004,1149,1147) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1320,1149,1002) :- .
    Updates: 1
    Time: 0 ms
@@ -89926,10 +90137,6 @@ Rule fun(14010,714,14011) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(619,1149,667) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1591,1149,242) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -90049,6 +90256,10 @@ Rule fun(14035,522,14036) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(117,1149,418) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(14037,1149,2743) :- .
    Updates: 1
    Time: 0 ms
@@ -90122,10 +90333,6 @@ Rule fun(14048,1149,152) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(14049,1149,23) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1791,1149,1353) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -90325,10 +90532,6 @@ Rule fun(14098,1149,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14099,302,3006) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(14100,38,14101) :- .
    Updates: 1
    Time: 0 ms
@@ -90346,6 +90549,10 @@ Rule fun(14103,661,7525) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(12247,992,8112) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(14104,474,14105) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -90493,6 +90700,10 @@ Rule fun(14135,1149,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(14136,1149,4758) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(14137,977,14138) :- .
    Updates: 1
    Time: 0 ms
@@ -90621,6 +90832,10 @@ Rule fun(14172,1149,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(14173,1149,152) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(14174,572,7553) :- .
    Updates: 1
    Time: 0 ms
@@ -90685,6 +90900,10 @@ Rule fun(14192,1149,11193) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(14193,314,14194) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(14195,52,14196) :- .
    Updates: 1
    Time: 0 ms
@@ -90745,10 +90964,6 @@ Rule fun(14209,547,14210) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14211,1149,14212) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(14213,292,3084) :- .
    Updates: 1
    Time: 0 ms
@@ -90806,6 +91021,10 @@ Rule fun(14229,834,14230) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(14231,1149,14232) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(14233,1155,218) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -90941,6 +91160,10 @@ Rule fun(14268,1149,10081) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(14269,1072,14270) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(14271,1149,4709) :- .
    Updates: 1
    Time: 0 ms
@@ -91009,10 +91232,6 @@ Rule fun(817,1149,649) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14288,1154,14289) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(14290,766,3457) :- .
    Updates: 1
    Time: 0 ms
@@ -91078,6 +91297,10 @@ Rule fun(244,1149,19) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(14310,1149,39) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(14311,1149,2877) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -91225,6 +91448,10 @@ Rule fun(14347,1211,14348) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(14349,992,14350) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(14351,1149,261) :- .
    Updates: 1
    Time: 0 ms
@@ -91301,10 +91528,6 @@ Rule fun(14371,1149,921) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14372,206,14373) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(14374,786,14375) :- .
    Updates: 1
    Time: 0 ms
@@ -91370,6 +91593,10 @@ Rule fun(14390,1149,1179) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(14391,1149,12418) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1809,1149,889) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -91525,6 +91752,10 @@ Rule fun(14435,792,11868) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(545,1149,59) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(14436,1149,14437) :- .
    Updates: 1
    Time: 0 ms
@@ -91601,10 +91832,6 @@ Rule fun(14452,1149,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14453,1149,2651) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(14454,904,6384) :- .
    Updates: 1
    Time: 0 ms
@@ -91678,6 +91905,10 @@ Rule fun(14466,779,14467) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(14468,1149,1) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4416,1149,662) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -91826,6 +92057,10 @@ Rule fun(13990,1072,1521) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(13150,1149,3360) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(14500,289,14501) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -91989,6 +92224,10 @@ Rule fun(14544,1149,39) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(14545,1149,770) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(14546,1149,14547) :- .
    Updates: 1
    Time: 0 ms
@@ -92141,6 +92380,10 @@ Rule fun(1700,1149,59) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(14582,692,8838) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(14583,1180,13312) :- .
    Updates: 1
    Time: 0 ms
@@ -92213,10 +92456,6 @@ Rule fun(14597,274,14508) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(511,1149,626) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(14598,1149,1475) :- .
    Updates: 1
    Time: 0 ms
@@ -92278,6 +92517,10 @@ Rule fun(2729,1149,926) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(14607,880,2757) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(14608,1149,39) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -92421,6 +92664,10 @@ Rule fun(14643,602,3567) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(14644,1043,14645) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(14646,742,8342) :- .
    Updates: 1
    Time: 0 ms
@@ -92529,10 +92776,6 @@ Rule fun(14667,1003,14668) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14669,349,6970) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(14670,661,14671) :- .
    Updates: 1
    Time: 0 ms
@@ -92590,10 +92833,6 @@ Rule fun(14687,458,14688) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1116,1149,55) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(14689,538,14690) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -92666,6 +92905,10 @@ Rule fun(14707,1149,3534) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(14708,1149,2094) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(14709,1149,1369) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -92829,6 +93072,10 @@ Rule fun(3083,168,5720) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(14750,1149,14751) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(14752,1149,39) :- .
    Updates: 1
    Time: 0 ms
@@ -92882,10 +93129,6 @@ Rule fun(14761,190,14762) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(12066,1149,4516) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(14763,557,6839) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -92998,6 +93241,10 @@ Rule fun(14789,992,1160) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(14790,149,14791) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(14792,392,939) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -93173,6 +93420,10 @@ Rule fun(14838,1030,14839) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(14840,997,6591) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(14841,1149,2433) :- .
    Updates: 1
    Time: 0 ms
@@ -93214,10 +93465,6 @@ Rule fun(14850,941,14851) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(14852,1149,152) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(14853,1149,17) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -93342,6 +93589,10 @@ Rule fun(14877,984,746) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1776,1149,1090) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(14878,162,33) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -93517,6 +93768,10 @@ Rule fun(11670,118,7633) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(167,1149,730) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(2316,1149,802) :- .
    Updates: 1
    Time: 0 ms
@@ -93686,6 +93941,10 @@ Rule fun(1700,1149,1162) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(14967,1151,3407) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(14968,1149,2442) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -93873,6 +94132,10 @@ Rule fun(15017,1149,1059) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(15018,1149,25) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(15019,573,4511) :- .
    Updates: 1
    Time: 0 ms
@@ -93882,10 +94145,6 @@ Rule fun(13729,232,15020) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2017,1149,1472) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(15021,1082,15022) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -94050,6 +94309,10 @@ Rule fun(15063,1041,15064) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2927,289,15065) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(15066,462,6132) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -94245,10 +94508,6 @@ Rule fun(15115,1149,5217) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14031,1149,261) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(15116,1149,510) :- .
    Updates: 1
    Time: 0 ms
@@ -94302,6 +94561,10 @@ Rule fun(15123,1149,23) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(15124,839,10282) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(11925,833,7950) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -94454,6 +94717,10 @@ Rule fun(15161,1012,15162) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(15163,1149,152) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(699,1149,389) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -94610,6 +94877,10 @@ Rule fun(15191,115,9650) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(9541,1149,19) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(15192,594,15193) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -94778,6 +95049,10 @@ Rule fun(15232,1149,67) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(873,1149,725) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(15233,757,15234) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -94953,6 +95228,10 @@ Rule fun(15278,1030,4816) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(15279,602,6960) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(15280,1149,1) :- .
    Updates: 1
    Time: 0 ms
@@ -95073,10 +95352,6 @@ Rule fun(15310,1149,15311) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15312,123,15313) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(15314,1149,23) :- .
    Updates: 1
    Time: 0 ms
@@ -95130,6 +95405,10 @@ Rule fun(15327,1149,23) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(15328,1149,1424) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(15329,796,15330) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -95309,6 +95588,10 @@ Rule fun(15373,289,15374) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(15375,149,8475) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(15376,1062,5592) :- .
    Updates: 1
    Time: 0 ms
@@ -95350,10 +95633,6 @@ Rule fun(15382,232,15383) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(15384,1038,15042) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(15385,63,15386) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -95529,10 +95808,6 @@ Rule fun(15423,1149,376) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15424,1149,5852) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(15425,652,8551) :- .
    Updates: 1
    Time: 0 ms
@@ -95558,6 +95833,10 @@ Rule fun(15430,1149,773) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(15431,17,2074) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(15432,1149,15433) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -95701,6 +95980,10 @@ Rule fun(15469,232,15470) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(15471,434,15472) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(15473,1050,4711) :- .
    Updates: 1
    Time: 0 ms
@@ -95766,10 +96049,6 @@ Rule fun(15486,1149,374) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(11120,1149,261) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(15487,1149,921) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -95842,6 +96121,10 @@ Rule fun(15502,274,15503) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(15504,232,15505) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(350,1149,1644) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -95997,6 +96280,10 @@ Rule fun(15538,289,10392) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(15539,451,4066) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(15540,383,85) :- .
    Updates: 1
    Time: 0 ms
@@ -96038,10 +96325,6 @@ Rule fun(117,1149,1002) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(15550,1149,1) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(613,1149,593) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -96154,6 +96437,10 @@ Rule fun(15576,992,15577) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(15578,42,820) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(15579,790,7002) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -96333,10 +96620,6 @@ Rule fun(15618,326,15619) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15620,289,15621) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(15622,1149,3978) :- .
    Updates: 1
    Time: 0 ms
@@ -96482,6 +96765,10 @@ Rule fun(15653,1149,152) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(15654,1149,347) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(15655,230,678) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -96638,10 +96925,6 @@ Rule fun(2729,1149,725) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(15685,1149,15016) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1776,1149,546) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -96817,6 +97100,10 @@ Rule fun(15730,1149,15731) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(15732,634,3961) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(2316,1149,983) :- .
    Updates: 1
    Time: 0 ms
@@ -96985,7 +97272,7 @@ Rule fun(15764,1149,4568) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2553,1149,926) :- .
+Rule fun(15765,421,3627) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -97153,6 +97440,10 @@ Rule fun(15811,661,140) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(15812,470,15813) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(15814,1149,39) :- .
    Updates: 1
    Time: 0 ms
@@ -97198,10 +97489,6 @@ Rule fun(15825,1099,2360) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(15826,1136,15827) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(15828,1149,822) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -97321,6 +97608,10 @@ Rule fun(15861,642,7470) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(363,1149,126) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(9353,289,2380) :- .
    Updates: 1
    Time: 0 ms
@@ -97409,10 +97700,6 @@ Rule fun(15882,1149,1598) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3346,1149,889) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(15883,452,5606) :- .
    Updates: 1
    Time: 0 ms
@@ -97474,6 +97761,10 @@ Rule fun(15899,972,15900) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(15901,1149,7804) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(12717,1029,4315) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -97641,6 +97932,10 @@ Rule fun(15940,1149,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(10831,714,15941) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(15942,212,2491) :- .
    Updates: 1
    Time: 0 ms
@@ -97694,10 +97989,6 @@ Rule fun(15955,1149,15956) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(15957,1149,17) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(15958,315,15959) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -97802,6 +98093,10 @@ Rule fun(15976,1149,2444) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(15977,1149,634) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(15978,1149,371) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -97953,10 +98248,6 @@ Rule fun(3007,1149,317) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(16017,1149,39) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(2553,1149,1002) :- .
    Updates: 1
    Time: 0 ms
@@ -97966,6 +98257,10 @@ Rule fun(5301,765,4329) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(511,1149,154) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(16018,1149,1424) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -98253,10 +98548,6 @@ Rule fun(16078,1093,16079) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(5611,487,4648) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(16080,1149,7962) :- .
    Updates: 1
    Time: 0 ms
@@ -98306,6 +98597,10 @@ Rule fun(58,1149,209) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(16090,1149,510) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(16091,219,3709) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -98489,6 +98784,10 @@ Rule fun(417,1149,1472) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(16135,392,16136) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(16137,661,16138) :- .
    Updates: 1
    Time: 0 ms
@@ -98550,10 +98849,6 @@ Rule fun(336,1149,2478) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(16151,1159,16152) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1138,1149,3503) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -98654,6 +98949,10 @@ Rule fun(16175,1149,16176) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(16177,0,13386) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(16178,1149,19) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -98821,6 +99120,10 @@ Rule fun(16221,1149,14571) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(16222,1149,104) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(16223,71,16224) :- .
    Updates: 1
    Time: 0 ms
@@ -98830,10 +99133,6 @@ Rule fun(3506,1149,1162) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(16225,629,8315) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(6741,992,3870) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -99121,10 +99420,6 @@ Rule fun(16295,1045,2321) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(511,1149,317) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(16296,1149,835) :- .
    Updates: 1
    Time: 0 ms
@@ -99182,10 +99477,6 @@ Rule fun(3071,1149,261) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(16308,1149,39) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(16309,673,14723) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -99405,6 +99696,10 @@ Rule fun(16354,1149,1292) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(16355,181,16356) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(2348,1149,1221) :- .
    Updates: 1
    Time: 0 ms
@@ -99477,10 +99772,6 @@ Rule fun(16377,289,15971) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(16378,451,16379) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(487,1149,59) :- .
    Updates: 1
    Time: 0 ms
@@ -99546,6 +99837,10 @@ Rule fun(16394,205,1065) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1809,1149,461) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(16395,1149,19) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -99686,6 +99981,10 @@ Rule fun(16431,192,16432) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1791,1149,333) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(16433,1149,169) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -100133,6 +100432,10 @@ Rule fun(16542,926,16543) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(16544,372,9522) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(16545,1149,16350) :- .
    Updates: 1
    Time: 0 ms
@@ -100286,6 +100589,10 @@ Rule fun(16578,1149,8604) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(16579,292,16580) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(16581,1081,7085) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -100445,6 +100752,10 @@ Rule fun(16614,307,5247) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(16615,184,16616) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(16617,206,5351) :- .
    Updates: 1
    Time: 0 ms
@@ -100474,10 +100785,6 @@ Rule fun(16622,1149,128) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(16623,1012,12182) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(623,1149,1090) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -100757,6 +101064,10 @@ Rule fun(16683,915,5558) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(16684,1149,5163) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(16685,1149,1) :- .
    Updates: 1
    Time: 0 ms
@@ -100806,10 +101117,6 @@ Rule fun(1158,1149,16696) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(16697,1114,16698) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(333,1149,1034) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -101085,6 +101392,10 @@ Rule fun(16752,366,3604) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(16753,457,2493) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(16754,1003,2978) :- .
    Updates: 1
    Time: 0 ms
@@ -101146,10 +101457,6 @@ Rule fun(16767,1095,16768) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(873,1149,1557) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(13228,1149,7716) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -101246,6 +101553,10 @@ Rule fun(16785,565,16786) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(16787,1149,8960) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(16788,1149,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -101413,6 +101724,10 @@ Rule fun(16828,135,9266) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(16829,322,16830) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(16831,1149,39) :- .
    Updates: 1
    Time: 0 ms
@@ -101434,10 +101749,6 @@ Rule fun(153,1149,725) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(16834,914,16835) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(16836,1097,13471) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -101585,6 +101896,10 @@ Rule fun(16871,593,16872) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(16873,661,1582) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(16874,289,10380) :- .
    Updates: 1
    Time: 0 ms
@@ -101710,10 +102025,6 @@ Rule fun(1068,1149,1221) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(16911,190,16912) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3271,1149,2478) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -101933,6 +102244,10 @@ Rule fun(16964,1189,16965) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(16966,1113,16967) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(16968,1149,152) :- .
    Updates: 1
    Time: 0 ms
@@ -102006,10 +102321,6 @@ Rule fun(16982,1149,1879) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(6531,536,3083) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(16983,1149,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -102122,6 +102433,10 @@ Rule fun(17007,1149,2852) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(17008,1149,3673) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(17009,289,17010) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -102273,6 +102588,10 @@ Rule fun(17041,1149,6899) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(11290,289,1223) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(17042,1149,1) :- .
    Updates: 1
    Time: 0 ms
@@ -102314,10 +102633,6 @@ Rule fun(17052,1149,3534) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(627,1149,6699) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(837,1149,29) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -102410,6 +102725,10 @@ Rule fun(17081,1149,7675) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(17082,601,17083) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(6294,1149,225) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -102573,6 +102892,10 @@ Rule fun(1323,1149,418) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(17119,1149,4758) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(17120,593,17121) :- .
    Updates: 1
    Time: 0 ms
@@ -102729,6 +103052,10 @@ Rule fun(17160,1149,347) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(17161,1149,6935) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(17162,805,13813) :- .
    Updates: 1
    Time: 0 ms
@@ -102873,7 +103200,7 @@ Rule fun(17198,1149,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(17199,947,10873) :- .
+Rule fun(699,1149,546) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -103014,6 +103341,10 @@ Rule fun(17234,1149,25) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(17235,1149,17236) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(17237,1072,17238) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -103349,6 +103680,10 @@ Rule fun(17314,1149,17) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(3445,520,3445) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(17315,232,17316) :- .
    Updates: 1
    Time: 0 ms
@@ -103489,10 +103824,6 @@ Rule fun(17353,1149,1483) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(17354,1149,328) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(8629,633,4684) :- .
    Updates: 1
    Time: 0 ms
@@ -103526,6 +103857,10 @@ Rule fun(17361,1149,104) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(17362,1149,2845) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(17363,474,14396) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -103709,6 +104044,10 @@ Rule fun(1456,1149,27) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(14215,1149,17399) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(9263,1149,17400) :- .
    Updates: 1
    Time: 0 ms
@@ -103770,10 +104109,6 @@ Rule fun(9813,1040,11611) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1655,1149,546) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(230,1149,11475) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -104077,10 +104412,6 @@ Rule fun(17481,1149,39) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(58,1149,624) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(17482,289,14566) :- .
    Updates: 1
    Time: 0 ms
@@ -104297,6 +104628,10 @@ Rule fun(17535,1149,1059) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(17536,979,11434) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(17537,1149,39) :- .
    Updates: 1
    Time: 0 ms
@@ -104370,10 +104705,6 @@ Rule fun(17554,1009,17555) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(125,1149,27) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(17556,609,17557) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -104486,6 +104817,10 @@ Rule fun(17582,1149,23) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(17583,726,17080) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(17584,352,858) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -104653,10 +104988,6 @@ Rule fun(17626,224,6007) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(17627,410,17628) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(11943,1149,19) :- .
    Updates: 1
    Time: 0 ms
@@ -104686,6 +105017,10 @@ Rule fun(1051,1149,624) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1220,1149,2478) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(17636,455,17637) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -104857,6 +105192,10 @@ Rule fun(12962,1149,2542) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(17677,1149,1) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(17678,925,17679) :- .
    Updates: 1
    Time: 0 ms
@@ -104997,10 +105336,6 @@ Rule fun(125,1149,983) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(153,1149,1002) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(17716,1149,128) :- .
    Updates: 1
    Time: 0 ms
@@ -105022,6 +105357,10 @@ Rule fun(832,1149,3662) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(17718,1149,9501) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(17719,1072,14270) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -105249,10 +105588,6 @@ Rule fun(17768,915,3920) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(17769,1149,2101) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(9384,1165,17578) :- .
    Updates: 1
    Time: 0 ms
@@ -105421,6 +105756,10 @@ Rule fun(724,1149,593) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(17809,1149,23) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(17810,1149,23) :- .
    Updates: 1
    Time: 0 ms
@@ -105498,10 +105837,6 @@ Rule fun(17831,915,17832) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(17833,458,6756) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(17834,232,17835) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -105649,6 +105984,10 @@ Rule fun(17868,1038,392) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(17869,1149,7294) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(17870,1082,17871) :- .
    Updates: 1
    Time: 0 ms
@@ -105782,10 +106121,6 @@ Rule fun(17899,232,17605) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(17900,1149,1194) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(17901,959,17902) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -106085,6 +106420,10 @@ Rule fun(1116,1149,130) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(11707,526,3420) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(3869,289,3869) :- .
    Updates: 1
    Time: 0 ms
@@ -106237,6 +106576,10 @@ Rule fun(18000,1149,4002) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(7245,536,6011) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(771,1149,1034) :- .
    Updates: 1
    Time: 0 ms
@@ -106353,10 +106696,6 @@ Rule fun(18022,257,6734) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(18023,904,8194) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3506,1149,1592) :- .
    Updates: 1
    Time: 0 ms
@@ -106426,6 +106765,10 @@ Rule fun(3007,1149,27) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(18037,1149,77) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(16074,1038,263) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -106629,6 +106972,10 @@ Rule fun(18093,565,1989) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(18094,884,18095) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(18096,1149,12958) :- .
    Updates: 1
    Time: 0 ms
@@ -106658,10 +107005,6 @@ Rule fun(18100,1149,39) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(8912,1030,18101) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(7788,1149,18102) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -106853,6 +107196,10 @@ Rule fun(18142,1149,727) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(18143,454,5657) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(18144,1149,23) :- .
    Updates: 1
    Time: 0 ms
@@ -106989,10 +107336,6 @@ Rule fun(18174,1012,18175) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(18176,1149,347) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(18177,1149,18178) :- .
    Updates: 1
    Time: 0 ms
@@ -107066,10 +107409,6 @@ Rule fun(18197,105,349) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(18198,714,5677) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(18199,643,7824) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -107206,6 +107545,10 @@ Rule fun(18234,1149,785) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(18235,474,18236) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(18237,232,5375) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -107357,6 +107700,10 @@ Rule fun(18275,232,4086) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(18276,968,513) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(18277,587,9700) :- .
    Updates: 1
    Time: 0 ms
@@ -107469,6 +107816,10 @@ Rule fun(18301,428,1151) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(18302,1149,14770) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(18303,1003,12721) :- .
    Updates: 1
    Time: 0 ms
@@ -107541,10 +107892,6 @@ Rule fun(129,1149,59) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(18318,416,3500) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(18319,1149,245) :- .
    Updates: 1
    Time: 0 ms
@@ -107578,6 +107925,10 @@ Rule fun(2121,168,2121) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(18326,799,18327) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(18328,1149,17938) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -107705,6 +108056,10 @@ Rule fun(18360,661,18361) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(11028,1149,1257) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(18362,1149,8712) :- .
    Updates: 1
    Time: 0 ms
@@ -107805,10 +108160,6 @@ Rule fun(18381,209,18382) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(18383,1149,11097) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(18384,1149,12245) :- .
    Updates: 1
    Time: 0 ms
@@ -107822,6 +108173,10 @@ Rule fun(18386,1149,18387) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(18388,1014,18389) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(18390,464,602) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -107942,6 +108297,10 @@ Rule fun(18418,661,18419) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(18420,1149,15368) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(837,1149,337) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -108229,6 +108588,10 @@ Rule fun(18486,363,2001) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(18487,833,18401) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1220,1149,124) :- .
    Updates: 1
    Time: 0 ms
@@ -108365,7 +108728,7 @@ Rule fun(18517,1143,18518) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(18519,1149,39) :- .
+Rule fun(4607,289,8423) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -108518,6 +108881,10 @@ Rule fun(2738,1149,926) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(18552,1149,1598) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2348,1149,771) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -108693,6 +109060,10 @@ Rule fun(1667,1149,126) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(18588,345,10265) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(18589,292,18590) :- .
    Updates: 1
    Time: 0 ms
@@ -108794,6 +109165,10 @@ Rule fun(18610,1127,90) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(18611,1072,18612) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(18613,661,7912) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -108961,10 +109336,6 @@ Rule fun(18656,1092,1067) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(18657,1149,152) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(18658,1149,347) :- .
    Updates: 1
    Time: 0 ms
@@ -108974,6 +109345,10 @@ Rule fun(18659,1149,104) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(18660,1149,205) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(18661,1149,7151) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -109121,6 +109496,10 @@ Rule fun(18691,186,18692) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(460,1149,1162) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(18693,992,13309) :- .
    Updates: 1
    Time: 0 ms
@@ -109142,10 +109521,6 @@ Rule fun(18698,232,2026) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(5744,1149,12998) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(58,1149,2478) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -109297,6 +109672,10 @@ Rule fun(18733,292,18734) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(18735,1066,10781) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(18736,992,12816) :- .
    Updates: 1
    Time: 0 ms
@@ -109370,10 +109749,6 @@ Rule fun(18758,1149,152) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(18759,1149,1673) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(18760,1028,18761) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -109490,6 +109865,10 @@ Rule fun(18793,292,289) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(18794,1149,1) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(18795,984,2657) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -109617,10 +109996,6 @@ Rule fun(18827,1149,3277) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(18828,232,18829) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(18830,922,18831) :- .
    Updates: 1
    Time: 0 ms
@@ -109682,6 +110057,10 @@ Rule fun(18843,661,48) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(18844,1149,18108) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2348,1149,1799) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -109865,6 +110244,10 @@ Rule fun(18894,1149,9370) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(18895,1149,14430) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(117,1149,593) :- .
    Updates: 1
    Time: 0 ms
@@ -109882,10 +110265,6 @@ Rule fun(837,1149,5) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2316,1149,614) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(18898,1175,12238) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -110181,10 +110560,6 @@ Rule fun(2100,737,2435) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3038,1149,624) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(18967,611,1718) :- .
    Updates: 1
    Time: 0 ms
@@ -110242,6 +110617,10 @@ Rule fun(18980,1149,3537) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2595,732,985) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(18981,1091,10212) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -110449,6 +110828,10 @@ Rule fun(19030,813,6516) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(19031,1051,4152) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(12773,786,19032) :- .
    Updates: 1
    Time: 0 ms
@@ -110482,10 +110865,6 @@ Rule fun(19036,1149,11147) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(803,1149,27) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(19037,579,782) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -110665,6 +111044,10 @@ Rule fun(2553,1149,709) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(19081,1149,3966) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(19082,1149,9211) :- .
    Updates: 1
    Time: 0 ms
@@ -110809,10 +111192,6 @@ Rule fun(19114,1149,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(19115,941,4455) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(19116,618,9220) :- .
    Updates: 1
    Time: 0 ms
@@ -110870,6 +111249,10 @@ Rule fun(19127,113,19128) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(19129,1211,19130) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(19131,292,19132) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -111093,6 +111476,10 @@ Rule fun(11975,1149,261) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(13500,472,19184) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(19185,95,19186) :- .
    Updates: 1
    Time: 0 ms
@@ -111114,10 +111501,6 @@ Rule fun(19189,538,4248) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(19190,274,19191) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3346,1149,2303) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -111309,6 +111692,10 @@ Rule fun(19240,1149,17639) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(19241,908,17851) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(12112,1149,1257) :- .
    Updates: 1
    Time: 0 ms
@@ -111433,10 +111820,6 @@ Rule fun(19273,1149,1422) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(19274,89,8443) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(19275,62,19276) :- .
    Updates: 1
    Time: 0 ms
@@ -111530,6 +111913,10 @@ Rule fun(1941,1149,261) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(19298,1149,224) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(19299,715,2843) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -111721,10 +112108,6 @@ Rule fun(19336,1020,19337) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(19338,1149,1) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(19339,1149,12407) :- .
    Updates: 1
    Time: 0 ms
@@ -111754,6 +112137,10 @@ Rule fun(19345,1149,847) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(19346,1149,3766) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1116,1149,280) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -111933,10 +112320,6 @@ Rule fun(19389,292,19390) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(666,1149,1165) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(19391,1149,25) :- .
    Updates: 1
    Time: 0 ms
@@ -111986,6 +112369,10 @@ Rule fun(18319,1149,19) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(19403,181,19404) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(19405,1149,8101) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -112177,10 +112564,6 @@ Rule fun(1494,1149,476) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(19454,463,7735) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(19455,1149,18945) :- .
    Updates: 1
    Time: 0 ms
@@ -112210,6 +112593,10 @@ Rule fun(19461,1149,1) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(19462,39,19463) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(2262,1149,2303) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -112413,15 +112800,15 @@ Rule fun(19509,661,19510) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(19511,526,19512) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(19513,1082,19514) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(19515,1149,4758) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(19516,590,956) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -112617,6 +113004,10 @@ Rule fun(19554,289,10974) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(19555,1149,7247) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(19556,270,2948) :- .
    Updates: 1
    Time: 0 ms
@@ -112682,10 +113073,6 @@ Rule fun(19568,1149,347) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(19569,1149,19570) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(19571,1198,4256) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -112829,6 +113216,10 @@ Rule fun(19600,919,13225) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(2861,1149,700) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(19601,1149,152) :- .
    Updates: 1
    Time: 0 ms
@@ -112958,10 +113349,6 @@ Rule fun(19633,1149,39) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(19634,408,4816) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1461,1149,1028) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -113237,10 +113624,6 @@ Rule fun(19700,1149,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(19701,915,16410) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(19702,1149,16699) :- .
    Updates: 1
    Time: 0 ms
@@ -113254,6 +113637,10 @@ Rule fun(1818,1149,245) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2877,1149,261) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(19704,1149,347) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -113462,6 +113849,10 @@ Rule fun(699,1149,1090) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(1667,1149,1557) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(19755,1149,11818) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -113869,6 +114260,10 @@ Rule fun(19852,1149,5566) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(19853,947,8879) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(19854,799,8409) :- .
    Updates: 1
    Time: 0 ms
@@ -113898,10 +114293,6 @@ Rule fun(19860,538,14596) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(19861,1035,1487) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3007,1149,1165) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -114073,6 +114464,10 @@ Rule fun(19901,1149,2442) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(19902,883,10216) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(19903,1155,15211) :- .
    Updates: 1
    Time: 0 ms
@@ -114178,10 +114573,6 @@ Rule fun(19930,1149,1) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(19931,1149,328) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(19932,1149,39) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -114302,6 +114693,10 @@ Rule fun(19959,289,19960) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(19961,1072,16914) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(19962,1149,10823) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -114457,10 +114852,6 @@ Rule fun(19999,1149,571) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(20000,1149,39) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(5155,89,1199) :- .
    Updates: 1
    Time: 0 ms
@@ -114510,6 +114901,10 @@ Rule fun(20013,1149,964) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(20014,1149,152) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(20015,1149,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -114725,7 +115120,7 @@ Rule fun(15016,1149,261) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(20063,1149,3256) :- .
+Rule fun(20062,1149,2069) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -114978,10 +115373,6 @@ Rule fun(20127,62,20128) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(20129,1149,1187) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(20130,526,20131) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -115513,10 +115904,6 @@ Rule fun(20259,1149,2367) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(20260,1114,20261) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(931,1149,1002) :- .
    Updates: 1
    Time: 0 ms
@@ -115642,6 +116029,10 @@ Rule fun(20284,1149,19) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(20285,1149,331) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1051,1149,1033) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -115789,10 +116180,6 @@ Rule fun(20319,538,5022) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(20320,392,20321) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(20322,1202,20323) :- .
    Updates: 1
    Time: 0 ms
@@ -115878,6 +116265,10 @@ Rule fun(20339,1149,4124) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(20340,1192,20341) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(20342,330,2475) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -116042,10 +116433,6 @@ Rule fun(20383,232,20384) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(20385,465,6364) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(20386,988,3379) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -116301,10 +116688,6 @@ Rule fun(20441,1149,5114) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2507,826,2501) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(20442,1149,4189) :- .
    Updates: 1
    Time: 0 ms
@@ -116382,6 +116765,10 @@ Rule fun(20462,228,17058) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(20463,1149,1059) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(20464,786,1784) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -116529,10 +116916,6 @@ Rule fun(20492,264,2501) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(20493,318,13050) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(20494,248,4256) :- .
    Updates: 1
    Time: 0 ms
@@ -116646,6 +117029,10 @@ Rule fun(20516,1149,104) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(20517,1082,20518) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(20519,468,2347) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -116766,10 +117153,6 @@ Rule fun(20549,193,20550) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(20551,1149,510) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(20552,1149,18267) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -116897,6 +117280,10 @@ Rule fun(13638,1149,1043) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(20575,1149,39) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(9979,707,2788) :- .
    Updates: 1
    Time: 0 ms
@@ -116990,10 +117377,6 @@ Rule fun(20595,317,6762) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(20596,1149,39) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(13796,1149,6577) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -117102,6 +117485,10 @@ Rule fun(20619,27,2216) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(20622,1149,17) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(20623,992,6608) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -117282,10 +117669,6 @@ Rule fun(20660,1149,713) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(14881,201,8534) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(20661,406,20662) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -117473,6 +117856,10 @@ Rule fun(20698,1185,20699) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(20700,799,917) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(20701,292,20702) :- .
    Updates: 1
    Time: 0 ms
@@ -117518,10 +117905,6 @@ Rule fun(20711,638,17447) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(805,1149,126) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(20712,1149,39) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -117642,6 +118025,10 @@ Rule fun(20739,1149,10777) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(26,1149,626) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1833,1149,154) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -117777,10 +118164,6 @@ Rule fun(2941,289,2941) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(20773,206,20774) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(20775,634,4256) :- .
    Updates: 1
    Time: 0 ms
@@ -117846,6 +118229,10 @@ Rule fun(20787,834,20788) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(20789,1089,5526) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(20790,1149,1257) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -117993,10 +118380,6 @@ Rule fun(485,289,2111) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(20816,1019,11999) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(20817,321,3117) :- .
    Updates: 1
    Time: 0 ms
@@ -118058,6 +118441,10 @@ Rule fun(20830,1149,128) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(20831,1149,1) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(20832,1149,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -118209,10 +118596,6 @@ Rule fun(20863,1149,16633) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9873,1149,822) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(4844,292,2168) :- .
    Updates: 1
    Time: 0 ms
@@ -118274,6 +118657,10 @@ Rule fun(20880,818,6384) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(255,1149,225) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(20881,884,12141) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -118422,10 +118809,6 @@ Rule fun(20914,1149,2167) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(20915,1149,2542) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(2671,1149,1644) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -118637,10 +119020,6 @@ Rule fun(20951,1149,70) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(20952,1149,2904) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(20953,232,20012) :- .
    Updates: 1
    Time: 0 ms
@@ -118757,6 +119136,10 @@ Rule fun(20980,1149,14212) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(20981,913,20982) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(20983,228,14517) :- .
    Updates: 1
    Time: 0 ms
@@ -118842,10 +119225,6 @@ Rule fun(21002,49,8661) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(21003,168,17751) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5670,1168,21004) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -119053,10 +119432,6 @@ Rule fun(21046,297,21047) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(21048,1003,21049) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(21050,1149,3534) :- .
    Updates: 1
    Time: 0 ms
@@ -119229,6 +119604,10 @@ Rule fun(21093,133,7302) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(21094,1149,7658) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(21095,711,21096) :- .
    Updates: 1
    Time: 0 ms
@@ -119262,10 +119641,6 @@ Rule fun(21102,1149,2542) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(21103,1149,1) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(21104,1149,4182) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -119469,7 +119844,7 @@ Rule fun(21147,1149,21148) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(445,1149,1033) :- .
+Rule fun(21149,1149,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -119689,10 +120064,6 @@ Rule fun(21192,796,1562) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(803,1149,418) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(21193,1149,13544) :- .
    Updates: 1
    Time: 0 ms
@@ -119897,10 +120268,6 @@ Rule fun(21234,1149,1292) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(21235,1149,7558) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(21236,1149,3119) :- .
    Updates: 1
    Time: 0 ms
@@ -119966,6 +120333,10 @@ Rule fun(21253,706,81) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(21254,1119,21255) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(21256,117,9889) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -120281,10 +120652,6 @@ Rule fun(21337,1149,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2819,89,4507) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(21338,360,3659) :- .
    Updates: 1
    Time: 0 ms
@@ -120457,10 +120824,6 @@ Rule fun(21380,1149,152) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(21381,1149,6504) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(21382,1149,136) :- .
    Updates: 1
    Time: 0 ms
@@ -120605,10 +120968,6 @@ Rule fun(619,1149,418) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(21420,647,21421) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(5816,1149,279) :- .
    Updates: 1
    Time: 0 ms
@@ -120725,6 +121084,10 @@ Rule fun(21447,193,2090) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(21448,436,2759) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(21449,1149,921) :- .
    Updates: 1
    Time: 0 ms
@@ -120758,10 +121121,6 @@ Rule fun(21455,1149,21456) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(21457,232,2937) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(21458,490,11365) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -120957,6 +121316,10 @@ Rule fun(21496,1149,21497) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(21498,1022,21499) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(10934,1127,4670) :- .
    Updates: 1
    Time: 0 ms
@@ -121085,10 +121448,6 @@ Rule fun(3226,1149,730) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(21522,979,21523) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(21524,1149,324) :- .
    Updates: 1
    Time: 0 ms
@@ -121189,6 +121548,10 @@ Rule fun(21546,414,21547) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(21548,1149,152) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(6959,1149,261) :- .
    Updates: 1
    Time: 0 ms
@@ -121242,10 +121605,6 @@ Rule fun(21561,1149,21562) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(332,1149,209) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(21563,542,4511) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -121433,6 +121792,10 @@ Rule fun(153,1149,317) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(21603,1136,21604) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(21605,1149,15734) :- .
    Updates: 1
    Time: 0 ms
@@ -121570,10 +121933,6 @@ Rule fun(21637,1149,634) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(21638,958,3518) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1798,1149,242) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -121726,10 +122085,6 @@ Rule fun(21673,661,7851) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(20329,1119,13194) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(21674,1149,328) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -121893,10 +122248,6 @@ Rule fun(21706,666,21707) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(21708,1149,11974) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(21709,1149,23) :- .
    Updates: 1
    Time: 0 ms
@@ -121942,6 +122293,10 @@ Rule fun(21718,1149,1) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(21719,1149,5973) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(7182,1149,12932) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -122042,10 +122397,6 @@ Rule fun(21745,1149,324) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2306,1149,2303) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1502,1149,1743) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -122189,6 +122540,10 @@ Rule fun(21779,1006,6862) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(21780,234,10619) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(9338,1149,3036) :- .
    Updates: 1
    Time: 0 ms
@@ -122198,10 +122553,6 @@ Rule fun(21781,222,5672) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(21782,1060,2501) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(21783,470,6616) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -122365,10 +122716,6 @@ Rule fun(5664,355,11361) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12114,1149,245) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(21815,673,21816) :- .
    Updates: 1
    Time: 0 ms
@@ -122434,6 +122781,10 @@ Rule fun(3423,1149,410) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(21829,647,12464) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(21830,474,7363) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -122510,10 +122861,6 @@ Rule fun(21843,1149,7149) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(21844,232,21845) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(21846,74,21847) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -122661,15 +123008,15 @@ Rule fun(21887,707,6435) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(125,1149,725) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(21888,1149,21889) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(931,1149,667) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(973,1149,29) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -122809,10 +123156,6 @@ Rule fun(21917,1149,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(8171,1149,19) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(21918,232,21919) :- .
    Updates: 1
    Time: 0 ms
@@ -122890,6 +123233,10 @@ Rule fun(21933,232,11030) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(21934,42,14036) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(21935,474,21936) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -123089,10 +123436,6 @@ Rule fun(8380,1149,19) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(21981,386,21982) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(21983,1082,8169) :- .
    Updates: 1
    Time: 0 ms
@@ -123249,7 +123592,7 @@ Rule fun(22017,1149,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22018,1149,9287) :- .
+Rule fun(22019,8,15127) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -123397,10 +123740,6 @@ Rule fun(241,1149,1799) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22050,1149,539) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(22051,753,5498) :- .
    Updates: 1
    Time: 0 ms
@@ -123442,6 +123781,10 @@ Rule fun(22057,960,8331) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(22058,1149,8204) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(22059,1149,9211) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -123522,10 +123865,6 @@ Rule fun(348,968,349) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(22078,232,22079) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(4037,1032,16174) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -123638,6 +123977,10 @@ Rule fun(1397,1149,626) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(22102,1072,22103) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(22104,1149,5146) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -123793,10 +124136,6 @@ Rule fun(22143,1149,324) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(10,1149,118) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(22144,791,5966) :- .
    Updates: 1
    Time: 0 ms
@@ -123862,6 +124201,10 @@ Rule fun(22158,1149,8775) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(22159,232,18783) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1461,1149,3158) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -124009,6 +124352,10 @@ Rule fun(2084,1149,155) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(7558,1149,459) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(22191,1149,3762) :- .
    Updates: 1
    Time: 0 ms
@@ -124030,6 +124377,10 @@ Rule fun(22194,1149,15695) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(22195,1149,1) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(22196,1149,15221) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -124089,10 +124440,6 @@ Rule fun(22206,1149,67) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22207,834,22208) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(22209,1205,22210) :- .
    Updates: 1
    Time: 0 ms
@@ -124142,6 +124489,10 @@ Rule fun(22223,1149,22224) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(22225,1149,2296) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(22226,1149,6990) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -124237,10 +124588,6 @@ Rule fun(22240,566,22241) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22242,1149,3102) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(22243,817,17497) :- .
    Updates: 1
    Time: 0 ms
@@ -124266,6 +124613,10 @@ Rule fun(22246,1181,218) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(3444,1078,21499) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(22247,391,3633) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -124381,10 +124732,6 @@ Rule fun(22271,646,22272) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22273,326,22274) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(22275,1007,22276) :- .
    Updates: 1
    Time: 0 ms
@@ -124410,6 +124757,10 @@ Rule fun(10736,1149,385) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(22279,274,22280) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(3487,1149,19) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -124525,10 +124876,6 @@ Rule fun(22309,474,20487) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22310,292,829) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(5719,292,3084) :- .
    Updates: 1
    Time: 0 ms
@@ -124562,6 +124909,10 @@ Rule fun(22318,930,3175) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(22319,1149,104) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(22320,1149,6501) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -124713,6 +125064,10 @@ Rule fun(4,1149,280) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(22350,1019,7904) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(22351,1149,328) :- .
    Updates: 1
    Time: 0 ms
@@ -124825,10 +125180,6 @@ Rule fun(873,1149,1002) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22374,921,22375) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(10839,1149,225) :- .
    Updates: 1
    Time: 0 ms
@@ -124866,6 +125217,10 @@ Rule fun(22384,287,269) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(22385,74,2059) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(22386,1149,23) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -124953,10 +125308,6 @@ Rule fun(22405,714,3462) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22406,1074,1386) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(22407,757,22408) :- .
    Updates: 1
    Time: 0 ms
@@ -125014,6 +125365,10 @@ Rule fun(22419,1149,23) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(22420,223,17367) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(817,1149,126) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -125089,10 +125444,6 @@ Rule fun(22434,206,17816) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22435,661,22436) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(22437,609,14632) :- .
    Updates: 1
    Time: 0 ms
@@ -125165,6 +125516,10 @@ Rule fun(803,1149,1002) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(5179,1149,3326) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(22450,1149,16118) :- .
    Updates: 1
    Time: 0 ms
@@ -125230,10 +125585,6 @@ Rule fun(1320,1149,27) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(22458,223,18947) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(22459,611,8098) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -125306,6 +125657,10 @@ Rule fun(22473,1149,39) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(973,1149,1162) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(22474,474,21333) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -125389,10 +125744,6 @@ Rule fun(22495,1149,8598) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22496,1149,10787) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(20284,1149,245) :- .
    Updates: 1
    Time: 0 ms
@@ -125458,6 +125809,10 @@ Rule fun(22508,1149,437) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(22509,1149,23) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(545,1149,700) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -125545,10 +125900,6 @@ Rule fun(6999,289,13766) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22526,474,12290) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(1231,1149,130) :- .
    Updates: 1
    Time: 0 ms
@@ -125629,6 +125980,10 @@ Rule fun(22543,1149,1) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(15433,1149,225) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(1798,1149,333) :- .
    Updates: 1
    Time: 0 ms
@@ -125686,10 +126041,6 @@ Rule fun(22554,232,22555) :- .
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(12056,289,602) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1068,1149,337) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -125817,15 +126168,15 @@ Rule fun(22586,1149,1369) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(8914,1123,12690) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(22587,232,22588) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(22589,1149,9463) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(7258,992,7648) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
@@ -125973,6 +126324,10 @@ Rule fun(1776,1149,124) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
+Rule fun(22624,1139,4865) :- .
+   Updates: 1
+   Time: 0 ms
+   Longest Iteration: 0 (0 ms)
 Rule fun(22625,1149,8821) :- .
    Updates: 1
    Time: 0 ms
@@ -125989,335 +126344,247 @@ Rule fun(22627,1149,152) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22628,463,13) :- .
-   Updates: 1
-   Time: 0 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(22629,315,22630) :- .
    Updates: 1
    Time: 0 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(86,1149,25) :- .
+Rule fun(93,1149,94) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(183,786,184) :- .
+Rule fun(179,381,180) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(281,403,282) :- .
+Rule fun(351,1139,352) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(380,1149,381) :- .
+Rule fun(138,3,438) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(570,1149,571) :- .
+Rule fun(518,249,519) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(753,1149,754) :- .
+Rule fun(603,1149,39) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(936,1149,937) :- .
+Rule fun(680,1153,681) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1029,609,1030) :- .
+Rule fun(758,538,759) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1118,1051,612) :- .
+Rule fun(834,1149,835) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1211,172,1212) :- .
+Rule fun(913,1202,914) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1295,1149,1296) :- .
+Rule fun(990,1149,991) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(208,1149,1221) :- .
+Rule fun(1136,1149,1137) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1363,1149,616) :- .
+Rule fun(1209,1149,1210) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(132,1149,225) :- .
+Rule fun(10,1149,725) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1737,153,1738) :- .
+Rule fun(1347,872,1348) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1821,1149,19) :- .
+Rule fun(1415,1149,1) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1891,1149,1628) :- .
+Rule fun(1482,1149,1483) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1980,1149,1981) :- .
+Rule fun(1551,1149,1552) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2146,1149,2147) :- .
+Rule fun(1612,1176,1613) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2196,1149,667) :- .
+Rule fun(1683,232,1684) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2259,232,2260) :- .
+Rule fun(1751,315,1752) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2320,482,2321) :- .
+Rule fun(1816,232,1817) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2376,766,2377) :- .
+Rule fun(1877,1149,1260) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2437,232,2438) :- .
+Rule fun(1948,1020,1949) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2494,253,2495) :- .
+Rule fun(805,1149,649) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(752,1149,802) :- .
+Rule fun(1776,1149,280) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2697,1194,2698) :- .
+Rule fun(2182,318,2183) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2754,1149,740) :- .
+Rule fun(2254,441,2255) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2810,289,2811) :- .
+Rule fun(2324,1149,39) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2864,547,2865) :- .
+Rule fun(2454,661,2455) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2933,520,2933) :- .
+Rule fun(2573,1149,575) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2996,166,2997) :- .
+Rule fun(2618,292,2619) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3060,1195,3061) :- .
+Rule fun(2678,89,2679) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(10,1149,983) :- .
+Rule fun(2742,1149,2743) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3190,1149,3191) :- .
+Rule fun(2795,1149,2796) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1591,1149,1221) :- .
+Rule fun(2935,1002,2936) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3331,587,3332) :- .
+Rule fun(3010,538,150) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3403,1149,3404) :- .
+Rule fun(3087,1149,23) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3476,1149,3477) :- .
+Rule fun(3172,972,3173) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3551,634,2603) :- .
+Rule fun(3251,1149,1639) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3622,751,3220) :- .
+Rule fun(3337,1149,3338) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3728,1149,1) :- .
+Rule fun(3425,1149,3426) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3782,352,3783) :- .
+Rule fun(3523,1149,3524) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3895,1149,3896) :- .
+Rule fun(3612,661,3613) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3959,1149,1543) :- .
+Rule fun(3707,1149,63) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4029,1149,1) :- .
+Rule fun(3825,1149,225) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4085,584,4086) :- .
+Rule fun(3947,500,3948) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4143,1167,2001) :- .
+Rule fun(4061,511,4062) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4207,318,4208) :- .
+Rule fun(4176,726,4177) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4266,1149,467) :- .
+Rule fun(752,1149,11) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4316,1149,4317) :- .
+Rule fun(4517,1149,4518) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4376,1149,261) :- .
+Rule fun(475,1149,593) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4434,538,1310) :- .
+Rule fun(4730,829,1989) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1791,1149,1221) :- .
+Rule fun(4835,1149,4836) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4619,1149,4620) :- .
+Rule fun(4935,111,4936) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4677,347,4678) :- .
+Rule fun(4960,236,4961) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4738,538,4739) :- .
+Rule fun(5147,1149,1743) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4799,270,4800) :- .
+Rule fun(1092,1149,771) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4864,0,4865) :- .
+Rule fun(5339,589,1167) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4973,1149,1369) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5020,904,536) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5069,119,5070) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5122,632,513) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5178,1149,5179) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(1655,1149,461) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(623,1149,337) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5375,945,3795) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5426,1149,2221) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5484,289,5485) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5544,351,5545) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5602,1149,5319) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5662,289,3471) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5732,1149,3820) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5803,0,5804) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5925,1149,5926) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5989,25,4545) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(4,1149,624) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(2199,1149,55) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(6124,634,6125) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(6167,632,21) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(6221,862,6222) :- .
+Rule fun(3086,1149,5543) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -126325,103 +126592,51 @@ Rule fun(6321,1116,6322) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(6472,936,4818) :- .
+Rule fun(1231,1149,1221) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(6521,420,5175) :- .
+Rule fun(6619,522,6620) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(6580,1149,3766) :- .
+Rule fun(2553,1149,802) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(6630,1149,6631) :- .
+Rule fun(6925,1072,1521) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(6683,1149,4580) :- .
+Rule fun(7034,256,7035) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(6730,206,6731) :- .
+Rule fun(7214,689,1691) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(6835,1119,6836) :- .
+Rule fun(7306,39,7307) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(6898,1149,23) :- .
+Rule fun(7409,42,7410) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(724,1149,1165) :- .
+Rule fun(7511,1149,5033) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(7015,232,7016) :- .
+Rule fun(7619,1211,7620) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(7081,383,6701) :- .
+Rule fun(3535,1149,1162) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(623,1149,700) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(2473,590,401) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(7204,1149,4011) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(7260,1050,7261) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(7313,31,7314) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(5574,422,3283) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(7433,1149,634) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(7488,292,7489) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(801,1149,1590) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(7611,1030,7612) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(7666,917,2347) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(7721,644,7722) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(7829,1149,347) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(7879,831,6558) :- .
+Rule fun(7831,1149,1) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -126429,195 +126644,139 @@ Rule fun(7937,463,7938) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(7986,1149,6035) :- .
+Rule fun(8040,1003,8041) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(129,1149,2303) :- .
+Rule fun(592,1149,11) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(694,1149,1090) :- .
+Rule fun(8158,1149,19) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(8135,314,8136) :- .
+Rule fun(8226,1149,17) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(8192,517,6589) :- .
+Rule fun(8295,1119,8296) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(8248,547,7897) :- .
+Rule fun(8370,89,1199) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(8304,938,8305) :- .
+Rule fun(8514,1089,8515) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(8363,289,8364) :- .
+Rule fun(8596,842,8055) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(8424,1149,116) :- .
+Rule fun(8672,1149,23) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2553,1149,317) :- .
+Rule fun(129,1149,1162) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(8548,219,8549) :- .
+Rule fun(8895,392,8896) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(8616,1149,635) :- .
+Rule fun(8970,1168,8971) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(8686,1149,1543) :- .
+Rule fun(9048,1149,67) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(8805,1149,4061) :- .
+Rule fun(2446,447,1666) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(8876,1149,8877) :- .
+Rule fun(9184,1149,3939) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(8940,992,8941) :- .
+Rule fun(9256,331,9222) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9012,1086,9013) :- .
+Rule fun(9323,1149,1418) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(780,1149,1472) :- .
+Rule fun(9390,1149,233) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(445,1149,730) :- .
+Rule fun(9464,1149,1) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9191,1180,1510) :- .
+Rule fun(3861,1149,19) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9257,1019,9258) :- .
+Rule fun(1809,1149,2478) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3226,1149,1592) :- .
+Rule fun(7038,1149,245) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9377,1149,3583) :- .
+Rule fun(9774,1149,5033) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9435,1119,9436) :- .
+Rule fun(9870,1149,1) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9500,1149,128) :- .
+Rule fun(9959,1149,9960) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9561,986,9562) :- .
+Rule fun(10136,1149,10137) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9628,44,4109) :- .
+Rule fun(10352,1149,1664) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2348,1149,889) :- .
+Rule fun(10447,1149,2995) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9732,1149,9733) :- .
+Rule fun(10538,1149,10539) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9785,1072,9786) :- .
+Rule fun(1158,1149,10721) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9839,1147,9840) :- .
+Rule fun(10806,661,8066) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9897,1149,6476) :- .
+Rule fun(10879,317,10880) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9948,1149,7978) :- .
+Rule fun(10964,254,10965) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(6531,520,3084) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(10049,1149,10050) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(10113,1149,921) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(10179,1149,10180) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(10313,1149,10314) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(10375,661,10376) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(10445,46,10446) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(10508,392,10509) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(10568,111,10569) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(7956,1149,1194) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(10759,1149,10760) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(10816,308,5804) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(10915,613,2413) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(10977,1149,3595) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(11095,1149,1569) :- .
+Rule fun(11050,1149,9604) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -126625,187 +126784,175 @@ Rule fun(11138,999,11139) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(11183,1149,1257) :- .
+Rule fun(11210,63,11211) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(11223,89,5825) :- .
+Rule fun(11293,1149,1) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(953,1168,3124) :- .
+Rule fun(627,1149,11370) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(11332,693,11333) :- .
+Rule fun(11459,41,11460) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9811,799,85) :- .
+Rule fun(11552,1149,789) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(11457,1149,1) :- .
+Rule fun(11730,538,11731) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(11528,806,10619) :- .
+Rule fun(58,1149,730) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(11589,1051,513) :- .
+Rule fun(11967,1149,2845) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(11653,110,11654) :- .
+Rule fun(1505,526,12052) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(11779,986,11780) :- .
+Rule fun(12140,777,12141) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(11838,1149,19) :- .
+Rule fun(12232,274,9776) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(11900,1148,11901) :- .
+Rule fun(12310,1149,4707) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(9198,289,4416) :- .
+Rule fun(1832,1149,2777) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(58,1149,771) :- .
+Rule fun(12396,232,12397) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1494,1149,1644) :- .
+Rule fun(12429,1149,37) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(7529,1149,9929) :- .
+Rule fun(12463,652,2391) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12236,1149,425) :- .
+Rule fun(10717,29,4670) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12299,1149,7686) :- .
+Rule fun(12550,197,7525) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(804,536,4948) :- .
+Rule fun(12581,1149,727) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12444,1149,733) :- .
+Rule fun(12628,167,12629) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12496,909,12497) :- .
+Rule fun(12672,1149,991) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(511,1149,126) :- .
+Rule fun(1833,1149,725) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12615,925,12616) :- .
+Rule fun(12785,1149,4900) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12670,1149,12671) :- .
+Rule fun(12837,232,12838) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12735,1149,3477) :- .
+Rule fun(12891,441,316) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2608,1149,3158) :- .
+Rule fun(12962,424,12963) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12857,209,1634) :- .
+Rule fun(13111,1149,25) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12912,1149,23) :- .
+Rule fun(8379,1149,385) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12980,136,12981) :- .
+Rule fun(13335,1149,425) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13042,1149,1585) :- .
+Rule fun(13361,1154,7629) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13112,899,10205) :- .
+Rule fun(13367,232,13368) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13173,200,13174) :- .
+Rule fun(13383,1024,13384) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3250,1149,802) :- .
+Rule fun(13401,1020,13402) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13364,697,10121) :- .
+Rule fun(13416,1149,8821) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13389,782,138) :- .
+Rule fun(13434,1149,328) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13405,1149,8154) :- .
+Rule fun(13462,1211,13463) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13458,1136,12133) :- .
+Rule fun(13494,1149,77) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13487,1149,1) :- .
+Rule fun(12771,1182,5615) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13508,482,2347) :- .
+Rule fun(13583,1149,19) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13529,1149,328) :- .
+Rule fun(10059,1149,261) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1631,289,1631) :- .
+Rule fun(592,1149,1165) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13578,469,13579) :- .
+Rule fun(13703,1149,770) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(272,1149,802) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(13787,78,11862) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(13798,1149,7447) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(13812,535,13813) :- .
+Rule fun(13753,1149,13754) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -126813,391 +126960,235 @@ Rule fun(13828,1149,4695) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13842,1041,3717) :- .
+Rule fun(13873,1149,152) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13896,1149,5530) :- .
+Rule fun(460,1149,59) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2306,1149,1090) :- .
+Rule fun(1591,1149,242) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13967,751,13968) :- .
+Rule fun(1791,1149,1353) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14004,1149,1147) :- .
+Rule fun(14099,302,3006) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(117,1149,418) :- .
+Rule fun(14211,1149,14212) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14104,474,14105) :- .
+Rule fun(14288,1154,14289) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14136,1149,4758) :- .
+Rule fun(14372,206,14373) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14173,1149,152) :- .
+Rule fun(14453,1149,2651) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14193,314,14194) :- .
+Rule fun(511,1149,626) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14233,1155,218) :- .
+Rule fun(14669,349,6970) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14269,1072,14270) :- .
+Rule fun(14683,502,14684) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14311,1149,2877) :- .
+Rule fun(14689,538,14690) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14349,992,14350) :- .
+Rule fun(14763,557,6839) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1809,1149,889) :- .
+Rule fun(14853,1149,17) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(545,1149,59) :- .
+Rule fun(15021,1082,15022) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4416,1149,662) :- .
+Rule fun(14031,1149,261) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14500,289,14501) :- .
+Rule fun(15312,123,15313) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14545,1149,770) :- .
+Rule fun(15385,63,15386) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14582,692,8838) :- .
+Rule fun(15424,1149,5852) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14608,1149,39) :- .
+Rule fun(15487,1149,921) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14644,1043,14645) :- .
+Rule fun(613,1149,593) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14709,1149,1369) :- .
+Rule fun(15620,289,15621) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14750,1149,14751) :- .
+Rule fun(1776,1149,546) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14792,392,939) :- .
+Rule fun(2553,1149,926) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14840,997,6591) :- .
+Rule fun(15828,1149,822) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14878,162,33) :- .
+Rule fun(3346,1149,889) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(167,1149,730) :- .
+Rule fun(15958,315,15959) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14968,1149,2442) :- .
+Rule fun(16017,1149,39) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15018,1149,25) :- .
+Rule fun(5611,487,4648) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15066,462,6132) :- .
+Rule fun(1138,1149,3503) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(11925,833,7950) :- .
+Rule fun(6741,992,3870) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(699,1149,389) :- .
+Rule fun(511,1149,317) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15192,594,15193) :- .
+Rule fun(16309,673,14723) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15233,757,15234) :- .
+Rule fun(16378,451,16379) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15279,602,6960) :- .
+Rule fun(623,1149,1090) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15329,796,15330) :- .
+Rule fun(333,1149,1034) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15375,149,8475) :- .
+Rule fun(13228,1149,7716) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15432,1149,15433) :- .
+Rule fun(16836,1097,13471) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15471,434,15472) :- .
+Rule fun(3271,1149,2478) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(350,1149,1644) :- .
+Rule fun(16983,1149,1) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15539,451,4066) :- .
+Rule fun(837,1149,29) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15579,790,7002) :- .
+Rule fun(17199,947,10873) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15655,230,678) :- .
+Rule fun(17354,1149,328) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15732,634,3961) :- .
+Rule fun(230,1149,11475) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15765,421,3627) :- .
+Rule fun(58,1149,624) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15812,470,15813) :- .
+Rule fun(17556,609,17557) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(363,1149,126) :- .
+Rule fun(17627,410,17628) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12717,1029,4315) :- .
+Rule fun(153,1149,1002) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(10831,714,15941) :- .
+Rule fun(17769,1149,2101) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15978,1149,371) :- .
+Rule fun(17834,232,17835) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(16018,1149,1424) :- .
+Rule fun(17901,959,17902) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(16091,219,3709) :- .
+Rule fun(18023,904,8194) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(16135,392,16136) :- .
+Rule fun(7788,1149,18102) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(16178,1149,19) :- .
+Rule fun(18176,1149,347) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(16222,1149,104) :- .
+Rule fun(18199,643,7824) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(16355,181,16356) :- .
+Rule fun(18318,416,3500) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(16395,1149,19) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(16433,1149,169) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(16544,372,9522) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(16581,1081,7085) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(16615,184,16616) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(16684,1149,5163) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(16753,457,2493) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(16788,1149,23) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(16829,322,16830) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(16873,661,1582) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(16966,1113,16967) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(17009,289,17010) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(11290,289,1223) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(6294,1149,225) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(17119,1149,4758) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(17161,1149,6935) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(699,1149,546) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(17237,1072,17238) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3445,520,3445) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(17363,474,14396) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(14215,1149,17399) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(17536,979,11434) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(17584,352,858) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(17636,455,17637) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(17677,1149,1) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(17719,1072,14270) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(17809,1149,23) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(17869,1149,7294) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(11707,526,3420) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(7245,536,6011) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(16074,1038,263) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(18094,884,18095) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(18143,454,5657) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(18237,232,5375) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(18276,968,513) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(18302,1149,14770) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(18328,1149,17938) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(11028,1149,1257) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(18390,464,602) :- .
-   Updates: 1
-   Time: 1 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(837,1149,337) :- .
+Rule fun(18383,1149,11097) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -127205,295 +127196,323 @@ Rule fun(951,1149,1221) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(18487,833,18401) :- .
+Rule fun(18519,1149,39) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4607,289,8423) :- .
+Rule fun(18657,1149,152) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2348,1149,771) :- .
+Rule fun(58,1149,2478) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(18588,345,10265) :- .
+Rule fun(18760,1028,18761) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(18613,661,7912) :- .
+Rule fun(18828,232,18829) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(18661,1149,7151) :- .
+Rule fun(18898,1175,12238) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(460,1149,1162) :- .
+Rule fun(3038,1149,624) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(18735,1066,10781) :- .
+Rule fun(19037,579,782) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(18795,984,2657) :- .
+Rule fun(19115,941,4455) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2348,1149,1799) :- .
+Rule fun(3346,1149,2303) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(18895,1149,14430) :- .
+Rule fun(19274,89,8443) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(18981,1091,10212) :- .
+Rule fun(19338,1149,1) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(19031,1051,4152) :- .
+Rule fun(666,1149,1165) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(19081,1149,3966) :- .
+Rule fun(19454,463,7735) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(19131,292,19132) :- .
+Rule fun(19516,590,956) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(13500,472,19184) :- .
+Rule fun(19571,1198,4256) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(19241,908,17851) :- .
+Rule fun(1461,1149,1028) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(19299,715,2843) :- .
+Rule fun(19701,915,16410) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1116,1149,280) :- .
+Rule fun(3007,1149,1165) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(19405,1149,8101) :- .
+Rule fun(19932,1149,39) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2262,1149,2303) :- .
+Rule fun(20000,1149,39) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(19511,526,19512) :- .
+Rule fun(20063,1149,3256) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(19555,1149,7247) :- .
+Rule fun(20130,526,20131) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(2861,1149,700) :- .
+Rule fun(20260,1114,20261) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(19704,1149,347) :- .
+Rule fun(20320,392,20321) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(19755,1149,11818) :- .
+Rule fun(20386,988,3379) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(19853,947,8879) :- .
+Rule fun(2507,826,2501) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(19902,883,10216) :- .
+Rule fun(20493,318,13050) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(19962,1149,10823) :- .
+Rule fun(20552,1149,18267) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(20015,1149,23) :- .
+Rule fun(13796,1149,6577) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(20062,1149,2069) :- .
+Rule fun(20661,406,20662) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1051,1149,1033) :- .
+Rule fun(20712,1149,39) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(20342,330,2475) :- .
+Rule fun(20773,206,20774) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(20464,786,1784) :- .
+Rule fun(20816,1019,11999) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(20519,468,2347) :- .
+Rule fun(9873,1149,822) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(20575,1149,39) :- .
+Rule fun(2671,1149,1644) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(20623,992,6608) :- .
+Rule fun(20952,1149,2904) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(20700,799,917) :- .
+Rule fun(5670,1168,21004) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1833,1149,154) :- .
+Rule fun(21048,1003,21049) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(20790,1149,1257) :- .
+Rule fun(21104,1149,4182) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(20832,1149,23) :- .
+Rule fun(445,1149,1033) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(20881,884,12141) :- .
+Rule fun(803,1149,418) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(20981,913,20982) :- .
+Rule fun(21235,1149,7558) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(21094,1149,7658) :- .
+Rule fun(2819,89,4507) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(21149,1149,1) :- .
+Rule fun(21381,1149,6504) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(21256,117,9889) :- .
+Rule fun(21420,647,21421) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(21448,436,2759) :- .
+Rule fun(21458,490,11365) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(21498,1022,21499) :- .
+Rule fun(21522,979,21523) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(21548,1149,152) :- .
+Rule fun(21563,542,4511) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(21603,1136,21604) :- .
+Rule fun(1798,1149,242) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(7182,1149,12932) :- .
+Rule fun(21674,1149,328) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(21780,234,10619) :- .
+Rule fun(21708,1149,11974) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(21830,474,7363) :- .
+Rule fun(1502,1149,1743) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(973,1149,29) :- .
+Rule fun(21783,470,6616) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(21935,474,21936) :- .
+Rule fun(12114,1149,245) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22019,8,15127) :- .
+Rule fun(21846,74,21847) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22059,1149,9211) :- .
+Rule fun(125,1149,725) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22104,1149,5146) :- .
+Rule fun(8171,1149,19) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(1461,1149,3158) :- .
+Rule fun(21981,386,21982) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22196,1149,15221) :- .
+Rule fun(22018,1149,9287) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22226,1149,6990) :- .
+Rule fun(22050,1149,539) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22247,391,3633) :- .
+Rule fun(4037,1032,16174) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(3487,1149,19) :- .
+Rule fun(10,1149,118) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22320,1149,6501) :- .
+Rule fun(22207,834,22208) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22350,1019,7904) :- .
+Rule fun(22242,1149,3102) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22386,1149,23) :- .
+Rule fun(22273,326,22274) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(817,1149,126) :- .
+Rule fun(22310,292,829) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(5179,1149,3326) :- .
+Rule fun(22374,921,22375) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22474,474,21333) :- .
+Rule fun(22406,1074,1386) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(545,1149,700) :- .
+Rule fun(22435,661,22436) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(15433,1149,225) :- .
+Rule fun(22459,611,8098) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(8914,1123,12690) :- .
+Rule fun(22496,1149,10787) :- .
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22624,1139,4865) :- .
+Rule fun(22526,474,12290) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(1068,1149,337) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(7258,992,7648) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(22628,463,13) :- .
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule q21(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17198:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule q208(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18164:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule q353(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10316:Z2), Z_eq_Z(y:Z1,103:Z3).
+   Updates: 1
+   Time: 1 ms
+   Longest Iteration: 0 (0 ms)
+Rule q826(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5790:Z2), Z_eq_Z(y:Z1,38:Z3).
    Updates: 1
    Time: 1 ms
    Longest Iteration: 0 (0 ms)
@@ -127501,43 +127520,2899 @@ Rule fun(4281,474,4282) :- .
    Updates: 1
    Time: 2 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(14175,1149,962) :- .
-   Updates: 1
-   Time: 2 ms
-   Longest Iteration: 0 (0 ms)
-Rule q159(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13037:Z2), Z_eq_Z(y:Z1,1749:Z3).
-   Updates: 1
-   Time: 2 ms
-   Longest Iteration: 0 (0 ms)
-Rule q289(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15857:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 2 ms
-   Longest Iteration: 0 (0 ms)
-Rule q400(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,552:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 2 ms
-   Longest Iteration: 0 (0 ms)
-Rule q611(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4092:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 2 ms
-   Longest Iteration: 0 (0 ms)
-Rule q814(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18164:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 2 ms
-   Longest Iteration: 0 (0 ms)
-Rule q852(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11080:Z2), Z_eq_Z(y:Z1,18:Z3).
-   Updates: 1
-   Time: 2 ms
-   Longest Iteration: 0 (0 ms)
-Rule q930(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16405:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 2 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(14683,502,14684) :- .
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(3250,1149,1165) :- .
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(16300,58,16301) :- .
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(18192,1149,5163) :- .
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q1(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2209:Z2), Z_eq_Z(y:Z1,18:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q2(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6553:Z2), Z_eq_Z(y:Z1,2301:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q4(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1347:Z2), Z_eq_Z(y:Z1,808:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q5(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8282:Z2), Z_eq_Z(y:Z1,1407:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q7(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22280:Z2), Z_eq_Z(y:Z1,3191:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q8(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22539:Z2), Z_eq_Z(y:Z1,306:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q10(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18592:Z2), Z_eq_Z(y:Z1,8181:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q11(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17849:Z2), Z_eq_Z(y:Z1,346:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q13(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2981:Z2), Z_eq_Z(y:Z1,2541:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q14(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9048:Z2), Z_eq_Z(y:Z1,66:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q16(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19945:Z2), Z_eq_Z(y:Z1,11479:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q17(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19247:Z2), Z_eq_Z(y:Z1,151:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q19(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6776:Z2), Z_eq_Z(y:Z1,5566:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q22(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13964:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q24(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19077:Z2), Z_eq_Z(y:Z1,151:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q25(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20033:Z2), Z_eq_Z(y:Z1,15702:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q27(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5971:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q29(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6142:Z2), Z_eq_Z(y:Z1,18222:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q30(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15016:Z2), Z_eq_Z(y:Z1,260:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q32(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19722:Z2), Z_eq_Z(y:Z1,1642:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q34(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18506:Z2), Z_eq_Z(y:Z1,3582:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q35(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11865:Z2), Z_eq_Z(y:Z1,13052:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q38(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17324:Z2), Z_eq_Z(y:Z1,346:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q40(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9086:Z2), Z_eq_Z(y:Z1,2541:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q42(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15752:Z2), Z_eq_Z(y:Z1,2309:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q43(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7452:Z2), Z_eq_Z(y:Z1,3677:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q45(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9632:Z2), Z_eq_Z(y:Z1,3761:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q46(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,595:Z2), Z_eq_Z(y:Z1,6404:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q48(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1408:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q49(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18494:Z2), Z_eq_Z(y:Z1,2153:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q50(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3314:Z2), Z_eq_Z(y:Z1,2072:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q52(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,672:Z2), Z_eq_Z(y:Z1,10488:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q53(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18498:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q55(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10042:Z2), Z_eq_Z(y:Z1,19089:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q56(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18172:Z2), Z_eq_Z(y:Z1,2165:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q57(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3893:Z2), Z_eq_Z(y:Z1,6320:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q59(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9637:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q60(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9371:Z2), Z_eq_Z(y:Z1,1401:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q61(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13346:Z2), Z_eq_Z(y:Z1,1449:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q63(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17540:Z2), Z_eq_Z(y:Z1,2550:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q64(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16522:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q66(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16764:Z2), Z_eq_Z(y:Z1,19011:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q67(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4745:Z2), Z_eq_Z(y:Z1,127:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q69(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3567:Z2), Z_eq_Z(y:Z1,13401:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q70(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8811:Z2), Z_eq_Z(y:Z1,10340:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q71(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17041:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q73(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20657:Z2), Z_eq_Z(y:Z1,346:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q74(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4669:Z2), Z_eq_Z(y:Z1,10934:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q75(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17855:Z2), Z_eq_Z(y:Z1,2165:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q77(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5873:Z2), Z_eq_Z(y:Z1,1360:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q78(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16351:Z2), Z_eq_Z(y:Z1,3204:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q80(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9757:Z2), Z_eq_Z(y:Z1,21044:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q81(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14273:Z2), Z_eq_Z(y:Z1,2308:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q82(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3597:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q84(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16694:Z2), Z_eq_Z(y:Z1,15250:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q85(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18330:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q87(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12036:Z2), Z_eq_Z(y:Z1,2577:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q88(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17305:Z2), Z_eq_Z(y:Z1,19596:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q89(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7757:Z2), Z_eq_Z(y:Z1,3349:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q91(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13685:Z2), Z_eq_Z(y:Z1,1108:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q92(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5025:Z2), Z_eq_Z(y:Z1,5795:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q93(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13291:Z2), Z_eq_Z(y:Z1,12916:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q95(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16462:Z2), Z_eq_Z(y:Z1,151:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q96(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10314:Z2), Z_eq_Z(y:Z1,260:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q97(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1045:Z2), Z_eq_Z(y:Z1,10074:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q99(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14812:Z2), Z_eq_Z(y:Z1,76:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q100(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4449:Z2), Z_eq_Z(y:Z1,11821:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q102(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14651:Z2), Z_eq_Z(y:Z1,3990:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q103(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8120:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q105(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6325:Z2), Z_eq_Z(y:Z1,18:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q106(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10374:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q107(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14596:Z2), Z_eq_Z(y:Z1,7038:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q109(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17772:Z2), Z_eq_Z(y:Z1,4858:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q110(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21158:Z2), Z_eq_Z(y:Z1,20662:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q111(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12212:Z2), Z_eq_Z(y:Z1,373:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q113(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11391:Z2), Z_eq_Z(y:Z1,2858:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q114(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6290:Z2), Z_eq_Z(y:Z1,19667:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q115(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19971:Z2), Z_eq_Z(y:Z1,5088:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q117(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6363:Z2), Z_eq_Z(y:Z1,8196:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q118(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22050:Z2), Z_eq_Z(y:Z1,538:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q119(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4570:Z2), Z_eq_Z(y:Z1,14870:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q121(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7325:Z2), Z_eq_Z(y:Z1,22256:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q122(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18328:Z2), Z_eq_Z(y:Z1,20935:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q123(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1965:Z2), Z_eq_Z(y:Z1,17211:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q125(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2489:Z2), Z_eq_Z(y:Z1,52:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q126(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6855:Z2), Z_eq_Z(y:Z1,1339:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q128(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17506:Z2), Z_eq_Z(y:Z1,1542:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q129(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5764:Z2), Z_eq_Z(y:Z1,9978:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q130(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10521:Z2), Z_eq_Z(y:Z1,13902:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q132(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2316:Z2), Z_eq_Z(y:Z1,1557:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q133(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9942:Z2), Z_eq_Z(y:Z1,2570:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q135(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18450:Z2), Z_eq_Z(y:Z1,2742:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q136(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15946:Z2), Z_eq_Z(y:Z1,4520:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q137(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11735:Z2), Z_eq_Z(y:Z1,5795:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q139(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8266:Z2), Z_eq_Z(y:Z1,17242:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q140(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,191:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q141(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,126:Z2), Z_eq_Z(y:Z1,709:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q143(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6993:Z2), Z_eq_Z(y:Z1,9605:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q144(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14536:Z2), Z_eq_Z(y:Z1,11295:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q145(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,747:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q147(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2549:Z2), Z_eq_Z(y:Z1,22515:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q148(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,167:Z2), Z_eq_Z(y:Z1,9603:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q149(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,671:Z2), Z_eq_Z(y:Z1,1784:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q151(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11496:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q152(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4104:Z2), Z_eq_Z(y:Z1,15381:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q154(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1832:Z2), Z_eq_Z(y:Z1,11403:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q156(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13272:Z2), Z_eq_Z(y:Z1,19267:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q157(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6983:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q159(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17650:Z2), Z_eq_Z(y:Z1,2462:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q160(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11967:Z2), Z_eq_Z(y:Z1,2844:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q162(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18774:Z2), Z_eq_Z(y:Z1,224:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q163(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2928:Z2), Z_eq_Z(y:Z1,769:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q164(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2268:Z2), Z_eq_Z(y:Z1,1709:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q166(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18775:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q167(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7756:Z2), Z_eq_Z(y:Z1,11184:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q169(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7340:Z2), Z_eq_Z(y:Z1,3939:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q170(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20430:Z2), Z_eq_Z(y:Z1,21228:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q172(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9836:Z2), Z_eq_Z(y:Z1,14461:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q173(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10775:Z2), Z_eq_Z(y:Z1,6366:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q175(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,291:Z2), Z_eq_Z(y:Z1,12521:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q176(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12305:Z2), Z_eq_Z(y:Z1,1897:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q177(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20471:Z2), Z_eq_Z(y:Z1,4432:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q179(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3521:Z2), Z_eq_Z(y:Z1,215:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q180(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,894:Z2), Z_eq_Z(y:Z1,3296:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q182(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10741:Z2), Z_eq_Z(y:Z1,315:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q183(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22351:Z2), Z_eq_Z(y:Z1,327:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q184(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7476:Z2), Z_eq_Z(y:Z1,224:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q186(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1782:Z2), Z_eq_Z(y:Z1,4:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q187(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22623:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q188(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16548:Z2), Z_eq_Z(y:Z1,21603:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q190(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12133:Z2), Z_eq_Z(y:Z1,6520:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q191(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10838:Z2), Z_eq_Z(y:Z1,5795:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q193(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7608:Z2), Z_eq_Z(y:Z1,8642:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q194(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8425:Z2), Z_eq_Z(y:Z1,151:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q195(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14510:Z2), Z_eq_Z(y:Z1,15810:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q197(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10425:Z2), Z_eq_Z(y:Z1,19852:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q198(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17873:Z2), Z_eq_Z(y:Z1,5104:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q200(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10923:Z2), Z_eq_Z(y:Z1,2342:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q201(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18288:Z2), Z_eq_Z(y:Z1,306:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q202(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9735:Z2), Z_eq_Z(y:Z1,4977:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q204(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10310:Z2), Z_eq_Z(y:Z1,2008:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q205(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15301:Z2), Z_eq_Z(y:Z1,15820:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q206(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6162:Z2), Z_eq_Z(y:Z1,2541:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q209(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12917:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q210(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19750:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q211(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20403:Z2), Z_eq_Z(y:Z1,5795:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q213(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7784:Z2), Z_eq_Z(y:Z1,260:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q214(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19386:Z2), Z_eq_Z(y:Z1,1731:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q216(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15155:Z2), Z_eq_Z(y:Z1,509:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q217(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11852:Z2), Z_eq_Z(y:Z1,17917:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q218(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19722:Z2), Z_eq_Z(y:Z1,13833:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q220(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14342:Z2), Z_eq_Z(y:Z1,36:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q221(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20941:Z2), Z_eq_Z(y:Z1,1282:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q223(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20356:Z2), Z_eq_Z(y:Z1,14828:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q224(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20201:Z2), Z_eq_Z(y:Z1,1124:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q225(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18258:Z2), Z_eq_Z(y:Z1,62:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q227(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8715:Z2), Z_eq_Z(y:Z1,9326:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q228(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3554:Z2), Z_eq_Z(y:Z1,3246:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q230(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22258:Z2), Z_eq_Z(y:Z1,14441:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q231(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17118:Z2), Z_eq_Z(y:Z1,346:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q232(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1215:Z2), Z_eq_Z(y:Z1,17381:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q234(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8749:Z2), Z_eq_Z(y:Z1,17751:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q235(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19084:Z2), Z_eq_Z(y:Z1,6503:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q237(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5026:Z2), Z_eq_Z(y:Z1,224:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q238(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12679:Z2), Z_eq_Z(y:Z1,17045:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q239(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9771:Z2), Z_eq_Z(y:Z1,2951:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q241(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1146:Z2), Z_eq_Z(y:Z1,14376:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q242(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3469:Z2), Z_eq_Z(y:Z1,14302:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q244(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6685:Z2), Z_eq_Z(y:Z1,1558:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q245(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15749:Z2), Z_eq_Z(y:Z1,3234:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q246(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2791:Z2), Z_eq_Z(y:Z1,9796:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q248(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4623:Z2), Z_eq_Z(y:Z1,151:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q251(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20702:Z2), Z_eq_Z(y:Z1,7220:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q252(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9291:Z2), Z_eq_Z(y:Z1,16:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q253(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,727:Z2), Z_eq_Z(y:Z1,10305:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q255(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7552:Z2), Z_eq_Z(y:Z1,5130:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q256(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17810:Z2), Z_eq_Z(y:Z1,5729:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q257(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16320:Z2), Z_eq_Z(y:Z1,633:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q259(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16517:Z2), Z_eq_Z(y:Z1,10902:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q260(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15700:Z2), Z_eq_Z(y:Z1,7965:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q261(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18417:Z2), Z_eq_Z(y:Z1,1407:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q263(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8055:Z2), Z_eq_Z(y:Z1,3381:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q264(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11032:Z2), Z_eq_Z(y:Z1,18:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q265(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10039:Z2), Z_eq_Z(y:Z1,24:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q266(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4286:Z2), Z_eq_Z(y:Z1,18:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q267(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3257:Z2), Z_eq_Z(y:Z1,832:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q269(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9441:Z2), Z_eq_Z(y:Z1,1291:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q270(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7486:Z2), Z_eq_Z(y:Z1,151:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q272(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17245:Z2), Z_eq_Z(y:Z1,16:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q273(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22307:Z2), Z_eq_Z(y:Z1,13788:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q275(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16262:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q276(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7197:Z2), Z_eq_Z(y:Z1,7419:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q277(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1519:Z2), Z_eq_Z(y:Z1,224:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q279(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22520:Z2), Z_eq_Z(y:Z1,13189:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q280(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8245:Z2), Z_eq_Z(y:Z1,10457:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q281(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12277:Z2), Z_eq_Z(y:Z1,151:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q283(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21469:Z2), Z_eq_Z(y:Z1,11245:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q284(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8966:Z2), Z_eq_Z(y:Z1,2742:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q285(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14069:Z2), Z_eq_Z(y:Z1,12711:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q287(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6304:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q288(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1791:Z2), Z_eq_Z(y:Z1,4:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q290(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19336:Z2), Z_eq_Z(y:Z1,3080:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q291(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13337:Z2), Z_eq_Z(y:Z1,16986:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q292(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14917:Z2), Z_eq_Z(y:Z1,1333:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q294(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15773:Z2), Z_eq_Z(y:Z1,1505:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q295(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22461:Z2), Z_eq_Z(y:Z1,5643:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q296(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15869:Z2), Z_eq_Z(y:Z1,2799:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q298(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13319:Z2), Z_eq_Z(y:Z1,2443:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q299(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11171:Z2), Z_eq_Z(y:Z1,3048:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q300(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11055:Z2), Z_eq_Z(y:Z1,4659:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q302(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22590:Z2), Z_eq_Z(y:Z1,2798:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q303(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5102:Z2), Z_eq_Z(y:Z1,306:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q305(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,167:Z2), Z_eq_Z(y:Z1,18120:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q306(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,725:Z2), Z_eq_Z(y:Z1,709:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q307(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6577:Z2), Z_eq_Z(y:Z1,21907:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q309(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8619:Z2), Z_eq_Z(y:Z1,6022:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q310(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5550:Z2), Z_eq_Z(y:Z1,633:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q312(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18149:Z2), Z_eq_Z(y:Z1,1823:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q313(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6206:Z2), Z_eq_Z(y:Z1,920:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q315(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9684:Z2), Z_eq_Z(y:Z1,633:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q317(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17436:Z2), Z_eq_Z(y:Z1,2068:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q318(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6060:Z2), Z_eq_Z(y:Z1,18276:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q319(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17979:Z2), Z_eq_Z(y:Z1,19307:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q321(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21967:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q322(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11438:Z2), Z_eq_Z(y:Z1,11715:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q323(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3760:Z2), Z_eq_Z(y:Z1,12341:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q325(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12630:Z2), Z_eq_Z(y:Z1,2793:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q326(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13750:Z2), Z_eq_Z(y:Z1,3340:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q327(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14013:Z2), Z_eq_Z(y:Z1,3129:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q329(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4453:Z2), Z_eq_Z(y:Z1,1064:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q330(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8135:Z2), Z_eq_Z(y:Z1,13022:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q332(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9213:Z2), Z_eq_Z(y:Z1,16682:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q333(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4829:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q334(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9751:Z2), Z_eq_Z(y:Z1,6023:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q336(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19281:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q337(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2065:Z2), Z_eq_Z(y:Z1,15230:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q338(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13479:Z2), Z_eq_Z(y:Z1,18351:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q340(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10608:Z2), Z_eq_Z(y:Z1,6361:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q341(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21400:Z2), Z_eq_Z(y:Z1,15783:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q343(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17769:Z2), Z_eq_Z(y:Z1,2100:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q344(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2272:Z2), Z_eq_Z(y:Z1,260:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q345(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3042:Z2), Z_eq_Z(y:Z1,22411:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q347(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2519:Z2), Z_eq_Z(y:Z1,260:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q348(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22501:Z2), Z_eq_Z(y:Z1,17538:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q350(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16641:Z2), Z_eq_Z(y:Z1,1073:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q351(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3038:Z2), Z_eq_Z(y:Z1,2633:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q352(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10770:Z2), Z_eq_Z(y:Z1,543:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q355(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21373:Z2), Z_eq_Z(y:Z1,6403:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q356(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16773:Z2), Z_eq_Z(y:Z1,1551:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q358(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20074:Z2), Z_eq_Z(y:Z1,17347:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q359(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20891:Z2), Z_eq_Z(y:Z1,2027:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q360(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20343:Z2), Z_eq_Z(y:Z1,14319:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q361(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13993:Z2), Z_eq_Z(y:Z1,8417:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q362(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2782:Z2), Z_eq_Z(y:Z1,19674:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q363(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7846:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q364(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3431:Z2), Z_eq_Z(y:Z1,13901:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q366(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14291:Z2), Z_eq_Z(y:Z1,4583:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q367(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12885:Z2), Z_eq_Z(y:Z1,18:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q368(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7613:Z2), Z_eq_Z(y:Z1,538:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q370(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11277:Z2), Z_eq_Z(y:Z1,18026:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q371(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1827:Z2), Z_eq_Z(y:Z1,18639:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q372(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15507:Z2), Z_eq_Z(y:Z1,1108:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q373(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8297:Z2), Z_eq_Z(y:Z1,5361:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q374(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20062:Z2), Z_eq_Z(y:Z1,2068:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q376(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3402:Z2), Z_eq_Z(y:Z1,151:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q378(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4512:Z2), Z_eq_Z(y:Z1,24:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q379(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3488:Z2), Z_eq_Z(y:Z1,16791:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q381(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3292:Z2), Z_eq_Z(y:Z1,11282:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q382(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7509:Z2), Z_eq_Z(y:Z1,3186:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q383(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9076:Z2), Z_eq_Z(y:Z1,17262:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q385(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20049:Z2), Z_eq_Z(y:Z1,13042:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q386(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9932:Z2), Z_eq_Z(y:Z1,10350:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q388(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18128:Z2), Z_eq_Z(y:Z1,8006:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q389(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8279:Z2), Z_eq_Z(y:Z1,7246:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q390(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12236:Z2), Z_eq_Z(y:Z1,424:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q392(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8493:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q393(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2880:Z2), Z_eq_Z(y:Z1,1812:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q395(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17589:Z2), Z_eq_Z(y:Z1,14020:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q397(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16130:Z2), Z_eq_Z(y:Z1,1146:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q398(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22546:Z2), Z_eq_Z(y:Z1,22626:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q400(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2975:Z2), Z_eq_Z(y:Z1,7536:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q401(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8982:Z2), Z_eq_Z(y:Z1,5352:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q403(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7480:Z2), Z_eq_Z(y:Z1,2723:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q404(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20488:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q405(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17335:Z2), Z_eq_Z(y:Z1,8672:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q407(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3150:Z2), Z_eq_Z(y:Z1,127:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q408(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20444:Z2), Z_eq_Z(y:Z1,21493:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q409(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17917:Z2), Z_eq_Z(y:Z1,629:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q411(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6873:Z2), Z_eq_Z(y:Z1,2304:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q412(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11197:Z2), Z_eq_Z(y:Z1,20823:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q414(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10595:Z2), Z_eq_Z(y:Z1,12559:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q415(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,858:Z2), Z_eq_Z(y:Z1,9419:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q416(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15634:Z2), Z_eq_Z(y:Z1,2093:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q418(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22199:Z2), Z_eq_Z(y:Z1,8:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q419(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11051:Z2), Z_eq_Z(y:Z1,7888:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q420(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9870:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q422(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4800:Z2), Z_eq_Z(y:Z1,1055:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q423(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7785:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q424(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13105:Z2), Z_eq_Z(y:Z1,327:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q426(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21139:Z2), Z_eq_Z(y:Z1,8018:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q427(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1957:Z2), Z_eq_Z(y:Z1,260:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q429(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18189:Z2), Z_eq_Z(y:Z1,13036:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q431(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20452:Z2), Z_eq_Z(y:Z1,7296:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q432(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20800:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q434(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7923:Z2), Z_eq_Z(y:Z1,2543:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q436(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7582:Z2), Z_eq_Z(y:Z1,1423:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q437(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19433:Z2), Z_eq_Z(y:Z1,21075:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q439(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11807:Z2), Z_eq_Z(y:Z1,10384:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q442(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14592:Z2), Z_eq_Z(y:Z1,16:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q444(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10908:Z2), Z_eq_Z(y:Z1,346:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q445(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7626:Z2), Z_eq_Z(y:Z1,224:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q446(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22426:Z2), Z_eq_Z(y:Z1,1368:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q447(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16646:Z2), Z_eq_Z(y:Z1,151:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q449(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21905:Z2), Z_eq_Z(y:Z1,1368:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q450(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15280:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q452(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5328:Z2), Z_eq_Z(y:Z1,726:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q453(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7994:Z2), Z_eq_Z(y:Z1,6529:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q455(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,621:Z2), Z_eq_Z(y:Z1,11717:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q456(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1987:Z2), Z_eq_Z(y:Z1,3395:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q457(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17718:Z2), Z_eq_Z(y:Z1,5795:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q459(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19154:Z2), Z_eq_Z(y:Z1,6074:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q460(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4917:Z2), Z_eq_Z(y:Z1,1983:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q461(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1482:Z2), Z_eq_Z(y:Z1,4595:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q463(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18266:Z2), Z_eq_Z(y:Z1,10611:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q464(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12339:Z2), Z_eq_Z(y:Z1,10474:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q465(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2937:Z2), Z_eq_Z(y:Z1,17866:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q466(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19421:Z2), Z_eq_Z(y:Z1,5795:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q468(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7699:Z2), Z_eq_Z(y:Z1,1058:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q469(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21646:Z2), Z_eq_Z(y:Z1,13230:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q470(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20449:Z2), Z_eq_Z(y:Z1,1542:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q472(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10599:Z2), Z_eq_Z(y:Z1,18323:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q473(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11909:Z2), Z_eq_Z(y:Z1,834:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q474(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13649:Z2), Z_eq_Z(y:Z1,151:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q476(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4746:Z2), Z_eq_Z(y:Z1,689:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q477(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8788:Z2), Z_eq_Z(y:Z1,9966:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q478(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14709:Z2), Z_eq_Z(y:Z1,1368:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q480(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21956:Z2), Z_eq_Z(y:Z1,7226:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q481(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3765:Z2), Z_eq_Z(y:Z1,10818:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q483(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3614:Z2), Z_eq_Z(y:Z1,3212:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q485(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3229:Z2), Z_eq_Z(y:Z1,7647:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q486(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6687:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q488(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8171:Z2), Z_eq_Z(y:Z1,4766:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q490(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19030:Z2), Z_eq_Z(y:Z1,19877:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q491(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15993:Z2), Z_eq_Z(y:Z1,15699:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q493(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14456:Z2), Z_eq_Z(y:Z1,17:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q494(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4162:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q496(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,39:Z2), Z_eq_Z(y:Z1,4190:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q502(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1270:Z2), Z_eq_Z(y:Z1,260:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q503(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5657:Z2), Z_eq_Z(y:Z1,2088:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q505(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20353:Z2), Z_eq_Z(y:Z1,9069:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q506(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16834:Z2), Z_eq_Z(y:Z1,15596:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q507(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3163:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q509(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19046:Z2), Z_eq_Z(y:Z1,66:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q510(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22397:Z2), Z_eq_Z(y:Z1,5162:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q512(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9829:Z2), Z_eq_Z(y:Z1,1678:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q513(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17613:Z2), Z_eq_Z(y:Z1,3096:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q515(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15362:Z2), Z_eq_Z(y:Z1,6021:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q516(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11752:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q517(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6252:Z2), Z_eq_Z(y:Z1,11538:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q518(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3794:Z2), Z_eq_Z(y:Z1,3068:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q519(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5125:Z2), Z_eq_Z(y:Z1,19616:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q521(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16440:Z2), Z_eq_Z(y:Z1,3531:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q522(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17428:Z2), Z_eq_Z(y:Z1,1502:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q523(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12314:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q525(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7606:Z2), Z_eq_Z(y:Z1,1767:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q526(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11797:Z2), Z_eq_Z(y:Z1,5044:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q527(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20418:Z2), Z_eq_Z(y:Z1,1616:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q528(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22229:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q529(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14992:Z2), Z_eq_Z(y:Z1,5194:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q531(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11110:Z2), Z_eq_Z(y:Z1,3533:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q532(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7125:Z2), Z_eq_Z(y:Z1,3414:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q533(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8095:Z2), Z_eq_Z(y:Z1,260:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q535(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5794:Z2), Z_eq_Z(y:Z1,3079:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q536(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14910:Z2), Z_eq_Z(y:Z1,18807:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q538(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19394:Z2), Z_eq_Z(y:Z1,14459:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q539(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21612:Z2), Z_eq_Z(y:Z1,12886:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q541(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19302:Z2), Z_eq_Z(y:Z1,103:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q542(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2877:Z2), Z_eq_Z(y:Z1,260:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q543(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8272:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q545(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17682:Z2), Z_eq_Z(y:Z1,20646:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q546(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1050:Z2), Z_eq_Z(y:Z1,18:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q547(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18970:Z2), Z_eq_Z(y:Z1,2288:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q549(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11578:Z2), Z_eq_Z(y:Z1,22566:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q550(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3108:Z2), Z_eq_Z(y:Z1,18578:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q551(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7253:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q553(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12474:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q554(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1658:Z2), Z_eq_Z(y:Z1,14581:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q555(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15655:Z2), Z_eq_Z(y:Z1,17108:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q557(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10317:Z2), Z_eq_Z(y:Z1,20037:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q558(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10623:Z2), Z_eq_Z(y:Z1,3993:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q559(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18996:Z2), Z_eq_Z(y:Z1,5322:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q561(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7390:Z2), Z_eq_Z(y:Z1,16354:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q562(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6566:Z2), Z_eq_Z(y:Z1,6531:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q563(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8477:Z2), Z_eq_Z(y:Z1,17381:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q565(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2728:Z2), Z_eq_Z(y:Z1,466:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q566(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8626:Z2), Z_eq_Z(y:Z1,633:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q567(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8152:Z2), Z_eq_Z(y:Z1,306:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q569(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6607:Z2), Z_eq_Z(y:Z1,16471:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q570(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3707:Z2), Z_eq_Z(y:Z1,7576:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q571(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5293:Z2), Z_eq_Z(y:Z1,13159:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q572(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21146:Z2), Z_eq_Z(y:Z1,22489:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q573(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9756:Z2), Z_eq_Z(y:Z1,1209:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q574(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5071:Z2), Z_eq_Z(y:Z1,1444:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q575(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16435:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q577(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19623:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q578(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9437:Z2), Z_eq_Z(y:Z1,151:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q580(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4302:Z2), Z_eq_Z(y:Z1,2495:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q581(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18636:Z2), Z_eq_Z(y:Z1,2443:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q582(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1782:Z2), Z_eq_Z(y:Z1,4:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q584(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9764:Z2), Z_eq_Z(y:Z1,15754:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q585(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5790:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q586(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,344:Z2), Z_eq_Z(y:Z1,7469:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q588(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9784:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q589(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10665:Z2), Z_eq_Z(y:Z1,1389:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q590(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14724:Z2), Z_eq_Z(y:Z1,14315:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q591(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9794:Z2), Z_eq_Z(y:Z1,6441:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q592(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11293:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q593(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22466:Z2), Z_eq_Z(y:Z1,11201:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q595(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3976:Z2), Z_eq_Z(y:Z1,62:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q596(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8715:Z2), Z_eq_Z(y:Z1,17751:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q597(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14954:Z2), Z_eq_Z(y:Z1,1229:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q599(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8854:Z2), Z_eq_Z(y:Z1,8620:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q600(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2444:Z2), Z_eq_Z(y:Z1,22165:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q601(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15682:Z2), Z_eq_Z(y:Z1,17511:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q603(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18927:Z2), Z_eq_Z(y:Z1,119:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q604(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19776:Z2), Z_eq_Z(y:Z1,15622:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q605(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2586:Z2), Z_eq_Z(y:Z1,4455:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q607(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7717:Z2), Z_eq_Z(y:Z1,18:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q608(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9510:Z2), Z_eq_Z(y:Z1,489:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q609(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10937:Z2), Z_eq_Z(y:Z1,151:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q611(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20416:Z2), Z_eq_Z(y:Z1,3548:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q612(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8249:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q613(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5117:Z2), Z_eq_Z(y:Z1,2806:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q615(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13108:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q616(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7259:Z2), Z_eq_Z(y:Z1,5838:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q617(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15664:Z2), Z_eq_Z(y:Z1,12282:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q619(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7558:Z2), Z_eq_Z(y:Z1,4460:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q620(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9672:Z2), Z_eq_Z(y:Z1,22204:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q621(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13398:Z2), Z_eq_Z(y:Z1,614:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q623(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15089:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q624(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8691:Z2), Z_eq_Z(y:Z1,633:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q625(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6158:Z2), Z_eq_Z(y:Z1,18142:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q627(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9453:Z2), Z_eq_Z(y:Z1,4830:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q628(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13630:Z2), Z_eq_Z(y:Z1,17381:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q629(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17354:Z2), Z_eq_Z(y:Z1,327:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q631(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17781:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q632(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9650:Z2), Z_eq_Z(y:Z1,10013:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q633(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4462:Z2), Z_eq_Z(y:Z1,13732:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q635(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3072:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q636(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17513:Z2), Z_eq_Z(y:Z1,16099:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q637(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8488:Z2), Z_eq_Z(y:Z1,3403:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q639(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21136:Z2), Z_eq_Z(y:Z1,1368:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q640(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3871:Z2), Z_eq_Z(y:Z1,5227:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q641(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20662:Z2), Z_eq_Z(y:Z1,11557:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q643(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10367:Z2), Z_eq_Z(y:Z1,19035:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q644(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15741:Z2), Z_eq_Z(y:Z1,105:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q645(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14296:Z2), Z_eq_Z(y:Z1,3440:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q646(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15752:Z2), Z_eq_Z(y:Z1,2309:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q647(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1170:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q648(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12242:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q650(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16944:Z2), Z_eq_Z(y:Z1,3548:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q651(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2525:Z2), Z_eq_Z(y:Z1,1980:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q652(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14449:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q654(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21063:Z2), Z_eq_Z(y:Z1,1597:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q655(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10462:Z2), Z_eq_Z(y:Z1,9130:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q656(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20427:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q657(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8094:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q658(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,104:Z2), Z_eq_Z(y:Z1,12099:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q659(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12831:Z2), Z_eq_Z(y:Z1,9380:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q661(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2773:Z2), Z_eq_Z(y:Z1,9917:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q662(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4143:Z2), Z_eq_Z(y:Z1,20980:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q663(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10771:Z2), Z_eq_Z(y:Z1,12503:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q664(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12321:Z2), Z_eq_Z(y:Z1,5995:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q666(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18895:Z2), Z_eq_Z(y:Z1,14429:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q667(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20442:Z2), Z_eq_Z(y:Z1,3548:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q669(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15866:Z2), Z_eq_Z(y:Z1,8479:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q670(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20732:Z2), Z_eq_Z(y:Z1,16106:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q671(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13085:Z2), Z_eq_Z(y:Z1,11164:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q672(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18921:Z2), Z_eq_Z(y:Z1,15770:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q674(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7101:Z2), Z_eq_Z(y:Z1,4779:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q675(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21995:Z2), Z_eq_Z(y:Z1,869:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q676(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20849:Z2), Z_eq_Z(y:Z1,466:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q678(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9080:Z2), Z_eq_Z(y:Z1,21192:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q679(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11633:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q680(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15066:Z2), Z_eq_Z(y:Z1,10097:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q681(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21541:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q682(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4129:Z2), Z_eq_Z(y:Z1,5375:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q684(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3268:Z2), Z_eq_Z(y:Z1,2209:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q685(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21279:Z2), Z_eq_Z(y:Z1,3533:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q686(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5169:Z2), Z_eq_Z(y:Z1,9390:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q687(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22226:Z2), Z_eq_Z(y:Z1,6989:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q689(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10017:Z2), Z_eq_Z(y:Z1,8863:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q690(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21058:Z2), Z_eq_Z(y:Z1,1421:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q691(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9681:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q693(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20575:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q694(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9487:Z2), Z_eq_Z(y:Z1,9143:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q695(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6079:Z2), Z_eq_Z(y:Z1,4434:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q696(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1125:Z2), Z_eq_Z(y:Z1,1078:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q698(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5861:Z2), Z_eq_Z(y:Z1,1638:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q699(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5846:Z2), Z_eq_Z(y:Z1,7907:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q700(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6162:Z2), Z_eq_Z(y:Z1,6660:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q702(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16330:Z2), Z_eq_Z(y:Z1,1444:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q703(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6968:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q704(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21033:Z2), Z_eq_Z(y:Z1,6649:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q705(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21418:Z2), Z_eq_Z(y:Z1,11920:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q707(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7608:Z2), Z_eq_Z(y:Z1,11150:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q708(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13377:Z2), Z_eq_Z(y:Z1,4350:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q709(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19402:Z2), Z_eq_Z(y:Z1,103:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q710(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9168:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q711(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12323:Z2), Z_eq_Z(y:Z1,6279:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q713(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16831:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q714(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1068:Z2), Z_eq_Z(y:Z1,4:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q715(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8652:Z2), Z_eq_Z(y:Z1,8616:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q717(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13404:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q718(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15791:Z2), Z_eq_Z(y:Z1,17853:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q719(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4992:Z2), Z_eq_Z(y:Z1,4738:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q720(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15317:Z2), Z_eq_Z(y:Z1,17123:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q722(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11380:Z2), Z_eq_Z(y:Z1,599:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q723(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1460:Z2), Z_eq_Z(y:Z1,11217:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q724(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5701:Z2), Z_eq_Z(y:Z1,976:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q725(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11111:Z2), Z_eq_Z(y:Z1,4186:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q727(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20146:Z2), Z_eq_Z(y:Z1,13225:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q728(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21301:Z2), Z_eq_Z(y:Z1,6693:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q729(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22419:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q731(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9353:Z2), Z_eq_Z(y:Z1,15196:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q732(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13967:Z2), Z_eq_Z(y:Z1,18898:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q733(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1469:Z2), Z_eq_Z(y:Z1,1401:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q734(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20645:Z2), Z_eq_Z(y:Z1,6049:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q736(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1950:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q737(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7976:Z2), Z_eq_Z(y:Z1,7961:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q738(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17828:Z2), Z_eq_Z(y:Z1,590:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q739(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17539:Z2), Z_eq_Z(y:Z1,3567:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q741(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20652:Z2), Z_eq_Z(y:Z1,11327:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q742(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9892:Z2), Z_eq_Z(y:Z1,12245:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q744(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8815:Z2), Z_eq_Z(y:Z1,151:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q745(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5893:Z2), Z_eq_Z(y:Z1,21783:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q746(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20886:Z2), Z_eq_Z(y:Z1,16860:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q747(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15572:Z2), Z_eq_Z(y:Z1,13524:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q749(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1836:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q750(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,159:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q751(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2556:Z2), Z_eq_Z(y:Z1,5203:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q753(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9878:Z2), Z_eq_Z(y:Z1,323:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q754(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3479:Z2), Z_eq_Z(y:Z1,260:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q755(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,140:Z2), Z_eq_Z(y:Z1,14952:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q757(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19729:Z2), Z_eq_Z(y:Z1,10170:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q758(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16606:Z2), Z_eq_Z(y:Z1,36:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q759(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12904:Z2), Z_eq_Z(y:Z1,2948:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q760(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8277:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q762(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1901:Z2), Z_eq_Z(y:Z1,17316:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q763(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14130:Z2), Z_eq_Z(y:Z1,211:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q765(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12216:Z2), Z_eq_Z(y:Z1,20387:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q766(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1494:Z2), Z_eq_Z(y:Z1,10:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q767(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11771:Z2), Z_eq_Z(y:Z1,13387:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q769(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21030:Z2), Z_eq_Z(y:Z1,11002:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q770(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16968:Z2), Z_eq_Z(y:Z1,6613:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q771(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22264:Z2), Z_eq_Z(y:Z1,11818:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q773(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18739:Z2), Z_eq_Z(y:Z1,19095:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q774(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2635:Z2), Z_eq_Z(y:Z1,1058:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q775(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7906:Z2), Z_eq_Z(y:Z1,260:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q776(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7004:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q777(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15925:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q778(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3272:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q779(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3998:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q781(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2150:Z2), Z_eq_Z(y:Z1,633:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q782(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8708:Z2), Z_eq_Z(y:Z1,22358:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q784(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14468:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q785(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12841:Z2), Z_eq_Z(y:Z1,1178:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q786(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14498:Z2), Z_eq_Z(y:Z1,22033:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q788(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19335:Z2), Z_eq_Z(y:Z1,8220:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q789(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15924:Z2), Z_eq_Z(y:Z1,524:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q790(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11590:Z2), Z_eq_Z(y:Z1,1127:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q792(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15755:Z2), Z_eq_Z(y:Z1,346:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q793(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20862:Z2), Z_eq_Z(y:Z1,1401:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q794(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2042:Z2), Z_eq_Z(y:Z1,6602:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q796(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7358:Z2), Z_eq_Z(y:Z1,19843:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q797(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13427:Z2), Z_eq_Z(y:Z1,2213:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q798(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21709:Z2), Z_eq_Z(y:Z1,11329:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q799(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2397:Z2), Z_eq_Z(y:Z1,5795:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q800(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4507:Z2), Z_eq_Z(y:Z1,15893:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q801(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2261:Z2), Z_eq_Z(y:Z1,66:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q802(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22410:Z2), Z_eq_Z(y:Z1,6901:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q803(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3482:Z2), Z_eq_Z(y:Z1,159:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q805(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16761:Z2), Z_eq_Z(y:Z1,2586:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q806(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,823:Z2), Z_eq_Z(y:Z1,5795:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q808(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22119:Z2), Z_eq_Z(y:Z1,8597:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q809(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1402:Z2), Z_eq_Z(y:Z1,14203:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q811(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10663:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q812(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14165:Z2), Z_eq_Z(y:Z1,4491:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q813(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21631:Z2), Z_eq_Z(y:Z1,14836:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q814(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6163:Z2), Z_eq_Z(y:Z1,15320:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q815(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12280:Z2), Z_eq_Z(y:Z1,4774:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q817(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3876:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q818(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,242:Z2), Z_eq_Z(y:Z1,1033:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q819(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7895:Z2), Z_eq_Z(y:Z1,15744:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q821(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16493:Z2), Z_eq_Z(y:Z1,19900:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q822(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9048:Z2), Z_eq_Z(y:Z1,66:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q823(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11646:Z2), Z_eq_Z(y:Z1,14805:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q825(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11722:Z2), Z_eq_Z(y:Z1,11888:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q828(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7859:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q829(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8089:Z2), Z_eq_Z(y:Z1,21854:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q830(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5938:Z2), Z_eq_Z(y:Z1,3101:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q832(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15130:Z2), Z_eq_Z(y:Z1,531:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q833(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4935:Z2), Z_eq_Z(y:Z1,4437:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q834(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20552:Z2), Z_eq_Z(y:Z1,18266:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q836(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19861:Z2), Z_eq_Z(y:Z1,9914:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q837(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20575:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q838(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2675:Z2), Z_eq_Z(y:Z1,11209:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q839(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20955:Z2), Z_eq_Z(y:Z1,1929:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q841(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19454:Z2), Z_eq_Z(y:Z1,5619:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q842(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12535:Z2), Z_eq_Z(y:Z1,16557:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q843(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22315:Z2), Z_eq_Z(y:Z1,1929:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q845(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,730:Z2), Z_eq_Z(y:Z1,1033:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q846(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5367:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q847(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10059:Z2), Z_eq_Z(y:Z1,260:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q849(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1181:Z2), Z_eq_Z(y:Z1,66:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q850(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17437:Z2), Z_eq_Z(y:Z1,19784:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q851(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2317:Z2), Z_eq_Z(y:Z1,16132:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q853(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12677:Z2), Z_eq_Z(y:Z1,7674:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q854(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3311:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q855(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9509:Z2), Z_eq_Z(y:Z1,127:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q856(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14565:Z2), Z_eq_Z(y:Z1,3797:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q858(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21480:Z2), Z_eq_Z(y:Z1,391:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q859(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18703:Z2), Z_eq_Z(y:Z1,4169:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q860(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21770:Z2), Z_eq_Z(y:Z1,19872:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q861(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13599:Z2), Z_eq_Z(y:Z1,13507:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q863(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1815:Z2), Z_eq_Z(y:Z1,1526:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q864(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3856:Z2), Z_eq_Z(y:Z1,24:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q865(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15693:Z2), Z_eq_Z(y:Z1,4288:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q866(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14405:Z2), Z_eq_Z(y:Z1,15333:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q868(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4184:Z2), Z_eq_Z(y:Z1,21295:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q869(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20060:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q870(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21046:Z2), Z_eq_Z(y:Z1,8876:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q872(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18442:Z2), Z_eq_Z(y:Z1,5795:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q873(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3376:Z2), Z_eq_Z(y:Z1,633:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q874(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5936:Z2), Z_eq_Z(y:Z1,17249:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q875(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18549:Z2), Z_eq_Z(y:Z1,7219:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q877(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19495:Z2), Z_eq_Z(y:Z1,11736:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q878(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14734:Z2), Z_eq_Z(y:Z1,16:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q880(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8953:Z2), Z_eq_Z(y:Z1,4288:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q881(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11641:Z2), Z_eq_Z(y:Z1,2903:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q883(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,286:Z2), Z_eq_Z(y:Z1,15664:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q884(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12158:Z2), Z_eq_Z(y:Z1,18760:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q885(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,41:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q887(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20958:Z2), Z_eq_Z(y:Z1,8631:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q888(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2571:Z2), Z_eq_Z(y:Z1,18:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q889(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15990:Z2), Z_eq_Z(y:Z1,373:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q891(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16691:Z2), Z_eq_Z(y:Z1,7759:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q892(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6843:Z2), Z_eq_Z(y:Z1,260:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q893(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18731:Z2), Z_eq_Z(y:Z1,2066:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q895(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14736:Z2), Z_eq_Z(y:Z1,20759:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q896(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19187:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q898(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8306:Z2), Z_eq_Z(y:Z1,72:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q899(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14498:Z2), Z_eq_Z(y:Z1,12661:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q901(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12121:Z2), Z_eq_Z(y:Z1,1638:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q902(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16993:Z2), Z_eq_Z(y:Z1,21111:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q903(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3157:Z2), Z_eq_Z(y:Z1,920:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q905(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9301:Z2), Z_eq_Z(y:Z1,22219:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q906(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6090:Z2), Z_eq_Z(y:Z1,19859:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q907(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21210:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q909(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21237:Z2), Z_eq_Z(y:Z1,10923:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q910(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11449:Z2), Z_eq_Z(y:Z1,3719:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q911(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16690:Z2), Z_eq_Z(y:Z1,24:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q913(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9142:Z2), Z_eq_Z(y:Z1,11671:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q914(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8350:Z2), Z_eq_Z(y:Z1,24:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q915(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12842:Z2), Z_eq_Z(y:Z1,6361:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q917(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,243:Z2), Z_eq_Z(y:Z1,151:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q918(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9407:Z2), Z_eq_Z(y:Z1,21646:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q919(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,752:Z2), Z_eq_Z(y:Z1,10:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q921(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21896:Z2), Z_eq_Z(y:Z1,18058:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q922(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19439:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q924(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21914:Z2), Z_eq_Z(y:Z1,5795:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q925(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11140:Z2), Z_eq_Z(y:Z1,5965:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q926(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3718:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q927(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18817:Z2), Z_eq_Z(y:Z1,5795:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q929(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7511:Z2), Z_eq_Z(y:Z1,5032:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q930(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14256:Z2), Z_eq_Z(y:Z1,19673:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q931(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11257:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q932(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11348:Z2), Z_eq_Z(y:Z1,17381:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q934(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20094:Z2), Z_eq_Z(y:Z1,15888:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q936(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11616:Z2), Z_eq_Z(y:Z1,4491:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q937(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20774:Z2), Z_eq_Z(y:Z1,17762:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q939(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20781:Z2), Z_eq_Z(y:Z1,14435:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q940(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17405:Z2), Z_eq_Z(y:Z1,2443:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q942(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17402:Z2), Z_eq_Z(y:Z1,828:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q943(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21790:Z2), Z_eq_Z(y:Z1,24:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q945(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8003:Z2), Z_eq_Z(y:Z1,1256:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q946(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14665:Z2), Z_eq_Z(y:Z1,2867:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q947(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10091:Z2), Z_eq_Z(y:Z1,8750:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q949(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2534:Z2), Z_eq_Z(y:Z1,14095:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q950(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15966:Z2), Z_eq_Z(y:Z1,21205:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q952(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19211:Z2), Z_eq_Z(y:Z1,9426:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q953(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11798:Z2), Z_eq_Z(y:Z1,11653:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q955(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17908:Z2), Z_eq_Z(y:Z1,769:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q956(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20978:Z2), Z_eq_Z(y:Z1,4951:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q958(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22120:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q960(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,821:Z2), Z_eq_Z(y:Z1,14165:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q961(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12214:Z2), Z_eq_Z(y:Z1,18024:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q963(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20061:Z2), Z_eq_Z(y:Z1,10022:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q964(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12723:Z2), Z_eq_Z(y:Z1,9735:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q966(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18110:Z2), Z_eq_Z(y:Z1,127:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q967(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16424:Z2), Z_eq_Z(y:Z1,66:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q969(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15952:Z2), Z_eq_Z(y:Z1,18470:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q971(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3959:Z2), Z_eq_Z(y:Z1,1542:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q972(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4868:Z2), Z_eq_Z(y:Z1,14708:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q974(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13861:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q975(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3837:Z2), Z_eq_Z(y:Z1,22172:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q976(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10200:Z2), Z_eq_Z(y:Z1,9718:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q978(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12568:Z2), Z_eq_Z(y:Z1,18322:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q979(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7878:Z2), Z_eq_Z(y:Z1,17658:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q981(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18792:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q982(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3474:Z2), Z_eq_Z(y:Z1,19670:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q984(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20110:Z2), Z_eq_Z(y:Z1,12766:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q985(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19835:Z2), Z_eq_Z(y:Z1,6757:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q986(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15963:Z2), Z_eq_Z(y:Z1,14607:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q988(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20626:Z2), Z_eq_Z(y:Z1,6361:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q989(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13424:Z2), Z_eq_Z(y:Z1,2456:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q991(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18669:Z2), Z_eq_Z(y:Z1,9622:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q993(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3405:Z2), Z_eq_Z(y:Z1,93:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q994(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5655:Z2), Z_eq_Z(y:Z1,11979:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule q996(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2831:Z2), Z_eq_Z(y:Z1,5972:Z3).
+   Updates: 1
+   Time: 2 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(14175,1149,962) :- .
    Updates: 1
    Time: 3 ms
    Longest Iteration: 0 (0 ms)
@@ -127549,1723 +130424,1091 @@ Rule fun(2436,1149,8789) :- .
    Updates: 1
    Time: 3 ms
    Longest Iteration: 0 (0 ms)
-Rule q0(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20456:Z2), Z_eq_Z(y:Z1,17025:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q1(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7703:Z2), Z_eq_Z(y:Z1,2066:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q2(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4115:Z2), Z_eq_Z(y:Z1,22427:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q3(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11:Z2), Z_eq_Z(y:Z1,3958:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q5(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19513:Z2), Z_eq_Z(y:Z1,12108:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q6(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17202:Z2), Z_eq_Z(y:Z1,14282:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q8(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3251:Z2), Z_eq_Z(y:Z1,1638:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q11(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9310:Z2), Z_eq_Z(y:Z1,278:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q13(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2968:Z2), Z_eq_Z(y:Z1,11744:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q14(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1522:Z2), Z_eq_Z(y:Z1,8718:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q15(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13724:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q18(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11908:Z2), Z_eq_Z(y:Z1,18:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q19(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19256:Z2), Z_eq_Z(y:Z1,6796:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q21(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3728:Z2), Z_eq_Z(y:Z1,15816:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q22(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18188:Z2), Z_eq_Z(y:Z1,15322:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q24(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16114:Z2), Z_eq_Z(y:Z1,306:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q25(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16387:Z2), Z_eq_Z(y:Z1,16:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q27(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3491:Z2), Z_eq_Z(y:Z1,5795:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q28(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17329:Z2), Z_eq_Z(y:Z1,13245:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q30(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8668:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q31(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17862:Z2), Z_eq_Z(y:Z1,115:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q33(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3883:Z2), Z_eq_Z(y:Z1,12891:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q34(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9480:Z2), Z_eq_Z(y:Z1,21359:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q36(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4717:Z2), Z_eq_Z(y:Z1,260:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q38(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6293:Z2), Z_eq_Z(y:Z1,18017:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q42(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6323:Z2), Z_eq_Z(y:Z1,6480:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q44(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3577:Z2), Z_eq_Z(y:Z1,6548:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q45(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17483:Z2), Z_eq_Z(y:Z1,2958:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q47(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5943:Z2), Z_eq_Z(y:Z1,1929:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q48(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11852:Z2), Z_eq_Z(y:Z1,17564:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q49(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8232:Z2), Z_eq_Z(y:Z1,4955:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q51(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20532:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q52(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5481:Z2), Z_eq_Z(y:Z1,10066:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q55(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21766:Z2), Z_eq_Z(y:Z1,509:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q67(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5217:Z2), Z_eq_Z(y:Z1,13049:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q68(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4234:Z2), Z_eq_Z(y:Z1,5886:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q69(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21397:Z2), Z_eq_Z(y:Z1,13682:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q71(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18122:Z2), Z_eq_Z(y:Z1,6551:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q72(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10158:Z2), Z_eq_Z(y:Z1,7803:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q74(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3138:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q75(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16519:Z2), Z_eq_Z(y:Z1,66:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q77(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10813:Z2), Z_eq_Z(y:Z1,5795:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q78(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,227:Z2), Z_eq_Z(y:Z1,14804:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q80(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9560:Z2), Z_eq_Z(y:Z1,11711:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q81(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18896:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q83(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4098:Z2), Z_eq_Z(y:Z1,769:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q84(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17883:Z2), Z_eq_Z(y:Z1,20547:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q87(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9251:Z2), Z_eq_Z(y:Z1,674:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q89(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15997:Z2), Z_eq_Z(y:Z1,10947:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q90(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8161:Z2), Z_eq_Z(y:Z1,8731:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q93(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8611:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q94(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2050:Z2), Z_eq_Z(y:Z1,16893:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q96(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18322:Z2), Z_eq_Z(y:Z1,16:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q97(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15701:Z2), Z_eq_Z(y:Z1,10244:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q99(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19170:Z2), Z_eq_Z(y:Z1,2366:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q100(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11798:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q112(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19045:Z2), Z_eq_Z(y:Z1,6058:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q146(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,845:Z2), Z_eq_Z(y:Z1,14921:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q148(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21009:Z2), Z_eq_Z(y:Z1,2602:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q149(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9598:Z2), Z_eq_Z(y:Z1,2851:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q151(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4348:Z2), Z_eq_Z(y:Z1,832:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q152(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8237:Z2), Z_eq_Z(y:Z1,13532:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q154(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9769:Z2), Z_eq_Z(y:Z1,7018:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q155(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20232:Z2), Z_eq_Z(y:Z1,932:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q157(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22105:Z2), Z_eq_Z(y:Z1,3106:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q158(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10166:Z2), Z_eq_Z(y:Z1,11648:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q160(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18052:Z2), Z_eq_Z(y:Z1,1988:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q162(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2201:Z2), Z_eq_Z(y:Z1,16995:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q163(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10586:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q165(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15251:Z2), Z_eq_Z(y:Z1,16:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q166(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22095:Z2), Z_eq_Z(y:Z1,18193:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q168(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10657:Z2), Z_eq_Z(y:Z1,11740:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q169(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10328:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q171(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11966:Z2), Z_eq_Z(y:Z1,4672:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q174(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13219:Z2), Z_eq_Z(y:Z1,12318:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q175(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2126:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q176(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9481:Z2), Z_eq_Z(y:Z1,1146:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q177(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9817:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q179(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18545:Z2), Z_eq_Z(y:Z1,11991:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q180(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17689:Z2), Z_eq_Z(y:Z1,8616:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q182(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21906:Z2), Z_eq_Z(y:Z1,151:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q183(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21411:Z2), Z_eq_Z(y:Z1,1597:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q185(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9299:Z2), Z_eq_Z(y:Z1,9342:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q186(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15401:Z2), Z_eq_Z(y:Z1,16:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q188(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19880:Z2), Z_eq_Z(y:Z1,103:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q189(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14990:Z2), Z_eq_Z(y:Z1,151:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q191(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13445:Z2), Z_eq_Z(y:Z1,8740:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q192(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13256:Z2), Z_eq_Z(y:Z1,3941:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q194(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20426:Z2), Z_eq_Z(y:Z1,9072:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q196(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21741:Z2), Z_eq_Z(y:Z1,15145:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q197(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10535:Z2), Z_eq_Z(y:Z1,1423:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q204(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14038:Z2), Z_eq_Z(y:Z1,19963:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q205(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11735:Z2), Z_eq_Z(y:Z1,18756:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q226(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10519:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q227(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12830:Z2), Z_eq_Z(y:Z1,20972:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q230(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19288:Z2), Z_eq_Z(y:Z1,14625:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q232(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5260:Z2), Z_eq_Z(y:Z1,3025:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q234(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,613:Z2), Z_eq_Z(y:Z1,10:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q243(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3308:Z2), Z_eq_Z(y:Z1,260:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q251(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15513:Z2), Z_eq_Z(y:Z1,151:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q255(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8138:Z2), Z_eq_Z(y:Z1,2220:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q256(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10716:Z2), Z_eq_Z(y:Z1,76:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q258(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12233:Z2), Z_eq_Z(y:Z1,18100:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q259(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11513:Z2), Z_eq_Z(y:Z1,3964:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q263(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12216:Z2), Z_eq_Z(y:Z1,21361:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q269(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2329:Z2), Z_eq_Z(y:Z1,6879:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q270(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14802:Z2), Z_eq_Z(y:Z1,13622:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q272(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22478:Z2), Z_eq_Z(y:Z1,66:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q273(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2664:Z2), Z_eq_Z(y:Z1,15078:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q274(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17817:Z2), Z_eq_Z(y:Z1,3819:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q275(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12226:Z2), Z_eq_Z(y:Z1,5932:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q277(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11823:Z2), Z_eq_Z(y:Z1,10392:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q283(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5848:Z2), Z_eq_Z(y:Z1,16991:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q287(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20908:Z2), Z_eq_Z(y:Z1,1480:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q291(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4601:Z2), Z_eq_Z(y:Z1,260:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q371(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10702:Z2), Z_eq_Z(y:Z1,11678:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q372(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18563:Z2), Z_eq_Z(y:Z1,15816:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q374(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10213:Z2), Z_eq_Z(y:Z1,5795:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q375(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3995:Z2), Z_eq_Z(y:Z1,6454:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q377(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18568:Z2), Z_eq_Z(y:Z1,151:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q378(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8722:Z2), Z_eq_Z(y:Z1,15396:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q380(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9902:Z2), Z_eq_Z(y:Z1,20479:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q381(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18803:Z2), Z_eq_Z(y:Z1,2322:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q383(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2405:Z2), Z_eq_Z(y:Z1,5992:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q384(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7602:Z2), Z_eq_Z(y:Z1,19093:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q386(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2393:Z2), Z_eq_Z(y:Z1,5795:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q387(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6057:Z2), Z_eq_Z(y:Z1,1193:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q389(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14941:Z2), Z_eq_Z(y:Z1,12649:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q391(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2015:Z2), Z_eq_Z(y:Z1,5399:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q395(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2688:Z2), Z_eq_Z(y:Z1,17481:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q397(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19414:Z2), Z_eq_Z(y:Z1,138:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q398(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19564:Z2), Z_eq_Z(y:Z1,6174:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q401(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12597:Z2), Z_eq_Z(y:Z1,16343:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q402(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7401:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q404(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4436:Z2), Z_eq_Z(y:Z1,17188:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q405(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8903:Z2), Z_eq_Z(y:Z1,391:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q407(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14240:Z2), Z_eq_Z(y:Z1,76:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q408(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22059:Z2), Z_eq_Z(y:Z1,3216:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q410(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13074:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q411(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19156:Z2), Z_eq_Z(y:Z1,1368:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q413(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17588:Z2), Z_eq_Z(y:Z1,18:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q414(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1378:Z2), Z_eq_Z(y:Z1,21772:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q416(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9901:Z2), Z_eq_Z(y:Z1,1985:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q417(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20174:Z2), Z_eq_Z(y:Z1,163:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q419(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5721:Z2), Z_eq_Z(y:Z1,19651:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q422(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6051:Z2), Z_eq_Z(y:Z1,15638:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q426(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1952:Z2), Z_eq_Z(y:Z1,16738:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q428(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13459:Z2), Z_eq_Z(y:Z1,8830:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q429(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14098:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q431(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18914:Z2), Z_eq_Z(y:Z1,2839:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q436(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18765:Z2), Z_eq_Z(y:Z1,7295:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q438(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2552:Z2), Z_eq_Z(y:Z1,1929:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q440(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7522:Z2), Z_eq_Z(y:Z1,9997:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q449(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12728:Z2), Z_eq_Z(y:Z1,19118:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q450(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5641:Z2), Z_eq_Z(y:Z1,12958:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q452(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2822:Z2), Z_eq_Z(y:Z1,4981:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q453(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17905:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q454(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14034:Z2), Z_eq_Z(y:Z1,627:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q456(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5064:Z2), Z_eq_Z(y:Z1,17945:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q457(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4040:Z2), Z_eq_Z(y:Z1,16068:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q458(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16578:Z2), Z_eq_Z(y:Z1,8603:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q460(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10189:Z2), Z_eq_Z(y:Z1,7032:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q461(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16923:Z2), Z_eq_Z(y:Z1,14736:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q462(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3796:Z2), Z_eq_Z(y:Z1,3001:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q464(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2186:Z2), Z_eq_Z(y:Z1,14102:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q465(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15020:Z2), Z_eq_Z(y:Z1,15591:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q466(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11900:Z2), Z_eq_Z(y:Z1,1164:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q468(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18967:Z2), Z_eq_Z(y:Z1,16279:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q469(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13259:Z2), Z_eq_Z(y:Z1,1368:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q470(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21838:Z2), Z_eq_Z(y:Z1,1339:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q472(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16690:Z2), Z_eq_Z(y:Z1,24:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q473(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15604:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q474(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21566:Z2), Z_eq_Z(y:Z1,11907:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q476(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18150:Z2), Z_eq_Z(y:Z1,127:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q477(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7009:Z2), Z_eq_Z(y:Z1,10515:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q479(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4196:Z2), Z_eq_Z(y:Z1,7755:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q480(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10242:Z2), Z_eq_Z(y:Z1,3289:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q482(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12796:Z2), Z_eq_Z(y:Z1,2100:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q483(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9155:Z2), Z_eq_Z(y:Z1,11276:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q484(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9986:Z2), Z_eq_Z(y:Z1,10437:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q486(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3846:Z2), Z_eq_Z(y:Z1,20221:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q487(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12917:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q492(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6651:Z2), Z_eq_Z(y:Z1,14122:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q494(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21100:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q495(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19457:Z2), Z_eq_Z(y:Z1,1568:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q497(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3510:Z2), Z_eq_Z(y:Z1,13026:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q498(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3511:Z2), Z_eq_Z(y:Z1,4993:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q499(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2796:Z2), Z_eq_Z(y:Z1,13249:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q501(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12199:Z2), Z_eq_Z(y:Z1,20609:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q502(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4181:Z2), Z_eq_Z(y:Z1,20730:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q503(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15170:Z2), Z_eq_Z(y:Z1,12127:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q505(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15868:Z2), Z_eq_Z(y:Z1,318:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q506(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18767:Z2), Z_eq_Z(y:Z1,4756:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q508(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11351:Z2), Z_eq_Z(y:Z1,12078:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q509(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18792:Z2), Z_eq_Z(y:Z1,6077:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q510(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12065:Z2), Z_eq_Z(y:Z1,5400:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q512(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3240:Z2), Z_eq_Z(y:Z1,8424:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q513(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10535:Z2), Z_eq_Z(y:Z1,1423:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q514(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9918:Z2), Z_eq_Z(y:Z1,14088:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q516(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15828:Z2), Z_eq_Z(y:Z1,821:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q517(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18593:Z2), Z_eq_Z(y:Z1,14143:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q518(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14926:Z2), Z_eq_Z(y:Z1,151:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q519(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10575:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q520(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,53:Z2), Z_eq_Z(y:Z1,14486:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q521(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12907:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q523(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15424:Z2), Z_eq_Z(y:Z1,5039:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q525(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22244:Z2), Z_eq_Z(y:Z1,21859:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q526(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5107:Z2), Z_eq_Z(y:Z1,3340:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q527(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3762:Z2), Z_eq_Z(y:Z1,6206:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q529(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13337:Z2), Z_eq_Z(y:Z1,151:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q530(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12017:Z2), Z_eq_Z(y:Z1,5795:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q533(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22107:Z2), Z_eq_Z(y:Z1,2522:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q534(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17594:Z2), Z_eq_Z(y:Z1,1612:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q535(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13032:Z2), Z_eq_Z(y:Z1,769:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q537(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17747:Z2), Z_eq_Z(y:Z1,17814:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q538(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22540:Z2), Z_eq_Z(y:Z1,6170:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q539(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6176:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q541(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20079:Z2), Z_eq_Z(y:Z1,7548:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q542(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8242:Z2), Z_eq_Z(y:Z1,13823:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q543(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4341:Z2), Z_eq_Z(y:Z1,2541:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q545(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8624:Z2), Z_eq_Z(y:Z1,10258:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q546(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8640:Z2), Z_eq_Z(y:Z1,5016:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q548(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16536:Z2), Z_eq_Z(y:Z1,19777:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q549(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4034:Z2), Z_eq_Z(y:Z1,3765:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q550(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21675:Z2), Z_eq_Z(y:Z1,1339:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q552(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12645:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q553(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14496:Z2), Z_eq_Z(y:Z1,16595:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q554(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4055:Z2), Z_eq_Z(y:Z1,103:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q556(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8908:Z2), Z_eq_Z(y:Z1,16:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q557(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12719:Z2), Z_eq_Z(y:Z1,18126:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q558(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7167:Z2), Z_eq_Z(y:Z1,821:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q560(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17769:Z2), Z_eq_Z(y:Z1,2100:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q561(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7787:Z2), Z_eq_Z(y:Z1,123:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q563(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2322:Z2), Z_eq_Z(y:Z1,4429:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q564(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8259:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q566(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11879:Z2), Z_eq_Z(y:Z1,769:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q569(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16786:Z2), Z_eq_Z(y:Z1,17059:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q570(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11086:Z2), Z_eq_Z(y:Z1,15219:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q571(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12674:Z2), Z_eq_Z(y:Z1,3344:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q576(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16331:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q577(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11327:Z2), Z_eq_Z(y:Z1,6170:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q579(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7102:Z2), Z_eq_Z(y:Z1,1929:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q583(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13321:Z2), Z_eq_Z(y:Z1,500:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q585(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12531:Z2), Z_eq_Z(y:Z1,11151:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q586(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3540:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q588(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6576:Z2), Z_eq_Z(y:Z1,11394:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q589(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,801:Z2), Z_eq_Z(y:Z1,10:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q591(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13002:Z2), Z_eq_Z(y:Z1,6804:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q593(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,445:Z2), Z_eq_Z(y:Z1,4:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q594(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13319:Z2), Z_eq_Z(y:Z1,2443:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q596(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15957:Z2), Z_eq_Z(y:Z1,16:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q598(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5268:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q599(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13636:Z2), Z_eq_Z(y:Z1,7294:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q603(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15747:Z2), Z_eq_Z(y:Z1,9394:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q605(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14134:Z2), Z_eq_Z(y:Z1,6107:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q607(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7288:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q608(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7971:Z2), Z_eq_Z(y:Z1,17086:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q610(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12796:Z2), Z_eq_Z(y:Z1,2100:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q613(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10534:Z2), Z_eq_Z(y:Z1,509:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q614(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12754:Z2), Z_eq_Z(y:Z1,3765:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q616(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1818:Z2), Z_eq_Z(y:Z1,18:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q618(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13149:Z2), Z_eq_Z(y:Z1,4051:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q620(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22024:Z2), Z_eq_Z(y:Z1,16765:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q622(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5661:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q624(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15673:Z2), Z_eq_Z(y:Z1,1193:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q626(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10574:Z2), Z_eq_Z(y:Z1,4942:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q628(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4437:Z2), Z_eq_Z(y:Z1,524:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q631(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21907:Z2), Z_eq_Z(y:Z1,979:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q634(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14661:Z2), Z_eq_Z(y:Z1,920:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q636(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14630:Z2), Z_eq_Z(y:Z1,2951:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q638(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16935:Z2), Z_eq_Z(y:Z1,5795:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q640(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19571:Z2), Z_eq_Z(y:Z1,7237:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q642(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9819:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q644(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17006:Z2), Z_eq_Z(y:Z1,18:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q646(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19322:Z2), Z_eq_Z(y:Z1,6170:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q648(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6195:Z2), Z_eq_Z(y:Z1,13353:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q650(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18427:Z2), Z_eq_Z(y:Z1,558:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q652(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15951:Z2), Z_eq_Z(y:Z1,6568:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q654(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2020:Z2), Z_eq_Z(y:Z1,18180:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q656(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15339:Z2), Z_eq_Z(y:Z1,17381:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q661(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,783:Z2), Z_eq_Z(y:Z1,346:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q665(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3387:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q667(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9946:Z2), Z_eq_Z(y:Z1,21865:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q672(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10608:Z2), Z_eq_Z(y:Z1,6361:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q673(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7013:Z2), Z_eq_Z(y:Z1,5178:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q677(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11184:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q679(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7766:Z2), Z_eq_Z(y:Z1,17975:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q680(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15175:Z2), Z_eq_Z(y:Z1,11897:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q682(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14816:Z2), Z_eq_Z(y:Z1,19248:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q684(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19147:Z2), Z_eq_Z(y:Z1,151:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q686(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8962:Z2), Z_eq_Z(y:Z1,1356:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q689(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22426:Z2), Z_eq_Z(y:Z1,1368:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q691(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13830:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q693(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6819:Z2), Z_eq_Z(y:Z1,3244:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q696(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10767:Z2), Z_eq_Z(y:Z1,9045:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q701(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14006:Z2), Z_eq_Z(y:Z1,18508:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q705(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6769:Z2), Z_eq_Z(y:Z1,1291:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q707(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6702:Z2), Z_eq_Z(y:Z1,1231:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q709(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21699:Z2), Z_eq_Z(y:Z1,3006:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q715(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5643:Z2), Z_eq_Z(y:Z1,1978:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q717(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1719:Z2), Z_eq_Z(y:Z1,6272:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q719(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3342:Z2), Z_eq_Z(y:Z1,18221:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q721(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14215:Z2), Z_eq_Z(y:Z1,1904:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q723(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13337:Z2), Z_eq_Z(y:Z1,5923:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q725(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9014:Z2), Z_eq_Z(y:Z1,13444:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q727(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16819:Z2), Z_eq_Z(y:Z1,9379:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q729(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5659:Z2), Z_eq_Z(y:Z1,1749:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q731(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6353:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q732(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16605:Z2), Z_eq_Z(y:Z1,16:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q734(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19708:Z2), Z_eq_Z(y:Z1,16857:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q736(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2717:Z2), Z_eq_Z(y:Z1,20667:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q737(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1356:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q745(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14677:Z2), Z_eq_Z(y:Z1,8066:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q747(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2318:Z2), Z_eq_Z(y:Z1,384:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q748(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19125:Z2), Z_eq_Z(y:Z1,648:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q754(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6487:Z2), Z_eq_Z(y:Z1,16331:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q755(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20285:Z2), Z_eq_Z(y:Z1,330:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q757(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17264:Z2), Z_eq_Z(y:Z1,4593:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q759(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19189:Z2), Z_eq_Z(y:Z1,17545:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q760(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6704:Z2), Z_eq_Z(y:Z1,4840:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q762(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18403:Z2), Z_eq_Z(y:Z1,13819:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q766(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,158:Z2), Z_eq_Z(y:Z1,224:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q767(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4573:Z2), Z_eq_Z(y:Z1,18709:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q769(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6357:Z2), Z_eq_Z(y:Z1,5124:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q771(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10531:Z2), Z_eq_Z(y:Z1,16:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q772(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17394:Z2), Z_eq_Z(y:Z1,103:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q774(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13171:Z2), Z_eq_Z(y:Z1,769:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q777(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18285:Z2), Z_eq_Z(y:Z1,5795:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q779(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3770:Z2), Z_eq_Z(y:Z1,8457:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q782(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15337:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q788(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,820:Z2), Z_eq_Z(y:Z1,12772:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q790(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8421:Z2), Z_eq_Z(y:Z1,633:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q792(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15400:Z2), Z_eq_Z(y:Z1,4277:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q793(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1024:Z2), Z_eq_Z(y:Z1,22151:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q795(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6298:Z2), Z_eq_Z(y:Z1,1567:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q797(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8984:Z2), Z_eq_Z(y:Z1,5552:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q798(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8051:Z2), Z_eq_Z(y:Z1,20524:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q800(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14267:Z2), Z_eq_Z(y:Z1,3104:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q805(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2704:Z2), Z_eq_Z(y:Z1,286:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q806(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9864:Z2), Z_eq_Z(y:Z1,419:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q808(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15905:Z2), Z_eq_Z(y:Z1,22033:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q810(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8561:Z2), Z_eq_Z(y:Z1,7120:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q812(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19494:Z2), Z_eq_Z(y:Z1,1037:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q813(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9134:Z2), Z_eq_Z(y:Z1,18793:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q815(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19589:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q817(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11125:Z2), Z_eq_Z(y:Z1,5795:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q819(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2206:Z2), Z_eq_Z(y:Z1,224:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q821(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14146:Z2), Z_eq_Z(y:Z1,22077:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q822(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10196:Z2), Z_eq_Z(y:Z1,2366:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q824(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11133:Z2), Z_eq_Z(y:Z1,15812:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q825(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15072:Z2), Z_eq_Z(y:Z1,1526:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q827(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18289:Z2), Z_eq_Z(y:Z1,66:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q828(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21323:Z2), Z_eq_Z(y:Z1,8460:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q830(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13211:Z2), Z_eq_Z(y:Z1,20505:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q831(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7031:Z2), Z_eq_Z(y:Z1,8052:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q833(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7751:Z2), Z_eq_Z(y:Z1,1429:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q836(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16882:Z2), Z_eq_Z(y:Z1,66:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q838(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6836:Z2), Z_eq_Z(y:Z1,15078:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q840(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20050:Z2), Z_eq_Z(y:Z1,7961:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q844(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18679:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q846(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15351:Z2), Z_eq_Z(y:Z1,18815:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q849(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2980:Z2), Z_eq_Z(y:Z1,6479:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q850(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10596:Z2), Z_eq_Z(y:Z1,7280:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q853(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19079:Z2), Z_eq_Z(y:Z1,6361:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q855(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11042:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q856(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10444:Z2), Z_eq_Z(y:Z1,8815:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q858(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1490:Z2), Z_eq_Z(y:Z1,419:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q860(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13772:Z2), Z_eq_Z(y:Z1,5206:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q861(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12911:Z2), Z_eq_Z(y:Z1,9694:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q863(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6497:Z2), Z_eq_Z(y:Z1,6482:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q865(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1603:Z2), Z_eq_Z(y:Z1,14460:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q866(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4674:Z2), Z_eq_Z(y:Z1,12911:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q867(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7726:Z2), Z_eq_Z(y:Z1,1857:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q868(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4005:Z2), Z_eq_Z(y:Z1,151:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q870(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3394:Z2), Z_eq_Z(y:Z1,5795:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q872(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21924:Z2), Z_eq_Z(y:Z1,10764:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q873(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10836:Z2), Z_eq_Z(y:Z1,10940:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q874(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9930:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q876(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18948:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q878(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8720:Z2), Z_eq_Z(y:Z1,14955:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q880(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3969:Z2), Z_eq_Z(y:Z1,22450:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q882(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2483:Z2), Z_eq_Z(y:Z1,18:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q884(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21312:Z2), Z_eq_Z(y:Z1,4774:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q886(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8847:Z2), Z_eq_Z(y:Z1,16568:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q888(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,117:Z2), Z_eq_Z(y:Z1,10:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q890(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3212:Z2), Z_eq_Z(y:Z1,22035:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q893(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18082:Z2), Z_eq_Z(y:Z1,18493:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q895(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12985:Z2), Z_eq_Z(y:Z1,10710:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q897(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7991:Z2), Z_eq_Z(y:Z1,151:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q899(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1326:Z2), Z_eq_Z(y:Z1,9805:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q901(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16865:Z2), Z_eq_Z(y:Z1,12707:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q903(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6122:Z2), Z_eq_Z(y:Z1,633:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q905(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17603:Z2), Z_eq_Z(y:Z1,15989:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q907(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6364:Z2), Z_eq_Z(y:Z1,7624:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q909(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21627:Z2), Z_eq_Z(y:Z1,19256:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q917(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7696:Z2), Z_eq_Z(y:Z1,4225:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q920(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8137:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q922(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6325:Z2), Z_eq_Z(y:Z1,13964:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q923(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10746:Z2), Z_eq_Z(y:Z1,20090:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q926(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16346:Z2), Z_eq_Z(y:Z1,7446:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q936(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9632:Z2), Z_eq_Z(y:Z1,3761:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q938(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15924:Z2), Z_eq_Z(y:Z1,524:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q940(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13226:Z2), Z_eq_Z(y:Z1,8145:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q941(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17872:Z2), Z_eq_Z(y:Z1,18347:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q944(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15846:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q945(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21344:Z2), Z_eq_Z(y:Z1,2883:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q948(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20461:Z2), Z_eq_Z(y:Z1,2742:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q949(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9500:Z2), Z_eq_Z(y:Z1,127:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q951(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16072:Z2), Z_eq_Z(y:Z1,1542:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q953(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3492:Z2), Z_eq_Z(y:Z1,224:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q955(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21382:Z2), Z_eq_Z(y:Z1,17302:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q957(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11530:Z2), Z_eq_Z(y:Z1,3938:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q958(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21735:Z2), Z_eq_Z(y:Z1,17376:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q960(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2096:Z2), Z_eq_Z(y:Z1,18756:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q962(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6449:Z2), Z_eq_Z(y:Z1,17074:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q964(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11521:Z2), Z_eq_Z(y:Z1,9283:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q966(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7753:Z2), Z_eq_Z(y:Z1,15392:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q967(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5473:Z2), Z_eq_Z(y:Z1,16848:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q969(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7098:Z2), Z_eq_Z(y:Z1,19991:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q973(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19560:Z2), Z_eq_Z(y:Z1,18812:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q977(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21862:Z2), Z_eq_Z(y:Z1,3616:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q979(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9486:Z2), Z_eq_Z(y:Z1,16:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q981(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9866:Z2), Z_eq_Z(y:Z1,6642:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q983(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6722:Z2), Z_eq_Z(y:Z1,17815:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q985(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16292:Z2), Z_eq_Z(y:Z1,7674:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q986(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4643:Z2), Z_eq_Z(y:Z1,1193:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule q988(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7858:Z2), Z_eq_Z(y:Z1,7323:Z3).
-   Updates: 1
-   Time: 3 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(16300,58,16301) :- .
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(18192,1149,5163) :- .
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(19738,232,19739) :- .
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q0(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12643:Z2), Z_eq_Z(y:Z1,14391:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q3(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18692:Z2), Z_eq_Z(y:Z1,10219:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q6(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12258:Z2), Z_eq_Z(y:Z1,21754:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q9(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17872:Z2), Z_eq_Z(y:Z1,769:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q12(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9948:Z2), Z_eq_Z(y:Z1,19066:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q15(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8213:Z2), Z_eq_Z(y:Z1,832:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q18(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5295:Z2), Z_eq_Z(y:Z1,15414:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q20(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9303:Z2), Z_eq_Z(y:Z1,2213:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q23(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17819:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q26(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10742:Z2), Z_eq_Z(y:Z1,2767:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q28(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5427:Z2), Z_eq_Z(y:Z1,151:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q31(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13455:Z2), Z_eq_Z(y:Z1,15188:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q33(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19298:Z2), Z_eq_Z(y:Z1,5795:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q36(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3360:Z2), Z_eq_Z(y:Z1,8647:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q37(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11933:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q39(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18200:Z2), Z_eq_Z(y:Z1,116:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q41(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14956:Z2), Z_eq_Z(y:Z1,3175:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q44(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8640:Z2), Z_eq_Z(y:Z1,12631:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q47(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6397:Z2), Z_eq_Z(y:Z1,22113:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q51(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14433:Z2), Z_eq_Z(y:Z1,7685:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q54(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18096:Z2), Z_eq_Z(y:Z1,12957:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q58(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8822:Z2), Z_eq_Z(y:Z1,6486:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q62(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1684:Z2), Z_eq_Z(y:Z1,1312:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q65(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13945:Z2), Z_eq_Z(y:Z1,1360:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q68(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18699:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q72(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8398:Z2), Z_eq_Z(y:Z1,14751:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q76(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18051:Z2), Z_eq_Z(y:Z1,346:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q79(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15844:Z2), Z_eq_Z(y:Z1,6107:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q83(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19362:Z2), Z_eq_Z(y:Z1,18352:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q86(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1066:Z2), Z_eq_Z(y:Z1,12390:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q90(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5576:Z2), Z_eq_Z(y:Z1,306:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q94(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16498:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q98(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2778:Z2), Z_eq_Z(y:Z1,16:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q101(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22205:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q104(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13818:Z2), Z_eq_Z(y:Z1,19851:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q108(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13766:Z2), Z_eq_Z(y:Z1,17690:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q112(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2905:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q116(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11885:Z2), Z_eq_Z(y:Z1,7848:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q120(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9841:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q124(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15847:Z2), Z_eq_Z(y:Z1,8948:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q127(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18378:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q131(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5689:Z2), Z_eq_Z(y:Z1,5454:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q134(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10711:Z2), Z_eq_Z(y:Z1,13196:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q138(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10507:Z2), Z_eq_Z(y:Z1,4358:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q142(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2765:Z2), Z_eq_Z(y:Z1,1568:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q146(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17544:Z2), Z_eq_Z(y:Z1,1407:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q150(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10572:Z2), Z_eq_Z(y:Z1,17598:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q153(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21639:Z2), Z_eq_Z(y:Z1,17860:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q155(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3258:Z2), Z_eq_Z(y:Z1,103:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q158(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5987:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q161(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20573:Z2), Z_eq_Z(y:Z1,20010:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q165(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16546:Z2), Z_eq_Z(y:Z1,2522:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q168(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20101:Z2), Z_eq_Z(y:Z1,5129:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q171(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11088:Z2), Z_eq_Z(y:Z1,12776:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q174(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10111:Z2), Z_eq_Z(y:Z1,8956:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q178(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1995:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q181(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1656:Z2), Z_eq_Z(y:Z1,15440:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q185(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5809:Z2), Z_eq_Z(y:Z1,9746:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q189(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1231:Z2), Z_eq_Z(y:Z1,4:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q192(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11265:Z2), Z_eq_Z(y:Z1,821:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q196(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13990:Z2), Z_eq_Z(y:Z1,1520:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q199(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6448:Z2), Z_eq_Z(y:Z1,20631:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q203(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9890:Z2), Z_eq_Z(y:Z1,16510:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q207(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8169:Z2), Z_eq_Z(y:Z1,14483:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q212(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11506:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q215(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16592:Z2), Z_eq_Z(y:Z1,3765:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q219(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12437:Z2), Z_eq_Z(y:Z1,1588:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q222(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22392:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q226(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10778:Z2), Z_eq_Z(y:Z1,12334:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q229(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7094:Z2), Z_eq_Z(y:Z1,9029:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q233(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8692:Z2), Z_eq_Z(y:Z1,24:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q236(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21627:Z2), Z_eq_Z(y:Z1,19256:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q240(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21892:Z2), Z_eq_Z(y:Z1,2443:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q243(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11234:Z2), Z_eq_Z(y:Z1,18:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q247(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9115:Z2), Z_eq_Z(y:Z1,17226:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q249(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14364:Z2), Z_eq_Z(y:Z1,15117:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q250(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10180:Z2), Z_eq_Z(y:Z1,260:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q254(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20551:Z2), Z_eq_Z(y:Z1,509:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q258(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22397:Z2), Z_eq_Z(y:Z1,5162:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q262(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18621:Z2), Z_eq_Z(y:Z1,14070:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q268(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5002:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q271(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8042:Z2), Z_eq_Z(y:Z1,62:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q274(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1086:Z2), Z_eq_Z(y:Z1,9213:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q278(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15890:Z2), Z_eq_Z(y:Z1,10053:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q282(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17009:Z2), Z_eq_Z(y:Z1,18927:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q286(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13718:Z2), Z_eq_Z(y:Z1,5129:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q289(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6514:Z2), Z_eq_Z(y:Z1,3288:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q293(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18817:Z2), Z_eq_Z(y:Z1,5795:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q297(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6329:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q301(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,620:Z2), Z_eq_Z(y:Z1,12161:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q304(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11482:Z2), Z_eq_Z(y:Z1,2918:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q308(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6032:Z2), Z_eq_Z(y:Z1,66:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q311(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12829:Z2), Z_eq_Z(y:Z1,872:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q314(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6669:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q316(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9009:Z2), Z_eq_Z(y:Z1,7368:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q320(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9847:Z2), Z_eq_Z(y:Z1,38:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q324(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4127:Z2), Z_eq_Z(y:Z1,1372:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q328(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11016:Z2), Z_eq_Z(y:Z1,8179:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q331(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,111:Z2), Z_eq_Z(y:Z1,19748:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q335(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4324:Z2), Z_eq_Z(y:Z1,1133:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q339(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13993:Z2), Z_eq_Z(y:Z1,20520:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q342(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13356:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q346(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8386:Z2), Z_eq_Z(y:Z1,9922:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q349(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18278:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q354(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3818:Z2), Z_eq_Z(y:Z1,103:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q357(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21830:Z2), Z_eq_Z(y:Z1,12515:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q365(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9100:Z2), Z_eq_Z(y:Z1,346:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q369(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10850:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q375(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20741:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q377(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4285:Z2), Z_eq_Z(y:Z1,2951:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q380(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17554:Z2), Z_eq_Z(y:Z1,2422:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q384(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2186:Z2), Z_eq_Z(y:Z1,12628:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q387(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10235:Z2), Z_eq_Z(y:Z1,3336:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q391(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3460:Z2), Z_eq_Z(y:Z1,545:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q394(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7730:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q396(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2727:Z2), Z_eq_Z(y:Z1,12043:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q399(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13046:Z2), Z_eq_Z(y:Z1,18:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q402(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10616:Z2), Z_eq_Z(y:Z1,21645:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q406(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12088:Z2), Z_eq_Z(y:Z1,9893:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q410(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14194:Z2), Z_eq_Z(y:Z1,22513:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q413(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20586:Z2), Z_eq_Z(y:Z1,4196:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q417(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2764:Z2), Z_eq_Z(y:Z1,20935:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q421(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17539:Z2), Z_eq_Z(y:Z1,3567:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q425(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7062:Z2), Z_eq_Z(y:Z1,976:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q428(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7767:Z2), Z_eq_Z(y:Z1,18234:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q430(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22246:Z2), Z_eq_Z(y:Z1,5672:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q433(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15480:Z2), Z_eq_Z(y:Z1,11423:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q435(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11096:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q438(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4855:Z2), Z_eq_Z(y:Z1,17005:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q440(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,202:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q443(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17855:Z2), Z_eq_Z(y:Z1,2165:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q448(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12619:Z2), Z_eq_Z(y:Z1,16465:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q451(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16103:Z2), Z_eq_Z(y:Z1,2640:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q454(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14762:Z2), Z_eq_Z(y:Z1,844:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q458(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7437:Z2), Z_eq_Z(y:Z1,1198:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q462(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14981:Z2), Z_eq_Z(y:Z1,327:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q467(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21810:Z2), Z_eq_Z(y:Z1,509:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q471(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18621:Z2), Z_eq_Z(y:Z1,14070:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q475(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20939:Z2), Z_eq_Z(y:Z1,4449:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q479(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12760:Z2), Z_eq_Z(y:Z1,14917:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q482(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16240:Z2), Z_eq_Z(y:Z1,1526:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q484(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9588:Z2), Z_eq_Z(y:Z1,2261:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q487(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5035:Z2), Z_eq_Z(y:Z1,16:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q492(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4509:Z2), Z_eq_Z(y:Z1,2769:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q495(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21870:Z2), Z_eq_Z(y:Z1,15186:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q497(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21145:Z2), Z_eq_Z(y:Z1,15985:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q500(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20694:Z2), Z_eq_Z(y:Z1,3533:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q501(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13267:Z2), Z_eq_Z(y:Z1,123:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q504(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4872:Z2), Z_eq_Z(y:Z1,17690:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q508(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14351:Z2), Z_eq_Z(y:Z1,260:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q511(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20632:Z2), Z_eq_Z(y:Z1,2630:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q514(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20183:Z2), Z_eq_Z(y:Z1,14590:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q520(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7226:Z2), Z_eq_Z(y:Z1,346:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q524(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7551:Z2), Z_eq_Z(y:Z1,9402:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q530(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4835:Z2), Z_eq_Z(y:Z1,7189:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q534(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11720:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q537(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1521:Z2), Z_eq_Z(y:Z1,7279:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q540(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4902:Z2), Z_eq_Z(y:Z1,7939:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q544(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21033:Z2), Z_eq_Z(y:Z1,3370:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q548(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17136:Z2), Z_eq_Z(y:Z1,11782:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q552(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12186:Z2), Z_eq_Z(y:Z1,8931:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q556(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16371:Z2), Z_eq_Z(y:Z1,9215:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q560(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3506:Z2), Z_eq_Z(y:Z1,4:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q564(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14661:Z2), Z_eq_Z(y:Z1,920:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q568(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16975:Z2), Z_eq_Z(y:Z1,346:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q576(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18182:Z2), Z_eq_Z(y:Z1,8441:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q579(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7095:Z2), Z_eq_Z(y:Z1,3294:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q583(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11068:Z2), Z_eq_Z(y:Z1,224:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q587(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6719:Z2), Z_eq_Z(y:Z1,1141:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q594(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11374:Z2), Z_eq_Z(y:Z1,4951:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q598(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19498:Z2), Z_eq_Z(y:Z1,12431:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q602(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8946:Z2), Z_eq_Z(y:Z1,1689:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q606(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,771:Z2), Z_eq_Z(y:Z1,1033:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q610(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8836:Z2), Z_eq_Z(y:Z1,9492:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q614(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10910:Z2), Z_eq_Z(y:Z1,6170:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q618(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17312:Z2), Z_eq_Z(y:Z1,151:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q622(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9512:Z2), Z_eq_Z(y:Z1,3548:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q626(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6203:Z2), Z_eq_Z(y:Z1,6675:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q630(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22066:Z2), Z_eq_Z(y:Z1,14496:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q634(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17654:Z2), Z_eq_Z(y:Z1,633:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q638(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20976:Z2), Z_eq_Z(y:Z1,6049:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q642(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20591:Z2), Z_eq_Z(y:Z1,524:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q649(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2587:Z2), Z_eq_Z(y:Z1,2068:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q653(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3201:Z2), Z_eq_Z(y:Z1,76:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q660(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18302:Z2), Z_eq_Z(y:Z1,14769:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q665(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9240:Z2), Z_eq_Z(y:Z1,621:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q668(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2580:Z2), Z_eq_Z(y:Z1,1023:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q673(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20516:Z2), Z_eq_Z(y:Z1,103:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q677(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19969:Z2), Z_eq_Z(y:Z1,14935:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q683(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17324:Z2), Z_eq_Z(y:Z1,346:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q688(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20575:Z2), Z_eq_Z(y:Z1,12492:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q692(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,290:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q697(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10336:Z2), Z_eq_Z(y:Z1,9591:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q701(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10731:Z2), Z_eq_Z(y:Z1,10559:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q706(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11491:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q712(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2222:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q716(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11549:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q721(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20071:Z2), Z_eq_Z(y:Z1,16563:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q726(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10649:Z2), Z_eq_Z(y:Z1,103:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q730(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19215:Z2), Z_eq_Z(y:Z1,18927:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q735(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3995:Z2), Z_eq_Z(y:Z1,6454:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q740(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2608:Z2), Z_eq_Z(y:Z1,15800:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q743(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8669:Z2), Z_eq_Z(y:Z1,14596:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q748(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16107:Z2), Z_eq_Z(y:Z1,4009:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q752(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13710:Z2), Z_eq_Z(y:Z1,17743:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q756(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17913:Z2), Z_eq_Z(y:Z1,346:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q761(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6087:Z2), Z_eq_Z(y:Z1,4886:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q764(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19166:Z2), Z_eq_Z(y:Z1,2109:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q768(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11803:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q772(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22496:Z2), Z_eq_Z(y:Z1,7971:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q780(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5092:Z2), Z_eq_Z(y:Z1,12078:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q783(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8611:Z2), Z_eq_Z(y:Z1,11860:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q787(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19923:Z2), Z_eq_Z(y:Z1,2658:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q791(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16418:Z2), Z_eq_Z(y:Z1,633:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q795(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16018:Z2), Z_eq_Z(y:Z1,1423:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q804(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9463:Z2), Z_eq_Z(y:Z1,15385:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q807(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,365:Z2), Z_eq_Z(y:Z1,4261:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q810(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,984:Z2), Z_eq_Z(y:Z1,8410:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q816(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19239:Z2), Z_eq_Z(y:Z1,15922:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q820(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19466:Z2), Z_eq_Z(y:Z1,3430:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q824(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8777:Z2), Z_eq_Z(y:Z1,17409:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q827(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13203:Z2), Z_eq_Z(y:Z1,16018:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q831(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4286:Z2), Z_eq_Z(y:Z1,18:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q835(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10596:Z2), Z_eq_Z(y:Z1,2224:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q840(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2521:Z2), Z_eq_Z(y:Z1,2469:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q844(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1155:Z2), Z_eq_Z(y:Z1,21731:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q848(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7861:Z2), Z_eq_Z(y:Z1,12974:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q852(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10034:Z2), Z_eq_Z(y:Z1,4474:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q857(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1332:Z2), Z_eq_Z(y:Z1,13718:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q862(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14724:Z2), Z_eq_Z(y:Z1,8415:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q867(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17822:Z2), Z_eq_Z(y:Z1,7060:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q871(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5248:Z2), Z_eq_Z(y:Z1,1897:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q876(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13245:Z2), Z_eq_Z(y:Z1,3566:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q879(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21522:Z2), Z_eq_Z(y:Z1,20534:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q886(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21160:Z2), Z_eq_Z(y:Z1,13497:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q890(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4555:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q894(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17503:Z2), Z_eq_Z(y:Z1,22033:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q897(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6634:Z2), Z_eq_Z(y:Z1,5626:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q900(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15362:Z2), Z_eq_Z(y:Z1,6021:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q904(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19014:Z2), Z_eq_Z(y:Z1,2928:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q908(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,639:Z2), Z_eq_Z(y:Z1,9265:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q912(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6387:Z2), Z_eq_Z(y:Z1,11555:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q916(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19114:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q920(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14340:Z2), Z_eq_Z(y:Z1,10738:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q923(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20403:Z2), Z_eq_Z(y:Z1,20649:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q928(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15184:Z2), Z_eq_Z(y:Z1,1026:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q933(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14514:Z2), Z_eq_Z(y:Z1,5795:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q935(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9990:Z2), Z_eq_Z(y:Z1,1974:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q938(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8485:Z2), Z_eq_Z(y:Z1,8952:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q941(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8202:Z2), Z_eq_Z(y:Z1,19096:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q944(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,925:Z2), Z_eq_Z(y:Z1,7963:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q948(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10207:Z2), Z_eq_Z(y:Z1,16607:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q951(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14512:Z2), Z_eq_Z(y:Z1,17529:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q954(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9663:Z2), Z_eq_Z(y:Z1,3700:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q957(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15426:Z2), Z_eq_Z(y:Z1,8024:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q959(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9937:Z2), Z_eq_Z(y:Z1,260:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q962(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2908:Z2), Z_eq_Z(y:Z1,0:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q965(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11663:Z2), Z_eq_Z(y:Z1,18:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q968(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6292:Z2), Z_eq_Z(y:Z1,224:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q970(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15544:Z2), Z_eq_Z(y:Z1,19858:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q973(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10124:Z2), Z_eq_Z(y:Z1,1929:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q977(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12724:Z2), Z_eq_Z(y:Z1,13513:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q980(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18705:Z2), Z_eq_Z(y:Z1,12313:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q983(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21641:Z2), Z_eq_Z(y:Z1,4581:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q987(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18024:Z2), Z_eq_Z(y:Z1,517:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q990(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16042:Z2), Z_eq_Z(y:Z1,22:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q992(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21454:Z2), Z_eq_Z(y:Z1,1278:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule q995(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11676:Z2), Z_eq_Z(y:Z1,2443:Z3).
+   Updates: 1
+   Time: 3 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(4954,332,2831) :- .
+   Updates: 1
+   Time: 4 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(6122,1149,634) :- .
+   Updates: 1
+   Time: 4 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(15410,168,10063) :- .
    Updates: 1
    Time: 4 ms
    Longest Iteration: 0 (0 ms)
@@ -129273,2449 +131516,205 @@ Rule fun(20620,1149,20621) :- .
    Updates: 1
    Time: 4 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(22004,1149,770) :- .
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q4(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3037:Z2), Z_eq_Z(y:Z1,2066:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q7(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8422:Z2), Z_eq_Z(y:Z1,10629:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q9(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8380:Z2), Z_eq_Z(y:Z1,18:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q12(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8064:Z2), Z_eq_Z(y:Z1,22354:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q16(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3240:Z2), Z_eq_Z(y:Z1,8531:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q20(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10735:Z2), Z_eq_Z(y:Z1,14374:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q23(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16984:Z2), Z_eq_Z(y:Z1,1193:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q26(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18763:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q29(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2754:Z2), Z_eq_Z(y:Z1,17506:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q32(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15176:Z2), Z_eq_Z(y:Z1,769:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q35(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8443:Z2), Z_eq_Z(y:Z1,19101:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q37(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7928:Z2), Z_eq_Z(y:Z1,21290:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q39(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5064:Z2), Z_eq_Z(y:Z1,3344:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q40(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3718:Z2), Z_eq_Z(y:Z1,20145:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q41(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8423:Z2), Z_eq_Z(y:Z1,15338:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q43(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16497:Z2), Z_eq_Z(y:Z1,14169:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q46(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19205:Z2), Z_eq_Z(y:Z1,15167:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q50(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11017:Z2), Z_eq_Z(y:Z1,19202:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q53(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9873:Z2), Z_eq_Z(y:Z1,821:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q54(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17429:Z2), Z_eq_Z(y:Z1,15026:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q57(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10316:Z2), Z_eq_Z(y:Z1,103:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q58(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9993:Z2), Z_eq_Z(y:Z1,21110:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q63(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,999:Z2), Z_eq_Z(y:Z1,4724:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q70(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15871:Z2), Z_eq_Z(y:Z1,11492:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q73(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19659:Z2), Z_eq_Z(y:Z1,20361:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q76(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19759:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q79(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11924:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q82(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12787:Z2), Z_eq_Z(y:Z1,66:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q85(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16530:Z2), Z_eq_Z(y:Z1,5045:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q86(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11319:Z2), Z_eq_Z(y:Z1,1401:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q88(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20783:Z2), Z_eq_Z(y:Z1,16297:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q92(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6965:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q95(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4050:Z2), Z_eq_Z(y:Z1,21653:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q98(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1445:Z2), Z_eq_Z(y:Z1,11335:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q101(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19648:Z2), Z_eq_Z(y:Z1,5118:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q102(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12017:Z2), Z_eq_Z(y:Z1,5795:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q104(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18556:Z2), Z_eq_Z(y:Z1,236:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q105(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3780:Z2), Z_eq_Z(y:Z1,260:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q106(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6033:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q109(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12707:Z2), Z_eq_Z(y:Z1,6722:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q111(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10811:Z2), Z_eq_Z(y:Z1,12636:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q113(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11807:Z2), Z_eq_Z(y:Z1,18:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q114(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17852:Z2), Z_eq_Z(y:Z1,12857:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q119(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10563:Z2), Z_eq_Z(y:Z1,16:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q144(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9147:Z2), Z_eq_Z(y:Z1,17095:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q145(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6105:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q147(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7361:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q150(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16983:Z2), Z_eq_Z(y:Z1,10432:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q153(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21220:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q156(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1601:Z2), Z_eq_Z(y:Z1,16483:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q161(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6365:Z2), Z_eq_Z(y:Z1,1749:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q164(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6906:Z2), Z_eq_Z(y:Z1,21744:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q167(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15204:Z2), Z_eq_Z(y:Z1,895:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q170(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2352:Z2), Z_eq_Z(y:Z1,14825:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q172(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7605:Z2), Z_eq_Z(y:Z1,5867:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q178(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5156:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q181(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11381:Z2), Z_eq_Z(y:Z1,21336:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q184(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18079:Z2), Z_eq_Z(y:Z1,15881:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q187(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14402:Z2), Z_eq_Z(y:Z1,3761:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q190(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22357:Z2), Z_eq_Z(y:Z1,5793:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q193(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20899:Z2), Z_eq_Z(y:Z1,14795:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q195(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13053:Z2), Z_eq_Z(y:Z1,586:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q202(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19202:Z2), Z_eq_Z(y:Z1,17886:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q210(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4365:Z2), Z_eq_Z(y:Z1,4051:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q211(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7581:Z2), Z_eq_Z(y:Z1,14047:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q212(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19158:Z2), Z_eq_Z(y:Z1,21282:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q213(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4227:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q221(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10177:Z2), Z_eq_Z(y:Z1,3281:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q228(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21511:Z2), Z_eq_Z(y:Z1,848:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q229(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13829:Z2), Z_eq_Z(y:Z1,1929:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q231(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17311:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q233(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9904:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q235(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4878:Z2), Z_eq_Z(y:Z1,13468:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q236(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11280:Z2), Z_eq_Z(y:Z1,10980:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q239(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11036:Z2), Z_eq_Z(y:Z1,6015:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q240(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7750:Z2), Z_eq_Z(y:Z1,20000:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q241(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5246:Z2), Z_eq_Z(y:Z1,17744:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q242(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10622:Z2), Z_eq_Z(y:Z1,7280:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q244(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5282:Z2), Z_eq_Z(y:Z1,306:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q245(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22116:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q247(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6403:Z2), Z_eq_Z(y:Z1,13004:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q257(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2655:Z2), Z_eq_Z(y:Z1,9168:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q260(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2502:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q261(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20062:Z2), Z_eq_Z(y:Z1,2068:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q264(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10146:Z2), Z_eq_Z(y:Z1,920:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q265(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4336:Z2), Z_eq_Z(y:Z1,18785:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q268(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18811:Z2), Z_eq_Z(y:Z1,3767:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q271(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16631:Z2), Z_eq_Z(y:Z1,21757:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q276(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10477:Z2), Z_eq_Z(y:Z1,18:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q278(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19939:Z2), Z_eq_Z(y:Z1,9953:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q279(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14725:Z2), Z_eq_Z(y:Z1,15879:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q280(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12658:Z2), Z_eq_Z(y:Z1,113:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q281(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19256:Z2), Z_eq_Z(y:Z1,20330:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q282(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15501:Z2), Z_eq_Z(y:Z1,2344:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q284(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12785:Z2), Z_eq_Z(y:Z1,726:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q285(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18354:Z2), Z_eq_Z(y:Z1,12478:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q286(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8815:Z2), Z_eq_Z(y:Z1,151:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q288(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12191:Z2), Z_eq_Z(y:Z1,4825:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q290(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17867:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q292(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12487:Z2), Z_eq_Z(y:Z1,12266:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q293(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4880:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q364(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18888:Z2), Z_eq_Z(y:Z1,11550:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q365(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12184:Z2), Z_eq_Z(y:Z1,1672:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q366(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14045:Z2), Z_eq_Z(y:Z1,11886:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q367(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10042:Z2), Z_eq_Z(y:Z1,13386:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q368(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5872:Z2), Z_eq_Z(y:Z1,1189:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q369(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,778:Z2), Z_eq_Z(y:Z1,13737:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q370(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17675:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q373(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13459:Z2), Z_eq_Z(y:Z1,8286:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q376(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21251:Z2), Z_eq_Z(y:Z1,2844:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q379(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4483:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q382(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22519:Z2), Z_eq_Z(y:Z1,16:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q385(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11155:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q388(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13082:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q390(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21905:Z2), Z_eq_Z(y:Z1,1368:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q392(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20781:Z2), Z_eq_Z(y:Z1,14435:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q396(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7510:Z2), Z_eq_Z(y:Z1,24:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q399(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6590:Z2), Z_eq_Z(y:Z1,12655:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q403(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17023:Z2), Z_eq_Z(y:Z1,9824:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q406(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7133:Z2), Z_eq_Z(y:Z1,1129:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q409(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7776:Z2), Z_eq_Z(y:Z1,3530:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q412(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7783:Z2), Z_eq_Z(y:Z1,2248:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q415(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5941:Z2), Z_eq_Z(y:Z1,598:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q418(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5201:Z2), Z_eq_Z(y:Z1,6502:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q420(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3268:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q421(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19779:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q425(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2533:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q427(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8337:Z2), Z_eq_Z(y:Z1,18:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q430(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18488:Z2), Z_eq_Z(y:Z1,13091:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q432(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5261:Z2), Z_eq_Z(y:Z1,3393:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q434(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4902:Z2), Z_eq_Z(y:Z1,1407:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q435(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9771:Z2), Z_eq_Z(y:Z1,2951:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q437(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13583:Z2), Z_eq_Z(y:Z1,13030:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q439(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12923:Z2), Z_eq_Z(y:Z1,151:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q441(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5355:Z2), Z_eq_Z(y:Z1,21218:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q451(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4492:Z2), Z_eq_Z(y:Z1,9964:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q455(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13685:Z2), Z_eq_Z(y:Z1,1108:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q459(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21166:Z2), Z_eq_Z(y:Z1,18576:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q463(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19500:Z2), Z_eq_Z(y:Z1,5795:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q467(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11457:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q471(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3825:Z2), Z_eq_Z(y:Z1,8046:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q475(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5990:Z2), Z_eq_Z(y:Z1,22171:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q478(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3784:Z2), Z_eq_Z(y:Z1,1144:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q481(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12785:Z2), Z_eq_Z(y:Z1,726:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q485(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17311:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q488(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,565:Z2), Z_eq_Z(y:Z1,10812:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q489(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4475:Z2), Z_eq_Z(y:Z1,18:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q490(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12369:Z2), Z_eq_Z(y:Z1,4533:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q491(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5213:Z2), Z_eq_Z(y:Z1,7131:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q493(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4848:Z2), Z_eq_Z(y:Z1,19490:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q496(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1109:Z2), Z_eq_Z(y:Z1,18336:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q500(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17699:Z2), Z_eq_Z(y:Z1,2068:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q504(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9300:Z2), Z_eq_Z(y:Z1,227:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q507(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6993:Z2), Z_eq_Z(y:Z1,151:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q511(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8769:Z2), Z_eq_Z(y:Z1,4444:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q515(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10206:Z2), Z_eq_Z(y:Z1,1777:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q522(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,179:Z2), Z_eq_Z(y:Z1,372:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q528(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13466:Z2), Z_eq_Z(y:Z1,484:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q531(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22265:Z2), Z_eq_Z(y:Z1,19471:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q536(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16763:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q540(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5643:Z2), Z_eq_Z(y:Z1,3838:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q544(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19660:Z2), Z_eq_Z(y:Z1,14315:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q547(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16284:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q551(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17234:Z2), Z_eq_Z(y:Z1,24:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q555(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9608:Z2), Z_eq_Z(y:Z1,15736:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q559(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15978:Z2), Z_eq_Z(y:Z1,370:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q562(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2775:Z2), Z_eq_Z(y:Z1,14068:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q565(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7156:Z2), Z_eq_Z(y:Z1,17335:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q567(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21790:Z2), Z_eq_Z(y:Z1,18354:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q568(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1412:Z2), Z_eq_Z(y:Z1,18766:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q572(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21055:Z2), Z_eq_Z(y:Z1,18542:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q578(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,398:Z2), Z_eq_Z(y:Z1,9698:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q580(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7063:Z2), Z_eq_Z(y:Z1,18:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q581(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5877:Z2), Z_eq_Z(y:Z1,2774:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q582(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12715:Z2), Z_eq_Z(y:Z1,2867:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q584(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6856:Z2), Z_eq_Z(y:Z1,1278:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q587(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7005:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q590(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22219:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q592(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10235:Z2), Z_eq_Z(y:Z1,3336:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q595(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1569:Z2), Z_eq_Z(y:Z1,18999:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q597(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11063:Z2), Z_eq_Z(y:Z1,151:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q600(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21801:Z2), Z_eq_Z(y:Z1,11614:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q601(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,397:Z2), Z_eq_Z(y:Z1,127:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q602(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18332:Z2), Z_eq_Z(y:Z1,813:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q604(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11703:Z2), Z_eq_Z(y:Z1,862:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q606(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13852:Z2), Z_eq_Z(y:Z1,103:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q609(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,566:Z2), Z_eq_Z(y:Z1,20424:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q612(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21718:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q615(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11881:Z2), Z_eq_Z(y:Z1,3838:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q617(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22228:Z2), Z_eq_Z(y:Z1,9054:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q619(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10483:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q621(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5110:Z2), Z_eq_Z(y:Z1,655:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q623(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17914:Z2), Z_eq_Z(y:Z1,6544:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q625(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17595:Z2), Z_eq_Z(y:Z1,20873:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q627(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19560:Z2), Z_eq_Z(y:Z1,18812:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q629(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,186:Z2), Z_eq_Z(y:Z1,3548:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q630(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18236:Z2), Z_eq_Z(y:Z1,20872:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q633(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18756:Z2), Z_eq_Z(y:Z1,17295:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q635(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1207:Z2), Z_eq_Z(y:Z1,10744:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q637(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12466:Z2), Z_eq_Z(y:Z1,2742:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q639(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6026:Z2), Z_eq_Z(y:Z1,21597:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q641(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11599:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q643(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18490:Z2), Z_eq_Z(y:Z1,18773:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q645(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18234:Z2), Z_eq_Z(y:Z1,784:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q647(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13835:Z2), Z_eq_Z(y:Z1,5795:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q649(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9010:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q651(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21680:Z2), Z_eq_Z(y:Z1,16043:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q653(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18078:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q655(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17782:Z2), Z_eq_Z(y:Z1,10160:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q662(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8275:Z2), Z_eq_Z(y:Z1,14318:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q664(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4993:Z2), Z_eq_Z(y:Z1,16:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q666(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15097:Z2), Z_eq_Z(y:Z1,2997:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q668(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21019:Z2), Z_eq_Z(y:Z1,14984:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q671(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21479:Z2), Z_eq_Z(y:Z1,4536:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q674(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5607:Z2), Z_eq_Z(y:Z1,12326:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q675(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10074:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q676(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3890:Z2), Z_eq_Z(y:Z1,20502:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q678(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19141:Z2), Z_eq_Z(y:Z1,14268:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q681(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3620:Z2), Z_eq_Z(y:Z1,871:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q683(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21749:Z2), Z_eq_Z(y:Z1,11876:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q685(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19956:Z2), Z_eq_Z(y:Z1,6110:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q687(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21216:Z2), Z_eq_Z(y:Z1,20771:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q688(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12731:Z2), Z_eq_Z(y:Z1,2213:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q690(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,923:Z2), Z_eq_Z(y:Z1,3602:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q692(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4723:Z2), Z_eq_Z(y:Z1,260:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q694(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18854:Z2), Z_eq_Z(y:Z1,76:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q695(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3797:Z2), Z_eq_Z(y:Z1,260:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q697(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19188:Z2), Z_eq_Z(y:Z1,574:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q700(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22418:Z2), Z_eq_Z(y:Z1,5770:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q702(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20263:Z2), Z_eq_Z(y:Z1,14634:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q703(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4794:Z2), Z_eq_Z(y:Z1,991:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q704(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4916:Z2), Z_eq_Z(y:Z1,18:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q706(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6512:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q708(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13054:Z2), Z_eq_Z(y:Z1,1204:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q710(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14829:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q712(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16865:Z2), Z_eq_Z(y:Z1,19843:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q713(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16628:Z2), Z_eq_Z(y:Z1,5061:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q714(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20325:Z2), Z_eq_Z(y:Z1,7054:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q716(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,0:Z2), Z_eq_Z(y:Z1,12640:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q718(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8402:Z2), Z_eq_Z(y:Z1,62:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q720(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8465:Z2), Z_eq_Z(y:Z1,2265:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q722(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22522:Z2), Z_eq_Z(y:Z1,18355:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q724(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11495:Z2), Z_eq_Z(y:Z1,7287:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q726(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4029:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q728(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,709:Z2), Z_eq_Z(y:Z1,8667:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q730(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5365:Z2), Z_eq_Z(y:Z1,633:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q733(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6039:Z2), Z_eq_Z(y:Z1,5016:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q735(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8213:Z2), Z_eq_Z(y:Z1,14702:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q739(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5516:Z2), Z_eq_Z(y:Z1,784:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q740(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12845:Z2), Z_eq_Z(y:Z1,18670:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q741(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20932:Z2), Z_eq_Z(y:Z1,7674:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q742(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7593:Z2), Z_eq_Z(y:Z1,3333:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q744(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,654:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q746(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1539:Z2), Z_eq_Z(y:Z1,1298:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q749(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20104:Z2), Z_eq_Z(y:Z1,1037:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q753(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,699:Z2), Z_eq_Z(y:Z1,4:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q756(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1994:Z2), Z_eq_Z(y:Z1,8571:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q758(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6865:Z2), Z_eq_Z(y:Z1,15892:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q761(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15105:Z2), Z_eq_Z(y:Z1,13499:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q768(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11322:Z2), Z_eq_Z(y:Z1,21051:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q770(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21388:Z2), Z_eq_Z(y:Z1,990:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q773(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13466:Z2), Z_eq_Z(y:Z1,1826:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q775(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6217:Z2), Z_eq_Z(y:Z1,21612:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q776(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18845:Z2), Z_eq_Z(y:Z1,4976:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q778(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11939:Z2), Z_eq_Z(y:Z1,18954:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q780(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10690:Z2), Z_eq_Z(y:Z1,19341:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q781(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9225:Z2), Z_eq_Z(y:Z1,6241:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q783(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15204:Z2), Z_eq_Z(y:Z1,895:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q784(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3893:Z2), Z_eq_Z(y:Z1,2703:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q785(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3122:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q786(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5975:Z2), Z_eq_Z(y:Z1,15458:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q787(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17354:Z2), Z_eq_Z(y:Z1,14516:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q789(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12023:Z2), Z_eq_Z(y:Z1,769:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q791(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12755:Z2), Z_eq_Z(y:Z1,375:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q794(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1953:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q796(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8954:Z2), Z_eq_Z(y:Z1,12253:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q799(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15051:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q801(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14449:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q804(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1918:Z2), Z_eq_Z(y:Z1,5120:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q807(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17913:Z2), Z_eq_Z(y:Z1,346:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q809(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,329:Z2), Z_eq_Z(y:Z1,17858:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q811(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22515:Z2), Z_eq_Z(y:Z1,323:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q816(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14426:Z2), Z_eq_Z(y:Z1,12772:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q818(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17828:Z2), Z_eq_Z(y:Z1,590:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q820(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4653:Z2), Z_eq_Z(y:Z1,8692:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q823(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13231:Z2), Z_eq_Z(y:Z1,14317:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q826(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3041:Z2), Z_eq_Z(y:Z1,4211:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q829(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1220:Z2), Z_eq_Z(y:Z1,4:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q832(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16318:Z2), Z_eq_Z(y:Z1,2578:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q834(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7925:Z2), Z_eq_Z(y:Z1,10050:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q835(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14947:Z2), Z_eq_Z(y:Z1,22530:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q837(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13874:Z2), Z_eq_Z(y:Z1,18292:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q839(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4666:Z2), Z_eq_Z(y:Z1,375:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q842(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20781:Z2), Z_eq_Z(y:Z1,14435:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q845(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14097:Z2), Z_eq_Z(y:Z1,19120:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q847(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7325:Z2), Z_eq_Z(y:Z1,2443:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q851(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4881:Z2), Z_eq_Z(y:Z1,346:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q854(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3279:Z2), Z_eq_Z(y:Z1,18:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q857(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18052:Z2), Z_eq_Z(y:Z1,9453:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q859(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12717:Z2), Z_eq_Z(y:Z1,3518:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q862(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1592:Z2), Z_eq_Z(y:Z1,3865:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q864(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1830:Z2), Z_eq_Z(y:Z1,9118:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q869(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20329:Z2), Z_eq_Z(y:Z1,13193:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q871(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1153:Z2), Z_eq_Z(y:Z1,3217:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q875(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20845:Z2), Z_eq_Z(y:Z1,1520:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q877(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19642:Z2), Z_eq_Z(y:Z1,14462:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q879(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1291:Z2), Z_eq_Z(y:Z1,21566:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q881(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15755:Z2), Z_eq_Z(y:Z1,346:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q883(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4734:Z2), Z_eq_Z(y:Z1,1618:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q885(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17782:Z2), Z_eq_Z(y:Z1,10160:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q887(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15184:Z2), Z_eq_Z(y:Z1,4382:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q889(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17364:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q891(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13589:Z2), Z_eq_Z(y:Z1,5795:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q894(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11265:Z2), Z_eq_Z(y:Z1,821:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q896(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22054:Z2), Z_eq_Z(y:Z1,306:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q898(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19742:Z2), Z_eq_Z(y:Z1,5774:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q900(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17147:Z2), Z_eq_Z(y:Z1,1474:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q902(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11578:Z2), Z_eq_Z(y:Z1,18646:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q904(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22260:Z2), Z_eq_Z(y:Z1,20680:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q906(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17318:Z2), Z_eq_Z(y:Z1,3430:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q908(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15642:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q910(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14707:Z2), Z_eq_Z(y:Z1,3533:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q911(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22448:Z2), Z_eq_Z(y:Z1,12603:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q912(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6161:Z2), Z_eq_Z(y:Z1,6090:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q913(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21438:Z2), Z_eq_Z(y:Z1,2066:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q914(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12495:Z2), Z_eq_Z(y:Z1,19630:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q915(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18240:Z2), Z_eq_Z(y:Z1,1368:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q916(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13461:Z2), Z_eq_Z(y:Z1,9954:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q918(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18935:Z2), Z_eq_Z(y:Z1,16875:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q919(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10772:Z2), Z_eq_Z(y:Z1,15583:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q921(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9271:Z2), Z_eq_Z(y:Z1,22276:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q924(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9667:Z2), Z_eq_Z(y:Z1,15540:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q925(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,780:Z2), Z_eq_Z(y:Z1,10:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q927(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21692:Z2), Z_eq_Z(y:Z1,9748:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q928(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6714:Z2), Z_eq_Z(y:Z1,4314:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q929(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21050:Z2), Z_eq_Z(y:Z1,13600:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q934(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5612:Z2), Z_eq_Z(y:Z1,2522:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q935(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2423:Z2), Z_eq_Z(y:Z1,4336:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q937(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7219:Z2), Z_eq_Z(y:Z1,19405:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q939(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13123:Z2), Z_eq_Z(y:Z1,8482:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q942(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22181:Z2), Z_eq_Z(y:Z1,327:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q943(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,702:Z2), Z_eq_Z(y:Z1,17680:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q946(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19375:Z2), Z_eq_Z(y:Z1,5098:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q947(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9684:Z2), Z_eq_Z(y:Z1,633:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q950(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2517:Z2), Z_eq_Z(y:Z1,21292:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q952(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17571:Z2), Z_eq_Z(y:Z1,3106:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q954(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17683:Z2), Z_eq_Z(y:Z1,346:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q956(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,209:Z2), Z_eq_Z(y:Z1,1033:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q959(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9431:Z2), Z_eq_Z(y:Z1,15813:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q961(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3810:Z2), Z_eq_Z(y:Z1,19112:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q963(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12975:Z2), Z_eq_Z(y:Z1,6169:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q965(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1438:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q968(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7438:Z2), Z_eq_Z(y:Z1,168:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q970(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1180:Z2), Z_eq_Z(y:Z1,920:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q971(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17427:Z2), Z_eq_Z(y:Z1,2678:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q972(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10258:Z2), Z_eq_Z(y:Z1,2541:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q974(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15955:Z2), Z_eq_Z(y:Z1,12770:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q975(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9279:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q976(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2489:Z2), Z_eq_Z(y:Z1,52:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q978(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16373:Z2), Z_eq_Z(y:Z1,1407:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q980(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4103:Z2), Z_eq_Z(y:Z1,17194:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q982(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2084:Z2), Z_eq_Z(y:Z1,867:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q984(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1923:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q987(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8896:Z2), Z_eq_Z(y:Z1,20050:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule q989(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22496:Z2), Z_eq_Z(y:Z1,10786:Z3).
-   Updates: 1
-   Time: 4 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(15410,168,10063) :- .
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
 Rule fun(1681,38,1682) :- .
    Updates: 1
-   Time: 5 ms
+   Time: 4 ms
    Longest Iteration: 0 (0 ms)
-Rule q10(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1242:Z2), Z_eq_Z(y:Z1,11466:Z3).
+Rule q498(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21750:Z2), Z_eq_Z(y:Z1,22:Z3).
    Updates: 1
-   Time: 5 ms
+   Time: 4 ms
    Longest Iteration: 0 (0 ms)
-Rule q17(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10782:Z2), Z_eq_Z(y:Z1,151:Z3).
+Rule q882(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1494:Z2), Z_eq_Z(y:Z1,13980:Z3).
    Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q59(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19931:Z2), Z_eq_Z(y:Z1,327:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q60(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21705:Z2), Z_eq_Z(y:Z1,14160:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q61(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20485:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q66(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,42:Z2), Z_eq_Z(y:Z1,16302:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q91(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2621:Z2), Z_eq_Z(y:Z1,432:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q103(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6692:Z2), Z_eq_Z(y:Z1,3551:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q107(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5459:Z2), Z_eq_Z(y:Z1,11041:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q108(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18634:Z2), Z_eq_Z(y:Z1,373:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q116(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17747:Z2), Z_eq_Z(y:Z1,151:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q117(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18517:Z2), Z_eq_Z(y:Z1,6891:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q118(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12885:Z2), Z_eq_Z(y:Z1,15428:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q120(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22368:Z2), Z_eq_Z(y:Z1,4977:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q121(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6952:Z2), Z_eq_Z(y:Z1,19224:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q122(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13643:Z2), Z_eq_Z(y:Z1,17227:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q123(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13850:Z2), Z_eq_Z(y:Z1,769:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q140(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5392:Z2), Z_eq_Z(y:Z1,151:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q141(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12321:Z2), Z_eq_Z(y:Z1,10110:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q143(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17991:Z2), Z_eq_Z(y:Z1,9210:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q173(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13273:Z2), Z_eq_Z(y:Z1,2951:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q198(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8542:Z2), Z_eq_Z(y:Z1,137:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q200(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2673:Z2), Z_eq_Z(y:Z1,18783:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q203(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4971:Z2), Z_eq_Z(y:Z1,11346:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q206(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11643:Z2), Z_eq_Z(y:Z1,8205:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q208(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7246:Z2), Z_eq_Z(y:Z1,16387:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q209(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15202:Z2), Z_eq_Z(y:Z1,5819:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q214(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14175:Z2), Z_eq_Z(y:Z1,961:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q220(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13097:Z2), Z_eq_Z(y:Z1,10197:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q222(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5597:Z2), Z_eq_Z(y:Z1,16536:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q223(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3402:Z2), Z_eq_Z(y:Z1,21655:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q238(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17758:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q248(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10198:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q249(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1526:Z2), Z_eq_Z(y:Z1,9824:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q250(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3404:Z2), Z_eq_Z(y:Z1,224:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q252(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8002:Z2), Z_eq_Z(y:Z1,3327:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q254(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14455:Z2), Z_eq_Z(y:Z1,151:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q262(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5958:Z2), Z_eq_Z(y:Z1,16:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q267(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11963:Z2), Z_eq_Z(y:Z1,8100:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q295(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10396:Z2), Z_eq_Z(y:Z1,16537:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q329(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21172:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q393(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22134:Z2), Z_eq_Z(y:Z1,21783:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q433(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20995:Z2), Z_eq_Z(y:Z1,66:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q443(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6547:Z2), Z_eq_Z(y:Z1,19130:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q524(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12672:Z2), Z_eq_Z(y:Z1,990:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q573(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7562:Z2), Z_eq_Z(y:Z1,3505:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q632(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19682:Z2), Z_eq_Z(y:Z1,642:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q657(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6580:Z2), Z_eq_Z(y:Z1,3765:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q660(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12118:Z2), Z_eq_Z(y:Z1,11717:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q663(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12832:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q669(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7486:Z2), Z_eq_Z(y:Z1,151:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q698(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4343:Z2), Z_eq_Z(y:Z1,8668:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q699(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13260:Z2), Z_eq_Z(y:Z1,1672:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q711(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15378:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q752(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5621:Z2), Z_eq_Z(y:Z1,7444:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q763(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10547:Z2), Z_eq_Z(y:Z1,16640:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q803(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,244:Z2), Z_eq_Z(y:Z1,18:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q841(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8207:Z2), Z_eq_Z(y:Z1,18269:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q892(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14679:Z2), Z_eq_Z(y:Z1,9675:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q931(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16578:Z2), Z_eq_Z(y:Z1,8603:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q932(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6725:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q933(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11001:Z2), Z_eq_Z(y:Z1,1444:Z3).
-   Updates: 1
-   Time: 5 ms
-   Longest Iteration: 0 (0 ms)
-Rule q56(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,704:Z2), Z_eq_Z(y:Z1,16948:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q62(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4850:Z2), Z_eq_Z(y:Z1,1108:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q115(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16389:Z2), Z_eq_Z(y:Z1,11451:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q142(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13686:Z2), Z_eq_Z(y:Z1,3421:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q199(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17537:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q246(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17486:Z2), Z_eq_Z(y:Z1,1111:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q294(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9765:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q296(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4654:Z2), Z_eq_Z(y:Z1,21330:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q298(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22561:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q299(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14305:Z2), Z_eq_Z(y:Z1,16483:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q304(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15606:Z2), Z_eq_Z(y:Z1,5681:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q318(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21346:Z2), Z_eq_Z(y:Z1,20814:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q423(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7382:Z2), Z_eq_Z(y:Z1,3672:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q424(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4548:Z2), Z_eq_Z(y:Z1,3376:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q574(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2791:Z2), Z_eq_Z(y:Z1,278:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q575(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1581:Z2), Z_eq_Z(y:Z1,18839:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q738(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12912:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q743(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8770:Z2), Z_eq_Z(y:Z1,3981:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q750(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5600:Z2), Z_eq_Z(y:Z1,13801:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q765(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19101:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q848(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5205:Z2), Z_eq_Z(y:Z1,306:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule q995(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20332:Z2), Z_eq_Z(y:Z1,16907:Z3).
-   Updates: 1
-   Time: 6 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(3591,1082,3592) :- .
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(18644,571,18645) :- .
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q64(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9982:Z2), Z_eq_Z(y:Z1,103:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q110(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2897:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q127(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3096:Z2), Z_eq_Z(y:Z1,14984:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q207(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1905:Z2), Z_eq_Z(y:Z1,4319:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q215(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4600:Z2), Z_eq_Z(y:Z1,18:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q224(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20197:Z2), Z_eq_Z(y:Z1,5352:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q225(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19331:Z2), Z_eq_Z(y:Z1,11492:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q237(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13807:Z2), Z_eq_Z(y:Z1,10216:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q253(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17722:Z2), Z_eq_Z(y:Z1,14472:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q266(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,181:Z2), Z_eq_Z(y:Z1,12640:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q300(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4991:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q301(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21099:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q305(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8977:Z2), Z_eq_Z(y:Z1,18165:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q306(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5483:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q307(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13325:Z2), Z_eq_Z(y:Z1,17630:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q352(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17243:Z2), Z_eq_Z(y:Z1,531:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q442(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8037:Z2), Z_eq_Z(y:Z1,4387:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q446(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21715:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q447(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8889:Z2), Z_eq_Z(y:Z1,11549:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q448(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8064:Z2), Z_eq_Z(y:Z1,12772:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q764(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1670:Z2), Z_eq_Z(y:Z1,3666:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q802(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2091:Z2), Z_eq_Z(y:Z1,9174:Z3).
-   Updates: 1
-   Time: 7 ms
-   Longest Iteration: 0 (0 ms)
-Rule q843(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2411:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 7 ms
+   Time: 4 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(2010,688,2011) :- .
    Updates: 1
-   Time: 8 ms
+   Time: 5 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(4954,332,2831) :- .
+Rule fun(3591,1082,3592) :- .
    Updates: 1
-   Time: 8 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(6122,1149,634) :- .
-   Updates: 1
-   Time: 8 ms
+   Time: 5 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(7115,152,7115) :- .
    Updates: 1
-   Time: 8 ms
+   Time: 5 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(11114,661,11115) :- .
+Rule fun(22004,1149,770) :- .
    Updates: 1
-   Time: 8 ms
+   Time: 5 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(12342,1220,2973) :- .
+Rule q441(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14968:Z2), Z_eq_Z(y:Z1,2441:Z3).
    Updates: 1
-   Time: 8 ms
+   Time: 5 ms
    Longest Iteration: 0 (0 ms)
-Rule q65(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8256:Z2), Z_eq_Z(y:Z1,22:Z3).
+Rule q499(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3183:Z2), Z_eq_Z(y:Z1,5487:Z3).
    Updates: 1
-   Time: 8 ms
+   Time: 5 ms
    Longest Iteration: 0 (0 ms)
-Rule q128(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20845:Z2), Z_eq_Z(y:Z1,1520:Z3).
+Rule q997(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22256:Z2), Z_eq_Z(y:Z1,9210:Z3).
    Updates: 1
-   Time: 8 ms
+   Time: 5 ms
    Longest Iteration: 0 (0 ms)
-Rule q129(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6555:Z2), Z_eq_Z(y:Z1,5400:Z3).
+Rule q998(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10507:Z2), Z_eq_Z(y:Z1,8938:Z3).
    Updates: 1
-   Time: 8 ms
-   Longest Iteration: 0 (0 ms)
-Rule q130(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3034:Z2), Z_eq_Z(y:Z1,11893:Z3).
-   Updates: 1
-   Time: 8 ms
-   Longest Iteration: 0 (0 ms)
-Rule q131(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4958:Z2), Z_eq_Z(y:Z1,11397:Z3).
-   Updates: 1
-   Time: 8 ms
-   Longest Iteration: 0 (0 ms)
-Rule q133(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,26:Z2), Z_eq_Z(y:Z1,10:Z3).
-   Updates: 1
-   Time: 8 ms
-   Longest Iteration: 0 (0 ms)
-Rule q201(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14795:Z2), Z_eq_Z(y:Z1,17155:Z3).
-   Updates: 1
-   Time: 8 ms
-   Longest Iteration: 0 (0 ms)
-Rule q297(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9622:Z2), Z_eq_Z(y:Z1,12032:Z3).
-   Updates: 1
-   Time: 8 ms
-   Longest Iteration: 0 (0 ms)
-Rule q308(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20274:Z2), Z_eq_Z(y:Z1,8730:Z3).
-   Updates: 1
-   Time: 8 ms
-   Longest Iteration: 0 (0 ms)
-Rule q332(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22380:Z2), Z_eq_Z(y:Z1,10134:Z3).
-   Updates: 1
-   Time: 8 ms
-   Longest Iteration: 0 (0 ms)
-Rule q341(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7794:Z2), Z_eq_Z(y:Z1,4983:Z3).
-   Updates: 1
-   Time: 8 ms
-   Longest Iteration: 0 (0 ms)
-Rule q351(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10136:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 8 ms
-   Longest Iteration: 0 (0 ms)
-Rule q353(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3135:Z2), Z_eq_Z(y:Z1,20853:Z3).
-   Updates: 1
-   Time: 8 ms
-   Longest Iteration: 0 (0 ms)
-Rule q354(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7327:Z2), Z_eq_Z(y:Z1,17970:Z3).
-   Updates: 1
-   Time: 8 ms
-   Longest Iteration: 0 (0 ms)
-Rule q394(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4008:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 8 ms
-   Longest Iteration: 0 (0 ms)
-Rule q532(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18192:Z2), Z_eq_Z(y:Z1,5162:Z3).
-   Updates: 1
-   Time: 8 ms
-   Longest Iteration: 0 (0 ms)
-Rule q658(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22219:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 8 ms
-   Longest Iteration: 0 (0 ms)
-Rule q659(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19052:Z2), Z_eq_Z(y:Z1,6881:Z3).
-   Updates: 1
-   Time: 8 ms
-   Longest Iteration: 0 (0 ms)
-Rule q670(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17794:Z2), Z_eq_Z(y:Z1,21366:Z3).
-   Updates: 1
-   Time: 8 ms
-   Longest Iteration: 0 (0 ms)
-Rule q751(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13868:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 8 ms
-   Longest Iteration: 0 (0 ms)
-Rule q994(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1813:Z2), Z_eq_Z(y:Z1,4734:Z3).
-   Updates: 1
-   Time: 8 ms
+   Time: 5 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(9669,883,7104) :- .
    Updates: 1
-   Time: 9 ms
+   Time: 6 ms
    Longest Iteration: 0 (0 ms)
-Rule q124(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8530:Z2), Z_eq_Z(y:Z1,3700:Z3).
+Rule fun(11114,661,11115) :- .
    Updates: 1
-   Time: 9 ms
+   Time: 6 ms
    Longest Iteration: 0 (0 ms)
-Rule q132(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19567:Z2), Z_eq_Z(y:Z1,7261:Z3).
+Rule fun(12342,1220,2973) :- .
    Updates: 1
-   Time: 9 ms
+   Time: 6 ms
    Longest Iteration: 0 (0 ms)
-Rule q134(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5895:Z2), Z_eq_Z(y:Z1,3584:Z3).
+Rule fun(18644,571,18645) :- .
    Updates: 1
-   Time: 9 ms
+   Time: 6 ms
    Longest Iteration: 0 (0 ms)
-Rule q216(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9873:Z2), Z_eq_Z(y:Z1,13148:Z3).
+Rule q489(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13293:Z2), Z_eq_Z(y:Z1,16956:Z3).
    Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q219(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11858:Z2), Z_eq_Z(y:Z1,8436:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q302(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8567:Z2), Z_eq_Z(y:Z1,232:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q303(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8079:Z2), Z_eq_Z(y:Z1,10479:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q315(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5221:Z2), Z_eq_Z(y:Z1,3700:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q323(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9829:Z2), Z_eq_Z(y:Z1,899:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q324(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10564:Z2), Z_eq_Z(y:Z1,9208:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q325(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18511:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q328(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13715:Z2), Z_eq_Z(y:Z1,658:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q330(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13082:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q331(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20285:Z2), Z_eq_Z(y:Z1,330:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q333(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18776:Z2), Z_eq_Z(y:Z1,3280:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q334(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5977:Z2), Z_eq_Z(y:Z1,8999:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q339(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21057:Z2), Z_eq_Z(y:Z1,18787:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q340(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14887:Z2), Z_eq_Z(y:Z1,13539:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q342(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,13684:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q345(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1184:Z2), Z_eq_Z(y:Z1,19695:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q346(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10472:Z2), Z_eq_Z(y:Z1,13574:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q347(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19568:Z2), Z_eq_Z(y:Z1,346:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q349(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7197:Z2), Z_eq_Z(y:Z1,364:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q350(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3595:Z2), Z_eq_Z(y:Z1,11573:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q356(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,22586:Z2), Z_eq_Z(y:Z1,1368:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q357(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14055:Z2), Z_eq_Z(y:Z1,21966:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q358(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19371:Z2), Z_eq_Z(y:Z1,12226:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q359(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16910:Z2), Z_eq_Z(y:Z1,16926:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q361(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7783:Z2), Z_eq_Z(y:Z1,2248:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q444(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18657:Z2), Z_eq_Z(y:Z1,151:Z3).
-   Updates: 1
-   Time: 9 ms
-   Longest Iteration: 0 (0 ms)
-Rule q126(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,10466:Z2), Z_eq_Z(y:Z1,7724:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q135(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,16386:Z2), Z_eq_Z(y:Z1,3836:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q136(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14205:Z2), Z_eq_Z(y:Z1,4544:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q217(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14830:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q309(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3386:Z2), Z_eq_Z(y:Z1,151:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q310(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,15281:Z2), Z_eq_Z(y:Z1,8633:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q311(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21382:Z2), Z_eq_Z(y:Z1,3336:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q312(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1042:Z2), Z_eq_Z(y:Z1,419:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q320(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19698:Z2), Z_eq_Z(y:Z1,2366:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q321(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19254:Z2), Z_eq_Z(y:Z1,16396:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q322(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14114:Z2), Z_eq_Z(y:Z1,364:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q326(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21627:Z2), Z_eq_Z(y:Z1,19256:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q327(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7644:Z2), Z_eq_Z(y:Z1,6074:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q338(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18980:Z2), Z_eq_Z(y:Z1,2678:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q343(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20292:Z2), Z_eq_Z(y:Z1,9908:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q344(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12715:Z2), Z_eq_Z(y:Z1,18592:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q348(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1391:Z2), Z_eq_Z(y:Z1,4169:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q355(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21649:Z2), Z_eq_Z(y:Z1,6496:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q360(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8646:Z2), Z_eq_Z(y:Z1,230:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q363(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5467:Z2), Z_eq_Z(y:Z1,3548:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q445(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,19626:Z2), Z_eq_Z(y:Z1,7019:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q990(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,9258:Z2), Z_eq_Z(y:Z1,7557:Z3).
-   Updates: 1
-   Time: 10 ms
-   Longest Iteration: 0 (0 ms)
-Rule q125(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,1453:Z2), Z_eq_Z(y:Z1,2688:Z3).
-   Updates: 1
-   Time: 11 ms
-   Longest Iteration: 0 (0 ms)
-Rule q137(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11250:Z2), Z_eq_Z(y:Z1,18544:Z3).
-   Updates: 1
-   Time: 11 ms
-   Longest Iteration: 0 (0 ms)
-Rule q138(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5070:Z2), Z_eq_Z(y:Z1,12784:Z3).
-   Updates: 1
-   Time: 11 ms
-   Longest Iteration: 0 (0 ms)
-Rule q218(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5353:Z2), Z_eq_Z(y:Z1,14518:Z3).
-   Updates: 1
-   Time: 11 ms
-   Longest Iteration: 0 (0 ms)
-Rule q313(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,6046:Z2), Z_eq_Z(y:Z1,9086:Z3).
-   Updates: 1
-   Time: 11 ms
-   Longest Iteration: 0 (0 ms)
-Rule q314(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,4674:Z2), Z_eq_Z(y:Z1,2122:Z3).
-   Updates: 1
-   Time: 11 ms
-   Longest Iteration: 0 (0 ms)
-Rule q316(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3781:Z2), Z_eq_Z(y:Z1,2068:Z3).
-   Updates: 1
-   Time: 11 ms
-   Longest Iteration: 0 (0 ms)
-Rule q319(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11549:Z2), Z_eq_Z(y:Z1,22:Z3).
-   Updates: 1
-   Time: 11 ms
-   Longest Iteration: 0 (0 ms)
-Rule q336(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7287:Z2), Z_eq_Z(y:Z1,9656:Z3).
-   Updates: 1
-   Time: 11 ms
-   Longest Iteration: 0 (0 ms)
-Rule q337(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,8261:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 11 ms
-   Longest Iteration: 0 (0 ms)
-Rule q991(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,17273:Z2), Z_eq_Z(y:Z1,22033:Z3).
-   Updates: 1
-   Time: 11 ms
-   Longest Iteration: 0 (0 ms)
-Rule q992(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,12999:Z2), Z_eq_Z(y:Z1,2720:Z3).
-   Updates: 1
-   Time: 11 ms
-   Longest Iteration: 0 (0 ms)
-Rule q996(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,14309:Z2), Z_eq_Z(y:Z1,20648:Z3).
-   Updates: 1
-   Time: 11 ms
-   Longest Iteration: 0 (0 ms)
-Rule q139(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,2465:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 12 ms
-   Longest Iteration: 0 (0 ms)
-Rule q317(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,20188:Z2), Z_eq_Z(y:Z1,6831:Z3).
-   Updates: 1
-   Time: 12 ms
-   Longest Iteration: 0 (0 ms)
-Rule q335(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,11288:Z2), Z_eq_Z(y:Z1,18:Z3).
-   Updates: 1
-   Time: 12 ms
-   Longest Iteration: 0 (0 ms)
-Rule q362(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18784:Z2), Z_eq_Z(y:Z1,4338:Z3).
-   Updates: 1
-   Time: 12 ms
-   Longest Iteration: 0 (0 ms)
-Rule q997(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,3489:Z2), Z_eq_Z(y:Z1,2640:Z3).
-   Updates: 1
-   Time: 12 ms
-   Longest Iteration: 0 (0 ms)
-Rule q993(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,18984:Z2), Z_eq_Z(y:Z1,38:Z3).
-   Updates: 1
-   Time: 13 ms
-   Longest Iteration: 0 (0 ms)
-Rule q998(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,21917:Z2), Z_eq_Z(y:Z1,0:Z3).
-   Updates: 1
-   Time: 13 ms
-   Longest Iteration: 0 (0 ms)
-Rule q999(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,5796:Z2), Z_eq_Z(y:Z1,6182:Z3).
-   Updates: 1
-   Time: 13 ms
-   Longest Iteration: 0 (0 ms)
-Rule fun(8022,281,5768) :- .
-   Updates: 1
-   Time: 14 ms
-   Longest Iteration: 0 (0 ms)
-Rule eq(x:Z0,z:Z2) :- eq(x:Z0,y:Z1), eq(y:Z1,z:Z2).
-   Updates: 4
-   Time: 47 ms
+   Time: 6 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(22550,1149,152) :- .
    Updates: 1
-   Time: 58 ms
+   Time: 8 ms
    Longest Iteration: 0 (0 ms)
-Rule fun(7558,1149,459) :- .
+Rule q999(x:Z0,y:Z1) :- eq(x:Z0,y:Z1), Z_eq_Z(x:Z0,7944:Z2), Z_eq_Z(y:Z1,1343:Z3).
    Updates: 1
-   Time: 76 ms
+   Time: 8 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(8022,281,5768) :- .
+   Updates: 1
+   Time: 9 ms
+   Longest Iteration: 0 (0 ms)
+Rule fun(12347,846,12348) :- .
+   Updates: 1
+   Time: 32 ms
+   Longest Iteration: 0 (0 ms)
+Rule eq(x:Z0,z:Z2) :- eq(x:Z0,y:Z1), eq(y:Z1,z:Z2).
+   Updates: 4
+   Time: 52 ms
    Longest Iteration: 0 (0 ms)
 Rule eq(x:Z1,y:Z0) :- eq(y:Z0,x:Z1).
    Updates: 8
-   Time: 2871 ms
+   Time: 2337 ms
    Longest Iteration: 0 (0 ms)
 Rule eq(x:Z0,y:Z3) :- fun(x:Z0,f:Z1,z:Z2), fun(y:Z3,f:Z1,z:Z2).
    Updates: 8
-   Time: 4374 ms
+   Time: 3140 ms
    Longest Iteration: 0 (0 ms)
 Rule fun(x:Z0,f:Z1,z:Z3) :- fun(x:Z0,f:Z1,y:Z2), eq(z:Z3,y:Z2).
    Updates: 15
-   Time: 9533 ms
+   Time: 7159 ms
    Longest Iteration: 0 (0 ms)
 Saving results: SIZE OF eq: 1497349.
 SIZE OF q0: 0.
 SIZE OF q1: 1.
 SIZE OF q2: 0.
 SIZE OF q3: 0.
-SIZE OF q4: 1.
-SIZE OF q5: 0.
-SIZE OF q6: 1.
-SIZE OF q7: 1.
+SIZE OF q4: 0.
+SIZE OF q5: 1.
+SIZE OF q6: 0.
+SIZE OF q7: 0.
 SIZE OF q8: 1.
 SIZE OF q9: 1.
 SIZE OF q10: 0.
 SIZE OF q11: 1.
 SIZE OF q12: 0.
-SIZE OF q13: 0.
-SIZE OF q14: 0.
+SIZE OF q13: 1.
+SIZE OF q14: 1.
 SIZE OF q15: 1.
 SIZE OF q16: 0.
 SIZE OF q17: 1.
-SIZE OF q18: 1.
+SIZE OF q18: 0.
 SIZE OF q19: 0.
-SIZE OF q20: 0.
-SIZE OF q21: 0.
-SIZE OF q22: 0.
+SIZE OF q20: 1.
+SIZE OF q21: 1.
+SIZE OF q22: 1.
 SIZE OF q23: 1.
 SIZE OF q24: 1.
 SIZE OF q25: 1.
-SIZE OF q26: 1.
+SIZE OF q26: 0.
 SIZE OF q27: 1.
-SIZE OF q28: 0.
+SIZE OF q28: 1.
 SIZE OF q29: 0.
 SIZE OF q30: 1.
-SIZE OF q31: 1.
-SIZE OF q32: 1.
-SIZE OF q33: 0.
-SIZE OF q34: 0.
+SIZE OF q31: 0.
+SIZE OF q32: 0.
+SIZE OF q33: 1.
+SIZE OF q34: 1.
 SIZE OF q35: 0.
-SIZE OF q36: 1.
-SIZE OF q37: 0.
-SIZE OF q38: 0.
-SIZE OF q39: 1.
-SIZE OF q40: 0.
+SIZE OF q36: 0.
+SIZE OF q37: 1.
+SIZE OF q38: 1.
+SIZE OF q39: 0.
+SIZE OF q40: 1.
 SIZE OF q41: 0.
-SIZE OF q42: 0.
+SIZE OF q42: 1.
 SIZE OF q43: 0.
 SIZE OF q44: 0.
-SIZE OF q45: 0.
+SIZE OF q45: 1.
 SIZE OF q46: 0.
-SIZE OF q47: 1.
-SIZE OF q48: 0.
+SIZE OF q47: 0.
+SIZE OF q48: 1.
 SIZE OF q49: 1.
 SIZE OF q50: 0.
 SIZE OF q51: 1.
 SIZE OF q52: 0.
 SIZE OF q53: 1.
-SIZE OF q54: 0.
-SIZE OF q55: 1.
-SIZE OF q56: 0.
-SIZE OF q57: 1.
+SIZE OF q54: 1.
+SIZE OF q55: 0.
+SIZE OF q56: 1.
+SIZE OF q57: 0.
 SIZE OF q58: 0.
 SIZE OF q59: 1.
-SIZE OF q60: 0.
+SIZE OF q60: 1.
 SIZE OF q61: 1.
-SIZE OF q62: 1.
-SIZE OF q63: 0.
+SIZE OF q62: 0.
+SIZE OF q63: 1.
 SIZE OF q64: 1.
 SIZE OF q65: 1.
 SIZE OF q66: 0.
-SIZE OF q67: 0.
-SIZE OF q68: 0.
+SIZE OF q67: 1.
+SIZE OF q68: 1.
 SIZE OF q69: 0.
 SIZE OF q70: 0.
-SIZE OF q71: 0.
-SIZE OF q72: 1.
-SIZE OF q73: 0.
+SIZE OF q71: 1.
+SIZE OF q72: 0.
+SIZE OF q73: 1.
 SIZE OF q74: 1.
 SIZE OF q75: 1.
 SIZE OF q76: 1.
 SIZE OF q77: 1.
-SIZE OF q78: 0.
-SIZE OF q79: 1.
+SIZE OF q78: 1.
+SIZE OF q79: 0.
 SIZE OF q80: 0.
-SIZE OF q81: 1.
+SIZE OF q81: 0.
 SIZE OF q82: 1.
-SIZE OF q83: 1.
+SIZE OF q83: 0.
 SIZE OF q84: 0.
-SIZE OF q85: 0.
-SIZE OF q86: 1.
+SIZE OF q85: 1.
+SIZE OF q86: 0.
 SIZE OF q87: 0.
 SIZE OF q88: 0.
-SIZE OF q89: 1.
-SIZE OF q90: 0.
+SIZE OF q89: 0.
+SIZE OF q90: 1.
 SIZE OF q91: 1.
 SIZE OF q92: 1.
-SIZE OF q93: 1.
-SIZE OF q94: 0.
-SIZE OF q95: 0.
+SIZE OF q93: 0.
+SIZE OF q94: 1.
+SIZE OF q95: 1.
 SIZE OF q96: 1.
 SIZE OF q97: 0.
-SIZE OF q98: 0.
+SIZE OF q98: 1.
 SIZE OF q99: 1.
-SIZE OF q100: 1.
-SIZE OF q101: 0.
+SIZE OF q100: 0.
+SIZE OF q101: 1.
 SIZE OF q102: 1.
 SIZE OF q103: 1.
 SIZE OF q104: 0.
@@ -131723,310 +131722,310 @@ SIZE OF q105: 1.
 SIZE OF q106: 1.
 SIZE OF q107: 0.
 SIZE OF q108: 1.
-SIZE OF q109: 0.
-SIZE OF q110: 1.
-SIZE OF q111: 0.
-SIZE OF q112: 0.
-SIZE OF q113: 1.
+SIZE OF q109: 1.
+SIZE OF q110: 0.
+SIZE OF q111: 1.
+SIZE OF q112: 1.
+SIZE OF q113: 0.
 SIZE OF q114: 0.
 SIZE OF q115: 0.
-SIZE OF q116: 1.
+SIZE OF q116: 0.
 SIZE OF q117: 0.
-SIZE OF q118: 0.
-SIZE OF q119: 1.
-SIZE OF q120: 0.
+SIZE OF q118: 1.
+SIZE OF q119: 0.
+SIZE OF q120: 1.
 SIZE OF q121: 0.
-SIZE OF q122: 0.
-SIZE OF q123: 1.
-SIZE OF q124: 1.
-SIZE OF q125: 0.
-SIZE OF q126: 0.
-SIZE OF q127: 0.
+SIZE OF q122: 1.
+SIZE OF q123: 0.
+SIZE OF q124: 0.
+SIZE OF q125: 1.
+SIZE OF q126: 1.
+SIZE OF q127: 1.
 SIZE OF q128: 1.
 SIZE OF q129: 0.
 SIZE OF q130: 0.
 SIZE OF q131: 0.
 SIZE OF q132: 0.
-SIZE OF q133: 1.
+SIZE OF q133: 0.
 SIZE OF q134: 0.
-SIZE OF q135: 0.
+SIZE OF q135: 1.
 SIZE OF q136: 0.
-SIZE OF q137: 0.
+SIZE OF q137: 1.
 SIZE OF q138: 0.
-SIZE OF q139: 1.
+SIZE OF q139: 0.
 SIZE OF q140: 1.
-SIZE OF q141: 0.
+SIZE OF q141: 1.
 SIZE OF q142: 1.
-SIZE OF q143: 1.
+SIZE OF q143: 0.
 SIZE OF q144: 0.
 SIZE OF q145: 1.
-SIZE OF q146: 0.
-SIZE OF q147: 1.
+SIZE OF q146: 1.
+SIZE OF q147: 0.
 SIZE OF q148: 0.
 SIZE OF q149: 0.
 SIZE OF q150: 0.
 SIZE OF q151: 1.
 SIZE OF q152: 0.
-SIZE OF q153: 1.
+SIZE OF q153: 0.
 SIZE OF q154: 0.
-SIZE OF q155: 0.
+SIZE OF q155: 1.
 SIZE OF q156: 0.
 SIZE OF q157: 1.
-SIZE OF q158: 0.
+SIZE OF q158: 1.
 SIZE OF q159: 1.
 SIZE OF q160: 1.
-SIZE OF q161: 1.
-SIZE OF q162: 0.
+SIZE OF q161: 0.
+SIZE OF q162: 1.
 SIZE OF q163: 1.
 SIZE OF q164: 0.
 SIZE OF q165: 1.
-SIZE OF q166: 0.
-SIZE OF q167: 1.
+SIZE OF q166: 1.
+SIZE OF q167: 0.
 SIZE OF q168: 0.
-SIZE OF q169: 1.
+SIZE OF q169: 0.
 SIZE OF q170: 0.
 SIZE OF q171: 0.
 SIZE OF q172: 0.
-SIZE OF q173: 1.
-SIZE OF q174: 0.
-SIZE OF q175: 1.
+SIZE OF q173: 0.
+SIZE OF q174: 1.
+SIZE OF q175: 0.
 SIZE OF q176: 1.
-SIZE OF q177: 1.
+SIZE OF q177: 0.
 SIZE OF q178: 1.
-SIZE OF q179: 0.
+SIZE OF q179: 1.
 SIZE OF q180: 0.
 SIZE OF q181: 0.
 SIZE OF q182: 1.
 SIZE OF q183: 1.
-SIZE OF q184: 0.
+SIZE OF q184: 1.
 SIZE OF q185: 0.
 SIZE OF q186: 1.
 SIZE OF q187: 1.
-SIZE OF q188: 1.
+SIZE OF q188: 0.
 SIZE OF q189: 1.
 SIZE OF q190: 0.
 SIZE OF q191: 1.
-SIZE OF q192: 0.
+SIZE OF q192: 1.
 SIZE OF q193: 0.
-SIZE OF q194: 0.
-SIZE OF q195: 1.
-SIZE OF q196: 0.
-SIZE OF q197: 1.
+SIZE OF q194: 1.
+SIZE OF q195: 0.
+SIZE OF q196: 1.
+SIZE OF q197: 0.
 SIZE OF q198: 0.
-SIZE OF q199: 1.
+SIZE OF q199: 0.
 SIZE OF q200: 0.
-SIZE OF q201: 0.
+SIZE OF q201: 1.
 SIZE OF q202: 1.
 SIZE OF q203: 0.
 SIZE OF q204: 0.
 SIZE OF q205: 0.
-SIZE OF q206: 0.
+SIZE OF q206: 1.
 SIZE OF q207: 0.
-SIZE OF q208: 0.
-SIZE OF q209: 0.
+SIZE OF q208: 1.
+SIZE OF q209: 1.
 SIZE OF q210: 1.
-SIZE OF q211: 0.
-SIZE OF q212: 0.
+SIZE OF q211: 1.
+SIZE OF q212: 1.
 SIZE OF q213: 1.
 SIZE OF q214: 1.
 SIZE OF q215: 1.
-SIZE OF q216: 0.
-SIZE OF q217: 1.
+SIZE OF q216: 1.
+SIZE OF q217: 0.
 SIZE OF q218: 0.
-SIZE OF q219: 0.
-SIZE OF q220: 0.
-SIZE OF q221: 0.
-SIZE OF q222: 0.
+SIZE OF q219: 1.
+SIZE OF q220: 1.
+SIZE OF q221: 1.
+SIZE OF q222: 1.
 SIZE OF q223: 0.
-SIZE OF q224: 1.
-SIZE OF q225: 0.
-SIZE OF q226: 1.
+SIZE OF q224: 0.
+SIZE OF q225: 1.
+SIZE OF q226: 0.
 SIZE OF q227: 0.
-SIZE OF q228: 1.
-SIZE OF q229: 1.
+SIZE OF q228: 0.
+SIZE OF q229: 0.
 SIZE OF q230: 0.
 SIZE OF q231: 1.
 SIZE OF q232: 1.
 SIZE OF q233: 1.
-SIZE OF q234: 1.
-SIZE OF q235: 0.
-SIZE OF q236: 0.
-SIZE OF q237: 0.
-SIZE OF q238: 1.
-SIZE OF q239: 0.
+SIZE OF q234: 0.
+SIZE OF q235: 1.
+SIZE OF q236: 1.
+SIZE OF q237: 1.
+SIZE OF q238: 0.
+SIZE OF q239: 1.
 SIZE OF q240: 1.
 SIZE OF q241: 0.
 SIZE OF q242: 0.
 SIZE OF q243: 1.
 SIZE OF q244: 1.
 SIZE OF q245: 1.
-SIZE OF q246: 1.
+SIZE OF q246: 0.
 SIZE OF q247: 0.
 SIZE OF q248: 1.
 SIZE OF q249: 0.
 SIZE OF q250: 1.
-SIZE OF q251: 1.
-SIZE OF q252: 0.
+SIZE OF q251: 0.
+SIZE OF q252: 1.
 SIZE OF q253: 0.
 SIZE OF q254: 1.
-SIZE OF q255: 1.
-SIZE OF q256: 1.
-SIZE OF q257: 0.
-SIZE OF q258: 0.
+SIZE OF q255: 0.
+SIZE OF q256: 0.
+SIZE OF q257: 1.
+SIZE OF q258: 1.
 SIZE OF q259: 1.
-SIZE OF q260: 1.
+SIZE OF q260: 0.
 SIZE OF q261: 1.
 SIZE OF q262: 1.
 SIZE OF q263: 0.
 SIZE OF q264: 1.
-SIZE OF q265: 0.
-SIZE OF q266: 0.
+SIZE OF q265: 1.
+SIZE OF q266: 1.
 SIZE OF q267: 1.
-SIZE OF q268: 0.
-SIZE OF q269: 0.
-SIZE OF q270: 0.
-SIZE OF q271: 0.
+SIZE OF q268: 1.
+SIZE OF q269: 1.
+SIZE OF q270: 1.
+SIZE OF q271: 1.
 SIZE OF q272: 1.
 SIZE OF q273: 0.
-SIZE OF q274: 1.
-SIZE OF q275: 0.
-SIZE OF q276: 1.
-SIZE OF q277: 0.
+SIZE OF q274: 0.
+SIZE OF q275: 1.
+SIZE OF q276: 0.
+SIZE OF q277: 1.
 SIZE OF q278: 0.
 SIZE OF q279: 0.
-SIZE OF q280: 1.
-SIZE OF q281: 0.
+SIZE OF q280: 0.
+SIZE OF q281: 1.
 SIZE OF q282: 0.
 SIZE OF q283: 0.
 SIZE OF q284: 1.
 SIZE OF q285: 0.
-SIZE OF q286: 1.
+SIZE OF q286: 0.
 SIZE OF q287: 1.
-SIZE OF q288: 0.
-SIZE OF q289: 1.
-SIZE OF q290: 1.
-SIZE OF q291: 1.
+SIZE OF q288: 1.
+SIZE OF q289: 0.
+SIZE OF q290: 0.
+SIZE OF q291: 0.
 SIZE OF q292: 0.
 SIZE OF q293: 1.
 SIZE OF q294: 1.
 SIZE OF q295: 0.
-SIZE OF q296: 0.
-SIZE OF q297: 0.
+SIZE OF q296: 1.
+SIZE OF q297: 1.
 SIZE OF q298: 1.
 SIZE OF q299: 0.
-SIZE OF q300: 1.
-SIZE OF q301: 1.
-SIZE OF q302: 1.
-SIZE OF q303: 0.
+SIZE OF q300: 0.
+SIZE OF q301: 0.
+SIZE OF q302: 0.
+SIZE OF q303: 1.
 SIZE OF q304: 0.
 SIZE OF q305: 0.
 SIZE OF q306: 1.
 SIZE OF q307: 0.
-SIZE OF q308: 0.
-SIZE OF q309: 1.
-SIZE OF q310: 0.
+SIZE OF q308: 1.
+SIZE OF q309: 0.
+SIZE OF q310: 1.
 SIZE OF q311: 1.
-SIZE OF q312: 1.
-SIZE OF q313: 0.
-SIZE OF q314: 0.
+SIZE OF q312: 0.
+SIZE OF q313: 1.
+SIZE OF q314: 1.
 SIZE OF q315: 1.
 SIZE OF q316: 1.
-SIZE OF q317: 0.
+SIZE OF q317: 1.
 SIZE OF q318: 0.
-SIZE OF q319: 1.
+SIZE OF q319: 0.
 SIZE OF q320: 1.
-SIZE OF q321: 0.
-SIZE OF q322: 1.
+SIZE OF q321: 1.
+SIZE OF q322: 0.
 SIZE OF q323: 0.
-SIZE OF q324: 0.
+SIZE OF q324: 1.
 SIZE OF q325: 1.
 SIZE OF q326: 1.
-SIZE OF q327: 1.
-SIZE OF q328: 0.
+SIZE OF q327: 0.
+SIZE OF q328: 1.
 SIZE OF q329: 1.
-SIZE OF q330: 1.
-SIZE OF q331: 1.
-SIZE OF q332: 1.
+SIZE OF q330: 0.
+SIZE OF q331: 0.
+SIZE OF q332: 0.
 SIZE OF q333: 1.
-SIZE OF q334: 0.
-SIZE OF q335: 1.
-SIZE OF q336: 0.
-SIZE OF q337: 1.
-SIZE OF q338: 1.
+SIZE OF q334: 1.
+SIZE OF q335: 0.
+SIZE OF q336: 1.
+SIZE OF q337: 0.
+SIZE OF q338: 0.
 SIZE OF q339: 0.
-SIZE OF q340: 0.
-SIZE OF q341: 1.
+SIZE OF q340: 1.
+SIZE OF q341: 0.
 SIZE OF q342: 1.
-SIZE OF q343: 0.
-SIZE OF q344: 0.
+SIZE OF q343: 1.
+SIZE OF q344: 1.
 SIZE OF q345: 0.
 SIZE OF q346: 0.
 SIZE OF q347: 1.
 SIZE OF q348: 0.
 SIZE OF q349: 1.
 SIZE OF q350: 0.
-SIZE OF q351: 1.
+SIZE OF q351: 0.
 SIZE OF q352: 1.
-SIZE OF q353: 0.
-SIZE OF q354: 0.
+SIZE OF q353: 1.
+SIZE OF q354: 1.
 SIZE OF q355: 0.
 SIZE OF q356: 1.
-SIZE OF q357: 0.
-SIZE OF q358: 1.
-SIZE OF q359: 0.
-SIZE OF q360: 1.
-SIZE OF q361: 1.
+SIZE OF q357: 1.
+SIZE OF q358: 0.
+SIZE OF q359: 1.
+SIZE OF q360: 0.
+SIZE OF q361: 0.
 SIZE OF q362: 1.
 SIZE OF q363: 1.
 SIZE OF q364: 0.
 SIZE OF q365: 1.
 SIZE OF q366: 0.
-SIZE OF q367: 0.
-SIZE OF q368: 0.
-SIZE OF q369: 0.
-SIZE OF q370: 1.
+SIZE OF q367: 1.
+SIZE OF q368: 1.
+SIZE OF q369: 1.
+SIZE OF q370: 0.
 SIZE OF q371: 0.
-SIZE OF q372: 0.
+SIZE OF q372: 1.
 SIZE OF q373: 0.
 SIZE OF q374: 1.
 SIZE OF q375: 1.
 SIZE OF q376: 1.
 SIZE OF q377: 1.
-SIZE OF q378: 0.
-SIZE OF q379: 1.
+SIZE OF q378: 1.
+SIZE OF q379: 0.
 SIZE OF q380: 0.
 SIZE OF q381: 0.
 SIZE OF q382: 1.
 SIZE OF q383: 0.
 SIZE OF q384: 0.
-SIZE OF q385: 1.
-SIZE OF q386: 1.
+SIZE OF q385: 0.
+SIZE OF q386: 0.
 SIZE OF q387: 1.
-SIZE OF q388: 1.
-SIZE OF q389: 0.
+SIZE OF q388: 0.
+SIZE OF q389: 1.
 SIZE OF q390: 1.
-SIZE OF q391: 1.
+SIZE OF q391: 0.
 SIZE OF q392: 1.
 SIZE OF q393: 0.
 SIZE OF q394: 1.
 SIZE OF q395: 0.
-SIZE OF q396: 1.
-SIZE OF q397: 0.
+SIZE OF q396: 0.
+SIZE OF q397: 1.
 SIZE OF q398: 0.
-SIZE OF q399: 0.
-SIZE OF q400: 1.
-SIZE OF q401: 0.
-SIZE OF q402: 1.
-SIZE OF q403: 0.
-SIZE OF q404: 0.
+SIZE OF q399: 1.
+SIZE OF q400: 0.
+SIZE OF q401: 1.
+SIZE OF q402: 0.
+SIZE OF q403: 1.
+SIZE OF q404: 1.
 SIZE OF q405: 1.
 SIZE OF q406: 0.
 SIZE OF q407: 1.
 SIZE OF q408: 0.
-SIZE OF q409: 0.
-SIZE OF q410: 1.
+SIZE OF q409: 1.
+SIZE OF q410: 0.
 SIZE OF q411: 1.
-SIZE OF q412: 1.
+SIZE OF q412: 0.
 SIZE OF q413: 1.
 SIZE OF q414: 0.
 SIZE OF q415: 0.
@@ -132038,305 +132037,305 @@ SIZE OF q420: 1.
 SIZE OF q421: 1.
 SIZE OF q422: 0.
 SIZE OF q423: 1.
-SIZE OF q424: 0.
+SIZE OF q424: 1.
 SIZE OF q425: 1.
 SIZE OF q426: 0.
 SIZE OF q427: 1.
 SIZE OF q428: 0.
-SIZE OF q429: 1.
+SIZE OF q429: 0.
 SIZE OF q430: 0.
-SIZE OF q431: 0.
-SIZE OF q432: 0.
-SIZE OF q433: 1.
+SIZE OF q431: 1.
+SIZE OF q432: 1.
+SIZE OF q433: 0.
 SIZE OF q434: 0.
 SIZE OF q435: 1.
-SIZE OF q436: 0.
+SIZE OF q436: 1.
 SIZE OF q437: 0.
-SIZE OF q438: 1.
-SIZE OF q439: 1.
-SIZE OF q440: 0.
-SIZE OF q441: 0.
+SIZE OF q438: 0.
+SIZE OF q439: 0.
+SIZE OF q440: 1.
+SIZE OF q441: 1.
 SIZE OF q442: 1.
-SIZE OF q443: 0.
+SIZE OF q443: 1.
 SIZE OF q444: 1.
-SIZE OF q445: 0.
+SIZE OF q445: 1.
 SIZE OF q446: 1.
-SIZE OF q447: 0.
+SIZE OF q447: 1.
 SIZE OF q448: 0.
-SIZE OF q449: 0.
-SIZE OF q450: 0.
-SIZE OF q451: 0.
-SIZE OF q452: 0.
+SIZE OF q449: 1.
+SIZE OF q450: 1.
+SIZE OF q451: 1.
+SIZE OF q452: 1.
 SIZE OF q453: 1.
-SIZE OF q454: 1.
-SIZE OF q455: 1.
+SIZE OF q454: 0.
+SIZE OF q455: 0.
 SIZE OF q456: 0.
-SIZE OF q457: 0.
-SIZE OF q458: 1.
-SIZE OF q459: 0.
-SIZE OF q460: 0.
+SIZE OF q457: 1.
+SIZE OF q458: 0.
+SIZE OF q459: 1.
+SIZE OF q460: 1.
 SIZE OF q461: 0.
-SIZE OF q462: 0.
-SIZE OF q463: 1.
+SIZE OF q462: 1.
+SIZE OF q463: 0.
 SIZE OF q464: 0.
 SIZE OF q465: 0.
-SIZE OF q466: 0.
+SIZE OF q466: 1.
 SIZE OF q467: 1.
-SIZE OF q468: 0.
-SIZE OF q469: 1.
+SIZE OF q468: 1.
+SIZE OF q469: 0.
 SIZE OF q470: 1.
-SIZE OF q471: 0.
-SIZE OF q472: 1.
+SIZE OF q471: 1.
+SIZE OF q472: 0.
 SIZE OF q473: 1.
-SIZE OF q474: 0.
+SIZE OF q474: 1.
 SIZE OF q475: 0.
-SIZE OF q476: 1.
+SIZE OF q476: 0.
 SIZE OF q477: 0.
-SIZE OF q478: 0.
+SIZE OF q478: 1.
 SIZE OF q479: 0.
-SIZE OF q480: 1.
-SIZE OF q481: 1.
+SIZE OF q480: 0.
+SIZE OF q481: 0.
 SIZE OF q482: 1.
 SIZE OF q483: 0.
 SIZE OF q484: 0.
-SIZE OF q485: 1.
-SIZE OF q486: 0.
+SIZE OF q485: 0.
+SIZE OF q486: 1.
 SIZE OF q487: 1.
 SIZE OF q488: 0.
-SIZE OF q489: 1.
-SIZE OF q490: 1.
+SIZE OF q489: 0.
+SIZE OF q490: 0.
 SIZE OF q491: 0.
 SIZE OF q492: 0.
 SIZE OF q493: 0.
 SIZE OF q494: 1.
-SIZE OF q495: 1.
+SIZE OF q495: 0.
 SIZE OF q496: 0.
 SIZE OF q497: 0.
-SIZE OF q498: 0.
+SIZE OF q498: 1.
 SIZE OF q499: 0.
 SIZE OF q500: 1.
 SIZE OF q501: 0.
-SIZE OF q502: 0.
+SIZE OF q502: 1.
 SIZE OF q503: 0.
-SIZE OF q504: 0.
+SIZE OF q504: 1.
 SIZE OF q505: 0.
 SIZE OF q506: 0.
 SIZE OF q507: 1.
-SIZE OF q508: 0.
-SIZE OF q509: 0.
-SIZE OF q510: 0.
-SIZE OF q511: 0.
+SIZE OF q508: 1.
+SIZE OF q509: 1.
+SIZE OF q510: 1.
+SIZE OF q511: 1.
 SIZE OF q512: 0.
-SIZE OF q513: 1.
-SIZE OF q514: 0.
-SIZE OF q515: 0.
+SIZE OF q513: 0.
+SIZE OF q514: 1.
+SIZE OF q515: 1.
 SIZE OF q516: 1.
-SIZE OF q517: 1.
-SIZE OF q518: 1.
-SIZE OF q519: 1.
-SIZE OF q520: 0.
+SIZE OF q517: 0.
+SIZE OF q518: 0.
+SIZE OF q519: 0.
+SIZE OF q520: 1.
 SIZE OF q521: 1.
 SIZE OF q522: 0.
-SIZE OF q523: 0.
-SIZE OF q524: 1.
+SIZE OF q523: 1.
+SIZE OF q524: 0.
 SIZE OF q525: 0.
-SIZE OF q526: 1.
+SIZE OF q526: 0.
 SIZE OF q527: 0.
-SIZE OF q528: 0.
-SIZE OF q529: 1.
-SIZE OF q530: 1.
-SIZE OF q531: 0.
-SIZE OF q532: 1.
+SIZE OF q528: 1.
+SIZE OF q529: 0.
+SIZE OF q530: 0.
+SIZE OF q531: 1.
+SIZE OF q532: 0.
 SIZE OF q533: 1.
-SIZE OF q534: 0.
-SIZE OF q535: 1.
-SIZE OF q536: 1.
+SIZE OF q534: 1.
+SIZE OF q535: 0.
+SIZE OF q536: 0.
 SIZE OF q537: 0.
-SIZE OF q538: 1.
-SIZE OF q539: 1.
-SIZE OF q540: 1.
-SIZE OF q541: 0.
-SIZE OF q542: 0.
+SIZE OF q538: 0.
+SIZE OF q539: 0.
+SIZE OF q540: 0.
+SIZE OF q541: 1.
+SIZE OF q542: 1.
 SIZE OF q543: 1.
-SIZE OF q544: 1.
+SIZE OF q544: 0.
 SIZE OF q545: 0.
 SIZE OF q546: 1.
-SIZE OF q547: 1.
+SIZE OF q547: 0.
 SIZE OF q548: 0.
 SIZE OF q549: 1.
-SIZE OF q550: 1.
+SIZE OF q550: 0.
 SIZE OF q551: 1.
 SIZE OF q552: 1.
-SIZE OF q553: 0.
-SIZE OF q554: 1.
+SIZE OF q553: 1.
+SIZE OF q554: 0.
 SIZE OF q555: 0.
-SIZE OF q556: 1.
+SIZE OF q556: 0.
 SIZE OF q557: 0.
-SIZE OF q558: 1.
-SIZE OF q559: 1.
+SIZE OF q558: 0.
+SIZE OF q559: 0.
 SIZE OF q560: 1.
 SIZE OF q561: 0.
-SIZE OF q562: 0.
-SIZE OF q563: 0.
+SIZE OF q562: 1.
+SIZE OF q563: 1.
 SIZE OF q564: 1.
-SIZE OF q565: 0.
+SIZE OF q565: 1.
 SIZE OF q566: 1.
-SIZE OF q567: 0.
-SIZE OF q568: 0.
-SIZE OF q569: 0.
+SIZE OF q567: 1.
+SIZE OF q568: 1.
+SIZE OF q569: 1.
 SIZE OF q570: 0.
-SIZE OF q571: 1.
+SIZE OF q571: 0.
 SIZE OF q572: 0.
 SIZE OF q573: 0.
 SIZE OF q574: 1.
-SIZE OF q575: 0.
-SIZE OF q576: 1.
+SIZE OF q575: 1.
+SIZE OF q576: 0.
 SIZE OF q577: 1.
-SIZE OF q578: 0.
+SIZE OF q578: 1.
 SIZE OF q579: 1.
-SIZE OF q580: 1.
+SIZE OF q580: 0.
 SIZE OF q581: 1.
 SIZE OF q582: 1.
 SIZE OF q583: 1.
-SIZE OF q584: 1.
-SIZE OF q585: 0.
-SIZE OF q586: 1.
+SIZE OF q584: 0.
+SIZE OF q585: 1.
+SIZE OF q586: 0.
 SIZE OF q587: 1.
-SIZE OF q588: 0.
-SIZE OF q589: 1.
+SIZE OF q588: 1.
+SIZE OF q589: 0.
 SIZE OF q590: 1.
-SIZE OF q591: 1.
+SIZE OF q591: 0.
 SIZE OF q592: 1.
-SIZE OF q593: 1.
+SIZE OF q593: 0.
 SIZE OF q594: 1.
-SIZE OF q595: 0.
-SIZE OF q596: 1.
+SIZE OF q595: 1.
+SIZE OF q596: 0.
 SIZE OF q597: 1.
-SIZE OF q598: 1.
+SIZE OF q598: 0.
 SIZE OF q599: 1.
 SIZE OF q600: 0.
-SIZE OF q601: 1.
-SIZE OF q602: 0.
-SIZE OF q603: 0.
+SIZE OF q601: 0.
+SIZE OF q602: 1.
+SIZE OF q603: 1.
 SIZE OF q604: 0.
 SIZE OF q605: 0.
-SIZE OF q606: 0.
+SIZE OF q606: 1.
 SIZE OF q607: 1.
 SIZE OF q608: 0.
-SIZE OF q609: 0.
-SIZE OF q610: 1.
+SIZE OF q609: 1.
+SIZE OF q610: 0.
 SIZE OF q611: 1.
 SIZE OF q612: 1.
 SIZE OF q613: 1.
 SIZE OF q614: 1.
 SIZE OF q615: 1.
-SIZE OF q616: 1.
+SIZE OF q616: 0.
 SIZE OF q617: 0.
 SIZE OF q618: 1.
-SIZE OF q619: 1.
+SIZE OF q619: 0.
 SIZE OF q620: 0.
 SIZE OF q621: 0.
 SIZE OF q622: 1.
-SIZE OF q623: 0.
+SIZE OF q623: 1.
 SIZE OF q624: 1.
 SIZE OF q625: 0.
 SIZE OF q626: 0.
-SIZE OF q627: 1.
+SIZE OF q627: 0.
 SIZE OF q628: 1.
 SIZE OF q629: 1.
 SIZE OF q630: 0.
-SIZE OF q631: 0.
+SIZE OF q631: 1.
 SIZE OF q632: 0.
 SIZE OF q633: 0.
 SIZE OF q634: 1.
-SIZE OF q635: 0.
-SIZE OF q636: 1.
-SIZE OF q637: 1.
+SIZE OF q635: 1.
+SIZE OF q636: 0.
+SIZE OF q637: 0.
 SIZE OF q638: 1.
-SIZE OF q639: 0.
-SIZE OF q640: 1.
-SIZE OF q641: 1.
+SIZE OF q639: 1.
+SIZE OF q640: 0.
+SIZE OF q641: 0.
 SIZE OF q642: 1.
 SIZE OF q643: 0.
 SIZE OF q644: 1.
 SIZE OF q645: 1.
 SIZE OF q646: 1.
 SIZE OF q647: 1.
-SIZE OF q648: 0.
+SIZE OF q648: 1.
 SIZE OF q649: 1.
 SIZE OF q650: 1.
-SIZE OF q651: 0.
-SIZE OF q652: 0.
+SIZE OF q651: 1.
+SIZE OF q652: 1.
 SIZE OF q653: 1.
-SIZE OF q654: 0.
-SIZE OF q655: 1.
+SIZE OF q654: 1.
+SIZE OF q655: 0.
 SIZE OF q656: 1.
 SIZE OF q657: 1.
-SIZE OF q658: 1.
+SIZE OF q658: 0.
 SIZE OF q659: 0.
-SIZE OF q660: 0.
-SIZE OF q661: 1.
+SIZE OF q660: 1.
+SIZE OF q661: 0.
 SIZE OF q662: 0.
-SIZE OF q663: 1.
-SIZE OF q664: 1.
-SIZE OF q665: 1.
-SIZE OF q666: 0.
-SIZE OF q667: 0.
+SIZE OF q663: 0.
+SIZE OF q664: 0.
+SIZE OF q665: 0.
+SIZE OF q666: 1.
+SIZE OF q667: 1.
 SIZE OF q668: 0.
-SIZE OF q669: 1.
-SIZE OF q670: 0.
+SIZE OF q669: 0.
+SIZE OF q670: 1.
 SIZE OF q671: 0.
 SIZE OF q672: 1.
-SIZE OF q673: 0.
-SIZE OF q674: 0.
-SIZE OF q675: 1.
-SIZE OF q676: 0.
-SIZE OF q677: 1.
+SIZE OF q673: 1.
+SIZE OF q674: 1.
+SIZE OF q675: 0.
+SIZE OF q676: 1.
+SIZE OF q677: 0.
 SIZE OF q678: 1.
-SIZE OF q679: 0.
-SIZE OF q680: 0.
-SIZE OF q681: 0.
+SIZE OF q679: 1.
+SIZE OF q680: 1.
+SIZE OF q681: 1.
 SIZE OF q682: 0.
-SIZE OF q683: 0.
-SIZE OF q684: 1.
-SIZE OF q685: 0.
+SIZE OF q683: 1.
+SIZE OF q684: 0.
+SIZE OF q685: 1.
 SIZE OF q686: 0.
-SIZE OF q687: 0.
-SIZE OF q688: 1.
+SIZE OF q687: 1.
+SIZE OF q688: 0.
 SIZE OF q689: 1.
-SIZE OF q690: 0.
+SIZE OF q690: 1.
 SIZE OF q691: 1.
 SIZE OF q692: 1.
 SIZE OF q693: 1.
-SIZE OF q694: 1.
+SIZE OF q694: 0.
 SIZE OF q695: 1.
 SIZE OF q696: 0.
-SIZE OF q697: 1.
-SIZE OF q698: 0.
-SIZE OF q699: 1.
+SIZE OF q697: 0.
+SIZE OF q698: 1.
+SIZE OF q699: 0.
 SIZE OF q700: 0.
 SIZE OF q701: 0.
 SIZE OF q702: 1.
-SIZE OF q703: 0.
+SIZE OF q703: 1.
 SIZE OF q704: 1.
-SIZE OF q705: 1.
+SIZE OF q705: 0.
 SIZE OF q706: 1.
 SIZE OF q707: 0.
 SIZE OF q708: 0.
-SIZE OF q709: 0.
+SIZE OF q709: 1.
 SIZE OF q710: 1.
 SIZE OF q711: 1.
-SIZE OF q712: 0.
-SIZE OF q713: 0.
-SIZE OF q714: 0.
+SIZE OF q712: 1.
+SIZE OF q713: 1.
+SIZE OF q714: 1.
 SIZE OF q715: 0.
-SIZE OF q716: 0.
-SIZE OF q717: 0.
-SIZE OF q718: 1.
+SIZE OF q716: 1.
+SIZE OF q717: 1.
+SIZE OF q718: 0.
 SIZE OF q719: 0.
-SIZE OF q720: 1.
+SIZE OF q720: 0.
 SIZE OF q721: 0.
-SIZE OF q722: 0.
+SIZE OF q722: 1.
 SIZE OF q723: 0.
 SIZE OF q724: 1.
 SIZE OF q725: 1.
@@ -132344,175 +132343,175 @@ SIZE OF q726: 1.
 SIZE OF q727: 0.
 SIZE OF q728: 0.
 SIZE OF q729: 1.
-SIZE OF q730: 1.
-SIZE OF q731: 1.
-SIZE OF q732: 1.
+SIZE OF q730: 0.
+SIZE OF q731: 0.
+SIZE OF q732: 0.
 SIZE OF q733: 1.
 SIZE OF q734: 1.
-SIZE OF q735: 0.
-SIZE OF q736: 0.
-SIZE OF q737: 1.
+SIZE OF q735: 1.
+SIZE OF q736: 1.
+SIZE OF q737: 0.
 SIZE OF q738: 1.
 SIZE OF q739: 1.
 SIZE OF q740: 0.
-SIZE OF q741: 1.
+SIZE OF q741: 0.
 SIZE OF q742: 0.
 SIZE OF q743: 0.
 SIZE OF q744: 1.
 SIZE OF q745: 0.
-SIZE OF q746: 1.
-SIZE OF q747: 1.
+SIZE OF q746: 0.
+SIZE OF q747: 0.
 SIZE OF q748: 0.
 SIZE OF q749: 1.
-SIZE OF q750: 0.
-SIZE OF q751: 1.
+SIZE OF q750: 1.
+SIZE OF q751: 0.
 SIZE OF q752: 0.
 SIZE OF q753: 1.
-SIZE OF q754: 0.
-SIZE OF q755: 1.
-SIZE OF q756: 0.
+SIZE OF q754: 1.
+SIZE OF q755: 0.
+SIZE OF q756: 1.
 SIZE OF q757: 0.
-SIZE OF q758: 0.
+SIZE OF q758: 1.
 SIZE OF q759: 0.
-SIZE OF q760: 0.
+SIZE OF q760: 1.
 SIZE OF q761: 0.
 SIZE OF q762: 0.
-SIZE OF q763: 0.
+SIZE OF q763: 1.
 SIZE OF q764: 0.
-SIZE OF q765: 1.
+SIZE OF q765: 0.
 SIZE OF q766: 1.
 SIZE OF q767: 0.
-SIZE OF q768: 0.
-SIZE OF q769: 0.
-SIZE OF q770: 1.
-SIZE OF q771: 1.
-SIZE OF q772: 1.
-SIZE OF q773: 1.
+SIZE OF q768: 1.
+SIZE OF q769: 1.
+SIZE OF q770: 0.
+SIZE OF q771: 0.
+SIZE OF q772: 0.
+SIZE OF q773: 0.
 SIZE OF q774: 1.
-SIZE OF q775: 0.
-SIZE OF q776: 0.
+SIZE OF q775: 1.
+SIZE OF q776: 1.
 SIZE OF q777: 1.
-SIZE OF q778: 0.
-SIZE OF q779: 0.
+SIZE OF q778: 1.
+SIZE OF q779: 1.
 SIZE OF q780: 0.
 SIZE OF q781: 1.
-SIZE OF q782: 1.
-SIZE OF q783: 1.
+SIZE OF q782: 0.
+SIZE OF q783: 0.
 SIZE OF q784: 1.
 SIZE OF q785: 1.
-SIZE OF q786: 0.
-SIZE OF q787: 0.
-SIZE OF q788: 0.
+SIZE OF q786: 1.
+SIZE OF q787: 1.
+SIZE OF q788: 1.
 SIZE OF q789: 1.
-SIZE OF q790: 1.
+SIZE OF q790: 0.
 SIZE OF q791: 1.
 SIZE OF q792: 1.
-SIZE OF q793: 0.
-SIZE OF q794: 1.
-SIZE OF q795: 0.
+SIZE OF q793: 1.
+SIZE OF q794: 0.
+SIZE OF q795: 1.
 SIZE OF q796: 0.
-SIZE OF q797: 0.
+SIZE OF q797: 1.
 SIZE OF q798: 0.
 SIZE OF q799: 1.
-SIZE OF q800: 1.
+SIZE OF q800: 0.
 SIZE OF q801: 1.
-SIZE OF q802: 1.
-SIZE OF q803: 1.
+SIZE OF q802: 0.
+SIZE OF q803: 0.
 SIZE OF q804: 0.
 SIZE OF q805: 0.
 SIZE OF q806: 1.
-SIZE OF q807: 1.
+SIZE OF q807: 0.
 SIZE OF q808: 1.
 SIZE OF q809: 0.
 SIZE OF q810: 0.
 SIZE OF q811: 1.
 SIZE OF q812: 1.
 SIZE OF q813: 0.
-SIZE OF q814: 1.
+SIZE OF q814: 0.
 SIZE OF q815: 1.
-SIZE OF q816: 1.
+SIZE OF q816: 0.
 SIZE OF q817: 1.
 SIZE OF q818: 1.
-SIZE OF q819: 1.
-SIZE OF q820: 0.
+SIZE OF q819: 0.
+SIZE OF q820: 1.
 SIZE OF q821: 0.
 SIZE OF q822: 1.
-SIZE OF q823: 0.
+SIZE OF q823: 1.
 SIZE OF q824: 0.
-SIZE OF q825: 1.
-SIZE OF q826: 0.
-SIZE OF q827: 1.
-SIZE OF q828: 0.
-SIZE OF q829: 1.
-SIZE OF q830: 0.
-SIZE OF q831: 0.
+SIZE OF q825: 0.
+SIZE OF q826: 1.
+SIZE OF q827: 0.
+SIZE OF q828: 1.
+SIZE OF q829: 0.
+SIZE OF q830: 1.
+SIZE OF q831: 1.
 SIZE OF q832: 1.
 SIZE OF q833: 0.
-SIZE OF q834: 0.
+SIZE OF q834: 1.
 SIZE OF q835: 0.
 SIZE OF q836: 1.
-SIZE OF q837: 0.
+SIZE OF q837: 1.
 SIZE OF q838: 0.
 SIZE OF q839: 1.
-SIZE OF q840: 1.
+SIZE OF q840: 0.
 SIZE OF q841: 0.
-SIZE OF q842: 1.
+SIZE OF q842: 0.
 SIZE OF q843: 1.
-SIZE OF q844: 1.
-SIZE OF q845: 0.
-SIZE OF q846: 0.
+SIZE OF q844: 0.
+SIZE OF q845: 1.
+SIZE OF q846: 1.
 SIZE OF q847: 1.
-SIZE OF q848: 1.
-SIZE OF q849: 0.
-SIZE OF q850: 1.
-SIZE OF q851: 1.
-SIZE OF q852: 1.
+SIZE OF q848: 0.
+SIZE OF q849: 1.
+SIZE OF q850: 0.
+SIZE OF q851: 0.
+SIZE OF q852: 0.
 SIZE OF q853: 1.
 SIZE OF q854: 1.
 SIZE OF q855: 1.
 SIZE OF q856: 0.
-SIZE OF q857: 0.
+SIZE OF q857: 1.
 SIZE OF q858: 1.
-SIZE OF q859: 0.
+SIZE OF q859: 1.
 SIZE OF q860: 0.
 SIZE OF q861: 0.
 SIZE OF q862: 0.
-SIZE OF q863: 0.
-SIZE OF q864: 0.
-SIZE OF q865: 0.
+SIZE OF q863: 1.
+SIZE OF q864: 1.
+SIZE OF q865: 1.
 SIZE OF q866: 0.
 SIZE OF q867: 1.
-SIZE OF q868: 1.
+SIZE OF q868: 0.
 SIZE OF q869: 1.
-SIZE OF q870: 1.
-SIZE OF q871: 0.
+SIZE OF q870: 0.
+SIZE OF q871: 1.
 SIZE OF q872: 1.
-SIZE OF q873: 0.
-SIZE OF q874: 1.
-SIZE OF q875: 1.
+SIZE OF q873: 1.
+SIZE OF q874: 0.
+SIZE OF q875: 0.
 SIZE OF q876: 1.
 SIZE OF q877: 0.
-SIZE OF q878: 0.
+SIZE OF q878: 1.
 SIZE OF q879: 0.
-SIZE OF q880: 0.
+SIZE OF q880: 1.
 SIZE OF q881: 1.
-SIZE OF q882: 1.
+SIZE OF q882: 0.
 SIZE OF q883: 0.
-SIZE OF q884: 1.
+SIZE OF q884: 0.
 SIZE OF q885: 1.
-SIZE OF q886: 0.
+SIZE OF q886: 1.
 SIZE OF q887: 0.
 SIZE OF q888: 1.
 SIZE OF q889: 1.
-SIZE OF q890: 0.
-SIZE OF q891: 1.
-SIZE OF q892: 0.
-SIZE OF q893: 0.
+SIZE OF q890: 1.
+SIZE OF q891: 0.
+SIZE OF q892: 1.
+SIZE OF q893: 1.
 SIZE OF q894: 1.
 SIZE OF q895: 0.
 SIZE OF q896: 1.
 SIZE OF q897: 1.
-SIZE OF q898: 0.
+SIZE OF q898: 1.
 SIZE OF q899: 0.
 SIZE OF q900: 1.
 SIZE OF q901: 1.
@@ -132520,98 +132519,98 @@ SIZE OF q902: 0.
 SIZE OF q903: 1.
 SIZE OF q904: 0.
 SIZE OF q905: 0.
-SIZE OF q906: 1.
-SIZE OF q907: 0.
-SIZE OF q908: 1.
-SIZE OF q909: 1.
-SIZE OF q910: 1.
-SIZE OF q911: 0.
+SIZE OF q906: 0.
+SIZE OF q907: 1.
+SIZE OF q908: 0.
+SIZE OF q909: 0.
+SIZE OF q910: 0.
+SIZE OF q911: 1.
 SIZE OF q912: 0.
-SIZE OF q913: 1.
-SIZE OF q914: 0.
+SIZE OF q913: 0.
+SIZE OF q914: 1.
 SIZE OF q915: 1.
-SIZE OF q916: 0.
-SIZE OF q917: 0.
-SIZE OF q918: 1.
-SIZE OF q919: 0.
-SIZE OF q920: 1.
-SIZE OF q921: 0.
-SIZE OF q922: 0.
+SIZE OF q916: 1.
+SIZE OF q917: 1.
+SIZE OF q918: 0.
+SIZE OF q919: 1.
+SIZE OF q920: 0.
+SIZE OF q921: 1.
+SIZE OF q922: 1.
 SIZE OF q923: 0.
-SIZE OF q924: 0.
+SIZE OF q924: 1.
 SIZE OF q925: 1.
 SIZE OF q926: 1.
-SIZE OF q927: 0.
-SIZE OF q928: 1.
-SIZE OF q929: 0.
-SIZE OF q930: 1.
+SIZE OF q927: 1.
+SIZE OF q928: 0.
+SIZE OF q929: 1.
+SIZE OF q930: 0.
 SIZE OF q931: 1.
 SIZE OF q932: 1.
 SIZE OF q933: 1.
-SIZE OF q934: 1.
+SIZE OF q934: 0.
 SIZE OF q935: 0.
 SIZE OF q936: 1.
 SIZE OF q937: 0.
-SIZE OF q938: 1.
+SIZE OF q938: 0.
 SIZE OF q939: 1.
-SIZE OF q940: 0.
+SIZE OF q940: 1.
 SIZE OF q941: 0.
 SIZE OF q942: 1.
-SIZE OF q943: 0.
-SIZE OF q944: 1.
-SIZE OF q945: 0.
+SIZE OF q943: 1.
+SIZE OF q944: 0.
+SIZE OF q945: 1.
 SIZE OF q946: 1.
-SIZE OF q947: 1.
-SIZE OF q948: 1.
-SIZE OF q949: 1.
+SIZE OF q947: 0.
+SIZE OF q948: 0.
+SIZE OF q949: 0.
 SIZE OF q950: 0.
-SIZE OF q951: 1.
-SIZE OF q952: 1.
-SIZE OF q953: 1.
+SIZE OF q951: 0.
+SIZE OF q952: 0.
+SIZE OF q953: 0.
 SIZE OF q954: 1.
-SIZE OF q955: 0.
+SIZE OF q955: 1.
 SIZE OF q956: 1.
 SIZE OF q957: 1.
 SIZE OF q958: 1.
-SIZE OF q959: 0.
+SIZE OF q959: 1.
 SIZE OF q960: 0.
 SIZE OF q961: 0.
-SIZE OF q962: 0.
+SIZE OF q962: 1.
 SIZE OF q963: 0.
-SIZE OF q964: 1.
+SIZE OF q964: 0.
 SIZE OF q965: 1.
-SIZE OF q966: 0.
-SIZE OF q967: 0.
+SIZE OF q966: 1.
+SIZE OF q967: 1.
 SIZE OF q968: 1.
 SIZE OF q969: 0.
-SIZE OF q970: 1.
+SIZE OF q970: 0.
 SIZE OF q971: 1.
-SIZE OF q972: 1.
+SIZE OF q972: 0.
 SIZE OF q973: 1.
-SIZE OF q974: 0.
-SIZE OF q975: 1.
+SIZE OF q974: 1.
+SIZE OF q975: 0.
 SIZE OF q976: 1.
 SIZE OF q977: 0.
-SIZE OF q978: 1.
-SIZE OF q979: 1.
+SIZE OF q978: 0.
+SIZE OF q979: 0.
 SIZE OF q980: 0.
 SIZE OF q981: 1.
-SIZE OF q982: 1.
-SIZE OF q983: 0.
-SIZE OF q984: 1.
-SIZE OF q985: 1.
+SIZE OF q982: 0.
+SIZE OF q983: 1.
+SIZE OF q984: 0.
+SIZE OF q985: 0.
 SIZE OF q986: 1.
 SIZE OF q987: 0.
-SIZE OF q988: 0.
-SIZE OF q989: 1.
-SIZE OF q990: 0.
+SIZE OF q988: 1.
+SIZE OF q989: 0.
+SIZE OF q990: 1.
 SIZE OF q991: 1.
-SIZE OF q992: 0.
+SIZE OF q992: 1.
 SIZE OF q993: 1.
 SIZE OF q994: 0.
-SIZE OF q995: 0.
+SIZE OF q995: 1.
 SIZE OF q996: 0.
 SIZE OF q997: 1.
-SIZE OF q998: 1.
-SIZE OF q999: 0.
-done. (56 ms)
+SIZE OF q998: 0.
+SIZE OF q999: 1.
+done. (29 ms)

@@ -1,12 +1,11 @@
 Initializing BDD library (500000 nodes, cache size 125000, min free 0.2%)
-buddy.dll is in use, linking temporary copy /tmp/buddy1815649201069902387.dll
-Could not load BDD package buddy: /tmp/buddy1815649201069902387.dll: /tmp/buddy1815649201069902387.dll: wrong ELF class: ELFCLASS32 (Possible cause: can't load IA 32 .so on a AMD 64 platform)
+Could not load BDD package buddy: Can't load library: /home/dyd/Project/Dyck2EUF/benchmark/libbuddy.so
 Using BDD library JFactory 1.20
 No machine learning library found, learning disabled.
 Opening Datalog program "./Input/bdd_AliasAnalysis_C/1000/darknet.datalog"
 1 field domains.
 1003 relations.
-46578 rules.
+111081 rules.
 Splitting rules: done.
 Initializing solver: Initializing value of special relation Z_eq_Z Z0,Z1
 Resizing node table from 1009 to 2017
@@ -20,6 +19,12 @@ Resizing node table from 114377 to 164377
 Resizing node table from 164377 to 214373
 Resizing node table from 214373 to 264371
 Resizing node table from 264371 to 314359
+Resizing node table from 314359 to 364349
+Resizing node table from 364349 to 414347
+Resizing node table from 414347 to 464327
+Resizing node table from 464327 to 514313
+Resizing node table from 514313 to 564313
+Resizing node table from 564313 to 614297
 done.
 Loading initial relations: done. (0 ms)
 Stratifying: 

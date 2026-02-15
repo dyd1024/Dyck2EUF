@@ -1,60 +1,60 @@
-Time of parser: 0.001380
-Time of Reach Solve: 0.000179
-Time of total: 0.001548
+Time of parser: 0.001994
+Time of Reach Solve: 0.000158
+Time of total: 0.002141
 query time :0.000000
-Time of parser: 0.004138
-Time of Reach Solve: 0.000517
-Time of total: 0.004634
+Time of parser: 0.003610
+Time of Reach Solve: 0.000372
+Time of total: 0.003962
 query time :0.000000
-Time of parser: 0.003279
-Time of Reach Solve: 0.000403
-Time of total: 0.003663
+Time of parser: 0.003285
+Time of Reach Solve: 0.000745
+Time of total: 0.004006
 query time :0.000000
-Time of parser: 0.003380
-Time of Reach Solve: 0.000395
-Time of total: 0.003759
+Time of parser: 0.003429
+Time of Reach Solve: 0.000370
+Time of total: 0.003784
 query time :0.000000
-Time of parser: 0.024147
-Time of Reach Solve: 0.001983
-Time of total: 0.026047
+Time of parser: 0.004686
+Time of Reach Solve: 0.000717
+Time of total: 0.005377
 query time :0.000000
-Time of parser: 0.008581
-Time of Reach Solve: 0.000931
-Time of total: 0.009477
+Time of parser: 0.004849
+Time of Reach Solve: 0.000448
+Time of total: 0.005280
 query time :0.000000
-Time of parser: 0.004166
-Time of Reach Solve: 0.000506
-Time of total: 0.004651
+Time of parser: 0.003595
+Time of Reach Solve: 0.000590
+Time of total: 0.004169
+query time :0.000000
+Time of parser: 0.009176
+Time of Reach Solve: 0.001023
+Time of total: 0.010173
+query time :0.000000
+Time of parser: 0.001116
+Time of Reach Solve: 0.000116
+Time of total: 0.001219
+query time :0.000000
+Time of parser: 0.001186
+Time of Reach Solve: 0.000168
+Time of total: 0.001342
+query time :0.000000
+Time of parser: 0.000742
+Time of Reach Solve: 0.000149
+Time of total: 0.000874
+query time :0.000000
+Time of parser: 0.004836
+Time of Reach Solve: 0.000540
+Time of total: 0.005355
 query time :0.000001
-Time of parser: 0.008378
-Time of Reach Solve: 0.000986
-Time of total: 0.009335
+Time of parser: 0.004359
+Time of Reach Solve: 0.001078
+Time of total: 0.005411
 query time :0.000000
-Time of parser: 0.000664
-Time of Reach Solve: 0.000087
-Time of total: 0.000744
+Time of parser: 0.003718
+Time of Reach Solve: 0.000306
+Time of total: 0.004003
 query time :0.000000
-Time of parser: 0.001200
-Time of Reach Solve: 0.000156
-Time of total: 0.001346
-query time :0.000000
-Time of parser: 0.000647
-Time of Reach Solve: 0.000087
-Time of total: 0.000726
-query time :0.000000
-Time of parser: 0.003326
-Time of Reach Solve: 0.000419
-Time of total: 0.003729
-query time :0.000000
-Time of parser: 0.004106
-Time of Reach Solve: 0.000518
-Time of total: 0.004603
-query time :0.000000
-Time of parser: 0.002857
-Time of Reach Solve: 0.000354
-Time of total: 0.003197
-query time :0.000000
-Time of parser: 0.019786
-Time of Reach Solve: 0.005319
-Time of total: 0.024876
-query time :0.000000
+Time of parser: 0.015232
+Time of Reach Solve: 0.003292
+Time of total: 0.018356
+query time :0.000001

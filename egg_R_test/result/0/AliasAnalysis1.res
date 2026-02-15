@@ -1,44 +1,44 @@
-f_parser_time: 0.02017 s
-f_solved_time: 0.01066 s
+f_parser_time: 0.01641 s
+f_solved_time: 0.01025 s
 sat
 query_time: 0.00000 s
-f_parser_time: 0.02467 s
-f_solved_time: 0.01300 s
+f_parser_time: 0.02016 s
+f_solved_time: 0.01518 s
 sat
 query_time: 0.00000 s
-f_parser_time: 0.05143 s
-f_solved_time: 0.02922 s
+f_parser_time: 0.05469 s
+f_solved_time: 0.04112 s
 sat
 query_time: 0.00000 s
-f_parser_time: 0.02771 s
-f_solved_time: 0.01169 s
+f_parser_time: 0.01717 s
+f_solved_time: 0.01158 s
 sat
 query_time: 0.00000 s
-f_parser_time: 0.04586 s
-f_solved_time: 0.02544 s
+f_parser_time: 0.04654 s
+f_solved_time: 0.03529 s
 sat
 query_time: 0.00000 s
-f_parser_time: 0.01954 s
-f_solved_time: 0.01103 s
+f_parser_time: 0.01552 s
+f_solved_time: 0.00963 s
 sat
 query_time: 0.00000 s
-f_parser_time: 0.02603 s
-f_solved_time: 0.01482 s
+f_parser_time: 0.02212 s
+f_solved_time: 0.01548 s
 sat
 query_time: 0.00000 s
-f_parser_time: 0.02244 s
-f_solved_time: 0.01163 s
+f_parser_time: 0.01698 s
+f_solved_time: 0.01038 s
 sat
 query_time: 0.00000 s
-f_parser_time: 0.02197 s
-f_solved_time: 0.01192 s
+f_parser_time: 0.01729 s
+f_solved_time: 0.01070 s
 sat
 query_time: 0.00000 s
-f_parser_time: 0.02232 s
-f_solved_time: 0.01245 s
+f_parser_time: 0.01912 s
+f_solved_time: 0.01226 s
 sat
 query_time: 0.00000 s
-f_parser_time: 0.01925 s
-f_solved_time: 0.01090 s
+f_parser_time: 0.01574 s
+f_solved_time: 0.01017 s
 sat
 query_time: 0.00000 s

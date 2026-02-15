@@ -1,15 +1,15 @@
-f_parser_time:: 0.006784 
+f_parser_time:: 0.006723 
 sat
-f_solved_time:: 0.001690 
-f_parser_time:: 0.014651 
+f_solved_time:: 0.001760 
+f_parser_time:: 0.010948 
 sat
-f_solved_time:: 0.003935 
-f_parser_time:: 0.022754 
+f_solved_time:: 0.002434 
+f_parser_time:: 0.017869 
 sat
-f_solved_time:: 0.004631 
-f_parser_time:: 0.019838 
+f_solved_time:: 0.003284 
+f_parser_time:: 0.025046 
 sat
-f_solved_time:: 0.005082 
-f_parser_time:: 0.024046 
+f_solved_time:: 0.005043 
+f_parser_time:: 0.023962 
 sat
-f_solved_time:: 0.006208 
+f_solved_time:: 0.005313 

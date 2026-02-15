@@ -1,9 +1,5 @@
 import os
-import time
 import sys
-import re
-import random
-import csv
 
 analysis_Type = [
     "AliasAnalysis",
@@ -11,34 +7,12 @@ analysis_Type = [
     "DataDepAnalysis"
 ]
 
-AliasAnalysis=[
-    'antlr', 'bloat', 'chart', 'eclipse', 'fop', 'hsqldb', 'jython', 'luindex', 'lusearch', 'pmd', 'xalan'
-]
-
-AliasAnalysis_C=[
-    'git', 'libssh2.a', 'tmux', 'vim', 'lighttpd', 'sqlite3', 'strace', 'wrk', 'darknet', 'libxml2.a'
-]
-
-DataDep = [
-    'btree', 'check', 'compiler', 'compress', 'crypto', 'derby', 'helloworld', 'mpegaudio', 'mushroom', 'parser', 'sample', 'scimark', 'startup', 'sunflow', 'xml'
-]
-
-# def find_floats(string):
-#     pattern = r'[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?'
-#     return [match.group(0) for match in re.finditer(pattern, string)]
-
-
 tools_config = {
     'optimal': {
         'path': '../../optimal_test/result/{}/{}0.res',
         'start_logic': False,
         'alias': [], 'alias_C': [], 'dd': []
     },
-    # 'optimal_P': {
-    #     'path': '../../optimal_P_test/result/{}/{}0.res',
-    #     'start_logic': False,
-    #     'alias': [], 'alias_C': [], 'dd': []
-    # },
     'fastDyck': {
         'path': '../../fastDyck_test/result/{}/{}0.res',
         'start_logic': False,
@@ -63,100 +37,107 @@ tools_config = {
         'path': '../../cvc5_test/result/{}/{}0.res',
         'start_logic': True,
         'alias': [], 'alias_C': [], 'dd': []
+    },
+    'egg_R': {
+        'path': '../../egg_R_test/result/{}/{}0.res',
+        'start_logic': True,
+        'alias': [], 'alias_C': [], 'dd': []
     }
 }
 
+# 提取 SMT 工具（start_logic 为 True）
+smt_tools = {name: config for name, config in tools_config.items() if config['start_logic']}
+optimal_config = tools_config['optimal']
+
 for analysisType in analysis_Type:
+    print(f"\n=== Analysis: {analysisType} ===")
     for step in range(10):
-        for tool in tools_config.values():
-            tool['alias'] = []
-            tool['dd'] = []
-            tool['alias_C'] = []
+        size = (step + 1) * 1000
+        # 清空结果
+        optimal_config['alias'] = []
+        optimal_config['alias_C'] = []
+        optimal_config['dd'] = []
+        for config in smt_tools.values():
+            config['alias'] = []
+            config['alias_C'] = []
+            config['dd'] = []
 
-        for tool_name, config in tools_config.items():
-            path_template = config['path']
-            use_start_logic = config['start_logic']
-            alias_list = config['alias']
-            alias_C_list = config['alias_C']
-            dd_list = config['dd']
+        # 读取 optimal
+        optimal_path = optimal_config['path'].format(size, analysisType)
+        try:
+            with open(optimal_path, 'r') as f:
+                for line in f:
+                    if analysisType == "AliasAnalysis":
+                        if "Reachability" in line and "not" not in line:
+                            optimal_config['alias'].append(0)
+                        elif "not Reachability" in line:
+                            optimal_config['alias'].append(1)
+                    elif analysisType == "AliasAnalysis_C":
+                        if "Reachability" in line and "not" not in line:
+                            optimal_config['alias_C'].append(0)
+                        elif "not Reachability" in line:
+                            optimal_config['alias_C'].append(1)
+                    else:  # DataDepAnalysis
+                        if "Reachability" in line and "not" not in line:
+                            optimal_config['dd'].append(0)
+                        elif "not Reachability" in line:
+                            optimal_config['dd'].append(1)
+        except Exception as e:
+            print(f"  [Step {step+1}] ERROR reading optimal: {e}")
+            continue
 
-            full_path = path_template.format((step+1) * 1000, analysisType)
+        # 获取 reference
+        ref = (
+            optimal_config['alias'] if analysisType == "AliasAnalysis" else
+            optimal_config['alias_C'] if analysisType == "AliasAnalysis_C" else
+            optimal_config['dd']
+        )
+
+        if not ref:
+            print(f"  [Step {step+1}] WARN: empty optimal result")
+            continue
+
+        inconsistent_tools = []
+        for tool_name, config in smt_tools.items():
+            tool_path = config['path'].format(size, analysisType)
             try:
-                with open(full_path, 'r') as f:
+                with open(tool_path, 'r') as f:
                     start = 0
                     for line in f:
-                        if use_start_logic:
-                            if "f_solved_time" in line:
-                                start = 1
-                            if "start" in line or "query_time" in line:
-                                start = 0
+                        if "f_solved_time" in line:
+                            start = 1
+                        if "start" in line or "query_time" in line:
+                            start = 0
 
-                        # AliasAnalysis
-                        if analysisType == "AliasAnalysis":
-                            if use_start_logic and start == 1:
-                                if "unsat" in line:
-                                    alias_list.append(0)
-                                elif "sat" in line and "un" not in line:
-                                    alias_list.append(1)
-                            else:
-                                if "Reachability" in line and "not" not in line:
-                                    alias_list.append(0)
-                                elif "not Reachability" in line:
-                                    alias_list.append(1)
-                        # AliasAnalysis_C
-                        if analysisType == "AliasAnalysis_C":
-                            if use_start_logic and start == 1:
-                                if "unsat" in line:
-                                    alias_C_list.append(0)
-                                elif "sat" in line and "un" not in line:
-                                    alias_C_list.append(1)
-                            else:
-                                if "Reachability" in line and "not" not in line:
-                                    alias_C_list.append(0)
-                                elif "not Reachability" in line:
-                                    alias_C_list.append(1)
+                        if analysisType == "AliasAnalysis" and start == 1:
+                            if "unsat" in line:
+                                config['alias'].append(0)
+                            elif "sat" in line and "un" not in line:
+                                config['alias'].append(1)
+                        elif analysisType == "AliasAnalysis_C" and start == 1:
+                            if "unsat" in line:
+                                config['alias_C'].append(0)
+                            elif "sat" in line and "un" not in line:
+                                config['alias_C'].append(1)
+                        elif analysisType == "DataDepAnalysis" and start == 1:
+                            if "unsat" in line:
+                                config['dd'].append(0)
+                            elif "sat" in line and "un" not in line:
+                                config['dd'].append(1)
 
-                        # DataDepAnalysis
-                        if analysisType == "DataDepAnalysis":
-                            if use_start_logic and start == 1:
-                                if "unsat" in line:
-                                    dd_list.append(0)
-                                elif "sat" in line and "un" not in line:
-                                    dd_list.append(1)
-                            else:
-                                if "Reachability" in line and "not" not in line:
-                                    dd_list.append(0)
-                                elif "not Reachability" in line:
-                                    dd_list.append(1)
+                tool_res = (
+                    config['alias'] if analysisType == "AliasAnalysis" else
+                    config['alias_C'] if analysisType == "AliasAnalysis_C" else
+                    config['dd']
+                )
+
+                if tool_res != ref:
+                    inconsistent_tools.append(tool_name)
 
             except Exception as e:
-                print(f"[ERROR] Reading {full_path}: {e}")
+                inconsistent_tools.append(tool_name)  # 文件缺失视为不一致
 
-        all_alias_results = [tool['alias'] for tool in tools_config.values()]
-        all_alias_C_results = [tool['alias_C'] for tool in tools_config.values()]
-        all_dd_results = [tool['dd'] for tool in tools_config.values()]
-
-        flag = 0
-        reference_alias = all_alias_results[0]
-        for result in all_alias_results[1:]:
-            if result != reference_alias:
-                flag = 1
-                break
-
-        reference_alias_C = all_alias_C_results[0]
-        for result in all_alias_C_results[1:]:
-            if result != reference_alias_C:
-                flag = 1
-                break
-
-        reference_dd = all_dd_results[0]
-        for result in all_dd_results[1:]:
-            if result != reference_dd:
-                flag = 1
-                break
-
-        if flag == 0:
-            print("Consistency check passed")
+        if inconsistent_tools:
+            print(f"  [Query length {(step+1)*1000}] FAIL: inconsistent with optimal – {', '.join(inconsistent_tools)}")
         else:
-            print("Consistency check failed")
-
+            print(f"  [Query length {(step+1)*1000}] PASS")
